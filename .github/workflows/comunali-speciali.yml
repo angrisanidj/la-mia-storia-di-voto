@@ -2,7 +2,8 @@ name: Aggiorna comunali delle regioni a statuto speciale
 
 # Sicilia, Friuli-Venezia Giulia, Valle d'Aosta e Trentino-Alto Adige non sono
 # nell'Archivio storico del Ministero: le loro comunali vengono da tuttitalia.it
-# e si aggiungono a dati/comunali.js. Gira dopo «Aggiorna comunali».
+# e si aggiungono a dati/comunali.js. Lavora a rate: salva lo stato e, se resta
+# qualcosa da leggere, si rilancia da solo.
 on:
   workflow_dispatch:
   push:
@@ -13,15 +14,16 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
-  group: comunali
+  group: comunali-speciali
   cancel-in-progress: false
 
 jobs:
   aggiorna:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 110
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -29,15 +31,22 @@ jobs:
           python-version: '3.12'
       - run: pip install requests
       - name: Scarica le comunali delle regioni a statuto speciale
+        id: scarico
         env:
-          PAUSA_TT: '1.0'
+          PAUSA_TT: '0.8'
+          LIMITE_MINUTI: '90'
         run: python strumenti/comunali_speciali.py
       - name: Salva i dati
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add dati/comunali.js strumenti/comunali-speciali-non-trovati.txt
+          git add dati/comunali.js strumenti/comunali-speciali-non-trovati.txt strumenti/comunali-speciali-stato.json
           if git diff --cached --quiet; then echo "Nessuna novità"; exit 0; fi
           git commit -m "Comunali delle regioni a statuto speciale (tuttitalia.it)"
           git pull --rebase origin main
           git push
+      - name: Rilancia se resta da leggere
+        if: steps.scarico.outputs.mancano != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run comunali-speciali.yml --ref main

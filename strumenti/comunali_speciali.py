@@ -23,6 +23,9 @@ RADICE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITO = "https://www.tuttitalia.it"
 REGIONI = {"sicilia": "19", "friuli-venezia-giulia": "06", "valle-d-aosta": "02", "trentino-alto-adige": "04"}
 PAUSA = float(os.environ.get("PAUSA_TT", "1.0"))
+LIMITE_MINUTI = float(os.environ.get("LIMITE_MINUTI", "95"))
+INIZIO = time.time()
+STATO = os.path.join(RADICE, "strumenti", "comunali-speciali-stato.json")
 MESI = {m: i + 1 for i, m in enumerate(["gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno", "luglio",
                                         "agosto", "settembre", "ottobre", "novembre", "dicembre"])}
 DATA_RE = re.compile(r"(\d{1,2})(?:\s*(?:e|-)\s*\d{1,2})?\s+(" + "|".join(MESI) + r")\s+(\d{4})", re.I)
@@ -37,7 +40,7 @@ def norm(s):
 def sessione():
     s = requests.Session()
     s.headers["User-Agent"] = "la-mia-storia-di-voto (github.com/angrisanidj/la-mia-storia-di-voto)"
-    s.mount("https://", HTTPAdapter(max_retries=Retry(total=5, backoff_factor=3, status_forcelist=[429, 500, 502, 503, 504])))
+    s.mount("https://", HTTPAdapter(max_retries=Retry(total=2, backoff_factor=2, status_forcelist=[429, 500, 502, 503, 504], respect_retry_after_header=False)))
     return s
 
 
@@ -82,40 +85,71 @@ def carica_comuni():
     return indice
 
 
+def salva_stato(stato):
+    with open(STATO, "w", encoding="utf-8") as f:
+        json.dump(stato, f, ensure_ascii=False, separators=(",", ":"))
+
+
 def main():
+    """Lavora a rate: salva lo stato man mano e riparte da dove si era fermato."""
     S = sessione()
     indice = carica_comuni()
-    trovati, non_trovati = {}, []
+    stato = json.load(open(STATO, encoding="utf-8")) if os.path.exists(STATO) else {"pagine": {}, "fatti": {}}
+    # 1) elenco delle pagine dei comuni, regione per regione (una volta sola)
     for slug_reg, reg in REGIONI.items():
-        h = S.get(f"{SITO}/{slug_reg}/storico-elezioni-comunali/", timeout=60).text
+        if slug_reg in stato["pagine"]:
+            continue
+        h = S.get(f"{SITO}/{slug_reg}/storico-elezioni-comunali/", timeout=30).text
         province = sorted(set(re.findall(rf'href="(?:{SITO})?(/{slug_reg}/provincia-[^"/]+/storico-elezioni-comunali/)"', h)))
-        # la Valle d'Aosta non ha province: i comuni sono già nella pagina regionale
         pagine = province or [f"/{slug_reg}/storico-elezioni-comunali/"]
         comuni = set()
         for pp in pagine:
             time.sleep(PAUSA)
-            hp = S.get(SITO + pp, timeout=60).text
+            hp = S.get(SITO + pp, timeout=30).text
             comuni |= set(re.findall(rf'href="(?:{SITO})?(/{slug_reg}/\d+-[^"/]+/storico-elezioni-comunali/)"', hp))
+        stato["pagine"][slug_reg] = sorted(comuni)
+        salva_stato(stato)
         print(f"[{slug_reg}] {len(province)} province, {len(comuni)} comuni", flush=True)
-        for url in sorted(comuni):
-            time.sleep(PAUSA)
+    # 2) le pagine dei comuni non ancora lette
+    da_fare = [(slug, url) for slug, urls in stato["pagine"].items() for url in urls if url not in stato["fatti"]]
+    print(f"[i] {len(da_fare)} comuni da leggere", flush=True)
+    for i, (slug_reg, url) in enumerate(da_fare):
+        if (time.time() - INIZIO) / 60 > LIMITE_MINUTI:
+            print("[!] tempo esaurito: salvo e riprendo al prossimo giro", flush=True)
+            break
+        time.sleep(PAUSA)
+        try:
+            stato["fatti"][url] = elezioni_comune(S.get(SITO + url, timeout=30).text)
+        except requests.RequestException as e:
+            print(f"[!] {url}: {e}", flush=True)
+            continue
+        if i % 25 == 0:
+            salva_stato(stato)
+            print(f"[{i + 1}/{len(da_fare)}]", flush=True)
+    salva_stato(stato)
+    # 3) abbinamento ai codici dei comuni e unione con le date del Ministero
+    trovati, non_trovati = {}, []
+    for slug_reg, urls in stato["pagine"].items():
+        reg = REGIONI[slug_reg]
+        for url in urls:
+            if url not in stato["fatti"]:
+                continue
             nome = re.match(rf"/{slug_reg}/\d+-([^/]+)/", url).group(1).replace("-", " ")
             cand = indice.get((reg, norm(nome)), [])
             if not cand:
                 non_trovati.append(f"{reg}\t{url}")
                 continue
-            cod = sorted(cand, key=lambda c: not c[1])[0][0]
-            try:
-                el = elezioni_comune(S.get(SITO + url, timeout=60).text)
-            except requests.RequestException as e:
-                print(f"[!] {url}: {e}", flush=True)
-                continue
+            el = [tuple(x) for x in stato["fatti"][url]]
             if el:
-                trovati[cod] = el
+                trovati[sorted(cand, key=lambda c: not c[1])[0][0]] = el
     unisci(trovati)
     with open(os.path.join(RADICE, "strumenti", "comunali-speciali-non-trovati.txt"), "w", encoding="utf-8") as f:
         f.write("\n".join(non_trovati) + "\n")
-    print(f"[ok] {len(trovati)} comuni delle regioni a statuto speciale, {len(non_trovati)} non abbinati", flush=True)
+    mancano = sum(1 for urls in stato["pagine"].values() for u in urls if u not in stato["fatti"])
+    print(f"[ok] {len(trovati)} comuni con date, {len(non_trovati)} non abbinati, {mancano} ancora da leggere", flush=True)
+    if os.environ.get("GITHUB_OUTPUT"):
+        with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+            f.write(f"mancano={mancano}\n")
 
 
 def unisci(trovati):
