@@ -81,6 +81,7 @@ a { color: inherit; text-underline-offset: 3px; }
 .bottone.secondario:hover { background: var(--velo); }
 .bottone.testuale { background: none; border-color: transparent; color: var(--inchiostro); padding-left: 0; padding-right: 0; text-decoration: underline; text-underline-offset: 4px; }
 .bottone.testuale:hover { text-decoration-thickness: 2px; }
+.bottone:disabled { opacity: .6; cursor: progress; }
 .bottone.piccolo { padding: 7px 16px; font-size: .95rem; border-width: 1.5px; }
 
 /* ---------- Apertura ---------- */
@@ -345,6 +346,7 @@ select.campo { appearance: none; padding-right: 40px; background: #fff url("data
           <button class="bottone" type="button" id="scarica">Scarica l’immagine</button>
           <button class="bottone testuale" type="button" id="scarica-jpg" aria-label="Scarica l’immagine in formato JPG">o in JPG</button>
         </span>
+        <button class="bottone secondario" type="button" id="scarica-video" hidden>Scarica il video</button>
         <button class="bottone secondario" type="button" id="condividi" hidden>Condividi l’immagine</button>
         <button class="bottone secondario" type="button" id="copia-link">Copia il link</button>
         <button class="bottone secondario" type="button" id="copia">Copia il risultato</button>

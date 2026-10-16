@@ -547,30 +547,102 @@ function disegnaPannello(th, prog) {
   disegnaTracciato(ctx, { x: 0, y: yT, w: W, h: hT }, D, s, prog);
   disegnaMetriche(ctx, 0, yT + hT + 30 * s, W, D, s, !largo);
 }
-// Il pendolo insegue il tracciato mentre viene scritto, poi si assesta sul baricentro
-function animaPannello() {
-  if (!sismoD) return;
-  cancelAnimationFrame(sismoAnim);
-  const fine = angoloDi(sismoD.bar);
-  if (MENO_MOTO || !sismoD.righe.length) { disegnaPannello(fine, 1); return; }
-  const durata = Math.min(4200, Math.max(1600, sismoD.righe.length * 110));
-  let th = -AMPIEZZA, v = 0, t0 = null, ult = null;
-  const passo = now => {
-    if (t0 == null) { t0 = now; ult = now; }
-    const dt = Math.min(0.033, (now - ult) / 1000); ult = now;
-    const prog = Math.min(1, (now - t0) / durata);
+// Il moto: il tracciato si scrive dall'alto, il pendolo insegue l'ultimo voto e poi si assesta sul baricentro.
+// Restituisce una funzione che, dato il tempo trascorso, dà angolo, avanzamento e se è tutto fermo.
+function creaMoto(D) {
+  const fine = angoloDi(D.bar), N = D.righe.length;
+  const durata = Math.min(4.2, Math.max(1.6, N * 0.11));
+  let th = -AMPIEZZA, v = 0, tPrec = 0;
+  return t => {
+    const dt = Math.min(0.033, Math.max(0, t - tPrec)); tPrec = t;
+    const prog = Math.min(1, t / durata);
     let bersaglio = fine;
     if (prog < 1) {
-      const i = Math.floor(prog * sismoD.righe.length);
-      const prec = sismoD.righe.slice(0, i + 1).reverse().find(r => r.x != null);
+      const prec = D.righe.slice(0, Math.floor(prog * N) + 1).reverse().find(r => r.x != null);
       bersaglio = prec ? angoloDi(prec.x) : 0;
     }
     v += (-38 * (th - bersaglio) - 2.6 * v) * dt; th += v * dt;
-    disegnaPannello(th, prog);
-    if (prog < 1 || Math.abs(th - fine) > 0.002 || Math.abs(v) > 0.004) sismoAnim = requestAnimationFrame(passo);
-    else disegnaPannello(fine, 1);
+    const fermo = prog >= 1 && Math.abs(th - fine) < 0.002 && Math.abs(v) < 0.004;
+    return { th: fermo ? fine : th, prog, fermo };
+  };
+}
+function animaPannello() {
+  if (!sismoD) return;
+  cancelAnimationFrame(sismoAnim);
+  if (MENO_MOTO || !sismoD.righe.length) { disegnaPannello(angoloDi(sismoD.bar), 1); return; }
+  const moto = creaMoto(sismoD);
+  let t0 = null;
+  const passo = now => {
+    if (t0 == null) t0 = now;
+    const m = moto((now - t0) / 1000);
+    disegnaPannello(m.th, m.prog);
+    if (!m.fermo) sismoAnim = requestAnimationFrame(passo);
   };
   sismoAnim = requestAnimationFrame(passo);
+}
+
+// ===== Video: la stessa animazione registrata dalla tela, tutto nel browser =====
+const FORMATO_VIDEO = (() => {
+  if (typeof MediaRecorder === 'undefined' || !HTMLCanvasElement.prototype.captureStream) return null;
+  // prima H.264 (va bene per Instagram e X), poi quello che il browser sa fare
+  for (const [mime, ext] of [['video/mp4;codecs=avc1.640028', 'mp4'], ['video/mp4;codecs=avc1.4d0028', 'mp4'], ['video/mp4;codecs=avc1', 'mp4'], ['video/mp4', 'mp4'], ['video/webm;codecs=vp9', 'webm'], ['video/webm', 'webm']])
+    if (MediaRecorder.isTypeSupported(mime)) return { mime, ext };
+  return null;
+})();
+let registrando = false;
+function registraVideo(formato) {
+  return new Promise((risolvi, rifiuta) => {
+    const D = datiSismografo();
+    const cv = document.createElement('canvas');
+    disegnaSismografo(cv, formato, D, -AMPIEZZA, 0);
+    const flusso = cv.captureStream(30);
+    const rec = new MediaRecorder(flusso, { mimeType: FORMATO_VIDEO.mime, videoBitsPerSecond: 8e6 });
+    const pezzi = [];
+    rec.ondataavailable = e => { if (e.data && e.data.size) pezzi.push(e.data); };
+    rec.onstop = () => risolvi(new Blob(pezzi, { type: FORMATO_VIDEO.mime.split(';')[0] }));
+    rec.onerror = e => rifiuta(e.error || e);
+    const moto = creaMoto(D);
+    const attesa = 0.6, coda = 2.6; // un attimo fermo all'inizio, poi l'immagine finale resta qualche secondo
+    let t0 = null, fermoDa = null;
+    rec.start(250);
+    const passo = now => {
+      if (t0 == null) t0 = now;
+      const t = (now - t0) / 1000;
+      const m = t < attesa ? { th: -AMPIEZZA, prog: 0, fermo: false } : moto(t - attesa);
+      disegnaSismografo(cv, formato, D, m.th, m.prog);
+      const tr = flusso.getVideoTracks()[0];
+      if (tr && tr.requestFrame) tr.requestFrame();
+      if (m.fermo && fermoDa == null) fermoDa = t;
+      if ((fermoDa != null && t - fermoDa > coda) || t > 20) { rec.stop(); return; }
+      requestAnimationFrame(passo);
+    };
+    requestAnimationFrame(passo);
+  });
+}
+async function scaricaVideo() {
+  if (registrando || !FORMATO_VIDEO) return;
+  registrando = true;
+  const btn = $('#scarica-video'), testo = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Registro il video…';
+  annuncia('Sto registrando il video: tieni aperta questa pagina per qualche secondo.');
+  try {
+    await fontPronti;
+    const formato = formatoScelto === 'lista' ? 'post' : formatoScelto;
+    const blob = await registraVideo(formato);
+    const nome = `il-mio-sismografo-del-voto-${FORMATI[formato].file}.${FORMATO_VIDEO.ext}`;
+    const file = typeof File !== 'undefined' ? new File([blob], nome, { type: blob.type }) : null;
+    if (MENU_CONDIVISIONE && file && navigator.canShare && navigator.canShare({ files: [file] })) {
+      try { await navigator.share({ files: [file] }); annuncia(''); return; } catch (e) { if (e && e.name === 'AbortError') { annuncia(''); return; } }
+    }
+    const url = URL.createObjectURL(blob);
+    const a = el('a', { href: url, download: nome }); document.body.append(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 4000);
+    annuncia(`Video scaricato: ${FORMATI[formato].nome}, ${FORMATO_VIDEO.ext.toUpperCase()}.`);
+  } catch (e) {
+    annuncia('Video non creato: questo browser non riesce a registrare la tela. Scarica l’immagine.');
+  } finally {
+    registrando = false; btn.disabled = false; btn.textContent = testo;
+  }
 }
 let sismoTimer = null, sismoFirma = '';
 function aggiornaSismografo() {
@@ -605,6 +677,14 @@ function testoSismografo() {
   let larghezza = cv.clientWidth;
   window.addEventListener('resize', () => { if (Math.abs(cv.clientWidth - larghezza) > 40) { larghezza = cv.clientWidth; disegnaPannello(angoloDi(sismoD ? sismoD.bar : 0), 1); } });
   $('#sismo-replay').addEventListener('click', animaPannello);
+  const bv = $('#scarica-video');
+  if (bv && FORMATO_VIDEO) {
+    bv.textContent = `Scarica il video (${FORMATO_VIDEO.ext.toUpperCase()})`;
+    bv.addEventListener('click', scaricaVideo);
+    const mostra = () => { bv.hidden = contenuto !== 'sismografo'; };
+    document.querySelectorAll('input[name=contenuto]').forEach(r => r.addEventListener('change', mostra));
+    mostra();
+  }
   $('#sismo-usa').addEventListener('click', () => {
     const r = document.querySelector('input[name=contenuto][value=sismografo]');
     r.checked = true; r.dispatchEvent(new Event('change'));
