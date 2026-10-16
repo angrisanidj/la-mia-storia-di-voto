@@ -1044,7 +1044,7 @@ const MENU_CONDIVISIONE = !!navigator.share && !!window.matchMedia && window.mat
 function condividiLink() {
   const url = indirizzoLink(), fatto = 'Link copiato negli appunti.';
   if (!MENU_CONDIVISIONE) { copia(url, fatto); return; }
-  navigator.share({ title: 'La mia storia di voto', text: 'Dal 1992 a oggi, quante volte ti hanno chiamato alle urne? Ricostruisci la tua storia di voto.', url })
+  navigator.share({ title: 'La mia storia di voto', text: 'Dal 1992 a oggi, quante volte hai votato? Ricostruisci la tua storia di voto.', url })
     .then(() => annuncia(''), e => { if (!e || e.name !== 'AbortError') copia(url, fatto); });
 }
 function nomeFile(ext) { return `la-mia-storia-di-voto-${FORMATI[formatoScelto].file}.${ext}`; }
