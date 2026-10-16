@@ -9,7 +9,14 @@ Uscite:
   dati/comunali.js                      COMUNALI_DATE (elenco date) e COMUNALI
                                         (codice catastale -> indici delle date,
                                         con ballottaggio segnato come negativo)
+  dati/candidati/RR.js                  candidati sindaco e liste dei comuni sopra
+                                        i 15.000 abitanti, una per regione
+  dati/regionali-candidati.js           candidati presidente e liste delle regionali
   strumenti/comunali-non-trovati.txt    nomi dell'archivio non abbinati a un comune
+
+L'archivio copre le regioni a statuto ordinario e la Sardegna: Sicilia,
+Friuli-Venezia Giulia, Valle d'Aosta e Trentino-Alto Adige gestiscono da sé le
+proprie elezioni locali e lì le comunali vanno aggiunte a mano.
 """
 import datetime as dt
 import json
@@ -25,6 +32,7 @@ from urllib3.util.retry import Retry
 
 from tallyho.costanti import BASE, UA
 from tallyho.navigazione import leggi_onchange, leggi_select, scendi_livello
+from tallyho.parsing import estrai_tabelle, parse_candidati, parse_candidati_regionali
 
 RADICE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DAL = dt.date(1993, 1, 1)
@@ -75,8 +83,70 @@ def carica_comuni():
     return indice
 
 
+def compatta(candidati, soglia=1.0, max_c=8, max_l=8):
+    """Candidati sopra la soglia, con le loro liste sopra la soglia: [[nome, %, [[lista, %], ...]], ...]"""
+    visti, out = set(), []
+    for c in candidati:
+        nome = (c.get("candidato") or "").strip()
+        if not nome or nome in visti:
+            continue
+        visti.add(nome)
+        pct = c.get("pct_candidato")
+        if pct is not None and pct < soglia:
+            continue
+        liste = [[l["lista"], l["pct"]] for l in c.get("liste", []) if l.get("lista") and (l.get("pct") or 0) >= soglia]
+        out.append([nome, pct, liste[:max_l]])
+    out.sort(key=lambda c: -(c[1] or 0))
+    return out[:max_c]
+
+
+def tempo_scaduto():
+    return (time.time() - INIZIO) / 60 > LIMITE_MINUTI
+
+
+def scarica_regionali(S):
+    """Candidati presidente e liste di ogni elezione regionale nell'archivio."""
+    h = S.get(f"{BASE}?tpel=R").text
+    out = {}
+    for _, t in leggi_select(h, "sel_date"):
+        m = re.match(r"(\d{2})/(\d{2})/(\d{4})", t.strip())
+        if not m or int(m.group(3)) < 1995:
+            continue
+        iso = f"{m.group(3)}-{m.group(2)}-{m.group(1)}"
+        try:
+            h1 = S.get(f"{BASE}?tpel=R&dtel={t.strip()}").text
+            aree = leggi_select(h1, "sel_aree")
+            if not aree:
+                continue
+            pp, pv = leggi_onchange(h1, "sel_aree")
+            h2 = scendi_livello(S, pp or f"index.php?tpel=R&dtel={t.strip()}&es0=S", "tpa", aree[0][0])
+            pp2, pv2 = leggi_onchange(h2, "sel_sezione2")
+            for rv, rt in leggi_select(h2, "sel_sezione2"):
+                reg = REGIONI.get(norm(rt))
+                if not reg:
+                    continue
+                h3 = scendi_livello(S, pp2, pv2, rv)
+                cand = parse_candidati_regionali(h3) or parse_candidati(estrai_tabelle(h3))
+                if cand:
+                    out[f"{reg}-{iso}"] = compatta(cand)
+                print(f"[R] {iso} {rt}: {len(cand)} candidati", flush=True)
+        except requests.RequestException as e:
+            print(f"[!] regionali {iso}: {e}", flush=True)
+    with open(os.path.join(RADICE, "dati", "regionali-candidati.js"), "w", encoding="utf-8") as f:
+        f.write("// Candidati presidente e liste (sopra l'1%) delle elezioni regionali, dall'Archivio storico delle elezioni.\n"
+                "// Generato da strumenti/comunali.py. Chiave: regione-data. Voce: [nome, %, [[lista, %], ...]].\n"
+                "const REGIONALI_CANDIDATI = " + json.dumps(out, ensure_ascii=False, separators=(",", ":")) + ";\n")
+    print(f"[ok] regionali: {len(out)} elezioni con candidati", flush=True)
+
+
 def main():
     S = sessione()
+    if os.environ.get("SALTA_REGIONALI") != "1":
+        scarica_regionali(S)
+    regione_di = {}
+    for r in open(os.path.join(RADICE, "dati", "comuni.js"), encoding="utf-8").read().split("`")[1].split("\n"):
+        p = r.split("|")
+        regione_di[p[3]] = p[2]
     indice = carica_comuni()
     prov = {norm(v): k for k, v in json.load(open(os.path.join(RADICE, "strumenti", "province.json"))).items()}
     grandi = set(json.load(open(os.path.join(RADICE, "strumenti", "sopra9000.json"))))
@@ -95,9 +165,10 @@ def main():
         date = [x for x in date if x[0].year == 2016][:1]
 
     voti = {}          # codice -> {data_iso: ballottaggio?}
+    candidati = {}     # regione -> {"codice-data": candidati}
     non_trovati = set()
     for i, (d, testo_data) in enumerate(date):
-        if (time.time() - INIZIO) / 60 > LIMITE_MINUTI:
+        if tempo_scaduto():
             print("[!] tempo esaurito: interrompo, i dati restano parziali", flush=True)
             break
         iso = d.isoformat()
@@ -151,16 +222,26 @@ def main():
                         try:
                             pagina = scendi_livello(S, ppc, pvc, cv)
                             ball = bool(re.search(r"II\s*turno", pagina, re.I))
+                            cand = compatta(parse_candidati(estrai_tabelle(pagina)), soglia=2.0)
+                            if cand:
+                                candidati.setdefault(regione_di.get(cod, reg), {})[f"{cod}-{iso}"] = cand
                         except Exception as e:  # una pagina mancante non ferma tutto
                             print(f"[!] {iso} {ct}: {e}", flush=True)
                     voti.setdefault(cod, {})[iso] = ball
                     n_data += 1
         print(f"[{i + 1}/{len(date)}] {iso}: {n_data} comuni", flush=True)
 
-    scrivi(voti, non_trovati)
+    scrivi(voti, non_trovati, candidati)
 
 
-def scrivi(voti, non_trovati):
+def scrivi(voti, non_trovati, candidati):
+    os.makedirs(os.path.join(RADICE, "dati", "candidati"), exist_ok=True)
+    for reg, voci in candidati.items():
+        with open(os.path.join(RADICE, "dati", "candidati", f"{reg}.js"), "w", encoding="utf-8") as f:
+            f.write("// Candidati sindaco e liste (sopra il 2%) dei comuni sopra i 15.000 abitanti, dall'Archivio storico delle elezioni.\n"
+                    "// Generato da strumenti/comunali.py. Chiave: codice catastale-data.\n"
+                    "window.CANDIDATI_COMUNALI = Object.assign(window.CANDIDATI_COMUNALI || {}, "
+                    + json.dumps(voci, ensure_ascii=False, separators=(",", ":")) + ");\n")
     tutte = sorted({d for v in voti.values() for d in v})
     pos = {d: i for i, d in enumerate(tutte)}
     righe = []
