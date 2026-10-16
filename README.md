@@ -44,7 +44,7 @@ Ogni voto scelto dai menu (o scritto a mano con un partito riconoscibile) va su 
 - **Col vento**: le volte in cui si è scelta la lista o il candidato più votato (al primo turno), o nei referendum la risposta con più voti, anche senza quorum. I ballottaggi non contano.
 - **Profilo**: Il Pendolo (almeno due cambi di campo), La Traversata (un solo cambio di campo, su almeno 4 voti), Il Bastian contrario (col vento al massimo il 30% su almeno 5 voti), La Bussola (sempre dallo stesso lato, almeno 4 voti), Il Barometro (col vento almeno il 70%), Il Battitore libero (almeno il 40% dei voti fuori dai poli o a liste sotto il 4%), Il Campanile (almeno metà delle comunali a liste civiche), Il Quorum (nessun referendum saltato), L'Ago della bilancia (baricentro al centro), Il Viandante (negli altri casi). Si applica il primo che corrisponde, in quest'ordine.
 
-Il sismografo si scarica anche come video: la stessa animazione della pagina registrata dalla tela con MediaRecorder, nel browser, in MP4. Il link «o come video» compare solo nei browser che registrano in MP4 (Chrome, Edge, Safari), il formato che Instagram e X accettano.
+Il sismografo si scarica anche come video: la stessa animazione della pagina registrata dalla tela con MediaRecorder, nel browser, in MP4. Il tasto «Video» compare solo nei browser che registrano in MP4 (Chrome, Edge, Safari), il formato che Instagram e X accettano.
 
 ## Comunali e candidati
 

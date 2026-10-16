@@ -212,8 +212,13 @@ select.campo { appearance: none; padding-right: 40px; background: #fff url("data
 .anteprima { padding: 18px; border-radius: 14px; background: var(--velo); }
 .anteprima canvas { display: block; width: 100%; height: auto; border-radius: 4px; box-shadow: 0 10px 30px rgba(22,27,38,.12); }
 .esito-azione { min-height: 1.5em; margin-top: 10px; font-size: .92rem; color: var(--grigio); }
-.scarica { display: inline-flex; flex-wrap: wrap; align-items: center; gap: 0 14px; }
-.scarica .testuale { font-size: .98rem; }
+.tasti { display: grid; grid-template-columns: repeat(auto-fit, minmax(96px, 1fr)); gap: 8px; max-width: 420px; }
+.tasto { justify-content: center; gap: 8px; min-width: 0; padding: 11px 12px; }
+.tasto.in-corso { opacity: 1; background: #fff; color: var(--verde-scuro); }
+@media (prefers-reduced-motion: no-preference) { .tasto.in-corso .icona { animation: registra 1s ease-in-out infinite alternate; } }
+@keyframes registra { to { opacity: .25; } }
+.tasto .icona { width: 22px; height: 22px; flex: none; }
+.tasto span { font-variant-numeric: lining-nums; letter-spacing: .02em; }
 .formati { border: 0; margin: 0; padding: 0; min-width: 0; }
 .pillole { display: flex; flex-wrap: wrap; gap: 8px; }
 .pillole label { position: relative; display: block; cursor: pointer; }
@@ -341,12 +346,15 @@ select.campo { appearance: none; padding-right: 40px; background: #fff url("data
           <label><input type="radio" name="formato" value="quadrata"><span>Quadrata<small>1080 × 1080</small></span></label>
         </div>
       </fieldset>
+      <div class="scarica" role="group" aria-labelledby="et-scarica">
+        <span class="etichetta" id="et-scarica">Scarica</span>
+        <div class="tasti">
+          <button class="bottone tasto" type="button" id="scarica" aria-label="Scarica l’immagine in formato PNG"><svg class="icona" viewBox="0 0 24 24" aria-hidden="true"><rect x="2.5" y="4.5" width="19" height="15" rx="2.5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="8.5" cy="9.5" r="1.8" fill="currentColor"/><path d="M3.5 17.5l5.2-5.2 3.6 3.6 2.6-2.6 5.6 5.6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/></svg><span>PNG</span></button>
+          <button class="bottone tasto" type="button" id="scarica-jpg" aria-label="Scarica l’immagine in formato JPG"><svg class="icona" viewBox="0 0 24 24" aria-hidden="true"><rect x="2.5" y="4.5" width="19" height="15" rx="2.5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="8.5" cy="9.5" r="1.8" fill="currentColor"/><path d="M3.5 17.5l5.2-5.2 3.6 3.6 2.6-2.6 5.6 5.6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/></svg><span>JPG</span></button>
+          <button class="bottone tasto" type="button" id="scarica-video" aria-label="Scarica il sismografo animato in formato MP4" hidden><svg class="icona" viewBox="0 0 24 24" aria-hidden="true"><rect x="2.5" y="5" width="13.5" height="14" rx="2.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M16 10.2l5.5-3.2v10l-5.5-3.2z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M7.4 9.3v5.4l4.4-2.7z" fill="currentColor"/></svg><span>Video</span></button>
+        </div>
+      </div>
       <div class="azioni">
-        <span class="scarica">
-          <button class="bottone" type="button" id="scarica">Scarica l’immagine</button>
-          <button class="bottone testuale" type="button" id="scarica-jpg" aria-label="Scarica l’immagine in formato JPG">o in JPG</button>
-          <button class="bottone testuale" type="button" id="scarica-video" hidden>o come video</button>
-        </span>
         <button class="bottone secondario" type="button" id="condividi" hidden>Condividi l’immagine</button>
         <button class="bottone secondario" type="button" id="copia-link">Copia il link</button>
         <button class="bottone secondario" type="button" id="copia">Copia il risultato</button>

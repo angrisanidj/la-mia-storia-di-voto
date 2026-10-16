@@ -622,8 +622,8 @@ function registraVideo(formato) {
 async function scaricaVideo() {
   if (registrando || !FORMATO_VIDEO) return;
   registrando = true;
-  const btn = $('#scarica-video'), testo = btn.textContent;
-  btn.disabled = true; btn.textContent = 'registro il video…';
+  const btn = $('#scarica-video');
+  btn.disabled = true; btn.classList.add('in-corso');
   annuncia('Sto registrando il video: tieni aperta questa pagina per qualche secondo.');
   try {
     await fontPronti;
@@ -641,7 +641,7 @@ async function scaricaVideo() {
   } catch (e) {
     annuncia('Video non creato: questo browser non riesce a registrare la tela. Scarica l’immagine.');
   } finally {
-    registrando = false; btn.disabled = false; btn.textContent = testo;
+    registrando = false; btn.disabled = false; btn.classList.remove('in-corso');
   }
 }
 let sismoTimer = null, sismoFirma = '';
@@ -680,7 +680,6 @@ function testoSismografo() {
   const bv = $('#scarica-video');
   // il video è un di più: solo dove il browser registra in MP4, il formato che Instagram e X accettano
   if (bv && FORMATO_VIDEO && FORMATO_VIDEO.ext === 'mp4') {
-    bv.setAttribute('aria-label', 'Scarica il sismografo animato in formato MP4');
     bv.addEventListener('click', scaricaVideo);
     const mostra = () => { bv.hidden = contenuto !== 'sismografo'; };
     document.querySelectorAll('input[name=contenuto]').forEach(r => r.addEventListener('change', mostra));
