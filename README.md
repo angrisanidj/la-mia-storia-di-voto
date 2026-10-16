@@ -28,13 +28,20 @@ Per aggiungere una nuova consultazione basta modificare il file in `dati/` corri
 ## Regole applicate
 
 - Età: 18 anni compiuti entro il primo giorno di voto (art. 33 DPR 223/1967). Con il solo mese di nascita, se il compleanno cade nel mese del voto la voce è segnalata.
-- Senato: fino alle politiche 2018 servivano 25 anni (L. cost. 1/2021).
+- Camera e Senato sono voci separate. Per il Senato fino alle politiche 2018 servivano 25 anni (L. cost. 1/2021).
 - Bolzano: per il consiglio provinciale servivano 4 anni di residenza in regione (2 dal 23/06/2026).
 - Comuni passati di regione: Valmarecchia (2009), Sappada (2017), Montecopiolo e Sassofeltrio (2021).
 
 L'immagine personale si esporta in cinque formati (lista completa, Instagram post, storie, X, quadrata), in PNG o JPG; nei formati a misura fissa la lista si impagina da sola su più colonne e a corpo ridotto.
 
-Comunali, ballottaggi, suppletive, provinciali e referendum locali si aggiungono a mano: le date dei turni ordinari sono precompilate.
+## Comunali e candidati
+
+- `dati/comunali.js`: date delle comunali di ogni comune dal 1993, con i ballottaggi. Fonte: Archivio storico delle elezioni del Ministero dell'Interno; per Sicilia, Friuli-Venezia Giulia, Valle d'Aosta e Trentino-Alto Adige, che gestiscono da sé le elezioni locali, tuttitalia.it.
+- `dati/candidati/RR.js`: candidati sindaco e liste nei comuni sopra i 15.000 abitanti, un file per regione caricato solo quando serve.
+- `dati/regionali-candidati.js` e `dati/regionali-speciali.js`: candidati presidente e liste delle regionali.
+- Si aggiornano da soli ogni mese con GitHub Actions (`.github/workflows/`), con gli script in `strumenti/`.
+
+Suppletive, provinciali e referendum locali si aggiungono a mano.
 
 ## Pubblicazione
 

@@ -491,7 +491,9 @@ function candidatiReali(o) {
     grezzi = window.CANDIDATI_COMUNALI[`${o.cod}-${o.primo || o.d}`];
   }
   if (!grezzi || !grezzi.length) return null;
-  let out = grezzi.map(([nome, pct, liste, area]) => ({ nome: nome ? titoloNome(nome) : null, pct, area, liste: (liste || []).map(([n, p]) => ({ n: titoloNome(n), p, partito: partitoDaLista(n) })) }));
+  // nell'archivio alcuni apostrofi arrivano come «?» o carattere sostitutivo
+  const pulisci = t => (t || '').replace(/(\p{L})[?\uFFFD\u0092](\p{L})/gu, "$1'$2");
+  let out = grezzi.map(([nome, pct, liste, area]) => ({ nome: nome ? titoloNome(pulisci(nome)) : null, pct, area, liste: (liste || []).map(([n, p]) => ({ n: titoloNome(pulisci(n)), p, partito: partitoDaLista(pulisci(n)) })) }));
   if (o.tipo === 'bal') out = out.filter(c => c.nome).sort((a, b) => (b.pct || 0) - (a.pct || 0)).slice(0, 2);
   return out;
 }
