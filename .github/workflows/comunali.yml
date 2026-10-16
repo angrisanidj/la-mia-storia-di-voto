@@ -1,0 +1,45 @@
+name: Aggiorna comunali
+
+# Scarica dall'Archivio storico delle elezioni le date delle comunali di ogni comune
+# e aggiorna dati/comunali.js. Parte a mano, dopo una modifica allo script
+# e ogni mese (per includere le tornate più recenti).
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['strumenti/comunali.py', '.github/workflows/comunali.yml']
+  schedule:
+    - cron: '17 4 3 * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: comunali
+  cancel-in-progress: false
+
+jobs:
+  aggiorna:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Dipendenze
+        run: pip install requests "git+https://github.com/jack89-ML/tallyho"
+      - name: Scarica le comunali
+        env:
+          SOLO_PROVA: '1'
+          PAUSA: '0.15'
+          LIMITE_MINUTI: '320'
+        run: python strumenti/comunali.py
+      - name: Salva i dati
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dati/comunali.js strumenti/comunali-non-trovati.txt
+          if git diff --cached --quiet; then echo "Nessuna novità"; exit 0; fi
+          git commit -m "Comunali aggiornate dall'Archivio storico delle elezioni"
+          git push
