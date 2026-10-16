@@ -42,4 +42,5 @@ jobs:
           git add dati/comunali.js dati/regionali-candidati.js dati/candidati strumenti/comunali-non-trovati.txt
           if git diff --cached --quiet; then echo "Nessuna novità"; exit 0; fi
           git commit -m "Comunali aggiornate dall'Archivio storico delle elezioni"
+          git pull --rebase origin main
           git push
