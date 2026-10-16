@@ -231,6 +231,11 @@ select.campo { appearance: none; padding-right: 40px; background: #fff url("data
   .studio .opzioni { position: sticky; top: 20px; }
 }
 
+/* ---------- Sismografo ---------- */
+#sismo { display: block; width: 100%; height: auto; }
+.sismo-azioni { margin-top: 22px; }
+.sismo-nota { margin-top: 16px; font-size: .9rem; color: var(--grigio); max-width: 46em; }
+
 /* ---------- Piede ---------- */
 .piede { max-width: calc(var(--colonna) + 48px); margin: 40px auto 0; padding: 28px 24px 56px; border-top: 1px solid var(--filo); font-size: .92rem; color: var(--grigio); display: grid; gap: 10px; }
 </style>
@@ -292,14 +297,35 @@ select.campo { appearance: none; padding-right: 40px; background: #fff url("data
   </div>
 </section>
 
+<section class="foglio largo" id="s-sismografo" aria-labelledby="h-sismografo" hidden>
+  <h2 id="h-sismografo">Il tuo sismografo del voto</h2>
+  <p class="guida">Ogni voto va a sinistra o a destra secondo la coalizione del candidato o della lista che hai scelto. Il pendolo si ferma sulla tua media. Referendum, liste civiche, schede bianche e astensioni restano fuori dall’asse; i partiti fuori dai poli, come il M5S, sono cerchi vuoti al centro e non entrano nella media.</p>
+  <div class="corpo">
+    <canvas id="sismo" width="1080" height="900" aria-describedby="sismo-testo"></canvas>
+    <p class="solo-lettori" id="sismo-testo" aria-live="polite"></p>
+    <div class="azioni sismo-azioni">
+      <button class="bottone" type="button" id="sismo-usa">Usalo per l’immagine</button>
+      <button class="bottone secondario" type="button" id="sismo-replay">Rimetti in moto il pendolo</button>
+    </div>
+    <p class="sismo-nota">Col vento conta le volte in cui hai scelto il candidato o la lista più votati, o la risposta che ha preso più voti in un referendum (anche quando il quorum non è stato raggiunto). I ballottaggi e le voci scritte a mano senza un partito riconoscibile non entrano nel conto.</p>
+  </div>
+</section>
+
 <section class="foglio largo" id="s-immagine" aria-labelledby="h-immagine">
   <h2 id="h-immagine">La tua storia di voto</h2>
   <p class="guida">L’immagine viene disegnata qui, nel browser. Scegli il formato: in quelli a misura fissa la lista si stringe da sola per starci tutta.</p>
   <div class="corpo studio">
     <div class="opzioni">
-      <div><label class="etichetta" for="titolo">Titolo</label><input id="titolo" class="campo" placeholder="Automatico" maxlength="60"></div>
+      <fieldset class="formati">
+        <legend class="etichetta">Nell’immagine</legend>
+        <div class="pillole" id="contenuti">
+          <label><input type="radio" name="contenuto" value="lista" checked><span>La lista dei voti</span></label>
+          <label><input type="radio" name="contenuto" value="sismografo"><span>Il sismografo</span></label>
+        </div>
+      </fieldset>
+      <div class="solo-lista"><label class="etichetta" for="titolo">Titolo</label><input id="titolo" class="campo" placeholder="Automatico" maxlength="60"></div>
       <div><label class="etichetta" for="firma">Firma, se vuoi</label><input id="firma" class="campo" placeholder="Il tuo nome o @account" maxlength="40"></div>
-      <div class="spunte">
+      <div class="spunte solo-lista">
         <label><input type="checkbox" id="opt-vuote"> Includi le voci senza risposta</label>
         <label><input type="checkbox" id="opt-non" checked> Includi le volte in cui non ho votato</label>
         <label><input type="checkbox" id="opt-date"> Data completa invece dell’anno</label>
@@ -333,6 +359,7 @@ select.campo { appearance: none; padding-right: 40px; background: #fff url("data
 <footer class="piede">
   <p>Elenco automatico: politiche, europee e referendum nazionali dal 1992, regionali (per Trento e Bolzano le provinciali dal 2003), i principali referendum regionali e le comunali con i ballottaggi dal 1993 (Archivio storico delle elezioni, Ministero dell’Interno). L’età si conta al primo giorno di voto; fino al 2018 per il Senato servivano 25 anni.</p>
   <p>Nei menu: le liste sopra l’1% alle politiche (quota proporzionale fino al 2001) e alle europee; per regionali e comunali le liste dell’ultima consultazione nazionale, i partiti locali e le liste dei candidati presidenti. Comuni, compresi quelli soppressi: ISTAT.</p>
+  <p>Il sismografo colloca ogni voto secondo la coalizione della lista o del candidato in quell’elezione (fonti: Ministero dell’Interno e Wikipedia); i risultati dei referendum vengono dagli stessi archivi. È un gioco: misura lo schieramento, non le idee.</p>
   <p>Di Daniele Angrisani (<a href="https://x.com/putino">@putino</a>). Dello stesso autore: <a href="https://angrisanidj.github.io/il-tuo-emiciclo/">Il tuo emiciclo</a>.</p>
 </footer>
 
@@ -344,5 +371,6 @@ select.campo { appearance: none; padding-right: 40px; background: #fff url("data
 <script src="dati/regionali-candidati.js"></script>
 <script src="dati/regionali-speciali.js"></script>
 <script src="app.js"></script>
+<script src="sismografo.js"></script>
 </body>
 </html>

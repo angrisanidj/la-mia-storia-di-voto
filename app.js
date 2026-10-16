@@ -498,7 +498,9 @@ function candidatiReali(o) {
   return out;
 }
 function emojiCandidato(c) {
-  if (c.area && typeof COLORE_AREA !== 'undefined' && COLORE_AREA[c.area]) return COLORE_AREA[c.area];
+  // il colore dello schieramento del candidato (con le liste dei poli che prevalgono sui partiti fuori dai poli)
+  const area = c.area || (typeof areaCandidato === 'function' ? areaCandidato(c) : null);
+  if (area && (c.area || ['sinistra', 'centrosinistra', 'centro', 'centrodestra', 'destra'].includes(area)) && typeof COLORE_AREA !== 'undefined' && COLORE_AREA[area]) return COLORE_AREA[area];
   const prima = [...c.liste].sort((a, b) => (b.p || 0) - (a.p || 0)).find(l => l.partito);
   return prima ? emojiDi(prima.partito) : '⚪';
 }
@@ -517,8 +519,8 @@ function caricaCandidatiComunali(reg) {
   document.head.append(sc);
 }
 const CIVICHE = [
-  { b: 'Lista civica di centrodestra', n: 'Lista civica di centrodestra', e: '🔵', civica: true },
-  { b: 'Lista civica di centrosinistra', n: 'Lista civica di centrosinistra', e: '🔴', civica: true },
+  { b: 'Lista civica di centrodestra', n: 'Lista civica di centrodestra', e: '🔵', civica: true, area: 'centrodestra' },
+  { b: 'Lista civica di centrosinistra', n: 'Lista civica di centrosinistra', e: '🔴', civica: true, area: 'centrosinistra' },
   { b: 'Lista civica', n: 'Lista civica (altra)', e: '🟣', civica: true },
 ];
 const SCHEDE = [{ v: '__bianca', t: 'Scheda bianca ⚪', l: 'Scheda bianca' }, { v: '__nulla', t: 'Scheda nulla', l: 'Scheda nulla' }];
@@ -563,7 +565,9 @@ const vocePartito = (p, pref = '') => ({ v: pref + p.b, l: p.b && p.n && p.b !==
 function controlliScelta(o, r, inp, dopo = () => {}) {
   const box = el('div', { class: 'scelte' });
   r.sel = r.sel || {};
-  const imposta = t => { inp.value = t; r.testo = t; r.st = 'ok'; dopo(); programmaAnteprima(); };
+  // pos: lo schieramento del voto scelto dai menu, per il sismografo
+  const imposta = (t, pos = null) => { inp.value = t; r.testo = t; r.st = 'ok'; r.pos = pos; r.testoPos = t; dopo(); programmaAnteprima(); };
+  const scheda = v => SCHEDE.find(x => x.v === v);
   const anno = o.d.slice(0, 4);
 
   if (o.tipo === 'pol' || o.tipo === 'eur') {
@@ -578,13 +582,16 @@ function controlliScelta(o, r, inp, dopo = () => {}) {
     const tutte = [...liste, ...(coal || [])];
     const componi = () => {
       const { lista, coalizione } = r.sel;
-      if (lista && lista.startsWith('__')) return imposta(SCHEDE.find(s => s.v === lista).t);
+      if (scheda(lista)) return imposta(scheda(lista).t, { k: 'bianca' });
       const pl = liste.find(v => v.v === lista), pc = coal && coal.find(v => v.v === coalizione);
+      const primo = piuVotato(dati.liste);
       const parti = [];
       if (pc) parti.push(`${pc.p.n} ${emojiDi(pc.p)}`);
       if (pl) parti.push(`${pc ? 'Lista ' : ''}${pl.p.b} ${emojiDi(pl.p)}`);
       if (lista === '__altro') parti.push(uninominale ? 'Altro candidato' : 'Altra lista');
-      imposta(parti.join(' '));
+      const pos = pl ? (pl.v === 'Estero' ? { area: 'altro', col: null } : { area: pl.p.a, col: primo ? pl.p === primo : null, piccolo: (pl.p.p || 0) < 4 })
+        : lista === '__altro' ? { area: null, col: false, piccolo: true } : pc ? { area: pc.p.a, col: null } : null;
+      imposta(parti.join(' '), pos);
     };
     if (coal) box.append(seleziona('Coalizione (scheda uninominale)', [[null, coal]], r.sel.coalizione, v => { r.sel.coalizione = v; componi(); }));
     box.append(seleziona(uninominale ? 'Candidato (coalizione)' : coal ? 'Lista (scheda proporzionale)' : 'Lista votata', [[uninominale ? 'Coalizioni e gruppi sopra l’1%' : 'Liste sopra l’1%', liste], ['Altro', [{ v: '__altro', l: uninominale ? 'Un altro candidato' : 'Un’altra lista' }, ...SCHEDE]]], r.sel.lista, v => { r.sel.lista = v; componi(); }));
@@ -600,12 +607,23 @@ function controlliScelta(o, r, inp, dopo = () => {}) {
     const tutteListe = gruppiListe.flatMap(g => g[1]);
     const componi = () => {
       const { coalizione, lista } = r.sel;
-      if ([coalizione, lista].some(v => v && v.startsWith('__'))) return imposta(SCHEDE.find(s => s.v === coalizione || s.v === lista).t);
+      const sc = scheda(coalizione) || scheda(lista);
+      if (sc) return imposta(sc.t, { k: 'bianca' });
       const pc = vc.find(v => v.v === coalizione), pl = tutteListe.find(v => v.v === lista);
       const parti = [];
       if (pc) parti.push(`${pc.c.nome} ${emojiCandidato(pc.c)}`);
       if (pl) parti.push(`${/^lista /i.test(breveLista(pl.lst)) ? '' : 'Lista '}${breveLista(pl.lst)} ${emojiLista(pl.lst, pl.c)}`);
-      imposta(parti.join(' '));
+      // lo schieramento è quello del candidato; senza candidati (liste e basta) quello della lista
+      const cand = pc ? pc.c : pl && pl.c.nome ? pl.c : null;
+      const vinc = o.tipo === 'bal' ? null : conNome.length ? piuVotato(conNome, 'pct') : null;
+      let pos = null;
+      if (cand) { const a = areaCandidato(cand); pos = { area: a, civica: !a, col: vinc ? cand === vinc : null }; }
+      else if (pl) {
+        const a = pl.lst.partito ? areaDi(pl.lst.partito) : null;
+        const top = piuVotato(tutteListe.map(x => x.lst));
+        pos = { area: a, civica: !pl.lst.partito, col: !conNome.length && top ? pl.lst === top : null };
+      }
+      imposta(parti.join(' '), pos);
     };
     const nomeCand = o.tipo === 'reg' ? (o.reg === '04' ? 'Candidato presidente della provincia' : 'Candidato presidente') : 'Candidato sindaco';
     if (vc.length) box.append(seleziona(nomeCand, [[null, vc], ['Altro', SCHEDE]], r.sel.coalizione, v => {
@@ -631,12 +649,15 @@ function controlliScelta(o, r, inp, dopo = () => {}) {
     const tutte = [...vn, ...vl, ...vc];
     const componi = () => {
       const { coalizione, lista } = r.sel;
-      if ([coalizione, lista].some(v => v && v.startsWith('__'))) return imposta(SCHEDE.find(s => s.v === coalizione || s.v === lista).t);
+      const sc = scheda(coalizione) || scheda(lista);
+      if (sc) return imposta(sc.t, { k: 'bianca' });
       const pc = coalizioni.find(v => v.v === coalizione), pl = tutte.find(v => v.v === lista);
       const parti = [];
       if (pc) parti.push(`${pc.p.b} ${pc.p.e}`);
       if (pl) parti.push(pl.p.civica || /^lista /i.test(pl.p.b) ? `${pl.p.b} ${emojiDi(pl.p)}` : `Lista ${pl.p.b} ${emojiDi(pl.p)}`);
-      imposta(parti.join(' '));
+      const aC = pc ? AREA_COALIZIONE[pc.p.b] || null : null, aL = pl ? areaDi(pl.p) : null;
+      const pos = pc || pl ? { area: aC || aL, civica: (pc && pc.p.b === 'Civico') || (!pc && pl && !!pl.p.civica), col: null } : null;
+      imposta(parti.join(' '), pos);
     };
     const nomeCand = o.tipo === 'reg' ? (o.reg === '04' ? 'Candidato presidente della provincia' : 'Candidato presidente') : 'Candidato sindaco';
     if (!senzaPresidente) box.append(seleziona(nomeCand, [[null, coalizioni], ['Altro', o.tipo === 'bal' ? SCHEDE : []]], r.sel.coalizione, v => { r.sel.coalizione = v; componi(); }));
@@ -1077,8 +1098,10 @@ function nastroEMarchio(ctx, W, m, yM, s = 1) {
 }
 
 let ultimoResto = 0;
+let contenuto = 'lista';
 function disegna(cv, righe, formato = formatoScelto) {
   ultimoResto = 0;
+  if (contenuto === 'sismografo') return disegnaSismografo(cv, formato);
   const F = FORMATI[formato] || FORMATI.lista;
   const ctx = cv.getContext('2d');
   const W = F.W;
@@ -1126,7 +1149,7 @@ function disegna(cv, righe, formato = formatoScelto) {
   const yTit0 = alto + 196 * hs;
   let yTesta = yTit0 + corpo * 0.92 + (lineeTit.length - 1) * corpo * 1.1;
   if (firma) yTesta += 52 * hs;
-  const fineTesta = Math.max(yTesta, alto + 168 * hs + R + 40 * hs) + 44 * hs;
+  const fineTesta = Math.max(yTesta, alto + 168 * hs + R + 96 * hs) + 44 * hs; // sotto l'urna e il suo conteggio
   const piede = 150;
   const area = { x: m, y: fineTesta + 26 * hs, w: larg, h: 0 };
   let imp = null, H = F.H;
@@ -1200,6 +1223,7 @@ const fontPronti = document.fonts && document.fonts.load
 let timer = null;
 function programmaAnteprima() {
   clearTimeout(timer);
+  if (typeof aggiornaSismografo === 'function') aggiornaSismografo();
   timer = setTimeout(() => Promise.all([fontPronti, schedaPronta]).then(() => {
     disegna($('#tela'), righeImmagine());
     const n = $('#nota-formato');
@@ -1236,7 +1260,10 @@ function condividiLink() {
   navigator.share({ title: 'La mia storia di voto', text: 'Dal 1992 a oggi, quante volte hai votato? Ricostruisci la tua storia di voto.', url })
     .then(() => annuncia(''), e => { if (!e || e.name !== 'AbortError') copia(url, fatto); });
 }
-function nomeFile(ext) { return `la-mia-storia-di-voto-${FORMATI[formatoScelto].file}.${ext}`; }
+function nomeFile(ext) {
+  if (contenuto === 'sismografo') return `il-mio-sismografo-del-voto-${FORMATI[formatoScelto === 'lista' ? 'post' : formatoScelto].file}.${ext}`;
+  return `la-mia-storia-di-voto-${FORMATI[formatoScelto].file}.${ext}`;
+}
 async function generaBlob(tipo = 'image/png') {
   await fontPronti; await schedaPronta;
   const cv = document.createElement('canvas'); disegna(cv, righeImmagine(), formatoScelto);
@@ -1248,7 +1275,7 @@ async function scarica(jpg) {
   const url = URL.createObjectURL(blob);
   const a = el('a', { href: url, download: nomeFile(jpg ? 'jpg' : 'png') }); document.body.append(a); a.click(); a.remove();
   setTimeout(() => URL.revokeObjectURL(url), 2000);
-  annuncia(`Immagine scaricata: ${FORMATI[formatoScelto].nome}, ${jpg ? 'JPG' : 'PNG'}.`);
+  annuncia(`Immagine scaricata: ${FORMATI[contenuto === 'sismografo' && formatoScelto === 'lista' ? 'post' : formatoScelto].nome}, ${jpg ? 'JPG' : 'PNG'}.`);
 }
 
 // ===== Avvio =====
@@ -1270,7 +1297,17 @@ function init() {
   $('#scarica-jpg').addEventListener('click', () => scarica(true));
   $('#copia-link').addEventListener('click', condividiLink);
   if (MENU_CONDIVISIONE) $('#copia-link').textContent = 'Condividi il link';
-  $('#copia').addEventListener('click', () => copia(testoSemplice(), 'Risultato copiato negli appunti.'));
+  $('#copia').addEventListener('click', () => copia(contenuto === 'sismografo' ? testoSismografo() : testoSemplice(), 'Risultato copiato negli appunti.'));
+  // cosa va nell'immagine: la lista dei voti o il sismografo (che non ha la lista completa a lunghezza libera)
+  document.querySelectorAll('input[name=contenuto]').forEach(r => r.addEventListener('change', () => {
+    contenuto = r.value;
+    const lista = document.querySelector('input[name=formato][value=lista]');
+    lista.disabled = contenuto === 'sismografo';
+    lista.closest('label').hidden = contenuto === 'sismografo';
+    if (contenuto === 'sismografo' && formatoScelto === 'lista') { const p = document.querySelector('input[name=formato][value=post]'); p.checked = true; formatoScelto = 'post'; }
+    document.querySelectorAll('.solo-lista').forEach(n => { n.hidden = contenuto === 'sismografo'; });
+    programmaAnteprima();
+  }));
   try {
     if (navigator.canShare && navigator.canShare({ files: [new File([new Blob()], 'x.png', { type: 'image/png' })] })) {
       $('#condividi').hidden = false;
