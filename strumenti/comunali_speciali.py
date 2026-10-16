@@ -142,7 +142,9 @@ def pubblica(stato, indice, messaggio):
         return
     applica(stato, indice)
     file = ["dati/comunali.js", "strumenti/comunali-speciali-non-trovati.txt", "strumenti/comunali-speciali-stato.json"]
-    git = lambda *a: subprocess.run(["git", *a], cwd=RADICE, capture_output=True, text=True)
+    git = lambda *a: subprocess.run(["git", "-c", "user.name=github-actions[bot]",
+                                     "-c", "user.email=41898282+github-actions[bot]@users.noreply.github.com", *a],
+                                    cwd=RADICE, capture_output=True, text=True)
     git("add", *file)
     if git("diff", "--cached", "--quiet").returncode == 0:
         return
@@ -151,6 +153,7 @@ def pubblica(stato, indice, messaggio):
         if git("pull", "--rebase", "origin", "main").returncode == 0 and git("push").returncode == 0:
             return
         time.sleep(5)
+    print("[!] salvataggio intermedio non riuscito", flush=True)
 
 
 def main():
