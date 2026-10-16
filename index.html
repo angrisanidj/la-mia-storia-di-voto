@@ -18,7 +18,7 @@
 <meta property="og:image:type" content="image/png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="La mia storia di voto: dal 1992 a oggi, quante volte hai votato? Un emiciclo di pallini nei colori della bandiera italiana.">
+<meta property="og:image:alt" content="La mia storia di voto: dal 1992 a oggi, quante volte hai votato? Una scheda elettorale tricolore che entra in una busta.">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="La mia storia di voto">
 <meta name="twitter:description" content="Dal 1992 a oggi, quante volte hai votato? Ricostruisci la tua storia di voto.">
@@ -91,22 +91,8 @@ a { color: inherit; text-underline-offset: 3px; }
 .patti { margin-top: 32px; padding-top: 20px; border-top: 1px solid var(--filo); display: grid; gap: 9px; font-size: .98rem; max-width: 34em; color: var(--grigio); }
 .patti li { display: grid; grid-template-columns: 10px 1fr; gap: 12px; align-items: start; }
 .patti .punto { margin-top: 9px; }
-.calendario svg { display: block; width: 100%; height: auto; overflow: visible; }
-.calendario .asse { stroke: var(--filo); stroke-width: 2; }
-.calendario .tacca { stroke: var(--contorno); stroke-width: 1.5; }
-.calendario .anno-et { font: 600 13px var(--testo); fill: var(--grigio); text-anchor: middle; }
-.calendario .grande { font: 700 92px var(--titoli); fill: var(--inchiostro); }
-.calendario .grande-sotto { font: 400 17px var(--testo); fill: var(--grigio); }
-.calendario circle { stroke-width: 1.4; }
-.calendario circle.pol { fill: var(--verde); stroke: var(--verde); }
-.calendario circle.ref { fill: #fff; stroke: #9AA2AF; }
-.calendario circle.eur { fill: var(--rosso); stroke: var(--rosso); }
-.legenda { margin-top: 14px; display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: .9rem; color: var(--grigio); }
-.legenda span { display: inline-flex; align-items: center; gap: 8px; }
-@media (prefers-reduced-motion: no-preference) {
-  .calendario circle { opacity: 0; transform: translateY(-6px); transform-box: fill-box; animation: cade .35s ease-out forwards; animation-delay: calc(var(--i) * 28ms + 150ms); }
-  @keyframes cade { to { opacity: 1; transform: none; } }
-}
+.calendario { margin: 0; }
+.calendario svg { display: block; width: 100%; max-width: 520px; height: auto; margin: 0 auto; overflow: visible; }
 @media (min-width: 900px) { .apertura { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 56px; padding-top: 64px; } }
 
 /* ---------- Fogli ---------- */
@@ -268,13 +254,8 @@ select.campo { appearance: none; padding-right: 40px; background: #fff url("data
       <li><i class="punto r" aria-hidden="true"></i><span>Tutto resta nel tuo browser: la pagina non salva e non invia nulla.</span></li>
     </ul>
   </div>
-  <figure class="calendario" aria-label="Le consultazioni nazionali dal 1992 a oggi">
+  <figure class="calendario">
     <div id="calendario"></div>
-    <figcaption class="legenda">
-      <span><i class="punto v" aria-hidden="true"></i>Politiche</span>
-      <span><i class="punto b" aria-hidden="true"></i>Referendum</span>
-      <span><i class="punto r" aria-hidden="true"></i>Europee</span>
-    </figcaption>
   </figure>
 </section>
 

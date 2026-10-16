@@ -638,31 +638,45 @@ function postiEmiciclo(N, R) {
   return { posti, raggio };
 }
 
+// Illustrazione d'apertura: la scheda tricolore, votata, che entra nella busta.
+// La stessa grafica serve per la pagina (SVG animato) e per le immagini promozionali (disegnata su canvas).
+function svgSchedaBusta(animata) {
+  const verde = '#008C45', rosso = '#CD212A', ink = '#161B26', filo = '#E1E4E9', contorno = '#C3C8D2';
+  const caselle = [];
+  [[168, 112], [312, 112], [168, 210], [312, 210], [168, 308], [312, 308]].forEach(([x, y], i) => {
+    caselle.push(`<rect x="${x}" y="${y}" width="120" height="84" rx="6" fill="#fff" stroke="${filo}" stroke-width="2"/>`);
+    caselle.push(`<circle cx="${x + 60}" cy="${y + 42}" r="25" fill="${['#E7EAEE', '#DDE1E6', '#E4E7EB', '#DADFE5', '#E7EAEE', '#DDE1E6'][i]}"/>`);
+    caselle.push(`<rect x="${x + 44}" y="${y + 38}" width="32" height="8" rx="4" fill="#fff" opacity=".85"/>`);
+  });
+  const croce = `<g class="croce" stroke="${ink}" stroke-width="8" stroke-linecap="round" fill="none">
+      <path pathLength="1" d="M326 128 L418 182"/><path pathLength="1" d="M418 128 L326 182"/></g>`;
+  const scheda = `<g class="scheda"><g transform="rotate(-3 300 260)">
+      <rect x="150" y="34" width="300" height="420" rx="8" fill="#fff" stroke="${contorno}" stroke-width="2.5"/>
+      <rect x="151.5" y="35.5" width="99" height="20" fill="${verde}"/><rect x="250.5" y="35.5" width="99" height="20" fill="#fff"/><rect x="349.5" y="35.5" width="99" height="20" fill="${rosso}"/>
+      <rect x="150" y="34" width="300" height="420" rx="8" fill="none" stroke="${contorno}" stroke-width="2.5"/>
+      <rect x="168" y="72" width="150" height="9" rx="4.5" fill="#C9CED6"/><rect x="168" y="89" width="96" height="7" rx="3.5" fill="#DDE1E6"/>
+      ${caselle.join('')}${croce}</g></g>`;
+  const corpo = `
+    <polygon points="64,300 300,186 536,300" fill="#EEF0EC" stroke="${contorno}" stroke-width="2.5" stroke-linejoin="round"/>
+    <rect x="64" y="300" width="472" height="232" rx="6" fill="#F4F5F1" stroke="${contorno}" stroke-width="2.5"/>
+    ${scheda}
+    <path d="M64 300 L300 432 L536 300 L536 526 Q536 532 530 532 L70 532 Q64 532 64 526 Z" fill="#fff" stroke="${contorno}" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M64 532 L250 400 M536 532 L350 400" stroke="${filo}" stroke-width="2.5" fill="none"/>
+    <rect x="64" y="514" width="157.3" height="18" fill="${verde}"/><rect x="221.3" y="514" width="157.3" height="18" fill="#fff"/><rect x="378.6" y="514" width="157.4" height="18" fill="${rosso}"/>
+    <path d="M64 514 L64 526 Q64 532 70 532 L530 532 Q536 532 536 526 L536 514" fill="none" stroke="${contorno}" stroke-width="2.5"/>`;
+  const stile = animata ? `<style>
+    @media (prefers-reduced-motion: no-preference) {
+      .scheda { animation: entra 2.5s ease-in-out .1s both; }
+      .croce path { stroke-dasharray: 1; stroke-dashoffset: 1; animation: segna .32s ease-out forwards; }
+      .croce path:first-child { animation-delay: .55s; } .croce path:last-child { animation-delay: .9s; }
+      @keyframes entra { 0% { transform: translateY(-80px); opacity: 0; } 14% { transform: translateY(-80px); opacity: 1; } 56% { transform: translateY(-80px); } 100% { transform: none; opacity: 1; } }
+      @keyframes segna { to { stroke-dashoffset: 0; } }
+    }</style>` : '';
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="40 20 520 530" role="img" aria-label="Una scheda elettorale tricolore, votata, che entra in una busta">${stile}${corpo}</svg>`;
+}
 function disegnaCalendario() {
   const box = $('#calendario');
-  if (!box) return;
-  const naz = NAZIONALI.filter(e => e.d <= OGGI_ISO).sort((a, b) => a.d.localeCompare(b.d));
-  const R = 250, { posti, raggio } = postiEmiciclo(naz.length, R);
-  const ns = 'http://www.w3.org/2000/svg';
-  const svg = document.createElementNS(ns, 'svg');
-  svg.setAttribute('viewBox', `${-R - 20} ${-R - 20} ${2 * R + 40} ${R + 76}`);
-  svg.setAttribute('aria-hidden', 'true');
-  posti.forEach((p, i) => {
-    const c = document.createElementNS(ns, 'circle');
-    c.setAttribute('cx', p.x.toFixed(1)); c.setAttribute('cy', p.y.toFixed(1)); c.setAttribute('r', raggio.toFixed(1));
-    c.setAttribute('class', naz[i].t);
-    c.style.setProperty('--i', i);
-    const t = document.createElementNS(ns, 'title'); t.textContent = `${naz[i].s}, ${dataLunga(naz[i].d, naz[i].d2)}`; c.append(t);
-    svg.append(c);
-  });
-  const num = document.createElementNS(ns, 'text');
-  num.setAttribute('class', 'grande'); num.setAttribute('x', 0); num.setAttribute('y', -4); num.setAttribute('text-anchor', 'middle');
-  num.textContent = String(naz.length);
-  const sotto = document.createElementNS(ns, 'text');
-  sotto.setAttribute('class', 'grande-sotto'); sotto.setAttribute('x', 0); sotto.setAttribute('y', 46); sotto.setAttribute('text-anchor', 'middle');
-  sotto.textContent = `consultazioni nazionali dal 1992 a oggi`;
-  svg.append(num, sotto);
-  box.replaceChildren(svg);
+  if (box) box.innerHTML = svgSchedaBusta(true);
 }
 
 // ===== Immagine =====
