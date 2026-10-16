@@ -23,7 +23,7 @@ concurrency:
 jobs:
   aggiorna:
     runs-on: ubuntu-latest
-    timeout-minutes: 110
+    timeout-minutes: 350
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -33,9 +33,9 @@ jobs:
       - name: Scarica le comunali delle regioni a statuto speciale
         id: scarico
         env:
-          PAUSA_TT: '1.0'
-          LAVORATORI: '3'
-          LIMITE_MINUTI: '90'
+          PAUSA_TT: '60'
+          LAVORATORI: '1'
+          LIMITE_MINUTI: '330'
         run: python strumenti/comunali_speciali.py
       - name: Salva i dati
         run: |

@@ -28,7 +28,8 @@ REGIONI = {"sicilia": "19", "friuli-venezia-giulia": "06", "valle-d-aosta": "02"
 PAUSA = float(os.environ.get("PAUSA_TT", "1.0"))
 LIMITE_MINUTI = float(os.environ.get("LIMITE_MINUTI", "95"))
 INIZIO = time.time()
-LAVORATORI = int(os.environ.get("LAVORATORI", "3"))
+LAVORATORI = int(os.environ.get("LAVORATORI", "1"))
+ATTESA_ERRORE = float(os.environ.get("ATTESA_ERRORE", "180"))
 OGNI_MINUTI = float(os.environ.get("SALVA_OGNI_MINUTI", "15"))
 STATO = os.path.join(RADICE, "strumenti", "comunali-speciali-stato.json")
 MESI = {m: i + 1 for i, m in enumerate(["gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno", "luglio",
@@ -196,6 +197,8 @@ def main():
             del attesi[fut]
             url, el, sec, err = fut.result()
             esiti[err or "ok"] = esiti.get(err or "ok", 0) + 1
+            if err:
+                time.sleep(ATTESA_ERRORE)  # il sito limita le richieste: dopo un rifiuto si aspetta di più
             if err is None:
                 stato["fatti"][url] = el
                 tempi.append(sec)
