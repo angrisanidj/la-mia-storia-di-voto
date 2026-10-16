@@ -1,0 +1,657 @@
+{
+ "1993-04-18": {
+  "tipo": "abrogativo",
+  "quorum": true,
+  "affluenza": 76.9,
+  "fonte": "https://it.wikipedia.org/wiki/Referendum_abrogativi_in_Italia_del_1993",
+  "quesiti": [
+   {
+    "n": 1,
+    "breve": "Controlli ambientali alle USL",
+    "esito": "approvato",
+    "si_pct": 82.57
+   },
+   {
+    "n": 2,
+    "breve": "Uso personale di droghe",
+    "esito": "approvato",
+    "si_pct": 55.36
+   },
+   {
+    "n": 3,
+    "breve": "Finanziamento pubblico ai partiti",
+    "esito": "approvato",
+    "si_pct": 90.25
+   },
+   {
+    "n": 4,
+    "breve": "Nomine nelle casse di risparmio",
+    "esito": "approvato",
+    "si_pct": 89.8
+   },
+   {
+    "n": 5,
+    "breve": "Ministero delle Partecipazioni statali",
+    "esito": "approvato",
+    "si_pct": 90.11
+   },
+   {
+    "n": 6,
+    "breve": "Legge elettorale del Senato (maggioritario)",
+    "esito": "approvato",
+    "si_pct": 82.74
+   },
+   {
+    "n": 7,
+    "breve": "Ministero dell'Agricoltura",
+    "esito": "approvato",
+    "si_pct": 70.23
+   },
+   {
+    "n": 8,
+    "breve": "Ministero del Turismo e dello spettacolo",
+    "esito": "approvato",
+    "si_pct": 82.28
+   }
+  ]
+ },
+ "1995-06-11": {
+  "tipo": "abrogativo",
+  "quorum": true,
+  "affluenza": 57.3,
+  "fonte": "https://it.wikipedia.org/wiki/Referendum_abrogativi_in_Italia_del_1995",
+  "note": "it.wiki elenca le righe Sì/No senza etichetta; esiti e % Sì incrociati con en.wikipedia.org/wiki/1995_Italian_referendum (5 approvati: quesiti 2-5 e 7).",
+  "quesiti": [
+   {
+    "n": 1,
+    "breve": "Rappresentanze sindacali (quesito massimale)",
+    "esito": "respinto",
+    "si_pct": 49.97
+   },
+   {
+    "n": 2,
+    "breve": "Rappresentanze sindacali (quesito minimale)",
+    "esito": "approvato",
+    "si_pct": 62.14
+   },
+   {
+    "n": 3,
+    "breve": "Contratti del pubblico impiego",
+    "esito": "approvato",
+    "si_pct": 64.68
+   },
+   {
+    "n": 4,
+    "breve": "Soggiorno cautelare per i mafiosi",
+    "esito": "approvato",
+    "si_pct": 63.68
+   },
+   {
+    "n": 5,
+    "breve": "Privatizzazione della Rai",
+    "esito": "approvato",
+    "si_pct": 54.9
+   },
+   {
+    "n": 6,
+    "breve": "Licenze commerciali",
+    "esito": "respinto",
+    "si_pct": 35.63
+   },
+   {
+    "n": 7,
+    "breve": "Trattenute sindacali in busta paga",
+    "esito": "approvato",
+    "si_pct": 56.24
+   },
+   {
+    "n": 8,
+    "breve": "Legge elettorale dei comuni",
+    "esito": "respinto",
+    "si_pct": 49.4
+   },
+   {
+    "n": 9,
+    "breve": "Orari dei negozi",
+    "esito": "respinto",
+    "si_pct": 37.4
+   },
+   {
+    "n": 10,
+    "breve": "Tv: concessioni nazionali (antitrust)",
+    "esito": "respinto",
+    "si_pct": 43.07
+   },
+   {
+    "n": 11,
+    "breve": "Tv: interruzioni pubblicitarie nei film",
+    "esito": "respinto",
+    "si_pct": 44.34
+   },
+   {
+    "n": 12,
+    "breve": "Tv: raccolta pubblicitaria",
+    "esito": "respinto",
+    "si_pct": 43.59
+   }
+  ]
+ },
+ "1997-06-15": {
+  "tipo": "abrogativo",
+  "quorum": false,
+  "affluenza": 30.2,
+  "fonte": "https://it.wikipedia.org/wiki/Referendum_abrogativi_in_Italia_del_1997",
+  "quesiti": [
+   {
+    "n": 1,
+    "breve": "Privatizzazioni: golden share del Tesoro",
+    "esito": "nullo per quorum",
+    "si_pct": 74.06
+   },
+   {
+    "n": 2,
+    "breve": "Obiezione di coscienza",
+    "esito": "nullo per quorum",
+    "si_pct": 71.69
+   },
+   {
+    "n": 3,
+    "breve": "Caccia nei fondi privati",
+    "esito": "nullo per quorum",
+    "si_pct": 80.9
+   },
+   {
+    "n": 4,
+    "breve": "Carriere dei magistrati",
+    "esito": "nullo per quorum",
+    "si_pct": 83.55
+   },
+   {
+    "n": 5,
+    "breve": "Abolizione dell'Ordine dei giornalisti",
+    "esito": "nullo per quorum",
+    "si_pct": 65.52
+   },
+   {
+    "n": 6,
+    "breve": "Incarichi extragiudiziari dei magistrati",
+    "esito": "nullo per quorum",
+    "si_pct": 85.58
+   },
+   {
+    "n": 7,
+    "breve": "Ministero delle Risorse agricole",
+    "esito": "nullo per quorum",
+    "si_pct": 66.85
+   }
+  ]
+ },
+ "1999-04-18": {
+  "tipo": "abrogativo",
+  "quorum": false,
+  "affluenza": 49.58,
+  "fonte": "https://en.wikipedia.org/wiki/1999_Italian_referendum",
+  "note": "Pagina it.wiki 'Referendum abrogativo del 1999' non raggiungibile dal fetcher; dati da en.wiki. Quorum mancato per lo 0,4%.",
+  "quesiti": [
+   {
+    "n": 1,
+    "breve": "Abolizione della quota proporzionale",
+    "esito": "nullo per quorum",
+    "si_pct": 91.52
+   }
+  ]
+ },
+ "2000-05-21": {
+  "tipo": "abrogativo",
+  "quorum": false,
+  "affluenza": 32.2,
+  "fonte": "https://it.wikipedia.org/wiki/Referendum_abrogativi_in_Italia_del_2000",
+  "note": "Quesito 6 (art. 18): ha prevalso il No; % Sì da en.wikipedia.org/wiki/2000_Italian_referendum (it.wiki ha righe senza etichetta).",
+  "quesiti": [
+   {
+    "n": 1,
+    "breve": "Rimborsi elettorali",
+    "esito": "nullo per quorum",
+    "si_pct": 71.06
+   },
+   {
+    "n": 2,
+    "breve": "Abolizione della quota proporzionale",
+    "esito": "nullo per quorum",
+    "si_pct": 82.02
+   },
+   {
+    "n": 3,
+    "breve": "Elezione del CSM",
+    "esito": "nullo per quorum",
+    "si_pct": 70.57
+   },
+   {
+    "n": 4,
+    "breve": "Separazione delle carriere",
+    "esito": "nullo per quorum",
+    "si_pct": 69.0
+   },
+   {
+    "n": 5,
+    "breve": "Incarichi extragiudiziari dei magistrati",
+    "esito": "nullo per quorum",
+    "si_pct": 75.22
+   },
+   {
+    "n": 6,
+    "breve": "Licenziamenti: abolizione dell'art. 18",
+    "esito": "nullo per quorum",
+    "si_pct": 33.36
+   },
+   {
+    "n": 7,
+    "breve": "Trattenute sindacali tramite enti previdenziali",
+    "esito": "nullo per quorum",
+    "si_pct": 61.82
+   }
+  ]
+ },
+ "2001-10-07": {
+  "tipo": "costituzionale",
+  "quorum": true,
+  "affluenza": 34.05,
+  "fonte": "https://it.wikipedia.org/wiki/Referendum_costituzionale_del_2001_in_Italia",
+  "quesiti": [
+   {
+    "n": 1,
+    "breve": "Riforma del Titolo V (federalismo)",
+    "esito": "approvato",
+    "si_pct": 64.21
+   }
+  ]
+ },
+ "2003-06-15": {
+  "tipo": "abrogativo",
+  "quorum": false,
+  "affluenza": 25.7,
+  "fonte": "https://it.wikipedia.org/wiki/Referendum_abrogativi_in_Italia_del_2003",
+  "quesiti": [
+   {
+    "n": 1,
+    "breve": "Estensione dell'art. 18",
+    "esito": "nullo per quorum",
+    "si_pct": 86.74
+   },
+   {
+    "n": 2,
+    "breve": "Servitù coattiva di elettrodotto",
+    "esito": "nullo per quorum",
+    "si_pct": 85.53
+   }
+  ]
+ },
+ "2005-06-12": {
+  "tipo": "abrogativo",
+  "quorum": false,
+  "affluenza": 25.6,
+  "fonte": "https://it.wikipedia.org/wiki/Referendum_abrogativi_in_Italia_del_2005",
+  "quesiti": [
+   {
+    "n": 1,
+    "breve": "Fecondazione: ricerca sugli embrioni",
+    "esito": "nullo per quorum",
+    "si_pct": 88.03
+   },
+   {
+    "n": 2,
+    "breve": "Fecondazione: limiti di accesso",
+    "esito": "nullo per quorum",
+    "si_pct": 88.78
+   },
+   {
+    "n": 3,
+    "breve": "Fecondazione: diritti del concepito",
+    "esito": "nullo per quorum",
+    "si_pct": 87.73
+   },
+   {
+    "n": 4,
+    "breve": "Fecondazione eterologa",
+    "esito": "nullo per quorum",
+    "si_pct": 77.38
+   }
+  ]
+ },
+ "2006-06-25": {
+  "tipo": "costituzionale",
+  "quorum": true,
+  "affluenza": 52.46,
+  "fonte": "https://it.wikipedia.org/wiki/Referendum_costituzionale_del_2006_in_Italia",
+  "quesiti": [
+   {
+    "n": 1,
+    "breve": "Riforma costituzionale del centrodestra (devolution)",
+    "esito": "respinto",
+    "si_pct": 38.71
+   }
+  ]
+ },
+ "2009-06-21": {
+  "tipo": "abrogativo",
+  "quorum": false,
+  "affluenza": 23.5,
+  "fonte": "https://it.wikipedia.org/wiki/Referendum_abrogativi_in_Italia_del_2009",
+  "quesiti": [
+   {
+    "n": 1,
+    "breve": "Camera: premio alla lista",
+    "esito": "nullo per quorum",
+    "si_pct": 77.63
+   },
+   {
+    "n": 2,
+    "breve": "Senato: premio alla lista",
+    "esito": "nullo per quorum",
+    "si_pct": 77.68
+   },
+   {
+    "n": 3,
+    "breve": "Stop alle candidature multiple",
+    "esito": "nullo per quorum",
+    "si_pct": 87.0
+   }
+  ]
+ },
+ "2011-06-12": {
+  "tipo": "abrogativo",
+  "quorum": true,
+  "affluenza": 54.8,
+  "fonte": "https://it.wikipedia.org/wiki/Referendum_abrogativi_in_Italia_del_2011",
+  "quesiti": [
+   {
+    "n": 1,
+    "breve": "Acqua: affidamento dei servizi",
+    "esito": "approvato",
+    "si_pct": 95.35
+   },
+   {
+    "n": 2,
+    "breve": "Acqua: tariffa",
+    "esito": "approvato",
+    "si_pct": 95.8
+   },
+   {
+    "n": 3,
+    "breve": "Nucleare",
+    "esito": "approvato",
+    "si_pct": 94.05
+   },
+   {
+    "n": 4,
+    "breve": "Legittimo impedimento",
+    "esito": "approvato",
+    "si_pct": 94.62
+   }
+  ]
+ },
+ "2016-04-17": {
+  "tipo": "abrogativo",
+  "quorum": false,
+  "affluenza": 31.19,
+  "fonte": "https://it.wikipedia.org/wiki/Referendum_abrogativo_del_2016_in_Italia",
+  "quesiti": [
+   {
+    "n": 1,
+    "breve": "Trivellazioni in mare",
+    "esito": "nullo per quorum",
+    "si_pct": 85.85
+   }
+  ]
+ },
+ "2016-12-04": {
+  "tipo": "costituzionale",
+  "quorum": true,
+  "affluenza": 65.48,
+  "fonte": "https://it.wikipedia.org/wiki/Referendum_costituzionale_del_2016_in_Italia",
+  "quesiti": [
+   {
+    "n": 1,
+    "breve": "Riforma Renzi-Boschi",
+    "esito": "respinto",
+    "si_pct": 40.88
+   }
+  ]
+ },
+ "2020-09-20": {
+  "tipo": "costituzionale",
+  "quorum": true,
+  "affluenza": 51.12,
+  "fonte": "https://it.wikipedia.org/wiki/Referendum_costituzionale_del_2020_in_Italia",
+  "quesiti": [
+   {
+    "n": 1,
+    "breve": "Taglio dei parlamentari",
+    "esito": "approvato",
+    "si_pct": 69.96
+   }
+  ]
+ },
+ "2022-06-12": {
+  "tipo": "abrogativo",
+  "quorum": false,
+  "affluenza": 20.9,
+  "fonte": "https://it.wikipedia.org/wiki/Referendum_abrogativi_in_Italia_del_2022",
+  "quesiti": [
+   {
+    "n": 1,
+    "breve": "Abolizione legge Severino",
+    "esito": "nullo per quorum",
+    "si_pct": 53.08
+   },
+   {
+    "n": 2,
+    "breve": "Limitazione misure cautelari",
+    "esito": "nullo per quorum",
+    "si_pct": 55.37
+   },
+   {
+    "n": 3,
+    "breve": "Separazione delle funzioni dei magistrati",
+    "esito": "nullo per quorum",
+    "si_pct": 73.26
+   },
+   {
+    "n": 4,
+    "breve": "Valutazione dei magistrati (membri laici)",
+    "esito": "nullo per quorum",
+    "si_pct": 71.28
+   },
+   {
+    "n": 5,
+    "breve": "Elezione del CSM (raccolta firme)",
+    "esito": "nullo per quorum",
+    "si_pct": 71.63
+   }
+  ]
+ },
+ "2025-06-08": {
+  "tipo": "abrogativo",
+  "quorum": false,
+  "affluenza": 29.9,
+  "fonte": "https://en.wikipedia.org/wiki/2025_Italian_referendum",
+  "note": "La pagina it.wiki non aveva ancora i risultati; % Sì (Italia + estero) da en.wiki, confermate da finanza.com. Solo Italia: 89 / 87,6 / 89 / 87,3 / 65,4 (Fanpage).",
+  "quesiti": [
+   {
+    "n": 1,
+    "breve": "Jobs Act: reintegro nei licenziamenti",
+    "esito": "nullo per quorum",
+    "si_pct": 87.57
+   },
+   {
+    "n": 2,
+    "breve": "Licenziamenti nelle piccole imprese",
+    "esito": "nullo per quorum",
+    "si_pct": 86.02
+   },
+   {
+    "n": 3,
+    "breve": "Contratti a termine",
+    "esito": "nullo per quorum",
+    "si_pct": 87.53
+   },
+   {
+    "n": 4,
+    "breve": "Sicurezza negli appalti",
+    "esito": "nullo per quorum",
+    "si_pct": 85.78
+   },
+   {
+    "n": 5,
+    "breve": "Cittadinanza: 5 anni di residenza",
+    "esito": "nullo per quorum",
+    "si_pct": 65.34
+   }
+  ]
+ },
+ "2026-03-22": {
+  "tipo": "costituzionale",
+  "quorum": true,
+  "affluenza": 55.69,
+  "fonte": "https://en.wikipedia.org/wiki/2026_Italian_constitutional_referendum",
+  "note": "Dati Viminale Italia + estero (Sì 13.250.709, No 15.085.410). Solo Italia: No 53,7%, affluenza 58,93% (Il Giorno, Il Post). Pagina it.wiki non raggiungibile dal fetcher.",
+  "quesiti": [
+   {
+    "n": 1,
+    "breve": "Separazione delle carriere (riforma Nordio)",
+    "esito": "respinto",
+    "si_pct": 46.76
+   }
+  ]
+ },
+ "R03-2017-10-22": {
+  "tipo": "consultivo regionale",
+  "regione": "Lombardia",
+  "quorum": true,
+  "quorum_richiesto": false,
+  "affluenza": 38.21,
+  "fonte": "https://en.wikipedia.org/wiki/2017_Lombard_autonomy_referendum",
+  "note": "Nessun quorum previsto in Lombardia (consultazione sempre valida). Il Post riportava stime 95,3% Sì su dati non definitivi.",
+  "quesiti": [
+   {
+    "n": 1,
+    "breve": "Autonomia della Lombardia",
+    "esito": "approvato",
+    "si_pct": 96.02
+   }
+  ]
+ },
+ "R05-2017-10-22": {
+  "tipo": "consultivo regionale",
+  "regione": "Veneto",
+  "quorum": true,
+  "quorum_richiesto": true,
+  "affluenza": 57.2,
+  "fonte": "https://www.ilpost.it/2017/10/23/referendum-autonomia-veneto-lombardia-risultati-affluenza/",
+  "note": "Quorum 50%+1 superato. en.wiki: Sì 98,10%, affluenza 57,94% in tabella / 57,2% nel testo.",
+  "quesiti": [
+   {
+    "n": 1,
+    "breve": "Autonomia del Veneto",
+    "esito": "approvato",
+    "si_pct": 98.1
+   }
+  ]
+ },
+ "R20-2011-05-15": {
+  "tipo": "consultivo regionale",
+  "regione": "Sardegna",
+  "quorum": true,
+  "affluenza": 59.98,
+  "fonte": "https://it.wikipedia.org/wiki/Referendum_consultivo_in_Sardegna_del_2011",
+  "note": "Votato il 15-16 maggio 2011. Quesito formulato al contrario: Sì = contrari a centrali nucleari e scorie in Sardegna. Quorum 1/3.",
+  "quesiti": [
+   {
+    "n": 1,
+    "breve": "No al nucleare e alle scorie in Sardegna",
+    "esito": "approvato",
+    "si_pct": 97.13
+   }
+  ]
+ },
+ "R20-2012-05-06": {
+  "tipo": "abrogativo e consultivo regionale",
+  "regione": "Sardegna",
+  "quorum": true,
+  "affluenza": 35.5,
+  "fonte": "https://it.wikipedia.org/wiki/Referendum_in_Sardegna_del_2012",
+  "note": "Quorum 33,3%. Quesiti 1-4 e 8 abrogativi, 5-7 e 9-10 consultivi. Ordine confermato da Unione Sarda.",
+  "quesiti": [
+   {
+    "n": 1,
+    "breve": "Province: abrogazione legge 4/1997",
+    "tipo": "abrogativo",
+    "esito": "approvato",
+    "si_pct": 96.94
+   },
+   {
+    "n": 2,
+    "breve": "Province: abrogazione legge 10/2002",
+    "tipo": "abrogativo",
+    "esito": "approvato",
+    "si_pct": 97.61
+   },
+   {
+    "n": 3,
+    "breve": "Province: abrogazione delibera 1999",
+    "tipo": "abrogativo",
+    "esito": "approvato",
+    "si_pct": 97.72
+   },
+   {
+    "n": 4,
+    "breve": "Abolizione delle quattro nuove province",
+    "tipo": "abrogativo",
+    "esito": "approvato",
+    "si_pct": 96.87
+   },
+   {
+    "n": 5,
+    "breve": "Abolizione delle province storiche",
+    "tipo": "consultivo",
+    "esito": "approvato",
+    "si_pct": 65.99
+   },
+   {
+    "n": 6,
+    "breve": "Assemblea costituente per lo Statuto",
+    "tipo": "consultivo",
+    "esito": "approvato",
+    "si_pct": 94.42
+   },
+   {
+    "n": 7,
+    "breve": "Primarie ed elezione diretta del presidente",
+    "tipo": "consultivo",
+    "esito": "approvato",
+    "si_pct": 96.86
+   },
+   {
+    "n": 8,
+    "breve": "Compensi dei consiglieri regionali",
+    "tipo": "abrogativo",
+    "esito": "approvato",
+    "si_pct": 97.18
+   },
+   {
+    "n": 9,
+    "breve": "Abolizione dei Cda di enti regionali",
+    "tipo": "consultivo",
+    "esito": "approvato",
+    "si_pct": 97.06
+   },
+   {
+    "n": 10,
+    "breve": "Consiglieri regionali ridotti a 50",
+    "tipo": "consultivo",
+    "esito": "approvato",
+    "si_pct": 98.28
+   }
+  ]
+ }
+}

@@ -1,0 +1,920 @@
+[
+ {
+  "nome": "Cirio Presidente",
+  "breve": "Lista Cirio",
+  "reg": "01",
+  "da": 2024,
+  "a": 2024,
+  "area": "centrodestra",
+  "personale": true
+ },
+ {
+  "nome": "Alleanza Popolare Autonomista",
+  "breve": "APA",
+  "reg": "02",
+  "da": 1993,
+  "a": 1993,
+  "area": "autonomista",
+  "personale": false
+ },
+ {
+  "nome": "Autonomisti Democratici Progressisti",
+  "breve": "ADP",
+  "reg": "02",
+  "da": 1993,
+  "a": 1993,
+  "area": "autonomista",
+  "personale": false
+ },
+ {
+  "nome": "Pour la Vallée d'Aoste",
+  "breve": "PVA",
+  "reg": "02",
+  "da": 1993,
+  "a": 1998,
+  "area": "autonomista",
+  "personale": false
+ },
+ {
+  "nome": "Union Valdôtaine",
+  "breve": "UV",
+  "reg": "02",
+  "da": 1993,
+  "a": 2025,
+  "area": "autonomista",
+  "personale": false
+ },
+ {
+  "nome": "Autonomisti",
+  "breve": "Autonomisti",
+  "reg": "02",
+  "da": 1998,
+  "a": 1998,
+  "area": "centro",
+  "personale": false
+ },
+ {
+  "nome": "Fédération Autonomiste",
+  "breve": "FA",
+  "reg": "02",
+  "da": 1998,
+  "a": 2013,
+  "area": "centro",
+  "personale": false
+ },
+ {
+  "nome": "Alé Vallée",
+  "breve": "Alé Vallée",
+  "reg": "02",
+  "da": 2003,
+  "a": 2003,
+  "area": "centrosinistra",
+  "personale": false
+ },
+ {
+  "nome": "Arcobaleno Valle d'Aosta",
+  "breve": "Arcobaleno",
+  "reg": "02",
+  "da": 2003,
+  "a": 2008,
+  "area": "sinistra",
+  "personale": false
+ },
+ {
+  "nome": "Stella Alpina",
+  "breve": "SA",
+  "reg": "02",
+  "da": 2003,
+  "a": 2025,
+  "area": "centro",
+  "personale": false
+ },
+ {
+  "nome": "Vallée d'Aoste Vive – Renouveau Valdôtain",
+  "breve": "VdAV-RV",
+  "reg": "02",
+  "da": 2008,
+  "a": 2008,
+  "area": "centrosinistra",
+  "personale": false
+ },
+ {
+  "nome": "Autonomie Liberté Participation Écologie",
+  "breve": "ALPE",
+  "reg": "02",
+  "da": 2013,
+  "a": 2018,
+  "area": "centrosinistra",
+  "personale": false
+ },
+ {
+  "nome": "Union Valdôtaine Progressiste",
+  "breve": "UVP",
+  "reg": "02",
+  "da": 2013,
+  "a": 2018,
+  "area": "autonomista",
+  "personale": false
+ },
+ {
+  "nome": "Impegno Civico",
+  "breve": "IC",
+  "reg": "02",
+  "da": 2018,
+  "a": 2018,
+  "area": "sinistra",
+  "personale": false
+ },
+ {
+  "nome": "Mouv'",
+  "breve": "Mouv'",
+  "reg": "02",
+  "da": 2018,
+  "a": 2018,
+  "area": "autonomista",
+  "personale": false
+ },
+ {
+  "nome": "Alliance Valdôtaine",
+  "breve": "AV",
+  "reg": "02",
+  "da": 2020,
+  "a": 2020,
+  "area": "centrosinistra",
+  "personale": false
+ },
+ {
+  "nome": "Pour l'Autonomie – Per l'Autonomia",
+  "breve": "PlA",
+  "reg": "02",
+  "da": 2020,
+  "a": 2025,
+  "area": "centro",
+  "personale": false
+ },
+ {
+  "nome": "Progetto Civico Progressista",
+  "breve": "PCP",
+  "reg": "02",
+  "da": 2020,
+  "a": 2020,
+  "area": "centrosinistra",
+  "personale": false
+ },
+ {
+  "nome": "Rinascimento Valle d'Aosta",
+  "breve": "Rinascimento",
+  "reg": "02",
+  "da": 2020,
+  "a": 2020,
+  "area": "centrodestra",
+  "personale": false
+ },
+ {
+  "nome": "Valle d'Aosta Futura",
+  "breve": "VdA Futura",
+  "reg": "02",
+  "da": 2020,
+  "a": 2025,
+  "area": "altro",
+  "personale": false
+ },
+ {
+  "nome": "Vallée d'Aoste Unie",
+  "breve": "VdAU",
+  "reg": "02",
+  "da": 2020,
+  "a": 2020,
+  "area": "autonomista",
+  "personale": false
+ },
+ {
+  "nome": "Autonomisti di Centro",
+  "breve": "AdC",
+  "reg": "02",
+  "da": 2025,
+  "a": 2025,
+  "area": "centro",
+  "personale": false
+ },
+ {
+  "nome": "Rassemblement Valdôtain",
+  "breve": "RV",
+  "reg": "02",
+  "da": 2025,
+  "a": 2025,
+  "area": "centrodestra",
+  "personale": false
+ },
+ {
+  "nome": "Vallée d'Aoste Ouverte – VdA Aperta",
+  "breve": "VdA Aperta",
+  "reg": "02",
+  "da": 2025,
+  "a": 2025,
+  "area": "sinistra",
+  "personale": false
+ },
+ {
+  "nome": "Fontana Presidente",
+  "breve": "Lista Fontana",
+  "reg": "03",
+  "da": 2023,
+  "a": 2023,
+  "area": "centrodestra",
+  "personale": true
+ },
+ {
+  "nome": "Moratti Presidente",
+  "breve": "Lista Moratti",
+  "reg": "03",
+  "da": 2023,
+  "a": 2023,
+  "area": "centro",
+  "personale": true
+ },
+ {
+  "nome": "Die Freiheitlichen",
+  "breve": "dF",
+  "reg": "04-BZ",
+  "da": 1993,
+  "a": 2023,
+  "area": "destra",
+  "personale": false
+ },
+ {
+  "nome": "Südtiroler Volkspartei",
+  "breve": "SVP",
+  "reg": "04-BZ",
+  "da": 1993,
+  "a": 2023,
+  "area": "autonomista",
+  "personale": false
+ },
+ {
+  "nome": "Union für Südtirol",
+  "breve": "UfS",
+  "reg": "04-BZ",
+  "da": 1993,
+  "a": 2018,
+  "area": "destra",
+  "personale": false
+ },
+ {
+  "nome": "Süd-Tiroler Freiheit",
+  "breve": "STF",
+  "reg": "04-BZ",
+  "da": 2008,
+  "a": 2023,
+  "area": "destra",
+  "personale": false
+ },
+ {
+  "nome": "Team K (Team Köllensperger)",
+  "breve": "Team K",
+  "reg": "04-BZ",
+  "da": 2018,
+  "a": 2023,
+  "area": "centro",
+  "personale": false
+ },
+ {
+  "nome": "Für Südtirol mit Widmann",
+  "breve": "Widmann",
+  "reg": "04-BZ",
+  "da": 2023,
+  "a": 2023,
+  "area": "centro",
+  "personale": true
+ },
+ {
+  "nome": "JWA – Liste Jürgen Wirth Anderlan",
+  "breve": "JWA",
+  "reg": "04-BZ",
+  "da": 2023,
+  "a": 2023,
+  "area": "destra",
+  "personale": true
+ },
+ {
+  "nome": "Lega Autonomia Trentino",
+  "breve": "LAT",
+  "reg": "04-TN",
+  "da": 1993,
+  "a": 1993,
+  "area": "autonomista",
+  "personale": false
+ },
+ {
+  "nome": "Partito Autonomista Trentino Tirolese",
+  "breve": "PATT",
+  "reg": "04-TN",
+  "da": 1993,
+  "a": 2023,
+  "area": "autonomista",
+  "personale": false
+ },
+ {
+  "nome": "Autonomia Integrale",
+  "breve": "AI",
+  "reg": "04-TN",
+  "da": 1998,
+  "a": 1998,
+  "area": "autonomista",
+  "personale": false
+ },
+ {
+  "nome": "Civica Margherita",
+  "breve": "Margherita TN",
+  "reg": "04-TN",
+  "da": 1998,
+  "a": 2003,
+  "area": "centrosinistra",
+  "personale": false
+ },
+ {
+  "nome": "Trentino Domani",
+  "breve": "Trentino Domani",
+  "reg": "04-TN",
+  "da": 1998,
+  "a": 1998,
+  "area": "centro",
+  "personale": false
+ },
+ {
+  "nome": "Autonomisti Popolari",
+  "breve": "AP",
+  "reg": "04-TN",
+  "da": 2008,
+  "a": 2018,
+  "area": "centrodestra",
+  "personale": false
+ },
+ {
+  "nome": "Lista Civica Divina",
+  "breve": "Civica Divina",
+  "reg": "04-TN",
+  "da": 2008,
+  "a": 2008,
+  "area": "centrodestra",
+  "personale": true
+ },
+ {
+  "nome": "Unione per il Trentino",
+  "breve": "UpT",
+  "reg": "04-TN",
+  "da": 2008,
+  "a": 2018,
+  "area": "centrosinistra",
+  "personale": false
+ },
+ {
+  "nome": "Civica Trentina / La Civica",
+  "breve": "La Civica",
+  "reg": "04-TN",
+  "da": 2013,
+  "a": 2023,
+  "area": "centrodestra",
+  "personale": false
+ },
+ {
+  "nome": "Progetto Trentino",
+  "breve": "PT",
+  "reg": "04-TN",
+  "da": 2013,
+  "a": 2018,
+  "area": "centrodestra",
+  "personale": false
+ },
+ {
+  "nome": "Futura 2018",
+  "breve": "Futura",
+  "reg": "04-TN",
+  "da": 2018,
+  "a": 2018,
+  "area": "centrosinistra",
+  "personale": false
+ },
+ {
+  "nome": "Campobase",
+  "breve": "Campobase",
+  "reg": "04-TN",
+  "da": 2023,
+  "a": 2023,
+  "area": "centrosinistra",
+  "personale": false
+ },
+ {
+  "nome": "Casa Autonomia.eu",
+  "breve": "Casa Autonomia",
+  "reg": "04-TN",
+  "da": 2023,
+  "a": 2023,
+  "area": "centrosinistra",
+  "personale": false
+ },
+ {
+  "nome": "Noi Trentino per Fugatti Presidente",
+  "breve": "Lista Fugatti",
+  "reg": "04-TN",
+  "da": 2023,
+  "a": 2023,
+  "area": "centrodestra",
+  "personale": true
+ },
+ {
+  "nome": "Lista Cacciari",
+  "breve": "Lista Cacciari",
+  "reg": "05",
+  "da": 2000,
+  "a": 2000,
+  "area": "centrosinistra",
+  "personale": true
+ },
+ {
+  "nome": "Progetto Nord-Est",
+  "breve": "PNE",
+  "reg": "05",
+  "da": 2005,
+  "a": 2010,
+  "area": "centro",
+  "personale": false
+ },
+ {
+  "nome": "Lista Tosi per il Veneto",
+  "breve": "Lista Tosi",
+  "reg": "05",
+  "da": 2015,
+  "a": 2015,
+  "area": "centrodestra",
+  "personale": true
+ },
+ {
+  "nome": "Lista Zaia",
+  "breve": "Lista Zaia",
+  "reg": "05",
+  "da": 2015,
+  "a": 2020,
+  "area": "centrodestra",
+  "personale": true
+ },
+ {
+  "nome": "Moretti Presidente",
+  "breve": "Lista Moretti",
+  "reg": "05",
+  "da": 2015,
+  "a": 2015,
+  "area": "centrosinistra",
+  "personale": true
+ },
+ {
+  "nome": "Resistere Veneto",
+  "breve": "Resistere Veneto",
+  "reg": "05",
+  "da": 2025,
+  "a": 2025,
+  "area": "altro",
+  "personale": false
+ },
+ {
+  "nome": "Lega Autonomia Friuli",
+  "breve": "LAF",
+  "reg": "06",
+  "da": 1993,
+  "a": 1998,
+  "area": "autonomista",
+  "personale": false
+ },
+ {
+  "nome": "Lista per Trieste",
+  "breve": "LpT",
+  "reg": "06",
+  "da": 1993,
+  "a": 1993,
+  "area": "centro",
+  "personale": false
+ },
+ {
+  "nome": "Unione Friuli",
+  "breve": "Unione Friuli",
+  "reg": "06",
+  "da": 1998,
+  "a": 1998,
+  "area": "autonomista",
+  "personale": false
+ },
+ {
+  "nome": "Cittadini per il Presidente",
+  "breve": "Cittadini",
+  "reg": "06",
+  "da": 2003,
+  "a": 2018,
+  "area": "centrosinistra",
+  "personale": true
+ },
+ {
+  "nome": "Autonomia Responsabile",
+  "breve": "AR",
+  "reg": "06",
+  "da": 2013,
+  "a": 2023,
+  "area": "centrodestra",
+  "personale": false
+ },
+ {
+  "nome": "Patto per l'Autonomia",
+  "breve": "PpA",
+  "reg": "06",
+  "da": 2018,
+  "a": 2023,
+  "area": "autonomista",
+  "personale": false
+ },
+ {
+  "nome": "Progetto FVG",
+  "breve": "PFVG",
+  "reg": "06",
+  "da": 2018,
+  "a": 2018,
+  "area": "centrodestra",
+  "personale": false
+ },
+ {
+  "nome": "Fedriga Presidente",
+  "breve": "Lista Fedriga",
+  "reg": "06",
+  "da": 2023,
+  "a": 2023,
+  "area": "centrodestra",
+  "personale": true
+ },
+ {
+  "nome": "Insieme Liberi",
+  "breve": "Insieme Liberi",
+  "reg": "06",
+  "da": 2023,
+  "a": 2023,
+  "area": "altro",
+  "personale": false
+ },
+ {
+  "nome": "Cambiamo! con Toti Presidente",
+  "breve": "Lista Toti",
+  "reg": "07",
+  "da": 2020,
+  "a": 2020,
+  "area": "centrodestra",
+  "personale": true
+ },
+ {
+  "nome": "Sansa Presidente",
+  "breve": "Lista Sansa",
+  "reg": "07",
+  "da": 2020,
+  "a": 2020,
+  "area": "centrosinistra",
+  "personale": true
+ },
+ {
+  "nome": "Bucci Presidente",
+  "breve": "Lista Bucci",
+  "reg": "07",
+  "da": 2024,
+  "a": 2024,
+  "area": "centrodestra",
+  "personale": true
+ },
+ {
+  "nome": "Lista Andrea Orlando",
+  "breve": "Lista Orlando",
+  "reg": "07",
+  "da": 2024,
+  "a": 2024,
+  "area": "centrosinistra",
+  "personale": true
+ },
+ {
+  "nome": "Orgoglio Liguria",
+  "breve": "Orgoglio Liguria",
+  "reg": "07",
+  "da": 2024,
+  "a": 2024,
+  "area": "centrodestra",
+  "personale": true
+ },
+ {
+  "nome": "Civici con de Pascale Presidente",
+  "breve": "Civici de Pascale",
+  "reg": "08",
+  "da": 2024,
+  "a": 2024,
+  "area": "centrosinistra",
+  "personale": true
+ },
+ {
+  "nome": "Rete Civica – Ugolini Presidente",
+  "breve": "Rete Civica",
+  "reg": "08",
+  "da": 2024,
+  "a": 2024,
+  "area": "centrodestra",
+  "personale": true
+ },
+ {
+  "nome": "Campania Libera",
+  "breve": "Campania Libera",
+  "reg": "15",
+  "da": 2015,
+  "a": 2020,
+  "area": "centrosinistra",
+  "personale": true
+ },
+ {
+  "nome": "De Luca Presidente",
+  "breve": "Lista De Luca",
+  "reg": "15",
+  "da": 2015,
+  "a": 2020,
+  "area": "centrosinistra",
+  "personale": true
+ },
+ {
+  "nome": "A Testa Alta",
+  "breve": "A Testa Alta",
+  "reg": "15",
+  "da": 2025,
+  "a": 2025,
+  "area": "centrosinistra",
+  "personale": true
+ },
+ {
+  "nome": "Fico Presidente",
+  "breve": "Lista Fico",
+  "reg": "15",
+  "da": 2025,
+  "a": 2025,
+  "area": "centrosinistra",
+  "personale": true
+ },
+ {
+  "nome": "La Puglia Prima di Tutto",
+  "breve": "Puglia Prima di Tutto",
+  "reg": "16",
+  "da": 2010,
+  "a": 2010,
+  "area": "centrodestra",
+  "personale": true
+ },
+ {
+  "nome": "Con Emiliano",
+  "breve": "Con Emiliano",
+  "reg": "16",
+  "da": 2020,
+  "a": 2020,
+  "area": "centrosinistra",
+  "personale": true
+ },
+ {
+  "nome": "Popolari con Emiliano",
+  "breve": "Popolari con Emiliano",
+  "reg": "16",
+  "da": 2020,
+  "a": 2020,
+  "area": "centrosinistra",
+  "personale": true
+ },
+ {
+  "nome": "Puglia Domani",
+  "breve": "Puglia Domani",
+  "reg": "16",
+  "da": 2020,
+  "a": 2020,
+  "area": "centrodestra",
+  "personale": true
+ },
+ {
+  "nome": "Decaro Presidente",
+  "breve": "Lista Decaro",
+  "reg": "16",
+  "da": 2025,
+  "a": 2025,
+  "area": "centrosinistra",
+  "personale": true
+ },
+ {
+  "nome": "Occhiuto Presidente",
+  "breve": "Lista Occhiuto",
+  "reg": "18",
+  "da": 2025,
+  "a": 2025,
+  "area": "centrodestra",
+  "personale": true
+ },
+ {
+  "nome": "Tridico Presidente",
+  "breve": "Lista Tridico",
+  "reg": "18",
+  "da": 2025,
+  "a": 2025,
+  "area": "centrosinistra",
+  "personale": true
+ },
+ {
+  "nome": "Nuova Sicilia",
+  "breve": "Nuova Sicilia",
+  "reg": "19",
+  "da": 2001,
+  "a": 2006,
+  "area": "centrodestra",
+  "personale": false
+ },
+ {
+  "nome": "Movimento per le Autonomie / Partito dei Siciliani",
+  "breve": "MPA",
+  "reg": "19",
+  "da": 2006,
+  "a": 2012,
+  "area": "centrodestra",
+  "personale": false
+ },
+ {
+  "nome": "Cantiere Popolare",
+  "breve": "Cantiere Popolare",
+  "reg": "19",
+  "da": 2012,
+  "a": 2012,
+  "area": "centrodestra",
+  "personale": false
+ },
+ {
+  "nome": "Grande Sud",
+  "breve": "Grande Sud",
+  "reg": "19",
+  "da": 2012,
+  "a": 2012,
+  "area": "centrodestra",
+  "personale": false
+ },
+ {
+  "nome": "Il Megafono – Lista Crocetta",
+  "breve": "Megafono",
+  "reg": "19",
+  "da": 2012,
+  "a": 2012,
+  "area": "centrosinistra",
+  "personale": true
+ },
+ {
+  "nome": "Lista Musumeci",
+  "breve": "Lista Musumeci",
+  "reg": "19",
+  "da": 2012,
+  "a": 2012,
+  "area": "centrodestra",
+  "personale": true
+ },
+ {
+  "nome": "Cento Passi per la Sicilia",
+  "breve": "Cento Passi",
+  "reg": "19",
+  "da": 2017,
+  "a": 2022,
+  "area": "sinistra",
+  "personale": false
+ },
+ {
+  "nome": "Diventerà Bellissima",
+  "breve": "DB",
+  "reg": "19",
+  "da": 2017,
+  "a": 2017,
+  "area": "destra",
+  "personale": false
+ },
+ {
+  "nome": "Popolari e Autonomisti",
+  "breve": "P&A",
+  "reg": "19",
+  "da": 2017,
+  "a": 2022,
+  "area": "centrodestra",
+  "personale": false
+ },
+ {
+  "nome": "Sicilia Futura",
+  "breve": "Sicilia Futura",
+  "reg": "19",
+  "da": 2017,
+  "a": 2017,
+  "area": "centrosinistra",
+  "personale": false
+ },
+ {
+  "nome": "Sud chiama Nord",
+  "breve": "ScN",
+  "reg": "19",
+  "da": 2022,
+  "a": 2022,
+  "area": "altro",
+  "personale": false
+ },
+ {
+  "nome": "Partito Sardo d'Azione",
+  "breve": "PSd'Az",
+  "reg": "20",
+  "da": 1994,
+  "a": 2024,
+  "area": "autonomista",
+  "personale": false
+ },
+ {
+  "nome": "Riformatori Sardi",
+  "breve": "RS",
+  "reg": "20",
+  "da": 1994,
+  "a": 2024,
+  "area": "centrodestra",
+  "personale": false
+ },
+ {
+  "nome": "Fortza Paris",
+  "breve": "Fortza Paris",
+  "reg": "20",
+  "da": 2004,
+  "a": 2024,
+  "area": "centrodestra",
+  "personale": false
+ },
+ {
+  "nome": "Progetto Sardegna",
+  "breve": "Progetto Sardegna",
+  "reg": "20",
+  "da": 2004,
+  "a": 2024,
+  "area": "centrosinistra",
+  "personale": false
+ },
+ {
+  "nome": "Unione dei Sardi",
+  "breve": "UDS",
+  "reg": "20",
+  "da": 2004,
+  "a": 2019,
+  "area": "centro",
+  "personale": false
+ },
+ {
+  "nome": "Partito dei Sardi",
+  "breve": "PdS",
+  "reg": "20",
+  "da": 2014,
+  "a": 2019,
+  "area": "autonomista",
+  "personale": false
+ },
+ {
+  "nome": "Sardegna Possibile",
+  "breve": "Sardegna Possibile",
+  "reg": "20",
+  "da": 2014,
+  "a": 2014,
+  "area": "autonomista",
+  "personale": false
+ },
+ {
+  "nome": "Progressisti (Campo Progressista Sardegna)",
+  "breve": "Progressisti",
+  "reg": "20",
+  "da": 2019,
+  "a": 2024,
+  "area": "centrosinistra",
+  "personale": false
+ },
+ {
+  "nome": "Sardegna al Centro 20Venti",
+  "breve": "Sardegna 20Venti",
+  "reg": "20",
+  "da": 2019,
+  "a": 2024,
+  "area": "centrodestra",
+  "personale": false
+ },
+ {
+  "nome": "Alleanza Sardegna",
+  "breve": "Alleanza Sardegna",
+  "reg": "20",
+  "da": 2024,
+  "a": 2024,
+  "area": "centrodestra",
+  "personale": false
+ },
+ {
+  "nome": "Orizzonte Comune",
+  "breve": "Orizzonte Comune",
+  "reg": "20",
+  "da": 2024,
+  "a": 2024,
+  "area": "centrosinistra",
+  "personale": false
+ }
+]

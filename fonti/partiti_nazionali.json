@@ -1,0 +1,1269 @@
+{
+ "_meta": {
+  "note": "Camera: territorio nazionale esclusi Valle d'Aosta ed Estero dove separati; 1994-2001 quota proporzionale. pct arrotondate a 1 decimale dai voti. area = coalizione di appartenenza a quell'elezione; per liste fuori coalizione (e per le europee) collocazione politica del momento. Soglia: >= 1,00% effettivo.",
+  "esclusi_borderline": {
+   "pol-2008": "Partito Socialista 0,98% (escluso)",
+   "pol-1996": "Fiamma Tricolore 0,91% (escluso)",
+   "pol-2001": "Nuovo PSI 0,95% (escluso)"
+  }
+ },
+ "fonti": {
+  "pol-1992": {
+   "cifre": "https://en.wikipedia.org/wiki/1992_Italian_general_election",
+   "riferimento_it": "https://it.wikipedia.org/wiki/Elezioni_politiche_in_Italia_del_1992",
+   "nota": "cifre dalla tabella risultati di en.wikipedia (fonte: Ministero dell'Interno); la tabella it.wikipedia non era leggibile via fetch, archivio Ministero non raggiungibile"
+  },
+  "pol-1994": {
+   "cifre": "https://en.wikipedia.org/wiki/1994_Italian_general_election",
+   "riferimento_it": "https://it.wikipedia.org/wiki/Elezioni_politiche_in_Italia_del_1994",
+   "nota": "cifre dalla tabella risultati di en.wikipedia (fonte: Ministero dell'Interno); la tabella it.wikipedia non era leggibile via fetch, archivio Ministero non raggiungibile"
+  },
+  "pol-1996": {
+   "cifre": "https://en.wikipedia.org/wiki/Results_of_the_1996_Italian_general_election",
+   "riferimento_it": "https://it.wikipedia.org/wiki/Elezioni_politiche_in_Italia_del_1996",
+   "nota": "cifre dalla tabella risultati di en.wikipedia (fonte: Ministero dell'Interno); la tabella it.wikipedia non era leggibile via fetch, archivio Ministero non raggiungibile"
+  },
+  "pol-2001": {
+   "cifre": "https://en.wikipedia.org/wiki/2001_Italian_general_election",
+   "riferimento_it": "https://it.wikipedia.org/wiki/Elezioni_politiche_in_Italia_del_2001",
+   "nota": "cifre dalla tabella risultati di en.wikipedia (fonte: Ministero dell'Interno); la tabella it.wikipedia non era leggibile via fetch, archivio Ministero non raggiungibile"
+  },
+  "pol-2006": {
+   "cifre": "https://en.wikipedia.org/wiki/2006_Italian_general_election",
+   "riferimento_it": "https://it.wikipedia.org/wiki/Elezioni_politiche_in_Italia_del_2006",
+   "nota": "cifre dalla tabella risultati di en.wikipedia (fonte: Ministero dell'Interno); la tabella it.wikipedia non era leggibile via fetch, archivio Ministero non raggiungibile"
+  },
+  "pol-2008": {
+   "cifre": "https://en.wikipedia.org/wiki/2008_Italian_general_election",
+   "riferimento_it": "https://it.wikipedia.org/wiki/Elezioni_politiche_in_Italia_del_2008",
+   "nota": "cifre dalla tabella risultati di en.wikipedia (fonte: Ministero dell'Interno); la tabella it.wikipedia non era leggibile via fetch, archivio Ministero non raggiungibile"
+  },
+  "pol-2013": {
+   "cifre": "https://en.wikipedia.org/wiki/2013_Italian_general_election",
+   "riferimento_it": "https://it.wikipedia.org/wiki/Elezioni_politiche_in_Italia_del_2013",
+   "nota": "cifre dalla tabella risultati di en.wikipedia (fonte: Ministero dell'Interno); la tabella it.wikipedia non era leggibile via fetch, archivio Ministero non raggiungibile"
+  },
+  "pol-2018": {
+   "cifre": "https://en.wikipedia.org/wiki/2018_Italian_general_election",
+   "riferimento_it": "https://it.wikipedia.org/wiki/Elezioni_politiche_in_Italia_del_2018",
+   "nota": "cifre dalla tabella risultati di en.wikipedia (fonte: Ministero dell'Interno); la tabella it.wikipedia non era leggibile via fetch, archivio Ministero non raggiungibile"
+  },
+  "pol-2022": {
+   "cifre": "https://en.wikipedia.org/wiki/Results_of_the_2022_Italian_general_election",
+   "riferimento_it": "https://it.wikipedia.org/wiki/Elezioni_politiche_in_Italia_del_2022",
+   "nota": "cifre dalla tabella risultati di en.wikipedia (fonte: Ministero dell'Interno); la tabella it.wikipedia non era leggibile via fetch, archivio Ministero non raggiungibile"
+  },
+  "eur-1994": {
+   "cifre": "https://en.wikipedia.org/wiki/1994_European_Parliament_election_in_Italy",
+   "riferimento_it": "https://it.wikipedia.org/wiki/Elezioni_europee_del_1994_in_Italia",
+   "nota": "cifre dalla tabella risultati di en.wikipedia (fonte: Ministero dell'Interno); la tabella it.wikipedia non era leggibile via fetch, archivio Ministero non raggiungibile"
+  },
+  "eur-1999": {
+   "cifre": "https://en.wikipedia.org/wiki/1999_European_Parliament_election_in_Italy",
+   "riferimento_it": "https://it.wikipedia.org/wiki/Elezioni_europee_del_1999_in_Italia",
+   "nota": "cifre dalla tabella risultati di en.wikipedia (fonte: Ministero dell'Interno); la tabella it.wikipedia non era leggibile via fetch, archivio Ministero non raggiungibile"
+  },
+  "eur-2004": {
+   "cifre": "https://en.wikipedia.org/wiki/2004_European_Parliament_election_in_Italy",
+   "riferimento_it": "https://it.wikipedia.org/wiki/Elezioni_europee_del_2004_in_Italia",
+   "nota": "cifre dalla tabella risultati di en.wikipedia (fonte: Ministero dell'Interno); la tabella it.wikipedia non era leggibile via fetch, archivio Ministero non raggiungibile"
+  },
+  "eur-2009": {
+   "cifre": "https://en.wikipedia.org/wiki/2009_European_Parliament_election_in_Italy",
+   "riferimento_it": "https://it.wikipedia.org/wiki/Elezioni_europee_del_2009_in_Italia",
+   "nota": "cifre dalla tabella risultati di en.wikipedia (fonte: Ministero dell'Interno); la tabella it.wikipedia non era leggibile via fetch, archivio Ministero non raggiungibile"
+  },
+  "eur-2014": {
+   "cifre": "https://en.wikipedia.org/wiki/2014_European_Parliament_election_in_Italy",
+   "riferimento_it": "https://it.wikipedia.org/wiki/Elezioni_europee_del_2014_in_Italia",
+   "nota": "cifre dalla tabella risultati di en.wikipedia (fonte: Ministero dell'Interno); la tabella it.wikipedia non era leggibile via fetch, archivio Ministero non raggiungibile"
+  },
+  "eur-2019": {
+   "cifre": "https://en.wikipedia.org/wiki/2019_European_Parliament_election_in_Italy",
+   "riferimento_it": "https://it.wikipedia.org/wiki/Elezioni_europee_del_2019_in_Italia",
+   "nota": "cifre dalla tabella risultati di en.wikipedia (fonte: Ministero dell'Interno); la tabella it.wikipedia non era leggibile via fetch, archivio Ministero non raggiungibile"
+  },
+  "eur-2024": {
+   "cifre": "https://en.wikipedia.org/wiki/2024_European_Parliament_election_in_Italy",
+   "riferimento_it": "https://it.wikipedia.org/wiki/Elezioni_europee_del_2024_in_Italia",
+   "nota": "cifre dalla tabella risultati di en.wikipedia (fonte: Ministero dell'Interno); la tabella it.wikipedia non era leggibile via fetch, archivio Ministero non raggiungibile"
+  }
+ },
+ "pol-1992": {
+  "liste": [
+   {
+    "nome": "Democrazia Cristiana",
+    "breve": "DC",
+    "pct": 29.7,
+    "area": "centro"
+   },
+   {
+    "nome": "Partito Democratico della Sinistra",
+    "breve": "PDS",
+    "pct": 16.1,
+    "area": "sinistra"
+   },
+   {
+    "nome": "Partito Socialista Italiano",
+    "breve": "PSI",
+    "pct": 13.6,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Lega Nord",
+    "breve": "Lega Nord",
+    "pct": 8.7,
+    "area": "altro"
+   },
+   {
+    "nome": "Rifondazione Comunista",
+    "breve": "PRC",
+    "pct": 5.6,
+    "area": "sinistra"
+   },
+   {
+    "nome": "Movimento Sociale Italiano - Destra Nazionale",
+    "breve": "MSI-DN",
+    "pct": 5.4,
+    "area": "destra"
+   },
+   {
+    "nome": "Partito Repubblicano Italiano",
+    "breve": "PRI",
+    "pct": 4.4,
+    "area": "centro"
+   },
+   {
+    "nome": "Partito Liberale Italiano",
+    "breve": "PLI",
+    "pct": 2.9,
+    "area": "centro"
+   },
+   {
+    "nome": "Federazione dei Verdi",
+    "breve": "Verdi",
+    "pct": 2.8,
+    "area": "sinistra"
+   },
+   {
+    "nome": "Partito Socialista Democratico Italiano",
+    "breve": "PSDI",
+    "pct": 2.7,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Movimento per la Democrazia - La Rete",
+    "breve": "La Rete",
+    "pct": 1.9,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Lista Pannella",
+    "breve": "Lista Pannella",
+    "pct": 1.2,
+    "area": "altro"
+   }
+  ],
+  "coalizioni": []
+ },
+ "pol-1994": {
+  "liste": [
+   {
+    "nome": "Forza Italia",
+    "breve": "FI",
+    "pct": 21.0,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Partito Democratico della Sinistra",
+    "breve": "PDS",
+    "pct": 20.4,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Alleanza Nazionale",
+    "breve": "AN",
+    "pct": 13.5,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Partito Popolare Italiano",
+    "breve": "PPI",
+    "pct": 11.1,
+    "area": "centro"
+   },
+   {
+    "nome": "Lega Nord",
+    "breve": "Lega Nord",
+    "pct": 8.4,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Rifondazione Comunista",
+    "breve": "PRC",
+    "pct": 6.1,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Patto Segni",
+    "breve": "Patto Segni",
+    "pct": 4.7,
+    "area": "centro"
+   },
+   {
+    "nome": "Lista Pannella - Riformatori",
+    "breve": "Lista Pannella",
+    "pct": 3.5,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Federazione dei Verdi",
+    "breve": "Verdi",
+    "pct": 2.7,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Partito Socialista Italiano",
+    "breve": "PSI",
+    "pct": 2.2,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "La Rete",
+    "breve": "La Rete",
+    "pct": 1.9,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Alleanza Democratica",
+    "breve": "AD",
+    "pct": 1.2,
+    "area": "centrosinistra"
+   }
+  ],
+  "coalizioni": [
+   {
+    "nome": "Polo delle Libertà",
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Polo del Buon Governo",
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Progressisti",
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Patto per l'Italia",
+    "area": "centro"
+   }
+  ]
+ },
+ "pol-1996": {
+  "liste": [
+   {
+    "nome": "Partito Democratico della Sinistra",
+    "breve": "PDS",
+    "pct": 21.1,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Forza Italia",
+    "breve": "FI",
+    "pct": 20.6,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Alleanza Nazionale",
+    "breve": "AN",
+    "pct": 15.7,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Lega Nord",
+    "breve": "Lega Nord",
+    "pct": 10.1,
+    "area": "altro"
+   },
+   {
+    "nome": "Rifondazione Comunista",
+    "breve": "PRC",
+    "pct": 8.6,
+    "area": "sinistra"
+   },
+   {
+    "nome": "Popolari per Prodi",
+    "breve": "PPI",
+    "pct": 6.8,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "CCD-CDU",
+    "breve": "CCD-CDU",
+    "pct": 5.8,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Lista Dini - Rinnovamento Italiano",
+    "breve": "RI",
+    "pct": 4.3,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Federazione dei Verdi",
+    "breve": "Verdi",
+    "pct": 2.5,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Lista Pannella-Sgarbi",
+    "breve": "Pannella-Sgarbi",
+    "pct": 1.9,
+    "area": "altro"
+   }
+  ],
+  "coalizioni": [
+   {
+    "nome": "L'Ulivo",
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Polo per le Libertà",
+    "area": "centrodestra"
+   }
+  ]
+ },
+ "pol-2001": {
+  "liste": [
+   {
+    "nome": "Forza Italia",
+    "breve": "FI",
+    "pct": 29.4,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Democratici di Sinistra",
+    "breve": "DS",
+    "pct": 16.6,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Democrazia è Libertà - La Margherita",
+    "breve": "DL Margherita",
+    "pct": 14.5,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Alleanza Nazionale",
+    "breve": "AN",
+    "pct": 12.0,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Rifondazione Comunista",
+    "breve": "PRC",
+    "pct": 5.0,
+    "area": "sinistra"
+   },
+   {
+    "nome": "Lega Nord",
+    "breve": "Lega Nord",
+    "pct": 3.9,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Lista Di Pietro - Italia dei Valori",
+    "breve": "IdV",
+    "pct": 3.9,
+    "area": "altro"
+   },
+   {
+    "nome": "CCD-CDU Biancofiore",
+    "breve": "CCD-CDU",
+    "pct": 3.2,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Democrazia Europea",
+    "breve": "DE",
+    "pct": 2.4,
+    "area": "centro"
+   },
+   {
+    "nome": "Lista Emma Bonino",
+    "breve": "Lista Bonino",
+    "pct": 2.2,
+    "area": "altro"
+   },
+   {
+    "nome": "Il Girasole (Verdi - SDI)",
+    "breve": "Girasole",
+    "pct": 2.2,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Comunisti Italiani",
+    "breve": "PdCI",
+    "pct": 1.7,
+    "area": "centrosinistra"
+   }
+  ],
+  "coalizioni": [
+   {
+    "nome": "Casa delle Libertà",
+    "area": "centrodestra"
+   },
+   {
+    "nome": "L'Ulivo",
+    "area": "centrosinistra"
+   }
+  ]
+ },
+ "pol-2006": {
+  "liste": [
+   {
+    "nome": "L'Ulivo",
+    "breve": "Ulivo",
+    "pct": 31.3,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Forza Italia",
+    "breve": "FI",
+    "pct": 23.7,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Alleanza Nazionale",
+    "breve": "AN",
+    "pct": 12.3,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "UDC - Unione dei Democratici Cristiani e Democratici di Centro",
+    "breve": "UDC",
+    "pct": 6.8,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Rifondazione Comunista",
+    "breve": "PRC",
+    "pct": 5.8,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Lega Nord - Movimento per l'Autonomia",
+    "breve": "LN-MpA",
+    "pct": 4.6,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "La Rosa nel Pugno",
+    "breve": "RnP",
+    "pct": 2.6,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Comunisti Italiani",
+    "breve": "PdCI",
+    "pct": 2.3,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Di Pietro Italia dei Valori",
+    "breve": "IdV",
+    "pct": 2.3,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Verdi",
+    "breve": "Verdi",
+    "pct": 2.1,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Popolari UDEUR",
+    "breve": "UDEUR",
+    "pct": 1.4,
+    "area": "centrosinistra"
+   }
+  ],
+  "coalizioni": [
+   {
+    "nome": "L'Unione",
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Casa delle Libertà",
+    "area": "centrodestra"
+   }
+  ]
+ },
+ "pol-2008": {
+  "liste": [
+   {
+    "nome": "Il Popolo della Libertà",
+    "breve": "PdL",
+    "pct": 37.4,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Partito Democratico",
+    "breve": "PD",
+    "pct": 33.2,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Lega Nord",
+    "breve": "Lega Nord",
+    "pct": 8.3,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Unione di Centro",
+    "breve": "UdC",
+    "pct": 5.6,
+    "area": "centro"
+   },
+   {
+    "nome": "Di Pietro Italia dei Valori",
+    "breve": "IdV",
+    "pct": 4.4,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "La Sinistra l'Arcobaleno",
+    "breve": "SA",
+    "pct": 3.1,
+    "area": "sinistra"
+   },
+   {
+    "nome": "La Destra - Fiamma Tricolore",
+    "breve": "La Destra",
+    "pct": 2.4,
+    "area": "destra"
+   },
+   {
+    "nome": "Movimento per le Autonomie - Alleanza per il Sud",
+    "breve": "MpA",
+    "pct": 1.1,
+    "area": "centrodestra"
+   }
+  ],
+  "coalizioni": [
+   {
+    "nome": "Centrodestra",
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Centrosinistra",
+    "area": "centrosinistra"
+   }
+  ]
+ },
+ "pol-2013": {
+  "liste": [
+   {
+    "nome": "Movimento 5 Stelle",
+    "breve": "M5S",
+    "pct": 25.6,
+    "area": "altro"
+   },
+   {
+    "nome": "Partito Democratico",
+    "breve": "PD",
+    "pct": 25.4,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Il Popolo della Libertà",
+    "breve": "PdL",
+    "pct": 21.6,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Scelta Civica con Monti per l'Italia",
+    "breve": "SC",
+    "pct": 8.3,
+    "area": "centro"
+   },
+   {
+    "nome": "Lega Nord",
+    "breve": "Lega Nord",
+    "pct": 4.1,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Sinistra Ecologia Libertà",
+    "breve": "SEL",
+    "pct": 3.2,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Rivoluzione Civile",
+    "breve": "RC",
+    "pct": 2.3,
+    "area": "sinistra"
+   },
+   {
+    "nome": "Fratelli d'Italia",
+    "breve": "FdI",
+    "pct": 2.0,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Unione di Centro",
+    "breve": "UdC",
+    "pct": 1.8,
+    "area": "centro"
+   },
+   {
+    "nome": "Fare per Fermare il Declino",
+    "breve": "FFD",
+    "pct": 1.1,
+    "area": "altro"
+   }
+  ],
+  "coalizioni": [
+   {
+    "nome": "Italia. Bene Comune",
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Centrodestra",
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Con Monti per l'Italia",
+    "area": "centro"
+   }
+  ]
+ },
+ "pol-2018": {
+  "liste": [
+   {
+    "nome": "Movimento 5 Stelle",
+    "breve": "M5S",
+    "pct": 32.7,
+    "area": "altro"
+   },
+   {
+    "nome": "Partito Democratico",
+    "breve": "PD",
+    "pct": 18.8,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Lega",
+    "breve": "Lega",
+    "pct": 17.4,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Forza Italia",
+    "breve": "FI",
+    "pct": 14.0,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Fratelli d'Italia",
+    "breve": "FdI",
+    "pct": 4.4,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Liberi e Uguali",
+    "breve": "LeU",
+    "pct": 3.4,
+    "area": "sinistra"
+   },
+   {
+    "nome": "+Europa",
+    "breve": "+Europa",
+    "pct": 2.6,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Noi con l'Italia - UDC",
+    "breve": "NcI-UDC",
+    "pct": 1.3,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Potere al Popolo!",
+    "breve": "PaP",
+    "pct": 1.1,
+    "area": "sinistra"
+   }
+  ],
+  "coalizioni": [
+   {
+    "nome": "Centrodestra",
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Centrosinistra",
+    "area": "centrosinistra"
+   }
+  ]
+ },
+ "pol-2022": {
+  "liste": [
+   {
+    "nome": "Fratelli d'Italia",
+    "breve": "FdI",
+    "pct": 26.0,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Partito Democratico - Italia Democratica e Progressista",
+    "breve": "PD",
+    "pct": 19.0,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Movimento 5 Stelle",
+    "breve": "M5S",
+    "pct": 15.4,
+    "area": "altro"
+   },
+   {
+    "nome": "Lega",
+    "breve": "Lega",
+    "pct": 8.8,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Forza Italia",
+    "breve": "FI",
+    "pct": 8.1,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Azione - Italia Viva",
+    "breve": "A-IV",
+    "pct": 7.8,
+    "area": "centro"
+   },
+   {
+    "nome": "Alleanza Verdi e Sinistra",
+    "breve": "AVS",
+    "pct": 3.6,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "+Europa",
+    "breve": "+Europa",
+    "pct": 2.8,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Italexit per l'Italia",
+    "breve": "Italexit",
+    "pct": 1.9,
+    "area": "altro"
+   },
+   {
+    "nome": "Unione Popolare",
+    "breve": "UP",
+    "pct": 1.4,
+    "area": "sinistra"
+   },
+   {
+    "nome": "Italia Sovrana e Popolare",
+    "breve": "ISP",
+    "pct": 1.2,
+    "area": "altro"
+   }
+  ],
+  "coalizioni": [
+   {
+    "nome": "Centrodestra",
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Centrosinistra",
+    "area": "centrosinistra"
+   }
+  ]
+ },
+ "eur-1994": {
+  "liste": [
+   {
+    "nome": "Forza Italia",
+    "breve": "FI",
+    "pct": 30.6,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Partito Democratico della Sinistra",
+    "breve": "PDS",
+    "pct": 19.1,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Alleanza Nazionale",
+    "breve": "AN",
+    "pct": 12.5,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Partito Popolare Italiano",
+    "breve": "PPI",
+    "pct": 10.0,
+    "area": "centro"
+   },
+   {
+    "nome": "Lega Nord",
+    "breve": "Lega Nord",
+    "pct": 6.6,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Rifondazione Comunista",
+    "breve": "PRC",
+    "pct": 6.1,
+    "area": "sinistra"
+   },
+   {
+    "nome": "Patto Segni",
+    "breve": "Patto Segni",
+    "pct": 3.3,
+    "area": "centro"
+   },
+   {
+    "nome": "Federazione dei Verdi",
+    "breve": "Verdi",
+    "pct": 3.2,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Lista Pannella - Riformatori",
+    "breve": "Lista Pannella",
+    "pct": 2.1,
+    "area": "altro"
+   },
+   {
+    "nome": "PSI - Alleanza Democratica",
+    "breve": "PSI-AD",
+    "pct": 1.8,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "La Rete",
+    "breve": "La Rete",
+    "pct": 1.1,
+    "area": "centrosinistra"
+   }
+  ]
+ },
+ "eur-1999": {
+  "liste": [
+   {
+    "nome": "Forza Italia",
+    "breve": "FI",
+    "pct": 25.2,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Democratici di Sinistra",
+    "breve": "DS",
+    "pct": 17.3,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Alleanza Nazionale - Patto Segni",
+    "breve": "AN-Segni",
+    "pct": 10.3,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Lista Emma Bonino",
+    "breve": "Lista Bonino",
+    "pct": 8.5,
+    "area": "altro"
+   },
+   {
+    "nome": "I Democratici",
+    "breve": "Democratici",
+    "pct": 7.7,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Lega Nord",
+    "breve": "Lega Nord",
+    "pct": 4.5,
+    "area": "altro"
+   },
+   {
+    "nome": "Rifondazione Comunista",
+    "breve": "PRC",
+    "pct": 4.3,
+    "area": "sinistra"
+   },
+   {
+    "nome": "Partito Popolare Italiano",
+    "breve": "PPI",
+    "pct": 4.2,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Centro Cristiano Democratico",
+    "breve": "CCD",
+    "pct": 2.6,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Socialisti Democratici Italiani",
+    "breve": "SDI",
+    "pct": 2.2,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Cristiani Democratici Uniti",
+    "breve": "CDU",
+    "pct": 2.2,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Comunisti Italiani",
+    "breve": "PdCI",
+    "pct": 2.0,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Federazione dei Verdi",
+    "breve": "Verdi",
+    "pct": 1.8,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Unione Democratici per l'Europa",
+    "breve": "UDEUR",
+    "pct": 1.6,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Movimento Sociale - Fiamma Tricolore",
+    "breve": "Fiamma Tricolore",
+    "pct": 1.6,
+    "area": "destra"
+   },
+   {
+    "nome": "Rinnovamento Italiano",
+    "breve": "RI",
+    "pct": 1.1,
+    "area": "centrosinistra"
+   }
+  ]
+ },
+ "eur-2004": {
+  "liste": [
+   {
+    "nome": "Uniti nell'Ulivo",
+    "breve": "Ulivo",
+    "pct": 31.1,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Forza Italia",
+    "breve": "FI",
+    "pct": 20.9,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Alleanza Nazionale",
+    "breve": "AN",
+    "pct": 11.5,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Rifondazione Comunista",
+    "breve": "PRC",
+    "pct": 6.1,
+    "area": "sinistra"
+   },
+   {
+    "nome": "UDC - Unione dei Democratici Cristiani e Democratici di Centro",
+    "breve": "UDC",
+    "pct": 5.9,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Lega Nord",
+    "breve": "Lega Nord",
+    "pct": 5.0,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Verdi",
+    "breve": "Verdi",
+    "pct": 2.5,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Comunisti Italiani",
+    "breve": "PdCI",
+    "pct": 2.4,
+    "area": "sinistra"
+   },
+   {
+    "nome": "Lista Emma Bonino",
+    "breve": "Lista Bonino",
+    "pct": 2.2,
+    "area": "altro"
+   },
+   {
+    "nome": "Società Civile Di Pietro - Occhetto",
+    "breve": "IdV",
+    "pct": 2.1,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Socialisti Uniti per l'Europa",
+    "breve": "SUE",
+    "pct": 2.0,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Alleanza Popolare - UDEUR",
+    "breve": "UDEUR",
+    "pct": 1.3,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Alternativa Sociale con Alessandra Mussolini",
+    "breve": "AS",
+    "pct": 1.2,
+    "area": "destra"
+   },
+   {
+    "nome": "Partito Pensionati",
+    "breve": "Pensionati",
+    "pct": 1.2,
+    "area": "altro"
+   }
+  ]
+ },
+ "eur-2009": {
+  "liste": [
+   {
+    "nome": "Il Popolo della Libertà",
+    "breve": "PdL",
+    "pct": 35.3,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Partito Democratico",
+    "breve": "PD",
+    "pct": 26.1,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Lega Nord",
+    "breve": "Lega Nord",
+    "pct": 10.2,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Italia dei Valori - Lista Di Pietro",
+    "breve": "IdV",
+    "pct": 8.0,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Unione di Centro",
+    "breve": "UdC",
+    "pct": 6.5,
+    "area": "centro"
+   },
+   {
+    "nome": "Rifondazione Comunista - Sinistra Europea - Comunisti Italiani",
+    "breve": "PRC-PdCI",
+    "pct": 3.4,
+    "area": "sinistra"
+   },
+   {
+    "nome": "Sinistra e Libertà",
+    "breve": "SL",
+    "pct": 3.1,
+    "area": "sinistra"
+   },
+   {
+    "nome": "Lista Marco Pannella - Emma Bonino",
+    "breve": "Lista Bonino-Pannella",
+    "pct": 2.4,
+    "area": "altro"
+   },
+   {
+    "nome": "L'Autonomia",
+    "breve": "L'Autonomia",
+    "pct": 2.2,
+    "area": "altro"
+   }
+  ]
+ },
+ "eur-2014": {
+  "liste": [
+   {
+    "nome": "Partito Democratico",
+    "breve": "PD",
+    "pct": 40.8,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Movimento 5 Stelle",
+    "breve": "M5S",
+    "pct": 21.2,
+    "area": "altro"
+   },
+   {
+    "nome": "Forza Italia",
+    "breve": "FI",
+    "pct": 16.8,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Lega Nord",
+    "breve": "Lega Nord",
+    "pct": 6.2,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Nuovo Centrodestra - UDC",
+    "breve": "NCD-UDC",
+    "pct": 4.4,
+    "area": "centro"
+   },
+   {
+    "nome": "L'Altra Europa con Tsipras",
+    "breve": "Lista Tsipras",
+    "pct": 4.0,
+    "area": "sinistra"
+   },
+   {
+    "nome": "Fratelli d'Italia - Alleanza Nazionale",
+    "breve": "FdI",
+    "pct": 3.7,
+    "area": "centrodestra"
+   }
+  ]
+ },
+ "eur-2019": {
+  "liste": [
+   {
+    "nome": "Lega",
+    "breve": "Lega",
+    "pct": 34.3,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Partito Democratico - Siamo Europei",
+    "breve": "PD",
+    "pct": 22.7,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Movimento 5 Stelle",
+    "breve": "M5S",
+    "pct": 17.1,
+    "area": "altro"
+   },
+   {
+    "nome": "Forza Italia",
+    "breve": "FI",
+    "pct": 8.8,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Fratelli d'Italia",
+    "breve": "FdI",
+    "pct": 6.4,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "+Europa - Italia in Comune - PDE",
+    "breve": "+Europa",
+    "pct": 3.1,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Europa Verde",
+    "breve": "EV",
+    "pct": 2.3,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "La Sinistra",
+    "breve": "La Sinistra",
+    "pct": 1.8,
+    "area": "sinistra"
+   }
+  ]
+ },
+ "eur-2024": {
+  "liste": [
+   {
+    "nome": "Fratelli d'Italia",
+    "breve": "FdI",
+    "pct": 28.8,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Partito Democratico",
+    "breve": "PD",
+    "pct": 24.1,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Movimento 5 Stelle",
+    "breve": "M5S",
+    "pct": 10.0,
+    "area": "altro"
+   },
+   {
+    "nome": "Forza Italia - Noi Moderati - PPE",
+    "breve": "FI-NM",
+    "pct": 9.6,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Lega",
+    "breve": "Lega",
+    "pct": 9.0,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Alleanza Verdi e Sinistra",
+    "breve": "AVS",
+    "pct": 6.8,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Stati Uniti d'Europa",
+    "breve": "SUE",
+    "pct": 3.8,
+    "area": "centro"
+   },
+   {
+    "nome": "Azione - Siamo Europei",
+    "breve": "Azione",
+    "pct": 3.4,
+    "area": "centro"
+   },
+   {
+    "nome": "Pace Terra Dignità",
+    "breve": "PTD",
+    "pct": 2.2,
+    "area": "sinistra"
+   },
+   {
+    "nome": "Libertà",
+    "breve": "Libertà",
+    "pct": 1.2,
+    "area": "altro"
+   }
+  ]
+ }
+}
