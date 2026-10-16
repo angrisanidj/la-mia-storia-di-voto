@@ -33,7 +33,8 @@ jobs:
       - name: Scarica le comunali delle regioni a statuto speciale
         id: scarico
         env:
-          PAUSA_TT: '0.8'
+          PAUSA_TT: '1.0'
+          LAVORATORI: '3'
           LIMITE_MINUTI: '90'
         run: python strumenti/comunali_speciali.py
       - name: Salva i dati

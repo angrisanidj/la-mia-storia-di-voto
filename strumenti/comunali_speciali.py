@@ -12,7 +12,10 @@ import datetime as dt
 import json
 import os
 import re
+import subprocess
+import threading
 import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 import unicodedata
 
 import requests
@@ -25,6 +28,8 @@ REGIONI = {"sicilia": "19", "friuli-venezia-giulia": "06", "valle-d-aosta": "02"
 PAUSA = float(os.environ.get("PAUSA_TT", "1.0"))
 LIMITE_MINUTI = float(os.environ.get("LIMITE_MINUTI", "95"))
 INIZIO = time.time()
+LAVORATORI = int(os.environ.get("LAVORATORI", "3"))
+OGNI_MINUTI = float(os.environ.get("SALVA_OGNI_MINUTI", "15"))
 STATO = os.path.join(RADICE, "strumenti", "comunali-speciali-stato.json")
 MESI = {m: i + 1 for i, m in enumerate(["gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno", "luglio",
                                         "agosto", "settembre", "ottobre", "novembre", "dicembre"])}
@@ -40,7 +45,7 @@ def norm(s):
 def sessione():
     s = requests.Session()
     s.headers["User-Agent"] = "la-mia-storia-di-voto (github.com/angrisanidj/la-mia-storia-di-voto)"
-    s.mount("https://", HTTPAdapter(max_retries=Retry(total=2, backoff_factor=2, status_forcelist=[429, 500, 502, 503, 504], respect_retry_after_header=False)))
+    s.mount("https://", HTTPAdapter(max_retries=Retry(total=1, backoff_factor=2, status_forcelist=[429, 500, 502, 503, 504], respect_retry_after_header=False)))
     return s
 
 
@@ -90,6 +95,64 @@ def salva_stato(stato):
         json.dump(stato, f, ensure_ascii=False, separators=(",", ":"))
 
 
+LOCALE = threading.local()
+
+
+def leggi(url):
+    """(url, elezioni o None, secondi, errore) per una pagina di comune."""
+    if not hasattr(LOCALE, "s"):
+        LOCALE.s = sessione()
+    time.sleep(PAUSA)
+    t = time.time()
+    try:
+        r = LOCALE.s.get(SITO + url, timeout=(10, 20))
+        if r.status_code != 200:
+            return url, None, time.time() - t, f"HTTP {r.status_code}"
+        return url, elezioni_comune(r.text), time.time() - t, None
+    except requests.RequestException as e:
+        return url, None, time.time() - t, type(e).__name__
+
+
+def applica(stato, indice):
+    """Abbina le pagine lette ai codici dei comuni e le unisce alle date del Ministero."""
+    trovati, non_trovati = {}, []
+    for slug_reg, urls in stato["pagine"].items():
+        reg = REGIONI[slug_reg]
+        for url in urls:
+            if url not in stato["fatti"]:
+                continue
+            nome = re.match(rf"/{slug_reg}/\d+-([^/]+)/", url).group(1).replace("-", " ")
+            cand = indice.get((reg, norm(nome)), [])
+            if not cand:
+                non_trovati.append(f"{reg}\t{url}")
+                continue
+            el = [tuple(x) for x in stato["fatti"][url]]
+            if el:
+                trovati[sorted(cand, key=lambda c: not c[1])[0][0]] = el
+    unisci(trovati)
+    with open(os.path.join(RADICE, "strumenti", "comunali-speciali-non-trovati.txt"), "w", encoding="utf-8") as f:
+        f.write("\n".join(non_trovati) + "\n")
+    return trovati, non_trovati
+
+
+def pubblica(stato, indice, messaggio):
+    """Su GitHub Actions salva subito il lavoro fatto, così non si perde e si vede l'avanzamento."""
+    salva_stato(stato)
+    if not os.environ.get("GITHUB_ACTIONS"):
+        return
+    applica(stato, indice)
+    file = ["dati/comunali.js", "strumenti/comunali-speciali-non-trovati.txt", "strumenti/comunali-speciali-stato.json"]
+    git = lambda *a: subprocess.run(["git", *a], cwd=RADICE, capture_output=True, text=True)
+    git("add", *file)
+    if git("diff", "--cached", "--quiet").returncode == 0:
+        return
+    git("commit", "-m", messaggio)
+    for _ in range(3):
+        if git("pull", "--rebase", "origin", "main").returncode == 0 and git("push").returncode == 0:
+            return
+        time.sleep(5)
+
+
 def main():
     """Lavora a rate: salva lo stato man mano e riparte da dove si era fermato."""
     S = sessione()
@@ -110,43 +173,42 @@ def main():
         stato["pagine"][slug_reg] = sorted(comuni)
         salva_stato(stato)
         print(f"[{slug_reg}] {len(province)} province, {len(comuni)} comuni", flush=True)
-    # 2) le pagine dei comuni non ancora lette
-    da_fare = [(slug, url) for slug, urls in stato["pagine"].items() for url in urls if url not in stato["fatti"]]
+    # 2) le pagine dei comuni non ancora lette, qualche richiesta alla volta
+    da_fare = [url for urls in stato["pagine"].values() for url in urls if url not in stato["fatti"]]
     print(f"[i] {len(da_fare)} comuni da leggere", flush=True)
-    for i, (slug_reg, url) in enumerate(da_fare):
-        if (time.time() - INIZIO) / 60 > LIMITE_MINUTI:
-            print("[!] tempo esaurito: salvo e riprendo al prossimo giro", flush=True)
-            break
-        time.sleep(PAUSA)
-        try:
-            stato["fatti"][url] = elezioni_comune(S.get(SITO + url, timeout=30).text)
-        except requests.RequestException as e:
-            print(f"[!] {url}: {e}", flush=True)
-            continue
-        if i % 25 == 0:
-            salva_stato(stato)
-            print(f"[{i + 1}/{len(da_fare)}]", flush=True)
+    esiti, tempi, ultimo = {}, [], time.time()
+    with ThreadPoolExecutor(LAVORATORI) as pool:
+        attesi = {}
+        coda = iter(da_fare)
+        def avvia():
+            if (time.time() - INIZIO) / 60 > LIMITE_MINUTI:
+                return
+            u = next(coda, None)
+            if u:
+                attesi[pool.submit(leggi, u)] = u
+        for _ in range(LAVORATORI):
+            avvia()
+        while attesi:
+            fut = next(as_completed(attesi))
+            del attesi[fut]
+            url, el, sec, err = fut.result()
+            esiti[err or "ok"] = esiti.get(err or "ok", 0) + 1
+            if err is None:
+                stato["fatti"][url] = el
+                tempi.append(sec)
+            avvia()
+            if (time.time() - ultimo) / 60 > OGNI_MINUTI:
+                ultimo = time.time()
+                print(f"[{len(stato['fatti'])} letti] {esiti}", flush=True)
+                pubblica(stato, indice, f"Comunali delle regioni a statuto speciale: {len(stato['fatti'])} comuni letti")
     salva_stato(stato)
     # 3) abbinamento ai codici dei comuni e unione con le date del Ministero
-    trovati, non_trovati = {}, []
-    for slug_reg, urls in stato["pagine"].items():
-        reg = REGIONI[slug_reg]
-        for url in urls:
-            if url not in stato["fatti"]:
-                continue
-            nome = re.match(rf"/{slug_reg}/\d+-([^/]+)/", url).group(1).replace("-", " ")
-            cand = indice.get((reg, norm(nome)), [])
-            if not cand:
-                non_trovati.append(f"{reg}\t{url}")
-                continue
-            el = [tuple(x) for x in stato["fatti"][url]]
-            if el:
-                trovati[sorted(cand, key=lambda c: not c[1])[0][0]] = el
-    unisci(trovati)
-    with open(os.path.join(RADICE, "strumenti", "comunali-speciali-non-trovati.txt"), "w", encoding="utf-8") as f:
-        f.write("\n".join(non_trovati) + "\n")
+    trovati, non_trovati = applica(stato, indice)
     mancano = sum(1 for urls in stato["pagine"].values() for u in urls if u not in stato["fatti"])
-    print(f"[ok] {len(trovati)} comuni con date, {len(non_trovati)} non abbinati, {mancano} ancora da leggere", flush=True)
+    medio = sum(tempi) / len(tempi) if tempi else 0
+    riepilogo = f"{len(trovati)} comuni con date, {len(non_trovati)} non abbinati, {mancano} ancora da leggere; esiti {esiti}; tempo medio {medio:.1f}s"
+    print(f"[ok] {riepilogo}", flush=True)
+    print(f"::notice title=Comunali speciali::{riepilogo}", flush=True)
     if os.environ.get("GITHUB_OUTPUT"):
         with open(os.environ["GITHUB_OUTPUT"], "a") as f:
             f.write(f"mancano={mancano}\n")
