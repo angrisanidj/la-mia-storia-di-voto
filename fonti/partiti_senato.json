@@ -1,0 +1,529 @@
+{
+ "sen-1992": {
+  "liste": [
+   {
+    "nome": "Democrazia Cristiana",
+    "breve": "DC",
+    "pct": 27.3,
+    "area": "centro"
+   },
+   {
+    "nome": "Partito Democratico della Sinistra",
+    "breve": "PDS",
+    "pct": 17.1,
+    "area": "sinistra"
+   },
+   {
+    "nome": "Partito Socialista Italiano",
+    "breve": "PSI",
+    "pct": 13.6,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Lega Nord",
+    "breve": "Lega Nord",
+    "pct": 8.2,
+    "area": "altro"
+   },
+   {
+    "nome": "Rifondazione Comunista",
+    "breve": "PRC",
+    "pct": 6.5,
+    "area": "sinistra"
+   },
+   {
+    "nome": "Movimento Sociale Italiano - Destra Nazionale",
+    "breve": "MSI-DN",
+    "pct": 6.5,
+    "area": "destra"
+   },
+   {
+    "nome": "Partito Repubblicano Italiano",
+    "breve": "PRI",
+    "pct": 4.7,
+    "area": "centro"
+   },
+   {
+    "nome": "Federazione dei Verdi",
+    "breve": "Verdi",
+    "pct": 3.1,
+    "area": "sinistra"
+   },
+   {
+    "nome": "Partito Liberale Italiano",
+    "breve": "PLI",
+    "pct": 2.8,
+    "area": "centro"
+   },
+   {
+    "nome": "Partito Socialista Democratico Italiano",
+    "breve": "PSDI",
+    "pct": 2.6,
+    "area": "centrosinistra"
+   }
+  ],
+  "uninominale": false,
+  "note": "Sistema 1948-1992: si votava un candidato nel collegio senatoriale sotto il simbolo di partito (eletto direttamente solo con il 65%, altrimenti riparto proporzionale regionale per gruppi), quindi di fatto un voto di lista. Elettorato attivo solo da 25 anni. Differenze dalla Camera: La Rete 0,7% e Lista Pannella 0,5% (sotto soglia al Senato, presenti in meno regioni); 'Sì Referendum' 0,997% escluso per un soffio (stampato 1,00%). PRC (2.171.950) appena sopra MSI-DN (2.171.215). Percentuali sul totale nazionale (comprende Valle d'Aosta e Trentino-Alto Adige, non c'era circoscrizione Estero)."
+ },
+ "sen-1994": {
+  "liste": [
+   {
+    "nome": "Progressisti",
+    "breve": "Progressisti",
+    "pct": 32.9,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Polo delle Libertà",
+    "breve": "Polo delle Libertà",
+    "pct": 19.9,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Patto per l'Italia",
+    "breve": "Patto per l'Italia",
+    "pct": 16.7,
+    "area": "centro"
+   },
+   {
+    "nome": "Polo del Buon Governo",
+    "breve": "Polo del Buon Governo",
+    "pct": 13.7,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Alleanza Nazionale",
+    "breve": "AN",
+    "pct": 6.3,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Lista Pannella",
+    "breve": "Lista Pannella",
+    "pct": 2.3,
+    "area": "centrodestra"
+   }
+  ],
+  "uninominale": true,
+  "note": "Mattarellum: un solo voto per un candidato nel collegio uninominale (232 collegi), 83 seggi ripartiti proporzionalmente con scorporo sugli stessi voti; nessun voto di lista separato. Differenze dalla Camera: FI, Lega Nord e CCD non compaiono da soli ma dentro 'Polo delle Libertà' (Nord) e 'Polo del Buon Governo' (Centro-Sud, con AN); AN corre da sola nei collegi del Nord; PDS, PRC, Verdi, PSI, Rete, AD dentro 'Progressisti'; PPI e Patto Segni dentro 'Patto per l'Italia'. Lista Pannella 'centrodestra' per coerenza con la Camera, ma al Senato ha candidati propri. Elettorato attivo da 25 anni."
+ },
+ "sen-1996": {
+  "liste": [
+   {
+    "nome": "L'Ulivo",
+    "breve": "Ulivo",
+    "pct": 41.2,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Polo per le Libertà",
+    "breve": "Polo per le Libertà",
+    "pct": 37.3,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Lega Nord",
+    "breve": "Lega Nord",
+    "pct": 10.4,
+    "area": "altro"
+   },
+   {
+    "nome": "Rifondazione Comunista (Progressisti)",
+    "breve": "PRC",
+    "pct": 2.9,
+    "area": "sinistra"
+   },
+   {
+    "nome": "Movimento Sociale Fiamma Tricolore",
+    "breve": "Fiamma Tricolore",
+    "pct": 2.3,
+    "area": "destra"
+   },
+   {
+    "nome": "Lista Pannella-Sgarbi",
+    "breve": "Pannella-Sgarbi",
+    "pct": 1.6,
+    "area": "altro"
+   }
+  ],
+  "uninominale": true,
+  "note": "Mattarellum: un voto per un candidato nel collegio uninominale. Differenze dalla Camera: nessuna lista di partito, PDS/PPI-Popolari per Prodi/RI-Dini/Verdi tutti sotto 'L'Ulivo', FI/AN/CCD-CDU sotto 'Polo per le Libertà'; Rifondazione corre con il simbolo 'Progressisti' nei collegi di desistenza (2,9%; la riga 'PRC' a proprio nome ha solo lo 0,02%). Fiamma Tricolore sopra soglia al Senato (2,3%) mentre alla Camera proporzionale era 0,9%. Socialisti 0,88% esclusi. Elettorato attivo da 25 anni. Dubbio: en.wikipedia riporta per l'Ulivo due cifre (13.444.978 = 41,2% nella tabella principale; 13.013.276 = 39,9% in una seconda tabella); tenuto 41,2%, coerente con il totale 32.624.584."
+ },
+ "sen-2001": {
+  "liste": [
+   {
+    "nome": "Casa delle Libertà",
+    "breve": "CdL",
+    "pct": 42.6,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "L'Ulivo",
+    "breve": "Ulivo",
+    "pct": 39.2,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Rifondazione Comunista",
+    "breve": "PRC",
+    "pct": 5.0,
+    "area": "sinistra"
+   },
+   {
+    "nome": "Lista Di Pietro - Italia dei Valori",
+    "breve": "IdV",
+    "pct": 3.4,
+    "area": "altro"
+   },
+   {
+    "nome": "Democrazia Europea",
+    "breve": "DE",
+    "pct": 3.2,
+    "area": "centro"
+   },
+   {
+    "nome": "Lista Emma Bonino",
+    "breve": "Lista Bonino",
+    "pct": 2.0,
+    "area": "altro"
+   },
+   {
+    "nome": "Movimento Sociale Fiamma Tricolore",
+    "breve": "Fiamma Tricolore",
+    "pct": 1.0,
+    "area": "destra"
+   }
+  ],
+  "uninominale": true,
+  "note": "Mattarellum: un voto per un candidato nel collegio uninominale. Differenze dalla Camera: FI, AN, Lega Nord, CCD-CDU, Nuovo PSI tutti sotto 'Casa delle Libertà'; DS, Margherita, Girasole, PdCI sotto 'L'Ulivo' (in Trentino-Alto Adige 'L'Ulivo-SVP'). PRC corre da sola (non c'è desistenza al Senato). Fiamma Tricolore 1,005% appena sopra soglia; Lega per l'Autonomia-Alleanza Lombarda 0,91% esclusa. Elettorato attivo da 25 anni. Attenzione: la tabella en.wikipedia stampa come totale 32.624.584 (identico al 1996, probabile errore di copia); le percentuali stampate (42,57/39,22/5,04...) tornano con la somma delle righe (33.852.759), usata qui."
+ },
+ "sen-2006": {
+  "liste": [
+   {
+    "nome": "Forza Italia",
+    "breve": "FI",
+    "pct": 24.0,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Democratici di Sinistra",
+    "breve": "DS",
+    "pct": 17.5,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Alleanza Nazionale",
+    "breve": "AN",
+    "pct": 12.4,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Democrazia è Libertà - La Margherita",
+    "breve": "DL Margherita",
+    "pct": 10.7,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Rifondazione Comunista",
+    "breve": "PRC",
+    "pct": 7.4,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "UDC - Unione dei Democratici Cristiani e Democratici di Centro",
+    "breve": "UDC",
+    "pct": 6.8,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Lega Nord - Movimento per l'Autonomia",
+    "breve": "LN-MpA",
+    "pct": 4.5,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Insieme con l'Unione (Verdi - Comunisti Italiani - Consumatori)",
+    "breve": "Insieme con l'Unione",
+    "pct": 4.2,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Di Pietro Italia dei Valori",
+    "breve": "IdV",
+    "pct": 2.9,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "La Rosa nel Pugno",
+    "breve": "RnP",
+    "pct": 2.5,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Popolari UDEUR",
+    "breve": "UDEUR",
+    "pct": 1.4,
+    "area": "centrosinistra"
+   }
+  ],
+  "uninominale": false,
+  "note": "Porcellum: liste bloccate su base regionale con premio di maggioranza regionale. Differenze dalla Camera: DS e Margherita corrono separati (alla Camera lista unica 'L'Ulivo'; al Senato una lista 'L'Ulivo' solo in modo marginale, 0,17%); 'Insieme con l'Unione' = Verdi + PdCI + Consumatori solo al Senato. Partito Pensionati 0,997% escluso per un soffio (stampato 1,00%). Percentuali Italia 18 regioni: escluse Valle d'Aosta (collegio uninominale), Trentino-Alto Adige (collegi uninominali) ed Estero. Elettorato attivo da 25 anni."
+ },
+ "sen-2008": {
+  "liste": [
+   {
+    "nome": "Il Popolo della Libertà",
+    "breve": "PdL",
+    "pct": 38.2,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Partito Democratico",
+    "breve": "PD",
+    "pct": 33.7,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Lega Nord",
+    "breve": "Lega Nord",
+    "pct": 8.1,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Unione di Centro",
+    "breve": "UdC",
+    "pct": 5.7,
+    "area": "centro"
+   },
+   {
+    "nome": "Di Pietro Italia dei Valori",
+    "breve": "IdV",
+    "pct": 4.3,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "La Sinistra l'Arcobaleno",
+    "breve": "SA",
+    "pct": 3.2,
+    "area": "sinistra"
+   },
+   {
+    "nome": "La Destra - Fiamma Tricolore",
+    "breve": "La Destra",
+    "pct": 2.1,
+    "area": "destra"
+   },
+   {
+    "nome": "Movimento per le Autonomie - Alleanza per il Sud",
+    "breve": "MpA",
+    "pct": 1.1,
+    "area": "centrodestra"
+   }
+  ],
+  "uninominale": false,
+  "note": "Stesse liste della Camera. Partito Socialista 0,87% escluso. Percentuali Italia 18 regioni: escluse Valle d'Aosta, Trentino-Alto Adige (collegi uninominali) ed Estero. Elettorato attivo da 25 anni."
+ },
+ "sen-2013": {
+  "liste": [
+   {
+    "nome": "Partito Democratico",
+    "breve": "PD",
+    "pct": 27.4,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Movimento 5 Stelle",
+    "breve": "M5S",
+    "pct": 23.8,
+    "area": "altro"
+   },
+   {
+    "nome": "Il Popolo della Libertà",
+    "breve": "PdL",
+    "pct": 22.3,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Con Monti per l'Italia",
+    "breve": "Con Monti",
+    "pct": 9.1,
+    "area": "centro"
+   },
+   {
+    "nome": "Lega Nord",
+    "breve": "Lega Nord",
+    "pct": 4.3,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Sinistra Ecologia Libertà",
+    "breve": "SEL",
+    "pct": 3.0,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Fratelli d'Italia",
+    "breve": "FdI",
+    "pct": 1.9,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Rivoluzione Civile",
+    "breve": "RC",
+    "pct": 1.8,
+    "area": "sinistra"
+   }
+  ],
+  "uninominale": false,
+  "note": "Differenze dalla Camera: al Senato 'Con Monti per l'Italia' è lista unica (alla Camera Scelta Civica, UdC e FLI separate); UdC e FLI quindi non votabili da sole. Fare per Fermare il Declino 0,90% (sotto soglia, alla Camera 1,1%); La Destra 0,72%; Centro Democratico 0,53%. Percentuali ufficiali Viminale Italia esclusi Valle d'Aosta, Trentino-Alto Adige (collegi uninominali) ed Estero. Elettorato attivo da 25 anni. Percentuali come stampate (Viminale, confermate da livesicilia.it); ricalcolate sul totale en.wikipedia (31.751.350) verrebbero più basse di circa 1 punto (PD 26,5), probabile totale non omogeneo."
+ },
+ "sen-2018": {
+  "liste": [
+   {
+    "nome": "Movimento 5 Stelle",
+    "breve": "M5S",
+    "pct": 32.2,
+    "area": "altro"
+   },
+   {
+    "nome": "Partito Democratico",
+    "breve": "PD",
+    "pct": 19.1,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Lega",
+    "breve": "Lega",
+    "pct": 17.6,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Forza Italia",
+    "breve": "FI",
+    "pct": 14.4,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Fratelli d'Italia",
+    "breve": "FdI",
+    "pct": 4.3,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Liberi e Uguali",
+    "breve": "LeU",
+    "pct": 3.3,
+    "area": "sinistra"
+   },
+   {
+    "nome": "+Europa",
+    "breve": "+Europa",
+    "pct": 2.4,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Noi con l'Italia - UDC",
+    "breve": "NcI-UDC",
+    "pct": 1.2,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Potere al Popolo!",
+    "breve": "PaP",
+    "pct": 1.1,
+    "area": "sinistra"
+   }
+  ],
+  "uninominale": false,
+  "note": "Rosatellum: scheda unica con candidato uninominale + liste collegate (voto di lista trascinato al candidato e viceversa); stesse liste della Camera. CasaPound 0,86% escluso. Percentuali proporzionale Italia escluse Valle d'Aosta ed Estero (Trentino-Alto Adige incluso). Elettorato attivo da 25 anni (ultima volta)."
+ },
+ "sen-2022": {
+  "liste": [
+   {
+    "nome": "Fratelli d'Italia",
+    "breve": "FdI",
+    "pct": 26.0,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Partito Democratico - Italia Democratica e Progressista",
+    "breve": "PD",
+    "pct": 19.0,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Movimento 5 Stelle",
+    "breve": "M5S",
+    "pct": 15.5,
+    "area": "altro"
+   },
+   {
+    "nome": "Lega",
+    "breve": "Lega",
+    "pct": 8.8,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Forza Italia",
+    "breve": "FI",
+    "pct": 8.3,
+    "area": "centrodestra"
+   },
+   {
+    "nome": "Azione - Italia Viva",
+    "breve": "A-IV",
+    "pct": 7.7,
+    "area": "centro"
+   },
+   {
+    "nome": "Alleanza Verdi e Sinistra",
+    "breve": "AVS",
+    "pct": 3.5,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "+Europa",
+    "breve": "+Europa",
+    "pct": 2.9,
+    "area": "centrosinistra"
+   },
+   {
+    "nome": "Italexit per l'Italia",
+    "breve": "Italexit",
+    "pct": 1.9,
+    "area": "altro"
+   },
+   {
+    "nome": "Unione Popolare",
+    "breve": "UP",
+    "pct": 1.4,
+    "area": "sinistra"
+   },
+   {
+    "nome": "Italia Sovrana e Popolare",
+    "breve": "ISP",
+    "pct": 1.1,
+    "area": "altro"
+   }
+  ],
+  "uninominale": false,
+  "note": "Rosatellum, stesse liste della Camera. Primo voto al Senato a 18 anni (L. cost. 1/2021). Sud chiama Nord 0,99% e Noi Moderati 0,9% esclusi. M5S: Viminale 15,55%; tabella riassuntiva 4.285.894 voti (15,546% -> 15,5), tabella dettagliata 4.290.194 (15,56% -> 15,6): tenuto 15,5. Percentuali proporzionale Italia escluse Valle d'Aosta ed Estero."
+ },
+ "fonti": {
+  "sen-1992": "https://en.wikipedia.org/wiki/1992_Italian_general_election",
+  "sen-1994": "https://en.wikipedia.org/wiki/1994_Italian_general_election",
+  "sen-1996": "https://en.wikipedia.org/wiki/1996_Italian_general_election",
+  "sen-2001": "https://en.wikipedia.org/wiki/2001_Italian_general_election",
+  "sen-2006": "https://en.wikipedia.org/wiki/2006_Italian_general_election",
+  "sen-2008": "https://en.wikipedia.org/wiki/2008_Italian_general_election",
+  "sen-2013": "https://en.wikipedia.org/wiki/2013_Italian_general_election",
+  "sen-2018": "https://en.wikipedia.org/wiki/2018_Italian_general_election",
+  "sen-2022": "https://en.wikipedia.org/wiki/Results_of_the_2022_Italian_general_election",
+  "nota": "it.wikipedia, wikiwand, senato.it ed Eligendo (elezionistorico.interno.gov.it) non raggiungibili dal fetch; cifre dalle tabelle en.wikipedia (fonte Ministero dell'Interno), percentuali ricalcolate dai voti; 2013 e 2022 confrontate con le percentuali Viminale riportate da livesicilia.it e money.it."
+ },
+ "regole": {
+  "valle_aosta": "Valle d'Aosta: in tutte le elezioni (1948-2022) sia al Senato sia alla Camera è un unico collegio uninominale: si vota un candidato (1 senatore, 1 deputato), maggioritario a turno unico. Nessuna lista nazionale sulla scheda, neppure con Porcellum (2006-2013) e Rosatellum (2018-2022); i voti valdostani non entrano nel riparto proporzionale nazionale.",
+  "trentino": "Trentino-Alto Adige al Senato: 2006, 2008 e 2013 (Porcellum, L. 270/2005, che lì manteneva il sistema della L. 422/1991) 7 seggi, di cui 6 in collegi uninominali (3 Trentino, 3 Alto Adige) e 1 con recupero proporzionale: si vota un candidato di collegio sostenuto da coalizioni (es. 'L'Unione-SVP', 'Casa delle Libertà'), non le liste nazionali. 2018 (Rosatellum): 6 collegi uninominali + 1 seggio proporzionale, scheda con candidato + liste collegate come nel resto d'Italia. In 1994-2001 anche lì collegi uninominali come ovunque.",
+  "estero": "Italiani residenti all'estero iscritti AIRE: voto per corrispondenza per le liste della Circoscrizione Estero alla Camera (12 deputati, 8 dal 2022) e al Senato (6 senatori, 4 dal 2022) dalle politiche 2006 (L. 459/2001 'Tremaglia', attuativa delle L. cost. 1/2000 e 1/2001). Prima del 2006 dovevano rientrare a votare in Italia. Voto al Senato a 18 anni (in Italia e all'estero) dalle politiche 2022, dopo la L. cost. 1/2021 (prima 25 anni). Chi è solo temporaneamente all'estero (almeno 3 mesi, L. 52/2015, applicata alle politiche dal 2018) può optare per il voto per corrispondenza, ma vota le liste del proprio collegio/circoscrizione in Italia, non quelle dell'Estero."
+ }
+}

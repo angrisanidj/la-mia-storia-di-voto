@@ -1,0 +1,3242 @@
+{
+ "19-1996-06-16": [
+  {
+   "nome": null,
+   "pct": null,
+   "area": null,
+   "liste": [
+    [
+     "Forza Italia",
+     17.1
+    ],
+    [
+     "Alleanza Nazionale",
+     14.1
+    ],
+    [
+     "Partito Democratico della Sinistra",
+     14.1
+    ],
+    [
+     "Centro Cristiano Democratico",
+     9.8
+    ],
+    [
+     "Cristiani Democratici Uniti",
+     9.2
+    ],
+    [
+     "Partito Popolare Italiano",
+     7.4
+    ],
+    [
+     "Rifondazione Comunista",
+     4.3
+    ],
+    [
+     "Rinnovamento Italiano",
+     3.8
+    ],
+    [
+     "La Rete",
+     3.6
+    ],
+    [
+     "Partito Socialista",
+     1.9
+    ],
+    [
+     "Noi Siciliani – Fronte Nazionale Siciliano",
+     1.7
+    ],
+    [
+     "Fiamma Tricolore",
+     1.2
+    ],
+    [
+     "Cristiano Sociali",
+     1.1
+    ]
+   ]
+  }
+ ],
+ "19-2001-06-24": [
+  {
+   "nome": "Salvatore Cuffaro",
+   "pct": 59.1,
+   "area": "centrodestra",
+   "liste": [
+    [
+     "Forza Italia",
+     25.1
+    ],
+    [
+     "Alleanza Nazionale",
+     11.3
+    ],
+    [
+     "Centro Cristiano Democratico",
+     8.9
+    ],
+    [
+     "Cristiani Democratici Uniti",
+     8.6
+    ],
+    [
+     "Nuova Sicilia",
+     4.1
+    ],
+    [
+     "Nuovo PSI",
+     2.8
+    ],
+    [
+     "Biancofiore",
+     2.2
+    ]
+   ]
+  },
+  {
+   "nome": "Leoluca Orlando",
+   "pct": 36.6,
+   "area": "centrosinistra",
+   "liste": [
+    [
+     "Democratici di Sinistra",
+     10.1
+    ],
+    [
+     "La Margherita",
+     8.0
+    ],
+    [
+     "La Margherita per la Sicilia",
+     4.3
+    ],
+    [
+     "Rifondazione Comunista",
+     2.4
+    ],
+    [
+     "Socialisti Democratici Italiani",
+     1.9
+    ],
+    [
+     "Primavera Siciliana",
+     1.2
+    ],
+    [
+     "Comunisti Italiani",
+     1.2
+    ],
+    [
+     "Italia dei Valori",
+     1.0
+    ]
+   ]
+  },
+  {
+   "nome": "Sergio D'Antoni",
+   "pct": 4.3,
+   "area": "centro",
+   "liste": [
+    [
+     "Democrazia Europea",
+     4.5
+    ]
+   ]
+  }
+ ],
+ "19-2006-05-28": [
+  {
+   "nome": "Salvatore Cuffaro",
+   "pct": 53.1,
+   "area": "centrodestra",
+   "liste": [
+    [
+     "Forza Italia",
+     19.2
+    ],
+    [
+     "UDC",
+     13.0
+    ],
+    [
+     "Movimento per l'Autonomia – Nuova Sicilia",
+     12.5
+    ],
+    [
+     "Alleanza Nazionale",
+     10.6
+    ],
+    [
+     "L'Aquilone – Lista del Presidente",
+     5.7
+    ]
+   ]
+  },
+  {
+   "nome": "Rita Borsellino",
+   "pct": 41.6,
+   "area": "centrosinistra",
+   "liste": [
+    [
+     "Democratici di Sinistra",
+     14.0
+    ],
+    [
+     "La Margherita",
+     12.0
+    ],
+    [
+     "Uniti per la Sicilia",
+     5.2
+    ],
+    [
+     "Rita – Il mio impegno per la Sicilia",
+     4.8
+    ]
+   ]
+  },
+  {
+   "nome": "Nello Musumeci",
+   "pct": 5.3,
+   "area": "destra",
+   "liste": [
+    [
+     "Alleanza Siciliana",
+     2.4
+    ]
+   ]
+  }
+ ],
+ "19-2008-04-13": [
+  {
+   "nome": "Raffaele Lombardo",
+   "pct": 65.4,
+   "area": "centrodestra",
+   "liste": [
+    [
+     "Il Popolo della Libertà",
+     33.4
+    ],
+    [
+     "Movimento per l'Autonomia – Alleati per il Sud",
+     13.9
+    ],
+    [
+     "UDC",
+     12.5
+    ],
+    [
+     "Lombardo Presidente",
+     4.5
+    ],
+    [
+     "Democratici Autonomisti",
+     3.8
+    ]
+   ]
+  },
+  {
+   "nome": "Anna Finocchiaro",
+   "pct": 30.4,
+   "area": "centrosinistra",
+   "liste": [
+    [
+     "Partito Democratico",
+     18.8
+    ],
+    [
+     "La Sinistra l'Arcobaleno",
+     4.9
+    ],
+    [
+     "Anna Finocchiaro Presidente",
+     3.1
+    ],
+    [
+     "Italia dei Valori",
+     1.8
+    ]
+   ]
+  },
+  {
+   "nome": "Sonia Alfano",
+   "pct": 2.4,
+   "area": "altro",
+   "liste": [
+    [
+     "Amici di Beppe Grillo",
+     1.7
+    ]
+   ]
+  },
+  {
+   "nome": "Ruggero Razza",
+   "pct": 1.6,
+   "area": "destra",
+   "liste": [
+    [
+     "La Destra – Fiamma Tricolore",
+     1.5
+    ]
+   ]
+  }
+ ],
+ "19-2012-10-28": [
+  {
+   "nome": "Rosario Crocetta",
+   "pct": 30.5,
+   "area": "centrosinistra",
+   "liste": [
+    [
+     "Partito Democratico",
+     13.4
+    ],
+    [
+     "UDC",
+     10.8
+    ],
+    [
+     "Il Megafono – Lista Crocetta",
+     6.2
+    ]
+   ]
+  },
+  {
+   "nome": "Nello Musumeci",
+   "pct": 25.7,
+   "area": "centrodestra",
+   "liste": [
+    [
+     "Il Popolo della Libertà",
+     12.9
+    ],
+    [
+     "Cantiere Popolare",
+     5.9
+    ],
+    [
+     "Lista Musumeci",
+     5.6
+    ]
+   ]
+  },
+  {
+   "nome": "Giancarlo Cancelleri",
+   "pct": 18.2,
+   "area": "altro",
+   "liste": [
+    [
+     "Movimento 5 Stelle",
+     14.9
+    ]
+   ]
+  },
+  {
+   "nome": "Gianfranco Miccichè",
+   "pct": 15.4,
+   "area": "centrodestra",
+   "liste": [
+    [
+     "Partito dei Siciliani – MpA",
+     9.5
+    ],
+    [
+     "Grande Sud",
+     6.0
+    ],
+    [
+     "Futuro e Libertà",
+     4.4
+    ]
+   ]
+  },
+  {
+   "nome": "Giovanna Marano",
+   "pct": 6.1,
+   "area": "sinistra",
+   "liste": [
+    [
+     "Italia dei Valori",
+     3.5
+    ],
+    [
+     "SEL – Federazione della Sinistra – Verdi",
+     3.1
+    ]
+   ]
+  },
+  {
+   "nome": "Mariano Ferro",
+   "pct": 1.6,
+   "area": "altro",
+   "liste": [
+    [
+     "Movimento dei Forconi",
+     1.3
+    ]
+   ]
+  },
+  {
+   "nome": "Cateno De Luca",
+   "pct": 1.2,
+   "area": "autonomista",
+   "liste": [
+    [
+     "Rivoluzione Siciliana",
+     1.2
+    ]
+   ]
+  }
+ ],
+ "19-2017-11-05": [
+  {
+   "nome": "Nello Musumeci",
+   "pct": 39.8,
+   "area": "centrodestra",
+   "liste": [
+    [
+     "Forza Italia",
+     16.4
+    ],
+    [
+     "Popolari e Autonomisti",
+     7.1
+    ],
+    [
+     "UDC",
+     7.0
+    ],
+    [
+     "Diventerà Bellissima",
+     6.0
+    ],
+    [
+     "Fratelli d'Italia – Noi con Salvini",
+     5.6
+    ]
+   ]
+  },
+  {
+   "nome": "Giancarlo Cancelleri",
+   "pct": 34.7,
+   "area": "altro",
+   "liste": [
+    [
+     "Movimento 5 Stelle",
+     26.7
+    ]
+   ]
+  },
+  {
+   "nome": "Fabrizio Micari",
+   "pct": 18.7,
+   "area": "centrosinistra",
+   "liste": [
+    [
+     "Partito Democratico",
+     13.0
+    ],
+    [
+     "Sicilia Futura – PSI",
+     6.0
+    ],
+    [
+     "Alternativa Popolare – Centristi per Micari",
+     4.2
+    ],
+    [
+     "Micari Presidente",
+     2.2
+    ]
+   ]
+  },
+  {
+   "nome": "Claudio Fava",
+   "pct": 6.1,
+   "area": "sinistra",
+   "liste": [
+    [
+     "Cento Passi per la Sicilia",
+     5.2
+    ]
+   ]
+  }
+ ],
+ "19-2022-09-25": [
+  {
+   "nome": "Renato Schifani",
+   "pct": 42.1,
+   "area": "centrodestra",
+   "liste": [
+    [
+     "Fratelli d'Italia",
+     15.1
+    ],
+    [
+     "Forza Italia",
+     14.7
+    ],
+    [
+     "Prima l'Italia – Lega",
+     6.8
+    ],
+    [
+     "Popolari e Autonomisti",
+     6.8
+    ],
+    [
+     "Democrazia Cristiana Nuova",
+     6.5
+    ]
+   ]
+  },
+  {
+   "nome": "Cateno De Luca",
+   "pct": 24.0,
+   "area": "altro",
+   "liste": [
+    [
+     "Sud chiama Nord",
+     13.6
+    ],
+    [
+     "Sicilia Vera",
+     2.7
+    ]
+   ]
+  },
+  {
+   "nome": "Caterina Chinnici",
+   "pct": 16.2,
+   "area": "centrosinistra",
+   "liste": [
+    [
+     "Partito Democratico",
+     12.8
+    ],
+    [
+     "Cento Passi per la Sicilia",
+     3.0
+    ]
+   ]
+  },
+  {
+   "nome": "Nuccio Di Paola",
+   "pct": 15.2,
+   "area": "altro",
+   "liste": [
+    [
+     "Movimento 5 Stelle",
+     13.6
+    ]
+   ]
+  },
+  {
+   "nome": "Gaetano Armao",
+   "pct": 2.1,
+   "area": "centro",
+   "liste": [
+    [
+     "Azione – Italia Viva",
+     2.1
+    ]
+   ]
+  }
+ ],
+ "20-1994-06-12": [
+  {
+   "nome": "Ovidio Marras",
+   "pct": 30.5,
+   "area": "centrodestra",
+   "liste": [
+    [
+     "Forza Italia",
+     21.1
+    ],
+    [
+     "Alleanza Nazionale",
+     11.1
+    ],
+    [
+     "Centro Cristiano Democratico",
+     1.5
+    ]
+   ]
+  },
+  {
+   "nome": "Federico Palomba",
+   "pct": 29.8,
+   "area": "centrosinistra",
+   "liste": [
+    [
+     "Partito Democratico della Sinistra",
+     18.1
+    ],
+    [
+     "Rifondazione Comunista",
+     5.6
+    ],
+    [
+     "Federazione Democratica (Lista Sardegna)",
+     5.2
+    ]
+   ]
+  },
+  {
+   "nome": "Gian Mario Selis",
+   "pct": 15.3,
+   "area": "centro",
+   "liste": [
+    [
+     "Partito Popolare Italiano",
+     16.2
+    ]
+   ]
+  },
+  {
+   "nome": "Massimo Fantola",
+   "pct": 14.9,
+   "area": "centro",
+   "liste": [
+    [
+     "Patto Segni",
+     9.2
+    ]
+   ]
+  },
+  {
+   "nome": "Pasqualina Crobu",
+   "pct": 6.8,
+   "area": "autonomista",
+   "liste": [
+    [
+     "Partito Sardo d'Azione",
+     5.1
+    ]
+   ]
+  },
+  {
+   "nome": "Gianfranco Pintore",
+   "pct": 2.7,
+   "area": "autonomista",
+   "liste": [
+    [
+     "Sardigna Natzione",
+     1.2
+    ]
+   ]
+  }
+ ],
+ "20-1994-06-26": [
+  {
+   "nome": "Federico Palomba",
+   "pct": 42.7,
+   "area": "centrosinistra",
+   "liste": []
+  },
+  {
+   "nome": "Ovidio Marras",
+   "pct": 36.6,
+   "area": "centrodestra",
+   "liste": []
+  },
+  {
+   "nome": "Gian Mario Selis",
+   "pct": 20.7,
+   "area": "centro",
+   "liste": []
+  }
+ ],
+ "20-1999-06-13": [
+  {
+   "nome": "Mauro Pili",
+   "pct": 48.1,
+   "area": "centrodestra",
+   "liste": [
+    [
+     "Forza Italia",
+     19.7
+    ],
+    [
+     "Alleanza Nazionale",
+     9.9
+    ],
+    [
+     "Riformatori Sardi",
+     4.4
+    ],
+    [
+     "Centro Cristiano Democratico",
+     4.0
+    ],
+    [
+     "Nuovo Movimento",
+     3.3
+    ]
+   ]
+  },
+  {
+   "nome": "Gian Mario Selis",
+   "pct": 31.5,
+   "area": "centrosinistra",
+   "liste": [
+    [
+     "Democratici di Sinistra",
+     14.2
+    ],
+    [
+     "Partito Popolare Italiano",
+     10.2
+    ],
+    [
+     "Federazione Democratica",
+     5.8
+    ],
+    [
+     "I Democratici",
+     5.4
+    ],
+    [
+     "Socialisti Democratici Italiani",
+     5.0
+    ],
+    [
+     "Rifondazione Comunista",
+     3.7
+    ],
+    [
+     "Comunisti Italiani",
+     2.1
+    ],
+    [
+     "Federazione dei Verdi",
+     1.8
+    ]
+   ]
+  },
+  {
+   "nome": "Franco Meloni",
+   "pct": 8.3,
+   "area": "autonomista",
+   "liste": [
+    [
+     "Partito Sardo d'Azione",
+     4.5
+    ]
+   ]
+  },
+  {
+   "nome": "Mario Floris",
+   "pct": 6.2,
+   "area": "centro",
+   "liste": [
+    [
+     "Unione Democratica per la Repubblica",
+     4.1
+    ]
+   ]
+  },
+  {
+   "nome": "Bustianu Cumpostu",
+   "pct": 6.0,
+   "area": "autonomista",
+   "liste": [
+    [
+     "Sardigna Natzione",
+     1.8
+    ]
+   ]
+  }
+ ],
+ "20-1999-06-27": [
+  {
+   "nome": "Mauro Pili",
+   "pct": 53.7,
+   "area": "centrodestra",
+   "liste": []
+  },
+  {
+   "nome": "Gian Mario Selis",
+   "pct": 46.3,
+   "area": "centrosinistra",
+   "liste": []
+  }
+ ],
+ "20-2004-06-12": [
+  {
+   "nome": "Renato Soru",
+   "pct": 50.1,
+   "area": "centrosinistra",
+   "liste": [
+    [
+     "Democratici di Sinistra",
+     13.2
+    ],
+    [
+     "La Margherita",
+     10.8
+    ],
+    [
+     "Progetto Sardegna",
+     7.8
+    ],
+    [
+     "Rifondazione Comunista",
+     4.1
+    ],
+    [
+     "SDI – Socialisti Uniti",
+     3.8
+    ],
+    [
+     "UDEUR",
+     2.6
+    ],
+    [
+     "Comunisti Italiani",
+     1.9
+    ]
+   ]
+  },
+  {
+   "nome": "Mauro Pili",
+   "pct": 40.5,
+   "area": "centrodestra",
+   "liste": [
+    [
+     "Forza Italia",
+     15.0
+    ],
+    [
+     "UDC",
+     10.3
+    ],
+    [
+     "Alleanza Nazionale",
+     7.3
+    ],
+    [
+     "Riformatori Sardi",
+     5.9
+    ],
+    [
+     "Fortza Paris",
+     4.6
+    ],
+    [
+     "Nuovo PSI",
+     1.0
+    ]
+   ]
+  },
+  {
+   "nome": "Giacomo Sanna",
+   "pct": 3.8,
+   "area": "autonomista",
+   "liste": [
+    [
+     "Partito Sardo d'Azione",
+     3.8
+    ]
+   ]
+  },
+  {
+   "nome": "Mario Floris",
+   "pct": 3.6,
+   "area": "centro",
+   "liste": [
+    [
+     "Unione dei Sardi",
+     3.9
+    ]
+   ]
+  },
+  {
+   "nome": "Gavino Sale",
+   "pct": 1.9,
+   "area": "autonomista",
+   "liste": [
+    [
+     "Indipendèntzia Repùbrica de Sardigna",
+     1.1
+    ]
+   ]
+  }
+ ],
+ "20-2009-02-15": [
+  {
+   "nome": "Ugo Cappellacci",
+   "pct": 51.9,
+   "area": "centrodestra",
+   "liste": [
+    [
+     "Il Popolo della Libertà",
+     30.1
+    ],
+    [
+     "UDC",
+     9.1
+    ],
+    [
+     "Riformatori Sardi",
+     6.8
+    ],
+    [
+     "Partito Sardo d'Azione",
+     4.3
+    ],
+    [
+     "Unione dei Sardi",
+     3.5
+    ],
+    [
+     "Insieme per le Autonomie",
+     2.2
+    ]
+   ]
+  },
+  {
+   "nome": "Renato Soru",
+   "pct": 42.9,
+   "area": "centrosinistra",
+   "liste": [
+    [
+     "Partito Democratico",
+     24.7
+    ],
+    [
+     "Italia dei Valori",
+     5.0
+    ],
+    [
+     "Rifondazione Comunista",
+     3.2
+    ],
+    [
+     "Rossomori",
+     2.5
+    ],
+    [
+     "Comunisti Italiani",
+     1.9
+    ],
+    [
+     "Sinistra per la Sardegna",
+     1.6
+    ]
+   ]
+  },
+  {
+   "nome": "Gavino Sale",
+   "pct": 3.1,
+   "area": "autonomista",
+   "liste": [
+    [
+     "Indipendèntzia Repùbrica de Sardigna",
+     2.1
+    ]
+   ]
+  },
+  {
+   "nome": "Peppino Balia",
+   "pct": 1.6,
+   "area": "centrosinistra",
+   "liste": [
+    [
+     "Partito Socialista",
+     2.4
+    ]
+   ]
+  }
+ ],
+ "20-2014-02-16": [
+  {
+   "nome": "Francesco Pigliaru",
+   "pct": 42.4,
+   "area": "centrosinistra",
+   "liste": [
+    [
+     "Partito Democratico",
+     22.1
+    ],
+    [
+     "Sinistra Ecologia Libertà",
+     5.2
+    ],
+    [
+     "Partito dei Sardi",
+     2.7
+    ],
+    [
+     "Rossomori",
+     2.6
+    ],
+    [
+     "Centro Democratico",
+     2.1
+    ],
+    [
+     "Rifondazione – Comunisti Italiani – Sinistra Sarda",
+     2.0
+    ],
+    [
+     "Unione Popolare Cristiana",
+     1.7
+    ],
+    [
+     "Partito Socialista Italiano",
+     1.4
+    ],
+    [
+     "Italia dei Valori",
+     1.1
+    ]
+   ]
+  },
+  {
+   "nome": "Ugo Cappellacci",
+   "pct": 39.7,
+   "area": "centrodestra",
+   "liste": [
+    [
+     "Forza Italia",
+     18.5
+    ],
+    [
+     "UDC",
+     7.6
+    ],
+    [
+     "Riformatori Sardi",
+     6.0
+    ],
+    [
+     "Partito Sardo d'Azione",
+     4.7
+    ],
+    [
+     "Fratelli d'Italia",
+     2.8
+    ],
+    [
+     "Unione dei Sardi",
+     2.6
+    ],
+    [
+     "Zona Franca",
+     1.6
+    ]
+   ]
+  },
+  {
+   "nome": "Michela Murgia",
+   "pct": 10.3,
+   "area": "autonomista",
+   "liste": [
+    [
+     "ProgReS – Progetu Repùblica",
+     2.8
+    ],
+    [
+     "Gentes",
+     2.2
+    ],
+    [
+     "Comunidades",
+     1.8
+    ]
+   ]
+  },
+  {
+   "nome": "Mauro Pili",
+   "pct": 5.7,
+   "area": "autonomista",
+   "liste": [
+    [
+     "Unidos",
+     2.8
+    ],
+    [
+     "Mauro Pili Presidente",
+     1.7
+    ]
+   ]
+  },
+  {
+   "nome": "Pier Franco Devias",
+   "pct": 1.0,
+   "area": "autonomista",
+   "liste": []
+  }
+ ],
+ "20-2019-02-24": [
+  {
+   "nome": "Christian Solinas",
+   "pct": 47.8,
+   "area": "centrodestra",
+   "liste": [
+    [
+     "Lega",
+     11.4
+    ],
+    [
+     "Partito Sardo d'Azione",
+     9.9
+    ],
+    [
+     "Forza Italia",
+     8.0
+    ],
+    [
+     "Riformatori Sardi",
+     5.1
+    ],
+    [
+     "Fratelli d'Italia",
+     4.7
+    ],
+    [
+     "Sardegna 20Venti",
+     4.1
+    ],
+    [
+     "UDC – Pro Sardinia",
+     3.8
+    ],
+    [
+     "Sardegna Civica",
+     1.6
+    ],
+    [
+     "Fortza Paris",
+     1.6
+    ],
+    [
+     "Unione dei Sardi",
+     1.1
+    ]
+   ]
+  },
+  {
+   "nome": "Massimo Zedda",
+   "pct": 32.9,
+   "area": "centrosinistra",
+   "liste": [
+    [
+     "Partito Democratico",
+     13.5
+    ],
+    [
+     "Liberi e Uguali",
+     3.8
+    ],
+    [
+     "Campo Progressista Sardegna",
+     3.2
+    ],
+    [
+     "Noi, la Sardegna",
+     2.8
+    ],
+    [
+     "Futuro Comune",
+     2.6
+    ],
+    [
+     "Sardegna in Comune",
+     2.5
+    ],
+    [
+     "Cristiano Popolari Socialisti",
+     1.3
+    ]
+   ]
+  },
+  {
+   "nome": "Francesco Desogus",
+   "pct": 11.2,
+   "area": "altro",
+   "liste": [
+    [
+     "Movimento 5 Stelle",
+     9.7
+    ]
+   ]
+  },
+  {
+   "nome": "Paolo Maninchedda",
+   "pct": 3.4,
+   "area": "autonomista",
+   "liste": [
+    [
+     "Partito dei Sardi",
+     3.7
+    ]
+   ]
+  },
+  {
+   "nome": "Mauro Pili",
+   "pct": 2.3,
+   "area": "autonomista",
+   "liste": [
+    [
+     "Sardi Liberi",
+     2.1
+    ]
+   ]
+  },
+  {
+   "nome": "Andrea Murgia",
+   "pct": 1.8,
+   "area": "autonomista",
+   "liste": [
+    [
+     "Autodeterminatzione",
+     1.9
+    ]
+   ]
+  }
+ ],
+ "20-2024-02-25": [
+  {
+   "nome": "Alessandra Todde",
+   "pct": 45.4,
+   "area": "centrosinistra",
+   "liste": [
+    [
+     "Partito Democratico",
+     13.8
+    ],
+    [
+     "Movimento 5 Stelle",
+     7.8
+    ],
+    [
+     "Alleanza Verdi e Sinistra",
+     4.7
+    ],
+    [
+     "Uniti per Alessandra Todde",
+     4.0
+    ],
+    [
+     "Orizzonte Comune",
+     3.0
+    ],
+    [
+     "Progressisti",
+     3.0
+    ],
+    [
+     "Sinistra Futura",
+     3.0
+    ],
+    [
+     "PSI – Sardi in Europa",
+     1.7
+    ]
+   ]
+  },
+  {
+   "nome": "Paolo Truzzu",
+   "pct": 45.0,
+   "area": "centrodestra",
+   "liste": [
+    [
+     "Fratelli d'Italia",
+     13.6
+    ],
+    [
+     "Riformatori Sardi",
+     7.2
+    ],
+    [
+     "Forza Italia",
+     6.4
+    ],
+    [
+     "Sardegna al Centro 20Venti",
+     5.5
+    ],
+    [
+     "Partito Sardo d'Azione",
+     5.4
+    ],
+    [
+     "Alleanza Sardegna – PLI",
+     4.1
+    ],
+    [
+     "Lega Salvini Sardegna",
+     3.8
+    ],
+    [
+     "UDC",
+     2.8
+    ]
+   ]
+  },
+  {
+   "nome": "Renato Soru",
+   "pct": 8.6,
+   "area": "centrosinistra",
+   "liste": [
+    [
+     "Progetto Sardegna",
+     3.5
+    ],
+    [
+     "Vota Sardigna",
+     1.6
+    ],
+    [
+     "+Europa – Azione",
+     1.5
+    ]
+   ]
+  }
+ ],
+ "06-1993-06-06": [
+  {
+   "nome": null,
+   "pct": null,
+   "area": null,
+   "liste": [
+    [
+     "Lega Nord",
+     26.7
+    ],
+    [
+     "Democrazia Cristiana",
+     22.3
+    ],
+    [
+     "Partito Democratico della Sinistra",
+     9.9
+    ],
+    [
+     "Movimento Sociale Italiano",
+     8.3
+    ],
+    [
+     "Rifondazione Comunista",
+     5.5
+    ],
+    [
+     "Federazione dei Verdi",
+     5.4
+    ],
+    [
+     "Partito Socialista Italiano",
+     4.7
+    ],
+    [
+     "Lega Autonomia Friuli",
+     4.7
+    ],
+    [
+     "Lista per Trieste",
+     3.3
+    ],
+    [
+     "La Rete",
+     1.8
+    ],
+    [
+     "Partito Repubblicano Italiano",
+     1.7
+    ],
+    [
+     "PSDI",
+     1.6
+    ],
+    [
+     "Movimento Friuli",
+     1.6
+    ],
+    [
+     "Partito Liberale Italiano",
+     1.3
+    ],
+    [
+     "Slovenska Skupnost",
+     1.2
+    ]
+   ]
+  }
+ ],
+ "06-1998-06-14": [
+  {
+   "nome": null,
+   "pct": null,
+   "area": null,
+   "liste": [
+    [
+     "Forza Italia – CCD",
+     20.6
+    ],
+    [
+     "Lega Nord",
+     17.3
+    ],
+    [
+     "Democratici di Sinistra",
+     15.3
+    ],
+    [
+     "Alleanza Nazionale",
+     13.7
+    ],
+    [
+     "Centro Popolare Riformatore (PPI-UDR-RI-PRI-SSk)",
+     11.0
+    ],
+    [
+     "Rifondazione Comunista",
+     6.7
+    ],
+    [
+     "Federazione dei Verdi",
+     4.9
+    ],
+    [
+     "Unione Friuli",
+     3.6
+    ],
+    [
+     "Progetto Autonomia",
+     2.9
+    ],
+    [
+     "Lega Autonomia Friuli",
+     1.6
+    ],
+    [
+     "Fronte Giuliano",
+     1.0
+    ]
+   ]
+  }
+ ],
+ "06-2003-06-08": [
+  {
+   "nome": "Riccardo Illy",
+   "pct": 53.2,
+   "area": "centrosinistra",
+   "liste": [
+    [
+     "Democratici di Sinistra",
+     16.7
+    ],
+    [
+     "La Margherita",
+     14.8
+    ],
+    [
+     "Cittadini per il Presidente",
+     7.5
+    ],
+    [
+     "Rifondazione Comunista",
+     5.0
+    ],
+    [
+     "Italia dei Valori",
+     1.5
+    ],
+    [
+     "Comunisti Italiani",
+     1.5
+    ],
+    [
+     "Federazione dei Verdi",
+     1.4
+    ],
+    [
+     "Partito dei Pensionati",
+     1.2
+    ]
+   ]
+  },
+  {
+   "nome": "Alessandra Guerra",
+   "pct": 43.3,
+   "area": "centrodestra",
+   "liste": [
+    [
+     "Forza Italia",
+     21.6
+    ],
+    [
+     "Alleanza Nazionale",
+     11.6
+    ],
+    [
+     "Lega Nord",
+     9.3
+    ],
+    [
+     "UDC",
+     4.3
+    ]
+   ]
+  },
+  {
+   "nome": "Ferruccio Saro",
+   "pct": 3.6,
+   "area": "autonomista",
+   "liste": [
+    [
+     "Libertà e Autonomia",
+     2.8
+    ]
+   ]
+  }
+ ],
+ "06-2008-04-13": [
+  {
+   "nome": "Renzo Tondo",
+   "pct": 53.8,
+   "area": "centrodestra",
+   "liste": [
+    [
+     "Il Popolo della Libertà",
+     33.0
+    ],
+    [
+     "Lega Nord",
+     12.9
+    ],
+    [
+     "UDC",
+     6.1
+    ],
+    [
+     "Partito dei Pensionati",
+     1.5
+    ]
+   ]
+  },
+  {
+   "nome": "Riccardo Illy",
+   "pct": 46.2,
+   "area": "centrosinistra",
+   "liste": [
+    [
+     "Partito Democratico",
+     29.9
+    ],
+    [
+     "La Sinistra l'Arcobaleno",
+     5.7
+    ],
+    [
+     "Cittadini per il Presidente",
+     5.1
+    ],
+    [
+     "Italia dei Valori",
+     4.5
+    ],
+    [
+     "Slovenska Skupnost",
+     1.2
+    ]
+   ]
+  }
+ ],
+ "06-2013-04-21": [
+  {
+   "nome": "Debora Serracchiani",
+   "pct": 39.4,
+   "area": "centrosinistra",
+   "liste": [
+    [
+     "Partito Democratico",
+     26.8
+    ],
+    [
+     "Cittadini per Serracchiani Presidente",
+     5.3
+    ],
+    [
+     "Sinistra Ecologia Libertà",
+     4.4
+    ],
+    [
+     "Slovenska Skupnost",
+     1.4
+    ],
+    [
+     "Italia dei Valori",
+     1.0
+    ]
+   ]
+  },
+  {
+   "nome": "Renzo Tondo",
+   "pct": 39.0,
+   "area": "centrodestra",
+   "liste": [
+    [
+     "Il Popolo della Libertà",
+     20.0
+    ],
+    [
+     "Autonomia Responsabile",
+     10.7
+    ],
+    [
+     "Lega Nord",
+     8.3
+    ],
+    [
+     "UDC",
+     3.7
+    ],
+    [
+     "La Destra",
+     1.6
+    ]
+   ]
+  },
+  {
+   "nome": "Saverio Galluccio",
+   "pct": 19.2,
+   "area": "altro",
+   "liste": [
+    [
+     "Movimento 5 Stelle",
+     13.8
+    ]
+   ]
+  },
+  {
+   "nome": "Franco Bandelli",
+   "pct": 2.4,
+   "area": "altro",
+   "liste": [
+    [
+     "Un'Altra Regione",
+     2.1
+    ]
+   ]
+  }
+ ],
+ "06-2018-04-29": [
+  {
+   "nome": "Massimiliano Fedriga",
+   "pct": 57.1,
+   "area": "centrodestra",
+   "liste": [
+    [
+     "Lega",
+     34.9
+    ],
+    [
+     "Forza Italia",
+     12.1
+    ],
+    [
+     "Progetto FVG",
+     6.3
+    ],
+    [
+     "Fratelli d'Italia",
+     5.5
+    ],
+    [
+     "Autonomia Responsabile",
+     4.0
+    ]
+   ]
+  },
+  {
+   "nome": "Sergio Bolzonello",
+   "pct": 26.8,
+   "area": "centrosinistra",
+   "liste": [
+    [
+     "Partito Democratico",
+     18.1
+    ],
+    [
+     "Cittadini per Bolzonello Presidente",
+     4.1
+    ],
+    [
+     "Open Sinistra FVG",
+     2.8
+    ],
+    [
+     "Slovenska Skupnost",
+     1.2
+    ]
+   ]
+  },
+  {
+   "nome": "Alessandro Fraleoni Morgera",
+   "pct": 11.7,
+   "area": "altro",
+   "liste": [
+    [
+     "Movimento 5 Stelle",
+     7.1
+    ]
+   ]
+  },
+  {
+   "nome": "Sergio Cecotti",
+   "pct": 4.4,
+   "area": "autonomista",
+   "liste": [
+    [
+     "Patto per l'Autonomia",
+     4.1
+    ]
+   ]
+  }
+ ],
+ "06-2023-04-02": [
+  {
+   "nome": "Massimiliano Fedriga",
+   "pct": 64.2,
+   "area": "centrodestra",
+   "liste": [
+    [
+     "Lega",
+     19.0
+    ],
+    [
+     "Fratelli d'Italia",
+     18.1
+    ],
+    [
+     "Fedriga Presidente",
+     17.8
+    ],
+    [
+     "Forza Italia",
+     6.7
+    ],
+    [
+     "Autonomia Responsabile",
+     2.0
+    ]
+   ]
+  },
+  {
+   "nome": "Massimo Moretuzzo",
+   "pct": 28.4,
+   "area": "centrosinistra",
+   "liste": [
+    [
+     "Partito Democratico",
+     16.5
+    ],
+    [
+     "Patto per l'Autonomia",
+     6.3
+    ],
+    [
+     "Movimento 5 Stelle",
+     2.4
+    ],
+    [
+     "Alleanza Verdi e Sinistra",
+     2.0
+    ],
+    [
+     "Open Sinistra FVG",
+     1.5
+    ],
+    [
+     "Slovenska Skupnost",
+     1.0
+    ]
+   ]
+  },
+  {
+   "nome": "Giorgia Tripoli",
+   "pct": 4.7,
+   "area": "altro",
+   "liste": [
+    [
+     "Insieme Liberi",
+     4.0
+    ]
+   ]
+  },
+  {
+   "nome": "Alessandro Maran",
+   "pct": 2.7,
+   "area": "centro",
+   "liste": [
+    [
+     "Azione – Italia Viva – +Europa",
+     2.8
+    ]
+   ]
+  }
+ ],
+ "02-1993-05-30": [
+  {
+   "nome": null,
+   "pct": null,
+   "area": null,
+   "liste": [
+    [
+     "Union Valdôtaine",
+     37.3
+    ],
+    [
+     "Democrazia Cristiana",
+     14.9
+    ],
+    [
+     "Partito Democratico della Sinistra",
+     8.6
+    ],
+    [
+     "Lega Nord Valle d'Aosta",
+     7.6
+    ],
+    [
+     "Verdi Alternativi",
+     7.2
+    ],
+    [
+     "Autonomisti Democratici Progressisti – PRI",
+     6.5
+    ],
+    [
+     "Pour la Vallée d'Aoste",
+     4.3
+    ],
+    [
+     "Alleanza Popolare Autonomista",
+     4.0
+    ],
+    [
+     "Partito Socialista Italiano",
+     3.9
+    ],
+    [
+     "Rifondazione Comunista",
+     3.5
+    ],
+    [
+     "Movimento Sociale Italiano",
+     1.7
+    ]
+   ]
+  }
+ ],
+ "02-1998-05-31": [
+  {
+   "nome": null,
+   "pct": null,
+   "area": null,
+   "liste": [
+    [
+     "Union Valdôtaine",
+     42.6
+    ],
+    [
+     "Autonomisti",
+     12.8
+    ],
+    [
+     "Fédération Autonomiste",
+     9.7
+    ],
+    [
+     "Democratici di Sinistra",
+     8.2
+    ],
+    [
+     "Per la Valle d'Aosta con l'Ulivo",
+     6.8
+    ],
+    [
+     "Forza Italia",
+     6.5
+    ],
+    [
+     "Rifondazione Comunista",
+     4.8
+    ],
+    [
+     "Lega Nord Valle d'Aosta",
+     3.4
+    ],
+    [
+     "Alleanza Nazionale",
+     2.9
+    ]
+   ]
+  }
+ ],
+ "02-2003-06-08": [
+  {
+   "nome": null,
+   "pct": null,
+   "area": null,
+   "liste": [
+    [
+     "Union Valdôtaine",
+     47.2
+    ],
+    [
+     "Stella Alpina",
+     19.8
+    ],
+    [
+     "Gauche Valdôtaine – DS",
+     9.7
+    ],
+    [
+     "Casa delle Libertà",
+     9.4
+    ],
+    [
+     "Arcobaleno Valle d'Aosta",
+     7.9
+    ],
+    [
+     "Alé Vallée",
+     4.7
+    ]
+   ]
+  }
+ ],
+ "02-2008-05-25": [
+  {
+   "nome": null,
+   "pct": null,
+   "area": null,
+   "liste": [
+    [
+     "Union Valdôtaine",
+     44.4
+    ],
+    [
+     "Vallée d'Aoste Vive – Renouveau Valdôtain",
+     12.5
+    ],
+    [
+     "Stella Alpina",
+     11.4
+    ],
+    [
+     "Il Popolo della Libertà",
+     10.7
+    ],
+    [
+     "Partito Democratico",
+     9.3
+    ],
+    [
+     "Fédération Autonomiste",
+     6.2
+    ],
+    [
+     "Arcobaleno Valle d'Aosta",
+     5.6
+    ]
+   ]
+  }
+ ],
+ "02-2013-05-26": [
+  {
+   "nome": null,
+   "pct": null,
+   "area": null,
+   "liste": [
+    [
+     "Union Valdôtaine",
+     33.5
+    ],
+    [
+     "Union Valdôtaine Progressiste",
+     19.2
+    ],
+    [
+     "Autonomie Liberté Participation Écologie",
+     12.4
+    ],
+    [
+     "Stella Alpina",
+     12.2
+    ],
+    [
+     "Partito Democratico – Sinistra VdA",
+     8.9
+    ],
+    [
+     "Movimento 5 Stelle",
+     6.6
+    ],
+    [
+     "Il Popolo della Libertà",
+     4.1
+    ],
+    [
+     "Fédération Autonomiste",
+     2.2
+    ]
+   ]
+  }
+ ],
+ "02-2018-05-20": [
+  {
+   "nome": null,
+   "pct": null,
+   "area": null,
+   "liste": [
+    [
+     "Union Valdôtaine",
+     19.3
+    ],
+    [
+     "Lega Vallée d'Aoste",
+     17.1
+    ],
+    [
+     "Stella Alpina – Pour Notre Vallée",
+     10.7
+    ],
+    [
+     "Union Valdôtaine Progressiste",
+     10.6
+    ],
+    [
+     "Movimento 5 Stelle",
+     10.4
+    ],
+    [
+     "Autonomie Liberté Participation Écologie",
+     9.0
+    ],
+    [
+     "Impegno Civico",
+     7.5
+    ],
+    [
+     "Mouv'",
+     7.1
+    ],
+    [
+     "Partito Democratico – Sinistra VdA",
+     5.4
+    ],
+    [
+     "Centro Destra Valle d'Aosta",
+     2.9
+    ]
+   ]
+  }
+ ],
+ "02-2020-09-20": [
+  {
+   "nome": null,
+   "pct": null,
+   "area": null,
+   "liste": [
+    [
+     "Lega Vallée d'Aoste",
+     23.9
+    ],
+    [
+     "Union Valdôtaine",
+     15.8
+    ],
+    [
+     "Progetto Civico Progressista",
+     15.2
+    ],
+    [
+     "Alliance Valdôtaine – Stella Alpina – Italia Viva",
+     8.9
+    ],
+    [
+     "Vallée d'Aoste Unie",
+     8.1
+    ],
+    [
+     "Pour l'Autonomie – Per l'Autonomia",
+     6.4
+    ],
+    [
+     "Centro Destra Valle d'Aosta (FI-FdI)",
+     5.7
+    ],
+    [
+     "Rinascimento Valle d'Aosta",
+     5.0
+    ],
+    [
+     "Movimento 5 Stelle",
+     3.9
+    ],
+    [
+     "Pays d'Aoste Souverain",
+     2.8
+    ],
+    [
+     "Valle d'Aosta Futura",
+     2.7
+    ],
+    [
+     "VdA Libra – Partito Animalista",
+     1.6
+    ]
+   ]
+  }
+ ],
+ "02-2025-09-28": [
+  {
+   "nome": null,
+   "pct": null,
+   "area": null,
+   "liste": [
+    [
+     "Union Valdôtaine",
+     32.0
+    ],
+    [
+     "Autonomisti di Centro",
+     14.0
+    ],
+    [
+     "Fratelli d'Italia",
+     11.0
+    ],
+    [
+     "Forza Italia – Insieme Ensemble – La Renaissance",
+     10.0
+    ],
+    [
+     "Lega Vallée d'Aoste",
+     8.4
+    ],
+    [
+     "PD – Federalisti Progressisti",
+     8.0
+    ],
+    [
+     "Alleanza Verdi Sinistra",
+     6.3
+    ],
+    [
+     "Vallée d'Aoste Ouverte – VdA Aperta",
+     5.6
+    ],
+    [
+     "Valle d'Aosta Futura",
+     4.6
+    ]
+   ]
+  }
+ ],
+ "04-TN-1993-11-21": [
+  {
+   "nome": null,
+   "pct": null,
+   "area": null,
+   "liste": [
+    [
+     "Democrazia Cristiana",
+     24.1
+    ],
+    [
+     "Partito Autonomista Trentino Tirolese",
+     20.1
+    ],
+    [
+     "Lega Nord Trentino",
+     16.2
+    ],
+    [
+     "La Rete",
+     9.5
+    ],
+    [
+     "Partito Democratico della Sinistra",
+     6.3
+    ],
+    [
+     "Lega Autonomia Trentino",
+     3.9
+    ],
+    [
+     "Solidarietà",
+     3.3
+    ],
+    [
+     "Movimento Sociale Italiano",
+     3.0
+    ],
+    [
+     "Alleanza per il Trentino",
+     3.0
+    ],
+    [
+     "Rifondazione Comunista",
+     1.8
+    ],
+    [
+     "PSDI",
+     1.7
+    ],
+    [
+     "Alleanza Democratica",
+     1.4
+    ]
+   ]
+  }
+ ],
+ "04-TN-1998-11-22": [
+  {
+   "nome": null,
+   "pct": null,
+   "area": null,
+   "liste": [
+    [
+     "Civica Margherita",
+     22.0
+    ],
+    [
+     "Democratici di Sinistra",
+     13.4
+    ],
+    [
+     "Partito Autonomista Trentino Tirolese",
+     12.4
+    ],
+    [
+     "Forza Italia – CCD",
+     11.7
+    ],
+    [
+     "Unione Popolare Democratica",
+     10.4
+    ],
+    [
+     "Lega Nord Trentino",
+     8.8
+    ],
+    [
+     "Alleanza Nazionale",
+     6.0
+    ],
+    [
+     "Trentino Domani",
+     5.2
+    ],
+    [
+     "Verdi – Rifondazione Comunista",
+     3.9
+    ],
+    [
+     "Autonomia Integrale",
+     3.8
+    ],
+    [
+     "Rinnovamento Italiano",
+     2.2
+    ]
+   ]
+  }
+ ],
+ "04-TN-2003-10-26": [
+  {
+   "nome": "Lorenzo Dellai",
+   "pct": 60.8,
+   "area": "centrosinistra",
+   "liste": [
+    [
+     "Civica Margherita",
+     25.9
+    ],
+    [
+     "Democratici di Sinistra",
+     13.6
+    ],
+    [
+     "Partito Autonomista Trentino Tirolese",
+     9.0
+    ],
+    [
+     "Verdi e Democratici del Trentino",
+     3.5
+    ],
+    [
+     "Leali al Trentino",
+     2.6
+    ],
+    [
+     "Centro Popolare",
+     2.2
+    ],
+    [
+     "Socialisti Democratici Italiani",
+     1.9
+    ],
+    [
+     "Union Autonomista Ladina",
+     1.1
+    ]
+   ]
+  },
+  {
+   "nome": "Carlo Andreotti",
+   "pct": 30.7,
+   "area": "centrodestra",
+   "liste": [
+    [
+     "Forza Italia",
+     13.4
+    ],
+    [
+     "Lega Nord Trentino",
+     6.1
+    ],
+    [
+     "UDC",
+     5.1
+    ],
+    [
+     "Alleanza Nazionale",
+     4.1
+    ],
+    [
+     "Trentino Autonomista",
+     2.2
+    ]
+   ]
+  },
+  {
+   "nome": "Agostino Catalano",
+   "pct": 2.8,
+   "area": "sinistra",
+   "liste": [
+    [
+     "Rifondazione Comunista",
+     2.8
+    ]
+   ]
+  },
+  {
+   "nome": "Bruno Firmani",
+   "pct": 1.5,
+   "area": "centrosinistra",
+   "liste": [
+    [
+     "Italia dei Valori",
+     1.5
+    ]
+   ]
+  },
+  {
+   "nome": "Claudio Taverna",
+   "pct": 1.5,
+   "area": "altro",
+   "liste": [
+    [
+     "Lista Taverna",
+     1.4
+    ]
+   ]
+  },
+  {
+   "nome": "Guido Gasperotti",
+   "pct": 1.1,
+   "area": "altro",
+   "liste": [
+    [
+     "Movimenti per i Diritti",
+     1.1
+    ]
+   ]
+  }
+ ],
+ "04-TN-2008-11-09": [
+  {
+   "nome": "Lorenzo Dellai",
+   "pct": 57.0,
+   "area": "centrosinistra",
+   "liste": [
+    [
+     "Partito Democratico",
+     21.6
+    ],
+    [
+     "Unione per il Trentino",
+     17.9
+    ],
+    [
+     "Partito Autonomista Trentino Tirolese",
+     8.5
+    ],
+    [
+     "Verdi e Democratici del Trentino",
+     2.8
+    ],
+    [
+     "Italia dei Valori",
+     2.7
+    ],
+    [
+     "Leali al Trentino",
+     2.3
+    ],
+    [
+     "Union Autonomista Ladina",
+     1.2
+    ]
+   ]
+  },
+  {
+   "nome": "Sergio Divina",
+   "pct": 36.5,
+   "area": "centrodestra",
+   "liste": [
+    [
+     "Lega Nord Trentino",
+     14.1
+    ],
+    [
+     "Il Popolo della Libertà",
+     12.3
+    ],
+    [
+     "Lista Civica Divina",
+     4.3
+    ],
+    [
+     "Autonomisti Valli Unite",
+     2.1
+    ],
+    [
+     "Partito dei Pensionati",
+     1.3
+    ]
+   ]
+  },
+  {
+   "nome": "Nerio Giovanazzi",
+   "pct": 2.9,
+   "area": "centro",
+   "liste": [
+    [
+     "Amministrare il Trentino",
+     1.6
+    ]
+   ]
+  },
+  {
+   "nome": "Remo Andreolli",
+   "pct": 2.0,
+   "area": "centrosinistra",
+   "liste": [
+    [
+     "Democratici per il Trentino",
+     2.0
+    ]
+   ]
+  },
+  {
+   "nome": "Agostino Catalano",
+   "pct": 1.2,
+   "area": "sinistra",
+   "liste": [
+    [
+     "La Sinistra",
+     1.2
+    ]
+   ]
+  }
+ ],
+ "04-TN-2013-10-27": [
+  {
+   "nome": "Ugo Rossi",
+   "pct": 58.1,
+   "area": "centrosinistra",
+   "liste": [
+    [
+     "Partito Democratico",
+     22.1
+    ],
+    [
+     "Partito Autonomista Trentino Tirolese",
+     17.6
+    ],
+    [
+     "Unione per il Trentino",
+     13.3
+    ],
+    [
+     "Verdi del Trentino",
+     1.9
+    ],
+    [
+     "Italia dei Valori",
+     1.7
+    ],
+    [
+     "Union Autonomista Ladina",
+     1.1
+    ],
+    [
+     "Riformisti per l'Autonomia",
+     1.1
+    ]
+   ]
+  },
+  {
+   "nome": "Diego Mosna",
+   "pct": 19.3,
+   "area": "centrodestra",
+   "liste": [
+    [
+     "Progetto Trentino",
+     9.0
+    ],
+    [
+     "Civica Trentina",
+     3.7
+    ],
+    [
+     "Amministrare il Trentino",
+     2.1
+    ],
+    [
+     "Insieme per l'Autonomia",
+     1.4
+    ],
+    [
+     "Autonomia 2020",
+     1.3
+    ]
+   ]
+  },
+  {
+   "nome": "Maurizio Fugatti",
+   "pct": 6.6,
+   "area": "centrodestra",
+   "liste": [
+    [
+     "Lega Nord Trentino",
+     6.2
+    ]
+   ]
+  },
+  {
+   "nome": "Filippo Degasperi",
+   "pct": 5.7,
+   "area": "altro",
+   "liste": [
+    [
+     "Movimento 5 Stelle",
+     5.8
+    ]
+   ]
+  },
+  {
+   "nome": "Giacomo Bezzi",
+   "pct": 4.3,
+   "area": "centrodestra",
+   "liste": [
+    [
+     "Forza Trentino",
+     4.4
+    ]
+   ]
+  },
+  {
+   "nome": "Emilio Arisi",
+   "pct": 1.8,
+   "area": "sinistra",
+   "liste": [
+    [
+     "Sinistra Ecologia Libertà",
+     1.8
+    ]
+   ]
+  },
+  {
+   "nome": "Cristano de Eccher",
+   "pct": 1.5,
+   "area": "centrodestra",
+   "liste": [
+    [
+     "Fratelli d'Italia",
+     1.6
+    ]
+   ]
+  },
+  {
+   "nome": "Ezio Casagranda",
+   "pct": 1.1,
+   "area": "sinistra",
+   "liste": [
+    [
+     "Rifondazione Comunista",
+     1.2
+    ]
+   ]
+  }
+ ],
+ "04-TN-2018-10-21": [
+  {
+   "nome": "Maurizio Fugatti",
+   "pct": 46.7,
+   "area": "centrodestra",
+   "liste": [
+    [
+     "Lega",
+     27.1
+    ],
+    [
+     "Civica Trentina",
+     4.6
+    ],
+    [
+     "Progetto Trentino",
+     3.2
+    ],
+    [
+     "Autonomisti Popolari",
+     3.0
+    ],
+    [
+     "Forza Italia",
+     2.8
+    ],
+    [
+     "Agire per il Trentino",
+     2.1
+    ],
+    [
+     "UDC",
+     2.1
+    ],
+    [
+     "Fratelli d'Italia",
+     1.4
+    ]
+   ]
+  },
+  {
+   "nome": "Giorgio Tonini",
+   "pct": 25.4,
+   "area": "centrosinistra",
+   "liste": [
+    [
+     "Partito Democratico",
+     13.9
+    ],
+    [
+     "Futura 2018",
+     6.9
+    ],
+    [
+     "Unione per il Trentino",
+     4.0
+    ]
+   ]
+  },
+  {
+   "nome": "Ugo Rossi",
+   "pct": 12.4,
+   "area": "autonomista",
+   "liste": [
+    [
+     "Partito Autonomista Trentino Tirolese",
+     12.6
+    ]
+   ]
+  },
+  {
+   "nome": "Filippo Degasperi",
+   "pct": 7.1,
+   "area": "altro",
+   "liste": [
+    [
+     "Movimento 5 Stelle",
+     7.2
+    ]
+   ]
+  },
+  {
+   "nome": "Antonella Valer",
+   "pct": 2.7,
+   "area": "sinistra",
+   "liste": [
+    [
+     "Liberi e Uguali",
+     1.4
+    ]
+   ]
+  },
+  {
+   "nome": "Mauro Ottobre",
+   "pct": 2.0,
+   "area": "autonomista",
+   "liste": [
+    [
+     "Autonomia Dinamica",
+     2.0
+    ]
+   ]
+  },
+  {
+   "nome": "Roberto de Laurentis",
+   "pct": 1.5,
+   "area": "centro",
+   "liste": [
+    [
+     "TRE – Trentino Responsabilità Europa",
+     1.5
+    ]
+   ]
+  }
+ ],
+ "04-TN-2023-10-22": [
+  {
+   "nome": "Maurizio Fugatti",
+   "pct": 51.8,
+   "area": "centrodestra",
+   "liste": [
+    [
+     "Lega",
+     13.1
+    ],
+    [
+     "Fratelli d'Italia",
+     12.3
+    ],
+    [
+     "Fugatti Presidente",
+     10.7
+    ],
+    [
+     "Partito Autonomista Trentino Tirolese",
+     8.2
+    ],
+    [
+     "La Civica",
+     4.9
+    ],
+    [
+     "Forza Italia",
+     2.0
+    ]
+   ]
+  },
+  {
+   "nome": "Francesco Valduga",
+   "pct": 37.5,
+   "area": "centrosinistra",
+   "liste": [
+    [
+     "Partito Democratico",
+     16.6
+    ],
+    [
+     "Campobase",
+     8.4
+    ],
+    [
+     "Casa Autonomia.eu",
+     4.3
+    ],
+    [
+     "Alleanza Verdi e Sinistra",
+     3.3
+    ],
+    [
+     "Fascegn",
+     1.6
+    ],
+    [
+     "Italia Viva",
+     1.5
+    ],
+    [
+     "Azione",
+     1.4
+    ]
+   ]
+  },
+  {
+   "nome": "Filippo Degasperi",
+   "pct": 3.8,
+   "area": "altro",
+   "liste": [
+    [
+     "Onda",
+     2.5
+    ]
+   ]
+  },
+  {
+   "nome": "Marco Rizzo",
+   "pct": 2.3,
+   "area": "altro",
+   "liste": [
+    [
+     "Democrazia Sovrana Popolare",
+     2.3
+    ]
+   ]
+  },
+  {
+   "nome": "Sergio Divina",
+   "pct": 2.2,
+   "area": "altro",
+   "liste": []
+  },
+  {
+   "nome": "Alex Marini",
+   "pct": 1.9,
+   "area": "altro",
+   "liste": [
+    [
+     "Movimento 5 Stelle",
+     1.9
+    ]
+   ]
+  }
+ ],
+ "04-BZ-1993-11-21": [
+  {
+   "nome": null,
+   "pct": null,
+   "area": null,
+   "liste": [
+    [
+     "Südtiroler Volkspartei",
+     52.0
+    ],
+    [
+     "Movimento Sociale Italiano",
+     11.6
+    ],
+    [
+     "Verdi – Grüne – Vërc",
+     6.9
+    ],
+    [
+     "Die Freiheitlichen",
+     6.1
+    ],
+    [
+     "Union für Südtirol",
+     4.8
+    ],
+    [
+     "Democrazia Cristiana",
+     4.4
+    ],
+    [
+     "Lega Nord Alto Adige Südtirol",
+     3.0
+    ],
+    [
+     "Partito Democratico della Sinistra",
+     2.9
+    ],
+    [
+     "Ladins",
+     2.0
+    ],
+    [
+     "Unione Democratica dell'Alto Adige",
+     1.7
+    ]
+   ]
+  }
+ ],
+ "04-BZ-1998-11-22": [
+  {
+   "nome": null,
+   "pct": null,
+   "area": null,
+   "liste": [
+    [
+     "Südtiroler Volkspartei",
+     56.6
+    ],
+    [
+     "Alleanza Nazionale",
+     9.7
+    ],
+    [
+     "Verdi – Grüne – Vërc",
+     6.6
+    ],
+    [
+     "Union für Südtirol",
+     5.5
+    ],
+    [
+     "Forza Italia – CCD",
+     3.7
+    ],
+    [
+     "Ladins – DPS",
+     3.6
+    ],
+    [
+     "Democratici di Sinistra",
+     3.5
+    ],
+    [
+     "Popolari Alto Adige",
+     2.7
+    ],
+    [
+     "Die Freiheitlichen",
+     2.5
+    ],
+    [
+     "Unitalia – Fiamma Tricolore",
+     1.8
+    ],
+    [
+     "Unione Democratica dell'Alto Adige",
+     1.8
+    ],
+    [
+     "Rifondazione Comunista",
+     1.4
+    ]
+   ]
+  }
+ ],
+ "04-BZ-2003-10-26": [
+  {
+   "nome": null,
+   "pct": null,
+   "area": null,
+   "liste": [
+    [
+     "Südtiroler Volkspartei",
+     55.6
+    ],
+    [
+     "Alleanza Nazionale",
+     8.4
+    ],
+    [
+     "Verdi – Grüne – Vërc",
+     7.9
+    ],
+    [
+     "Union für Südtirol",
+     6.8
+    ],
+    [
+     "Die Freiheitlichen",
+     5.0
+    ],
+    [
+     "Pace e Diritti – Frieden und Gerechtigkeit",
+     3.8
+    ],
+    [
+     "Unione Autonomista",
+     3.7
+    ],
+    [
+     "Forza Italia",
+     3.4
+    ],
+    [
+     "Unitalia",
+     1.5
+    ],
+    [
+     "Ladins",
+     1.4
+    ]
+   ]
+  }
+ ],
+ "04-BZ-2008-10-26": [
+  {
+   "nome": null,
+   "pct": null,
+   "area": null,
+   "liste": [
+    [
+     "Südtiroler Volkspartei",
+     48.1
+    ],
+    [
+     "Die Freiheitlichen",
+     14.3
+    ],
+    [
+     "Il Popolo della Libertà",
+     8.3
+    ],
+    [
+     "Partito Democratico",
+     6.0
+    ],
+    [
+     "Verdi – Grüne – Vërc",
+     5.8
+    ],
+    [
+     "Süd-Tiroler Freiheit",
+     4.9
+    ],
+    [
+     "Union für Südtirol",
+     2.3
+    ],
+    [
+     "Lega Nord Alto Adige Südtirol",
+     2.1
+    ],
+    [
+     "Unitalia",
+     1.9
+    ],
+    [
+     "Italia dei Valori",
+     1.6
+    ],
+    [
+     "UDC",
+     1.2
+    ],
+    [
+     "Bürgerbewegung",
+     1.2
+    ],
+    [
+     "Ladins Dolomites",
+     1.1
+    ]
+   ]
+  }
+ ],
+ "04-BZ-2013-10-27": [
+  {
+   "nome": null,
+   "pct": null,
+   "area": null,
+   "liste": [
+    [
+     "Südtiroler Volkspartei",
+     45.7
+    ],
+    [
+     "Die Freiheitlichen",
+     17.9
+    ],
+    [
+     "Verdi – Grüne – Vërc",
+     8.7
+    ],
+    [
+     "Süd-Tiroler Freiheit",
+     7.2
+    ],
+    [
+     "Partito Democratico",
+     6.7
+    ],
+    [
+     "Forza Alto Adige – Lega Nord – Team Autonomie",
+     2.5
+    ],
+    [
+     "Movimento 5 Stelle",
+     2.5
+    ],
+    [
+     "BürgerUnion – Wir Südtiroler – Ladins",
+     2.1
+    ],
+    [
+     "Alto Adige nel Cuore",
+     2.1
+    ],
+    [
+     "Unitalia",
+     1.7
+    ],
+    [
+     "Scelta Civica",
+     1.6
+    ]
+   ]
+  }
+ ],
+ "04-BZ-2018-10-21": [
+  {
+   "nome": null,
+   "pct": null,
+   "area": null,
+   "liste": [
+    [
+     "Südtiroler Volkspartei",
+     41.9
+    ],
+    [
+     "Team Köllensperger",
+     15.2
+    ],
+    [
+     "Lega Alto Adige Südtirol",
+     11.1
+    ],
+    [
+     "Verdi – Grüne – Vërc",
+     6.8
+    ],
+    [
+     "Die Freiheitlichen",
+     6.2
+    ],
+    [
+     "Süd-Tiroler Freiheit",
+     6.0
+    ],
+    [
+     "Partito Democratico",
+     3.8
+    ],
+    [
+     "Movimento 5 Stelle",
+     2.3
+    ],
+    [
+     "Alto Adige nel Cuore – Fratelli d'Italia",
+     1.7
+    ],
+    [
+     "BürgerUnion",
+     1.3
+    ],
+    [
+     "Wir Südtiroler",
+     1.2
+    ]
+   ]
+  }
+ ],
+ "04-BZ-2023-10-22": [
+  {
+   "nome": null,
+   "pct": null,
+   "area": null,
+   "liste": [
+    [
+     "Südtiroler Volkspartei",
+     34.5
+    ],
+    [
+     "Team K",
+     11.1
+    ],
+    [
+     "Süd-Tiroler Freiheit",
+     10.9
+    ],
+    [
+     "Verdi – Grüne – Vërc",
+     9.0
+    ],
+    [
+     "Fratelli d'Italia",
+     6.0
+    ],
+    [
+     "JWA – Liste Jürgen Wirth Anderlan",
+     5.9
+    ],
+    [
+     "Die Freiheitlichen",
+     4.9
+    ],
+    [
+     "Partito Democratico",
+     3.5
+    ],
+    [
+     "Für Südtirol mit Widmann",
+     3.4
+    ],
+    [
+     "Lega – Uniti per l'Alto Adige",
+     3.0
+    ],
+    [
+     "La Civica",
+     2.6
+    ],
+    [
+     "Vita",
+     2.6
+    ]
+   ]
+  }
+ ],
+ "fonti": {
+  "19-1996-06-16": "https://en.wikipedia.org/wiki/1996_Sicilian_regional_election",
+  "19-2001-06-24": "https://en.wikipedia.org/wiki/2001_Sicilian_regional_election",
+  "19-2006-05-28": "https://en.wikipedia.org/wiki/2006_Sicilian_regional_election",
+  "19-2008-04-13": "https://oaj.fupress.net/index.php/qoe/article/download/10168/8961",
+  "19-2012-10-28": "https://en.wikipedia.org/wiki/2012_Sicilian_regional_election",
+  "19-2017-11-05": "https://en.wikipedia.org/wiki/2017_Sicilian_regional_election",
+  "19-2022-09-25": "https://en.wikipedia.org/wiki/2022_Sicilian_regional_election",
+  "20-1994-06-12": "https://en.wikipedia.org/wiki/1994_Sardinian_regional_election",
+  "20-1994-06-26": "https://en.wikipedia.org/wiki/1994_Sardinian_regional_election",
+  "20-1999-06-13": "https://en.wikipedia.org/wiki/1999_Sardinian_regional_election",
+  "20-1999-06-27": "https://en.wikipedia.org/wiki/1999_Sardinian_regional_election",
+  "20-2004-06-12": "https://regione.emilia-romagna.it/idf/numeri/2004/6_2004/1041-1061-venturino-f.pdf/@@download/file",
+  "20-2009-02-15": "https://en.wikipedia.org/wiki/2009_Sardinian_regional_election",
+  "20-2014-02-16": "https://iris.unica.it/retrieve/e2f56ed4-5a35-3eaf-e053-3a05fe0a5d97/2014_ROMBI%20%26%20VENTURINO_Le%20Istituzioni%20del%20Federalismo_Le%20elezioni%20regionali%20del%202014%20in%20Sardegna.pdf",
+  "20-2019-02-24": "https://en.wikipedia.org/wiki/2019_Sardinian_regional_election",
+  "20-2024-02-25": "https://rsld.padovauniversitypress.it/system/files/papers/RSLD-2024-2-3.pdf",
+  "06-1993-06-06": "https://en.wikipedia.org/wiki/1993_Friuli-Venezia_Giulia_regional_election",
+  "06-1998-06-14": "https://en.wikipedia.org/wiki/1998_Friuli-Venezia_Giulia_regional_election",
+  "06-2003-06-08": "https://en.wikipedia.org/wiki/2003_Friuli-Venezia_Giulia_regional_election",
+  "06-2008-04-13": "https://en.wikipedia.org/wiki/2008_Friuli-Venezia_Giulia_regional_election",
+  "06-2013-04-21": "https://en.wikipedia.org/wiki/2013_Friuli-Venezia_Giulia_regional_election ; https://www.tuttitalia.it/elezioni-italiane/elezioni-regionali-friuli-venezia-giulia-2013/",
+  "06-2018-04-29": "https://en.wikipedia.org/wiki/2018_Friuli-Venezia_Giulia_regional_election",
+  "06-2023-04-02": "https://en.wikipedia.org/wiki/2023_Friuli-Venezia_Giulia_regional_election",
+  "02-1993-05-30": "https://en.wikipedia.org/wiki/1993_Valdostan_regional_election",
+  "02-1998-05-31": "https://en.wikipedia.org/wiki/1998_Valdostan_regional_election",
+  "02-2003-06-08": "https://en.wikipedia.org/wiki/2003_Valdostan_regional_election",
+  "02-2008-05-25": "https://en.wikipedia.org/wiki/2008_Valdostan_regional_election",
+  "02-2013-05-26": "https://en.wikipedia.org/wiki/2013_Valdostan_regional_election",
+  "02-2018-05-20": "https://en.wikipedia.org/wiki/2018_Valdostan_regional_election",
+  "02-2020-09-20": "https://en.wikipedia.org/wiki/2020_Valdostan_regional_election",
+  "02-2025-09-28": "https://en.wikipedia.org/wiki/2025_Valdostan_regional_election",
+  "04-TN-1993-11-21": "https://en.wikipedia.org/wiki/1993_Trentino-Alto_Adige/S%C3%BCdtirol_regional_election",
+  "04-TN-1998-11-22": "https://en.wikipedia.org/wiki/1998_Trentino-Alto_Adige/S%C3%BCdtirol_regional_election",
+  "04-TN-2003-10-26": "https://en.wikipedia.org/wiki/2003_Trentino-Alto_Adige/S%C3%BCdtirol_provincial_elections",
+  "04-TN-2008-11-09": "https://oaj.fupress.net/index.php/qoe/article/download/10168/8961",
+  "04-TN-2013-10-27": "https://en.wikipedia.org/wiki/2013_Trentino-Alto_Adige/S%C3%BCdtirol_provincial_elections",
+  "04-TN-2018-10-21": "https://en.wikipedia.org/wiki/2018_Trentino-Alto_Adige/S%C3%BCdtirol_provincial_elections",
+  "04-TN-2023-10-22": "https://en.wikipedia.org/wiki/2023_Trentino-Alto_Adige/S%C3%BCdtirol_provincial_elections",
+  "04-BZ-1993-11-21": "https://en.wikipedia.org/wiki/1993_Trentino-Alto_Adige/S%C3%BCdtirol_regional_election",
+  "04-BZ-1998-11-22": "https://en.wikipedia.org/wiki/1998_Trentino-Alto_Adige/S%C3%BCdtirol_regional_election",
+  "04-BZ-2003-10-26": "https://en.wikipedia.org/wiki/2003_Trentino-Alto_Adige/S%C3%BCdtirol_provincial_elections",
+  "04-BZ-2008-10-26": "https://en.wikipedia.org/wiki/2008_Trentino-Alto_Adige/S%C3%BCdtirol_provincial_elections",
+  "04-BZ-2013-10-27": "https://en.wikipedia.org/wiki/2013_Trentino-Alto_Adige/S%C3%BCdtirol_provincial_elections",
+  "04-BZ-2018-10-21": "https://en.wikipedia.org/wiki/2018_Trentino-Alto_Adige/S%C3%BCdtirol_provincial_elections",
+  "04-BZ-2023-10-22": "https://en.wikipedia.org/wiki/2023_Trentino-Alto_Adige/S%C3%BCdtirol_provincial_elections"
+ }
+}

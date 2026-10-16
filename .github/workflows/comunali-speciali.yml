@@ -1,0 +1,43 @@
+name: Aggiorna comunali delle regioni a statuto speciale
+
+# Sicilia, Friuli-Venezia Giulia, Valle d'Aosta e Trentino-Alto Adige non sono
+# nell'Archivio storico del Ministero: le loro comunali vengono da tuttitalia.it
+# e si aggiungono a dati/comunali.js. Gira dopo «Aggiorna comunali».
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['strumenti/comunali_speciali.py', '.github/workflows/comunali-speciali.yml']
+  schedule:
+    - cron: '41 4 6 * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: comunali
+  cancel-in-progress: false
+
+jobs:
+  aggiorna:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests
+      - name: Scarica le comunali delle regioni a statuto speciale
+        env:
+          PAUSA_TT: '1.0'
+        run: python strumenti/comunali_speciali.py
+      - name: Salva i dati
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dati/comunali.js strumenti/comunali-speciali-non-trovati.txt
+          if git diff --cached --quiet; then echo "Nessuna novità"; exit 0; fi
+          git commit -m "Comunali delle regioni a statuto speciale (tuttitalia.it)"
+          git pull --rebase origin main
+          git push
