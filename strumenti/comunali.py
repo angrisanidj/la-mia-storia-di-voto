@@ -133,6 +133,13 @@ def main():
             for sigla, comuni, ppc, pvc in gruppi:
                 for cv, ct in comuni:
                     cand = indice.get((reg, norm(ct)), [])
+                    if not cand:
+                        # comuni passati di regione (Valmarecchia, Sappada...) o nomi in altra regione: cerca ovunque
+                        tutti = [c for (r, n), v in indice.items() if n == norm(ct) for c in v]
+                        if sigla:
+                            tutti = [c for c in tutti if c[1] == sigla] or tutti
+                        if len(tutti) == 1 or (sigla and tutti and all(c[1] == sigla for c in tutti)):
+                            cand = tutti[:1]
                     if len(cand) > 1 and sigla:
                         cand = [c for c in cand if c[1] == sigla] or cand
                     if not cand:

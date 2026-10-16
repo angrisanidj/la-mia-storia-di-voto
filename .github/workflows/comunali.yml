@@ -31,7 +31,7 @@ jobs:
         run: pip install requests "git+https://github.com/jack89-ML/tallyho"
       - name: Scarica le comunali
         env:
-          SOLO_PROVA: '1'
+          SOLO_PROVA: '0'
           PAUSA: '0.15'
           LIMITE_MINUTI: '320'
         run: python strumenti/comunali.py
