@@ -284,8 +284,8 @@ select.campo { appearance: none; padding-right: 40px; background: #fff url("data
   <div class="corpo">
     <div id="elenco"><div class="vuoto">Inserisci data di nascita e comune per vedere l’elenco.</div></div>
     <div class="aggiungi" id="box-agg" hidden>
-      <h3>Comunali e altre elezioni locali</h3>
-      <p>Le comunali cambiano da comune a comune: aggiungile qui, con l’eventuale ballottaggio. Puoi aggiungere anche suppletive, provinciali o referendum locali.</p>
+      <h3>Manca qualcosa?</h3>
+      <p>Le comunali dei tuoi comuni sono già nell’elenco, prese dall’Archivio storico delle elezioni del Ministero dell’Interno. Se ne manca una, o per suppletive, provinciali e referendum locali, aggiungila qui.</p>
       <div class="azioni" id="pulsanti-agg"></div>
       <div id="form-agg"></div>
     </div>
@@ -331,7 +331,7 @@ select.campo { appearance: none; padding-right: 40px; background: #fff url("data
 </main>
 
 <footer class="piede">
-  <p>Elenco automatico: politiche, europee e referendum nazionali dal 1992, regionali (per Trento e Bolzano le provinciali dal 2003) e i principali referendum regionali. L’età si conta al primo giorno di voto; fino al 2018 per il Senato servivano 25 anni.</p>
+  <p>Elenco automatico: politiche, europee e referendum nazionali dal 1992, regionali (per Trento e Bolzano le provinciali dal 2003), i principali referendum regionali e le comunali con i ballottaggi dal 1993 (Archivio storico delle elezioni, Ministero dell’Interno). L’età si conta al primo giorno di voto; fino al 2018 per il Senato servivano 25 anni.</p>
   <p>Nei menu: le liste sopra l’1% alle politiche (quota proporzionale fino al 2001) e alle europee; per regionali e comunali le liste dell’ultima consultazione nazionale, i partiti locali e le liste dei candidati presidenti. Comuni, compresi quelli soppressi: ISTAT.</p>
   <p>Di Daniele Angrisani (<a href="https://x.com/putino">@putino</a>). Dello stesso autore: <a href="https://angrisanidj.github.io/il-tuo-emiciclo/">Il tuo emiciclo</a>.</p>
 </footer>
@@ -340,6 +340,9 @@ select.campo { appearance: none; padding-right: 40px; background: #fff url("data
 <script src="dati/comuni.js"></script>
 <script src="dati/partiti.js"></script>
 <script src="dati/referendum.js"></script>
+<script src="dati/comunali.js"></script>
+<script src="dati/regionali-candidati.js"></script>
+<script src="dati/regionali-speciali.js"></script>
 <script src="app.js"></script>
 </body>
 </html>

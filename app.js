@@ -112,15 +112,32 @@ function calcola() {
 
   for (const e of NAZIONALI) {
     const note = [];
-    const { res, trasloco } = residenzaIn(e.d);
-    if (res && res.comune === ESTERO) note.push('Eri residente all’estero.');
-    if (e.t === 'pol' && e.d < '2022-01-01') {
-      const e25 = eta(e.d, 25);
-      if (e25 === 'no') note.push('Solo Camera: per il Senato servivano 25 anni.');
-      if (e25 === 'forse') note.push('Per il Senato servivano 25 anni: dipende dal giorno di nascita.');
+    const { res } = residenzaIn(e.d);
+    const estero = res && res.comune === ESTERO;
+    const reg = res && !estero ? regioneDi(res.comune, e.d) : null;
+    if (estero) {
+      if (e.t === 'pol' && e.d >= '2006-01-01') note.push('Da residente all’estero votavi per corrispondenza le liste della circoscrizione Estero.');
+      else if (e.t === 'pol' || e.t === 'eur') note.push('Eri residente all’estero: per votare dovevi rientrare in Italia, salvo il voto per corrispondenza dove previsto.');
+      else note.push('Eri residente all’estero: votavi per corrispondenza.');
     }
-    const descr = e.t === 'ref' ? e.l + (e.q > 1 ? ` (${e.q} quesiti)` : '') : e.t === 'pol' ? 'Camera e Senato' : 'Parlamento europeo';
-    push({ key: `N:${e.d}:${e.t}`, d: e.d, d2: e.d2, tipo: e.t, qk: e.d, etichetta: e.s, descr, q: e.q, note });
+    if (e.t !== 'pol') {
+      const descr = e.t === 'ref' ? e.l + (e.q > 1 ? ` (${e.q} quesiti)` : '') : 'Parlamento europeo';
+      push({ key: `N:${e.d}:${e.t}`, d: e.d, d2: e.d2, tipo: e.t, qk: e.d, etichetta: e.s, descr, q: e.q, note });
+      continue;
+    }
+    // Politiche: Camera e Senato sono due schede, e il voto può essere diverso
+    const gruppo = `pol-${e.d}`;
+    const vda = reg === '02' ? ['In Valle d’Aosta si vota un candidato nel collegio uninominale della regione.'] : [];
+    const noteC = [...note, ...vda];
+    const e25 = e.d < '2022-01-01' ? eta(e.d, 25) : 'si';
+    if (e25 === 'no') noteC.push('Per il Senato servivano 25 anni: non potevi ancora votarlo.');
+    push({ key: `N:${e.d}:pol`, d: e.d, d2: e.d2, tipo: 'pol', ramo: 'C', gruppo, estero, reg, etichetta: 'Politiche (Camera)', descr: 'Camera dei deputati', note: noteC });
+    if (e25 !== 'no') {
+      const noteS = [...note, ...vda];
+      if (reg === '04' && e.d >= '2006-01-01' && e.d < '2018-01-01') noteS.push('In Trentino-Alto Adige al Senato si votava un candidato nel collegio uninominale.');
+      if (e25 === 'forse') noteS.push(`Per il Senato servivano 25 anni: potevi votarlo solo se li avevi compiuti entro il ${dataLunga(e.d)}.`);
+      push({ key: `N:${e.d}:polS`, d: e.d, d2: e.d2, tipo: 'pol', ramo: 'S', gruppo, estero, reg, etichetta: 'Politiche (Senato)', descr: 'Senato della Repubblica', note: noteS });
+    }
   }
 
   // Regionali
@@ -172,6 +189,24 @@ function calcola() {
     });
   }
 
+  // Comunali dall'Archivio storico delle elezioni (dati/comunali.js), per ogni comune in cui hai vissuto
+  const visti = new Set();
+  for (const r of residenzeOrdinate()) {
+    if (!r.comune || r.comune === ESTERO || visti.has(r.comune.cod)) continue;
+    visti.add(r.comune.cod);
+    caricaCandidatiComunali(r.comune.reg);
+    for (const c of comunaliDi(r.comune.cod)) {
+      for (const [d, d2, tipo] of [[c.d, c.d2, 'com'], ...(c.b ? [[c.b, c.b2, 'bal']] : [])]) {
+        const att = residenzaIn(d);
+        if (!att.res || att.res.comune.cod !== r.comune.cod) continue;
+        const note = att.trasloco ? ['Ti sei trasferito in quel mese: verifica dove eri iscritto.'] : [];
+        push({ key: `C:${r.comune.cod}:${d}`, d, d2, tipo, reg: regioneDi(r.comune, d), sig: r.comune.sig, cod: r.comune.cod, primo: c.d,
+          etichetta: tipo === 'com' ? `Comunali ${r.comune.nome}` : `Ballottaggio comunali ${r.comune.nome}`,
+          descr: tipo === 'com' ? 'Sindaco e consiglio comunale' : 'Secondo turno per il sindaco', note });
+      }
+    }
+  }
+
   // Aggiunte a mano
   for (const x of stato.extra) {
     if (!x.d) continue;
@@ -181,15 +216,37 @@ function calcola() {
     const note = [];
     if (res) { const att = residenzaIn(x.d).res; if (att && att.id !== res.id) note.push(`In quella data risultavi residente a ${att.comune.nome}.`); }
     const o = { key: `X:${x.id}`, d: x.d, d2: x.d2, tipo: x.tipo, etichetta, descr: '', note, extraId: x.id,
-      reg: res && res.comune ? regioneDi(res.comune, x.d) : null, sig: res && res.comune ? res.comune.sig : null };
+      reg: res && res.comune ? regioneDi(res.comune, x.d) : null, sig: res && res.comune ? res.comune.sig : null,
+      cod: res && res.comune ? res.comune.cod : null, primo: x.primo || x.d };
     if (eta(x.d, 18) === 'no') { o.note.push('A quella data non avevi ancora 18 anni.'); o.esclDefault = true; out.push(o); }
     else push(o);
   }
 
-  out.sort((a, b) => a.d.localeCompare(b.d) || ordineTipo(a.tipo) - ordineTipo(b.tipo));
+  out.sort((a, b) => a.d.localeCompare(b.d) || ordineTipo(a.tipo) - ordineTipo(b.tipo) || (a.ramo === 'S') - (b.ramo === 'S'));
   return out;
 }
 const ordineTipo = t => ({ pol: 0, eur: 1, reg: 2, ref: 3, com: 4, bal: 5, altro: 6 }[t] ?? 9);
+
+// Comunali di un comune: date dall'archivio; il ballottaggio è la seconda domenica dopo il primo turno
+let COMUNALI_MAPPA = null;
+function comunaliDi(cod) {
+  if (typeof COMUNALI_TXT === 'undefined' || typeof COMUNALI_DATE === 'undefined') return [];
+  if (!COMUNALI_MAPPA) {
+    COMUNALI_MAPPA = new Map();
+    for (const riga of COMUNALI_TXT.split('\n')) { const [c, v] = riga.split(':'); if (c && v) COMUNALI_MAPPA.set(c, v); }
+  }
+  const v = COMUNALI_MAPPA.get(cod);
+  if (!v) return [];
+  return v.split(',').map(Number).map(i => {
+    const d = COMUNALI_DATE[Math.abs(i) - 1];
+    const t = TURNI_COMUNALI.find(x => x.d === d);
+    const out = { d, d2: t ? t.d2 : null };
+    if (i < 0) { out.b = t ? t.b : piuGiorni(d, 14); out.b2 = t && t.b === out.b ? t.b2 : null; }
+    return out;
+  });
+}
+function piuGiorni(iso, n) { const x = new Date(iso + 'T12:00:00Z'); x.setUTCDate(x.getUTCDate() + n); return x.toISOString().slice(0, 10); }
+const haComunali = () => typeof COMUNALI_TXT !== 'undefined';
 
 // Residenza continuativa nella regione per n anni prima della data
 function residenteDa(iso, anni, reg) {
@@ -348,7 +405,7 @@ function disegnaElenco() {
       : 'Inserisci data di nascita e comune per vedere l’elenco.'));
     return;
   }
-  const attive = elenco.filter(o => statoDi(o) !== 'escl').length;
+  const attive = new Set(elenco.filter(o => statoDi(o) !== 'escl').map(o => o.gruppo || o.key)).size;
   box.append(el('p', { class: 'conto' }, el('b', {}, String(attive)), attive === 1 ? 'consultazione nella tua storia' : 'consultazioni nella tua storia'));
   const perAnno = new Map();
   for (const o of elenco) { const a = o.d.slice(0, 4); if (!perAnno.has(a)) perAnno.set(a, []); perAnno.get(a).push(o); }
@@ -392,12 +449,71 @@ function voceElenco(o, anno) {
 }
 
 // ===== Scelte guidate: liste, coalizioni, quesiti =====
+// Usate solo quando l'archivio non ha i candidati di quell'elezione (comuni piccoli, dati mancanti)
 const COALIZIONI_LOCALI = [
-  { b: 'CDX', n: 'Centrodestra', e: '🔵' },
-  { b: 'CSX', n: 'Centrosinistra', e: '🔴' },
-  { b: 'M5S', n: 'Movimento 5 Stelle', e: '🟡', da: '2009-10-04' },
+  { b: 'CDX', n: 'Candidato di centrodestra', e: '🔵' },
+  { b: 'CSX', n: 'Candidato di centrosinistra', e: '🔴' },
+  { b: 'CSX e M5S', n: 'Candidato di centrosinistra e M5S insieme', e: '🔴', da: '2019-01-01' },
+  { b: 'M5S', n: 'Candidato del M5S', e: '🟡', da: '2009-10-04' },
   { b: 'Civico', n: 'Candidato civico', e: '🟣' },
 ];
+
+// ===== Candidati reali (archivio del Ministero e regioni a statuto speciale) =====
+const PARTICELLE = new Set(['di', 'del', 'della', 'dei', 'degli', 'delle', 'de', 'da', 'dal', 'e', 'per', 'con', 'in', 'il', 'la', 'le', 'lo', 'gli', 'a', 'al', 'alla', 'nel', 'nella', 'sul', 'sulla']);
+function titoloNome(t) {
+  if (!t || t !== t.toUpperCase()) return t || '';
+  return t.toLowerCase().split(/(\s+|-|')/).map((w, i) => (/^\s+$|^-$|^'$/.test(w) || (i > 0 && PARTICELLE.has(w))) ? w : w.charAt(0).toUpperCase() + w.slice(1)).join('')
+    .replace(/\b(Pd|Pdl|M5s|Udc|Fdi|Psi|Pci|Pri|Pli|Psdi|Ds|Idv|Sel|Avs|Ppi|Ccd|Cdu|Udeur|Svp|Patt|Mpa|Nsi|Npsi|Ppe|Pse|Psd|Prc|Pdci)\b/g, m => m.toUpperCase());
+}
+let INDICE_PARTITI = null;
+function partitoDaLista(nome) {
+  if (!INDICE_PARTITI) {
+    INDICE_PARTITI = [];
+    const PN = typeof PARTITI_NAZIONALI !== 'undefined' ? PARTITI_NAZIONALI : {};
+    for (const el of Object.values(PN)) for (const l of el.liste) {
+      INDICE_PARTITI.push([norm(l.n), l]);
+      if (l.b && l.b.length > 2) INDICE_PARTITI.push([norm(l.b), l]);
+    }
+    INDICE_PARTITI.sort((a, b) => b[0].length - a[0].length);
+  }
+  const k = norm(nome);
+  for (const [n, l] of INDICE_PARTITI) if (k === n || (n.length >= 3 && k.startsWith(n + ' '))) return { ...l, pieno: true };
+  for (const [n, l] of INDICE_PARTITI) if (n.length > 8 && k.includes(n)) return l;
+  return null;
+}
+function candidatiReali(o) {
+  let grezzi = null;
+  if (o.tipo === 'reg') {
+    const chiave = o.reg === '04' ? `04-${o.sig === 'BZ' ? 'BZ' : 'TN'}-${o.d}` : `${o.reg}-${o.d}`;
+    if (typeof REGIONALI_CANDIDATI !== 'undefined') grezzi = REGIONALI_CANDIDATI[chiave];
+    if (!grezzi && typeof REGIONALI_SPECIALI !== 'undefined') grezzi = REGIONALI_SPECIALI[chiave];
+  } else if ((o.tipo === 'com' || o.tipo === 'bal') && o.cod && window.CANDIDATI_COMUNALI) {
+    grezzi = window.CANDIDATI_COMUNALI[`${o.cod}-${o.primo || o.d}`];
+  }
+  if (!grezzi || !grezzi.length) return null;
+  let out = grezzi.map(([nome, pct, liste, area]) => ({ nome: nome ? titoloNome(nome) : null, pct, area, liste: (liste || []).map(([n, p]) => ({ n: titoloNome(n), p, partito: partitoDaLista(n) })) }));
+  if (o.tipo === 'bal') out = out.filter(c => c.nome).sort((a, b) => (b.pct || 0) - (a.pct || 0)).slice(0, 2);
+  return out;
+}
+function emojiCandidato(c) {
+  if (c.area && typeof COLORE_AREA !== 'undefined' && COLORE_AREA[c.area]) return COLORE_AREA[c.area];
+  const prima = [...c.liste].sort((a, b) => (b.p || 0) - (a.p || 0)).find(l => l.partito);
+  return prima ? emojiDi(prima.partito) : '⚪';
+}
+const breveLista = l => l.partito && l.partito.b && l.partito.pieno ? l.partito.b : (l.n.length > 44 ? l.n.slice(0, 42) + '…' : l.n);
+const emojiLista = (l, c) => l.partito ? emojiDi(l.partito) : emojiCandidato(c);
+
+// I candidati sindaco sono divisi per regione: il file si carica solo quando serve
+const regioniCaricate = new Set();
+function caricaCandidatiComunali(reg) {
+  if (!reg || regioniCaricate.has(reg)) return;
+  regioniCaricate.add(reg);
+  const sc = document.createElement('script');
+  sc.src = `dati/candidati/${reg}.js`;
+  sc.onload = () => aggiorna(false);
+  sc.onerror = () => { /* nessun file per questa regione */ };
+  document.head.append(sc);
+}
 const CIVICHE = [
   { b: 'Lista civica di centrodestra', n: 'Lista civica di centrodestra', e: '🔵', civica: true },
   { b: 'Lista civica di centrosinistra', n: 'Lista civica di centrosinistra', e: '🔴', civica: true },
@@ -449,10 +565,14 @@ function controlliScelta(o, r, inp, dopo = () => {}) {
   const anno = o.d.slice(0, 4);
 
   if (o.tipo === 'pol' || o.tipo === 'eur') {
-    const dati = typeof PARTITI_NAZIONALI !== 'undefined' ? PARTITI_NAZIONALI[`${o.tipo}-${anno}`] : null;
+    const PN = typeof PARTITI_NAZIONALI !== 'undefined' ? PARTITI_NAZIONALI : {};
+    const senato = o.ramo === 'S';
+    const dati = senato ? (PN[`sen-${anno}`] || PN[`pol-${anno}`]) : PN[`${o.tipo}-${anno}`];
     if (!dati) return box;
+    const uninominale = senato && dati.uninominale;
     const liste = dati.liste.map(p => vocePartito(p));
-    const coal = (o.tipo === 'pol' && ['1994', '1996', '2001'].includes(anno) && dati.coalizioni) ? dati.coalizioni.map(c => ({ v: c.n, l: c.n, p: { b: c.n, n: c.n, a: c.a } })) : null;
+    if (o.estero && o.tipo === 'pol' && o.d >= '2006-01-01') liste.unshift({ v: 'Estero', l: 'Una lista della circoscrizione Estero', p: { b: 'Lista della circoscrizione Estero', n: 'Lista della circoscrizione Estero', e: '🟤' } });
+    const coal = (!senato && o.tipo === 'pol' && ['1994', '1996', '2001'].includes(anno) && dati.coalizioni) ? dati.coalizioni.map(c => ({ v: c.n, l: c.n, p: { b: c.n, n: c.n, a: c.a } })) : null;
     const tutte = [...liste, ...(coal || [])];
     const componi = () => {
       const { lista, coalizione } = r.sel;
@@ -461,12 +581,43 @@ function controlliScelta(o, r, inp, dopo = () => {}) {
       const parti = [];
       if (pc) parti.push(`${pc.p.n} ${emojiDi(pc.p)}`);
       if (pl) parti.push(`${pc ? 'Lista ' : ''}${pl.p.b} ${emojiDi(pl.p)}`);
-      if (lista === '__altro') parti.push('Altra lista');
+      if (lista === '__altro') parti.push(uninominale ? 'Altro candidato' : 'Altra lista');
       imposta(parti.join(' '));
     };
     if (coal) box.append(seleziona('Coalizione (scheda uninominale)', [[null, coal]], r.sel.coalizione, v => { r.sel.coalizione = v; componi(); }));
-    box.append(seleziona(coal ? 'Lista (scheda proporzionale)' : 'Lista votata', [['Liste sopra l’1%', liste], ['Altro', [{ v: '__altro', l: 'Un’altra lista' }, ...SCHEDE]]], r.sel.lista, v => { r.sel.lista = v; componi(); }));
+    box.append(seleziona(uninominale ? 'Candidato (coalizione)' : coal ? 'Lista (scheda proporzionale)' : 'Lista votata', [[uninominale ? 'Coalizioni e gruppi sopra l’1%' : 'Liste sopra l’1%', liste], ['Altro', [{ v: '__altro', l: uninominale ? 'Un altro candidato' : 'Un’altra lista' }, ...SCHEDE]]], r.sel.lista, v => { r.sel.lista = v; componi(); }));
     void tutte;
+    return box;
+  }
+
+  const reali = (o.tipo === 'reg' || o.tipo === 'com' || o.tipo === 'bal') ? candidatiReali(o) : null;
+  if (reali) {
+    const conNome = reali.filter(c => c.nome);
+    const vc = conNome.map((c, i) => ({ v: 'c' + i, l: `${c.nome}${c.liste.length ? ' — ' + c.liste.slice(0, 2).map(breveLista).join(', ') : ''}`, c }));
+    const gruppiListe = reali.map((c, i) => [c.nome ? `Con ${c.nome}` : 'Liste', c.liste.map((l, j) => ({ v: `l${i}-${j}`, l: `${breveLista(l)}${l.p != null ? ` (${String(l.p).replace('.', ',')}%)` : ''}`, lst: l, c }))]);
+    const tutteListe = gruppiListe.flatMap(g => g[1]);
+    const componi = () => {
+      const { coalizione, lista } = r.sel;
+      if ([coalizione, lista].some(v => v && v.startsWith('__'))) return imposta(SCHEDE.find(s => s.v === coalizione || s.v === lista).t);
+      const pc = vc.find(v => v.v === coalizione), pl = tutteListe.find(v => v.v === lista);
+      const parti = [];
+      if (pc) parti.push(`${pc.c.nome} ${emojiCandidato(pc.c)}`);
+      if (pl) parti.push(`${/^lista /i.test(breveLista(pl.lst)) ? '' : 'Lista '}${breveLista(pl.lst)} ${emojiLista(pl.lst, pl.c)}`);
+      imposta(parti.join(' '));
+    };
+    const nomeCand = o.tipo === 'reg' ? (o.reg === '04' ? 'Candidato presidente della provincia' : 'Candidato presidente') : 'Candidato sindaco';
+    if (vc.length) box.append(seleziona(nomeCand, [[null, vc], ['Altro', SCHEDE]], r.sel.coalizione, v => {
+      r.sel.coalizione = v;
+      // scelto il candidato, la lista resta solo se è una delle sue
+      const pc = vc.find(x => x.v === v);
+      if (pc && r.sel.lista && !tutteListe.some(x => x.v === r.sel.lista && x.c === pc.c)) r.sel.lista = '';
+      componi(); disegnaElenco();
+    }));
+    if (o.tipo !== 'bal' && tutteListe.length) {
+      const scelto = vc.find(x => x.v === r.sel.coalizione);
+      const gruppi = scelto ? [...gruppiListe.filter(g => g[1][0] && g[1][0].c === scelto.c), ...gruppiListe.filter(g => !g[1][0] || g[1][0].c !== scelto.c)] : gruppiListe;
+      box.append(seleziona('Lista', [...gruppi, ['Altro', SCHEDE]], r.sel.lista, v => { r.sel.lista = v; componi(); }));
+    }
     return box;
   }
 
@@ -558,7 +709,7 @@ function disegnaPulsantiAggiunta() {
   for (const r of stato.residenze) {
     if (!r.comune || r.comune === ESTERO || visti.has(r.comune.cod)) continue;
     visti.add(r.comune.cod);
-    box.append(el('button', { class: 'bottone secondario piccolo', type: 'button', onclick: () => apriForm({ tipo: 'com', resId: r.id }) }, `Comunali a ${r.comune.nome}`));
+    box.append(el('button', { class: 'bottone secondario piccolo', type: 'button', onclick: () => apriForm({ tipo: 'com', resId: r.id }) }, `Altre comunali a ${r.comune.nome}`));
   }
   box.append(el('button', { class: 'bottone secondario piccolo', type: 'button', onclick: () => apriForm({ tipo: 'altro' }) }, 'Altra elezione'));
   disegnaForm();
@@ -604,7 +755,7 @@ function disegnaForm() {
     if (f.tipo === 'com') {
       const t = f.turno && f.turno.d === d1.value ? f.turno : null;
       stato.extra.push({ id: ++seq, tipo: 'com', resId: f.resId, d: d1.value, d2: t ? t.d2 : null });
-      if (chk.checked && d2.value) stato.extra.push({ id: ++seq, tipo: 'bal', resId: f.resId, d: d2.value, d2: t && t.b === d2.value ? t.b2 : null });
+      if (chk.checked && d2.value) stato.extra.push({ id: ++seq, tipo: 'bal', resId: f.resId, d: d2.value, d2: t && t.b === d2.value ? t.b2 : null, primo: d1.value });
     } else {
       stato.extra.push({ id: ++seq, tipo: 'altro', nome: nomeInp.value.trim(), d: d1.value });
     }
@@ -702,10 +853,26 @@ function righeImmagine() {
     const testo = st === 'non' ? 'Non ho votato' : r.testo.trim();
     if (st === 'non' && !non) continue;
     if (st === 'ok' && !testo && !vuote) continue;
+    // Camera e Senato con lo stesso voto diventano una riga sola
+    const prec = out[out.length - 1];
+    if (o.ramo === 'S' && prec && prec.gruppo === o.gruppo && prec.testo === testo && prec.non === (st === 'non')) {
+      prec.etichetta = 'Politiche (Camera e Senato)';
+      continue;
+    }
     n++;
-    out.push({ n, anno: o.d.slice(0, 4), quando: dataPiena ? dataBreve(o.d) : o.d.slice(0, 4), giorno: dataLunga(o.d, o.d2).replace(/ \d{4}$/, ''), etichetta: o.etichetta, testo, non: st === 'non', colore: coloreVoto(o) });
+    out.push({ n, gruppo: o.gruppo || o.key, anno: o.d.slice(0, 4), quando: dataPiena ? dataBreve(o.d) : o.d.slice(0, 4), giorno: dataLunga(o.d, o.d2).replace(/ \d{4}$/, ''), etichetta: o.etichetta, testo, non: st === 'non', colore: coloreVoto(o) });
   }
   return out;
+}
+// Una consultazione per giornata di voto: Camera e Senato contano insieme
+function perConsultazione(righe) {
+  const visti = new Map();
+  for (const r of righe) {
+    const g = visti.get(r.gruppo);
+    if (!g) visti.set(r.gruppo, { colore: r.colore, non: r.non });
+    else if (!r.non) g.non = false;
+  }
+  return [...visti.values()];
 }
 
 // Spezza un testo in token: parole e simboli noti
@@ -753,7 +920,8 @@ function tondo(ctx, cx, cy, r, colore, bordo, spessore = 2) {
 }
 
 function titoloAutomatico(righe) {
-  const tot = righe.length, voti = righe.filter(r => !r.non).length;
+  const cons = perConsultazione(righe);
+  const tot = cons.length, voti = cons.filter(r => !r.non).length;
   if (!tot) return 'La mia storia di voto';
   if (voti === tot) return voti === 1 ? 'Ho votato una volta' : `Ho votato ${voti} volte`;
   return `Ho votato ${voti} ${voti === 1 ? 'volta' : 'volte'} su ${tot}`;
@@ -837,21 +1005,26 @@ function scegliImpaginazione(ctx, righe, area, dataPiena, maxColonne) {
   return { ...disp, s, compatta: true, resto: righe.length - disp.messe };
 }
 
-function disegnaEmicicloCard(ctx, cx, cy, R, righe, s) {
-  const { posti, raggio } = postiEmiciclo(righe.length, R);
-  if (posti.length) {
-    posti.forEach((p, i) => {
-      const k = righe[i].colore || { c: '#fff', b: C.contorno };
-      tondo(ctx, cx + p.x, cy + p.y, raggio, k.c, k.vuoto || k.c === '#FFFFFF' ? (k.b || C.contorno) : null, 2 * s);
-    });
-  } else {
-    postiEmiciclo(24, R).posti.forEach(p => tondo(ctx, cx + p.x, cy + p.y, R * 0.045, '#fff', C.contorno, 1.6));
-  }
-  ctx.textAlign = 'center'; ctx.fillStyle = C.ink; ctx.font = `700 ${(righe.length > 99 ? 54 : 68) * s}px ${TIT}`;
-  ctx.fillText(String(righe.length), cx, cy - 4 * s);
-  ctx.fillStyle = C.grigio; ctx.font = `400 ${21 * s}px ${TXT}`;
-  ctx.fillText(righe.length === 1 ? 'consultazione' : 'consultazioni', cx, cy + 30 * s);
+// In alto a destra nella card: la scheda tricolore nella busta, con il numero di consultazioni sotto
+let IMG_SCHEDA = null;
+const schedaPronta = new Promise(res => {
+  const img = new Image();
+  img.onload = () => { IMG_SCHEDA = img; res(); };
+  img.onerror = () => res();
+  img.src = 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svgSchedaBusta(false));
+});
+function disegnaEmicicloCard(ctx, cx, cy, R, tutte, s) {
+  const n = perConsultazione(tutte).length;
+  const lato = R * 1.42;
+  if (IMG_SCHEDA) ctx.drawImage(IMG_SCHEDA, cx - lato / 2, cy - R * 1.12, lato, lato * 530 / 520);
+  const yT = cy - R * 1.12 + lato * 530 / 520 + 40 * s;
+  ctx.textBaseline = 'alphabetic';
+  ctx.font = `700 ${40 * s}px ${TIT}`; const wN = ctx.measureText(String(n)).width;
+  ctx.font = `400 ${22 * s}px ${TXT}`; const et = n === 1 ? ' consultazione' : ' consultazioni'; const wE = ctx.measureText(et).width;
+  const x0 = cx - (wN + wE) / 2;
   ctx.textAlign = 'left';
+  ctx.fillStyle = C.ink; ctx.font = `700 ${40 * s}px ${TIT}`; ctx.fillText(String(n), x0, yT);
+  ctx.fillStyle = C.grigio; ctx.font = `400 ${22 * s}px ${TXT}`; ctx.fillText(et, x0 + wN, yT);
 }
 
 function disegnaLista(ctx, imp, area) {
@@ -1025,7 +1198,7 @@ const fontPronti = document.fonts && document.fonts.load
 let timer = null;
 function programmaAnteprima() {
   clearTimeout(timer);
-  timer = setTimeout(() => fontPronti.then(() => {
+  timer = setTimeout(() => Promise.all([fontPronti, schedaPronta]).then(() => {
     disegna($('#tela'), righeImmagine());
     const n = $('#nota-formato');
     if (n) {
@@ -1063,7 +1236,7 @@ function condividiLink() {
 }
 function nomeFile(ext) { return `la-mia-storia-di-voto-${FORMATI[formatoScelto].file}.${ext}`; }
 async function generaBlob(tipo = 'image/png') {
-  await fontPronti;
+  await fontPronti; await schedaPronta;
   const cv = document.createElement('canvas'); disegna(cv, righeImmagine(), formatoScelto);
   return new Promise(res => cv.toBlob(res, tipo, 0.92));
 }
