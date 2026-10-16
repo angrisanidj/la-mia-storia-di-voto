@@ -13,6 +13,7 @@ Tutto avviene nel browser. La pagina non usa cookie né `localStorage`, non invi
 | `index.html` | Pagina e stili (stesso sistema visivo di «Il tuo emiciclo») |
 | `stile/font.css` | Bodoni Moda e Titillium Web incorporati, senza richieste esterne |
 | `condivisione.png`, `condivisione-quadrata.png` | Anteprime per i link condivisi |
+| `social/` | Immagini per promuovere il link: X 1600×900, Instagram post 1080×1350, storie 1080×1920 |
 | `app.js` | Logica: calcolo delle elezioni, interfaccia, disegno del PNG |
 | `dati/elezioni.js` | Calendario: politiche, europee, referendum nazionali, regionali per regione, provinciali di Trento e Bolzano, referendum regionali, comuni che hanno cambiato regione, turni ordinari delle comunali |
 | `dati/comuni.js` | Comuni italiani attivi e soppressi (fonte ISTAT), con regione e nomi precedenti |
@@ -30,6 +31,8 @@ Per aggiungere una nuova consultazione basta modificare il file in `dati/` corri
 - Senato: fino alle politiche 2018 servivano 25 anni (L. cost. 1/2021).
 - Bolzano: per il consiglio provinciale servivano 4 anni di residenza in regione (2 dal 23/06/2026).
 - Comuni passati di regione: Valmarecchia (2009), Sappada (2017), Montecopiolo e Sassofeltrio (2021).
+
+L'immagine personale si esporta in cinque formati (lista completa, Instagram post, storie, X, quadrata), in PNG o JPG; nei formati a misura fissa la lista si impagina da sola su più colonne e a corpo ridotto.
 
 Comunali, ballottaggi, suppletive, provinciali e referendum locali si aggiungono a mano: le date dei turni ordinari sono precompilate.
 

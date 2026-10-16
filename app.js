@@ -745,125 +745,225 @@ function titoloAutomatico(righe) {
   return `Ho votato ${voti} ${voti === 1 ? 'volta' : 'volte'} su ${tot}`;
 }
 
-function disegna(cv, righe) {
-  const ctx = cv.getContext('2d');
-  const m = 84, larg = W - 2 * m;
-  const titolo = $('#titolo').value.trim() || titoloAutomatico(righe);
-  const firma = $('#firma').value.trim();
-  const dataPiena = $('#opt-date').checked;
+// Formati dell'immagine personale. sicuro = margini in alto e in basso coperti dall'interfaccia delle storie.
+const FORMATI = {
+  lista: { W: 1080, H: 0, nome: 'Lista completa', file: 'lista' },
+  post: { W: 1080, H: 1350, nome: 'Instagram post', file: 'instagram-post' },
+  storia: { W: 1080, H: 1920, nome: 'Storie', file: 'storia', sicuro: [190, 250] },
+  x: { W: 1600, H: 900, nome: 'X', file: 'x', orizzontale: true },
+  quadrata: { W: 1080, H: 1080, nome: 'Quadrata', file: 'quadrata' },
+};
+let formatoScelto = 'lista';
 
-  // misure della testata
-  const R = 136, emiW = 2 * R + 20;
-  const colTit = larg - emiW - 36;
-  let corpo = 74, lineeTit;
-  for (const c of [76, 68, 60, 54, 48]) {
-    corpo = c; ctx.font = `700 ${c}px ${TIT}`;
-    lineeTit = righeBilanciate(ctx, titolo, colTit);
-    if (lineeTit.length <= 2) break;
-  }
-  const yTit0 = 196;
-  let yTesta = yTit0 + corpo * 0.92 + (lineeTit.length - 1) * corpo * 1.1;
-  if (firma) yTesta += 52;
-  const fineTesta = Math.max(yTesta, 168 + R + 40) + 44;
-
-  // impaginazione dell'elenco
-  const xAnno = m, xLinea = m + 136, xTesto = m + 168, largTesto = W - m - xTesto;
-  const fsE = 25, fsV = 31;
-  const blocchi = righe.map(r => {
-    const etTok = [{ t: (dataPiena ? r.giorno + ' · ' : '') + r.etichetta, f: `600 ${fsE}px ${TXT}`, c: C.grigio }];
-    const lE = impagina(ctx, parole(etTok[0].t).map(t => ({ ...t, f: etTok[0].f, c: C.grigio })), largTesto, fsE);
-    const vTok = r.testo ? tokenizza(r.testo).map(t => ({ ...t, f: r.non ? `400 ${fsV}px ${TXT}` : `700 ${fsV}px ${TXT}`, c: r.non ? C.grigio : C.ink })) : [];
-    const lV = vTok.length ? impagina(ctx, vTok, largTesto, fsV) : [];
-    const h = lE.length * 32 + lV.length * 41 + 28;
-    return { r, lE, lV, h };
+// Misura ogni voce dell'elenco a una data scala, piena (etichetta sopra, voto sotto) o compatta (una riga sola)
+function misuraVoci(ctx, righe, s, larg, compatta, dataPiena) {
+  const fsE = 25 * s, fsV = 31 * s;
+  return righe.map(r => {
+    const et = (dataPiena ? r.giorno + ' · ' : '') + r.etichetta;
+    const fE = `600 ${fsE}px ${TXT}`, fV = r.non ? `400 ${fsV}px ${TXT}` : `700 ${fsV}px ${TXT}`;
+    const tokV = r.testo ? tokenizza(r.testo).map(t => ({ ...t, f: fV, c: r.non ? C.grigio : C.ink })) : [];
+    if (compatta) {
+      const fC = `600 ${fsV * 0.86}px ${TXT}`;
+      const toks = [...parole(et + (r.testo ? ':' : '')).map(t => ({ ...t, f: fC, c: C.grigio })), ...(r.testo ? [{ t: ' ', f: fC, c: C.grigio }] : []),
+        ...tokV.map(t => ({ ...t, f: t.f.replace(`${fsV}px`, `${fsV * 0.9}px`) }))];
+      const l = impagina(ctx, toks, larg, fsV * 0.9);
+      return { r, righeV: l, lhV: 37 * s, fsV: fsV * 0.9, righeE: [], lhE: 0, h: l.length * 37 * s + 16 * s, attacco: 25 * s };
+    }
+    const lE = impagina(ctx, parole(et).map(t => ({ ...t, f: fE, c: C.grigio })), larg, fsE);
+    const lV = tokV.length ? impagina(ctx, tokV, larg, fsV) : [];
+    return { r, righeE: lE, lhE: 32 * s, fsE, righeV: lV, lhV: 41 * s, fsV, h: lE.length * 32 * s + (lV.length ? 6 * s : 0) + lV.length * 41 * s + 28 * s, attacco: 27 * s };
   });
-  let corpoH = 0, annoPrec = null;
-  blocchi.forEach(b => { if (b.r.anno !== annoPrec) { corpoH += annoPrec ? 18 : 0; annoPrec = b.r.anno; } corpoH += b.h; });
-  const piede = 150;
-  const H = Math.max(1350, Math.ceil(fineTesta + 26 + (blocchi.length ? corpoH : 90) + piede));
-  cv.width = W; cv.height = H;
+}
 
-  // fondo e nastro
-  ctx.fillStyle = '#fff'; ctx.fillRect(0, 0, W, H);
-  ctx.fillStyle = C.verde; ctx.fillRect(0, 0, W / 3, 16);
-  ctx.fillStyle = C.rosso; ctx.fillRect(W * 2 / 3, 0, W / 3, 16);
-  ctx.fillStyle = C.filo; ctx.fillRect(0, 16, W, 2);
-  ctx.textBaseline = 'alphabetic'; ctx.textAlign = 'left';
+// Distribuisce le voci in colonne dentro un'area; restituisce le colonne e quante voci sono rimaste fuori
+function inColonne(voci, area, s, colonne) {
+  const gapCol = 44 * s, colW = (area.w - (colonne - 1) * gapCol) / colonne;
+  const out = Array.from({ length: colonne }, () => []);
+  let c = 0, y = 0, annoPrec = null, messe = 0;
+  for (const v of voci) {
+    const nuovoAnno = v.r.anno !== annoPrec;
+    const salto = nuovoAnno && y > 0 ? 18 * s : 0;
+    if (y + salto + v.h > area.h + 0.5) {
+      c++; y = 0; annoPrec = null;
+      if (c >= colonne) break;
+    }
+    const inizio = y === 0;
+    const sep = !inizio && v.r.anno !== annoPrec;
+    y += sep ? 18 * s : 0;
+    out[c].push({ ...v, y, mostraAnno: inizio || v.r.anno !== annoPrec, sep });
+    y += v.h; annoPrec = v.r.anno; messe++;
+  }
+  return { colonne: out, colW, gapCol, messe };
+}
 
-  // marchio
-  const yM = 106;
-  tondo(ctx, m + 9, yM - 11, 9, C.verde); tondo(ctx, m + 33, yM - 11, 8, '#fff', C.contorno); tondo(ctx, m + 57, yM - 11, 9, C.rosso);
-  ctx.fillStyle = C.ink; ctx.font = `700 34px ${TIT}`; ctx.fillText('La mia storia di voto', m + 82, yM);
+function scegliImpaginazione(ctx, righe, area, dataPiena, maxColonne) {
+  let meglio = null;
+  for (const compatta of [false, true]) {
+    for (const s of [1, 0.92, 0.84, 0.76, 0.68, 0.6, 0.54, 0.48]) {
+      for (let col = 1; col <= maxColonne; col++) {
+        const colW = (area.w - (col - 1) * 44 * s) / col;
+        if (colW < 330 * s || colW < 270) continue;
+        const voci = misuraVoci(ctx, righe, s, colW - 168 * s, compatta, dataPiena);
+        const disp = inColonne(voci, area, s, col);
+        if (disp.messe === righe.length) {
+          const voto = s - (compatta ? 0.16 : 0) - (col - 1) * 0.04;
+          if (!meglio || voto > meglio.voto) meglio = { ...disp, s, compatta, voto, resto: 0 };
+        }
+      }
+    }
+  }
+  if (meglio) return meglio;
+  // non entra tutto: la versione più fitta, con l'indicazione di quante voci mancano
+  const s = 0.48;
+  let col = Math.max(1, maxColonne);
+  while (col > 1 && (area.w - (col - 1) * 44 * s) / col < 270) col--;
+  const colW = (area.w - (col - 1) * 44 * s) / col;
+  const voci = misuraVoci(ctx, righe, s, colW - 168 * s, true, dataPiena);
+  const disp = inColonne(voci, { ...area, h: area.h - 44 * s }, s, col);
+  return { ...disp, s, compatta: true, resto: righe.length - disp.messe };
+}
 
-  // titolo e firma
-  ctx.font = `700 ${corpo}px ${TIT}`; ctx.fillStyle = C.ink;
-  let y;
-  lineeTit.forEach((l, i) => ctx.fillText(l, m, yTit0 + corpo * 0.92 + i * corpo * 1.1));
-  if (firma) { ctx.font = `600 30px ${TXT}`; ctx.fillStyle = C.grigio; ctx.fillText(firma, m, yTesta - 4); }
-
-  // emiciclo personale
-  const cx = W - m - R - 10, cy = 168 + R;
+function disegnaEmicicloCard(ctx, cx, cy, R, righe, s) {
   const { posti, raggio } = postiEmiciclo(righe.length, R);
   if (posti.length) {
     posti.forEach((p, i) => {
       const k = righe[i].colore || { c: '#fff', b: C.contorno };
-      tondo(ctx, cx + p.x, cy + p.y, raggio, k.c, k.vuoto || k.c === '#FFFFFF' ? (k.b || C.contorno) : null, 2);
+      tondo(ctx, cx + p.x, cy + p.y, raggio, k.c, k.vuoto || k.c === '#FFFFFF' ? (k.b || C.contorno) : null, 2 * s);
     });
   } else {
     postiEmiciclo(24, R).posti.forEach(p => tondo(ctx, cx + p.x, cy + p.y, R * 0.045, '#fff', C.contorno, 1.6));
   }
-  ctx.textAlign = 'center'; ctx.fillStyle = C.ink; ctx.font = `700 ${righe.length > 99 ? 54 : 68}px ${TIT}`;
-  ctx.fillText(String(righe.length), cx, cy - 4);
-  ctx.fillStyle = C.grigio; ctx.font = `400 21px ${TXT}`;
-  ctx.fillText(righe.length === 1 ? 'consultazione' : 'consultazioni', cx, cy + 30);
+  ctx.textAlign = 'center'; ctx.fillStyle = C.ink; ctx.font = `700 ${(righe.length > 99 ? 54 : 68) * s}px ${TIT}`;
+  ctx.fillText(String(righe.length), cx, cy - 4 * s);
+  ctx.fillStyle = C.grigio; ctx.font = `400 ${21 * s}px ${TXT}`;
+  ctx.fillText(righe.length === 1 ? 'consultazione' : 'consultazioni', cx, cy + 30 * s);
   ctx.textAlign = 'left';
+}
 
-  // elenco a linea del tempo
-  y = fineTesta;
-  ctx.fillStyle = C.filo; ctx.fillRect(m, y - 22, larg, 2);
-  y += 26;
-  if (!blocchi.length) {
-    ctx.font = `400 28px ${TXT}`; ctx.fillStyle = C.grigio;
-    ctx.fillText('Segna come hai votato per vedere qui la tua storia.', m, y + 30);
-    y += 90;
-  }
-  // posizioni
-  annoPrec = null;
-  let yy0 = y;
-  blocchi.forEach(b => {
-    if (b.r.anno !== annoPrec) { if (annoPrec) yy0 += 18; b.nuovoAnno = !!annoPrec || true; b.sep = !!annoPrec; annoPrec = b.r.anno; } else b.nuovoAnno = false;
-    b.y = yy0; b.yP = yy0 + 19; yy0 += b.h;
+function disegnaLista(ctx, imp, area) {
+  const s = imp.s;
+  imp.colonne.forEach((col, c) => {
+    if (!col.length) return;
+    const x = area.x + c * (imp.colW + imp.gapCol);
+    const xLinea = x + 136 * s, xTesto = x + 168 * s, dx = x + imp.colW;
+    const yP = v => area.y + v.y + (imp.compatta ? 14 * s : 19 * s);
+    if (col.length > 1) { const y1 = yP(col[0]), y2 = yP(col[col.length - 1]); rr(ctx, xLinea - 2.5 * s, y1, 5 * s, y2 - y1, 2.5 * s); ctx.fillStyle = C.verde; ctx.fill(); }
+    col.forEach(v => {
+      const y = area.y + v.y;
+      if (v.sep) { ctx.fillStyle = C.filo; ctx.fillRect(xTesto, y - 22 * s + (imp.compatta ? 6 * s : 0), dx - xTesto, 1.5); }
+      if (v.mostraAnno) { ctx.font = `700 ${(imp.compatta ? 34 : 40) * s}px ${TIT}`; ctx.fillStyle = C.verdeScuro; ctx.fillText(v.r.anno, x, y + (imp.compatta ? 26 : 29) * s); }
+      const k = v.r.colore || { c: '#fff', b: C.contorno };
+      const r0 = imp.compatta ? 10 * s : 12 * s;
+      tondo(ctx, xLinea, yP(v), r0 + 4 * s, '#fff');
+      tondo(ctx, xLinea, yP(v), r0, k.c, k.vuoto || k.c === '#FFFFFF' ? k.b : null, 2.5 * s);
+      let yy = y + v.attacco;
+      v.righeE.forEach(l => { scriviLinea(ctx, l, xTesto, yy, v.fsE); yy += v.lhE; });
+      if (v.righeE.length && v.righeV.length) yy += 6 * s;
+      v.righeV.forEach(l => { scriviLinea(ctx, l, xTesto, yy, v.fsV); yy += v.lhV; });
+    });
   });
-  // barra verde della linea del tempo
-  if (blocchi.length > 1) {
-    const y1 = blocchi[0].yP, y2 = blocchi[blocchi.length - 1].yP;
-    rr(ctx, xLinea - 2.5, y1, 5, y2 - y1, 2.5); ctx.fillStyle = C.verde; ctx.fill();
+  if (imp.resto) {
+    ctx.font = `600 ${26 * s * 1.3}px ${TXT}`; ctx.fillStyle = C.grigio;
+    ctx.fillText(`… e altre ${imp.resto} ${imp.resto === 1 ? 'consultazione' : 'consultazioni'}`, area.x + 168 * s, area.y + area.h - 6);
   }
-  blocchi.forEach(b => {
-    if (b.nuovoAnno) {
-      if (b.sep) { ctx.fillStyle = C.filo; ctx.fillRect(xTesto, b.y - 22, W - m - xTesto, 1.5); }
-      ctx.font = `700 40px ${TIT}`; ctx.fillStyle = C.verdeScuro;
-      ctx.fillText(b.r.anno, xAnno, b.y + 29);
-    }
-    const k = b.r.colore || { c: '#fff', b: C.contorno };
-    tondo(ctx, xLinea, b.yP, 16, '#fff');
-    tondo(ctx, xLinea, b.yP, 12, k.c, k.vuoto || k.c === '#FFFFFF' ? k.b : null, 2.5);
-    let yy = b.y + 27;
-    b.lE.forEach(l => { scriviLinea(ctx, l, xTesto, yy, fsE); yy += 32; });
-    yy += 6;
-    b.lV.forEach(l => { scriviLinea(ctx, l, xTesto, yy, fsV); yy += 41; });
-  });
-  // piede: pillola e indirizzo
-  const yPiede = H - 78;
-  ctx.fillStyle = C.filo; ctx.fillRect(m, yPiede - 62, larg, 2);
-  ctx.font = `700 27px ${TXT}`;
-  const testoP = 'Crea la tua';
-  const wP = ctx.measureText(testoP).width + 64;
-  rr(ctx, m, yPiede - 32, wP, 60, 30); ctx.fillStyle = C.verdeScuro; ctx.fill();
-  ctx.fillStyle = '#fff'; ctx.textBaseline = 'middle'; ctx.fillText(testoP, m + 32, yPiede - 1);
-  ctx.font = `600 27px ${TXT}`; ctx.fillStyle = C.ink;
-  ctx.fillText(indirizzoPagina(), m + wP + 28, yPiede - 1);
+}
+
+function disegnaPiede(ctx, x, y, W, m, s = 1) {
+  ctx.fillStyle = C.filo; ctx.fillRect(m, y - 62 * s, W - 2 * m, 2);
+  ctx.font = `700 ${27 * s}px ${TXT}`;
+  const testoP = 'Crea la tua', wP = ctx.measureText(testoP).width + 64 * s;
+  rr(ctx, x, y - 30 * s, wP, 60 * s, 30 * s); ctx.fillStyle = C.verdeScuro; ctx.fill();
+  ctx.fillStyle = '#fff'; ctx.textBaseline = 'middle'; ctx.fillText(testoP, x + 32 * s, y);
+  ctx.font = `600 ${27 * s}px ${TXT}`; ctx.fillStyle = C.ink;
+  ctx.fillText(indirizzoPagina(), x + wP + 28 * s, y);
   ctx.textBaseline = 'alphabetic';
+}
+function nastroEMarchio(ctx, W, m, yM, s = 1) {
+  ctx.fillStyle = C.verde; ctx.fillRect(0, 0, W / 3, 16);
+  ctx.fillStyle = C.rosso; ctx.fillRect(W * 2 / 3, 0, W / 3, 16);
+  ctx.fillStyle = C.filo; ctx.fillRect(0, 16, W, 2);
+  ctx.textBaseline = 'alphabetic'; ctx.textAlign = 'left';
+  tondo(ctx, m + 9 * s, yM - 11 * s, 9 * s, C.verde); tondo(ctx, m + 33 * s, yM - 11 * s, 8 * s, '#fff', C.contorno); tondo(ctx, m + 57 * s, yM - 11 * s, 9 * s, C.rosso);
+  ctx.fillStyle = C.ink; ctx.font = `700 ${34 * s}px ${TIT}`; ctx.fillText('La mia storia di voto', m + 82 * s, yM);
+}
+
+let ultimoResto = 0;
+function disegna(cv, righe, formato = formatoScelto) {
+  ultimoResto = 0;
+  const F = FORMATI[formato] || FORMATI.lista;
+  const ctx = cv.getContext('2d');
+  const W = F.W;
+  const titolo = $('#titolo').value.trim() || titoloAutomatico(righe);
+  const firma = $('#firma').value.trim();
+  const dataPiena = $('#opt-date').checked;
+  cv.width = W; cv.height = F.H || 1350;
+
+  if (F.orizzontale) {
+    // X: testata a sinistra, elenco a destra
+    const H = F.H, m = 72, colSx = righe.length > 24 ? 430 : 540;
+    ctx.fillStyle = '#fff'; ctx.fillRect(0, 0, W, H);
+    nastroEMarchio(ctx, W, m, 92);
+    let corpo = 64, linee;
+    for (const c of [66, 60, 54, 48, 42]) { corpo = c; ctx.font = `700 ${c}px ${TIT}`; linee = righeBilanciate(ctx, titolo, colSx); if (linee.length <= 2) break; }
+    if (linee.length > 2) linee = righeTesto(ctx, titolo, colSx);
+    ctx.fillStyle = C.ink; ctx.font = `700 ${corpo}px ${TIT}`;
+    linee.forEach((l, i) => ctx.fillText(l, m, 190 + corpo * 0.6 + i * corpo * 1.1));
+    let yF = 190 + corpo * 0.6 + (linee.length - 1) * corpo * 1.1;
+    if (firma) { ctx.font = `600 28px ${TXT}`; ctx.fillStyle = C.grigio; ctx.fillText(firma, m, yF + 50); }
+    disegnaEmicicloCard(ctx, m + colSx / 2, H - 205, colSx > 500 ? 165 : 145, righe, colSx > 500 ? 1.05 : 0.95);
+    ctx.fillStyle = C.filo; ctx.fillRect(m + colSx + 40, 70, 2, H - 210);
+    const area = { x: m + colSx + 80, y: 74, w: W - m - (m + colSx + 80), h: H - 74 - 150 };
+    const imp = righe.length ? scegliImpaginazione(ctx, righe, area, dataPiena, 3) : null;
+    if (imp) ultimoResto = imp.resto;
+    if (imp) disegnaLista(ctx, imp, area);
+    else { ctx.font = `400 26px ${TXT}`; ctx.fillStyle = C.grigio; ctx.fillText('Segna come hai votato per vedere qui la tua storia.', area.x, area.y + 40); }
+    disegnaPiede(ctx, m, H - 52, W, m);
+    return;
+  }
+
+  // Formati verticali e quadrato
+  const m = 84, larg = W - 2 * m;
+  const [alto, basso] = F.sicuro || [0, 0];
+  const hs = formato === 'quadrata' ? 0.84 : 1;
+  const R = 136 * hs, emiW = 2 * R + 20;
+  const colTit = larg - emiW - 36;
+  let corpo = 74, lineeTit;
+  for (const c of [76, 68, 60, 54, 48].map(v => v * hs)) {
+    corpo = c; ctx.font = `700 ${c}px ${TIT}`;
+    lineeTit = righeBilanciate(ctx, titolo, colTit);
+    if (lineeTit.length <= 2) break;
+  }
+  const yM = alto + 106 * hs;
+  const yTit0 = alto + 196 * hs;
+  let yTesta = yTit0 + corpo * 0.92 + (lineeTit.length - 1) * corpo * 1.1;
+  if (firma) yTesta += 52 * hs;
+  const fineTesta = Math.max(yTesta, alto + 168 * hs + R + 40 * hs) + 44 * hs;
+  const piede = 150;
+  const area = { x: m, y: fineTesta + 26 * hs, w: larg, h: 0 };
+  let imp = null, H = F.H;
+  if (!F.H) {
+    // lista completa: altezza libera, una colonna a grandezza piena
+    const voci = misuraVoci(ctx, righe, 1, larg - 168, false, dataPiena);
+    const tot = voci.reduce((a, v, i) => a + v.h + (i && v.r.anno !== voci[i - 1].r.anno ? 18 : 0), 0);
+    area.h = tot;
+    imp = righe.length ? { ...inColonne(voci, { ...area, h: tot + 1 }, 1, 1), s: 1, compatta: false, resto: 0 } : null;
+    H = Math.max(1350, Math.ceil(area.y + (righe.length ? tot : 90) + piede));
+  } else {
+    area.h = H - basso - piede - area.y;
+    imp = righe.length ? scegliImpaginazione(ctx, righe, area, dataPiena, 3) : null;
+    if (imp) ultimoResto = imp.resto;
+  }
+  cv.width = W; cv.height = H;
+  ctx.fillStyle = '#fff'; ctx.fillRect(0, 0, W, H);
+  nastroEMarchio(ctx, W, m, yM, hs);
+  ctx.font = `700 ${corpo}px ${TIT}`; ctx.fillStyle = C.ink;
+  lineeTit.forEach((l, i) => ctx.fillText(l, m, yTit0 + corpo * 0.92 + i * corpo * 1.1));
+  if (firma) { ctx.font = `600 ${30 * hs}px ${TXT}`; ctx.fillStyle = C.grigio; ctx.fillText(firma, m, yTesta - 4 * hs); }
+  disegnaEmicicloCard(ctx, W - m - R - 10, alto + 168 * hs + R, R, righe, hs);
+  ctx.fillStyle = C.filo; ctx.fillRect(m, fineTesta - 22 * hs, larg, 2);
+  if (imp) disegnaLista(ctx, imp, area);
+  else { ctx.font = `400 28px ${TXT}`; ctx.fillStyle = C.grigio; ctx.fillText('Segna come hai votato per vedere qui la tua storia.', m, area.y + 30); }
+  disegnaPiede(ctx, m, H - basso - 78, W, m);
 }
 // Su due righe sceglie il punto di a capo che rende le righe più simili (niente parola orfana)
 function righeBilanciate(ctx, testo, larghezza) {
@@ -909,19 +1009,57 @@ const fontPronti = document.fonts && document.fonts.load
   ? Promise.all([`700 40px "Bodoni Moda"`, `400 24px "Titillium Web"`, `600 24px "Titillium Web"`, `700 24px "Titillium Web"`].map(f => document.fonts.load(f))).catch(() => {})
   : Promise.resolve();
 let timer = null;
-function programmaAnteprima() { clearTimeout(timer); timer = setTimeout(() => fontPronti.then(() => disegna($('#tela'), righeImmagine())), 120); }
+function programmaAnteprima() {
+  clearTimeout(timer);
+  timer = setTimeout(() => fontPronti.then(() => {
+    disegna($('#tela'), righeImmagine());
+    const n = $('#nota-formato');
+    if (n) {
+      n.hidden = !ultimoResto;
+      n.textContent = ultimoResto ? `In questo formato ${ultimoResto === 1 ? 'resta fuori una consultazione' : `restano fuori ${ultimoResto} consultazioni`}: per averle tutte scegli «Lista completa» o «Storie».` : '';
+    }
+  }), 120);
+}
 
+const URL_SITO = 'https://angrisanidj.github.io/la-mia-storia-di-voto/';
+function indirizzoLink() { return /^https?:$/.test(location.protocol) ? location.origin + location.pathname.replace(/index\.html$/, '') : URL_SITO; }
 function testoSemplice() {
   const righe = righeImmagine();
-  const t = $('#titolo').value.trim() || 'La mia storia di voto';
-  return [t + ' 🇮🇹', '', ...righe.map(r => `${r.n}- ${r.quando}/${r.etichetta}${r.testo ? ': ' + r.testo : ''}`), '', indirizzoPagina()].join('\n');
+  const t = $('#titolo').value.trim() || titoloAutomatico(righe);
+  return [t + ' 🇮🇹', '', ...righe.map(r => `${r.n}- ${r.quando}/${r.etichetta}${r.testo ? ': ' + r.testo : ''}`), '', 'Ricostruisci la tua: ' + indirizzoLink()].join('\n');
 }
 function annuncia(t) { $('#annuncio').textContent = t; }
-function nomeFile() { return 'la-mia-storia-di-voto.png'; }
-async function generaBlob() {
+function copia(t, fatto) {
+  const riserva = () => {
+    const ta = el('textarea', { class: 'solo-lettori' }); ta.value = t; document.body.append(ta); ta.select();
+    let ok = false; try { ok = document.execCommand('copy'); } catch (e) { /* niente */ }
+    ta.remove();
+    annuncia(ok ? fatto : 'Copia non riuscita: il browser ha bloccato l’accesso agli appunti.');
+  };
+  if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(t).then(() => annuncia(fatto), riserva);
+  else riserva();
+}
+// sui telefoni si apre il menu di condivisione del sistema; altrove il link va negli appunti
+const MENU_CONDIVISIONE = !!navigator.share && !!window.matchMedia && window.matchMedia('(pointer: coarse)').matches;
+function condividiLink() {
+  const url = indirizzoLink(), fatto = 'Link copiato negli appunti.';
+  if (!MENU_CONDIVISIONE) { copia(url, fatto); return; }
+  navigator.share({ title: 'La mia storia di voto', text: 'Dal 1992 a oggi, quante volte ti hanno chiamato alle urne? Ricostruisci la tua storia di voto.', url })
+    .then(() => annuncia(''), e => { if (!e || e.name !== 'AbortError') copia(url, fatto); });
+}
+function nomeFile(ext) { return `la-mia-storia-di-voto-${FORMATI[formatoScelto].file}.${ext}`; }
+async function generaBlob(tipo = 'image/png') {
   await fontPronti;
-  const cv = document.createElement('canvas'); disegna(cv, righeImmagine());
-  return new Promise(res => cv.toBlob(res, 'image/png'));
+  const cv = document.createElement('canvas'); disegna(cv, righeImmagine(), formatoScelto);
+  return new Promise(res => cv.toBlob(res, tipo, 0.92));
+}
+async function scarica(jpg) {
+  const blob = await generaBlob(jpg ? 'image/jpeg' : 'image/png');
+  if (!blob) { annuncia('Immagine non creata: riprova.'); return; }
+  const url = URL.createObjectURL(blob);
+  const a = el('a', { href: url, download: nomeFile(jpg ? 'jpg' : 'png') }); document.body.append(a); a.click(); a.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 2000);
+  annuncia(`Immagine scaricata: ${FORMATI[formatoScelto].nome}, ${jpg ? 'JPG' : 'PNG'}.`);
 }
 
 // ===== Avvio =====
@@ -938,24 +1076,21 @@ function init() {
   $('#agg-res').addEventListener('click', () => { stato.residenze.push({ id: ++seq, comune: null, y: null, m: null }); disegnaResidenze(); const ins = document.querySelectorAll('#residenze input'); ins[ins.length - 1].focus(); });
   ['#titolo', '#firma'].forEach(s => $(s).addEventListener('input', programmaAnteprima));
   ['#opt-vuote', '#opt-non', '#opt-date'].forEach(s => $(s).addEventListener('change', programmaAnteprima));
-  $('#scarica').addEventListener('click', async () => {
-    const blob = await generaBlob();
-    const url = URL.createObjectURL(blob);
-    const a = el('a', { href: url, download: nomeFile() }); document.body.append(a); a.click(); a.remove();
-    setTimeout(() => URL.revokeObjectURL(url), 2000);
-    annuncia('Immagine scaricata.');
-  });
-  if (navigator.canShare && navigator.canShare({ files: [new File([new Blob()], 'x.png', { type: 'image/png' })] })) {
-    $('#condividi').hidden = false;
-    $('#condividi').addEventListener('click', async () => {
-      const blob = await generaBlob();
-      try { await navigator.share({ files: [new File([blob], nomeFile(), { type: 'image/png' })] }); annuncia(''); } catch (e) { /* annullato */ }
-    });
-  }
-  $('#copia').addEventListener('click', async () => {
-    try { await navigator.clipboard.writeText(testoSemplice()); annuncia('Testo copiato negli appunti.'); }
-    catch (e) { annuncia('Il browser non consente di copiare: seleziona il testo a mano.'); }
-  });
+  document.querySelectorAll('input[name=formato]').forEach(r => r.addEventListener('change', () => { formatoScelto = r.value; programmaAnteprima(); }));
+  $('#scarica').addEventListener('click', () => scarica(false));
+  $('#scarica-jpg').addEventListener('click', () => scarica(true));
+  $('#copia-link').addEventListener('click', condividiLink);
+  if (MENU_CONDIVISIONE) $('#copia-link').textContent = 'Condividi il link';
+  $('#copia').addEventListener('click', () => copia(testoSemplice(), 'Risultato copiato negli appunti.'));
+  try {
+    if (navigator.canShare && navigator.canShare({ files: [new File([new Blob()], 'x.png', { type: 'image/png' })] })) {
+      $('#condividi').hidden = false;
+      $('#condividi').addEventListener('click', async () => {
+        const blob = await generaBlob();
+        try { await navigator.share({ files: [new File([blob], nomeFile('png'), { type: 'image/png' })] }); annuncia(''); } catch (e) { /* annullato */ }
+      });
+    }
+  } catch (e) { /* condivisione di file non disponibile */ }
   aggiorna();
 }
 init();
