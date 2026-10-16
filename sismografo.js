@@ -123,6 +123,24 @@ function posizioneVoto(o) {
   return { k, x, area: p.area || null, col: p.col ?? null, piccolo: !!p.piccolo, civica: !!p.civica };
 }
 
+// Come ha votato la maggioranza: posizione della lista o del candidato più votato (al primo turno)
+function posizioneVincitore(o) {
+  let area = null;
+  if (o.tipo === 'pol' || o.tipo === 'eur') {
+    const dati = listeNazionali(o), m = dati && piuVotato(dati.liste);
+    area = m ? m.a : null;
+  } else if (o.tipo === 'reg' || o.tipo === 'com') {
+    const reali = candidatiReali(o);
+    if (reali) {
+      const conNome = reali.filter(c => c.nome);
+      if (conNome.length) area = areaCandidato(piuVotato(conNome, 'pct'));
+      else { const l = piuVotato(reali.flatMap(c => c.liste)); area = l && l.partito ? areaDi(l.partito) : null; }
+    }
+  }
+  if (!area) return null;
+  return area in ASSE ? ASSE[area] : area === 'altro' ? 0 : null;
+}
+
 // --- Dati e profilo ---
 function nomeArea(b) {
   if (b == null) return '—';
@@ -136,26 +154,26 @@ function datiSismografo() {
     const prec = righe[righe.length - 1];
     // Camera e Senato con lo stesso voto: una riga sola
     if (o.ramo === 'S' && prec && prec.gruppo === o.gruppo && prec.k === p.k && prec.x === p.x && risposta(o.key).testo === prec.testo) continue;
-    righe.push({ ...p, colore: coloreVoto(o), gruppo: o.gruppo || o.key, anno: o.d.slice(0, 4), tipo: o.tipo, testo: risposta(o.key).testo });
+    righe.push({ ...p, colore: coloreVoto(o), gruppo: o.gruppo || o.key, anno: o.d.slice(0, 4), tipo: o.tipo, testo: risposta(o.key).testo, xi: posizioneVincitore(o) });
   }
   const pos = righe.filter(r => r.x != null);
   const bar = pos.length ? pos.reduce((a, r) => a + r.x, 0) / pos.length : null;
-  let passi = 0, cambi = 0, segno = 0, prec = null;
+  let passi = 0, cambi = 0, segno = 0, prec = null, ultimoLato = null, traversata = null;
   for (const r of pos) {
     if (prec != null) passi += Math.abs(r.x - prec);
     const s = Math.sign(r.x);
-    if (s && segno && s !== segno) cambi++;
-    if (s) segno = s;
+    if (s && segno && s !== segno) { cambi++; traversata = { anno: r.anno, da: ultimoLato.area, a: r.area }; }
+    if (s) { segno = s; ultimoLato = r; }
     prec = r.x;
   }
   const oscillazione = pos.length > 1 ? passi / (pos.length - 1) : 0;
   const vento = righe.filter(r => r.col != null), conVento = vento.filter(r => r.col).length;
-  const D = { righe, pos, bar, cambi, oscillazione, vento: { con: conVento, tot: vento.length } };
+  const D = { righe, pos, bar, cambi, traversata, oscillazione, vento: { con: conVento, tot: vento.length } };
   D.profilo = profilo(D);
   return D;
 }
 function profilo(D) {
-  const { righe, pos, bar, cambi, vento } = D;
+  const { righe, pos, bar, cambi, vento, traversata } = D;
   const voti = righe.filter(r => ['voto', 'altro', 'civico', 'ref'].includes(r.k));
   if (voti.length < 3) return null;
   const quota = vento.tot ? vento.con / vento.tot : null;
@@ -167,6 +185,10 @@ function profilo(D) {
   const refs = righe.filter(r => r.tipo === 'ref'), refVotati = refs.filter(r => r.k === 'ref');
   const volte = n => n === 1 ? 'una volta' : `${n} volte`;
   if (cambi >= 2) return { nome: 'Il Pendolo', descr: `Hai attraversato il centro ${volte(cambi)}: il tuo voto si sposta con le stagioni della politica.` };
+  if (cambi === 1 && pos.length >= 4) {
+    const nome = { sinistra: 'la sinistra', centrosinistra: 'il centrosinistra', centrodestra: 'il centrodestra', destra: 'la destra' };
+    return { nome: 'La Traversata', descr: `Hai cambiato campo una volta sola: nel ${traversata.anno}, dal${nome[traversata.da].startsWith('la') ? 'la ' + nome[traversata.da].slice(3) : ' ' + nome[traversata.da].slice(3)} ${traversata.a === 'destra' || traversata.a === 'sinistra' ? 'alla' : 'al'} ${nome[traversata.a].replace(/^(il|la) /, '')}.` };
+  }
   if (vento.tot >= 5 && quota <= 0.3) return { nome: 'Il Bastian contrario', descr: `Solo ${vento.con} ${vento.con === 1 ? 'voto' : 'voti'} su ${vento.tot} come la maggioranza: vai controcorrente.` };
   if (pos.length >= 4 && cambi === 0 && latoTop[1] / pos.length >= 0.85) {
     const conta = {};
@@ -323,6 +345,14 @@ function disegnaTracciato(ctx, a, D, s, prog = 1) {
       if (lato < 0) ctx.rect(x0, y0 - 10 * s, xAsse(0) - x0, yFine - y0 + 20 * s); else ctx.rect(xAsse(0), y0 - 10 * s, x1 - xAsse(0), yFine - y0 + 20 * s);
       ctx.clip(); ctx.fillStyle = col; ctx.fill(area); ctx.restore();
     }
+  }
+  // la maggioranza: una traccia tratteggiata sotto la tua
+  const pi = righe.map((r, i) => r.xi != null ? { x: xAsse(r.xi), y: yR(i) } : null).filter(Boolean);
+  if (pi.length > 1) {
+    ctx.save(); ctx.setLineDash([1, 7 * s]); ctx.lineCap = 'round';
+    ctx.beginPath(); tracciaCurva(ctx, pi); ctx.strokeStyle = '#6B7383'; ctx.lineWidth = 3.2 * s; ctx.stroke(); ctx.restore();
+  }
+  if (pt.length > 1) {
     ctx.beginPath(); tracciaCurva(ctx, pt);
     ctx.strokeStyle = C.ink; ctx.lineWidth = 3 * s; ctx.lineJoin = 'round'; ctx.lineCap = 'round'; ctx.stroke();
   }
@@ -343,6 +373,21 @@ function disegnaTracciato(ctx, a, D, s, prog = 1) {
     else tondo(ctx, xF, y, rP * 0.55, k.vuoto ? '#C3C8D2' : k.c);
   });
   ctx.restore();
+  // il salto più grande, annotato come in un grafico di giornale
+  const salto = saltoMaggiore(righe);
+  if (salto && passo >= 16 * s && yR(salto.j) <= yTaglio + 1) { // solo se c'è spazio per scriverlo
+    const A = { x: xAsse(righe[salto.i].x), y: yR(salto.i) }, B = { x: xAsse(righe[salto.j].x), y: yR(salto.j) };
+    const testo = righe[salto.i].anno === righe[salto.j].anno ? `Il salto più grande, nel ${righe[salto.j].anno}` : `Il salto più grande, ${righe[salto.i].anno}–${righe[salto.j].anno}`;
+    ctx.font = `600 ${17 * s}px ${TXT}`;
+    const tw = ctx.measureText(testo).width, verso = B.x < xAsse(0) ? 1 : -1;
+    const xt = B.x + verso * (rP + 22 * s), yt = B.y;
+    const bx = verso > 0 ? xt - 6 * s : xt - tw - 6 * s;
+    ctx.fillStyle = 'rgba(255,255,255,.92)'; rr(ctx, bx, yt - 15 * s, tw + 12 * s, 30 * s, 8 * s); ctx.fill();
+    ctx.strokeStyle = C.ink; ctx.lineWidth = 1.5 * s; ctx.beginPath(); ctx.moveTo(B.x + verso * (rP + 4 * s), yt); ctx.lineTo(xt - verso * 4 * s, yt); ctx.stroke();
+    ctx.fillStyle = C.ink; ctx.textBaseline = 'middle'; ctx.textAlign = verso > 0 ? 'left' : 'right'; ctx.fillText(testo, xt, yt + 1);
+    ctx.textAlign = 'left'; ctx.textBaseline = 'alphabetic';
+    void A;
+  }
   if (legenda.length) disegnaLegenda(ctx, legenda, x0, yFine + 46 * s, a.x + a.w - x0, s);
   // il pennino: dove sta scrivendo il tracciato
   if (prog < 1 && pt.length) {
@@ -352,10 +397,21 @@ function disegnaTracciato(ctx, a, D, s, prog = 1) {
   }
 }
 
+// Il passaggio più ampio tra due voti consecutivi sull'asse (almeno due aree); a parità, il più recente
+function saltoMaggiore(righe) {
+  let meglio = null, prec = -1;
+  righe.forEach((r, i) => {
+    if (r.x == null) return;
+    if (prec >= 0) { const d = Math.abs(r.x - righe[prec].x); if (d >= 2 && (!meglio || d >= meglio.d)) meglio = { i: prec, j: i, d }; }
+    prec = i;
+  });
+  return meglio;
+}
 // Legenda dei simboli fuori dall'asse, solo quelli presenti
 function vociLegenda(righe) {
   const ci = k => righe.some(r => r.k === k);
   const out = [];
+  if (righe.filter(r => r.xi != null).length > 1) out.push(['italia', 'la maggioranza']);
   if (ci('altro')) out.push(['altro', 'fuori dai poli']);
   if (righe.some(r => r.k === 'ref' && r.esito === 'si')) out.push(['si', 'Sì']);
   if (righe.some(r => r.k === 'ref' && r.esito === 'no')) out.push(['no', 'No']);
@@ -368,13 +424,14 @@ function vociLegenda(righe) {
 }
 function disegnaLegenda(ctx, voci, x, y, w, s) {
   let fs = 17 * s;
-  const misura = () => { ctx.font = `400 ${fs}px ${TXT}`; return voci.reduce((t, v) => t + 26 * s + ctx.measureText(v[1]).width + 22 * s, 0); };
+  const misura = () => { ctx.font = `400 ${fs}px ${TXT}`; return voci.reduce((t, v) => t + 26 * s + ctx.measureText(v[1]).width + 22 * s + (v[0] === 'italia' ? 10 * s : 0), 0); };
   while (misura() > w && fs > 12 * s) fs -= 1 * s;
   let xx = x; const r = 7 * s;
   ctx.textBaseline = 'middle'; ctx.fillStyle = C.grigio;
   for (const [k, t] of voci) {
     const cx = xx + r;
-    if (k === 'altro') tondo(ctx, cx, y, r - 1, '#fff', '#9AA2AF', 3 * s);
+    if (k === 'italia') { ctx.save(); ctx.setLineDash([1, 7 * s]); ctx.lineCap = 'round'; ctx.strokeStyle = '#6B7383'; ctx.lineWidth = 3.2 * s; ctx.beginPath(); ctx.moveTo(xx, y); ctx.lineTo(xx + 2 * r + 10 * s, y); ctx.stroke(); ctx.restore(); xx += 10 * s; }
+    else if (k === 'altro') tondo(ctx, cx, y, r - 1, '#fff', '#9AA2AF', 3 * s);
     else if (k === 'si' || k === 'no') disegnaSegno(ctx, SEGNI.find(z => z.tipo === k), cx, y, r);
     else if (k === 'misto') { ctx.fillStyle = '#9AA2AF'; rr(ctx, cx - r, y - r, 2 * r, 2 * r, r * 0.4); ctx.fill(); }
     else if (k === 'civico') tondo(ctx, cx, y, r, '#8E44C4');
