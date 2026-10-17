@@ -1,0 +1,4 @@
+001 https://web.archive.org/web/20230812100113id_/http://www.archivioelettorale.it/joomla/index.php?option=com_content&view=article&id=4263:comunali-bronte-ct-1993&catid=36:elezioni-comunali&Itemid=58
+002 https://web.archive.org/web/20230812100109id_/http://www.archivioelettorale.it/joomla/index.php?option=com_content&view=article&id=5631:comunali-belpasso-ct-1993&catid=36:elezioni-comunali&Itemid=58
+003 https://web.archive.org/web/20230816095410id_/http://www.archivioelettorale.it/joomla/index.php?option=com_content&view=article&id=5654:comunali-corleone-pa-1993&catid=36:elezioni-comunali&Itemid=58
+004 https://web.archive.org/web/20230821090806id_/http://www.archivioelettorale.it/joomla/index.php?option=com_content&view=article&id=5661:comunali-grammichele-ct-1994&catid=36:elezioni-comunali&Itemid=58
