@@ -1,0 +1,14 @@
+<HTML>
+<HEAD>
+<title>Elezioni 13 Giugno 1999 - Regione Autonoma Friuli-Venezia Giulia</title>
+<!--  <SCRIPT language=javascript>if(self != top) top.location = self.location;</SCRIPT> -->
+</HEAD>
+<FRAMESET ROWS="70,33,*" Border=0>
+  <FRAME SCROLLING=NO NAME=Toolbar FRAMEBORDER=NO NORESIZE MARGINHEIGHT=0 BORDERCOLOR=White SRC="Toolbar.html" MARGINWIDTH=0>
+  <FRAMESET Border=0 COLS="50%, 50%">
+    <FRAME ID=SelezioneProvincia SCROLLING=NO NAME="SelezioneProvincia" FRAMEBORDER=NO NORESIZE MARGINHEIGHT=0 BORDERCOLOR=White SRC="SelezioneProvincia.html" MARGINWIDTH=0>
+    <FRAME ID=SelezioneComune SCROLLING=NO NAME="SelezioneComune" FRAMEBORDER=NO NORESIZE MARGINHEIGHT=0 BORDERCOLOR=White SRC="../blank.html" MARGINWIDTH=0>
+  </FRAMESET>
+  <FRAME ID=Dati NAME=Dati FRAMEBORDER=NO NORESIZE MARGINHEIGHT=0 BORDERCOLOR=White SRC="../blank.html" MARGINWIDTH=0>
+</FRAMESET>
+</HTML>
