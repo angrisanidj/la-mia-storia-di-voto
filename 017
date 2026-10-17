@@ -1,0 +1,692 @@
+{
+  "id" : "r289-szst",
+  "name" : "Elezioni comunali 2011 primo turno - Voti Sindaci",
+  "assetType" : "dataset",
+  "attribution" : "Direzione centrale autonomie locali e coordinamento delle riforme",
+  "attributionLink" : "http://autonomielocali.regione.fvg.it/aall/opencms/AALL/Elezioni/risultati/",
+  "averageRating" : 0,
+  "category" : "Governo e settore pubblico",
+  "createdAt" : 1441297013,
+  "description" : "Voti conseguiti al primo turno dai candidati alla carica di sindaco.",
+  "diciBackend" : false,
+  "displayType" : "table",
+  "downloadCount" : 2599,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "iconUrl" : "fileId:xQe6iz7o_aYQnDbYwCLpbaiLDKVsAccUcYlSSc63ouI",
+  "indexUpdatedAt" : 1549629496,
+  "licenseId" : "IODL",
+  "locked" : false,
+  "newBackend" : true,
+  "numberOfComments" : 0,
+  "oid" : 46212,
+  "provenance" : "official",
+  "publicationAppendEnabled" : false,
+  "publicationDate" : 1441297171,
+  "publicationGroup" : 24730,
+  "publicationStage" : "published",
+  "rowsUpdatedAt" : 1441297029,
+  "rowsUpdatedBy" : "i5gf-qa8f",
+  "tableId" : 24730,
+  "totalTimesRated" : 0,
+  "viewCount" : 2339,
+  "viewLastModified" : 1726220569,
+  "viewType" : "tabular",
+  "approvals" : [ {
+    "reviewedAt" : 1441297171,
+    "reviewedAutomatically" : true,
+    "state" : "approved",
+    "submissionId" : 325941,
+    "submissionObject" : "public_audience_request",
+    "submissionOutcome" : "change_audience",
+    "submittedAt" : 1441297171,
+    "targetAudience" : "public",
+    "workflowId" : 197,
+    "submissionDetails" : {
+      "permissionType" : "READ"
+    },
+    "submissionOutcomeApplication" : {
+      "failureCount" : 0,
+      "status" : "success"
+    },
+    "submitter" : {
+      "id" : "i5gf-qa8f",
+      "displayName" : "Regione Friuli Venezia Giulia"
+    }
+  } ],
+  "clientContext" : {
+    "clientContextVariables" : [ ],
+    "inheritedVariables" : { }
+  },
+  "columns" : [ {
+    "id" : 520346,
+    "name" : "Tornata",
+    "dataTypeName" : "text",
+    "fieldName" : "tornata",
+    "position" : 1,
+    "renderTypeName" : "text",
+    "tableColumnId" : 262605,
+    "width" : 184,
+    "cachedContents" : {
+      "non_null" : "126",
+      "largest" : "Comunali del 15/05/2011",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Comunali del 15/05/2011",
+        "count" : "126"
+      } ],
+      "smallest" : "Comunali del 15/05/2011",
+      "count" : "126",
+      "cardinality" : "1"
+    },
+    "format" : { }
+  }, {
+    "id" : 520347,
+    "name" : "Turno",
+    "dataTypeName" : "text",
+    "fieldName" : "turno",
+    "position" : 2,
+    "renderTypeName" : "text",
+    "tableColumnId" : 262606,
+    "width" : 160,
+    "cachedContents" : {
+      "non_null" : "126",
+      "largest" : "Primo Turno",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Primo Turno",
+        "count" : "126"
+      } ],
+      "smallest" : "Primo Turno",
+      "count" : "126",
+      "cardinality" : "1"
+    },
+    "format" : { }
+  }, {
+    "id" : 520348,
+    "name" : "Provincia",
+    "dataTypeName" : "text",
+    "fieldName" : "provincia",
+    "position" : 3,
+    "renderTypeName" : "text",
+    "tableColumnId" : 262607,
+    "width" : 208,
+    "cachedContents" : {
+      "non_null" : "126",
+      "largest" : "UDINE",
+      "null" : "0",
+      "top" : [ {
+        "item" : "UDINE",
+        "count" : "57"
+      }, {
+        "item" : "PORDENONE",
+        "count" : "30"
+      }, {
+        "item" : "GORIZIA",
+        "count" : "25"
+      }, {
+        "item" : "TRIESTE",
+        "count" : "14"
+      } ],
+      "smallest" : "GORIZIA",
+      "count" : "126",
+      "cardinality" : "4"
+    },
+    "format" : { }
+  }, {
+    "id" : 520349,
+    "name" : "Comune",
+    "dataTypeName" : "text",
+    "fieldName" : "comune",
+    "position" : 4,
+    "renderTypeName" : "text",
+    "tableColumnId" : 262608,
+    "width" : 172,
+    "cachedContents" : {
+      "non_null" : "126",
+      "largest" : "Villesse",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Trieste",
+        "count" : "10"
+      }, {
+        "item" : "Pordenone",
+        "count" : "6"
+      }, {
+        "item" : "Ronchi dei Legionari",
+        "count" : "6"
+      }, {
+        "item" : "Monfalcone",
+        "count" : "6"
+      }, {
+        "item" : "Codroipo",
+        "count" : "5"
+      }, {
+        "item" : "Latisana",
+        "count" : "5"
+      }, {
+        "item" : "Grado",
+        "count" : "5"
+      }, {
+        "item" : "Aiello del Friuli",
+        "count" : "4"
+      }, {
+        "item" : "Vajont",
+        "count" : "4"
+      }, {
+        "item" : "Paularo",
+        "count" : "4"
+      }, {
+        "item" : "Cordenons",
+        "count" : "4"
+      }, {
+        "item" : "Muggia",
+        "count" : "4"
+      }, {
+        "item" : "San Quirino",
+        "count" : "4"
+      }, {
+        "item" : "Pravisdomini",
+        "count" : "3"
+      }, {
+        "item" : "Porpetto",
+        "count" : "3"
+      }, {
+        "item" : "Majano",
+        "count" : "3"
+      }, {
+        "item" : "Ruda",
+        "count" : "3"
+      }, {
+        "item" : "San Vito al Tagliamento",
+        "count" : "3"
+      }, {
+        "item" : "Torreano",
+        "count" : "3"
+      }, {
+        "item" : "Comeglians",
+        "count" : "2"
+      } ],
+      "smallest" : "Aiello del Friuli",
+      "count" : "126",
+      "cardinality" : "40"
+    },
+    "format" : { }
+  }, {
+    "id" : 520350,
+    "name" : "cod ISTAT",
+    "dataTypeName" : "text",
+    "fieldName" : "cod_istat",
+    "position" : 5,
+    "renderTypeName" : "text",
+    "tableColumnId" : 262609,
+    "width" : 208,
+    "cachedContents" : {
+      "non_null" : "126",
+      "largest" : "093052",
+      "null" : "0",
+      "top" : [ {
+        "item" : "032006",
+        "count" : "10"
+      }, {
+        "item" : "093033",
+        "count" : "6"
+      }, {
+        "item" : "031012",
+        "count" : "6"
+      }, {
+        "item" : "031016",
+        "count" : "6"
+      }, {
+        "item" : "031009",
+        "count" : "5"
+      }, {
+        "item" : "030046",
+        "count" : "5"
+      }, {
+        "item" : "030027",
+        "count" : "5"
+      }, {
+        "item" : "030073",
+        "count" : "4"
+      }, {
+        "item" : "093017",
+        "count" : "4"
+      }, {
+        "item" : "032003",
+        "count" : "4"
+      }, {
+        "item" : "030001",
+        "count" : "4"
+      }, {
+        "item" : "093040",
+        "count" : "4"
+      }, {
+        "item" : "093052",
+        "count" : "4"
+      }, {
+        "item" : "030077",
+        "count" : "3"
+      }, {
+        "item" : "030098",
+        "count" : "3"
+      }, {
+        "item" : "093035",
+        "count" : "3"
+      }, {
+        "item" : "093041",
+        "count" : "3"
+      }, {
+        "item" : "030053",
+        "count" : "3"
+      }, {
+        "item" : "030122",
+        "count" : "3"
+      }, {
+        "item" : "030093",
+        "count" : "2"
+      } ],
+      "smallest" : "030001",
+      "count" : "126",
+      "cardinality" : "40"
+    },
+    "format" : { }
+  }, {
+    "id" : 520351,
+    "name" : "Cognome Candidato Sindaco",
+    "dataTypeName" : "text",
+    "fieldName" : "cognome_candidato_sindaco",
+    "position" : 6,
+    "renderTypeName" : "text",
+    "tableColumnId" : 262610,
+    "width" : 400,
+    "cachedContents" : {
+      "non_null" : "126",
+      "largest" : "ZUFFERLI",
+      "null" : "0",
+      "top" : [ {
+        "item" : "BORTOLOTTI",
+        "count" : "2"
+      }, {
+        "item" : "ZUFFERLI",
+        "count" : "1"
+      }, {
+        "item" : "FABIANI",
+        "count" : "1"
+      }, {
+        "item" : "FOGOLIN",
+        "count" : "1"
+      }, {
+        "item" : "TRACOGNA",
+        "count" : "1"
+      }, {
+        "item" : "FIORELLI",
+        "count" : "1"
+      }, {
+        "item" : "PERRONE",
+        "count" : "1"
+      }, {
+        "item" : "VIDANI",
+        "count" : "1"
+      }, {
+        "item" : "BRESSA",
+        "count" : "1"
+      }, {
+        "item" : "BENIGNO",
+        "count" : "1"
+      }, {
+        "item" : "PINOSA",
+        "count" : "1"
+      }, {
+        "item" : "CUDINI",
+        "count" : "1"
+      }, {
+        "item" : "ALTRAN",
+        "count" : "1"
+      }, {
+        "item" : "FONTANOT",
+        "count" : "1"
+      }, {
+        "item" : "PEDROTTI",
+        "count" : "1"
+      }, {
+        "item" : "ROMANO",
+        "count" : "1"
+      }, {
+        "item" : "PARLATO",
+        "count" : "1"
+      }, {
+        "item" : "RASSATTI",
+        "count" : "1"
+      }, {
+        "item" : "IOAN",
+        "count" : "1"
+      }, {
+        "item" : "DEL PUP",
+        "count" : "1"
+      } ],
+      "smallest" : "ALTRAN",
+      "count" : "126",
+      "cardinality" : "125"
+    },
+    "format" : { }
+  }, {
+    "id" : 520352,
+    "name" : "Nome Candidato Sindaco",
+    "dataTypeName" : "text",
+    "fieldName" : "nome_candidato_sindaco",
+    "position" : 7,
+    "renderTypeName" : "text",
+    "tableColumnId" : 262611,
+    "width" : 364,
+    "cachedContents" : {
+      "non_null" : "126",
+      "largest" : "WALTER",
+      "null" : "0",
+      "top" : [ {
+        "item" : "ROBERTO",
+        "count" : "9"
+      }, {
+        "item" : "MAURIZIO",
+        "count" : "4"
+      }, {
+        "item" : "GIOVANNI",
+        "count" : "3"
+      }, {
+        "item" : "MICHELE",
+        "count" : "3"
+      }, {
+        "item" : "MARIO",
+        "count" : "3"
+      }, {
+        "item" : "PIETRO",
+        "count" : "3"
+      }, {
+        "item" : "LUIGI",
+        "count" : "3"
+      }, {
+        "item" : "FRANCO",
+        "count" : "3"
+      }, {
+        "item" : "GIUSEPPE",
+        "count" : "3"
+      }, {
+        "item" : "ALBANO",
+        "count" : "2"
+      }, {
+        "item" : "FRANCESCO",
+        "count" : "2"
+      }, {
+        "item" : "ALBERTO",
+        "count" : "2"
+      }, {
+        "item" : "EDOARDO",
+        "count" : "2"
+      }, {
+        "item" : "MARCO",
+        "count" : "2"
+      }, {
+        "item" : "PAOLO",
+        "count" : "2"
+      }, {
+        "item" : "CLAUDIO",
+        "count" : "2"
+      }, {
+        "item" : "MAURO",
+        "count" : "2"
+      }, {
+        "item" : "GIANFRANCO",
+        "count" : "2"
+      }, {
+        "item" : "FABIO",
+        "count" : "2"
+      }, {
+        "item" : "DANIELE",
+        "count" : "2"
+      } ],
+      "smallest" : "ALBANO",
+      "count" : "126",
+      "cardinality" : "89"
+    },
+    "format" : { }
+  }, {
+    "id" : 520353,
+    "name" : "SESSO",
+    "dataTypeName" : "text",
+    "fieldName" : "sesso",
+    "position" : 8,
+    "renderTypeName" : "text",
+    "tableColumnId" : 262612,
+    "width" : 160,
+    "cachedContents" : {
+      "non_null" : "126",
+      "largest" : "M",
+      "null" : "0",
+      "top" : [ {
+        "item" : "M",
+        "count" : "106"
+      }, {
+        "item" : "F",
+        "count" : "20"
+      } ],
+      "smallest" : "F",
+      "count" : "126",
+      "cardinality" : "2"
+    },
+    "format" : { }
+  }, {
+    "id" : 520354,
+    "name" : "VOTI",
+    "dataTypeName" : "number",
+    "fieldName" : "voti",
+    "position" : 9,
+    "renderTypeName" : "number",
+    "tableColumnId" : 262613,
+    "width" : 148,
+    "cachedContents" : {
+      "non_null" : "126",
+      "average" : "1916.722222222222",
+      "largest" : "41220",
+      "null" : "0",
+      "top" : [ {
+        "item" : "873",
+        "count" : "2"
+      }, {
+        "item" : "363",
+        "count" : "2"
+      }, {
+        "item" : "245",
+        "count" : "2"
+      }, {
+        "item" : "272",
+        "count" : "2"
+      }, {
+        "item" : "559",
+        "count" : "2"
+      }, {
+        "item" : "166",
+        "count" : "1"
+      }, {
+        "item" : "2376",
+        "count" : "1"
+      }, {
+        "item" : "1743",
+        "count" : "1"
+      }, {
+        "item" : "2400",
+        "count" : "1"
+      }, {
+        "item" : "6093",
+        "count" : "1"
+      }, {
+        "item" : "767",
+        "count" : "1"
+      }, {
+        "item" : "2162",
+        "count" : "1"
+      }, {
+        "item" : "295",
+        "count" : "1"
+      }, {
+        "item" : "4816",
+        "count" : "1"
+      }, {
+        "item" : "74",
+        "count" : "1"
+      }, {
+        "item" : "410",
+        "count" : "1"
+      }, {
+        "item" : "630",
+        "count" : "1"
+      }, {
+        "item" : "4402",
+        "count" : "1"
+      }, {
+        "item" : "10910",
+        "count" : "1"
+      }, {
+        "item" : "422",
+        "count" : "1"
+      } ],
+      "smallest" : "51",
+      "count" : "126",
+      "sum" : "241507",
+      "cardinality" : "121"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "decimalSeparator" : ",",
+      "noCommas" : "false",
+      "groupSeparator" : ".",
+      "align" : "right"
+    }
+  }, {
+    "id" : 520355,
+    "name" : "Liste collegate",
+    "dataTypeName" : "text",
+    "fieldName" : "liste_collegate",
+    "position" : 10,
+    "renderTypeName" : "text",
+    "tableColumnId" : 262614,
+    "width" : 280,
+    "cachedContents" : {
+      "non_null" : "126",
+      "largest" : " VIVI VAJONT",
+      "null" : "0",
+      "top" : [ {
+        "item" : " LEGA NORD",
+        "count" : "2"
+      }, {
+        "item" : " CIVITAS - L'INSIEME DEI CITTADINI",
+        "count" : "1"
+      }, {
+        "item" : " Lista civica LA RISORGIVA",
+        "count" : "1"
+      }, {
+        "item" : " LA DESTRA - FORZA NUOVA || UN'ALTRA TS - BANDELLI SINDACO || GIOVANE DESTR@",
+        "count" : "1"
+      }, {
+        "item" : " SIN DUCJ PAR PALASSÔL || SVOLTA DEMOCRATICA",
+        "count" : "1"
+      }, {
+        "item" : " PINZANO IL COMUNE CHE VOGLIAMO",
+        "count" : "1"
+      }, {
+        "item" : " PARTITO DEMOCRATICO || PARTITO SOCIALISTA ITALIANO || ITALIA DEI VALORI - DI PIETRO || FEDERAZIONE DELLA SINISTRA || Trieste cambia -  La lista civica con Cosolini Sindaco || SINISTRA ECOLOGIA LIBERTA' con VENDOLA || LIBERTA' CIVICA - CITTADINI PER TRIESTE",
+        "count" : "1"
+      }, {
+        "item" : " INSIEME PER DRENCHIA",
+        "count" : "1"
+      }, {
+        "item" : " LEGA NORD || PDL",
+        "count" : "1"
+      }, {
+        "item" : " LISTA UNITI PER PRAVISDOMINI || LISTA CIVICA PER GRAZIANO CAMPANER SINDACO",
+        "count" : "1"
+      }, {
+        "item" : " SINISTRA ECOLOGIA LIBERTA'",
+        "count" : "1"
+      }, {
+        "item" : " UN CUR PAR PAULAR || LEGA NORD - BOSSI",
+        "count" : "1"
+      }, {
+        "item" : " GIGANTE SINDACO",
+        "count" : "1"
+      }, {
+        "item" : " IL POPOLO DELLA LIBERTA || LEGA NORD || AMARE TARCENTO",
+        "count" : "1"
+      }, {
+        "item" : " SINISTRA CIVICA",
+        "count" : "1"
+      }, {
+        "item" : " LISTA RASSATTI",
+        "count" : "1"
+      }, {
+        "item" : " CENTRO SINISTRA PER LATISANA",
+        "count" : "1"
+      }, {
+        "item" : " L'ORTICA",
+        "count" : "1"
+      }, {
+        "item" : " IMPEGNO PER GRADO || ITALIA DEI VALORI || PD",
+        "count" : "1"
+      }, {
+        "item" : " INSIEME PER CRESCERE",
+        "count" : "1"
+      } ],
+      "smallest" : " BLOCCO COMUNISTA ANTICAPITALISTA",
+      "count" : "126",
+      "cardinality" : "125"
+    },
+    "format" : { }
+  } ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "license" : {
+    "name" : "Italian Open Data License 2.0",
+    "logoUrl" : "images/licenses/iodl.png",
+    "termsLink" : "http://www.dati.gov.it/iodl/2.0/"
+  },
+  "metadata" : {
+    "customFields" : {
+      "Vecchia categoria" : {
+        "Già categoria" : "Elezioni"
+      }
+    },
+    "custom_fields" : {
+      "Aggiornamento" : {
+        "Frequenza di aggiornamento" : "Mai"
+      }
+    }
+  },
+  "owner" : {
+    "id" : "i5gf-qa8f",
+    "disabledAt" : 1668675546,
+    "displayName" : "Regione Friuli Venezia Giulia",
+    "profileImageUrlLarge" : "/api/users/i5gf-qa8f/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/i5gf-qa8f/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/i5gf-qa8f/profile_images/TINY",
+    "screenName" : "Regione Friuli Venezia Giulia",
+    "type" : "interactive",
+    "flags" : [ "mayBeStoriesCoOwner" ]
+  },
+  "query" : { },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "i5gf-qa8f",
+    "disabledAt" : 1668675546,
+    "displayName" : "Regione Friuli Venezia Giulia",
+    "profileImageUrlLarge" : "/api/users/i5gf-qa8f/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/i5gf-qa8f/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/i5gf-qa8f/profile_images/TINY",
+    "screenName" : "Regione Friuli Venezia Giulia",
+    "type" : "interactive",
+    "flags" : [ "mayBeStoriesCoOwner" ]
+  },
+  "tags" : [ "voti", "sindaco", "elezioni", "comunali", "primo turno", "2011" ],
+  "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+}
