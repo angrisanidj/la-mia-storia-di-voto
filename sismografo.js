@@ -5,6 +5,9 @@
 // Liste civiche, referendum, schede bianche e astensioni restano fuori dall'asse.
 // Tutto si calcola nel browser a partire dalle risposte in memoria.
 
+const NAZIONALI_TIPI = new Set(['pol', 'eur']);
+// peso dei voti nazionali nel baricentro (il resto va a regionali e comunali); 1 = solo nazionali
+let pesoNazionale = 0.7;
 const ASSE = { sinistra: -2, centrosinistra: -1, centro: 0, centrodestra: 1, destra: 2 };
 const CORSIE = [
   { k: 'sinistra', n: ['Sinistra'], c: '#B3121B' },
@@ -160,7 +163,11 @@ function datiSismografo() {
     righe.push({ ...p, colore: coloreVoto(o), gruppo: o.gruppo || o.key, anno: o.d.slice(0, 4), tipo: o.tipo, testo: risposta(o.key).testo, xi: posizioneVincitore(o) });
   }
   const pos = righe.filter(r => r.x != null);
-  const bar = pos.length ? pos.reduce((a, r) => a + r.x, 0) / pos.length : null;
+  // baricentro: media dei voti nazionali (politiche, europee) e di quelli locali, pesate per gruppo
+  const media = l => l.length ? l.reduce((a, r) => a + r.x, 0) / l.length : null;
+  const naz = pos.filter(r => NAZIONALI_TIPI.has(r.tipo)), loc = pos.filter(r => !NAZIONALI_TIPI.has(r.tipo));
+  const mN = media(naz), mL = media(loc);
+  const bar = pesoNazionale >= 1 ? mN : mN != null && mL != null ? pesoNazionale * mN + (1 - pesoNazionale) * mL : (mN ?? mL);
   let passi = 0, cambi = 0, segno = 0, prec = null, ultimoLato = null, traversata = null;
   for (const r of pos) {
     if (prec != null) passi += Math.abs(r.x - prec);
@@ -171,7 +178,7 @@ function datiSismografo() {
   }
   const oscillazione = pos.length > 1 ? passi / (pos.length - 1) : 0;
   const vento = righe.filter(r => r.col != null), conVento = vento.filter(r => r.col).length;
-  const D = { righe, pos, bar, cambi, traversata, oscillazione, vento: { con: conVento, tot: vento.length } };
+  const D = { righe, pos, naz, loc, bar, cambi, traversata, oscillazione, vento: { con: conVento, tot: vento.length } };
   D.profilo = profilo(D);
   return D;
 }
@@ -210,7 +217,7 @@ function profilo(D) {
 function metriche(D) {
   const o = D.oscillazione;
   return [
-    { l: 'Baricentro', v: nomeArea(D.bar), s: D.pos.length ? `media di ${D.pos.length} ${D.pos.length === 1 ? 'voto' : 'voti'} sull’asse` : 'nessun voto sull’asse' },
+    { l: 'Baricentro', v: nomeArea(D.bar), s: D.bar == null ? (D.pos.length ? 'nessun voto nazionale sull’asse' : 'nessun voto sull’asse') : pesoNazionale >= 1 ? `${D.naz.length} ${D.naz.length === 1 ? 'voto nazionale' : 'voti nazionali'}` : D.naz.length && D.loc.length ? `nazionali ${Math.round(pesoNazionale * 100)}%, locali ${Math.round((1 - pesoNazionale) * 100)}%` : `media di ${D.pos.length} ${D.pos.length === 1 ? 'voto' : 'voti'}` },
     { l: 'Oscillazione', v: D.pos.length < 2 ? '—' : o < 0.15 ? 'Piatta' : o < 0.5 ? 'Lieve' : o < 1 ? 'Moderata' : 'Forte',
       s: D.cambi ? `${D.cambi} ${D.cambi === 1 ? 'cambio' : 'cambi'} di campo` : 'mai cambiato campo' },
     { l: 'Col vento', v: D.vento.tot ? `${D.vento.con} su ${D.vento.tot}` : '—', s: 'voti come la maggioranza' },
@@ -652,7 +659,7 @@ function aggiornaSismografo() {
   clearTimeout(sismoTimer);
   sismoTimer = setTimeout(() => fontPronti.then(() => {
     const D = datiSismografo();
-    const firma = JSON.stringify(D.righe.map(r => [r.k, r.x, r.esito, r.colore && r.colore.c]));
+    const firma = JSON.stringify([pesoNazionale, D.righe.map(r => [r.k, r.x, r.esito, r.colore && r.colore.c])]);
     const cambiato = firma !== sismoFirma;
     sismoFirma = firma; sismoD = D;
     const box = $('#s-sismografo');
@@ -680,6 +687,7 @@ function testoSismografo() {
   let larghezza = cv.clientWidth;
   window.addEventListener('resize', () => { if (Math.abs(cv.clientWidth - larghezza) > 40) { larghezza = cv.clientWidth; disegnaPannello(angoloDi(sismoD ? sismoD.bar : 0), 1); } });
   $('#sismo-replay').addEventListener('click', animaPannello);
+  document.querySelectorAll('input[name=peso]').forEach(r => r.addEventListener('change', () => { pesoNazionale = +r.value; programmaAnteprima(); }));
   const bv = $('#scarica-video');
   // il video è un di più: solo dove il browser registra in MP4, il formato che Instagram e X accettano
   if (bv && FORMATO_VIDEO && FORMATO_VIDEO.ext === 'mp4') {
