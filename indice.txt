@@ -1,0 +1,4 @@
+001 http://web.archive.org/web/2010id_/http://elezionistorico.regione.fvg.it/elezioni1999/Comunali/SelezioneComune93.html
+002 http://web.archive.org/web/2010id_/http://elezionistorico.regione.fvg.it/elezioni1999/Comunali/SelezioneProvincia.html
+003 http://web.archive.org/web/2005id_/http://elezioni.regione.fvg.it/amministrative1999/Comunali/SelezioneComune93.html
+004 http://archive.org/wayback/available?url=elezionistorico.regione.fvg.it/elezioni1999/Comunali/SelezioneComune93.html&timestamp=2010

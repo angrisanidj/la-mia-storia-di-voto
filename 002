@@ -1,0 +1,40 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD W3 HTML//EN"> 
+<HTML>
+<HEAD>
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<title>Elezioni 13 Giugno 1999 - Regione Autonoma Friuli-Venezia Giulia</title>
+
+</HEAD>
+<BODY bgColor="white" link="white" aLink="white" onload="" vLink="white" topMargin="0" leftMargin="5">
+<SCRIPT language=JavaScript>
+function AttivaLink( valore )
+{
+  window.parent.frames[0].isProvincia=true;
+  if(valore == 'blank')
+	{
+    window.parent.frames[2].location='../blank.html';
+    window.parent.frames[0].ResetLink();
+  }
+  else
+		window.parent.frames[2].location='SelezioneComune'+valore+'.html';
+  window.parent.frames[3].location='../blank.html';
+}
+</SCRIPT>
+<DIV align="center">
+  <FORM>
+    <SELECT name=Selezione size=1 valign="top" onchange="AttivaLink( this.options[this.selectedIndex].value );">
+      <option value=blank selected>&lt;selezionare la provincia&gt;</option>
+      <option value=31>GORIZIA</option>
+      <option value=93>PORDENONE</option>
+      <option value=32>TRIESTE</option>
+      <option value=30>UDINE</option>
+    </SELECT>
+  </FORM>
+</DIV>
+<SCRIPT language=javascript>
+document.all.Selezione.item(0).selected="true";
+window.parent.frames[2].location="../blank.html";
+window.parent.frames[0].Selezione="blank";
+</SCRIPT>
+</BODY>
+</HTML>
