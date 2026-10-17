@@ -1,0 +1,418 @@
+
+<!DOCTYPE html>
+<html lang="it">
+
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta content="width=device-width, initial-scale=1" name="viewport">
+		<title>Elezioni amministrative 2015 (turno generale) in Provincia di Trento</title>
+
+		<meta http-equiv="pragma" content="no-cache">
+		<meta http-equiv="cache-control" content="no-cache">
+		<meta name="description" content="Elezioni comunali 2015 - Provincia autonoma di Trento: scrutinio in tempo reale in Internet, risultati elettorali di ogni comune.">
+		<meta name="keywords" content="Elezioni, elezioni comunali 2015, Trentino, Alto Adige, Provincia autonoma di Trento">
+		<link href='../../css/styles_1.css' rel="stylesheet">
+		<link href='../../css/styles_2.css' rel="stylesheet">
+		<!--[if lt IE 9]>
+			<script src='scripts/ie.min.js'></script>
+		<![endif]-->
+		<link href='../../images/icons/favicon.ico' rel="icon">
+		<link href='../../images/icons/apple-touch-icon.png' rel="apple-touch-icon">
+		<link href='../../images/icons/apple-touch-icon-57x57.png' rel="apple-touch-icon" sizes="57x57">
+		<link href='../../images/icons/apple-touch-icon-76x76.png' rel="apple-touch-icon" sizes="76x76">
+		<link href='../../images/icons/apple-touch-icon-120x120.png' rel="apple-touch-icon" sizes="120x120">
+		<link href='../../images/icons/apple-touch-icon-152x152.png' rel="apple-touch-icon" sizes="152x152">
+	</head>
+
+
+
+
+
+
+
+
+
+
+	<body>
+		<div class="container">
+			<div id="header">
+
+				<div id="masthead" role="banner">
+					<a href='/'> <img id="logo_regione" src='../../images/logo_regione_taa.png' alt="Autonome Region Trentino - Südtirol">
+					Regione autonoma Trentino–Alto Adige/Südtirol<br>
+					<strong>Elezioni amministrative 2015 - Provincia di Trento</strong><br>
+						<small>10 - 24 maggio 2015</small>
+					</a>
+				</div>
+
+
+
+
+
+
+				<nav class="navbar navbar-default">
+					<div class="container-fluid">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main_links">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+						<div class="collapse navbar-collapse" id="main_links">
+							<!-- MENU FOR A SINGLE MUNICIPALITY!!!! -->
+							<ul class="nav navbar-nav">
+								<li><a href='../../index.html' class="homelink"> Home</a></li>
+								<li><a href='../Homes/000164.html'><b>RIVA DEL GARDA </b><i class="fa fa-caret-right"></i></a></li>
+								<li><a href='../Candidature/000164.html'> Liste e candidati</a></li>
+								<li><a href='../Affluenza/000164.html'> Affluenza alle urne</a></li>
+								<li><a href='../Coalizioni/000164.html'>Candidati Sindaco</a></li>
+								<li class="active"><a href='000164.html'>Voti di lista</a></li>
+								<li><a href='../Preferenze/000164.html'>Voti di Preferenza</a></li>
+								<li><a href='../Seggi/000164.html'>Distribuzione seggi</a></li>
+								<li><a href='../Consiglio/000164.html'>Composizione consiglio</a></li>
+							</ul>
+
+							<ul class="nav navbar-nav navbar-right">
+							</ul>
+						</div>
+						<!-- /.navbar-collapse -->
+					</div>
+					<!-- /.container-fluid -->
+				</nav>
+				<ol class="breadcrumb">
+					<li><a href='../../index.html'>Home</a></li>
+					<li><a href='../Homes/000164.html'>RIVA DEL GARDA</a></li>
+					<li>Voti di lista</li>
+				</ol>
+			</div>
+			<div id="content">
+				<div id="main">
+
+
+					<div class="pull-right">
+						<span>
+							<button type="button" onkeypress="javascript:window.location.reload();" onclick="javascript:window.location.reload();" class="btn btn-success">
+								<i class="fa fa-refresh fa-spin" aria-hidden="true"></i>Aggiorna
+							</button>
+							<noscript>
+								Per aggiornare questa pagina, clicca su "Aggiorna" o premi il tasto "F5"
+							</noscript>
+						</span>
+						<span>
+							<button type="button" onclick="javascript:window.print();return false;" class="btn btn-default">
+								<i class="fa fa-print"></i>Stampa la pagina visualizzata
+							</button>
+							<noscript>
+								Per stampare la pagina utilizzare la funzione di stampa del browser sotto il menù 'File'
+							</noscript>
+						</span>
+						<div class="text-right">
+							<small><br />Risultati ufficiali</small>
+						</div>
+					</div>
+
+					<h1 id="contentMain_muniHead_title" class="main_title">RIVA DEL GARDA</h1>
+					<h2>Voti di lista</h2>
+					<div class="row">
+						<div class="col-sm-7">
+							<h3>2015</h3>
+							<table class="votes_now">
+								<caption>
+									<small style="font-size:.65em;line-height:1;">Totale voti validi: 6.959<br/>Sezioni scrutinate - Voti di lista 13 su 13<br/>Sezioni scrutinate - Voti di preferenza 13 su 13</small>
+								</caption>
+								<thead>
+									<tr class="votes_now">
+										<th colspan="2" scope="col" class="list-name">Liste</th>
+										<th class="list-votes">Voti</th>
+										<th class="list-percent"><abbr title='Percentuale'>%</abbr></th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td class="list-symbol"><img src="../../FotoSimboli/48/164/sim_1419.gif" alt="Symbol:PARTITO DEMOCRATICO DEL TRENTINO" /></td>
+										<td class="list-name"><strong>PARTITO DEMOCRATICO DEL TRENTINO</strong>
+											<div>
+												<span><i class="fa fa-caret-right"></i> <a href="../Preferenze/000164_001419.html">Voti di Preferenza</a></span>
+												<div class="progress">
+													<div class="progress-bar" role="progressbar" aria-valuenow="22" aria-valuemin="0" aria-valuemax="100" style='width: 25.9%;'>25,9%</div>
+												</div>
+											</div>
+										</td>
+										<td class="list-votes votes_now">1.799</td>
+										<td class="list-percent votes_now">25,9%</td>
+									</tr>
+									<tr>
+										<td class="list-symbol"><img src="../../FotoSimboli/48/164/sim_1425.gif" alt="Symbol:PATT" /></td>
+										<td class="list-name"><strong>PATT</strong>
+											<div>
+												<span><i class="fa fa-caret-right"></i> <a href="../Preferenze/000164_001425.html">Voti di Preferenza</a></span>
+												<div class="progress">
+													<div class="progress-bar" role="progressbar" aria-valuenow="22" aria-valuemin="0" aria-valuemax="100" style='width: 20.7%;'>20,7%</div>
+												</div>
+											</div>
+										</td>
+										<td class="list-votes votes_now">1.442</td>
+										<td class="list-percent votes_now">20,7%</td>
+									</tr>
+									<tr>
+										<td class="list-symbol"><img src="../../FotoSimboli/48/164/sim_1420.gif" alt="Symbol:UNIONE PER IL TRENTINO" /></td>
+										<td class="list-name"><strong>UNIONE PER IL TRENTINO</strong>
+											<div>
+												<span><i class="fa fa-caret-right"></i> <a href="../Preferenze/000164_001420.html">Voti di Preferenza</a></span>
+												<div class="progress">
+													<div class="progress-bar" role="progressbar" aria-valuenow="22" aria-valuemin="0" aria-valuemax="100" style='width: 11.3%;'>11,3%</div>
+												</div>
+											</div>
+										</td>
+										<td class="list-votes votes_now">784</td>
+										<td class="list-percent votes_now">11,3%</td>
+									</tr>
+									<tr>
+										<td class="list-symbol"><img src="../../FotoSimboli/48/164/sim_1426.gif" alt="Symbol:LEGA NORD TRENTINO" /></td>
+										<td class="list-name"><strong>LEGA NORD TRENTINO</strong>
+											<div>
+												<span><i class="fa fa-caret-right"></i> <a href="../Preferenze/000164_001426.html">Voti di Preferenza</a></span>
+												<div class="progress">
+													<div class="progress-bar" role="progressbar" aria-valuenow="22" aria-valuemin="0" aria-valuemax="100" style='width: 10.3%;'>10,3%</div>
+												</div>
+											</div>
+										</td>
+										<td class="list-votes votes_now">719</td>
+										<td class="list-percent votes_now">10,3%</td>
+									</tr>
+									<tr>
+										<td class="list-symbol"><img src="../../FotoSimboli/48/164/sim_1424.gif" alt="Symbol:MOVIMENTO  BEPPEGRILLO.IT" /></td>
+										<td class="list-name"><strong>MOVIMENTO  BEPPEGRILLO.IT</strong>
+											<div>
+												<span><i class="fa fa-caret-right"></i> <a href="../Preferenze/000164_001424.html">Voti di Preferenza</a></span>
+												<div class="progress">
+													<div class="progress-bar" role="progressbar" aria-valuenow="22" aria-valuemin="0" aria-valuemax="100" style='width: 9.7%;'>9,7%</div>
+												</div>
+											</div>
+										</td>
+										<td class="list-votes votes_now">675</td>
+										<td class="list-percent votes_now">9,7%</td>
+									</tr>
+									<tr>
+										<td class="list-symbol"><img src="../../FotoSimboli/48/164/sim_1422.gif" alt="Symbol:RIVA BENE COMUNE VERDI E SINISTRA" /></td>
+										<td class="list-name"><strong>RIVA BENE COMUNE VERDI E SINISTRA</strong>
+											<div>
+												<span><i class="fa fa-caret-right"></i> <a href="../Preferenze/000164_001422.html">Voti di Preferenza</a></span>
+												<div class="progress">
+													<div class="progress-bar" role="progressbar" aria-valuenow="22" aria-valuemin="0" aria-valuemax="100" style='width: 5.8%;'>5,8%</div>
+												</div>
+											</div>
+										</td>
+										<td class="list-votes votes_now">401</td>
+										<td class="list-percent votes_now">5,8%</td>
+									</tr>
+									<tr>
+										<td class="list-symbol"><img src="../../FotoSimboli/48/164/sim_1418.gif" alt="Symbol:FORZA ITALIA" /></td>
+										<td class="list-name"><strong>FORZA ITALIA</strong>
+											<div>
+												<span><i class="fa fa-caret-right"></i> <a href="../Preferenze/000164_001418.html">Voti di Preferenza</a></span>
+												<div class="progress">
+													<div class="progress-bar" role="progressbar" aria-valuenow="22" aria-valuemin="0" aria-valuemax="100" style='width: 4.7%;'>4,7%</div>
+												</div>
+											</div>
+										</td>
+										<td class="list-votes votes_now">327</td>
+										<td class="list-percent votes_now">4,7%</td>
+									</tr>
+									<tr>
+										<td class="list-symbol"><img src="../../FotoSimboli/48/164/sim_1416.gif" alt="Symbol:L'ALTRA RIVA  PARTECIPAZIONE DEMOCRAZIA TRASPARENZA" /></td>
+										<td class="list-name"><strong>L'ALTRA RIVA  PARTECIPAZIONE DEMOCRAZIA TRASPARENZA</strong>
+											<div>
+												<span><i class="fa fa-caret-right"></i> <a href="../Preferenze/000164_001416.html">Voti di Preferenza</a></span>
+												<div class="progress">
+													<div class="progress-bar" role="progressbar" aria-valuenow="22" aria-valuemin="0" aria-valuemax="100" style='width: 4.4%;'>4,4%</div>
+												</div>
+											</div>
+										</td>
+										<td class="list-votes votes_now">304</td>
+										<td class="list-percent votes_now">4,4%</td>
+									</tr>
+									<tr>
+										<td class="list-symbol"><img src="../../FotoSimboli/48/164/sim_1632.gif" alt="Symbol:RIVANITÀ" /></td>
+										<td class="list-name"><strong>RIVANITÀ</strong>
+											<div>
+												<span><i class="fa fa-caret-right"></i> <a href="../Preferenze/000164_001632.html">Voti di Preferenza</a></span>
+												<div class="progress">
+													<div class="progress-bar" role="progressbar" aria-valuenow="22" aria-valuemin="0" aria-valuemax="100" style='width: 2.9%;'>2,9%</div>
+												</div>
+											</div>
+										</td>
+										<td class="list-votes votes_now">203</td>
+										<td class="list-percent votes_now">2,9%</td>
+									</tr>
+									<tr>
+										<td class="list-symbol"><img src="../../FotoSimboli/48/164/sim_1631.gif" alt="Symbol:OLTRE PER SANTORUM" /></td>
+										<td class="list-name"><strong>OLTRE PER SANTORUM</strong>
+											<div>
+												<span><i class="fa fa-caret-right"></i> <a href="../Preferenze/000164_001631.html">Voti di Preferenza</a></span>
+												<div class="progress">
+													<div class="progress-bar" role="progressbar" aria-valuenow="22" aria-valuemin="0" aria-valuemax="100" style='width: 2.0%;'>2,0%</div>
+												</div>
+											</div>
+										</td>
+										<td class="list-votes votes_now">141</td>
+										<td class="list-percent votes_now">2,0%</td>
+									</tr>
+									<tr>
+										<td class="list-symbol"><img src="../../FotoSimboli/48/164/sim_1417.gif" alt="Symbol:LABORATORIO CIVICO" /></td>
+										<td class="list-name"><strong>LABORATORIO CIVICO</strong>
+											<div>
+												<span><i class="fa fa-caret-right"></i> <a href="../Preferenze/000164_001417.html">Voti di Preferenza</a></span>
+												<div class="progress">
+													<div class="progress-bar" role="progressbar" aria-valuenow="22" aria-valuemin="0" aria-valuemax="100" style='width: 1.7%;'>1,7%</div>
+												</div>
+											</div>
+										</td>
+										<td class="list-votes votes_now">116</td>
+										<td class="list-percent votes_now">1,7%</td>
+									</tr>
+									<tr>
+										<td class="list-symbol"><img src="../../FotoSimboli/48/164/sim_1633.gif" alt="Symbol:RINNOVAMENTO DEMOCRATICO POPOLARE" /></td>
+										<td class="list-name"><strong>RINNOVAMENTO DEMOCRATICO POPOLARE</strong>
+											<div>
+												<span><i class="fa fa-caret-right"></i> <a href="../Preferenze/000164_001633.html">Voti di Preferenza</a></span>
+												<div class="progress">
+													<div class="progress-bar" role="progressbar" aria-valuenow="22" aria-valuemin="0" aria-valuemax="100" style='width: 0.7%;'>0,7%</div>
+												</div>
+											</div>
+										</td>
+										<td class="list-votes votes_now">48</td>
+										<td class="list-percent votes_now">0,7%</td>
+									</tr>
+
+								</tbody>
+							</table>
+						</div>
+						<div class="col-sm-5">
+							<h3>Precedenti elezioni comunali</h3>
+							<table class="votes_prev">
+								<caption><small style="font-size:.65em;line-height:1;"><br/><br/>Sezioni scrutinate: 13 su 13</small></caption>
+								<thead>
+									<tr class="votes_prev">
+										<th colspan="2" scope="col" class="list-name">Liste</th>
+										<th scope="col" class="list-votes">Voti</th>
+										<th scope="col" class="list-percent"><abbr title='Percentuale'>%</abbr></th>
+									</tr>
+								</thead>
+								<tbody>
+
+
+
+
+									<tr>
+										<td class="list-symbol"><img src="../../images/pregresso/2010/53/164/sim_1334.gif" alt="Symbol: Partito Democratico del Trentino"/></td>
+										<td class="list-name"><strong>Partito Democratico del Trentino</strong></td>
+										<td class="list-votes votes_prev">1.614</td>
+										<td class="list-percent votes_prev">21,0%</td>
+									</tr>
+									<tr>
+										<td class="list-symbol"><img src="../../images/pregresso/2010/53/164/sim_1524.gif" alt="Symbol: PIETRO MATTEOTTI"/></td>
+										<td class="list-name"><strong>PIETRO MATTEOTTI</strong></td>
+										<td class="list-votes votes_prev">825</td>
+										<td class="list-percent votes_prev">10,7%</td>
+									</tr>
+									<tr>
+										<td class="list-symbol"><img src="../../images/pregresso/2010/53/164/sim_1384.gif" alt="Symbol: Unione per RIVA del GARDA"/></td>
+										<td class="list-name"><strong>Unione per RIVA del GARDA</strong></td>
+										<td class="list-votes votes_prev">697</td>
+										<td class="list-percent votes_prev">9,1%</td>
+									</tr>
+									<tr>
+										<td class="list-symbol"><img src="../../images/pregresso/2010/53/164/sim_1443.gif" alt="Symbol: PROGETTO PER RIVA"/></td>
+										<td class="list-name"><strong>PROGETTO PER RIVA</strong></td>
+										<td class="list-votes votes_prev">663</td>
+										<td class="list-percent votes_prev">8,6%</td>
+									</tr>
+									<tr>
+										<td class="list-symbol"><img src="../../images/pregresso/2010/53/164/sim_1527.gif" alt="Symbol: IL POPOLO DELLA LIBERTA'"/></td>
+										<td class="list-name"><strong>IL POPOLO DELLA LIBERTA'</strong></td>
+										<td class="list-votes votes_prev">585</td>
+										<td class="list-percent votes_prev">7,6%</td>
+									</tr>
+									<tr>
+										<td class="list-symbol"><img src="../../images/pregresso/2010/53/164/sim_1306.gif" alt="Symbol: LEGA NORD"/></td>
+										<td class="list-name"><strong>LEGA NORD</strong></td>
+										<td class="list-votes votes_prev">529</td>
+										<td class="list-percent votes_prev">6,9%</td>
+									</tr>
+									<tr>
+										<td class="list-symbol"><img src="../../images/pregresso/2010/53/164/sim_1439.gif" alt="Symbol: CASINI - LIBERTAS - UNIONE DI CENTRO"/></td>
+										<td class="list-name"><strong>CASINI - LIBERTAS - UNIONE DI CENTRO</strong></td>
+										<td class="list-votes votes_prev">525</td>
+										<td class="list-percent votes_prev">6,8%</td>
+									</tr>
+									<tr>
+										<td class="list-symbol"><img src="../../images/pregresso/2010/53/164/sim_1452.gif" alt="Symbol: PARTITO AUTONOMISTA TRENTINO TIROLESE"/></td>
+										<td class="list-name"><strong>PARTITO AUTONOMISTA TRENTINO TIROLESE</strong></td>
+										<td class="list-votes votes_prev">481</td>
+										<td class="list-percent votes_prev">6,3%</td>
+									</tr>
+									<tr>
+										<td class="list-symbol"><img src="../../images/pregresso/2010/53/164/sim_1308.gif" alt="Symbol: RIVA AMBIENTE VERDI  ecologia e società "/></td>
+										<td class="list-name"><strong>RIVA AMBIENTE VERDI  ecologia e società </strong></td>
+										<td class="list-votes votes_prev">427</td>
+										<td class="list-percent votes_prev">5,6%</td>
+									</tr>
+									<tr>
+										<td class="list-symbol"><img src="../../images/pregresso/2010/53/164/sim_1382.gif" alt="Symbol: CIVICA PER RIVA"/></td>
+										<td class="list-name"><strong>CIVICA PER RIVA</strong></td>
+										<td class="list-votes votes_prev">421</td>
+										<td class="list-percent votes_prev">5,5%</td>
+									</tr>
+									<tr>
+										<td class="list-symbol"><img src="../../images/pregresso/2010/53/164/sim_1319.gif" alt="Symbol: RIVANITA'"/></td>
+										<td class="list-name"><strong>RIVANITA'</strong></td>
+										<td class="list-votes votes_prev">351</td>
+										<td class="list-percent votes_prev">4,6%</td>
+									</tr>
+									<tr>
+										<td class="list-symbol"><img src="../../images/pregresso/2010/53/164/sim_1381.gif" alt="Symbol: DiPIETRO ITALIA dei VALORI"/></td>
+										<td class="list-name"><strong>DiPIETRO ITALIA dei VALORI</strong></td>
+										<td class="list-votes votes_prev">269</td>
+										<td class="list-percent votes_prev">3,5%</td>
+									</tr>
+									<tr>
+										<td class="list-symbol"><img src="../../images/pregresso/2010/53/164/sim_1307.gif" alt="Symbol: SINISTRA UNITA"/></td>
+										<td class="list-name"><strong>SINISTRA UNITA</strong></td>
+										<td class="list-votes votes_prev">227</td>
+										<td class="list-percent votes_prev">3,0%</td>
+									</tr>
+									<tr>
+										<td class="list-symbol"><img src="../../images/pregresso/2010/53/164/sim_1234.gif" alt="Symbol: FIAMMA TRICOLORE DESTRA SOCIALE"/></td>
+										<td class="list-name"><strong>FIAMMA TRICOLORE DESTRA SOCIALE</strong></td>
+										<td class="list-votes votes_prev">68</td>
+										<td class="list-percent votes_prev">0,9%</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div><!-- /#main -->
+			</div><!-- /#content -->
+
+				<div id="mobileLink" class="text-center"><a href="../../mobile">Mostra sito mobile</a></div>
+				<div id="footer">© 2015 Regione Trentino–Alto Adige/Südtirol | Realizzazione: Informatica Alto Adige S.p.A. e Informatica Trentina S.p.A.</div>
+		</div>
+
+<script src="../../scripts/scripts.min.js"></script>
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-43580579-2', 'auto');
+		ga('send', 'pageview');
+	</script>
+
+	</body>
+</html>
