@@ -1,0 +1,7 @@
+001 https://www.tuttitalia.it/robots.txt
+002 https://www.tuttitalia.it/trentino-alto-adige/15-laives/storico-elezioni-comunali/
+003 https://www.tuttitalia.it/trentino-alto-adige/56-lana/storico-elezioni-comunali/
+004 https://www.tuttitalia.it/trentino-alto-adige/54-brunico/storico-elezioni-comunali/
+005 https://www.tuttitalia.it/trentino-alto-adige/46-pergine-valsugana/storico-elezioni-comunali/
+006 https://www.tuttitalia.it/trentino-alto-adige/79-appiano-sulla-strada-del-vino/storico-elezioni-comunali/
+007 https://www.tuttitalia.it/trentino-alto-adige/67-rovereto/storico-elezioni-comunali/
