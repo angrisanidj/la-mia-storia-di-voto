@@ -1,0 +1,6 @@
+001 http://web.archive.org/web/20250920154345id_/https://static.provinz.bz.it/vote/gem2015/turn1_ll_vg.htm
+002 http://web.archive.org/web/20260315052144id_/https://static.provinz.bz.it/vote/gem2015/mayors2t_ll_vg.htm
+003 http://web.archive.org/web/20250920151030id_/https://static.provinz.bz.it/vote/gem2015/home_ll_vg.htm
+004 http://web.archive.org/web/20250920144916id_/https://static.provinz.bz.it/vote/gem2015/js/scripts.min.js
+005 http://web.archive.org/cdx/search/cdx?fl=timestamp,original,statuscode&collapse=urlkey&url=provinz.bz.it/vote/gem201*&matchType=prefix&limit=5000
+006 http://web.archive.org/cdx/search/cdx?fl=timestamp,original,statuscode&collapse=urlkey&url=provincia.bz.it/vote/gem201*&matchType=prefix&limit=5000
