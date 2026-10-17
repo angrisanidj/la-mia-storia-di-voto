@@ -1,0 +1,64 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Documento senza titolo</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<SCRIPT LANGUAGE=JavaScript1.1>
+<!--
+var flash;
+var MM_contentVersion = 6;
+var plugin = (navigator.mimeTypes && navigator.mimeTypes["application/x-shockwave-flash"]) ? navigator.mimeTypes["application/x-shockwave-flash"].enabledPlugin : 0;
+if ( plugin ) {
+		var words = navigator.plugins["Shockwave Flash"].description.split(" ");
+	    for (var i = 0; i < words.length; ++i)
+	    {
+		if (isNaN(parseInt(words[i])))
+		continue;
+		var MM_PluginVersion = words[i]; 
+	    }
+	var MM_FlashCanPlay = MM_PluginVersion >= MM_contentVersion;
+}
+else if (navigator.userAgent && navigator.userAgent.indexOf("MSIE")>=0 
+   && (navigator.appVersion.indexOf("Win") != -1)) {
+	document.write('<SCR' + 'IPT LANGUAGE=VBScript\> \n'); //FS hide this from IE4.5 Mac by splitting the tag
+	document.write('on error resume next \n');
+	document.write('MM_FlashCanPlay = ( IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash." & MM_contentVersion)))\n');
+	document.write('</SCR' + 'IPT\> \n');
+}
+if ( MM_FlashCanPlay ) {
+	flash = "true";
+} else{
+	flash = "false";
+}
+//-->
+    </SCRIPT>
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_checkBrowser(NSvers,NSpass,NSnoPass,IEvers,IEpass,IEnoPass,OBpass,URL,altURL) { //v4.0
+  var newURL='', verStr=navigator.appVersion, app=navigator.appName, version = parseFloat(verStr);
+  if (app.indexOf('Netscape') != -1) {
+    if (version >= NSvers) {if (NSpass>0) newURL=(NSpass==1)?URL:altURL;}
+    else {if (NSnoPass>0) newURL=(NSnoPass==1)?URL:altURL;}
+  } else if (app.indexOf('Microsoft') != -1) {
+    if (version >= IEvers || verStr.indexOf(IEvers) != -1)
+     {if (IEpass>0) newURL=(IEpass==1)?URL:altURL;}
+    else {if (IEnoPass>0) newURL=(IEnoPass==1)?URL:altURL;}
+  } else if (OBpass>0) newURL=(OBpass==1)?URL:altURL;
+  if (newURL) {
+    window.location=unescape(newURL);
+	document.reload.action = unescape(newURL);
+    document.reload.flashDetect.value = flash;
+    document.reload.submit();
+	document.MM_returnValue=false;
+  }
+}
+//-->
+</script>
+</head>
+
+<body onLoad="MM_checkBrowser(4.0,2,2,4.0,1,1,2,'http://www.regione.fvg.it/welcome.asp','http://www.regione.fvg.it/welcome_nets.asp');return document.MM_returnValue">
+<form name="reload" method="post" action="" ID="Form1">
+  <input type="hidden" name="flashDetect" value="" ID="Hidden1">
+</form>
+</body>
+</html>

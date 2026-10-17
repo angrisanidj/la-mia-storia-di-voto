@@ -1,0 +1,4 @@
+001 http://web.archive.org/web/20060420000000id_/http://www.regione.fvg.it/
+002 http://web.archive.org/web/20060601000000id_/http://www.regione.fvg.it/
+003 http://web.archive.org/cdx/search/cdx?url=www.regione.fvg.it/elezioni&matchType=prefix&from=2005&to=2008&limit=500&fl=original,timestamp&collapse=urlkey
+004 http://web.archive.org/cdx/search/cdx?url=elezioni.regione.fvg.it&matchType=host&limit=300&fl=original,timestamp&collapse=urlkey&to=2010
