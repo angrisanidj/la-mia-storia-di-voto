@@ -1,0 +1,23 @@
+{
+ "descrizione": "Elezioni comunali lette a mano dall'Archivio storico delle elezioni (Ministero dell'Interno) quando strumenti/comunali.py non ne registra i candidati. Teverola 2009: elezione nulla (un solo candidato, affluenza del 33,43% sotto il 50% richiesto dall'art. 71, comma 10, del Testo unico degli enti locali): il candidato è senza percentuale. Voce [nome, %, [[lista, %], ...], area].",
+ "elezioni": {
+  "L155-2009-06-07": {
+   "comune": "Teverola",
+   "reg": "15",
+   "c": [
+    [
+     "Gennaro Caserta",
+     null,
+     [
+      [
+       "Il Popolo della Libertà",
+       null
+      ]
+     ],
+     "centrodestra"
+    ]
+   ],
+   "fonte": "https://elezionistorico.interno.gov.it/index.php?tpel=G&dtel=07/06/2009&tpa=I&tpe=C&lev0=0&levsut0=0&lev1=15&levsut1=1&lev2=20&levsut2=2&lev3=920&levsut3=3&ne1=15&ne2=20&ne3=200920&es0=S&es1=S&es2=S&es3=N&ms=S"
+  }
+ }
+}
