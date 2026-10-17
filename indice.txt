@@ -1,0 +1,9 @@
+001 https://elezioni.regione.fvg.it/distribuzione/json/20260524_ELZ_COM.json
+002 https://elezioni.regione.fvg.it/distribuzione/json/2026-05-24_ELZ_COM.json
+003 https://elezioni.regione.fvg.it/distribuzione/json/20230402_ELZ_COM.json
+004 https://elezioni.regione.fvg.it/distribuzione/json/2023-04-02_ELZ_COM.json
+005 https://elezioni.regione.fvg.it/distribuzione/json/20220612_ELZ_COM.json
+006 https://elezioni.regione.fvg.it/distribuzione/json/2022-06-12_ELZ_COM.json
+007 https://elezioni.regione.fvg.it/distribuzione/json/20211003_ELZ_COM.json
+008 https://elezioni.regione.fvg.it/distribuzione/json/2021-10-03_ELZ_COM.json
+009 https://elezionistorico.interno.gov.it/index.php?tpel=G&dtel=13/06/1999&es0=S&tpa=I&lev0=0&levsut0=0&ms=N&tpe=A
