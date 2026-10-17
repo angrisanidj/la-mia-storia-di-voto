@@ -53,12 +53,12 @@ const IMG = (() => {
       let sig = '';
       if (k === 'ref') sig = si ? 'SÌ' : no ? 'NO' : '';
       else if (k === 'pol' || k === 'eur') sig = siglaNaz(testo);
-      else sig = { reg: 'R', prov: 'P', com: 'C', bal: 'B' }[k] || '';
+      else sig = { reg: 'R', prov: 'P', com: 'C', bal: 'B', sup: 'S' }[k] || '';
       out.push({ o, d: o.d, k, non: st === 'non', vuoto: st !== 'non' && !testo, testo, c: col && !col.vuoto ? col.c : null, si, no, sig });
     }
     return out;
   }
-  const etichettaTipo = v => ({ pol: v.o.ramo === 'S' ? 'Senato' : 'Camera', eur: 'Europee', reg: 'Regionali', prov: 'Provinciali', com: 'Comunali', bal: 'Ballottaggio', ref: 'Referendum' }[v.k] || '');
+  const etichettaTipo = v => ({ pol: v.o.ramo === 'S' ? 'Senato' : 'Camera', sup: 'Suppletive', eur: 'Europee', reg: 'Regionali', prov: 'Provinciali', com: 'Comunali', bal: 'Ballottaggio', ref: 'Referendum' }[v.k] || '');
 
   // =========================================================== LA TESSERA ELETTORALE
   // Un timbro per ogni giorno al seggio, 18 caselle per tessera come quella vera.
@@ -111,7 +111,7 @@ const IMG = (() => {
     const sigla = v => {
       if (v.o.tipo === 'ref') return siDi(v.testo) ? 'SÌ' : noDi(v.testo) ? 'NO' : 'REF';
       if (v.o.tipo === 'pol' || v.o.tipo === 'eur') return siglaNaz(v.testo);
-      return v.o.prov ? 'P' : v.o.tipo === 'bal' ? 'B' : v.o.tipo === 'reg' ? 'R' : v.o.tipo === 'com' ? 'C' : '·';
+      return v.o.prov ? 'P' : v.o.tipo === 'bal' ? 'B' : v.o.tipo === 'reg' ? 'R' : v.o.tipo === 'com' ? 'C' : v.o.tipo === 'sup' ? 'S' : '·';
     };
     for (let t = 0; t < nT; t++) {
       const xT = m + (t % colT) * (wT + gap), yT = yIn + Math.floor(t / colT) * (hT + gap);
@@ -268,7 +268,7 @@ const IMG = (() => {
       const prec = out[out.length - 1];
       if (o.ramo === 'S' && prec && prec.o.gruppo === o.gruppo && prec.b === l.b) continue;
       const col = coloreVoto(o);
-      out.push({ o, d: o.d, b: l.b, x: p[0], y: p[1], stima: !!p[2], naz: o.tipo === 'pol' || o.tipo === 'eur', c: col && !col.vuoto ? col.c : '#5A6372' });
+      out.push({ o, d: o.d, b: l.b, x: p[0], y: p[1], stima: !!p[2], naz: o.tipo === 'pol' || o.tipo === 'eur' || o.tipo === 'sup', c: col && !col.vuoto ? col.c : '#5A6372' });
     }
     return { voti: out, fuori };
   }

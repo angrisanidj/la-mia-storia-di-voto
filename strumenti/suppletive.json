@@ -1,0 +1,8277 @@
+{
+ "descrizione": "Elezioni suppletive della Camera dei deputati (ramo C) e del Senato (ramo S) dal 1994 a oggi, generato da strumenti/suppletive.py. Fonti: it.wikipedia.org, «Elezioni politiche suppletive in Italia» e «Elezioni politiche suppletive in Italia del AAAA» (data, candidati, voti, elettori e votanti; fonte), pagine dei collegi (comuni secondo i d.lgs. 535 e 536 del 1993, 189 del 2017 e 177 del 2020; fonte_comuni), «Deputati/Senatori della ... legislatura» (controllo delle date con i subentri). Percentuali sui voti validi ai candidati; affluenza = votanti/elettori. Comuni con il codice catastale di dati/comuni.js, come erano il giorno del voto; parziale = comune diviso tra più collegi (vota solo la zona indicata). Area del candidato secondo lo schieramento in quella suppletiva, null se incerta. Dal 2006 al 2017 non ci furono suppletive (legge Calderoli, proporzionale). Escluse le suppletive non ancora votate.",
+ "suppletive": [
+  {
+   "d": "1994-09-11",
+   "ramo": "S",
+   "legislatura": "XII",
+   "collegio": "Toscana - 6 (Pistoia)",
+   "sistema": "Mattarellum",
+   "comuni": [
+    {
+     "cod": "A012",
+     "nome": "Abetone",
+     "parziale": false
+    },
+    {
+     "cod": "A241",
+     "nome": "Altopascio",
+     "parziale": false
+    },
+    {
+     "cod": "B251",
+     "nome": "Buggiano",
+     "parziale": false
+    },
+    {
+     "cod": "B648",
+     "nome": "Capannori",
+     "parziale": false
+    },
+    {
+     "cod": "C631",
+     "nome": "Chiesina Uzzanese",
+     "parziale": false
+    },
+    {
+     "cod": "D235",
+     "nome": "Cutigliano",
+     "parziale": false
+    },
+    {
+     "cod": "E960",
+     "nome": "Marliana",
+     "parziale": false
+    },
+    {
+     "cod": "F025",
+     "nome": "Massa e Cozzile",
+     "parziale": false
+    },
+    {
+     "cod": "F384",
+     "nome": "Monsummano Terme",
+     "parziale": false
+    },
+    {
+     "cod": "F452",
+     "nome": "Montecarlo",
+     "parziale": false
+    },
+    {
+     "cod": "A561",
+     "nome": "Montecatini-Terme",
+     "parziale": false
+    },
+    {
+     "cod": "G491",
+     "nome": "Pescia",
+     "parziale": false
+    },
+    {
+     "cod": "G636",
+     "nome": "Pieve a Nievole",
+     "parziale": false
+    },
+    {
+     "cod": "G713",
+     "nome": "Pistoia",
+     "parziale": false
+    },
+    {
+     "cod": "G715",
+     "nome": "Piteglio",
+     "parziale": false
+    },
+    {
+     "cod": "G833",
+     "nome": "Ponte Buggianese",
+     "parziale": false
+    },
+    {
+     "cod": "G882",
+     "nome": "Porcari",
+     "parziale": false
+    },
+    {
+     "cod": "H744",
+     "nome": "Sambuca Pistoiese",
+     "parziale": false
+    },
+    {
+     "cod": "H980",
+     "nome": "San Marcello Pistoiese",
+     "parziale": false
+    },
+    {
+     "cod": "I660",
+     "nome": "Serravalle Pistoiese",
+     "parziale": false
+    },
+    {
+     "cod": "L522",
+     "nome": "Uzzano",
+     "parziale": false
+    }
+   ],
+   "candidati": [
+    [
+     "Domenico Gallo",
+     60.77,
+     "Progressisti",
+     "centrosinistra"
+    ],
+    [
+     "Vito Panati",
+     39.23,
+     "Libertà per la Toscana",
+     "centrodestra"
+    ]
+   ],
+   "affluenza": 61.87,
+   "fonte": "https://it.wikipedia.org/wiki/Elezioni_politiche_suppletive_in_Italia_del_1994#Collegio_Toscana_-_6",
+   "fonte_comuni": "https://it.wikipedia.org/wiki/Collegio_elettorale_di_Pistoia_%28Senato_della_Repubblica%29"
+  },
+  {
+   "d": "1995-04-09",
+   "ramo": "C",
+   "legislatura": "XII",
+   "collegio": "Veneto 1 - 14 (Padova - Selvazzano Dentro)",
+   "sistema": "Mattarellum",
+   "comuni": [
+    {
+     "cod": "G224",
+     "nome": "Padova",
+     "parziale": true
+    },
+    {
+     "cod": "H625",
+     "nome": "Rubano",
+     "parziale": false
+    },
+    {
+     "cod": "I595",
+     "nome": "Selvazzano Dentro",
+     "parziale": false
+    }
+   ],
+   "candidati": [
+    [
+     "Giovanni Saonara",
+     57.13,
+     "Federalismo e Democrazia",
+     "centrosinistra"
+    ],
+    [
+     "Giovanni Negri",
+     42.87,
+     "Lista Pannella - Riformatori - Forza Italia - Alleanza Nazionale - CCD - Federalisti FDL",
+     "centrodestra"
+    ]
+   ],
+   "affluenza": 77.47,
+   "fonte": "https://it.wikipedia.org/wiki/Elezioni_politiche_suppletive_in_Italia_del_1995#Collegio_Veneto_1_-_14",
+   "fonte_comuni": "https://it.wikipedia.org/wiki/Collegio_elettorale_di_Padova_-_Selvazzano_Dentro_%28Camera_dei_deputati%29",
+   "note": "Saonara era sostenuto da Lega Nord, PPI, PDS e dagli altri partiti progressisti (lista «Federalismo e Democrazia»)."
+  },
+  {
+   "d": "1995-05-14",
+   "ramo": "C",
+   "legislatura": "XII",
+   "collegio": "Emilia-Romagna - 8 (Ravenna - Lugo)",
+   "sistema": "Mattarellum",
+   "comuni": [
+    {
+     "cod": "A191",
+     "nome": "Alfonsine",
+     "parziale": false
+    },
+    {
+     "cod": "C963",
+     "nome": "Conselice",
+     "parziale": false
+    },
+    {
+     "cod": "D829",
+     "nome": "Fusignano",
+     "parziale": false
+    },
+    {
+     "cod": "E730",
+     "nome": "Lugo",
+     "parziale": false
+    },
+    {
+     "cod": "F029",
+     "nome": "Massa Lombarda",
+     "parziale": false
+    },
+    {
+     "cod": "H199",
+     "nome": "Ravenna",
+     "parziale": true
+    },
+    {
+     "cod": "I196",
+     "nome": "Sant'Agata sul Santerno",
+     "parziale": false
+    }
+   ],
+   "candidati": [
+    [
+     "Elsa Signorino",
+     77.48,
+     "Progressisti",
+     "centrosinistra"
+    ],
+    [
+     "Ezio Fedele Brini",
+     22.52,
+     "Partito Repubblicano Italiano",
+     "centro"
+    ]
+   ],
+   "affluenza": 72.12,
+   "fonte": "https://it.wikipedia.org/wiki/Elezioni_politiche_suppletive_in_Italia_del_1995#Collegio_Emilia-Romagna_-_8",
+   "fonte_comuni": "https://it.wikipedia.org/wiki/Collegio_elettorale_di_Ravenna_-_Lugo"
+  },
+  {
+   "d": "1995-05-14",
+   "ramo": "S",
+   "legislatura": "XII",
+   "collegio": "Calabria - 3 (Cosenza)",
+   "sistema": "Mattarellum",
+   "comuni": [
+    {
+     "cod": "A102",
+     "nome": "Aiello Calabro",
+     "parziale": false
+    },
+    {
+     "cod": "A234",
+     "nome": "Altilia",
+     "parziale": false
+    },
+    {
+     "cod": "A340",
+     "nome": "Aprigliano",
+     "parziale": false
+    },
+    {
+     "cod": "A768",
+     "nome": "Belsito",
+     "parziale": false
+    },
+    {
+     "cod": "A842",
+     "nome": "Bianchi",
+     "parziale": false
+    },
+    {
+     "cod": "B802",
+     "nome": "Carolei",
+     "parziale": false
+    },
+    {
+     "cod": "B813",
+     "nome": "Carpanzano",
+     "parziale": false
+    },
+    {
+     "cod": "B983",
+     "nome": "Casole Bruzio",
+     "parziale": false
+    },
+    {
+     "cod": "C301",
+     "nome": "Castiglione Cosentino",
+     "parziale": false
+    },
+    {
+     "cod": "C108",
+     "nome": "Castrolibero",
+     "parziale": false
+    },
+    {
+     "cod": "C430",
+     "nome": "Celico",
+     "parziale": false
+    },
+    {
+     "cod": "C437",
+     "nome": "Cellara",
+     "parziale": false
+    },
+    {
+     "cod": "C515",
+     "nome": "Cerisano",
+     "parziale": false
+    },
+    {
+     "cod": "C905",
+     "nome": "Colosimi",
+     "parziale": false
+    },
+    {
+     "cod": "D086",
+     "nome": "Cosenza",
+     "parziale": false
+    },
+    {
+     "cod": "D304",
+     "nome": "Dipignano",
+     "parziale": false
+    },
+    {
+     "cod": "D328",
+     "nome": "Domanico",
+     "parziale": false
+    },
+    {
+     "cod": "D582",
+     "nome": "Figline Vegliaturo",
+     "parziale": false
+    },
+    {
+     "cod": "E180",
+     "nome": "Grimaldi",
+     "parziale": false
+    },
+    {
+     "cod": "E407",
+     "nome": "Lago",
+     "parziale": false
+    },
+    {
+     "cod": "E450",
+     "nome": "Lappano",
+     "parziale": false
+    },
+    {
+     "cod": "E773",
+     "nome": "Luzzi",
+     "parziale": false
+    },
+    {
+     "cod": "E859",
+     "nome": "Malito",
+     "parziale": false
+    },
+    {
+     "cod": "E888",
+     "nome": "Mangone",
+     "parziale": false
+    },
+    {
+     "cod": "E914",
+     "nome": "Marano Marchesato",
+     "parziale": false
+    },
+    {
+     "cod": "E915",
+     "nome": "Marano Principato",
+     "parziale": false
+    },
+    {
+     "cod": "F001",
+     "nome": "Marzi",
+     "parziale": false
+    },
+    {
+     "cod": "F125",
+     "nome": "Mendicino",
+     "parziale": false
+    },
+    {
+     "cod": "F416",
+     "nome": "Montalto Uffugo",
+     "parziale": false
+    },
+    {
+     "cod": "G307",
+     "nome": "Panettieri",
+     "parziale": false
+    },
+    {
+     "cod": "G331",
+     "nome": "Parenti",
+     "parziale": false
+    },
+    {
+     "cod": "G372",
+     "nome": "Paterno Calabro",
+     "parziale": false
+    },
+    {
+     "cod": "G400",
+     "nome": "Pedace",
+     "parziale": false
+    },
+    {
+     "cod": "G411",
+     "nome": "Pedivigliano",
+     "parziale": false
+    },
+    {
+     "cod": "G553",
+     "nome": "Piane Crati",
+     "parziale": false
+    },
+    {
+     "cod": "G615",
+     "nome": "Pietrafitta",
+     "parziale": false
+    },
+    {
+     "cod": "H235",
+     "nome": "Rende",
+     "parziale": false
+    },
+    {
+     "cod": "H490",
+     "nome": "Rogliano",
+     "parziale": false
+    },
+    {
+     "cod": "H565",
+     "nome": "Rose",
+     "parziale": false
+    },
+    {
+     "cod": "H621",
+     "nome": "Rovito",
+     "parziale": false
+    },
+    {
+     "cod": "H841",
+     "nome": "San Fili",
+     "parziale": false
+    },
+    {
+     "cod": "I114",
+     "nome": "San Pietro in Guarano",
+     "parziale": false
+    },
+    {
+     "cod": "I388",
+     "nome": "San Vincenzo La Costa",
+     "parziale": false
+    },
+    {
+     "cod": "I359",
+     "nome": "Santo Stefano di Rogliano",
+     "parziale": false
+    },
+    {
+     "cod": "D290",
+     "nome": "Scigliano",
+     "parziale": false
+    },
+    {
+     "cod": "I650",
+     "nome": "Serra Pedace",
+     "parziale": false
+    },
+    {
+     "cod": "I896",
+     "nome": "Spezzano della Sila",
+     "parziale": false
+    },
+    {
+     "cod": "I898",
+     "nome": "Spezzano Piccolo",
+     "parziale": false
+    },
+    {
+     "cod": "L375",
+     "nome": "Trenta",
+     "parziale": false
+    },
+    {
+     "cod": "M202",
+     "nome": "Zumpano",
+     "parziale": false
+    }
+   ],
+   "candidati": [
+    [
+     "Massimo Veltri",
+     50.58,
+     "Progressisti",
+     "centrosinistra"
+    ],
+    [
+     "Vittorio Zupo",
+     31.42,
+     "FI - CCD - PPI - AN",
+     "centrodestra"
+    ],
+    [
+     "Franco Petramala",
+     18.0,
+     "Lista Petramala",
+     "centro"
+    ]
+   ],
+   "affluenza": 49.93,
+   "fonte": "https://it.wikipedia.org/wiki/Elezioni_politiche_suppletive_in_Italia_del_1995#Collegio_Calabria_-_3",
+   "fonte_comuni": "https://it.wikipedia.org/wiki/Collegio_elettorale_di_Cosenza_%28Senato_della_Repubblica%29"
+  },
+  {
+   "d": "1995-10-22",
+   "ramo": "C",
+   "legislatura": "XII",
+   "collegio": "Campania 1 - 2 (Napoli - Vomero)",
+   "sistema": "Mattarellum",
+   "comuni": [
+    {
+     "cod": "F839",
+     "nome": "Napoli",
+     "parziale": true,
+     "zona": "Chiaia, Posillipo, Vomero"
+    }
+   ],
+   "candidati": [
+    [
+     "Vincenzo Siniscalchi",
+     42.0,
+     "Con Napoli per l'Italia che vogliamo",
+     "centrosinistra"
+    ],
+    [
+     "Maurizio de Tilla",
+     37.34,
+     "Forza Italia - CDU - Alleanza Nazionale - CCD",
+     "centrodestra"
+    ],
+    [
+     "Marco Pannella",
+     16.96,
+     "Per la Grande Napoli",
+     "altro"
+    ],
+    [
+     "Silvio Vitale",
+     2.02,
+     "Movimento Sociale Fiamma Tricolore",
+     "destra"
+    ],
+    [
+     "Giuseppe Visconti",
+     1.2,
+     "Democrazia Sociale",
+     "altro"
+    ],
+    [
+     "Gianfranco Vestuto",
+     0.48,
+     "Lega Italia Federale",
+     "altro"
+    ]
+   ],
+   "affluenza": 36.5,
+   "fonte": "https://it.wikipedia.org/wiki/Elezioni_politiche_suppletive_in_Italia_del_1995#Collegio_Campania_1_-_2",
+   "fonte_comuni": "https://it.wikipedia.org/wiki/Collegio_elettorale_di_Napoli_-_Vomero"
+  },
+  {
+   "d": "1996-01-14",
+   "ramo": "C",
+   "legislatura": "XII",
+   "collegio": "Puglia - 4 (Foggia centro)",
+   "sistema": "Mattarellum",
+   "comuni": [
+    {
+     "cod": "D643",
+     "nome": "Foggia",
+     "parziale": true,
+     "zona": "Cattedrale, Centrale, Ferrovia, Puglia, Mazzini, CEP, Incoronata"
+    }
+   ],
+   "candidati": [
+    [
+     "Antonio Pepe",
+     68.25,
+     "Polo per le Libertà",
+     "centrodestra"
+    ],
+    [
+     "Giuseppe Cavaliere",
+     31.75,
+     "Foggia Democratica e Popolare",
+     "centrosinistra"
+    ]
+   ],
+   "affluenza": 46.21,
+   "fonte": "https://it.wikipedia.org/wiki/Elezioni_politiche_suppletive_in_Italia_del_1996#Collegio_Puglia_-_4",
+   "fonte_comuni": "https://it.wikipedia.org/wiki/Collegio_elettorale_di_Foggia_centro"
+  },
+  {
+   "d": "1996-10-27",
+   "ramo": "S",
+   "legislatura": "XIII",
+   "collegio": "Emilia-Romagna - 3 (Ravenna)",
+   "sistema": "Mattarellum",
+   "comuni": [
+    {
+     "cod": "A191",
+     "nome": "Alfonsine",
+     "parziale": false
+    },
+    {
+     "cod": "A393",
+     "nome": "Argenta",
+     "parziale": false
+    },
+    {
+     "cod": "C553",
+     "nome": "Cervia",
+     "parziale": false
+    },
+    {
+     "cod": "C912",
+     "nome": "Comacchio",
+     "parziale": false
+    },
+    {
+     "cod": "C963",
+     "nome": "Conselice",
+     "parziale": false
+    },
+    {
+     "cod": "E410",
+     "nome": "Lagosanto",
+     "parziale": false
+    },
+    {
+     "cod": "F016",
+     "nome": "Masi Torello",
+     "parziale": false
+    },
+    {
+     "cod": "F026",
+     "nome": "Massa Fiscaglia",
+     "parziale": false
+    },
+    {
+     "cod": "F198",
+     "nome": "Migliarino",
+     "parziale": false
+    },
+    {
+     "cod": "F199",
+     "nome": "Migliaro",
+     "parziale": false
+    },
+    {
+     "cod": "G184",
+     "nome": "Ostellato",
+     "parziale": false
+    },
+    {
+     "cod": "G916",
+     "nome": "Portomaggiore",
+     "parziale": false
+    },
+    {
+     "cod": "H199",
+     "nome": "Ravenna",
+     "parziale": false
+    },
+    {
+     "cod": "L390",
+     "nome": "Tresigallo",
+     "parziale": false
+    },
+    {
+     "cod": "M110",
+     "nome": "Voghiera",
+     "parziale": false
+    }
+   ],
+   "candidati": [
+    [
+     "Aldo Preda",
+     69.44,
+     "L'Ulivo",
+     "centrosinistra"
+    ],
+    [
+     "Franca D'Amico",
+     30.56,
+     "Polo per le Libertà",
+     "centrodestra"
+    ]
+   ],
+   "affluenza": 61.09,
+   "fonte": "https://it.wikipedia.org/wiki/Elezioni_politiche_suppletive_in_Italia_del_1996#Collegio_Emilia-Romagna_-_3",
+   "fonte_comuni": "https://it.wikipedia.org/wiki/Collegio_elettorale_di_Ravenna_%28Senato_della_Repubblica%29"
+  },
+  {
+   "d": "1997-06-01",
+   "ramo": "C",
+   "legislatura": "XIII",
+   "collegio": "Lombardia 2 - 3 (Tradate)",
+   "sistema": "Mattarellum",
+   "comuni": [
+    {
+     "cod": "A167",
+     "nome": "Albizzate",
+     "parziale": false
+    },
+    {
+     "cod": "B368",
+     "nome": "Cairate",
+     "parziale": false
+    },
+    {
+     "cod": "B796",
+     "nome": "Carnago",
+     "parziale": false
+    },
+    {
+     "cod": "B807",
+     "nome": "Caronno Varesino",
+     "parziale": false
+    },
+    {
+     "cod": "C273",
+     "nome": "Castelseprio",
+     "parziale": false
+    },
+    {
+     "cod": "C300",
+     "nome": "Castiglione Olona",
+     "parziale": false
+    },
+    {
+     "cod": "D467",
+     "nome": "Fagnano Olona",
+     "parziale": false
+    },
+    {
+     "cod": "E104",
+     "nome": "Gornate Olona",
+     "parziale": false
+    },
+    {
+     "cod": "E665",
+     "nome": "Lonate Ceppino",
+     "parziale": false
+    },
+    {
+     "cod": "E863",
+     "nome": "Malnate",
+     "parziale": false
+    },
+    {
+     "cod": "F711",
+     "nome": "Morazzone",
+     "parziale": false
+    },
+    {
+     "cod": "G028",
+     "nome": "Olgiate Olona",
+     "parziale": false
+    },
+    {
+     "cod": "I793",
+     "nome": "Solbiate Arno",
+     "parziale": false
+    },
+    {
+     "cod": "I794",
+     "nome": "Solbiate Olona",
+     "parziale": false
+    },
+    {
+     "cod": "L319",
+     "nome": "Tradate",
+     "parziale": false
+    },
+    {
+     "cod": "L703",
+     "nome": "Vedano Olona",
+     "parziale": false
+    },
+    {
+     "cod": "L733",
+     "nome": "Venegono Inferiore",
+     "parziale": false
+    },
+    {
+     "cod": "L734",
+     "nome": "Venegono Superiore",
+     "parziale": false
+    }
+   ],
+   "candidati": [
+    [
+     "Dario Galli",
+     46.25,
+     "Lega Nord",
+     "altro"
+    ],
+    [
+     "Piero Giorgio Luini",
+     26.53,
+     "L'Ulivo",
+     "centrosinistra"
+    ],
+    [
+     "Paolo Valmori",
+     22.2,
+     "Polo per le Libertà",
+     "centrodestra"
+    ],
+    [
+     "Fabrizio Piacentini",
+     2.58,
+     "Socialisti Italiani Uniti",
+     null
+    ],
+    [
+     "Vincenzo Biotti",
+     2.44,
+     "Movimento Sociale Fiamma Tricolore",
+     "destra"
+    ]
+   ],
+   "affluenza": 61.51,
+   "fonte": "https://it.wikipedia.org/wiki/Elezioni_politiche_suppletive_in_Italia_del_1997#Collegio_Lombardia_2_-_3",
+   "fonte_comuni": "https://it.wikipedia.org/wiki/Collegio_elettorale_di_Tradate_%28Camera_dei_deputati%29",
+   "note": "Lega Nord fuori dai poli; Piacentini (Socialisti Italiani e Partito Socialista) senza area certa."
+  },
+  {
+   "d": "1997-11-09",
+   "ramo": "S",
+   "legislatura": "XIII",
+   "collegio": "Toscana - 3 (Sesto Fiorentino)",
+   "sistema": "Mattarellum",
+   "comuni": [
+    {
+     "cod": "A632",
+     "nome": "Barberino di Mugello",
+     "parziale": false
+    },
+    {
+     "cod": "B036",
+     "nome": "Borgo San Lorenzo",
+     "parziale": false
+    },
+    {
+     "cod": "B406",
+     "nome": "Calenzano",
+     "parziale": false
+    },
+    {
+     "cod": "B507",
+     "nome": "Campi Bisenzio",
+     "parziale": false
+    },
+    {
+     "cod": "C112",
+     "nome": "Castelfranco di sopra",
+     "parziale": false
+    },
+    {
+     "cod": "D299",
+     "nome": "Dicomano",
+     "parziale": false
+    },
+    {
+     "cod": "D575",
+     "nome": "Fiesole",
+     "parziale": false
+    },
+    {
+     "cod": "D613",
+     "nome": "Firenzuola",
+     "parziale": false
+    },
+    {
+     "cod": "E668",
+     "nome": "Londa",
+     "parziale": false
+    },
+    {
+     "cod": "E693",
+     "nome": "Loro Ciuffenna",
+     "parziale": false
+    },
+    {
+     "cod": "E971",
+     "nome": "Marradi",
+     "parziale": false
+    },
+    {
+     "cod": "G270",
+     "nome": "Palazzuolo sul Senio",
+     "parziale": false
+    },
+    {
+     "cod": "G420",
+     "nome": "Pelago",
+     "parziale": false
+    },
+    {
+     "cod": "G552",
+     "nome": "Pian di Sco",
+     "parziale": false
+    },
+    {
+     "cod": "G825",
+     "nome": "Pontassieve",
+     "parziale": false
+    },
+    {
+     "cod": "H222",
+     "nome": "Reggello",
+     "parziale": false
+    },
+    {
+     "cod": "H635",
+     "nome": "Rufina",
+     "parziale": false
+    },
+    {
+     "cod": "H937",
+     "nome": "San Godenzo",
+     "parziale": false
+    },
+    {
+     "cod": "I085",
+     "nome": "San Piero a Sieve",
+     "parziale": false
+    },
+    {
+     "cod": "I514",
+     "nome": "Scarperia",
+     "parziale": false
+    },
+    {
+     "cod": "I684",
+     "nome": "Sesto Fiorentino",
+     "parziale": false
+    },
+    {
+     "cod": "L123",
+     "nome": "Terranuova Bracciolini",
+     "parziale": false
+    },
+    {
+     "cod": "L529",
+     "nome": "Vaglia",
+     "parziale": false
+    },
+    {
+     "cod": "L838",
+     "nome": "Vicchio",
+     "parziale": false
+    }
+   ],
+   "candidati": [
+    [
+     "Antonio Di Pietro",
+     67.75,
+     "L'Ulivo",
+     "centrosinistra"
+    ],
+    [
+     "Giuliano Ferrara",
+     16.14,
+     "Polo per le Libertà",
+     "centrodestra"
+    ],
+    [
+     "Alessandro Curzi",
+     13.01,
+     "Unità a Sinistra",
+     "sinistra"
+    ],
+    [
+     "Franco Checacci",
+     3.1,
+     "Lega Nord",
+     "altro"
+    ]
+   ],
+   "affluenza": 73.03,
+   "fonte": "https://it.wikipedia.org/wiki/Elezioni_politiche_suppletive_in_Italia_del_1997#Collegio_Toscana_-_3",
+   "fonte_comuni": "https://it.wikipedia.org/wiki/Collegio_elettorale_di_Sesto_Fiorentino_%28Senato_della_Repubblica%29",
+   "verifica": "https://archivio.unita.news/assets/main/1997/11/10/page_005.pdf",
+   "note": "L'Unità del 10 novembre 1997 scrive «Checcacci». La tabella riassuntiva di Wikipedia numera il collegio 4: è il 3 (Collegi elettorali del Senato della Repubblica del 1993)."
+  },
+  {
+   "d": "1997-12-14",
+   "ramo": "S",
+   "legislatura": "XIII",
+   "collegio": "Friuli-Venezia Giulia - 2 (Gorizia)",
+   "sistema": "Mattarellum",
+   "comuni": [
+    {
+     "cod": "A103",
+     "nome": "Aiello del Friuli",
+     "parziale": false
+    },
+    {
+     "cod": "A346",
+     "nome": "Aquileia",
+     "parziale": false
+    },
+    {
+     "cod": "A491",
+     "nome": "Attimis",
+     "parziale": false
+    },
+    {
+     "cod": "B545",
+     "nome": "Campolongo al Torre",
+     "parziale": false
+    },
+    {
+     "cod": "B712",
+     "nome": "Capriva del Friuli",
+     "parziale": false
+    },
+    {
+     "cod": "C556",
+     "nome": "Cervignano del Friuli",
+     "parziale": false
+    },
+    {
+     "cod": "C641",
+     "nome": "Chiopris-Viscone",
+     "parziale": false
+    },
+    {
+     "cod": "C758",
+     "nome": "Cividale del Friuli",
+     "parziale": false
+    },
+    {
+     "cod": "D014",
+     "nome": "Cormons",
+     "parziale": false
+    },
+    {
+     "cod": "D027",
+     "nome": "Corno di Rosazzo",
+     "parziale": false
+    },
+    {
+     "cod": "D312",
+     "nome": "Doberdò del Lago",
+     "parziale": false
+    },
+    {
+     "cod": "D321",
+     "nome": "Dolegna del Collio",
+     "parziale": false
+    },
+    {
+     "cod": "D366",
+     "nome": "Drenchia",
+     "parziale": false
+    },
+    {
+     "cod": "D383",
+     "nome": "Duino Aurisina",
+     "parziale": false
+    },
+    {
+     "cod": "D455",
+     "nome": "Faedis",
+     "parziale": false
+    },
+    {
+     "cod": "D504",
+     "nome": "Farra d'Isonzo",
+     "parziale": false
+    },
+    {
+     "cod": "D627",
+     "nome": "Fiumicello",
+     "parziale": false
+    },
+    {
+     "cod": "D645",
+     "nome": "Fogliano Redipuglia",
+     "parziale": false
+    },
+    {
+     "cod": "E098",
+     "nome": "Gorizia",
+     "parziale": false
+    },
+    {
+     "cod": "E124",
+     "nome": "Gradisca d'Isonzo",
+     "parziale": false
+    },
+    {
+     "cod": "E125",
+     "nome": "Grado",
+     "parziale": false
+    },
+    {
+     "cod": "E179",
+     "nome": "Grimacco",
+     "parziale": false
+    },
+    {
+     "cod": "E760",
+     "nome": "Lusevera",
+     "parziale": false
+    },
+    {
+     "cod": "E899",
+     "nome": "Manzano",
+     "parziale": false
+    },
+    {
+     "cod": "E952",
+     "nome": "Mariano del Friuli",
+     "parziale": false
+    },
+    {
+     "cod": "F081",
+     "nome": "Medea",
+     "parziale": false
+    },
+    {
+     "cod": "F275",
+     "nome": "Moimacco",
+     "parziale": false
+    },
+    {
+     "cod": "F356",
+     "nome": "Monfalcone",
+     "parziale": false
+    },
+    {
+     "cod": "F378",
+     "nome": "Monrupino",
+     "parziale": false
+    },
+    {
+     "cod": "F710",
+     "nome": "Moraro",
+     "parziale": false
+    },
+    {
+     "cod": "F767",
+     "nome": "Mossa",
+     "parziale": false
+    },
+    {
+     "cod": "F898",
+     "nome": "Nimis",
+     "parziale": false
+    },
+    {
+     "cod": "H029",
+     "nome": "Premariacco",
+     "parziale": false
+    },
+    {
+     "cod": "H040",
+     "nome": "Prepotto",
+     "parziale": false
+    },
+    {
+     "cod": "H089",
+     "nome": "Pulfero",
+     "parziale": false
+    },
+    {
+     "cod": "H242",
+     "nome": "Resia",
+     "parziale": false
+    },
+    {
+     "cod": "H514",
+     "nome": "Romans d'Isonzo",
+     "parziale": false
+    },
+    {
+     "cod": "H531",
+     "nome": "Ronchi dei Legionari",
+     "parziale": false
+    },
+    {
+     "cod": "H629",
+     "nome": "Ruda",
+     "parziale": false
+    },
+    {
+     "cod": "H665",
+     "nome": "Sagrado",
+     "parziale": false
+    },
+    {
+     "cod": "H787",
+     "nome": "San Canzian d'Isonzo",
+     "parziale": false
+    },
+    {
+     "cod": "H845",
+     "nome": "San Floriano del Collio",
+     "parziale": false
+    },
+    {
+     "cod": "H906",
+     "nome": "San Giovanni al Natisone",
+     "parziale": false
+    },
+    {
+     "cod": "H951",
+     "nome": "San Leonardo",
+     "parziale": false
+    },
+    {
+     "cod": "H964",
+     "nome": "San Lorenzo Isontino",
+     "parziale": false
+    },
+    {
+     "cod": "I082",
+     "nome": "San Pier d'Isonzo",
+     "parziale": false
+    },
+    {
+     "cod": "I092",
+     "nome": "San Pietro al Natisone",
+     "parziale": false
+    },
+    {
+     "cod": "I404",
+     "nome": "San Vito al Torre",
+     "parziale": false
+    },
+    {
+     "cod": "I478",
+     "nome": "Savogna",
+     "parziale": false
+    },
+    {
+     "cod": "I479",
+     "nome": "Savogna d'Isonzo",
+     "parziale": false
+    },
+    {
+     "cod": "I715",
+     "nome": "Sgonico",
+     "parziale": false
+    },
+    {
+     "cod": "I939",
+     "nome": "Staranzano",
+     "parziale": false
+    },
+    {
+     "cod": "I974",
+     "nome": "Stregna",
+     "parziale": false
+    },
+    {
+     "cod": "G736",
+     "nome": "Taipana",
+     "parziale": false
+    },
+    {
+     "cod": "L044",
+     "nome": "Tapogliano",
+     "parziale": false
+    },
+    {
+     "cod": "L144",
+     "nome": "Terzo d'Aquileia",
+     "parziale": false
+    },
+    {
+     "cod": "L246",
+     "nome": "Torreano",
+     "parziale": false
+    },
+    {
+     "cod": "L438",
+     "nome": "Trivignano Udinese",
+     "parziale": false
+    },
+    {
+     "cod": "L474",
+     "nome": "Turriaco",
+     "parziale": false
+    },
+    {
+     "cod": "M034",
+     "nome": "Villa Vicentina",
+     "parziale": false
+    },
+    {
+     "cod": "M043",
+     "nome": "Villesse",
+     "parziale": false
+    },
+    {
+     "cod": "M073",
+     "nome": "Visco",
+     "parziale": false
+    }
+   ],
+   "candidati": [
+    [
+     "Demetrio Volcic",
+     65.92,
+     "L'Ulivo",
+     "centrosinistra"
+    ],
+    [
+     "Dario Mulitsch",
+     34.08,
+     "Polo per le Libertà",
+     "centrodestra"
+    ]
+   ],
+   "affluenza": 52.37,
+   "fonte": "https://it.wikipedia.org/wiki/Elezioni_politiche_suppletive_in_Italia_del_1997#Collegio_Friuli-Venezia_Giulia_-_2",
+   "fonte_comuni": "https://it.wikipedia.org/wiki/Collegio_elettorale_di_Gorizia_%28Senato_della_Repubblica%29"
+  },
+  {
+   "d": "1998-06-21",
+   "ramo": "C",
+   "legislatura": "XIII",
+   "collegio": "Lombardia 1 - 6 (Milano 6)",
+   "sistema": "Mattarellum",
+   "comuni": [
+    {
+     "cod": "F205",
+     "nome": "Milano",
+     "parziale": true
+    }
+   ],
+   "candidati": [
+    [
+     "Gaetano Pecorella",
+     51.8,
+     "Forza Italia - AN - CCD - Partito Pensionati - Polo per le Libertà",
+     "centrodestra"
+    ],
+    [
+     "Angelo Mattioni",
+     28.54,
+     "L'Ulivo",
+     "centrosinistra"
+    ],
+    [
+     "Giovanni Bernardelli",
+     10.1,
+     "Lega Nord",
+     "altro"
+    ],
+    [
+     "Marco Pannella",
+     3.0,
+     "Lista Marco Pannella",
+     "altro"
+    ],
+    [
+     "Luca Ghezzi",
+     2.73,
+     "Leoncavallo",
+     "sinistra"
+    ],
+    [
+     "Giorgio Schultze",
+     2.26,
+     "Partito Umanista",
+     "altro"
+    ],
+    [
+     "Marinella Cartolari",
+     1.58,
+     "Fronte Nazionale Italiano",
+     "destra"
+    ]
+   ],
+   "affluenza": 31.13,
+   "fonte": "https://it.wikipedia.org/wiki/Elezioni_politiche_suppletive_in_Italia_del_1998#Collegio_Lombardia_1_-_6",
+   "fonte_comuni": "https://it.wikipedia.org/wiki/Collegio_elettorale_di_Milano_6"
+  },
+  {
+   "d": "1999-05-09",
+   "ramo": "C",
+   "legislatura": "XIII",
+   "collegio": "Puglia - 20 (Bari - Libertà - Marconi)",
+   "sistema": "Mattarellum",
+   "comuni": [
+    {
+     "cod": "A662",
+     "nome": "Bari",
+     "parziale": true,
+     "zona": "Libertà, Marconi, Murat, Picone, Poggiofranco, San Nicola"
+    }
+   ],
+   "candidati": [
+    [
+     "Salvatore Tatarella",
+     57.63,
+     "Forza Italia - CCD-Dem. di centro - CDL-Puglia - Movimento pugliese/ Amb. club - MSI-AN",
+     "centrodestra"
+    ],
+    [
+     "Alberto Tedesco",
+     37.26,
+     "L'Ulivo - Alleanza per il governo",
+     "centrosinistra"
+    ],
+    [
+     "Michele Diomede",
+     5.12,
+     "Movimento Meridionale Indipendente",
+     "altro"
+    ]
+   ],
+   "affluenza": 42.82,
+   "fonte": "https://it.wikipedia.org/wiki/Elezioni_politiche_suppletive_in_Italia_del_1999#Collegio_Puglia_-_20",
+   "fonte_comuni": "https://it.wikipedia.org/wiki/Collegio_elettorale_di_Bari_-_Libert%C3%A0_-_Marconi"
+  },
+  {
+   "d": "1999-05-09",
+   "ramo": "S",
+   "legislatura": "XIII",
+   "collegio": "Emilia-Romagna - 1 (Forlì)",
+   "sistema": "Mattarellum",
+   "comuni": [
+    {
+     "cod": "A547",
+     "nome": "Bagnacavallo",
+     "parziale": false
+    },
+    {
+     "cod": "A551",
+     "nome": "Bagnara di Romagna",
+     "parziale": false
+    },
+    {
+     "cod": "B188",
+     "nome": "Brisighella",
+     "parziale": false
+    },
+    {
+     "cod": "B982",
+     "nome": "Casola Valsenio",
+     "parziale": false
+    },
+    {
+     "cod": "C065",
+     "nome": "Castel Bolognese",
+     "parziale": false
+    },
+    {
+     "cod": "D121",
+     "nome": "Cotignola",
+     "parziale": false
+    },
+    {
+     "cod": "D458",
+     "nome": "Faenza",
+     "parziale": false
+    },
+    {
+     "cod": "D704",
+     "nome": "Forlì",
+     "parziale": false
+    },
+    {
+     "cod": "D829",
+     "nome": "Fusignano",
+     "parziale": false
+    },
+    {
+     "cod": "E730",
+     "nome": "Lugo",
+     "parziale": false
+    },
+    {
+     "cod": "F029",
+     "nome": "Massa Lombarda",
+     "parziale": false
+    },
+    {
+     "cod": "H302",
+     "nome": "Riolo Terme",
+     "parziale": false
+    },
+    {
+     "cod": "H642",
+     "nome": "Russi",
+     "parziale": false
+    },
+    {
+     "cod": "I196",
+     "nome": "Sant'Agata sul Santerno",
+     "parziale": false
+    },
+    {
+     "cod": "I787",
+     "nome": "Solarolo",
+     "parziale": false
+    }
+   ],
+   "candidati": [
+    [
+     "Andrea Manzella",
+     62.91,
+     "L'Ulivo",
+     "centrosinistra"
+    ],
+    [
+     "Rodolfo Ridolfi",
+     30.98,
+     "Forza Italia - Alleanza Nazionale - CCD",
+     "centrodestra"
+    ],
+    [
+     "Mauro Monti",
+     6.11,
+     "Lega Nord",
+     "altro"
+    ]
+   ],
+   "affluenza": 53.68,
+   "fonte": "https://it.wikipedia.org/wiki/Elezioni_politiche_suppletive_in_Italia_del_1999#Collegio_Emilia-Romagna_-_1",
+   "fonte_comuni": "https://it.wikipedia.org/wiki/Collegio_elettorale_di_Forl%C3%AC_%28Senato_della_Repubblica%29"
+  },
+  {
+   "d": "1999-05-09",
+   "ramo": "S",
+   "legislatura": "XIII",
+   "collegio": "Veneto - 4 (Treviso)",
+   "sistema": "Mattarellum",
+   "comuni": [
+    {
+     "cod": "A237",
+     "nome": "Altivole",
+     "parziale": false
+    },
+    {
+     "cod": "B965",
+     "nome": "Casier",
+     "parziale": false
+    },
+    {
+     "cod": "C111",
+     "nome": "Castelfranco Veneto",
+     "parziale": false
+    },
+    {
+     "cod": "C190",
+     "nome": "Castello di Godego",
+     "parziale": false
+    },
+    {
+     "cod": "E373",
+     "nome": "Istrana",
+     "parziale": false
+    },
+    {
+     "cod": "E692",
+     "nome": "Loria",
+     "parziale": false
+    },
+    {
+     "cod": "F269",
+     "nome": "Mogliano Veneto",
+     "parziale": false
+    },
+    {
+     "cod": "F725",
+     "nome": "Morgano",
+     "parziale": false
+    },
+    {
+     "cod": "G229",
+     "nome": "Paese",
+     "parziale": false
+    },
+    {
+     "cod": "H022",
+     "nome": "Preganziol",
+     "parziale": false
+    },
+    {
+     "cod": "H131",
+     "nome": "Quinto di Treviso",
+     "parziale": false
+    },
+    {
+     "cod": "H238",
+     "nome": "Resana",
+     "parziale": false
+    },
+    {
+     "cod": "H280",
+     "nome": "Riese Pio X",
+     "parziale": false
+    },
+    {
+     "cod": "L407",
+     "nome": "Treviso",
+     "parziale": false
+    },
+    {
+     "cod": "L706",
+     "nome": "Vedelago",
+     "parziale": false
+    },
+    {
+     "cod": "M171",
+     "nome": "Zero Branco",
+     "parziale": false
+    }
+   ],
+   "candidati": [
+    [
+     "Piergiorgio Stiffoni",
+     32.96,
+     "Lega Nord",
+     "altro"
+    ],
+    [
+     "Lucio Pasqualetti",
+     27.71,
+     "Il Polo",
+     "centrodestra"
+    ],
+    [
+     "Sergio Casotto",
+     25.03,
+     "L'Ulivo",
+     "centrosinistra"
+    ],
+    [
+     "Flavio Contin",
+     8.63,
+     "Liga Repubblica Veneta",
+     "altro"
+    ],
+    [
+     "Pietro Dogà",
+     5.67,
+     "Lega delle Regioni",
+     "altro"
+    ]
+   ],
+   "affluenza": 45.48,
+   "fonte": "https://it.wikipedia.org/wiki/Elezioni_politiche_suppletive_in_Italia_del_1999#Collegio_Veneto_-_4",
+   "fonte_comuni": "https://it.wikipedia.org/wiki/Collegio_elettorale_di_Treviso_%28Senato_della_Repubblica%29",
+   "note": "La pagina delle suppletive del 1999 riporta i 20 comuni del collegio del 1948-1993; vale l'elenco del 1993 della pagina del collegio (16 comuni, con Altivole e Mogliano Veneto), confermato dalle pagine dei collegi vicini del 1993: Carbonera, Roncade, Silea e Villorba erano nel collegio di Conegliano, Ponzano Veneto e Povegliano in quello di Vittorio Veneto."
+  },
+  {
+   "d": "1999-06-27",
+   "ramo": "C",
+   "legislatura": "XIII",
+   "collegio": "Lombardia 2 - 24 (Brescia - Flero)",
+   "sistema": "Mattarellum",
+   "comuni": [
+    {
+     "cod": "B040",
+     "nome": "Borgosatollo",
+     "parziale": false
+    },
+    {
+     "cod": "B157",
+     "nome": "Brescia",
+     "parziale": true
+    },
+    {
+     "cod": "D634",
+     "nome": "Flero",
+     "parziale": false
+    },
+    {
+     "cod": "I412",
+     "nome": "San Zeno Naviglio",
+     "parziale": false
+    }
+   ],
+   "candidati": [
+    [
+     "Aldo Rebecchi",
+     43.1,
+     "Centro sinistra",
+     "centrosinistra"
+    ],
+    [
+     "Giacomo Bontempi",
+     36.36,
+     "Polo per le Libertà",
+     "centrodestra"
+    ],
+    [
+     "Battista Orizio",
+     17.89,
+     "Lega Nord Libertà - Pensionati Padani - Imprenditori Padani - APCA Terra - Cattolici Padani",
+     "altro"
+    ],
+    [
+     "Alessandro Manzoni",
+     2.65,
+     "Italia Unita",
+     "altro"
+    ]
+   ],
+   "affluenza": 46.07,
+   "fonte": "https://it.wikipedia.org/wiki/Elezioni_politiche_suppletive_in_Italia_del_1999#Collegio_Lombardia_2_-_24",
+   "fonte_comuni": "https://it.wikipedia.org/wiki/Collegio_elettorale_di_Brescia_-_Flero"
+  },
+  {
+   "d": "1999-06-27",
+   "ramo": "C",
+   "legislatura": "XIII",
+   "collegio": "Puglia - 7 (Lecce)",
+   "sistema": "Mattarellum",
+   "comuni": [
+    {
+     "cod": "E506",
+     "nome": "Lecce",
+     "parziale": false
+    },
+    {
+     "cod": "H793",
+     "nome": "San Cesario di Lecce",
+     "parziale": false
+    },
+    {
+     "cod": "L011",
+     "nome": "Surbo",
+     "parziale": false
+    }
+   ],
+   "candidati": [
+    [
+     "Cosimo Casilli",
+     54.81,
+     "L'Ulivo",
+     "centrosinistra"
+    ],
+    [
+     "Luigi Siciliano",
+     45.19,
+     "Polo per le Libertà",
+     "centrodestra"
+    ]
+   ],
+   "affluenza": 49.8,
+   "fonte": "https://it.wikipedia.org/wiki/Elezioni_politiche_suppletive_in_Italia_del_1999#Collegio_Puglia_-_7",
+   "fonte_comuni": "https://it.wikipedia.org/wiki/Collegio_elettorale_di_Lecce_%28Camera_dei_deputati%29"
+  },
+  {
+   "d": "1999-06-27",
+   "ramo": "S",
+   "legislatura": "XIII",
+   "collegio": "Puglia - 7 (Lecce)",
+   "sistema": "Mattarellum",
+   "comuni": [
+    {
+     "cod": "A425",
+     "nome": "Arnesano",
+     "parziale": false
+    },
+    {
+     "cod": "B506",
+     "nome": "Campi Salentina",
+     "parziale": false
+    },
+    {
+     "cod": "B792",
+     "nome": "Carmiano",
+     "parziale": false
+    },
+    {
+     "cod": "C377",
+     "nome": "Cavallino",
+     "parziale": false
+    },
+    {
+     "cod": "E227",
+     "nome": "Guagnano",
+     "parziale": false
+    },
+    {
+     "cod": "E506",
+     "nome": "Lecce",
+     "parziale": false
+    },
+    {
+     "cod": "E538",
+     "nome": "Lequile",
+     "parziale": false
+    },
+    {
+     "cod": "E629",
+     "nome": "Lizzanello",
+     "parziale": false
+    },
+    {
+     "cod": "F604",
+     "nome": "Monteroni di Lecce",
+     "parziale": false
+    },
+    {
+     "cod": "F970",
+     "nome": "Novoli",
+     "parziale": false
+    },
+    {
+     "cod": "H708",
+     "nome": "Salice Salentino",
+     "parziale": false
+    },
+    {
+     "cod": "H793",
+     "nome": "San Cesario di Lecce",
+     "parziale": false
+    },
+    {
+     "cod": "H826",
+     "nome": "San Donato di Lecce",
+     "parziale": false
+    },
+    {
+     "cod": "I115",
+     "nome": "San Pietro in Lama",
+     "parziale": false
+    },
+    {
+     "cod": "I930",
+     "nome": "Squinzano",
+     "parziale": false
+    },
+    {
+     "cod": "L011",
+     "nome": "Surbo",
+     "parziale": false
+    },
+    {
+     "cod": "L383",
+     "nome": "Trepuzzi",
+     "parziale": false
+    },
+    {
+     "cod": "L711",
+     "nome": "Veglie",
+     "parziale": false
+    }
+   ],
+   "candidati": [
+    [
+     "Alberto Maritati",
+     53.77,
+     "L'Ulivo",
+     "centrosinistra"
+    ],
+    [
+     "Fabrizio Camilli",
+     46.23,
+     "Polo per le Libertà",
+     "centrodestra"
+    ]
+   ],
+   "affluenza": 50.1,
+   "fonte": "https://it.wikipedia.org/wiki/Elezioni_politiche_suppletive_in_Italia_del_1999#Collegio_Puglia_-_7_2",
+   "fonte_comuni": "https://it.wikipedia.org/wiki/Collegio_elettorale_di_Lecce_%28Senato_della_Repubblica%29",
+   "note": "Il riquadro della pagina indica il 9 maggio 1999, ma Lisi morì il 20 aprile e il testo dice 27 giugno; il subentro di Maritati è del 30 giugno 1999 (Senatori della XIII legislatura)."
+  },
+  {
+   "d": "1999-11-28",
+   "ramo": "C",
+   "legislatura": "XIII",
+   "collegio": "Basilicata - 5 (Lauria)",
+   "sistema": "Mattarellum",
+   "comuni": [
+    {
+     "cod": "A415",
+     "nome": "Armento",
+     "parziale": false
+    },
+    {
+     "cod": "B173",
+     "nome": "Brienza",
+     "parziale": false
+    },
+    {
+     "cod": "B440",
+     "nome": "Calvello",
+     "parziale": false
+    },
+    {
+     "cod": "C199",
+     "nome": "Castelluccio Inferiore",
+     "parziale": false
+    },
+    {
+     "cod": "C201",
+     "nome": "Castelluccio Superiore",
+     "parziale": false
+    },
+    {
+     "cod": "C271",
+     "nome": "Castelsaraceno",
+     "parziale": false
+    },
+    {
+     "cod": "D010",
+     "nome": "Corleto Perticara",
+     "parziale": false
+    },
+    {
+     "cod": "D414",
+     "nome": "Episcopia",
+     "parziale": false
+    },
+    {
+     "cod": "D876",
+     "nome": "Gallicchio",
+     "parziale": false
+    },
+    {
+     "cod": "E221",
+     "nome": "Grumento Nova",
+     "parziale": false
+    },
+    {
+     "cod": "E246",
+     "nome": "Guardia Perticara",
+     "parziale": false
+    },
+    {
+     "cod": "E409",
+     "nome": "Lagonegro",
+     "parziale": false
+    },
+    {
+     "cod": "E474",
+     "nome": "Latronico",
+     "parziale": false
+    },
+    {
+     "cod": "E482",
+     "nome": "Laurenzana",
+     "parziale": false
+    },
+    {
+     "cod": "E483",
+     "nome": "Lauria",
+     "parziale": false
+    },
+    {
+     "cod": "E919",
+     "nome": "Maratea",
+     "parziale": false
+    },
+    {
+     "cod": "E976",
+     "nome": "Marsico Nuovo",
+     "parziale": false
+    },
+    {
+     "cod": "E977",
+     "nome": "Marsicovetere",
+     "parziale": false
+    },
+    {
+     "cod": "F249",
+     "nome": "Missanello",
+     "parziale": false
+    },
+    {
+     "cod": "F295",
+     "nome": "Moliterno",
+     "parziale": false
+    },
+    {
+     "cod": "F573",
+     "nome": "Montemurro",
+     "parziale": false
+    },
+    {
+     "cod": "F866",
+     "nome": "Nemoli",
+     "parziale": false
+    },
+    {
+     "cod": "M269",
+     "nome": "Paterno",
+     "parziale": false
+    },
+    {
+     "cod": "H348",
+     "nome": "Rivello",
+     "parziale": false
+    },
+    {
+     "cod": "H426",
+     "nome": "Roccanova",
+     "parziale": false
+    },
+    {
+     "cod": "H590",
+     "nome": "Rotonda",
+     "parziale": false
+    },
+    {
+     "cod": "H796",
+     "nome": "San Chirico Raparo",
+     "parziale": false
+    },
+    {
+     "cod": "H994",
+     "nome": "San Martino d'Agri",
+     "parziale": false
+    },
+    {
+     "cod": "I305",
+     "nome": "Sant'Arcangelo",
+     "parziale": false
+    },
+    {
+     "cod": "I426",
+     "nome": "Sarconi",
+     "parziale": false
+    },
+    {
+     "cod": "I457",
+     "nome": "Sasso di Castalda",
+     "parziale": false
+    },
+    {
+     "cod": "G614",
+     "nome": "Satriano di Lucania",
+     "parziale": false
+    },
+    {
+     "cod": "I917",
+     "nome": "Spinoso",
+     "parziale": false
+    },
+    {
+     "cod": "L326",
+     "nome": "Tramutola",
+     "parziale": false
+    },
+    {
+     "cod": "L357",
+     "nome": "Trecchina",
+     "parziale": false
+    },
+    {
+     "cod": "L873",
+     "nome": "Viggianello",
+     "parziale": false
+    },
+    {
+     "cod": "L874",
+     "nome": "Viggiano",
+     "parziale": false
+    }
+   ],
+   "candidati": [
+    [
+     "Antonio Luongo",
+     65.51,
+     "L'Ulivo il nuovo centrosinistra",
+     "centrosinistra"
+    ],
+    [
+     "Francesco Sisinni",
+     34.49,
+     "Forza Italia - Alleanza Nazionale - CCD",
+     "centrodestra"
+    ]
+   ],
+   "affluenza": 42.83,
+   "fonte": "https://it.wikipedia.org/wiki/Elezioni_politiche_suppletive_in_Italia_del_1999#Collegio_Basilicata_-_5",
+   "fonte_comuni": "https://it.wikipedia.org/wiki/Collegio_elettorale_di_Lauria_%28Camera_dei_deputati%29",
+   "verifica": "https://oaj.fupress.net/index.php/qoe/article/download/12787/10643"
+  },
+  {
+   "d": "1999-11-28",
+   "ramo": "C",
+   "legislatura": "XIII",
+   "collegio": "Emilia-Romagna - 12 (Bologna - Mazzini)",
+   "sistema": "Mattarellum",
+   "comuni": [
+    {
+     "cod": "A944",
+     "nome": "Bologna",
+     "parziale": true,
+     "zona": "Galvani, Murri, San Vitale, Mazzini"
+    }
+   ],
+   "candidati": [
+    [
+     "Arturo Parisi",
+     48.9,
+     "L'Ulivo",
+     "centrosinistra"
+    ],
+    [
+     "Sante Tura",
+     45.16,
+     "Forza Italia - Alleanza Nazionale - CCD - CDU - Governare Bologna",
+     "centrodestra"
+    ],
+    [
+     "Tiziano Loreti",
+     4.5,
+     "Partito della Rifondazione Comunista",
+     "sinistra"
+    ],
+    [
+     "Anna Banasiak",
+     1.15,
+     "Lega Nord",
+     "altro"
+    ],
+    [
+     "Marc Busin",
+     0.3,
+     "Italia unita dei liberaldemocratici",
+     "altro"
+    ]
+   ],
+   "affluenza": 64.47,
+   "fonte": "https://it.wikipedia.org/wiki/Elezioni_politiche_suppletive_in_Italia_del_1999#Collegio_Emilia_Romagna_-_12",
+   "fonte_comuni": "https://it.wikipedia.org/wiki/Collegio_elettorale_di_Bologna_-_Mazzini",
+   "verifica": "https://oaj.fupress.net/index.php/qoe/article/download/12787/10643",
+   "note": "La pagina dà date diverse (16 settembre nel testo, 27 giugno nel riquadro): Prodi si dimise il 16 settembre 1999, la tabella riassuntiva indica il 28 novembre e il subentro di Parisi è del 2 dicembre 1999 (Deputati della XIII legislatura)."
+  },
+  {
+   "d": "1999-11-28",
+   "ramo": "C",
+   "legislatura": "XIII",
+   "collegio": "Toscana - 8 (Bagno a Ripoli)",
+   "sistema": "Mattarellum",
+   "comuni": [
+    {
+     "cod": "A564",
+     "nome": "Bagno a Ripoli",
+     "parziale": false
+    },
+    {
+     "cod": "A633",
+     "nome": "Barberino Val D'Elsa",
+     "parziale": false
+    },
+    {
+     "cod": "D583",
+     "nome": "Figline Valdarno",
+     "parziale": false
+    },
+    {
+     "cod": "E169",
+     "nome": "Greve in Chianti",
+     "parziale": false
+    },
+    {
+     "cod": "E291",
+     "nome": "Impruneta",
+     "parziale": false
+    },
+    {
+     "cod": "E296",
+     "nome": "Incisa in Val D'Arno",
+     "parziale": false
+    },
+    {
+     "cod": "H222",
+     "nome": "Reggello",
+     "parziale": false
+    },
+    {
+     "cod": "H286",
+     "nome": "Rignano sull'Arno",
+     "parziale": false
+    },
+    {
+     "cod": "H791",
+     "nome": "San Casciano in Val di Pesa",
+     "parziale": false
+    },
+    {
+     "cod": "L067",
+     "nome": "Tavarnelle Val di Pesa",
+     "parziale": false
+    }
+   ],
+   "candidati": [
+    [
+     "Michele Ventura",
+     56.8,
+     "L'Ulivo il nuovo centrosinistra",
+     "centrosinistra"
+    ],
+    [
+     "Enrico Bosi",
+     29.58,
+     "Forza Italia - Alleanza Nazionale - CCD",
+     "centrodestra"
+    ],
+    [
+     "Giovanni Barbagli",
+     12.0,
+     "Partito della Rifondazione Comunista",
+     "sinistra"
+    ],
+    [
+     "Franca Vennarini",
+     1.62,
+     "Lega Nord",
+     "altro"
+    ]
+   ],
+   "affluenza": 49.37,
+   "fonte": "https://it.wikipedia.org/wiki/Elezioni_politiche_suppletive_in_Italia_del_1999#Collegio_Toscana_-_8",
+   "fonte_comuni": "https://it.wikipedia.org/wiki/Collegio_elettorale_di_Bagno_a_Ripoli_%28Camera_dei_deputati%29",
+   "verifica": "https://oaj.fupress.net/index.php/qoe/article/download/12787/10643"
+  },
+  {
+   "d": "1999-11-28",
+   "ramo": "C",
+   "legislatura": "XIII",
+   "collegio": "Umbria - 6 (Terni)",
+   "sistema": "Mattarellum",
+   "comuni": [
+    {
+     "cod": "A439",
+     "nome": "Arrone",
+     "parziale": false
+    },
+    {
+     "cod": "D538",
+     "nome": "Ferentillo",
+     "parziale": false
+    },
+    {
+     "cod": "F510",
+     "nome": "Montefranco",
+     "parziale": false
+    },
+    {
+     "cod": "G790",
+     "nome": "Polino",
+     "parziale": false
+    },
+    {
+     "cod": "I981",
+     "nome": "Stroncone",
+     "parziale": false
+    },
+    {
+     "cod": "L117",
+     "nome": "Terni",
+     "parziale": false
+    }
+   ],
+   "candidati": [
+    [
+     "Enrico Micheli",
+     54.82,
+     "L'Ulivo il nuovo centrosinistra",
+     "centrosinistra"
+    ],
+    [
+     "Enrico Melasecche Germini",
+     36.82,
+     "CCD - Forza Italia - Alleanza Nazionale",
+     "centrodestra"
+    ],
+    [
+     "Guido Botondi",
+     8.36,
+     "Partito della Rifondazione Comunista",
+     "sinistra"
+    ]
+   ],
+   "affluenza": 51.85,
+   "fonte": "https://it.wikipedia.org/wiki/Elezioni_politiche_suppletive_in_Italia_del_1999#Collegio_Umbria_-_6",
+   "fonte_comuni": "https://it.wikipedia.org/wiki/Collegio_elettorale_di_Terni_%28Camera_dei_deputati%29",
+   "verifica": "https://oaj.fupress.net/index.php/qoe/article/download/12787/10643",
+   "note": "La pagina indica il 27 giugno 1999, ma Raffaelli si dimise il 10 settembre 1999: la tabella riassuntiva indica il 28 novembre e il subentro di Micheli è del 2 dicembre 1999 (Deputati della XIII legislatura)."
+  },
+  {
+   "d": "1999-11-28",
+   "ramo": "S",
+   "legislatura": "XIII",
+   "collegio": "Marche - 6 (Pesaro)",
+   "sistema": "Mattarellum",
+   "comuni": [
+    {
+     "cod": "A035",
+     "nome": "Acqualagna",
+     "parziale": false
+    },
+    {
+     "cod": "A327",
+     "nome": "Apecchio",
+     "parziale": false
+    },
+    {
+     "cod": "A493",
+     "nome": "Auditore",
+     "parziale": false
+    },
+    {
+     "cod": "A740",
+     "nome": "Belforte all'Isauro",
+     "parziale": false
+    },
+    {
+     "cod": "B026",
+     "nome": "Borgo Pace",
+     "parziale": false
+    },
+    {
+     "cod": "B352",
+     "nome": "Cagli",
+     "parziale": false
+    },
+    {
+     "cod": "B636",
+     "nome": "Cantiano",
+     "parziale": false
+    },
+    {
+     "cod": "B816",
+     "nome": "Carpegna",
+     "parziale": false
+    },
+    {
+     "cod": "C080",
+     "nome": "Casteldelci",
+     "parziale": false
+    },
+    {
+     "cod": "C830",
+     "nome": "Colbordolo",
+     "parziale": false
+    },
+    {
+     "cod": "D541",
+     "nome": "Fermignano",
+     "parziale": false
+    },
+    {
+     "cod": "D791",
+     "nome": "Fratte Rosa",
+     "parziale": false
+    },
+    {
+     "cod": "D807",
+     "nome": "Frontino",
+     "parziale": false
+    },
+    {
+     "cod": "D808",
+     "nome": "Frontone",
+     "parziale": false
+    },
+    {
+     "cod": "D836",
+     "nome": "Gabicce Mare",
+     "parziale": false
+    },
+    {
+     "cod": "E122",
+     "nome": "Gradara",
+     "parziale": false
+    },
+    {
+     "cod": "E743",
+     "nome": "Lunano",
+     "parziale": false
+    },
+    {
+     "cod": "E785",
+     "nome": "Macerata Feltria",
+     "parziale": false
+    },
+    {
+     "cod": "E838",
+     "nome": "Maiolo",
+     "parziale": false
+    },
+    {
+     "cod": "F135",
+     "nome": "Mercatello sul Metauro",
+     "parziale": false
+    },
+    {
+     "cod": "F136",
+     "nome": "Mercatino Conca",
+     "parziale": false
+    },
+    {
+     "cod": "F310",
+     "nome": "Mombaroccio",
+     "parziale": false
+    },
+    {
+     "cod": "F467",
+     "nome": "Monte Cerignone",
+     "parziale": false
+    },
+    {
+     "cod": "F524",
+     "nome": "Monte Grimano Terme",
+     "parziale": false
+    },
+    {
+     "cod": "F450",
+     "nome": "Montecalvo in Foglia",
+     "parziale": false
+    },
+    {
+     "cod": "F474",
+     "nome": "Monteciccardo",
+     "parziale": false
+    },
+    {
+     "cod": "F478",
+     "nome": "Montecopiolo",
+     "parziale": false
+    },
+    {
+     "cod": "F533",
+     "nome": "Montelabbate",
+     "parziale": false
+    },
+    {
+     "cod": "F137",
+     "nome": "Novafeltria",
+     "parziale": false
+    },
+    {
+     "cod": "G416",
+     "nome": "Peglio",
+     "parziale": false
+    },
+    {
+     "cod": "G433",
+     "nome": "Pennabilli",
+     "parziale": false
+    },
+    {
+     "cod": "G453",
+     "nome": "Pergola",
+     "parziale": false
+    },
+    {
+     "cod": "G479",
+     "nome": "Pesaro",
+     "parziale": false
+    },
+    {
+     "cod": "G514",
+     "nome": "Petriano",
+     "parziale": false
+    },
+    {
+     "cod": "G551",
+     "nome": "Piandimeleto",
+     "parziale": false
+    },
+    {
+     "cod": "G627",
+     "nome": "Pietrarubbia",
+     "parziale": false
+    },
+    {
+     "cod": "G682",
+     "nome": "Piobbico",
+     "parziale": false
+    },
+    {
+     "cod": "H949",
+     "nome": "San Leo",
+     "parziale": false
+    },
+    {
+     "cod": "H958",
+     "nome": "San Lorenzo in Campo",
+     "parziale": false
+    },
+    {
+     "cod": "I201",
+     "nome": "Sant'Agata Feltria",
+     "parziale": false
+    },
+    {
+     "cod": "I285",
+     "nome": "Sant'Angelo in Lizzola",
+     "parziale": false
+    },
+    {
+     "cod": "I287",
+     "nome": "Sant'Angelo in Vado",
+     "parziale": false
+    },
+    {
+     "cod": "I459",
+     "nome": "Sassocorvaro",
+     "parziale": false
+    },
+    {
+     "cod": "I460",
+     "nome": "Sassofeltrio",
+     "parziale": false
+    },
+    {
+     "cod": "I654",
+     "nome": "Serra Sant'Abbondio",
+     "parziale": false
+    },
+    {
+     "cod": "L034",
+     "nome": "Talamello",
+     "parziale": false
+    },
+    {
+     "cod": "L078",
+     "nome": "Tavoleto",
+     "parziale": false
+    },
+    {
+     "cod": "L081",
+     "nome": "Tavullia",
+     "parziale": false
+    },
+    {
+     "cod": "L498",
+     "nome": "Urbania",
+     "parziale": false
+    },
+    {
+     "cod": "L500",
+     "nome": "Urbino",
+     "parziale": false
+    }
+   ],
+   "candidati": [
+    [
+     "Giuseppe Mascioni",
+     49.11,
+     "L'Ulivo",
+     "centrosinistra"
+    ],
+    [
+     "Claudio Cicoli",
+     36.62,
+     "Polo per le Libertà",
+     "centrodestra"
+    ],
+    [
+     "Maria Cristina Cecchini",
+     14.26,
+     "Partito della Rifondazione Comunista",
+     "sinistra"
+    ]
+   ],
+   "affluenza": 48.05,
+   "fonte": "https://it.wikipedia.org/wiki/Elezioni_politiche_suppletive_in_Italia_del_1999#Collegio_Marche_-_6",
+   "fonte_comuni": "https://it.wikipedia.org/wiki/Collegio_elettorale_di_Pesaro_%28Senato_della_Repubblica%29",
+   "verifica": "https://oaj.fupress.net/index.php/qoe/article/download/12787/10643"
+  },
+  {
+   "d": "2000-06-18",
+   "ramo": "C",
+   "legislatura": "XIII",
+   "collegio": "Sardegna - 6 (Tortolì)",
+   "sistema": "Mattarellum",
+   "comuni": [
+    {
+     "cod": "A407",
+     "nome": "Aritzo",
+     "parziale": false
+    },
+    {
+     "cod": "A454",
+     "nome": "Arzana",
+     "parziale": false
+    },
+    {
+     "cod": "A492",
+     "nome": "Atzara",
+     "parziale": false
+    },
+    {
+     "cod": "A503",
+     "nome": "Austis",
+     "parziale": false
+    },
+    {
+     "cod": "A663",
+     "nome": "Bari Sardo",
+     "parziale": false
+    },
+    {
+     "cod": "A722",
+     "nome": "Baunei",
+     "parziale": false
+    },
+    {
+     "cod": "A776",
+     "nome": "Belvì",
+     "parziale": false
+    },
+    {
+     "cod": "M285",
+     "nome": "Cardedu",
+     "parziale": false
+    },
+    {
+     "cod": "D287",
+     "nome": "Desulo",
+     "parziale": false
+    },
+    {
+     "cod": "D395",
+     "nome": "Elini",
+     "parziale": false
+    },
+    {
+     "cod": "D430",
+     "nome": "Escalaplano",
+     "parziale": false
+    },
+    {
+     "cod": "D431",
+     "nome": "Escolca",
+     "parziale": false
+    },
+    {
+     "cod": "D443",
+     "nome": "Esterzili",
+     "parziale": false
+    },
+    {
+     "cod": "D842",
+     "nome": "Gadoni",
+     "parziale": false
+    },
+    {
+     "cod": "D859",
+     "nome": "Gairo",
+     "parziale": false
+    },
+    {
+     "cod": "D968",
+     "nome": "Genoni",
+     "parziale": false
+    },
+    {
+     "cod": "D982",
+     "nome": "Gergei",
+     "parziale": false
+    },
+    {
+     "cod": "E049",
+     "nome": "Girasole",
+     "parziale": false
+    },
+    {
+     "cod": "E283",
+     "nome": "Ilbono",
+     "parziale": false
+    },
+    {
+     "cod": "E336",
+     "nome": "Isili",
+     "parziale": false
+    },
+    {
+     "cod": "E387",
+     "nome": "Jerzu",
+     "parziale": false
+    },
+    {
+     "cod": "E400",
+     "nome": "Laconi",
+     "parziale": false
+    },
+    {
+     "cod": "E441",
+     "nome": "Lanusei",
+     "parziale": false
+    },
+    {
+     "cod": "E644",
+     "nome": "Loceri",
+     "parziale": false
+    },
+    {
+     "cod": "E700",
+     "nome": "Lotzorai",
+     "parziale": false
+    },
+    {
+     "cod": "F073",
+     "nome": "Meana Sardo",
+     "parziale": false
+    },
+    {
+     "cod": "F981",
+     "nome": "Nuragus",
+     "parziale": false
+    },
+    {
+     "cod": "F982",
+     "nome": "Nurallao",
+     "parziale": false
+    },
+    {
+     "cod": "F986",
+     "nome": "Nurri",
+     "parziale": false
+    },
+    {
+     "cod": "G122",
+     "nome": "Orroli",
+     "parziale": false
+    },
+    {
+     "cod": "G146",
+     "nome": "Ortueri",
+     "parziale": false
+    },
+    {
+     "cod": "G158",
+     "nome": "Osini",
+     "parziale": false
+    },
+    {
+     "cod": "G201",
+     "nome": "Ovodda",
+     "parziale": false
+    },
+    {
+     "cod": "G445",
+     "nome": "Perdasdefogu",
+     "parziale": false
+    },
+    {
+     "cod": "H659",
+     "nome": "Sadali",
+     "parziale": false
+    },
+    {
+     "cod": "I668",
+     "nome": "Serri",
+     "parziale": false
+    },
+    {
+     "cod": "I706",
+     "nome": "Seui",
+     "parziale": false
+    },
+    {
+     "cod": "I707",
+     "nome": "Seulo",
+     "parziale": false
+    },
+    {
+     "cod": "I851",
+     "nome": "Sorgono",
+     "parziale": false
+    },
+    {
+     "cod": "L036",
+     "nome": "Talana",
+     "parziale": false
+    },
+    {
+     "cod": "L140",
+     "nome": "Tertenia",
+     "parziale": false
+    },
+    {
+     "cod": "L153",
+     "nome": "Teti",
+     "parziale": false
+    },
+    {
+     "cod": "L160",
+     "nome": "Tiana",
+     "parziale": false
+    },
+    {
+     "cod": "L202",
+     "nome": "Tonara",
+     "parziale": false
+    },
+    {
+     "cod": "A355",
+     "nome": "Tortolì",
+     "parziale": false
+    },
+    {
+     "cod": "L423",
+     "nome": "Triei",
+     "parziale": false
+    },
+    {
+     "cod": "L489",
+     "nome": "Ulassai",
+     "parziale": false
+    },
+    {
+     "cod": "L506",
+     "nome": "Urzulei",
+     "parziale": false
+    },
+    {
+     "cod": "L514",
+     "nome": "Ussassai",
+     "parziale": false
+    },
+    {
+     "cod": "L953",
+     "nome": "Villagrande Strisaili",
+     "parziale": false
+    },
+    {
+     "cod": "L992",
+     "nome": "Villanova Tulo",
+     "parziale": false
+    }
+   ],
+   "candidati": [
+    [
+     "Antonio Loddo",
+     45.29,
+     "L'Ulivo",
+     "centrosinistra"
+    ],
+    [
+     "Antonio Liori",
+     34.97,
+     "Forza Italia - Alleanza Nazionale - Convergenza Sarda - Partito del Popolo Sardo - CCD",
+     "centrodestra"
+    ],
+    [
+     "Giovanni Marras",
+     15.53,
+     "Partito della Rifondazione Comunista",
+     "sinistra"
+    ],
+    [
+     "Francesco Carta",
+     4.21,
+     "Sardigna Natzione",
+     "altro"
+    ]
+   ],
+   "affluenza": 33.1,
+   "fonte": "https://it.wikipedia.org/wiki/Elezioni_politiche_suppletive_in_Italia_del_2000#Collegio_Sardegna_-_6",
+   "fonte_comuni": "https://it.wikipedia.org/wiki/Collegio_elettorale_di_Tortol%C3%AC_%28Camera_dei_deputati%29"
+  },
+  {
+   "d": "2002-10-27",
+   "ramo": "S",
+   "legislatura": "XIV",
+   "collegio": "Toscana - 10 (Pisa)",
+   "sistema": "Mattarellum",
+   "comuni": [
+    {
+     "cod": "A864",
+     "nome": "Bientina",
+     "parziale": false
+    },
+    {
+     "cod": "B303",
+     "nome": "Buti",
+     "parziale": false
+    },
+    {
+     "cod": "B390",
+     "nome": "Calci",
+     "parziale": false
+    },
+    {
+     "cod": "B392",
+     "nome": "Calcinaia",
+     "parziale": false
+    },
+    {
+     "cod": "B950",
+     "nome": "Cascina",
+     "parziale": false
+    },
+    {
+     "cod": "C113",
+     "nome": "Castelfranco di Sotto",
+     "parziale": false
+    },
+    {
+     "cod": "G702",
+     "nome": "Pisa",
+     "parziale": false
+    },
+    {
+     "cod": "A562",
+     "nome": "San Giuliano Terme",
+     "parziale": false
+    },
+    {
+     "cod": "I177",
+     "nome": "Santa Croce sull'Arno",
+     "parziale": false
+    },
+    {
+     "cod": "I232",
+     "nome": "Santa Maria a Monte",
+     "parziale": false
+    },
+    {
+     "cod": "L702",
+     "nome": "Vecchiano",
+     "parziale": false
+    },
+    {
+     "cod": "L850",
+     "nome": "Vicopisano",
+     "parziale": false
+    }
+   ],
+   "candidati": [
+    [
+     "Luciano Modica",
+     62.24,
+     "L'Ulivo",
+     "centrosinistra"
+    ],
+    [
+     "Giuseppe Cognetti",
+     24.36,
+     "Casa delle Libertà",
+     "centrodestra"
+    ],
+    [
+     "Luciana Piddiu",
+     13.41,
+     "Partito della Rifondazione Comunista",
+     "sinistra"
+    ]
+   ],
+   "affluenza": 37.08,
+   "fonte": "https://it.wikipedia.org/wiki/Elezioni_politiche_suppletive_in_Italia_del_2002#Collegio_Toscana_-_10",
+   "fonte_comuni": "https://it.wikipedia.org/wiki/Collegio_elettorale_di_Pisa_%28Senato_della_Repubblica%29",
+   "verifica": "https://oaj.fupress.net/index.php/qoe/article/download/12753/10583/36472"
+  },
+  {
+   "d": "2003-06-22",
+   "ramo": "S",
+   "legislatura": "XIV",
+   "collegio": "Lazio - 21 (Marino)",
+   "sistema": "Mattarellum",
+   "comuni": [
+    {
+     "cod": "A449",
+     "nome": "Artena",
+     "parziale": false
+    },
+    {
+     "cod": "B828",
+     "nome": "Carpineto Romano",
+     "parziale": false
+    },
+    {
+     "cod": "C116",
+     "nome": "Castel Gandolfo",
+     "parziale": false
+    },
+    {
+     "cod": "C858",
+     "nome": "Colleferro",
+     "parziale": false
+    },
+    {
+     "cod": "C900",
+     "nome": "Colonna",
+     "parziale": false
+    },
+    {
+     "cod": "D773",
+     "nome": "Frascati",
+     "parziale": false
+    },
+    {
+     "cod": "D875",
+     "nome": "Gallicano nel Lazio",
+     "parziale": false
+    },
+    {
+     "cod": "D945",
+     "nome": "Gavignano",
+     "parziale": false
+    },
+    {
+     "cod": "E091",
+     "nome": "Gorga",
+     "parziale": false
+    },
+    {
+     "cod": "E204",
+     "nome": "Grottaferrata",
+     "parziale": false
+    },
+    {
+     "cod": "E392",
+     "nome": "Labico",
+     "parziale": false
+    },
+    {
+     "cod": "M207",
+     "nome": "Lariano",
+     "parziale": false
+    },
+    {
+     "cod": "E958",
+     "nome": "Marino",
+     "parziale": false
+    },
+    {
+     "cod": "F477",
+     "nome": "Monte Compatri",
+     "parziale": false
+    },
+    {
+     "cod": "F590",
+     "nome": "Monte Porzio Catone",
+     "parziale": false
+    },
+    {
+     "cod": "F534",
+     "nome": "Montelanico",
+     "parziale": false
+    },
+    {
+     "cod": "G274",
+     "nome": "Palestrina",
+     "parziale": false
+    },
+    {
+     "cod": "H404",
+     "nome": "Rocca di Papa",
+     "parziale": false
+    },
+    {
+     "cod": "H432",
+     "nome": "Rocca Priora",
+     "parziale": false
+    },
+    {
+     "cod": "M295",
+     "nome": "San Cesareo",
+     "parziale": false
+    },
+    {
+     "cod": "I573",
+     "nome": "Segni",
+     "parziale": false
+    },
+    {
+     "cod": "L639",
+     "nome": "Valmontone",
+     "parziale": false
+    },
+    {
+     "cod": "M141",
+     "nome": "Zagarolo",
+     "parziale": false
+    }
+   ],
+   "candidati": [
+    [
+     "Luigi Zanda",
+     100.0,
+     "L'Ulivo",
+     "centrosinistra"
+    ]
+   ],
+   "affluenza": 6.66,
+   "fonte": "https://it.wikipedia.org/wiki/Elezioni_politiche_suppletive_in_Italia_del_2003#Collegio_Lazio_-_21",
+   "fonte_comuni": "https://it.wikipedia.org/wiki/Collegio_elettorale_di_Marino_%28Senato_della_Repubblica%29",
+   "note": "Candidato unico."
+  },
+  {
+   "d": "2003-10-26",
+   "ramo": "C",
+   "legislatura": "XIV",
+   "collegio": "Friuli-Venezia Giulia - 2 (Trieste - Muggia)",
+   "sistema": "Mattarellum",
+   "comuni": [
+    {
+     "cod": "D383",
+     "nome": "Duino Aurisina",
+     "parziale": false
+    },
+    {
+     "cod": "F378",
+     "nome": "Monrupino",
+     "parziale": false
+    },
+    {
+     "cod": "F795",
+     "nome": "Muggia",
+     "parziale": false
+    },
+    {
+     "cod": "D324",
+     "nome": "San Dorligo della Valle",
+     "parziale": false
+    },
+    {
+     "cod": "I715",
+     "nome": "Sgonico",
+     "parziale": false
+    },
+    {
+     "cod": "L424",
+     "nome": "Trieste",
+     "parziale": true
+    }
+   ],
+   "candidati": [
+    [
+     "Ettore Rosato",
+     64.83,
+     "Intesa Democratica",
+     "centrosinistra"
+    ],
+    [
+     "Renzo Codarin",
+     29.47,
+     "Casa delle Libertà",
+     "centrodestra"
+    ],
+    [
+     "Christina Sponza",
+     5.7,
+     "Riformatori Presidenzialisti",
+     "altro"
+    ]
+   ],
+   "affluenza": 35.92,
+   "fonte": "https://it.wikipedia.org/wiki/Elezioni_politiche_suppletive_in_Italia_del_2003#Collegio_Friuli-Venezia_Giulia_-_2",
+   "fonte_comuni": "https://it.wikipedia.org/wiki/Collegio_elettorale_di_Trieste_-_Muggia"
+  },
+  {
+   "d": "2004-10-24",
+   "d2": "2004-10-25",
+   "ramo": "C",
+   "legislatura": "XIV",
+   "collegio": "Campania 1 - 1 (Napoli - Ischia)",
+   "sistema": "Mattarellum",
+   "comuni": [
+    {
+     "cod": "A617",
+     "nome": "Barano d'Ischia",
+     "parziale": false
+    },
+    {
+     "cod": "B924",
+     "nome": "Casamicciola Terme",
+     "parziale": false
+    },
+    {
+     "cod": "D702",
+     "nome": "Forio",
+     "parziale": false
+    },
+    {
+     "cod": "E329",
+     "nome": "Ischia",
+     "parziale": false
+    },
+    {
+     "cod": "E396",
+     "nome": "Lacco Ameno",
+     "parziale": false
+    },
+    {
+     "cod": "F839",
+     "nome": "Napoli",
+     "parziale": true,
+     "zona": "San Ferdinando, San Giuseppe, Montecalvario, Mercato, Pendino, Porto"
+    },
+    {
+     "cod": "I652",
+     "nome": "Serrara Fontana",
+     "parziale": false
+    }
+   ],
+   "candidati": [
+    [
+     "Sergio D'Antoni",
+     41.31,
+     "L'Ulivo",
+     "centrosinistra"
+    ],
+    [
+     "Amedeo Laboccetta",
+     38.3,
+     "Casa delle Libertà",
+     "centrodestra"
+    ],
+    [
+     "Luciano Venia",
+     9.06,
+     "Alternativa Sociale",
+     "destra"
+    ],
+    [
+     "Domenico Savio",
+     6.92,
+     "Partito Comunista Italiano Marxista-Leninista",
+     "sinistra"
+    ],
+    [
+     "Gennaro Salvatore",
+     3.05,
+     "Nuovo PSI",
+     null
+    ],
+    [
+     "Mario Isernia",
+     1.37,
+     "Movimento Idea Sociale",
+     "destra"
+    ]
+   ],
+   "affluenza": null,
+   "fonte": "https://it.wikipedia.org/wiki/Elezioni_politiche_suppletive_in_Italia_del_2004#Collegio_Campania_1_-_1",
+   "fonte_comuni": "https://it.wikipedia.org/wiki/Collegio_elettorale_di_Napoli_-_Ischia",
+   "note": "Salvatore (Nuovo PSI, in alternativa al candidato della Casa delle Libertà) senza area certa. La pagina riporta 37.778 votanti, lo stesso numero del collegio Firenze - Pontassieve: probabile errore di copia, affluenza omessa."
+  },
+  {
+   "d": "2004-10-24",
+   "d2": "2004-10-25",
+   "ramo": "C",
+   "legislatura": "XIV",
+   "collegio": "Emilia-Romagna - 30 (Fidenza)",
+   "sistema": "Mattarellum",
+   "comuni": [
+    {
+     "cod": "A646",
+     "nome": "Bardi",
+     "parziale": false
+    },
+    {
+     "cod": "A987",
+     "nome": "Bore",
+     "parziale": false
+    },
+    {
+     "cod": "B293",
+     "nome": "Busseto",
+     "parziale": false
+    },
+    {
+     "cod": "C904",
+     "nome": "Colorno",
+     "parziale": false
+    },
+    {
+     "cod": "B034",
+     "nome": "Fidenza",
+     "parziale": false
+    },
+    {
+     "cod": "D673",
+     "nome": "Fontanellato",
+     "parziale": false
+    },
+    {
+     "cod": "D685",
+     "nome": "Fontevivo",
+     "parziale": false
+    },
+    {
+     "cod": "F082",
+     "nome": "Medesano",
+     "parziale": false
+    },
+    {
+     "cod": "F174",
+     "nome": "Mezzani",
+     "parziale": false
+    },
+    {
+     "cod": "F914",
+     "nome": "Noceto",
+     "parziale": false
+    },
+    {
+     "cod": "G424",
+     "nome": "Pellegrino Parmense",
+     "parziale": false
+    },
+    {
+     "cod": "G783",
+     "nome": "Polesine Parmense",
+     "parziale": false
+    },
+    {
+     "cod": "H384",
+     "nome": "Roccabianca",
+     "parziale": false
+    },
+    {
+     "cod": "H720",
+     "nome": "Salsomaggiore Terme",
+     "parziale": false
+    },
+    {
+     "cod": "I153",
+     "nome": "San Secondo Parmense",
+     "parziale": false
+    },
+    {
+     "cod": "I763",
+     "nome": "Sissa",
+     "parziale": false
+    },
+    {
+     "cod": "I840",
+     "nome": "Soragna",
+     "parziale": false
+    },
+    {
+     "cod": "I845",
+     "nome": "Sorbolo",
+     "parziale": false
+    },
+    {
+     "cod": "L299",
+     "nome": "Torrile",
+     "parziale": false
+    },
+    {
+     "cod": "L354",
+     "nome": "Trecasali",
+     "parziale": false
+    },
+    {
+     "cod": "L672",
+     "nome": "Varano de' Melegari",
+     "parziale": false
+    },
+    {
+     "cod": "L689",
+     "nome": "Varsi",
+     "parziale": false
+    }
+   ],
+   "candidati": [
+    [
+     "Massimo Tedeschi",
+     59.94,
+     "L'Ulivo",
+     "centrosinistra"
+    ],
+    [
+     "Luigi Villani",
+     40.06,
+     "Casa delle Libertà",
+     "centrodestra"
+    ]
+   ],
+   "affluenza": 52.0,
+   "fonte": "https://it.wikipedia.org/wiki/Elezioni_politiche_suppletive_in_Italia_del_2004#Collegio_Emilia-Romagna_-_30",
+   "fonte_comuni": "https://it.wikipedia.org/wiki/Collegio_elettorale_di_Fidenza_%28Camera_dei_deputati%29"
+  },
+  {
+   "d": "2004-10-24",
+   "d2": "2004-10-25",
+   "ramo": "C",
+   "legislatura": "XIV",
+   "collegio": "Liguria - 10 (Genova - Nervi)",
+   "sistema": "Mattarellum",
+   "comuni": [
+    {
+     "cod": "D969",
+     "nome": "Genova",
+     "parziale": true
+    }
+   ],
+   "candidati": [
+    [
+     "Stefano Zara",
+     54.63,
+     "L'Ulivo",
+     "centrosinistra"
+    ],
+    [
+     "Roberto Angelo Suriani",
+     31.94,
+     "Casa delle Libertà",
+     "centrodestra"
+    ],
+    [
+     "Sergio Castellaneta",
+     8.64,
+     "Liguria Nuova",
+     null
+    ],
+    [
+     "Franca Brignola",
+     2.71,
+     "Voce alla gente",
+     "altro"
+    ],
+    [
+     "Angelo Riccobaldi",
+     1.5,
+     "Alternativa Sociale",
+     "destra"
+    ],
+    [
+     "Massimiliano Loda",
+     0.57,
+     "Fronte Cristiano - No Euro",
+     "altro"
+    ]
+   ],
+   "affluenza": 38.05,
+   "fonte": "https://it.wikipedia.org/wiki/Elezioni_politiche_suppletive_in_Italia_del_2004#Collegio_Liguria_-_10",
+   "fonte_comuni": "https://it.wikipedia.org/wiki/Collegio_elettorale_di_Genova_-_Nervi",
+   "note": "Castellaneta (Liguria Nuova, lista civica di area di centrodestra) era in alternativa al candidato della Casa delle Libertà: area non assegnata."
+  },
+  {
+   "d": "2004-10-24",
+   "d2": "2004-10-25",
+   "ramo": "C",
+   "legislatura": "XIV",
+   "collegio": "Lombardia 1 - 3 (Milano 3)",
+   "sistema": "Mattarellum",
+   "comuni": [
+    {
+     "cod": "F205",
+     "nome": "Milano",
+     "parziale": true
+    }
+   ],
+   "candidati": [
+    [
+     "Roberto Zaccaria",
+     51.36,
+     "L'Ulivo",
+     "centrosinistra"
+    ],
+    [
+     "Luciano Bresciani",
+     43.46,
+     "Casa delle Libertà",
+     "centrodestra"
+    ],
+    [
+     "Gabriele Pagliuzzi",
+     1.44,
+     "Destra Liberale",
+     "altro"
+    ],
+    [
+     "Stelio Traversa",
+     1.28,
+     "Alternativa Sociale",
+     "destra"
+    ],
+    [
+     "Luciano Garatti",
+     0.93,
+     "Basta Tasse",
+     "altro"
+    ],
+    [
+     "Flavio Ferrario",
+     0.55,
+     "No Euro",
+     "altro"
+    ],
+    [
+     "Anna Belardi",
+     0.53,
+     "Liberaldemocratici",
+     "altro"
+    ],
+    [
+     "Tommaso Staiti di Cuddia",
+     0.43,
+     "Nazionalpopolari",
+     "destra"
+    ]
+   ],
+   "affluenza": 39.92,
+   "fonte": "https://it.wikipedia.org/wiki/Elezioni_politiche_suppletive_in_Italia_del_2004#Collegio_Lombardia_1_-_3",
+   "fonte_comuni": "https://it.wikipedia.org/wiki/Collegio_elettorale_di_Milano_3_%28Camera_dei_deputati%29"
+  },
+  {
+   "d": "2004-10-24",
+   "d2": "2004-10-25",
+   "ramo": "C",
+   "legislatura": "XIV",
+   "collegio": "Puglia - 11 (Casarano)",
+   "sistema": "Mattarellum",
+   "comuni": [
+    {
+     "cod": "A185",
+     "nome": "Alezio",
+     "parziale": false
+    },
+    {
+     "cod": "A208",
+     "nome": "Alliste",
+     "parziale": false
+    },
+    {
+     "cod": "B936",
+     "nome": "Casarano",
+     "parziale": false
+    },
+    {
+     "cod": "D883",
+     "nome": "Gallipoli",
+     "parziale": false
+    },
+    {
+     "cod": "F054",
+     "nome": "Matino",
+     "parziale": false
+    },
+    {
+     "cod": "F109",
+     "nome": "Melissano",
+     "parziale": false
+    },
+    {
+     "cod": "G325",
+     "nome": "Parabita",
+     "parziale": false
+    },
+    {
+     "cod": "H147",
+     "nome": "Racale",
+     "parziale": false
+    },
+    {
+     "cod": "L008",
+     "nome": "Supersano",
+     "parziale": false
+    },
+    {
+     "cod": "L074",
+     "nome": "Taviano",
+     "parziale": false
+    },
+    {
+     "cod": "L462",
+     "nome": "Tuglie",
+     "parziale": false
+    }
+   ],
+   "candidati": [
+    [
+     "Lorenzo Emilio Ria",
+     59.84,
+     "L'Ulivo",
+     "centrosinistra"
+    ],
+    [
+     "Vincenzo Barba",
+     40.16,
+     "Casa delle Libertà",
+     "centrodestra"
+    ]
+   ],
+   "affluenza": 51.38,
+   "fonte": "https://it.wikipedia.org/wiki/Elezioni_politiche_suppletive_in_Italia_del_2004#Collegio_Puglia_-_11",
+   "fonte_comuni": "https://it.wikipedia.org/wiki/Collegio_elettorale_di_Casarano_%28Camera_dei_deputati%29"
+  },
+  {
+   "d": "2004-10-24",
+   "d2": "2004-10-25",
+   "ramo": "C",
+   "legislatura": "XIV",
+   "collegio": "Toscana - 4 (Scandicci)",
+   "sistema": "Mattarellum",
+   "comuni": [
+    {
+     "cod": "B684",
+     "nome": "Capraia e Limite",
+     "parziale": false
+    },
+    {
+     "cod": "E466",
+     "nome": "Lastra a Signa",
+     "parziale": false
+    },
+    {
+     "cod": "F551",
+     "nome": "Montelupo Fiorentino",
+     "parziale": false
+    },
+    {
+     "cod": "B962",
+     "nome": "Scandicci",
+     "parziale": false
+    },
+    {
+     "cod": "I728",
+     "nome": "Signa",
+     "parziale": false
+    },
+    {
+     "cod": "M059",
+     "nome": "Vinci",
+     "parziale": false
+    }
+   ],
+   "candidati": [
+    [
+     "Antonello Giacomelli",
+     83.25,
+     "L'Ulivo",
+     "centrosinistra"
+    ],
+    [
+     "Giuseppe Calderisi",
+     16.75,
+     "Casa delle Libertà",
+     "centrodestra"
+    ]
+   ],
+   "affluenza": 34.49,
+   "fonte": "https://it.wikipedia.org/wiki/Elezioni_politiche_suppletive_in_Italia_del_2004#Collegio_Toscana_-_4",
+   "fonte_comuni": "https://it.wikipedia.org/wiki/Collegio_elettorale_di_Scandicci_%28Camera_dei_deputati%29"
+  },
+  {
+   "d": "2004-10-24",
+   "d2": "2004-10-25",
+   "ramo": "C",
+   "legislatura": "XIV",
+   "collegio": "Toscana - 6 (Firenze - Pontassieve)",
+   "sistema": "Mattarellum",
+   "comuni": [
+    {
+     "cod": "B036",
+     "nome": "Borgo San Lorenzo",
+     "parziale": false
+    },
+    {
+     "cod": "D299",
+     "nome": "Dicomano",
+     "parziale": false
+    },
+    {
+     "cod": "D575",
+     "nome": "Fiesole",
+     "parziale": false
+    },
+    {
+     "cod": "D612",
+     "nome": "Firenze",
+     "parziale": true
+    },
+    {
+     "cod": "D613",
+     "nome": "Firenzuola",
+     "parziale": false
+    },
+    {
+     "cod": "E668",
+     "nome": "Londa",
+     "parziale": false
+    },
+    {
+     "cod": "E971",
+     "nome": "Marradi",
+     "parziale": false
+    },
+    {
+     "cod": "G270",
+     "nome": "Palazzuolo sul Senio",
+     "parziale": false
+    },
+    {
+     "cod": "G420",
+     "nome": "Pelago",
+     "parziale": false
+    },
+    {
+     "cod": "G825",
+     "nome": "Pontassieve",
+     "parziale": false
+    },
+    {
+     "cod": "H635",
+     "nome": "Rufina",
+     "parziale": false
+    },
+    {
+     "cod": "H937",
+     "nome": "San Godenzo",
+     "parziale": false
+    },
+    {
+     "cod": "I085",
+     "nome": "San Piero a Sieve",
+     "parziale": false
+    },
+    {
+     "cod": "I514",
+     "nome": "Scarperia",
+     "parziale": false
+    },
+    {
+     "cod": "L838",
+     "nome": "Vicchio",
+     "parziale": false
+    }
+   ],
+   "candidati": [
+    [
+     "Severino Galante",
+     81.49,
+     "L'Ulivo",
+     "centrosinistra"
+    ],
+    [
+     "Simone Enrico Gnaga",
+     18.51,
+     "Casa delle Libertà",
+     "centrodestra"
+    ]
+   ],
+   "affluenza": 36.23,
+   "fonte": "https://it.wikipedia.org/wiki/Elezioni_politiche_suppletive_in_Italia_del_2004#Collegio_Toscana_-_6",
+   "fonte_comuni": "https://it.wikipedia.org/wiki/Collegio_elettorale_di_Firenze_-_Pontassieve"
+  },
+  {
+   "d": "2005-01-23",
+   "d2": "2005-01-24",
+   "ramo": "S",
+   "legislatura": "XIV",
+   "collegio": "Puglia - 2 (Bari - Bitonto)",
+   "sistema": "Mattarellum",
+   "comuni": [
+    {
+     "cod": "A662",
+     "nome": "Bari",
+     "parziale": true,
+     "zona": "Palese, Santo Spirito, San Paolo, Stanic, Carbonara, Ceglie, Loseto"
+    },
+    {
+     "cod": "A893",
+     "nome": "Bitonto",
+     "parziale": false
+    },
+    {
+     "cod": "A894",
+     "nome": "Bitritto",
+     "parziale": false
+    },
+    {
+     "cod": "B716",
+     "nome": "Capurso",
+     "parziale": false
+    },
+    {
+     "cod": "F262",
+     "nome": "Modugno",
+     "parziale": false
+    },
+    {
+     "cod": "F923",
+     "nome": "Noicattaro",
+     "parziale": false
+    },
+    {
+     "cod": "I053",
+     "nome": "Sannicandro di Bari",
+     "parziale": false
+    },
+    {
+     "cod": "L425",
+     "nome": "Triggiano",
+     "parziale": false
+    },
+    {
+     "cod": "L571",
+     "nome": "Valenzano",
+     "parziale": false
+    }
+   ],
+   "candidati": [
+    [
+     "Nicola Latorre",
+     55.66,
+     "L'Ulivo",
+     "centrosinistra"
+    ],
+    [
+     "Emanuele Degennaro",
+     41.32,
+     "Casa delle Libertà",
+     "centrodestra"
+    ],
+    [
+     "Giuseppe Monaco",
+     2.52,
+     "Alternativa Sociale",
+     "destra"
+    ],
+    [
+     "Cataldo Zuccaro",
+     0.5,
+     "U.D.EUR Popolari",
+     null
+    ]
+   ],
+   "affluenza": null,
+   "fonte": "https://it.wikipedia.org/wiki/Elezioni_politiche_suppletive_in_Italia_del_2005#Collegio_Puglia_-_2",
+   "fonte_comuni": "https://it.wikipedia.org/wiki/Collegio_elettorale_di_Bari_-_Bitonto",
+   "note": "Zuccaro (UDEUR, in alternativa al candidato dell'Ulivo) senza area certa."
+  },
+  {
+   "d": "2005-01-23",
+   "d2": "2005-01-24",
+   "ramo": "S",
+   "legislatura": "XIV",
+   "collegio": "Veneto - 8 (Rovigo)",
+   "sistema": "Mattarellum",
+   "comuni": [
+    {
+     "cod": "A059",
+     "nome": "Adria",
+     "parziale": false
+    },
+    {
+     "cod": "A400",
+     "nome": "Ariano nel Polesine",
+     "parziale": false
+    },
+    {
+     "cod": "A435",
+     "nome": "Arquà Polesine",
+     "parziale": false
+    },
+    {
+     "cod": "A539",
+     "nome": "Badia Polesine",
+     "parziale": false
+    },
+    {
+     "cod": "A574",
+     "nome": "Bagnolo di Po",
+     "parziale": false
+    },
+    {
+     "cod": "A795",
+     "nome": "Bergantino",
+     "parziale": false
+    },
+    {
+     "cod": "B069",
+     "nome": "Bosaro",
+     "parziale": false
+    },
+    {
+     "cod": "B432",
+     "nome": "Calto",
+     "parziale": false
+    },
+    {
+     "cod": "B578",
+     "nome": "Canaro",
+     "parziale": false
+    },
+    {
+     "cod": "B582",
+     "nome": "Canda",
+     "parziale": false
+    },
+    {
+     "cod": "C122",
+     "nome": "Castelguglielmo",
+     "parziale": false
+    },
+    {
+     "cod": "C207",
+     "nome": "Castelmassa",
+     "parziale": false
+    },
+    {
+     "cod": "C215",
+     "nome": "Castelnovo Bariano",
+     "parziale": false
+    },
+    {
+     "cod": "C461",
+     "nome": "Ceneselli",
+     "parziale": false
+    },
+    {
+     "cod": "C500",
+     "nome": "Ceregnano",
+     "parziale": false
+    },
+    {
+     "cod": "C987",
+     "nome": "Corbola",
+     "parziale": false
+    },
+    {
+     "cod": "D105",
+     "nome": "Costa di Rovigo",
+     "parziale": false
+    },
+    {
+     "cod": "D161",
+     "nome": "Crespino",
+     "parziale": false
+    },
+    {
+     "cod": "D568",
+     "nome": "Ficarolo",
+     "parziale": false
+    },
+    {
+     "cod": "D577",
+     "nome": "Fiesso Umbertiano",
+     "parziale": false
+    },
+    {
+     "cod": "D776",
+     "nome": "Frassinelle Polesine",
+     "parziale": false
+    },
+    {
+     "cod": "D788",
+     "nome": "Fratta Polesine",
+     "parziale": false
+    },
+    {
+     "cod": "D855",
+     "nome": "Gaiba",
+     "parziale": false
+    },
+    {
+     "cod": "D942",
+     "nome": "Gavello",
+     "parziale": false
+    },
+    {
+     "cod": "E008",
+     "nome": "Giacciano con Baruchella",
+     "parziale": false
+    },
+    {
+     "cod": "E240",
+     "nome": "Guarda Veneta",
+     "parziale": false
+    },
+    {
+     "cod": "E522",
+     "nome": "Lendinara",
+     "parziale": false
+    },
+    {
+     "cod": "E689",
+     "nome": "Loreo",
+     "parziale": false
+    },
+    {
+     "cod": "E761",
+     "nome": "Lusia",
+     "parziale": false
+    },
+    {
+     "cod": "F095",
+     "nome": "Melara",
+     "parziale": false
+    },
+    {
+     "cod": "F994",
+     "nome": "Occhiobello",
+     "parziale": false
+    },
+    {
+     "cod": "G323",
+     "nome": "Papozze",
+     "parziale": false
+    },
+    {
+     "cod": "G525",
+     "nome": "Pettorazza Grimani",
+     "parziale": false
+    },
+    {
+     "cod": "G673",
+     "nome": "Pincara",
+     "parziale": false
+    },
+    {
+     "cod": "G782",
+     "nome": "Polesella",
+     "parziale": false
+    },
+    {
+     "cod": "G836",
+     "nome": "Pontecchio Polesine",
+     "parziale": false
+    },
+    {
+     "cod": "G923",
+     "nome": "Porto Tolle",
+     "parziale": false
+    },
+    {
+     "cod": "G926",
+     "nome": "Porto Viro",
+     "parziale": false
+    },
+    {
+     "cod": "H573",
+     "nome": "Rosolina",
+     "parziale": false
+    },
+    {
+     "cod": "H620",
+     "nome": "Rovigo",
+     "parziale": false
+    },
+    {
+     "cod": "H689",
+     "nome": "Salara",
+     "parziale": false
+    },
+    {
+     "cod": "H768",
+     "nome": "San Bellino",
+     "parziale": false
+    },
+    {
+     "cod": "H996",
+     "nome": "San Martino di Venezze",
+     "parziale": false
+    },
+    {
+     "cod": "I953",
+     "nome": "Stienta",
+     "parziale": false
+    },
+    {
+     "cod": "L026",
+     "nome": "Taglio di Po",
+     "parziale": false
+    },
+    {
+     "cod": "L359",
+     "nome": "Trecenta",
+     "parziale": false
+    },
+    {
+     "cod": "L939",
+     "nome": "Villadose",
+     "parziale": false
+    },
+    {
+     "cod": "L967",
+     "nome": "Villamarzana",
+     "parziale": false
+    },
+    {
+     "cod": "L985",
+     "nome": "Villanova del Ghebbo",
+     "parziale": false
+    },
+    {
+     "cod": "L988",
+     "nome": "Villanova Marchesana",
+     "parziale": false
+    }
+   ],
+   "candidati": [
+    [
+     "Massimo Donadi",
+     57.05,
+     "L'Ulivo",
+     "centrosinistra"
+    ],
+    [
+     "Domenico Romeo",
+     30.13,
+     "Casa delle Libertà",
+     "centrodestra"
+    ],
+    [
+     "Giuseppe Osti",
+     7.79,
+     "U.D.EUR Popolari",
+     null
+    ],
+    [
+     "Luca Previati",
+     5.04,
+     "Alternativa Sociale",
+     "destra"
+    ]
+   ],
+   "affluenza": null,
+   "fonte": "https://it.wikipedia.org/wiki/Elezioni_politiche_suppletive_in_Italia_del_2005#Collegio_Veneto_-_8",
+   "fonte_comuni": "https://it.wikipedia.org/wiki/Collegio_elettorale_di_Rovigo_%28Senato_della_Repubblica%29",
+   "note": "Contarina e Donada, nel collegio secondo il decreto del 1993, dal 1995 formano il comune di Porto Viro. Osti (UDEUR, in alternativa al candidato dell'Ulivo) senza area certa."
+  },
+  {
+   "d": "2005-06-26",
+   "d2": "2005-06-27",
+   "ramo": "C",
+   "legislatura": "XIV",
+   "collegio": "Calabria - 9 (Isola di Capo Rizzuto)",
+   "sistema": "Mattarellum",
+   "comuni": [
+    {
+     "cod": "A155",
+     "nome": "Albi",
+     "parziale": false
+    },
+    {
+     "cod": "A257",
+     "nome": "Amato",
+     "parziale": false
+    },
+    {
+     "cod": "A272",
+     "nome": "Andali",
+     "parziale": false
+    },
+    {
+     "cod": "A736",
+     "nome": "Belcastro",
+     "parziale": false
+    },
+    {
+     "cod": "B085",
+     "nome": "Botricello",
+     "parziale": false
+    },
+    {
+     "cod": "B790",
+     "nome": "Carlopoli",
+     "parziale": false
+    },
+    {
+     "cod": "C542",
+     "nome": "Cerva",
+     "parziale": false
+    },
+    {
+     "cod": "C674",
+     "nome": "Cicala",
+     "parziale": false
+    },
+    {
+     "cod": "D123",
+     "nome": "Cotronei",
+     "parziale": false
+    },
+    {
+     "cod": "D181",
+     "nome": "Cropani",
+     "parziale": false
+    },
+    {
+     "cod": "D236",
+     "nome": "Cutro",
+     "parziale": false
+    },
+    {
+     "cod": "D744",
+     "nome": "Fossato Serralta",
+     "parziale": false
+    },
+    {
+     "cod": "E031",
+     "nome": "Gimigliano",
+     "parziale": false
+    },
+    {
+     "cod": "E339",
+     "nome": "Isola di Capo Rizzuto",
+     "parziale": false
+    },
+    {
+     "cod": "E806",
+     "nome": "Magisano",
+     "parziale": false
+    },
+    {
+     "cod": "E923",
+     "nome": "Marcedusa",
+     "parziale": false
+    },
+    {
+     "cod": "E925",
+     "nome": "Marcellinara",
+     "parziale": false
+    },
+    {
+     "cod": "F157",
+     "nome": "Mesoraca",
+     "parziale": false
+    },
+    {
+     "cod": "F200",
+     "nome": "Miglierina",
+     "parziale": false
+    },
+    {
+     "cod": "G439",
+     "nome": "Pentone",
+     "parziale": false
+    },
+    {
+     "cod": "G508",
+     "nome": "Petilia Policastro",
+     "parziale": false
+    },
+    {
+     "cod": "G518",
+     "nome": "Petronà",
+     "parziale": false
+    },
+    {
+     "cod": "H383",
+     "nome": "Roccabernarda",
+     "parziale": false
+    },
+    {
+     "cod": "I026",
+     "nome": "San Mauro Marchesato",
+     "parziale": false
+    },
+    {
+     "cod": "I095",
+     "nome": "San Pietro Apostolo",
+     "parziale": false
+    },
+    {
+     "cod": "I308",
+     "nome": "Santa Severina",
+     "parziale": false
+    },
+    {
+     "cod": "I494",
+     "nome": "Scandale",
+     "parziale": false
+    },
+    {
+     "cod": "I589",
+     "nome": "Sellia",
+     "parziale": false
+    },
+    {
+     "cod": "I590",
+     "nome": "Sellia Marina",
+     "parziale": false
+    },
+    {
+     "cod": "I655",
+     "nome": "Serrastretta",
+     "parziale": false
+    },
+    {
+     "cod": "I671",
+     "nome": "Sersale",
+     "parziale": false
+    },
+    {
+     "cod": "I704",
+     "nome": "Settingiano",
+     "parziale": false
+    },
+    {
+     "cod": "I844",
+     "nome": "Sorbo San Basile",
+     "parziale": false
+    },
+    {
+     "cod": "L070",
+     "nome": "Taverna",
+     "parziale": false
+    },
+    {
+     "cod": "L177",
+     "nome": "Tiriolo",
+     "parziale": false
+    },
+    {
+     "cod": "M140",
+     "nome": "Zagarise",
+     "parziale": false
+    }
+   ],
+   "candidati": [
+    [
+     "Nicodemo Oliverio",
+     68.24,
+     "L'Unione",
+     "centrosinistra"
+    ],
+    [
+     "Saverio Zavettieri",
+     14.91,
+     "Nuovo PSI",
+     null
+    ],
+    [
+     "Giuseppe Calzone",
+     14.46,
+     "Casa delle Libertà",
+     "centrodestra"
+    ],
+    [
+     "Guido Scalise",
+     2.39,
+     "Alternativa Sociale",
+     "destra"
+    ]
+   ],
+   "affluenza": null,
+   "fonte": "https://it.wikipedia.org/wiki/Elezioni_politiche_suppletive_in_Italia_del_2005#Collegio_Calabria_-_9",
+   "fonte_comuni": "https://it.wikipedia.org/wiki/Collegio_elettorale_di_Isola_di_Capo_Rizzuto_%28Camera_dei_deputati%29",
+   "note": "Zavettieri (Nuovo PSI, in alternativa al candidato della Casa delle Libertà) senza area certa."
+  },
+  {
+   "d": "2005-06-26",
+   "d2": "2005-06-27",
+   "ramo": "C",
+   "legislatura": "XIV",
+   "collegio": "Lazio 1 - 11 (Roma - Don Bosco)",
+   "sistema": "Mattarellum",
+   "comuni": [
+    {
+     "cod": "H501",
+     "nome": "Roma",
+     "parziale": true,
+     "zona": "Appio Claudio, Don Bosco, Capannelle"
+    }
+   ],
+   "candidati": [
+    [
+     "Michele Pompeo Meta",
+     84.45,
+     "L'Unione",
+     "centrosinistra"
+    ],
+    [
+     "Pietro Tilia",
+     15.55,
+     "Casa delle Libertà",
+     "centrodestra"
+    ]
+   ],
+   "affluenza": null,
+   "fonte": "https://it.wikipedia.org/wiki/Elezioni_politiche_suppletive_in_Italia_del_2005#Collegio_Lazio_1_-_11",
+   "fonte_comuni": "https://it.wikipedia.org/wiki/Collegio_elettorale_di_Roma_-_Don_Bosco"
+  },
+  {
+   "d": "2019-01-20",
+   "ramo": "C",
+   "legislatura": "XVIII",
+   "collegio": "Sardegna - 01 (Cagliari)",
+   "sistema": "Rosatellum",
+   "comuni": [
+    {
+     "cod": "B274",
+     "nome": "Burcei",
+     "parziale": false
+    },
+    {
+     "cod": "B354",
+     "nome": "Cagliari",
+     "parziale": false
+    },
+    {
+     "cod": "E903",
+     "nome": "Maracalagonis",
+     "parziale": false
+    },
+    {
+     "cod": "F383",
+     "nome": "Monserrato",
+     "parziale": false
+    },
+    {
+     "cod": "H118",
+     "nome": "Quartu Sant'Elena",
+     "parziale": false
+    },
+    {
+     "cod": "H119",
+     "nome": "Quartucciu",
+     "parziale": false
+    },
+    {
+     "cod": "I752",
+     "nome": "Sinnai",
+     "parziale": false
+    },
+    {
+     "cod": "B738",
+     "nome": "Villasimius",
+     "parziale": false
+    }
+   ],
+   "candidati": [
+    [
+     "Andrea Frailis",
+     40.46,
+     "Progressisti di Sardegna",
+     "centrosinistra"
+    ],
+    [
+     "Luca Caschili",
+     28.92,
+     "Movimento 5 Stelle",
+     "altro"
+    ],
+    [
+     "Daniela Noli",
+     27.8,
+     "Lega-Forza Italia-Fratelli d'Italia",
+     "centrodestra"
+    ],
+    [
+     "Enrico Balletto",
+     2.81,
+     "CasaPound",
+     "destra"
+    ]
+   ],
+   "affluenza": 15.54,
+   "fonte": "https://it.wikipedia.org/wiki/Elezioni_politiche_suppletive_in_Italia_del_2019#Collegio_Sardegna_01",
+   "fonte_comuni": "https://it.wikipedia.org/wiki/Collegio_uninominale_Sardegna_-_01_%28Camera_dei_deputati_2017%29"
+  },
+  {
+   "d": "2019-05-26",
+   "ramo": "C",
+   "legislatura": "XVIII",
+   "collegio": "Trentino-Alto Adige - 04 (Trento)",
+   "sistema": "Rosatellum",
+   "comuni": [
+    {
+     "cod": "A158",
+     "nome": "Albiano",
+     "parziale": false
+    },
+    {
+     "cod": "A178",
+     "nome": "Aldeno",
+     "parziale": false
+    },
+    {
+     "cod": "M349",
+     "nome": "Altavalle",
+     "parziale": false
+    },
+    {
+     "cod": "M351",
+     "nome": "Amblar-Don",
+     "parziale": false
+    },
+    {
+     "cod": "A274",
+     "nome": "Andalo",
+     "parziale": false
+    },
+    {
+     "cod": "B158",
+     "nome": "Bresimo",
+     "parziale": false
+    },
+    {
+     "cod": "B165",
+     "nome": "Brez",
+     "parziale": false
+    },
+    {
+     "cod": "B360",
+     "nome": "Cagno'",
+     "parziale": false
+    },
+    {
+     "cod": "B400",
+     "nome": "Caldes",
+     "parziale": false
+    },
+    {
+     "cod": "B525",
+     "nome": "Campodenno",
+     "parziale": false
+    },
+    {
+     "cod": "C103",
+     "nome": "Castelfondo",
+     "parziale": false
+    },
+    {
+     "cod": "C380",
+     "nome": "Cavareno",
+     "parziale": false
+    },
+    {
+     "cod": "C392",
+     "nome": "Cavedago",
+     "parziale": false
+    },
+    {
+     "cod": "C393",
+     "nome": "Cavedine",
+     "parziale": false
+    },
+    {
+     "cod": "C400",
+     "nome": "Cavizzana",
+     "parziale": false
+    },
+    {
+     "cod": "M355",
+     "nome": "Cembra Lisignago",
+     "parziale": false
+    },
+    {
+     "cod": "C700",
+     "nome": "Cimone",
+     "parziale": false
+    },
+    {
+     "cod": "C727",
+     "nome": "Cis",
+     "parziale": false
+    },
+    {
+     "cod": "C794",
+     "nome": "Cles",
+     "parziale": false
+    },
+    {
+     "cod": "C797",
+     "nome": "Cloz",
+     "parziale": false
+    },
+    {
+     "cod": "C931",
+     "nome": "Commezzadura",
+     "parziale": false
+    },
+    {
+     "cod": "M356",
+     "nome": "Contà",
+     "parziale": false
+    },
+    {
+     "cod": "D188",
+     "nome": "Croviana",
+     "parziale": false
+    },
+    {
+     "cod": "D246",
+     "nome": "Dambel",
+     "parziale": false
+    },
+    {
+     "cod": "D273",
+     "nome": "Denno",
+     "parziale": false
+    },
+    {
+     "cod": "M366",
+     "nome": "Dimaro Folgarida",
+     "parziale": false
+    },
+    {
+     "cod": "D468",
+     "nome": "Fai della Paganella",
+     "parziale": false
+    },
+    {
+     "cod": "D663",
+     "nome": "Fondo",
+     "parziale": false
+    },
+    {
+     "cod": "D928",
+     "nome": "Garniga Terme",
+     "parziale": false
+    },
+    {
+     "cod": "E048",
+     "nome": "Giovo",
+     "parziale": false
+    },
+    {
+     "cod": "E500",
+     "nome": "Lavis",
+     "parziale": false
+    },
+    {
+     "cod": "E624",
+     "nome": "Livo",
+     "parziale": false
+    },
+    {
+     "cod": "E664",
+     "nome": "Lona-Lases",
+     "parziale": false
+    },
+    {
+     "cod": "M357",
+     "nome": "Madruzzo",
+     "parziale": false
+    },
+    {
+     "cod": "E850",
+     "nome": "Malé",
+     "parziale": false
+    },
+    {
+     "cod": "E866",
+     "nome": "Malosco",
+     "parziale": false
+    },
+    {
+     "cod": "F168",
+     "nome": "Mezzana",
+     "parziale": false
+    },
+    {
+     "cod": "F183",
+     "nome": "Mezzocorona",
+     "parziale": false
+    },
+    {
+     "cod": "F187",
+     "nome": "Mezzolombardo",
+     "parziale": false
+    },
+    {
+     "cod": "F307",
+     "nome": "Molveno",
+     "parziale": false
+    },
+    {
+     "cod": "F853",
+     "nome": "Nave San Rocco",
+     "parziale": false
+    },
+    {
+     "cod": "G173",
+     "nome": "Ossana",
+     "parziale": false
+    },
+    {
+     "cod": "G419",
+     "nome": "Peio",
+     "parziale": false
+    },
+    {
+     "cod": "G428",
+     "nome": "Pellizzano",
+     "parziale": false
+    },
+    {
+     "cod": "M344",
+     "nome": "Predaia",
+     "parziale": false
+    },
+    {
+     "cod": "H146",
+     "nome": "Rabbi",
+     "parziale": false
+    },
+    {
+     "cod": "H254",
+     "nome": "Revo'",
+     "parziale": false
+    },
+    {
+     "cod": "H506",
+     "nome": "Romallo",
+     "parziale": false
+    },
+    {
+     "cod": "H517",
+     "nome": "Romeno",
+     "parziale": false
+    },
+    {
+     "cod": "H552",
+     "nome": "Ronzone",
+     "parziale": false
+    },
+    {
+     "cod": "H607",
+     "nome": "Roverè della Luna",
+     "parziale": false
+    },
+    {
+     "cod": "H634",
+     "nome": "Ruffrè-Mendola",
+     "parziale": false
+    },
+    {
+     "cod": "H639",
+     "nome": "Rumo",
+     "parziale": false
+    },
+    {
+     "cod": "I042",
+     "nome": "San Michele all'Adige",
+     "parziale": false
+    },
+    {
+     "cod": "I411",
+     "nome": "Sanzeno",
+     "parziale": false
+    },
+    {
+     "cod": "I439",
+     "nome": "Sarnonico",
+     "parziale": false
+    },
+    {
+     "cod": "I576",
+     "nome": "Segonzano",
+     "parziale": false
+    },
+    {
+     "cod": "I714",
+     "nome": "Sfruz",
+     "parziale": false
+    },
+    {
+     "cod": "I871",
+     "nome": "Sover",
+     "parziale": false
+    },
+    {
+     "cod": "I924",
+     "nome": "Spormaggiore",
+     "parziale": false
+    },
+    {
+     "cod": "I925",
+     "nome": "Sporminore",
+     "parziale": false
+    },
+    {
+     "cod": "L145",
+     "nome": "Terzolas",
+     "parziale": false
+    },
+    {
+     "cod": "L200",
+     "nome": "Ton",
+     "parziale": false
+    },
+    {
+     "cod": "L378",
+     "nome": "Trento",
+     "parziale": false
+    },
+    {
+     "cod": "M362",
+     "nome": "Vallelaghi",
+     "parziale": false
+    },
+    {
+     "cod": "L769",
+     "nome": "Vermiglio",
+     "parziale": false
+    },
+    {
+     "cod": "M363",
+     "nome": "Ville d'Anaunia",
+     "parziale": false
+    },
+    {
+     "cod": "M142",
+     "nome": "Zambana",
+     "parziale": false
+    }
+   ],
+   "candidati": [
+    [
+     "Martina Loss",
+     46.06,
+     "Lega-Forza Italia-Fratelli d'Italia",
+     "centrodestra"
+    ],
+    [
+     "Giulia Merlo",
+     41.14,
+     "Alleanza Democratica Autonomista",
+     "centrosinistra"
+    ],
+    [
+     "Lorenzo Leoni",
+     12.8,
+     "Movimento 5 Stelle",
+     "altro"
+    ]
+   ],
+   "affluenza": 56.92,
+   "fonte": "https://it.wikipedia.org/wiki/Elezioni_politiche_suppletive_in_Italia_del_2019#Collegio_Trentino-Alto_Adige_04",
+   "fonte_comuni": "https://it.wikipedia.org/wiki/Collegio_uninominale_Trentino-Alto_Adige_-_04_%28Camera_dei_deputati_2017%29",
+   "note": "La pagina del collegio usa i comuni di oggi: Borgo d'Anaunia e Novella sono nati il 1º gennaio 2020, il giorno del voto c'erano Castelfondo, Fondo e Malosco e Brez, Cagnò, Cloz, Revò e Romallo (Nave San Rocco e Zambana, uniti nel 2020 in Terre d'Adige, sono già indicati con i nomi di allora)."
+  },
+  {
+   "d": "2019-05-26",
+   "ramo": "C",
+   "legislatura": "XVIII",
+   "collegio": "Trentino-Alto Adige - 06 (Pergine Valsugana)",
+   "sistema": "Rosatellum",
+   "comuni": [
+    {
+     "cod": "M350",
+     "nome": "Altopiano della Vigolana",
+     "parziale": false
+    },
+    {
+     "cod": "A694",
+     "nome": "Baselga di Pinè",
+     "parziale": false
+    },
+    {
+     "cod": "A730",
+     "nome": "Bedollo",
+     "parziale": false
+    },
+    {
+     "cod": "A863",
+     "nome": "Bieno",
+     "parziale": false
+    },
+    {
+     "cod": "B006",
+     "nome": "Borgo Valsugana",
+     "parziale": false
+    },
+    {
+     "cod": "B389",
+     "nome": "Calceranica al Lago",
+     "parziale": false
+    },
+    {
+     "cod": "B404",
+     "nome": "Caldonazzo",
+     "parziale": false
+    },
+    {
+     "cod": "B514",
+     "nome": "Campitello di Fassa",
+     "parziale": false
+    },
+    {
+     "cod": "B577",
+     "nome": "Canal San Bovo",
+     "parziale": false
+    },
+    {
+     "cod": "B579",
+     "nome": "Canazei",
+     "parziale": false
+    },
+    {
+     "cod": "B697",
+     "nome": "Capriana",
+     "parziale": false
+    },
+    {
+     "cod": "B723",
+     "nome": "Carano",
+     "parziale": false
+    },
+    {
+     "cod": "B856",
+     "nome": "Carzano",
+     "parziale": false
+    },
+    {
+     "cod": "M354",
+     "nome": "Castel Ivano",
+     "parziale": false
+    },
+    {
+     "cod": "C189",
+     "nome": "Castello-Molina di Fiemme",
+     "parziale": false
+    },
+    {
+     "cod": "C194",
+     "nome": "Castello Tesino",
+     "parziale": false
+    },
+    {
+     "cod": "C216",
+     "nome": "Castelnuovo",
+     "parziale": false
+    },
+    {
+     "cod": "C372",
+     "nome": "Cavalese",
+     "parziale": false
+    },
+    {
+     "cod": "C712",
+     "nome": "Cinte Tesino",
+     "parziale": false
+    },
+    {
+     "cod": "C756",
+     "nome": "Civezzano",
+     "parziale": false
+    },
+    {
+     "cod": "D243",
+     "nome": "Daiano",
+     "parziale": false
+    },
+    {
+     "cod": "D573",
+     "nome": "Fierozzo",
+     "parziale": false
+    },
+    {
+     "cod": "D714",
+     "nome": "Fornace",
+     "parziale": false
+    },
+    {
+     "cod": "D775",
+     "nome": "Frassilongo",
+     "parziale": false
+    },
+    {
+     "cod": "E178",
+     "nome": "Grigno",
+     "parziale": false
+    },
+    {
+     "cod": "E288",
+     "nome": "Imer",
+     "parziale": false
+    },
+    {
+     "cod": "E492",
+     "nome": "Lavarone",
+     "parziale": false
+    },
+    {
+     "cod": "E565",
+     "nome": "Levico Terme",
+     "parziale": false
+    },
+    {
+     "cod": "E757",
+     "nome": "Luserna",
+     "parziale": false
+    },
+    {
+     "cod": "F068",
+     "nome": "Mazzin",
+     "parziale": false
+    },
+    {
+     "cod": "F176",
+     "nome": "Mezzano",
+     "parziale": false
+    },
+    {
+     "cod": "F263",
+     "nome": "Moena",
+     "parziale": false
+    },
+    {
+     "cod": "F947",
+     "nome": "Novaledo",
+     "parziale": false
+    },
+    {
+     "cod": "G168",
+     "nome": "Ospedaletto",
+     "parziale": false
+    },
+    {
+     "cod": "G296",
+     "nome": "Palù del Fersina",
+     "parziale": false
+    },
+    {
+     "cod": "G305",
+     "nome": "Panchià",
+     "parziale": false
+    },
+    {
+     "cod": "G452",
+     "nome": "Pergine Valsugana",
+     "parziale": false
+    },
+    {
+     "cod": "G656",
+     "nome": "Pieve Tesino",
+     "parziale": false
+    },
+    {
+     "cod": "H018",
+     "nome": "Predazzo",
+     "parziale": false
+    },
+    {
+     "cod": "M359",
+     "nome": "Primiero San Martino di Castrozza",
+     "parziale": false
+    },
+    {
+     "cod": "H528",
+     "nome": "Roncegno Terme",
+     "parziale": false
+    },
+    {
+     "cod": "H532",
+     "nome": "Ronchi Valsugana",
+     "parziale": false
+    },
+    {
+     "cod": "H666",
+     "nome": "Sagron Mis",
+     "parziale": false
+    },
+    {
+     "cod": "H754",
+     "nome": "Samone",
+     "parziale": false
+    },
+    {
+     "cod": "M390",
+     "nome": "San Giovanni di Fassa",
+     "parziale": false
+    },
+    {
+     "cod": "I354",
+     "nome": "Sant'Orsola Terme",
+     "parziale": false
+    },
+    {
+     "cod": "I554",
+     "nome": "Scurelle",
+     "parziale": false
+    },
+    {
+     "cod": "I839",
+     "nome": "Soraga di Fassa",
+     "parziale": false
+    },
+    {
+     "cod": "L089",
+     "nome": "Telve",
+     "parziale": false
+    },
+    {
+     "cod": "L090",
+     "nome": "Telve di Sopra",
+     "parziale": false
+    },
+    {
+     "cod": "L096",
+     "nome": "Tenna",
+     "parziale": false
+    },
+    {
+     "cod": "L147",
+     "nome": "Tesero",
+     "parziale": false
+    },
+    {
+     "cod": "L211",
+     "nome": "Torcegno",
+     "parziale": false
+    },
+    {
+     "cod": "L575",
+     "nome": "Valfloriana",
+     "parziale": false
+    },
+    {
+     "cod": "L678",
+     "nome": "Varena",
+     "parziale": false
+    },
+    {
+     "cod": "L886",
+     "nome": "Vignola-Falesina",
+     "parziale": false
+    },
+    {
+     "cod": "M173",
+     "nome": "Ziano di Fiemme",
+     "parziale": false
+    }
+   ],
+   "candidati": [
+    [
+     "Mauro Sutto",
+     51.08,
+     "Lega-Forza Italia-Fratelli d'Italia",
+     "centrodestra"
+    ],
+    [
+     "Cristina Donei",
+     35.99,
+     "Alleanza Democratica Autonomista",
+     "centrosinistra"
+    ],
+    [
+     "Rosa Rizzi",
+     12.92,
+     "Movimento 5 Stelle",
+     "altro"
+    ]
+   ],
+   "affluenza": 51.36,
+   "fonte": "https://it.wikipedia.org/wiki/Elezioni_politiche_suppletive_in_Italia_del_2019#Collegio_Trentino-Alto_Adige_06",
+   "fonte_comuni": "https://it.wikipedia.org/wiki/Collegio_uninominale_Trentino-Alto_Adige_-_06_%28Camera_dei_deputati%29",
+   "note": "La pagina del collegio usa i comuni di oggi: Ville di Fiemme è nato il 1º gennaio 2020, il giorno del voto c'erano Carano, Daiano e Varena."
+  },
+  {
+   "d": "2020-02-23",
+   "ramo": "S",
+   "legislatura": "XVIII",
+   "collegio": "Campania - 07 (Napoli - San Carlo all'Arena)",
+   "sistema": "Rosatellum",
+   "comuni": [
+    {
+     "cod": "F839",
+     "nome": "Napoli",
+     "parziale": true,
+     "zona": "Arenella, Barra, Miano, Piscinola, Poggioreale, Ponticelli, San Carlo all'Arena, San Giovanni a Teduccio, San Pietro a Patierno, Scampia, Secondigliano, Vicaria, Vomero, Zona Industriale"
+    }
+   ],
+   "candidati": [
+    [
+     "Sandro Ruotolo",
+     48.45,
+     "Napoli con Ruotolo",
+     "centrosinistra"
+    ],
+    [
+     "Salvatore Guangi",
+     24.06,
+     "Lega-Forza Italia-Fratelli d'Italia",
+     "centrodestra"
+    ],
+    [
+     "Luigi Napolitano",
+     22.47,
+     "Movimento 5 Stelle",
+     "altro"
+    ],
+    [
+     "Giuseppe Aragno",
+     2.58,
+     "Potere al Popolo!",
+     "sinistra"
+    ],
+    [
+     "Riccardo Guarino",
+     2.44,
+     "Rinascimento Partenopeo",
+     "altro"
+    ]
+   ],
+   "affluenza": 9.52,
+   "fonte": "https://it.wikipedia.org/wiki/Elezioni_politiche_suppletive_in_Italia_del_2020#Collegio_Campania_-_07",
+   "fonte_comuni": "https://it.wikipedia.org/wiki/Collegio_uninominale_Campania_-_07_%282017%29",
+   "verifica": "https://tg24.sky.it/politica/2020/02/24/elezioni-suppletive-napoli-sandro-ruotolo"
+  },
+  {
+   "d": "2020-03-01",
+   "ramo": "C",
+   "legislatura": "XVIII",
+   "collegio": "Lazio 1 - 01 (Roma - Trionfale)",
+   "sistema": "Rosatellum",
+   "comuni": [
+    {
+     "cod": "H501",
+     "nome": "Roma",
+     "parziale": true,
+     "zona": "rioni del centro storico, Esquilino, Ludovisi, Sallustiano, Castro Pretorio, Celio, San Saba, Testaccio, Trastevere, Borgo, Prati; quartieri Trionfale, Flaminio, Della Vittoria"
+    }
+   ],
+   "candidati": [
+    [
+     "Roberto Gualtieri",
+     62.24,
+     "Con Roberto Gualtieri",
+     "centrosinistra"
+    ],
+    [
+     "Maurizio Leo",
+     26.08,
+     "Fratelli d'Italia-Forza Italia-Lega-Unione di Centro",
+     "centrodestra"
+    ],
+    [
+     "Rossella Rendina",
+     4.36,
+     "Movimento 5 Stelle",
+     "altro"
+    ],
+    [
+     "Marco Rizzo",
+     2.62,
+     "Partito Comunista",
+     "sinistra"
+    ],
+    [
+     "Elisabetta Canitano",
+     2.41,
+     "Potere al Popolo!",
+     "sinistra"
+    ],
+    [
+     "Mario Adinolfi",
+     1.32,
+     "Il Popolo della Famiglia",
+     "altro"
+    ],
+    [
+     "Luca Maria Lo Muzio Lezza",
+     0.97,
+     "Volt Italia",
+     "altro"
+    ]
+   ],
+   "affluenza": 17.66,
+   "fonte": "https://it.wikipedia.org/wiki/Elezioni_politiche_suppletive_in_Italia_del_2020#Collegio_Lazio_1_-_01",
+   "fonte_comuni": "https://it.wikipedia.org/wiki/Collegio_uninominale_Lazio_1_-_01_%282017%29",
+   "verifica": "https://www.open.online/2020/03/02/roma-elezioni-suppletive-per-la-camera-vince-gualtieri-con-il-62-per-cento-dei-consensi/"
+  },
+  {
+   "d": "2020-03-08",
+   "ramo": "S",
+   "legislatura": "XVIII",
+   "collegio": "Umbria - 02 (Terni)",
+   "sistema": "Rosatellum",
+   "comuni": [
+    {
+     "cod": "A045",
+     "nome": "Acquasparta",
+     "parziale": false
+    },
+    {
+     "cod": "A207",
+     "nome": "Allerona",
+     "parziale": false
+    },
+    {
+     "cod": "A242",
+     "nome": "Alviano",
+     "parziale": false
+    },
+    {
+     "cod": "A262",
+     "nome": "Amelia",
+     "parziale": false
+    },
+    {
+     "cod": "A439",
+     "nome": "Arrone",
+     "parziale": false
+    },
+    {
+     "cod": "A490",
+     "nome": "Attigliano",
+     "parziale": false
+    },
+    {
+     "cod": "M258",
+     "nome": "Avigliano Umbro",
+     "parziale": false
+    },
+    {
+     "cod": "A691",
+     "nome": "Baschi",
+     "parziale": false
+    },
+    {
+     "cod": "A835",
+     "nome": "Bevagna",
+     "parziale": false
+    },
+    {
+     "cod": "B446",
+     "nome": "Calvi dell'Umbria",
+     "parziale": false
+    },
+    {
+     "cod": "B504",
+     "nome": "Campello sul Clitunno",
+     "parziale": false
+    },
+    {
+     "cod": "B609",
+     "nome": "Cannara",
+     "parziale": false
+    },
+    {
+     "cod": "B948",
+     "nome": "Cascia",
+     "parziale": false
+    },
+    {
+     "cod": "C117",
+     "nome": "Castel Giorgio",
+     "parziale": false
+    },
+    {
+     "cod": "C252",
+     "nome": "Castel Ritaldi",
+     "parziale": false
+    },
+    {
+     "cod": "C289",
+     "nome": "Castel Viscardo",
+     "parziale": false
+    },
+    {
+     "cod": "C527",
+     "nome": "Cerreto di Spoleto",
+     "parziale": false
+    },
+    {
+     "cod": "D454",
+     "nome": "Fabro",
+     "parziale": false
+    },
+    {
+     "cod": "D538",
+     "nome": "Ferentillo",
+     "parziale": false
+    },
+    {
+     "cod": "D570",
+     "nome": "Ficulle",
+     "parziale": false
+    },
+    {
+     "cod": "D653",
+     "nome": "Foligno",
+     "parziale": false
+    },
+    {
+     "cod": "D787",
+     "nome": "Fratta Todina",
+     "parziale": false
+    },
+    {
+     "cod": "E012",
+     "nome": "Giano dell'Umbria",
+     "parziale": false
+    },
+    {
+     "cod": "E045",
+     "nome": "Giove",
+     "parziale": false
+    },
+    {
+     "cod": "E229",
+     "nome": "Gualdo Cattaneo",
+     "parziale": false
+    },
+    {
+     "cod": "E241",
+     "nome": "Guardea",
+     "parziale": false
+    },
+    {
+     "cod": "E729",
+     "nome": "Lugnano in Teverina",
+     "parziale": false
+    },
+    {
+     "cod": "F024",
+     "nome": "Massa Martana",
+     "parziale": false
+    },
+    {
+     "cod": "F456",
+     "nome": "Monte Castello di Vibio",
+     "parziale": false
+    },
+    {
+     "cod": "F457",
+     "nome": "Montecastrilli",
+     "parziale": false
+    },
+    {
+     "cod": "F462",
+     "nome": "Montecchio",
+     "parziale": false
+    },
+    {
+     "cod": "F492",
+     "nome": "Montefalco",
+     "parziale": false
+    },
+    {
+     "cod": "F510",
+     "nome": "Montefranco",
+     "parziale": false
+    },
+    {
+     "cod": "F513",
+     "nome": "Montegabbione",
+     "parziale": false
+    },
+    {
+     "cod": "F543",
+     "nome": "Monteleone d'Orvieto",
+     "parziale": false
+    },
+    {
+     "cod": "F540",
+     "nome": "Monteleone di Spoleto",
+     "parziale": false
+    },
+    {
+     "cod": "F844",
+     "nome": "Narni",
+     "parziale": false
+    },
+    {
+     "cod": "F911",
+     "nome": "Nocera Umbra",
+     "parziale": false
+    },
+    {
+     "cod": "F935",
+     "nome": "Norcia",
+     "parziale": false
+    },
+    {
+     "cod": "G148",
+     "nome": "Orvieto",
+     "parziale": false
+    },
+    {
+     "cod": "G189",
+     "nome": "Otricoli",
+     "parziale": false
+    },
+    {
+     "cod": "G344",
+     "nome": "Parrano",
+     "parziale": false
+    },
+    {
+     "cod": "G432",
+     "nome": "Penna in Teverina",
+     "parziale": false
+    },
+    {
+     "cod": "G758",
+     "nome": "Poggiodomo",
+     "parziale": false
+    },
+    {
+     "cod": "G790",
+     "nome": "Polino",
+     "parziale": false
+    },
+    {
+     "cod": "G881",
+     "nome": "Porano",
+     "parziale": false
+    },
+    {
+     "cod": "H015",
+     "nome": "Preci",
+     "parziale": false
+    },
+    {
+     "cod": "H857",
+     "nome": "San Gemini",
+     "parziale": false
+    },
+    {
+     "cod": "I381",
+     "nome": "San Venanzo",
+     "parziale": false
+    },
+    {
+     "cod": "I263",
+     "nome": "Sant'Anatolia di Narco",
+     "parziale": false
+    },
+    {
+     "cod": "I523",
+     "nome": "Scheggino",
+     "parziale": false
+    },
+    {
+     "cod": "I585",
+     "nome": "Sellano",
+     "parziale": false
+    },
+    {
+     "cod": "I888",
+     "nome": "Spello",
+     "parziale": false
+    },
+    {
+     "cod": "I921",
+     "nome": "Spoleto",
+     "parziale": false
+    },
+    {
+     "cod": "I981",
+     "nome": "Stroncone",
+     "parziale": false
+    },
+    {
+     "cod": "L117",
+     "nome": "Terni",
+     "parziale": false
+    },
+    {
+     "cod": "L188",
+     "nome": "Todi",
+     "parziale": false
+    },
+    {
+     "cod": "L397",
+     "nome": "Trevi",
+     "parziale": false
+    },
+    {
+     "cod": "L627",
+     "nome": "Vallo di Nera",
+     "parziale": false
+    },
+    {
+     "cod": "L653",
+     "nome": "Valtopina",
+     "parziale": false
+    }
+   ],
+   "candidati": [
+    [
+     "Valeria Alessandrini",
+     53.74,
+     "Lega-Forza Italia-Fratelli d'Italia",
+     "centrodestra"
+    ],
+    [
+     "Maria Elisabetta Mascio",
+     38.03,
+     "Mascio per l'Umbria",
+     "centrosinistra"
+    ],
+    [
+     "Roberto Alcidi",
+     7.49,
+     "Movimento 5 Stelle",
+     "altro"
+    ],
+    [
+     "Armida Gargani",
+     0.74,
+     "Riconquistare l'Italia",
+     "altro"
+    ]
+   ],
+   "affluenza": 14.55,
+   "fonte": "https://it.wikipedia.org/wiki/Elezioni_politiche_suppletive_in_Italia_del_2020#Collegio_Umbria_-_02",
+   "fonte_comuni": "https://it.wikipedia.org/wiki/Collegio_uninominale_Umbria_-_02_%28Senato_della_Repubblica%29"
+  },
+  {
+   "d": "2020-09-20",
+   "d2": "2020-09-21",
+   "ramo": "S",
+   "legislatura": "XVIII",
+   "collegio": "Sardegna - 03 (Sassari)",
+   "sistema": "Rosatellum",
+   "comuni": [
+    {
+     "cod": "A069",
+     "nome": "Aggius",
+     "parziale": false
+    },
+    {
+     "cod": "H848",
+     "nome": "Aglientu",
+     "parziale": false
+    },
+    {
+     "cod": "A115",
+     "nome": "Alà dei Sardi",
+     "parziale": false
+    },
+    {
+     "cod": "A192",
+     "nome": "Alghero",
+     "parziale": false
+    },
+    {
+     "cod": "A287",
+     "nome": "Anela",
+     "parziale": false
+    },
+    {
+     "cod": "A379",
+     "nome": "Ardara",
+     "parziale": false
+    },
+    {
+     "cod": "A453",
+     "nome": "Arzachena",
+     "parziale": false
+    },
+    {
+     "cod": "M214",
+     "nome": "Badesi",
+     "parziale": false
+    },
+    {
+     "cod": "A606",
+     "nome": "Banari",
+     "parziale": false
+    },
+    {
+     "cod": "A781",
+     "nome": "Benetutti",
+     "parziale": false
+    },
+    {
+     "cod": "A789",
+     "nome": "Berchidda",
+     "parziale": false
+    },
+    {
+     "cod": "A827",
+     "nome": "Bessude",
+     "parziale": false
+    },
+    {
+     "cod": "A895",
+     "nome": "Bitti",
+     "parziale": false
+    },
+    {
+     "cod": "A976",
+     "nome": "Bonnanaro",
+     "parziale": false
+    },
+    {
+     "cod": "A977",
+     "nome": "Bono",
+     "parziale": false
+    },
+    {
+     "cod": "A978",
+     "nome": "Bonorva",
+     "parziale": false
+    },
+    {
+     "cod": "B063",
+     "nome": "Bortigiadas",
+     "parziale": false
+    },
+    {
+     "cod": "B064",
+     "nome": "Borutta",
+     "parziale": false
+    },
+    {
+     "cod": "B094",
+     "nome": "Bottidda",
+     "parziale": false
+    },
+    {
+     "cod": "B246",
+     "nome": "Buddusò",
+     "parziale": false
+    },
+    {
+     "cod": "B248",
+     "nome": "Budoni",
+     "parziale": false
+    },
+    {
+     "cod": "B264",
+     "nome": "Bultei",
+     "parziale": false
+    },
+    {
+     "cod": "B265",
+     "nome": "Bulzi",
+     "parziale": false
+    },
+    {
+     "cod": "B276",
+     "nome": "Burgos",
+     "parziale": false
+    },
+    {
+     "cod": "B378",
+     "nome": "Calangianus",
+     "parziale": false
+    },
+    {
+     "cod": "B772",
+     "nome": "Cargeghe",
+     "parziale": false
+    },
+    {
+     "cod": "C272",
+     "nome": "Castelsardo",
+     "parziale": false
+    },
+    {
+     "cod": "C600",
+     "nome": "Cheremule",
+     "parziale": false
+    },
+    {
+     "cod": "C613",
+     "nome": "Chiaramonti",
+     "parziale": false
+    },
+    {
+     "cod": "C818",
+     "nome": "Codrongianos",
+     "parziale": false
+    },
+    {
+     "cod": "D100",
+     "nome": "Cossoine",
+     "parziale": false
+    },
+    {
+     "cod": "M292",
+     "nome": "Erula",
+     "parziale": false
+    },
+    {
+     "cod": "D441",
+     "nome": "Esporlatu",
+     "parziale": false
+    },
+    {
+     "cod": "D637",
+     "nome": "Florinas",
+     "parziale": false
+    },
+    {
+     "cod": "D888",
+     "nome": "Galtellì",
+     "parziale": false
+    },
+    {
+     "cod": "E019",
+     "nome": "Giave",
+     "parziale": false
+    },
+    {
+     "cod": "M274",
+     "nome": "Golfo Aranci",
+     "parziale": false
+    },
+    {
+     "cod": "E285",
+     "nome": "Illorai",
+     "parziale": false
+    },
+    {
+     "cod": "E323",
+     "nome": "Irgoli",
+     "parziale": false
+    },
+    {
+     "cod": "E376",
+     "nome": "Ittireddu",
+     "parziale": false
+    },
+    {
+     "cod": "E377",
+     "nome": "Ittiri",
+     "parziale": false
+    },
+    {
+     "cod": "E425",
+     "nome": "La Maddalena",
+     "parziale": false
+    },
+    {
+     "cod": "E401",
+     "nome": "Laerru",
+     "parziale": false
+    },
+    {
+     "cod": "E646",
+     "nome": "Loculi",
+     "parziale": false
+    },
+    {
+     "cod": "E647",
+     "nome": "Lodè",
+     "parziale": false
+    },
+    {
+     "cod": "M275",
+     "nome": "Loiri Porto San Paolo",
+     "parziale": false
+    },
+    {
+     "cod": "E736",
+     "nome": "Lula",
+     "parziale": false
+    },
+    {
+     "cod": "E747",
+     "nome": "Luogosanto",
+     "parziale": false
+    },
+    {
+     "cod": "E752",
+     "nome": "Luras",
+     "parziale": false
+    },
+    {
+     "cod": "E902",
+     "nome": "Mara",
+     "parziale": false
+    },
+    {
+     "cod": "E992",
+     "nome": "Martis",
+     "parziale": false
+    },
+    {
+     "cod": "F542",
+     "nome": "Monteleone Rocca Doria",
+     "parziale": false
+    },
+    {
+     "cod": "F667",
+     "nome": "Monti",
+     "parziale": false
+    },
+    {
+     "cod": "F721",
+     "nome": "Mores",
+     "parziale": false
+    },
+    {
+     "cod": "F818",
+     "nome": "Muros",
+     "parziale": false
+    },
+    {
+     "cod": "F975",
+     "nome": "Nughedu San Nicolò",
+     "parziale": false
+    },
+    {
+     "cod": "F976",
+     "nome": "Nule",
+     "parziale": false
+    },
+    {
+     "cod": "F977",
+     "nome": "Nulvi",
+     "parziale": false
+    },
+    {
+     "cod": "G015",
+     "nome": "Olbia",
+     "parziale": false
+    },
+    {
+     "cod": "G046",
+     "nome": "Olmedo",
+     "parziale": false
+    },
+    {
+     "cod": "G064",
+     "nome": "Onanì",
+     "parziale": false
+    },
+    {
+     "cod": "G070",
+     "nome": "Onifai",
+     "parziale": false
+    },
+    {
+     "cod": "G119",
+     "nome": "Orosei",
+     "parziale": false
+    },
+    {
+     "cod": "G147",
+     "nome": "Orune",
+     "parziale": false
+    },
+    {
+     "cod": "G153",
+     "nome": "Oschiri",
+     "parziale": false
+    },
+    {
+     "cod": "G154",
+     "nome": "Osidda",
+     "parziale": false
+    },
+    {
+     "cod": "G156",
+     "nome": "Osilo",
+     "parziale": false
+    },
+    {
+     "cod": "G178",
+     "nome": "Ossi",
+     "parziale": false
+    },
+    {
+     "cod": "G203",
+     "nome": "Ozieri",
+     "parziale": false
+    },
+    {
+     "cod": "G225",
+     "nome": "Padria",
+     "parziale": false
+    },
+    {
+     "cod": "M301",
+     "nome": "Padru",
+     "parziale": false
+    },
+    {
+     "cod": "G258",
+     "nome": "Palau",
+     "parziale": false
+    },
+    {
+     "cod": "G376",
+     "nome": "Pattada",
+     "parziale": false
+    },
+    {
+     "cod": "G450",
+     "nome": "Perfugas",
+     "parziale": false
+    },
+    {
+     "cod": "G740",
+     "nome": "Ploaghe",
+     "parziale": false
+    },
+    {
+     "cod": "G924",
+     "nome": "Porto Torres",
+     "parziale": false
+    },
+    {
+     "cod": "G929",
+     "nome": "Posada",
+     "parziale": false
+    },
+    {
+     "cod": "G962",
+     "nome": "Pozzomaggiore",
+     "parziale": false
+    },
+    {
+     "cod": "H095",
+     "nome": "Putifigari",
+     "parziale": false
+    },
+    {
+     "cod": "H507",
+     "nome": "Romana",
+     "parziale": false
+    },
+    {
+     "cod": "I329",
+     "nome": "San Teodoro",
+     "parziale": false
+    },
+    {
+     "cod": "M276",
+     "nome": "Sant'Antonio di Gallura",
+     "parziale": false
+    },
+    {
+     "cod": "M284",
+     "nome": "Santa Maria Coghinas",
+     "parziale": false
+    },
+    {
+     "cod": "I312",
+     "nome": "Santa Teresa Gallura",
+     "parziale": false
+    },
+    {
+     "cod": "I452",
+     "nome": "Sassari",
+     "parziale": false
+    },
+    {
+     "cod": "I565",
+     "nome": "Sedini",
+     "parziale": false
+    },
+    {
+     "cod": "I598",
+     "nome": "Semestene",
+     "parziale": false
+    },
+    {
+     "cod": "I614",
+     "nome": "Sennori",
+     "parziale": false
+    },
+    {
+     "cod": "I732",
+     "nome": "Siligo",
+     "parziale": false
+    },
+    {
+     "cod": "I751",
+     "nome": "Siniscola",
+     "parziale": false
+    },
+    {
+     "cod": "I863",
+     "nome": "Sorso",
+     "parziale": false
+    },
+    {
+     "cod": "M290",
+     "nome": "Stintino",
+     "parziale": false
+    },
+    {
+     "cod": "L088",
+     "nome": "Telti",
+     "parziale": false
+    },
+    {
+     "cod": "L093",
+     "nome": "Tempio Pausania",
+     "parziale": false
+    },
+    {
+     "cod": "M282",
+     "nome": "Tergu",
+     "parziale": false
+    },
+    {
+     "cod": "L158",
+     "nome": "Thiesi",
+     "parziale": false
+    },
+    {
+     "cod": "L180",
+     "nome": "Tissi",
+     "parziale": false
+    },
+    {
+     "cod": "L231",
+     "nome": "Torpè",
+     "parziale": false
+    },
+    {
+     "cod": "L235",
+     "nome": "Torralba",
+     "parziale": false
+    },
+    {
+     "cod": "L428",
+     "nome": "Trinità d'Agultu e Vignola",
+     "parziale": false
+    },
+    {
+     "cod": "L464",
+     "nome": "Tula",
+     "parziale": false
+    },
+    {
+     "cod": "L503",
+     "nome": "Uri",
+     "parziale": false
+    },
+    {
+     "cod": "L509",
+     "nome": "Usini",
+     "parziale": false
+    },
+    {
+     "cod": "L604",
+     "nome": "Valledoria",
+     "parziale": false
+    },
+    {
+     "cod": "M259",
+     "nome": "Viddalba",
+     "parziale": false
+    },
+    {
+     "cod": "L989",
+     "nome": "Villanova Monteleone",
+     "parziale": false
+    }
+   ],
+   "candidati": [
+    [
+     "Carlo Doria",
+     40.25,
+     "Lega-Forza Italia-Fratelli d'Italia",
+     "centrodestra"
+    ],
+    [
+     "Lorenzo Corda",
+     28.91,
+     "Nord Sardegna con Lorenzo Corda",
+     "centrosinistra"
+    ],
+    [
+     "Agostinangelo Marras",
+     24.83,
+     "Agostinangelo Marras per la Sardegna",
+     "centro"
+    ],
+    [
+     "Gian Mario Salis",
+     6.02,
+     "Partito Socialista Italiano",
+     null
+    ]
+   ],
+   "affluenza": 31.1,
+   "fonte": "https://it.wikipedia.org/wiki/Elezioni_politiche_suppletive_in_Italia_del_2020#Collegio_Sardegna_-_03",
+   "fonte_comuni": "https://it.wikipedia.org/wiki/Collegio_uninominale_Sardegna_-_03_%28Senato_della_Repubblica%29",
+   "note": "«Tutta la provincia di Sassari» è quella del 2016-2025 (92 comuni, con l'ex provincia di Olbia-Tempio), come in dati/comuni.js. Corda era sostenuto da M5S e PD; Salis (PSI, da solo) senza area certa."
+  },
+  {
+   "d": "2020-09-20",
+   "d2": "2020-09-21",
+   "ramo": "S",
+   "legislatura": "XVIII",
+   "collegio": "Veneto - 09 (Villafranca di Verona)",
+   "sistema": "Rosatellum",
+   "comuni": [
+    {
+     "cod": "A137",
+     "nome": "Albaredo d'Adige",
+     "parziale": false
+    },
+    {
+     "cod": "A292",
+     "nome": "Angiari",
+     "parziale": false
+    },
+    {
+     "cod": "A374",
+     "nome": "Arcole",
+     "parziale": false
+    },
+    {
+     "cod": "A650",
+     "nome": "Bardolino",
+     "parziale": false
+    },
+    {
+     "cod": "A737",
+     "nome": "Belfiore",
+     "parziale": false
+    },
+    {
+     "cod": "A837",
+     "nome": "Bevilacqua",
+     "parziale": false
+    },
+    {
+     "cod": "A964",
+     "nome": "Bonavigo",
+     "parziale": false
+    },
+    {
+     "cod": "B070",
+     "nome": "Boschi Sant'Anna",
+     "parziale": false
+    },
+    {
+     "cod": "B107",
+     "nome": "Bovolone",
+     "parziale": false
+    },
+    {
+     "cod": "B296",
+     "nome": "Bussolengo",
+     "parziale": false
+    },
+    {
+     "cod": "B304",
+     "nome": "Buttapietra",
+     "parziale": false
+    },
+    {
+     "cod": "B402",
+     "nome": "Caldiero",
+     "parziale": false
+    },
+    {
+     "cod": "B886",
+     "nome": "Casaleone",
+     "parziale": false
+    },
+    {
+     "cod": "C041",
+     "nome": "Castagnaro",
+     "parziale": false
+    },
+    {
+     "cod": "C078",
+     "nome": "Castel d'Azzano",
+     "parziale": false
+    },
+    {
+     "cod": "C225",
+     "nome": "Castelnuovo del Garda",
+     "parziale": false
+    },
+    {
+     "cod": "C370",
+     "nome": "Cavaion Veronese",
+     "parziale": false
+    },
+    {
+     "cod": "C498",
+     "nome": "Cerea",
+     "parziale": false
+    },
+    {
+     "cod": "C890",
+     "nome": "Cologna Veneta",
+     "parziale": false
+    },
+    {
+     "cod": "C943",
+     "nome": "Concamarise",
+     "parziale": false
+    },
+    {
+     "cod": "D118",
+     "nome": "Costermano sul Garda",
+     "parziale": false
+    },
+    {
+     "cod": "D419",
+     "nome": "Erbè",
+     "parziale": false
+    },
+    {
+     "cod": "D915",
+     "nome": "Garda",
+     "parziale": false
+    },
+    {
+     "cod": "D957",
+     "nome": "Gazzo Veronese",
+     "parziale": false
+    },
+    {
+     "cod": "E349",
+     "nome": "Isola della Scala",
+     "parziale": false
+    },
+    {
+     "cod": "E358",
+     "nome": "Isola Rizza",
+     "parziale": false
+    },
+    {
+     "cod": "E502",
+     "nome": "Lazise",
+     "parziale": false
+    },
+    {
+     "cod": "E512",
+     "nome": "Legnago",
+     "parziale": false
+    },
+    {
+     "cod": "F218",
+     "nome": "Minerbe",
+     "parziale": false
+    },
+    {
+     "cod": "F789",
+     "nome": "Mozzecane",
+     "parziale": false
+    },
+    {
+     "cod": "F918",
+     "nome": "Nogara",
+     "parziale": false
+    },
+    {
+     "cod": "F921",
+     "nome": "Nogarole Rocca",
+     "parziale": false
+    },
+    {
+     "cod": "G080",
+     "nome": "Oppeano",
+     "parziale": false
+    },
+    {
+     "cod": "G297",
+     "nome": "Palù",
+     "parziale": false
+    },
+    {
+     "cod": "G489",
+     "nome": "Peschiera del Garda",
+     "parziale": false
+    },
+    {
+     "cod": "G945",
+     "nome": "Povegliano Veronese",
+     "parziale": false
+    },
+    {
+     "cod": "H048",
+     "nome": "Pressana",
+     "parziale": false
+    },
+    {
+     "cod": "H540",
+     "nome": "Ronco all'Adige",
+     "parziale": false
+    },
+    {
+     "cod": "H606",
+     "nome": "Roverchiara",
+     "parziale": false
+    },
+    {
+     "cod": "H610",
+     "nome": "Roveredo di Guà",
+     "parziale": false
+    },
+    {
+     "cod": "H714",
+     "nome": "Salizzole",
+     "parziale": false
+    },
+    {
+     "cod": "H924",
+     "nome": "San Giovanni Lupatoto",
+     "parziale": false
+    },
+    {
+     "cod": "I105",
+     "nome": "San Pietro di Morubio",
+     "parziale": false
+    },
+    {
+     "cod": "H944",
+     "nome": "Sanguinetto",
+     "parziale": false
+    },
+    {
+     "cod": "I821",
+     "nome": "Sommacampagna",
+     "parziale": false
+    },
+    {
+     "cod": "I826",
+     "nome": "Sona",
+     "parziale": false
+    },
+    {
+     "cod": "I850",
+     "nome": "Sorgà",
+     "parziale": false
+    },
+    {
+     "cod": "L136",
+     "nome": "Terrazzo",
+     "parziale": false
+    },
+    {
+     "cod": "L287",
+     "nome": "Torri del Benaco",
+     "parziale": false
+    },
+    {
+     "cod": "L396",
+     "nome": "Trevenzuolo",
+     "parziale": false
+    },
+    {
+     "cod": "L567",
+     "nome": "Valeggio sul Mincio",
+     "parziale": false
+    },
+    {
+     "cod": "D193",
+     "nome": "Veronella",
+     "parziale": false
+    },
+    {
+     "cod": "L869",
+     "nome": "Vigasio",
+     "parziale": false
+    },
+    {
+     "cod": "L912",
+     "nome": "Villa Bartolomea",
+     "parziale": false
+    },
+    {
+     "cod": "L949",
+     "nome": "Villafranca di Verona",
+     "parziale": false
+    },
+    {
+     "cod": "M172",
+     "nome": "Zevio",
+     "parziale": false
+    },
+    {
+     "cod": "M178",
+     "nome": "Zimella",
+     "parziale": false
+    }
+   ],
+   "candidati": [
+    [
+     "Luca De Carlo",
+     71.87,
+     "Fratelli d'Italia-Lega-Forza Italia",
+     "centrodestra"
+    ],
+    [
+     "Matteo Melotti",
+     18.96,
+     "Partito Democratico",
+     "centrosinistra"
+    ],
+    [
+     "Emanuele Sterzi",
+     9.17,
+     "Movimento 5 Stelle",
+     "altro"
+    ]
+   ],
+   "affluenza": 61.86,
+   "fonte": "https://it.wikipedia.org/wiki/Elezioni_politiche_suppletive_in_Italia_del_2020#Collegio_Veneto_-_09",
+   "fonte_comuni": "https://it.wikipedia.org/wiki/Collegio_uninominale_Veneto_-_09"
+  },
+  {
+   "d": "2021-10-03",
+   "d2": "2021-10-04",
+   "ramo": "C",
+   "legislatura": "XVIII",
+   "collegio": "Lazio 1 - 11 (Roma - Primavalle)",
+   "sistema": "Rosatellum",
+   "comuni": [
+    {
+     "cod": "H501",
+     "nome": "Roma",
+     "parziale": true,
+     "zona": "Gianicolense, Aurelio, Casalotti, Trionfale (suburbio), Primavalle, La Pisana"
+    }
+   ],
+   "candidati": [
+    [
+     "Andrea Casu",
+     43.47,
+     "Partito Democratico",
+     "centrosinistra"
+    ],
+    [
+     "Pasquale Calzetta",
+     37.55,
+     "Lega-Fratelli d'Italia-Forza Italia-Unione di Centro-Noi con l'Italia",
+     "centrodestra"
+    ],
+    [
+     "Danilo Ballanti",
+     6.62,
+     "Partito Comunista",
+     "sinistra"
+    ],
+    [
+     "Luca Palamara",
+     5.93,
+     "Lista Palamara",
+     "altro"
+    ],
+    [
+     "Giampaolo Bocci",
+     4.03,
+     "Italexit per l'Italia",
+     "altro"
+    ],
+    [
+     "Giovanni Cocco",
+     2.41,
+     "Partito Liberale Europeo - Rinascimento",
+     "altro"
+    ]
+   ],
+   "affluenza": 44.15,
+   "fonte": "https://it.wikipedia.org/wiki/Elezioni_politiche_suppletive_in_Italia_del_2021#Collegio_Lazio_1_-_11",
+   "fonte_comuni": "https://it.wikipedia.org/wiki/Collegio_uninominale_Lazio_1_-_11"
+  },
+  {
+   "d": "2021-10-03",
+   "d2": "2021-10-04",
+   "ramo": "C",
+   "legislatura": "XVIII",
+   "collegio": "Toscana - 12 (Siena)",
+   "sistema": "Rosatellum",
+   "comuni": [
+    {
+     "cod": "A006",
+     "nome": "Abbadia San Salvatore",
+     "parziale": false
+    },
+    {
+     "cod": "A461",
+     "nome": "Asciano",
+     "parziale": false
+    },
+    {
+     "cod": "B269",
+     "nome": "Buonconvento",
+     "parziale": false
+    },
+    {
+     "cod": "C172",
+     "nome": "Castellina in Chianti",
+     "parziale": false
+    },
+    {
+     "cod": "C227",
+     "nome": "Castelnuovo Berardenga",
+     "parziale": false
+    },
+    {
+     "cod": "C319",
+     "nome": "Castiglion Fiorentino",
+     "parziale": false
+    },
+    {
+     "cod": "C313",
+     "nome": "Castiglione d'Orcia",
+     "parziale": false
+    },
+    {
+     "cod": "C587",
+     "nome": "Cetona",
+     "parziale": false
+    },
+    {
+     "cod": "C608",
+     "nome": "Chianciano Terme",
+     "parziale": false
+    },
+    {
+     "cod": "C661",
+     "nome": "Chiusdino",
+     "parziale": false
+    },
+    {
+     "cod": "C662",
+     "nome": "Chiusi",
+     "parziale": false
+    },
+    {
+     "cod": "D077",
+     "nome": "Cortona",
+     "parziale": false
+    },
+    {
+     "cod": "D649",
+     "nome": "Foiano della Chiana",
+     "parziale": false
+    },
+    {
+     "cod": "D858",
+     "nome": "Gaiole in Chianti",
+     "parziale": false
+    },
+    {
+     "cod": "E718",
+     "nome": "Lucignano",
+     "parziale": false
+    },
+    {
+     "cod": "E933",
+     "nome": "Marciano della Chiana",
+     "parziale": false
+    },
+    {
+     "cod": "M378",
+     "nome": "Montalcino",
+     "parziale": false
+    },
+    {
+     "cod": "F592",
+     "nome": "Montepulciano",
+     "parziale": false
+    },
+    {
+     "cod": "F598",
+     "nome": "Monteriggioni",
+     "parziale": false
+    },
+    {
+     "cod": "F605",
+     "nome": "Monteroni d'Arbia",
+     "parziale": false
+    },
+    {
+     "cod": "F676",
+     "nome": "Monticiano",
+     "parziale": false
+    },
+    {
+     "cod": "F815",
+     "nome": "Murlo",
+     "parziale": false
+    },
+    {
+     "cod": "G547",
+     "nome": "Piancastagnaio",
+     "parziale": false
+    },
+    {
+     "cod": "G602",
+     "nome": "Pienza",
+     "parziale": false
+    },
+    {
+     "cod": "H153",
+     "nome": "Radda in Chianti",
+     "parziale": false
+    },
+    {
+     "cod": "H156",
+     "nome": "Radicofani",
+     "parziale": false
+    },
+    {
+     "cod": "H185",
+     "nome": "Rapolano Terme",
+     "parziale": false
+    },
+    {
+     "cod": "H790",
+     "nome": "San Casciano dei Bagni",
+     "parziale": false
+    },
+    {
+     "cod": "I135",
+     "nome": "San Quirico d'Orcia",
+     "parziale": false
+    },
+    {
+     "cod": "I445",
+     "nome": "Sarteano",
+     "parziale": false
+    },
+    {
+     "cod": "I726",
+     "nome": "Siena",
+     "parziale": false
+    },
+    {
+     "cod": "A468",
+     "nome": "Sinalunga",
+     "parziale": false
+    },
+    {
+     "cod": "I877",
+     "nome": "Sovicille",
+     "parziale": false
+    },
+    {
+     "cod": "L303",
+     "nome": "Torrita di Siena",
+     "parziale": false
+    },
+    {
+     "cod": "L384",
+     "nome": "Trequanda",
+     "parziale": false
+    }
+   ],
+   "candidati": [
+    [
+     "Enrico Letta",
+     49.92,
+     "Con Enrico Letta",
+     "centrosinistra"
+    ],
+    [
+     "Tommaso Marrocchesi Marzi",
+     37.83,
+     "Lega-Fratelli d'Italia-Forza Italia-Unione di Centro-Noi con l'Italia",
+     "centrodestra"
+    ],
+    [
+     "Marco Rizzo",
+     4.69,
+     "Partito Comunista",
+     "sinistra"
+    ],
+    [
+     "Elena Golini",
+     2.95,
+     "Potere al Popolo!",
+     "sinistra"
+    ],
+    [
+     "Mauro Aurigi",
+     1.73,
+     "Italexit per l'Italia",
+     "altro"
+    ],
+    [
+     "Angelina Rappuoli",
+     1.48,
+     "Movimento Nazionale Italiano",
+     "altro"
+    ],
+    [
+     "Tommaso Agostini",
+     1.4,
+     "Movimento 3V",
+     "altro"
+    ]
+   ],
+   "affluenza": 35.59,
+   "fonte": "https://it.wikipedia.org/wiki/Elezioni_politiche_suppletive_in_Italia_del_2021#Collegio_Toscana_-_12",
+   "fonte_comuni": "https://it.wikipedia.org/wiki/Collegio_uninominale_Toscana_-_12"
+  },
+  {
+   "d": "2022-01-16",
+   "ramo": "C",
+   "legislatura": "XVIII",
+   "collegio": "Lazio 1 - 01 (Roma - Trionfale)",
+   "sistema": "Rosatellum",
+   "comuni": [
+    {
+     "cod": "H501",
+     "nome": "Roma",
+     "parziale": true,
+     "zona": "rioni del centro storico, Esquilino, Ludovisi, Sallustiano, Castro Pretorio, Celio, San Saba, Testaccio, Trastevere, Borgo, Prati; quartieri Trionfale, Flaminio, Della Vittoria"
+    }
+   ],
+   "candidati": [
+    [
+     "Cecilia D'Elia",
+     59.43,
+     "Partito Democratico",
+     "centrosinistra"
+    ],
+    [
+     "Simonetta Matone",
+     22.42,
+     "Lega-Fratelli d'Italia-Forza Italia",
+     "centrodestra"
+    ],
+    [
+     "Valerio Casini",
+     12.93,
+     "Italia Viva",
+     "centro"
+    ],
+    [
+     "Beatrice Gamberini",
+     3.24,
+     "Potere al Popolo!",
+     "sinistra"
+    ],
+    [
+     "Lorenzo Vanni",
+     1.97,
+     "Il N-\"Uovo\" Mondo - Io per tutti tutti per noi",
+     "altro"
+    ]
+   ],
+   "affluenza": 11.33,
+   "fonte": "https://it.wikipedia.org/wiki/Elezioni_politiche_suppletive_in_Italia_del_2022#Collegio_Lazio_1_-_01",
+   "fonte_comuni": "https://it.wikipedia.org/wiki/Collegio_uninominale_Lazio_1_-_01_%282017%29"
+  },
+  {
+   "d": "2023-10-22",
+   "d2": "2023-10-23",
+   "ramo": "S",
+   "legislatura": "XIX",
+   "collegio": "Lombardia - 06 (Monza)",
+   "sistema": "Rosatellum",
+   "comuni": [
+    {
+     "cod": "A087",
+     "nome": "Agrate Brianza",
+     "parziale": false
+    },
+    {
+     "cod": "A096",
+     "nome": "Aicurzio",
+     "parziale": false
+    },
+    {
+     "cod": "A159",
+     "nome": "Albiate",
+     "parziale": false
+    },
+    {
+     "cod": "A376",
+     "nome": "Arcore",
+     "parziale": false
+    },
+    {
+     "cod": "A668",
+     "nome": "Barlassina",
+     "parziale": false
+    },
+    {
+     "cod": "A759",
+     "nome": "Bellusco",
+     "parziale": false
+    },
+    {
+     "cod": "A802",
+     "nome": "Bernareggio",
+     "parziale": false
+    },
+    {
+     "cod": "A818",
+     "nome": "Besana in Brianza",
+     "parziale": false
+    },
+    {
+     "cod": "A849",
+     "nome": "Biassono",
+     "parziale": false
+    },
+    {
+     "cod": "B105",
+     "nome": "Bovisio-Masciago",
+     "parziale": false
+    },
+    {
+     "cod": "B187",
+     "nome": "Briosco",
+     "parziale": false
+    },
+    {
+     "cod": "B212",
+     "nome": "Brugherio",
+     "parziale": false
+    },
+    {
+     "cod": "B272",
+     "nome": "Burago di Molgora",
+     "parziale": false
+    },
+    {
+     "cod": "B289",
+     "nome": "Busnago",
+     "parziale": false
+    },
+    {
+     "cod": "B501",
+     "nome": "Camparada",
+     "parziale": false
+    },
+    {
+     "cod": "B671",
+     "nome": "Caponago",
+     "parziale": false
+    },
+    {
+     "cod": "B729",
+     "nome": "Carate Brianza",
+     "parziale": false
+    },
+    {
+     "cod": "B798",
+     "nome": "Carnate",
+     "parziale": false
+    },
+    {
+     "cod": "C395",
+     "nome": "Cavenago di Brianza",
+     "parziale": false
+    },
+    {
+     "cod": "C512",
+     "nome": "Ceriano Laghetto",
+     "parziale": false
+    },
+    {
+     "cod": "C566",
+     "nome": "Cesano Maderno",
+     "parziale": false
+    },
+    {
+     "cod": "C820",
+     "nome": "Cogliate",
+     "parziale": false
+    },
+    {
+     "cod": "C952",
+     "nome": "Concorezzo",
+     "parziale": false
+    },
+    {
+     "cod": "D019",
+     "nome": "Cornate d'Adda",
+     "parziale": false
+    },
+    {
+     "cod": "D038",
+     "nome": "Correzzana",
+     "parziale": false
+    },
+    {
+     "cod": "D286",
+     "nome": "Desio",
+     "parziale": false
+    },
+    {
+     "cod": "E063",
+     "nome": "Giussano",
+     "parziale": false
+    },
+    {
+     "cod": "E504",
+     "nome": "Lazzate",
+     "parziale": false
+    },
+    {
+     "cod": "E530",
+     "nome": "Lentate sul Seveso",
+     "parziale": false
+    },
+    {
+     "cod": "E550",
+     "nome": "Lesmo",
+     "parziale": false
+    },
+    {
+     "cod": "E591",
+     "nome": "Limbiate",
+     "parziale": false
+    },
+    {
+     "cod": "E617",
+     "nome": "Lissone",
+     "parziale": false
+    },
+    {
+     "cod": "E786",
+     "nome": "Macherio",
+     "parziale": false
+    },
+    {
+     "cod": "F078",
+     "nome": "Meda",
+     "parziale": false
+    },
+    {
+     "cod": "F165",
+     "nome": "Mezzago",
+     "parziale": false
+    },
+    {
+     "cod": "F247",
+     "nome": "Misinto",
+     "parziale": false
+    },
+    {
+     "cod": "F704",
+     "nome": "Monza",
+     "parziale": false
+    },
+    {
+     "cod": "F797",
+     "nome": "Muggiò",
+     "parziale": false
+    },
+    {
+     "cod": "F944",
+     "nome": "Nova Milanese",
+     "parziale": false
+    },
+    {
+     "cod": "G116",
+     "nome": "Ornago",
+     "parziale": false
+    },
+    {
+     "cod": "H233",
+     "nome": "Renate",
+     "parziale": false
+    },
+    {
+     "cod": "H529",
+     "nome": "Roncello",
+     "parziale": false
+    },
+    {
+     "cod": "H537",
+     "nome": "Ronco Briantino",
+     "parziale": false
+    },
+    {
+     "cod": "I625",
+     "nome": "Seregno",
+     "parziale": false
+    },
+    {
+     "cod": "I709",
+     "nome": "Seveso",
+     "parziale": false
+    },
+    {
+     "cod": "I878",
+     "nome": "Sovico",
+     "parziale": false
+    },
+    {
+     "cod": "I998",
+     "nome": "Sulbiate",
+     "parziale": false
+    },
+    {
+     "cod": "L434",
+     "nome": "Triuggio",
+     "parziale": false
+    },
+    {
+     "cod": "L511",
+     "nome": "Usmate Velate",
+     "parziale": false
+    },
+    {
+     "cod": "L677",
+     "nome": "Varedo",
+     "parziale": false
+    },
+    {
+     "cod": "L704",
+     "nome": "Vedano al Lambro",
+     "parziale": false
+    },
+    {
+     "cod": "L709",
+     "nome": "Veduggio con Colzano",
+     "parziale": false
+    },
+    {
+     "cod": "L744",
+     "nome": "Verano Brianza",
+     "parziale": false
+    },
+    {
+     "cod": "M017",
+     "nome": "Villasanta",
+     "parziale": false
+    },
+    {
+     "cod": "M052",
+     "nome": "Vimercate",
+     "parziale": false
+    }
+   ],
+   "candidati": [
+    [
+     "Adriano Galliani",
+     51.46,
+     "Fratelli d'Italia - Forza Italia - Noi Moderati - Lega",
+     "centrodestra"
+    ],
+    [
+     "Marco Cappato",
+     39.53,
+     "Con Cappato",
+     "centrosinistra"
+    ],
+    [
+     "Cateno De Luca",
+     1.76,
+     "Sud con Nord",
+     "altro"
+    ],
+    [
+     "Giovanna Capelli",
+     1.73,
+     "Unione Popolare",
+     "sinistra"
+    ],
+    [
+     "Domenico Di Modugno",
+     1.65,
+     "Partito Comunista Italiano",
+     "sinistra"
+    ],
+    [
+     "Daniele Giovanardi",
+     1.43,
+     "Democrazia Sovrana Popolare",
+     "altro"
+    ],
+    [
+     "Lillo Massimiliano Musso",
+     1.26,
+     "Forza del Popolo",
+     "altro"
+    ],
+    [
+     "Andrea Brenna",
+     1.19,
+     "Democrazia e Sussidiarietà",
+     "altro"
+    ]
+   ],
+   "affluenza": 19.25,
+   "fonte": "https://it.wikipedia.org/wiki/Elezioni_politiche_suppletive_in_Italia_del_2023#Collegio_Lombardia_-_06",
+   "fonte_comuni": "https://it.wikipedia.org/wiki/Collegio_uninominale_Lombardia_-_06_%282020%29"
+  },
+  {
+   "d": "2026-03-22",
+   "d2": "2026-03-23",
+   "ramo": "C",
+   "legislatura": "XIX",
+   "collegio": "Veneto 2 - 01 (Rovigo)",
+   "sistema": "Rosatellum",
+   "comuni": [
+    {
+     "cod": "A059",
+     "nome": "Adria",
+     "parziale": false
+    },
+    {
+     "cod": "A075",
+     "nome": "Agna",
+     "parziale": false
+    },
+    {
+     "cod": "A296",
+     "nome": "Anguillara Veneta",
+     "parziale": false
+    },
+    {
+     "cod": "A400",
+     "nome": "Ariano nel Polesine",
+     "parziale": false
+    },
+    {
+     "cod": "A434",
+     "nome": "Arquà Petrarca",
+     "parziale": false
+    },
+    {
+     "cod": "A435",
+     "nome": "Arquà Polesine",
+     "parziale": false
+    },
+    {
+     "cod": "A539",
+     "nome": "Badia Polesine",
+     "parziale": false
+    },
+    {
+     "cod": "A568",
+     "nome": "Bagnoli di Sopra",
+     "parziale": false
+    },
+    {
+     "cod": "A574",
+     "nome": "Bagnolo di Po",
+     "parziale": false
+    },
+    {
+     "cod": "A613",
+     "nome": "Baone",
+     "parziale": false
+    },
+    {
+     "cod": "A637",
+     "nome": "Barbona",
+     "parziale": false
+    },
+    {
+     "cod": "A795",
+     "nome": "Bergantino",
+     "parziale": false
+    },
+    {
+     "cod": "A906",
+     "nome": "Boara Pisani",
+     "parziale": false
+    },
+    {
+     "cod": "M402",
+     "nome": "Borgo Veneto",
+     "parziale": false
+    },
+    {
+     "cod": "B069",
+     "nome": "Bosaro",
+     "parziale": false
+    },
+    {
+     "cod": "B432",
+     "nome": "Calto",
+     "parziale": false
+    },
+    {
+     "cod": "B578",
+     "nome": "Canaro",
+     "parziale": false
+    },
+    {
+     "cod": "B582",
+     "nome": "Canda",
+     "parziale": false
+    },
+    {
+     "cod": "B877",
+     "nome": "Casale di Scodosia",
+     "parziale": false
+    },
+    {
+     "cod": "C057",
+     "nome": "Castelbaldo",
+     "parziale": false
+    },
+    {
+     "cod": "C122",
+     "nome": "Castelguglielmo",
+     "parziale": false
+    },
+    {
+     "cod": "C207",
+     "nome": "Castelmassa",
+     "parziale": false
+    },
+    {
+     "cod": "C215",
+     "nome": "Castelnovo Bariano",
+     "parziale": false
+    },
+    {
+     "cod": "C461",
+     "nome": "Ceneselli",
+     "parziale": false
+    },
+    {
+     "cod": "C500",
+     "nome": "Ceregnano",
+     "parziale": false
+    },
+    {
+     "cod": "C713",
+     "nome": "Cinto Euganeo",
+     "parziale": false
+    },
+    {
+     "cod": "C987",
+     "nome": "Corbola",
+     "parziale": false
+    },
+    {
+     "cod": "D105",
+     "nome": "Costa di Rovigo",
+     "parziale": false
+    },
+    {
+     "cod": "D161",
+     "nome": "Crespino",
+     "parziale": false
+    },
+    {
+     "cod": "D442",
+     "nome": "Este",
+     "parziale": false
+    },
+    {
+     "cod": "D568",
+     "nome": "Ficarolo",
+     "parziale": false
+    },
+    {
+     "cod": "D577",
+     "nome": "Fiesso Umbertiano",
+     "parziale": false
+    },
+    {
+     "cod": "D776",
+     "nome": "Frassinelle Polesine",
+     "parziale": false
+    },
+    {
+     "cod": "D788",
+     "nome": "Fratta Polesine",
+     "parziale": false
+    },
+    {
+     "cod": "D855",
+     "nome": "Gaiba",
+     "parziale": false
+    },
+    {
+     "cod": "D942",
+     "nome": "Gavello",
+     "parziale": false
+    },
+    {
+     "cod": "E008",
+     "nome": "Giacciano con Baruchella",
+     "parziale": false
+    },
+    {
+     "cod": "E146",
+     "nome": "Granze",
+     "parziale": false
+    },
+    {
+     "cod": "E240",
+     "nome": "Guarda Veneta",
+     "parziale": false
+    },
+    {
+     "cod": "E522",
+     "nome": "Lendinara",
+     "parziale": false
+    },
+    {
+     "cod": "E689",
+     "nome": "Loreo",
+     "parziale": false
+    },
+    {
+     "cod": "E709",
+     "nome": "Lozzo Atestino",
+     "parziale": false
+    },
+    {
+     "cod": "E761",
+     "nome": "Lusia",
+     "parziale": false
+    },
+    {
+     "cod": "F013",
+     "nome": "Masi",
+     "parziale": false
+    },
+    {
+     "cod": "F092",
+     "nome": "Megliadino San Vitale",
+     "parziale": false
+    },
+    {
+     "cod": "F095",
+     "nome": "Melara",
+     "parziale": false
+    },
+    {
+     "cod": "F148",
+     "nome": "Merlara",
+     "parziale": false
+    },
+    {
+     "cod": "F382",
+     "nome": "Monselice",
+     "parziale": false
+    },
+    {
+     "cod": "F394",
+     "nome": "Montagnana",
+     "parziale": false
+    },
+    {
+     "cod": "F994",
+     "nome": "Occhiobello",
+     "parziale": false
+    },
+    {
+     "cod": "G167",
+     "nome": "Ospedaletto Euganeo",
+     "parziale": false
+    },
+    {
+     "cod": "G323",
+     "nome": "Papozze",
+     "parziale": false
+    },
+    {
+     "cod": "G461",
+     "nome": "Pernumia",
+     "parziale": false
+    },
+    {
+     "cod": "G525",
+     "nome": "Pettorazza Grimani",
+     "parziale": false
+    },
+    {
+     "cod": "G534",
+     "nome": "Piacenza d'Adige",
+     "parziale": false
+    },
+    {
+     "cod": "G673",
+     "nome": "Pincara",
+     "parziale": false
+    },
+    {
+     "cod": "G782",
+     "nome": "Polesella",
+     "parziale": false
+    },
+    {
+     "cod": "G823",
+     "nome": "Ponso",
+     "parziale": false
+    },
+    {
+     "cod": "G836",
+     "nome": "Pontecchio Polesine",
+     "parziale": false
+    },
+    {
+     "cod": "G923",
+     "nome": "Porto Tolle",
+     "parziale": false
+    },
+    {
+     "cod": "G926",
+     "nome": "Porto Viro",
+     "parziale": false
+    },
+    {
+     "cod": "G963",
+     "nome": "Pozzonovo",
+     "parziale": false
+    },
+    {
+     "cod": "H573",
+     "nome": "Rosolina",
+     "parziale": false
+    },
+    {
+     "cod": "H620",
+     "nome": "Rovigo",
+     "parziale": false
+    },
+    {
+     "cod": "H689",
+     "nome": "Salara",
+     "parziale": false
+    },
+    {
+     "cod": "H768",
+     "nome": "San Bellino",
+     "parziale": false
+    },
+    {
+     "cod": "H996",
+     "nome": "San Martino di Venezze",
+     "parziale": false
+    },
+    {
+     "cod": "I120",
+     "nome": "San Pietro Viminario",
+     "parziale": false
+    },
+    {
+     "cod": "I319",
+     "nome": "Sant'Elena",
+     "parziale": false
+    },
+    {
+     "cod": "I375",
+     "nome": "Sant'Urbano",
+     "parziale": false
+    },
+    {
+     "cod": "M438",
+     "nome": "Santa Caterina D'Este",
+     "parziale": false
+    },
+    {
+     "cod": "I799",
+     "nome": "Solesino",
+     "parziale": false
+    },
+    {
+     "cod": "I938",
+     "nome": "Stanghella",
+     "parziale": false
+    },
+    {
+     "cod": "I953",
+     "nome": "Stienta",
+     "parziale": false
+    },
+    {
+     "cod": "L026",
+     "nome": "Taglio di Po",
+     "parziale": false
+    },
+    {
+     "cod": "L359",
+     "nome": "Trecenta",
+     "parziale": false
+    },
+    {
+     "cod": "L414",
+     "nome": "Tribano",
+     "parziale": false
+    },
+    {
+     "cod": "L497",
+     "nome": "Urbana",
+     "parziale": false
+    },
+    {
+     "cod": "L805",
+     "nome": "Vescovana",
+     "parziale": false
+    },
+    {
+     "cod": "L937",
+     "nome": "Villa Estense",
+     "parziale": false
+    },
+    {
+     "cod": "L939",
+     "nome": "Villadose",
+     "parziale": false
+    },
+    {
+     "cod": "L967",
+     "nome": "Villamarzana",
+     "parziale": false
+    },
+    {
+     "cod": "L985",
+     "nome": "Villanova del Ghebbo",
+     "parziale": false
+    },
+    {
+     "cod": "L988",
+     "nome": "Villanova Marchesana",
+     "parziale": false
+    },
+    {
+     "cod": "M103",
+     "nome": "Vo'",
+     "parziale": false
+    }
+   ],
+   "candidati": [
+    [
+     "Alberto Di Rubba",
+     57.43,
+     "FdI - Lega - NM - UdC - FI",
+     "centrodestra"
+    ],
+    [
+     "Giacomo Bovolenta",
+     34.91,
+     "PD - AVS - IV",
+     "centrosinistra"
+    ],
+    [
+     "Giuseppe Padoan",
+     7.67,
+     "Italia resiste libera",
+     "altro"
+    ]
+   ],
+   "affluenza": 53.56,
+   "fonte": "https://it.wikipedia.org/wiki/Elezioni_politiche_suppletive_in_Italia_del_2026#Collegio_Veneto_2_-_01",
+   "fonte_comuni": "https://it.wikipedia.org/wiki/Collegio_uninominale_Veneto_2_-_01_%282020%29",
+   "verifica": "https://pagellapolitica.it/articoli/elezioni-suppletive-veneto-vittoria-centrodestra",
+   "note": "Carceri e Vighizzolo d'Este, nel collegio secondo il decreto del 2020, dal 22 gennaio 2024 formano il comune di Santa Caterina d'Este."
+  },
+  {
+   "d": "2026-03-22",
+   "d2": "2026-03-23",
+   "ramo": "C",
+   "legislatura": "XIX",
+   "collegio": "Veneto 2 - 02 (Selvazzano Dentro)",
+   "sistema": "Rosatellum",
+   "comuni": [
+    {
+     "cod": "B031",
+     "nome": "Borgoricco",
+     "parziale": false
+    },
+    {
+     "cod": "B345",
+     "nome": "Cadoneghe",
+     "parziale": false
+    },
+    {
+     "cod": "B564",
+     "nome": "Campo San Martino",
+     "parziale": false
+    },
+    {
+     "cod": "B524",
+     "nome": "Campodarsego",
+     "parziale": false
+    },
+    {
+     "cod": "B531",
+     "nome": "Campodoro",
+     "parziale": false
+    },
+    {
+     "cod": "B563",
+     "nome": "Camposampiero",
+     "parziale": false
+    },
+    {
+     "cod": "B795",
+     "nome": "Carmignano di Brenta",
+     "parziale": false
+    },
+    {
+     "cod": "C544",
+     "nome": "Cervarese Santa Croce",
+     "parziale": false
+    },
+    {
+     "cod": "C743",
+     "nome": "Cittadella",
+     "parziale": false
+    },
+    {
+     "cod": "D226",
+     "nome": "Curtarolo",
+     "parziale": false
+    },
+    {
+     "cod": "D679",
+     "nome": "Fontaniva",
+     "parziale": false
+    },
+    {
+     "cod": "D879",
+     "nome": "Galliera Veneta",
+     "parziale": false
+    },
+    {
+     "cod": "D889",
+     "nome": "Galzignano Terme",
+     "parziale": false
+    },
+    {
+     "cod": "D956",
+     "nome": "Gazzo",
+     "parziale": false
+    },
+    {
+     "cod": "E145",
+     "nome": "Grantorto",
+     "parziale": false
+    },
+    {
+     "cod": "E592",
+     "nome": "Limena",
+     "parziale": false
+    },
+    {
+     "cod": "E684",
+     "nome": "Loreggia",
+     "parziale": false
+    },
+    {
+     "cod": "F033",
+     "nome": "Massanzago",
+     "parziale": false
+    },
+    {
+     "cod": "F161",
+     "nome": "Mestrino",
+     "parziale": false
+    },
+    {
+     "cod": "F962",
+     "nome": "Noventa Padovana",
+     "parziale": false
+    },
+    {
+     "cod": "G587",
+     "nome": "Piazzola sul Brenta",
+     "parziale": false
+    },
+    {
+     "cod": "G688",
+     "nome": "Piombino Dese",
+     "parziale": false
+    },
+    {
+     "cod": "H622",
+     "nome": "Rovolon",
+     "parziale": false
+    },
+    {
+     "cod": "H625",
+     "nome": "Rubano",
+     "parziale": false
+    },
+    {
+     "cod": "H655",
+     "nome": "Saccolongo",
+     "parziale": false
+    },
+    {
+     "cod": "H893",
+     "nome": "San Giorgio delle Pertiche",
+     "parziale": false
+    },
+    {
+     "cod": "H897",
+     "nome": "San Giorgio in Bosco",
+     "parziale": false
+    },
+    {
+     "cod": "I008",
+     "nome": "San Martino di Lupari",
+     "parziale": false
+    },
+    {
+     "cod": "I107",
+     "nome": "San Pietro in Gu",
+     "parziale": false
+    },
+    {
+     "cod": "I207",
+     "nome": "Santa Giustina in Colle",
+     "parziale": false
+    },
+    {
+     "cod": "I595",
+     "nome": "Selvazzano Dentro",
+     "parziale": false
+    },
+    {
+     "cod": "L100",
+     "nome": "Teolo",
+     "parziale": false
+    },
+    {
+     "cod": "L199",
+     "nome": "Tombolo",
+     "parziale": false
+    },
+    {
+     "cod": "L270",
+     "nome": "Torreglia",
+     "parziale": false
+    },
+    {
+     "cod": "L349",
+     "nome": "Trebaseleghe",
+     "parziale": false
+    },
+    {
+     "cod": "L710",
+     "nome": "Veggiano",
+     "parziale": false
+    },
+    {
+     "cod": "L892",
+     "nome": "Vigodarzere",
+     "parziale": false
+    },
+    {
+     "cod": "L900",
+     "nome": "Vigonza",
+     "parziale": false
+    },
+    {
+     "cod": "L934",
+     "nome": "Villa del Conte",
+     "parziale": false
+    },
+    {
+     "cod": "L947",
+     "nome": "Villafranca Padovana",
+     "parziale": false
+    },
+    {
+     "cod": "L979",
+     "nome": "Villanova di Camposampiero",
+     "parziale": false
+    }
+   ],
+   "candidati": [
+    [
+     "Giulio Centenaro",
+     59.44,
+     "FdI - Lega - NM - UdC - FI",
+     "centrodestra"
+    ],
+    [
+     "Antonino Stivanello",
+     31.21,
+     "PD - AVS - IV",
+     "centrosinistra"
+    ],
+    [
+     "Mario Adinolfi",
+     5.03,
+     "Il Popolo della Famiglia",
+     "altro"
+    ],
+    [
+     "Andrea Paccagnella",
+     4.32,
+     "ORA!",
+     "altro"
+    ]
+   ],
+   "affluenza": 58.33,
+   "fonte": "https://it.wikipedia.org/wiki/Elezioni_politiche_suppletive_in_Italia_del_2026#Collegio_Veneto_2_-_02",
+   "fonte_comuni": "https://it.wikipedia.org/wiki/Collegio_uninominale_Veneto_2_-_02_%282020%29",
+   "verifica": "https://pagellapolitica.it/articoli/elezioni-suppletive-veneto-vittoria-centrodestra"
+  },
+  {
+   "d": "2026-09-27",
+   "d2": "2026-09-28",
+   "ramo": "C",
+   "legislatura": "XIX",
+   "collegio": "Calabria - 05 (Reggio Calabria)",
+   "sistema": "Rosatellum",
+   "comuni": [
+    {
+     "cod": "A065",
+     "nome": "Africo",
+     "parziale": false
+    },
+    {
+     "cod": "A077",
+     "nome": "Agnana Calabra",
+     "parziale": false
+    },
+    {
+     "cod": "A314",
+     "nome": "Antonimina",
+     "parziale": false
+    },
+    {
+     "cod": "A385",
+     "nome": "Ardore",
+     "parziale": false
+    },
+    {
+     "cod": "A544",
+     "nome": "Bagaladi",
+     "parziale": false
+    },
+    {
+     "cod": "A780",
+     "nome": "Benestare",
+     "parziale": false
+    },
+    {
+     "cod": "A843",
+     "nome": "Bianco",
+     "parziale": false
+    },
+    {
+     "cod": "A897",
+     "nome": "Bivongi",
+     "parziale": false
+    },
+    {
+     "cod": "B097",
+     "nome": "Bova",
+     "parziale": false
+    },
+    {
+     "cod": "B099",
+     "nome": "Bova Marina",
+     "parziale": false
+    },
+    {
+     "cod": "B098",
+     "nome": "Bovalino",
+     "parziale": false
+    },
+    {
+     "cod": "B118",
+     "nome": "Brancaleone",
+     "parziale": false
+    },
+    {
+     "cod": "B234",
+     "nome": "Bruzzano Zeffirio",
+     "parziale": false
+    },
+    {
+     "cod": "B379",
+     "nome": "Calanna",
+     "parziale": false
+    },
+    {
+     "cod": "B481",
+     "nome": "Camini",
+     "parziale": false
+    },
+    {
+     "cod": "B516",
+     "nome": "Campo Calabro",
+     "parziale": false
+    },
+    {
+     "cod": "B617",
+     "nome": "Canolo",
+     "parziale": false
+    },
+    {
+     "cod": "B718",
+     "nome": "Caraffa del Bianco",
+     "parziale": false
+    },
+    {
+     "cod": "B756",
+     "nome": "Cardeto",
+     "parziale": false
+    },
+    {
+     "cod": "B766",
+     "nome": "Careri",
+     "parziale": false
+    },
+    {
+     "cod": "B966",
+     "nome": "Casignana",
+     "parziale": false
+    },
+    {
+     "cod": "C285",
+     "nome": "Caulonia",
+     "parziale": false
+    },
+    {
+     "cod": "C695",
+     "nome": "Ciminà",
+     "parziale": false
+    },
+    {
+     "cod": "C954",
+     "nome": "Condofuri",
+     "parziale": false
+    },
+    {
+     "cod": "D089",
+     "nome": "Cosoleto",
+     "parziale": false
+    },
+    {
+     "cod": "D268",
+     "nome": "Delianuova",
+     "parziale": false
+    },
+    {
+     "cod": "D557",
+     "nome": "Ferruzzano",
+     "parziale": false
+    },
+    {
+     "cod": "D619",
+     "nome": "Fiumara",
+     "parziale": false
+    },
+    {
+     "cod": "D975",
+     "nome": "Gerace",
+     "parziale": false
+    },
+    {
+     "cod": "E044",
+     "nome": "Gioiosa Ionica",
+     "parziale": false
+    },
+    {
+     "cod": "E212",
+     "nome": "Grotteria",
+     "parziale": false
+    },
+    {
+     "cod": "E402",
+     "nome": "Laganadi",
+     "parziale": false
+    },
+    {
+     "cod": "D976",
+     "nome": "Locri",
+     "parziale": false
+    },
+    {
+     "cod": "E873",
+     "nome": "Mammola",
+     "parziale": false
+    },
+    {
+     "cod": "E956",
+     "nome": "Marina di Gioiosa Ionica",
+     "parziale": false
+    },
+    {
+     "cod": "E993",
+     "nome": "Martone",
+     "parziale": false
+    },
+    {
+     "cod": "F105",
+     "nome": "Melicuccà",
+     "parziale": false
+    },
+    {
+     "cod": "F112",
+     "nome": "Melito di Porto Salvo",
+     "parziale": false
+    },
+    {
+     "cod": "F324",
+     "nome": "Monasterace",
+     "parziale": false
+    },
+    {
+     "cod": "D746",
+     "nome": "Montebello Jonico",
+     "parziale": false
+    },
+    {
+     "cod": "F779",
+     "nome": "Motta San Giovanni",
+     "parziale": false
+    },
+    {
+     "cod": "G277",
+     "nome": "Palizzi",
+     "parziale": false
+    },
+    {
+     "cod": "G394",
+     "nome": "Pazzano",
+     "parziale": false
+    },
+    {
+     "cod": "G729",
+     "nome": "Placanica",
+     "parziale": false
+    },
+    {
+     "cod": "G735",
+     "nome": "Platì",
+     "parziale": false
+    },
+    {
+     "cod": "G905",
+     "nome": "Portigliola",
+     "parziale": false
+    },
+    {
+     "cod": "H224",
+     "nome": "Reggio di Calabria",
+     "parziale": false
+    },
+    {
+     "cod": "H265",
+     "nome": "Riace",
+     "parziale": false
+    },
+    {
+     "cod": "H408",
+     "nome": "Roccaforte del Greco",
+     "parziale": false
+    },
+    {
+     "cod": "H456",
+     "nome": "Roccella Ionica",
+     "parziale": false
+    },
+    {
+     "cod": "H489",
+     "nome": "Roghudi",
+     "parziale": false
+    },
+    {
+     "cod": "H013",
+     "nome": "Samo",
+     "parziale": false
+    },
+    {
+     "cod": "H903",
+     "nome": "San Giovanni di Gerace",
+     "parziale": false
+    },
+    {
+     "cod": "H959",
+     "nome": "San Lorenzo",
+     "parziale": false
+    },
+    {
+     "cod": "H970",
+     "nome": "San Luca",
+     "parziale": false
+    },
+    {
+     "cod": "I132",
+     "nome": "San Procopio",
+     "parziale": false
+    },
+    {
+     "cod": "I139",
+     "nome": "San Roberto",
+     "parziale": false
+    },
+    {
+     "cod": "I198",
+     "nome": "Sant'Agata del Bianco",
+     "parziale": false
+    },
+    {
+     "cod": "I214",
+     "nome": "Sant'Alessio in Aspromonte",
+     "parziale": false
+    },
+    {
+     "cod": "I333",
+     "nome": "Sant'Eufemia d'Aspromonte",
+     "parziale": false
+    },
+    {
+     "cod": "I341",
+     "nome": "Sant'Ilario dello Ionio",
+     "parziale": false
+    },
+    {
+     "cod": "I176",
+     "nome": "Santa Cristina d'Aspromonte",
+     "parziale": false
+    },
+    {
+     "cod": "I371",
+     "nome": "Santo Stefano in Aspromonte",
+     "parziale": false
+    },
+    {
+     "cod": "I536",
+     "nome": "Scido",
+     "parziale": false
+    },
+    {
+     "cod": "I537",
+     "nome": "Scilla",
+     "parziale": false
+    },
+    {
+     "cod": "I725",
+     "nome": "Siderno",
+     "parziale": false
+    },
+    {
+     "cod": "I753",
+     "nome": "Sinopoli",
+     "parziale": false
+    },
+    {
+     "cod": "I936",
+     "nome": "Staiti",
+     "parziale": false
+    },
+    {
+     "cod": "I955",
+     "nome": "Stignano",
+     "parziale": false
+    },
+    {
+     "cod": "I956",
+     "nome": "Stilo",
+     "parziale": false
+    },
+    {
+     "cod": "M018",
+     "nome": "Villa San Giovanni",
+     "parziale": false
+    }
+   ],
+   "candidati": [
+    [
+     "Fabio Roscioli",
+     51.02,
+     "FdI - Lega - NM - UdC - FI",
+     "centrodestra"
+    ],
+    [
+     "Frank Benedetto",
+     36.59,
+     "PD - M5S - CR",
+     "centrosinistra"
+    ],
+    [
+     "Domenico Giannetta",
+     10.94,
+     "Futuro Nazionale",
+     "destra"
+    ],
+    [
+     "Francesco Toscano",
+     1.44,
+     "Democrazia Sovrana Popolare",
+     "altro"
+    ]
+   ],
+   "affluenza": 22.34,
+   "fonte": "https://it.wikipedia.org/wiki/Elezioni_politiche_suppletive_in_Italia_del_2026#Collegio_Calabria_-_05",
+   "fonte_comuni": "https://it.wikipedia.org/wiki/Collegio_uninominale_Calabria_-_05_%282020%29"
+  }
+ ]
+}

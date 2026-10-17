@@ -140,6 +140,24 @@ function calcola() {
     }
   }
 
+  // Suppletive: si votava solo nel collegio rimasto senza deputato o senatore
+  for (const [d, d2, ramo, collegio, comuni, candidati] of (typeof SUPPLETIVE !== 'undefined' ? SUPPLETIVE : [])) {
+    const { res, trasloco } = residenzaIn(d);
+    if (!res || !res.comune || res.comune === ESTERO) continue;
+    const voce = comuni.find(c => c.slice(0, 4) === res.comune.cod);
+    if (!voce) continue;
+    const senato = ramo === 'S';
+    const e25 = senato && d < '2022-01-01' ? eta(d, 25) : 'si';
+    if (e25 === 'no') continue;
+    const note = [];
+    if (trasloco) note.push('Ti sei trasferito in quel mese: verifica dove eri iscritto.');
+    if (e25 === 'forse') note.push(`Per il Senato servivano 25 anni: potevi votare solo se li avevi compiuti entro il ${dataLunga(d)}.`);
+    const zona = voce.includes('*') ? voce.slice(5) : null;
+    if (voce.includes('*')) note.push(`Il collegio comprendeva solo una parte di ${res.comune.nome}${zona ? ` (${zona})` : ''}: se abitavi lì, segna come hai votato.`);
+    push({ key: `S:${ramo}:${d}:${res.comune.cod}`, d, d2, tipo: 'sup', ramo, supp: { collegio, candidati }, reg: regioneDi(res.comune, d), sig: res.comune.sig,
+      etichetta: `Suppletive ${senato ? 'Senato' : 'Camera'}`, descr: `Collegio ${collegio}`, note, esclDefault: voce.includes('*') });
+  }
+
   // Regionali
   const giaRegionali = new Set();
   const aggiungiRegionali = (d, d2, cb) => {
@@ -241,7 +259,7 @@ function calcola() {
   out.sort((a, b) => a.d.localeCompare(b.d) || ordineTipo(a.tipo) - ordineTipo(b.tipo) || (a.ramo === 'S') - (b.ramo === 'S'));
   return out;
 }
-const ordineTipo = t => ({ pol: 0, eur: 1, reg: 2, ref: 3, com: 4, bal: 5, altro: 6 }[t] ?? 9);
+const ordineTipo = t => ({ pol: 0, sup: 0.5, eur: 1, reg: 2, ref: 3, com: 4, bal: 5, altro: 6 }[t] ?? 9);
 
 // ===== Provinciali =====
 // Archivio del Ministero (2004-2011, con i comuni di ogni provincia) e Wikipedia (1993-2003, Sicilia e Friuli-Venezia Giulia).
@@ -605,6 +623,8 @@ function candidatiReali(o) {
   } else if (o.prov) {
     const e = indiceProvinciali().el.get(o.prov);
     grezzi = e ? e.c : null;
+  } else if (o.supp) {
+    grezzi = o.supp.candidati.map(([nome, pct, partito, area]) => [nome, pct, partito ? [[partito, null]] : [], area]);
   } else if ((o.tipo === 'com' || o.tipo === 'bal') && o.cod && window.CANDIDATI_COMUNALI) {
     grezzi = window.CANDIDATI_COMUNALI[`${o.cod}-${o.primo || o.d}`];
   }
@@ -723,7 +743,7 @@ function controlliScelta(o, r, inp, dopo = () => {}) {
     return box;
   }
 
-  const reali = (o.tipo === 'reg' || o.tipo === 'com' || o.tipo === 'bal') ? candidatiReali(o) : null;
+  const reali = (o.tipo === 'reg' || o.tipo === 'com' || o.tipo === 'bal' || o.tipo === 'sup') ? candidatiReali(o) : null;
   if (reali) {
     const conNome = reali.filter(c => c.nome);
     const vc = conNome.map((c, i) => ({ v: 'c' + i, l: `${c.nome}${c.liste.length ? ' — ' + c.liste.slice(0, 2).map(breveLista).join(', ') : ''}`, c }));
@@ -735,7 +755,7 @@ function controlliScelta(o, r, inp, dopo = () => {}) {
       if (sc) return imposta(sc.t, { k: 'bianca' });
       const pc = vc.find(v => v.v === coalizione), pl = tutteListe.find(v => v.v === lista);
       const parti = [];
-      if (pc) parti.push(`${pc.c.nome} ${emojiCandidato(pc.c)}`);
+      if (pc) parti.push(o.supp && pc.c.liste[0] ? `${pc.c.nome} (${pc.c.liste[0].n}) ${emojiCandidato(pc.c)}` : `${pc.c.nome} ${emojiCandidato(pc.c)}`);
       if (pl) parti.push(`${/^lista /i.test(breveLista(pl.lst)) ? '' : 'Lista '}${breveLista(pl.lst)} ${emojiLista(pl.lst, pl.c)}`);
       // lo schieramento è quello del candidato; senza candidati (liste e basta) quello della lista
       const cand = pc ? pc.c : pl && pl.c.nome ? pl.c : null;
@@ -749,13 +769,13 @@ function controlliScelta(o, r, inp, dopo = () => {}) {
       }
       imposta(parti.join(' '), pos, [...(pc ? [gruppoCandidato(pc.c)] : []), ...(pl ? [gruppoLista(pl.lst, pl.c)] : [])]);
     };
-    const nomeCand = o.prov ? 'Candidato presidente della provincia' : o.tipo === 'reg' ? (o.reg === '04' ? 'Candidato presidente della provincia' : 'Candidato presidente') : 'Candidato sindaco';
+    const nomeCand = o.supp ? 'Candidato nel collegio' : o.prov ? 'Candidato presidente della provincia' : o.tipo === 'reg' ? (o.reg === '04' ? 'Candidato presidente della provincia' : 'Candidato presidente') : 'Candidato sindaco';
     if (vc.length) box.append(seleziona(nomeCand, [[null, vc], ['Altro', SCHEDE]], r.sel.coalizione, v => {
       r.sel.coalizione = v;
       // la lista scelta resta anche se è di un altro candidato: è il voto disgiunto
       componi(); disegnaElenco();
     }));
-    if (o.tipo !== 'bal' && tutteListe.length) {
+    if (o.tipo !== 'bal' && o.tipo !== 'sup' && tutteListe.length) {
       const scelto = vc.find(x => x.v === r.sel.coalizione);
       const gruppi = scelto ? [...gruppiListe.filter(g => g[1][0] && g[1][0].c === scelto.c), ...gruppiListe.filter(g => !g[1][0] || g[1][0].c !== scelto.c)] : gruppiListe;
       box.append(seleziona('Lista', [...gruppi, ['Altro', SCHEDE]], r.sel.lista, v => { r.sel.lista = v; componi(); }));

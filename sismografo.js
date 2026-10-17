@@ -5,7 +5,7 @@
 // Liste civiche, referendum, schede bianche e astensioni restano fuori dall'asse.
 // Tutto si calcola nel browser a partire dalle risposte in memoria.
 
-const NAZIONALI_TIPI = new Set(['pol', 'eur']);
+const NAZIONALI_TIPI = new Set(['pol', 'eur', 'sup']);
 // peso dei voti nazionali nel baricentro (il resto va a regionali e comunali); 1 = solo nazionali
 let pesoNazionale = 0.7;
 const ASSE = { sinistra: -2, centrosinistra: -1, centro: 0, centrodestra: 1, destra: 2 };
@@ -135,7 +135,7 @@ function posizioneVincitore(o) {
   if (o.tipo === 'pol' || o.tipo === 'eur') {
     const dati = listeNazionali(o), m = dati && piuVotato(dati.liste);
     area = m ? m.a : null;
-  } else if (o.tipo === 'reg' || o.tipo === 'com') {
+  } else if (o.tipo === 'reg' || o.tipo === 'com' || o.tipo === 'sup') {
     const reali = candidatiReali(o);
     if (reali) {
       const conNome = reali.filter(c => c.nome);
