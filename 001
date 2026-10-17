@@ -1,0 +1,2376 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="pragma" content="no-cache"/>
+<meta http-equiv="expires" content="0"/>
+<meta name="product" content="Ascot Web Elezioni"/>
+<meta name="copyright" content="Copyright &copy; 2010, Insiel Mercato S.p.A."/>
+<meta name="rights" content="All rights reserved"/>
+<meta name="author" content="Insiel Mercato S.p.A."/>
+<link rel="stylesheet" media="screen" href="css/frontend.css" />
+<title>Elezioni Amministrative Trentino Alto Adige - Riepilogo</title>
+<!--[if IE 6]>
+<link rel="stylesheet" media="screen" href="css/ie6.css" />
+<![endif]-->
+<!--[if IE 7]>
+<link rel="stylesheet" media="screen" href="css/ie7.css" />
+<![endif]-->
+<!--[if IE 8]>
+<link rel="stylesheet" media="screen" href="css/ie8.css" />
+<![endif]-->
+</head>
+
+<body>
+
+<div id="container">
+    <div id="header">
+    	<div id="intestazione">
+        	<div id="logo_elezioni">
+            	<a href="http://www.regione.taa.it/Elettorale/modulistica.aspx" target="_blank" title="vai al sito delle elezioni del Trentino Alto Adige"><img src="img/logo_elezioni.jpg" alt="Logo elezioni" /></a>
+            	<a href="http://www.regione.taa.it/" target="_blank" title="vai al sito del Trentino Alto Adige">Vai al sito</a>
+            </div>
+            <div id="box_tit">
+            	<div id="titolo">Regione autonoma <span class="enfasi">Trentino Alto Adige</span></div>
+                <div id="sottotitolo">Copyright Regione Autonoma Trentino-Alto Adige/Südtirol</div>
+        </div>
+            <div id="credits">Servizi realizzati da Informatica Trentina S.p.A. in collaborazione con <span>Insiel Mercato S.p.A.</span></div>
+            <div class="stabilizzatore"></div>
+        </div>
+    	<div id="element_header">
+            
+            <ul id="navigation">
+       	    	<li>
+                    
+                     <a href="index_000053.html" title="vai alla home page">
+                        <span  id="selected" >Home</span></a>
+                     
+                </li>
+                <li >
+                    <a  href="000053_Com/Affluenza/index_A.html"  title="vai al riepilogo delle affluenze">
+                        <span >Riepilogo Affluenze</span></a>
+                </li>
+                <li >
+                    <a href="index.html"  title="vai al ballottaggio">
+                        <span>Ballottaggio</span></a>
+                </li>
+                <li  class="hidden">
+                    <a  href="../Candidature/000000.html"  title="vai alle candidature">
+                        <span >Candidature</span></a>
+                </li>
+                <li  class="hidden">
+                    <a  href="../Affluenza/000000.html"  title="vai all'affluenza">
+                        <span >Affluenza</span></a>
+                </li>
+                <li  class="hidden">
+                    <a  href="../Coalizioni/000000.html"  title="vai alla pagina del sindaco">
+                        <span >Sindaco</span></a>
+                </li>
+                <li  class="hidden">
+                    <a  href="../Liste/000000.html"  title="vai alle liste">
+                        <span >Liste</span></a>
+                </li>
+                <li  class="hidden">
+                    <a  href="../Seggi/000000.html"  title="vai alla distribuzione dei seggi">
+                        <span >Distribuzione dei Seggi</span></a>
+                </li>
+                <li  class="hidden">
+                    <a  href="../Consiglio/000000.html"  title="vai alla composizione del consiglio">
+                        <span >Composizione Consiglio</span></a>
+                </li>
+            </ul>
+                
+          <div id="etichetta_header">Elezioni amministrative<br /><span>16 Maggio 2010</span></div>
+          <div id="box_tipo_risultati_e_dati_andamento">
+              
+            	<div id="tipo_risultati">Risultati ufficiosi</div>
+                <div id="dati_andamento">Ultima rilevazione: 25 maggio 2010 12:09</div>
+                <div class="stabilizzatore"></div>
+          </div>
+      </div>
+    </div>
+	<div id="content">
+
+    <div id="container_home">
+
+    <div id="leggenda_colori">
+    	<div class="box_colore">
+        	<div class="quadratino scrutini_non_iniziati"></div>
+            <div class="dicitura">Scrutini non iniziati</div>
+        </div>
+        <div class="box_colore">
+        	<div class="quadratino scrutini_in_corso"></div>
+            <div class="dicitura">Scrutini in corso</div>
+        </div>
+        <div class="box_colore">
+        	<div class="quadratino scrutini_conclusi"></div>
+            <div class="dicitura">Scrutini conclusi</div>
+        </div>
+        <div class="stabilizzatore"></div>
+    </div>
+
+        
+            <!-- STAMPO I COMUNI CON POPOLAZIONE SUPERIORE A 3000-->
+            <table class="tabella_home">
+              <tr class="intestazione_tabella">
+                <td colspan="5" class="borderless_orriz_top">Comuni con popolazione superiore a 3.000 abitanti</td>
+              </tr>
+              <tr class="intestazione_colonna">
+                <td class="width_col_1">Comuni</td>
+                <td class="width_col_2">Candidato Sindaco</td>
+                <td class="width_col_3">Voti di liste</td>
+                <td class="width_col_4">Voti di preferenze</td>
+                <td class="width_col_5">Sindaco eletto</td>
+              </tr>
+
+            
+               <tr>
+                    <td><a href="000053_Com/Candidature/000015.html" class="barra" title="vai al dettaglio"><strong>Ala</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 7 su 7 <br /><a href="000053_Com/Coalizioni/000015.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 7 su 7 <br /><a href="000053_Com/Liste/000015.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 7 su 7 <br /><a href="000053_Com/Consiglio/000015.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td><span>BALLOTTAGGIO IL 30/05/2010</span></td>
+                </tr>
+            
+               <tr>
+                    <td><a href="000053_Com/Candidature/000020.html" class="barra" title="vai al dettaglio"><strong>Arco</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 12 su 12 <br /><a href="000053_Com/Coalizioni/000020.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 12 su 12 <br /><a href="000053_Com/Liste/000020.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 12 su 12 <br /><a href="000053_Com/Consiglio/000020.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td><span>BALLOTTAGGIO IL 30/05/2010</span></td>
+                </tr>
+            
+               <tr>
+                    <td><a href="000053_Com/Candidature/000021.html" class="barra" title="vai al dettaglio"><strong>Avio</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 3 su 3 <br /><a href="000053_Com/Coalizioni/000021.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 3 su 3 <br /><a href="000053_Com/Liste/000021.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 3 su 3 <br /><a href="000053_Com/Consiglio/000021.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>BORGHETTI SANDRO</td>
+                </tr>
+            
+               <tr>
+                    <td><a href="000053_Com/Candidature/000022.html" class="barra" title="vai al dettaglio"><strong>Baselga di Pinè</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 4 su 4 <br /><a href="000053_Com/Coalizioni/000022.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 4 su 4 <br /><a href="000053_Com/Liste/000022.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 4 su 4 <br /><a href="000053_Com/Consiglio/000022.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td><span>BALLOTTAGGIO IL 30/05/2010</span></td>
+                </tr>
+            
+               <tr>
+                    <td><a href="000053_Com/Candidature/000037.html" class="barra" title="vai al dettaglio"><strong>Brentonico</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 4 su 4 <br /><a href="000053_Com/Coalizioni/000037.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 4 su 4 <br /><a href="000053_Com/Liste/000037.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 4 su 4 <br /><a href="000053_Com/Consiglio/000037.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>DOSSI GIORGIO</td>
+                </tr>
+            
+               <tr>
+                    <td><a href="000053_Com/Candidature/000061.html" class="barra" title="vai al dettaglio"><strong>Cavalese</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 3 su 3 <br /><a href="000053_Com/Coalizioni/000061.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 3 su 3 <br /><a href="000053_Com/Liste/000061.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 3 su 3 <br /><a href="000053_Com/Consiglio/000061.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>WELPONER SILVANO</td>
+                </tr>
+            
+               <tr>
+                    <td><a href="000053_Com/Candidature/000090.html" class="barra" title="vai al dettaglio"><strong>Dro</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 3 su 3 <br /><a href="000053_Com/Coalizioni/000090.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 3 su 3 <br /><a href="000053_Com/Liste/000090.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 3 su 3 <br /><a href="000053_Com/Consiglio/000090.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>FRAVEZZI VITTORIO</td>
+                </tr>
+            
+               <tr>
+                    <td><a href="000053_Com/Candidature/000114.html" class="barra" title="vai al dettaglio"><strong>Lavis</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 6 su 6 <br /><a href="000053_Com/Coalizioni/000114.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 6 su 6 <br /><a href="000053_Com/Liste/000114.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 6 su 6 <br /><a href="000053_Com/Consiglio/000114.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td><span>BALLOTTAGGIO IL 30/05/2010</span></td>
+                </tr>
+            
+               <tr>
+                    <td><a href="000053_Com/Candidature/000510.html" class="barra" title="vai al dettaglio"><strong>Ledro</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 7 su 7 <br /><a href="000053_Com/Coalizioni/000510.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 7 su 7 <br /><a href="000053_Com/Liste/000510.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 7 su 7 <br /><a href="000053_Com/Consiglio/000510.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td><span>BALLOTTAGGIO IL 30/05/2010</span></td>
+                </tr>
+            
+               <tr>
+                    <td><a href="000053_Com/Candidature/000115.html" class="barra" title="vai al dettaglio"><strong>Levico Terme</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 6 su 6 <br /><a href="000053_Com/Coalizioni/000115.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 6 su 6 <br /><a href="000053_Com/Liste/000115.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 6 su 6 <br /><a href="000053_Com/Consiglio/000115.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>PASSAMANI GIANPIERO</td>
+                </tr>
+            
+               <tr>
+                    <td><a href="000053_Com/Candidature/000127.html" class="barra" title="vai al dettaglio"><strong>Mezzocorona</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 4 su 4 <br /><a href="000053_Com/Coalizioni/000127.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 4 su 4 <br /><a href="000053_Com/Liste/000127.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 4 su 4 <br /><a href="000053_Com/Consiglio/000127.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>FIAMOZZI MAURO</td>
+                </tr>
+            
+               <tr>
+                    <td><a href="000053_Com/Candidature/000134.html" class="barra" title="vai al dettaglio"><strong>Mori</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 9 su 9 <br /><a href="000053_Com/Coalizioni/000134.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 9 su 9 <br /><a href="000053_Com/Liste/000134.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 9 su 9 <br /><a href="000053_Com/Consiglio/000134.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td><span>BALLOTTAGGIO IL 30/05/2010</span></td>
+                </tr>
+            
+               <tr>
+                    <td><a href="000053_Com/Candidature/000154.html" class="barra" title="vai al dettaglio"><strong>Pinzolo</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 4 su 4 <br /><a href="000053_Com/Coalizioni/000154.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 4 su 4 <br /><a href="000053_Com/Liste/000154.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 4 su 4 <br /><a href="000053_Com/Consiglio/000154.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>BONOMI WILLIAM</td>
+                </tr>
+            
+               <tr>
+                    <td><a href="000053_Com/Candidature/000158.html" class="barra" title="vai al dettaglio"><strong>Predazzo</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 3 su 3 <br /><a href="000053_Com/Coalizioni/000158.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 3 su 3 <br /><a href="000053_Com/Liste/000158.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 3 su 3 <br /><a href="000053_Com/Consiglio/000158.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td><span>BALLOTTAGGIO IL 30/05/2010</span></td>
+                </tr>
+            
+               <tr>
+                    <td><a href="000053_Com/Candidature/000164.html" class="barra" title="vai al dettaglio"><strong>Riva del Garda</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 13 su 13 <br /><a href="000053_Com/Coalizioni/000164.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 13 su 13 <br /><a href="000053_Com/Liste/000164.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 13 su 13 <br /><a href="000053_Com/Consiglio/000164.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>MOSANER ADALBERTO</td>
+                </tr>
+            
+               <tr>
+                    <td><a href="000053_Com/Candidature/000172.html" class="barra" title="vai al dettaglio"><strong>Rovereto</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 33 su 33 <br /><a href="000053_Com/Coalizioni/000172.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 33 su 33 <br /><a href="000053_Com/Liste/000172.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 33 su 33 <br /><a href="000053_Com/Consiglio/000172.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td><span>BALLOTTAGGIO IL 30/05/2010</span></td>
+                </tr>
+            
+               <tr>
+                    <td><a href="000053_Com/Candidature/000194.html" class="barra" title="vai al dettaglio"><strong>Storo</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 4 su 4 <br /><a href="000053_Com/Coalizioni/000194.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 4 su 4 <br /><a href="000053_Com/Liste/000194.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 4 su 4 <br /><a href="000053_Com/Consiglio/000194.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td><span>BALLOTTAGGIO IL 30/05/2010</span></td>
+                </tr>
+            
+               <tr>
+                    <td><a href="000053_Com/Candidature/000210.html" class="barra" title="vai al dettaglio"><strong>Tione di Trento</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 4 su 4 <br /><a href="000053_Com/Coalizioni/000210.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 4 su 4 <br /><a href="000053_Com/Liste/000210.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 4 su 4 <br /><a href="000053_Com/Consiglio/000210.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>GOTTARDI MATTIA</td>
+                </tr>
+            
+               <tr>
+                    <td><a href="000053_Com/Candidature/000232.html" class="barra" title="vai al dettaglio"><strong>Villa Lagarina</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 3 su 3 <br /><a href="000053_Com/Coalizioni/000232.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 3 su 3 <br /><a href="000053_Com/Liste/000232.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 3 su 3 <br /><a href="000053_Com/Consiglio/000232.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td><span>BALLOTTAGGIO IL 30/05/2010</span></td>
+                </tr>
+            
+            </table>
+            <!-- STAMPO I COMUNI CON POPOLAZIONE INFERIORE A 3000-->
+            <table class="tabella_home">
+              <tr class="intestazione_tabella">
+                <td colspan="5" class="borderless_orriz_top">Comuni con popolazione Inferiore a 3.000 abitanti</td>
+              </tr>
+              <tr class="intestazione_colonna">
+                <td class="width_col_1">Comuni</td>
+                <td class="width_col_2">Candidato Sindaco</td>
+                <td class="width_col_3">Voti di liste</td>
+                <td class="width_col_4">Voti di preferenze</td>
+                <td class="width_col_5">Sindaco eletto</td>
+              </tr>
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000016.html" title="vai al dettaglio"><strong>Albiano</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000016.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000016.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000016.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>ODORIZZI MARIAGRAZIA</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000018.html" title="vai al dettaglio"><strong>Amblar</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000018.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000018.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000018.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>PELLEGRINI BRUNA</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000019.html" title="vai al dettaglio"><strong>Andalo</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000019.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000019.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000019.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>CATANZARO PAOLO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000023.html" title="vai al dettaglio"><strong>Bedollo</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Coalizioni/000023.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Liste/000023.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Consiglio/000023.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>SVALDI NARCISO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000024.html" title="vai al dettaglio"><strong>Bersone</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000024.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000024.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000024.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>BUGNA LENER</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000025.html" title="vai al dettaglio"><strong>Besenello</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Coalizioni/000025.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Liste/000025.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Consiglio/000025.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>COMPERINI CRISTIAN</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000027.html" title="vai al dettaglio"><strong>Bieno</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000027.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000027.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000027.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>TOGNOLLI GIORGIO MARIO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000029.html" title="vai al dettaglio"><strong>Bleggio Superiore</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Coalizioni/000029.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Liste/000029.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Consiglio/000029.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>IORI ALBERTO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000030.html" title="vai al dettaglio"><strong>Bocenago</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000030.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000030.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000030.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>FERRAZZA WALTER</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000031.html" title="vai al dettaglio"><strong>Bolbeno</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000031.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000031.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000031.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>CHIODEGA DIEGO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000032.html" title="vai al dettaglio"><strong>Bondo</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000032.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000032.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000032.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>BONENTI GIUSEPPE</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000033.html" title="vai al dettaglio"><strong>Bondone</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Coalizioni/000033.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Liste/000033.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Consiglio/000033.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>SCALMAZZINI GRAZIANO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000035.html" title="vai al dettaglio"><strong>Bosentino</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000035.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000035.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000035.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>LEONARDELLI FERNANDO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000036.html" title="vai al dettaglio"><strong>Breguzzo</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000036.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000036.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000036.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>FERRARI ANTONELLO MARIO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000038.html" title="vai al dettaglio"><strong>Bresimo</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000038.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000038.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000038.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>DALLA TORRE MARA</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000039.html" title="vai al dettaglio"><strong>Brez</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000039.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000039.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000039.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>TUNINETTI EZIO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000040.html" title="vai al dettaglio"><strong>Brione</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000040.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000040.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000040.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>FACCINI CRISTINA</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000041.html" title="vai al dettaglio"><strong>Caderzone Terme</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000041.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000041.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000041.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>MOSCA EMILIO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000042.html" title="vai al dettaglio"><strong>Cagnò</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000042.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000042.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000042.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>DALPIAZ IVAN</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000043.html" title="vai al dettaglio"><strong>Calavino</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Coalizioni/000043.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Liste/000043.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Consiglio/000043.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>PISONI ORESTE</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000044.html" title="vai al dettaglio"><strong>Calceranica al Lago</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000044.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000044.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000044.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>MARTINELLI SERGIO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000045.html" title="vai al dettaglio"><strong>Caldes</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Coalizioni/000045.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Liste/000045.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Consiglio/000045.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>MAINI ANTONIO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000046.html" title="vai al dettaglio"><strong>Caldonazzo</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 3 su 3 <br /><a href="000053_Com/Coalizioni/000046.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 3 su 3 <br /><a href="000053_Com/Liste/000046.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 3 su 3 <br /><a href="000053_Com/Consiglio/000046.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>SCHMIDT GIORGIO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000047.html" title="vai al dettaglio"><strong>Calliano</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000047.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000047.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000047.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>POMPERMAIER MARCO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000048.html" title="vai al dettaglio"><strong>Campitello di Fassa/Ciampedel</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000048.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000048.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000048.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>VALENTINI RENZO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000049.html" title="vai al dettaglio"><strong>Campodenno</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000049.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000049.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000049.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>BIADA DANIELE</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000050.html" title="vai al dettaglio"><strong>Canal San Bovo</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 3 su 3 <br /><a href="000053_Com/Coalizioni/000050.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 3 su 3 <br /><a href="000053_Com/Liste/000050.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 3 su 3 <br /><a href="000053_Com/Consiglio/000050.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>CEMIN MARIUCCIA</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000051.html" title="vai al dettaglio"><strong>Canazei/Cianacei</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Coalizioni/000051.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Liste/000051.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Consiglio/000051.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>CLOCH MARIANO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000052.html" title="vai al dettaglio"><strong>Capriana</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000052.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000052.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000052.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>PEDOT SANDRO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000053.html" title="vai al dettaglio"><strong>Carano</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000053.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000053.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000053.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>VARESCO ANDREA</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000054.html" title="vai al dettaglio"><strong>Carisolo</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000054.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000054.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000054.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>POVINELLI ARTURO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000055.html" title="vai al dettaglio"><strong>Carzano</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000055.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000055.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000055.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>CASTELPIETRA CESARE</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000056.html" title="vai al dettaglio"><strong>Castel Condino</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000056.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000056.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000056.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>TAROLLI MAURIZIO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000057.html" title="vai al dettaglio"><strong>Castelfondo</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000057.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000057.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000057.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>IANES NADIA</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000059.html" title="vai al dettaglio"><strong>Castello Tesino</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Coalizioni/000059.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Liste/000059.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Consiglio/000059.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>FATTORE SISTO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000058.html" title="vai al dettaglio"><strong>Castello-Molina di Fiemme</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Coalizioni/000058.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Liste/000058.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Consiglio/000058.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>BARBETTA ANTONIO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000060.html" title="vai al dettaglio"><strong>Castelnuovo</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000060.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000060.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000060.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>DENICOLO' LIONELLA</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000062.html" title="vai al dettaglio"><strong>Cavareno</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000062.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000062.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000062.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>ZANI GILBERTO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000063.html" title="vai al dettaglio"><strong>Cavedago</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000063.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000063.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000063.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>VIOLA ENRICO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000064.html" title="vai al dettaglio"><strong>Cavedine</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Coalizioni/000064.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Liste/000064.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Consiglio/000064.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>TRAVAGLIA RENZO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000065.html" title="vai al dettaglio"><strong>Cavizzana</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000065.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000065.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000065.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>RIZZI GIANNI</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000066.html" title="vai al dettaglio"><strong>Cembra</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Coalizioni/000066.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Liste/000066.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Consiglio/000066.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>NARDIN ANTONIETTA</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000067.html" title="vai al dettaglio"><strong>Centa San Nicolò</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000067.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000067.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000067.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>FRISANCO CINZIA</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000068.html" title="vai al dettaglio"><strong>Cimego</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000068.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000068.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000068.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>BERTINI CARLO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000069.html" title="vai al dettaglio"><strong>Cimone</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000069.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000069.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000069.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>BISESTI DAMIANO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000070.html" title="vai al dettaglio"><strong>Cinte Tesino</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000070.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000070.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000070.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>BUFFA CELESTINO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><strong>Cis</strong></td>
+                    <td colspan="4"><strong>Elezioni sospese ai sensi dell'articolo 53 del Testo Unico n. 1/L/2005</strong></td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000074.html" title="vai al dettaglio"><strong>Cloz</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000074.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000074.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000074.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>FLORETTA MARIA</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000506.html" title="vai al dettaglio"><strong>Comano Terme</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 3 su 3 <br /><a href="000053_Com/Coalizioni/000506.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 3 su 3 <br /><a href="000053_Com/Liste/000506.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 3 su 3 <br /><a href="000053_Com/Consiglio/000506.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>CALDERA LIVIO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000075.html" title="vai al dettaglio"><strong>Commezzadura</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000075.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000075.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000075.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>BEVILACQUA RUDI</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000077.html" title="vai al dettaglio"><strong>Condino</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000077.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000077.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000077.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>BUTTERINI GIORGIO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000078.html" title="vai al dettaglio"><strong>Coredo</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000078.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000078.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000078.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>SCOZ MAURIZIO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000079.html" title="vai al dettaglio"><strong>Croviana</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000079.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000079.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000079.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>RICCI LAURA</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000080.html" title="vai al dettaglio"><strong>Cunevo</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000080.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000080.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000080.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>ZANON FULVIO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000081.html" title="vai al dettaglio"><strong>Daiano</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000081.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000081.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000081.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>PARTEL ELVIO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000082.html" title="vai al dettaglio"><strong>Dambel</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000082.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000082.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000082.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>PEDROTTI FLAVIO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000083.html" title="vai al dettaglio"><strong>Daone</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000083.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000083.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000083.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>PELLIZZARI UGO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000084.html" title="vai al dettaglio"><strong>Darè</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000084.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000084.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000084.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>COLLINI BRUNA</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000085.html" title="vai al dettaglio"><strong>Denno</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000085.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000085.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000085.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>INAMA FABRIZIO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000086.html" title="vai al dettaglio"><strong>Dimaro</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000086.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000086.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000086.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>MENGHINI ROMEDIO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000087.html" title="vai al dettaglio"><strong>Don</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000087.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000087.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000087.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>PIFFER ADRIANO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000088.html" title="vai al dettaglio"><strong>Dorsino</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000088.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000088.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000088.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>LIBERA GIORGIO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000089.html" title="vai al dettaglio"><strong>Drena</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000089.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000089.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000089.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>BORTOLOTTI WALTER</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000091.html" title="vai al dettaglio"><strong>Faedo</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000091.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000091.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000091.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>FAUSTINI BRUNO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000092.html" title="vai al dettaglio"><strong>Fai della Paganella</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000092.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000092.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000092.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>TONIDANDEL GABRIELE</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000093.html" title="vai al dettaglio"><strong>Faver</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000093.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000093.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000093.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>PAOLAZZI MATTEO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000094.html" title="vai al dettaglio"><strong>Fiavè</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000094.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000094.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000094.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>ALOISI NICOLETTA</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000095.html" title="vai al dettaglio"><strong>Fiera di Primiero</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000095.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000095.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000095.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>DEPAOLI DANIELE</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000096.html" title="vai al dettaglio"><strong>Fierozzo/Vlarötz</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Coalizioni/000096.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Liste/000096.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Consiglio/000096.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>MOLTRER LUCA</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000097.html" title="vai al dettaglio"><strong>Flavon</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000097.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000097.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000097.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>TAME' EMILIANO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000099.html" title="vai al dettaglio"><strong>Fondo</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000099.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000099.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000099.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>BONADIMAN REMO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000100.html" title="vai al dettaglio"><strong>Fornace</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000100.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000100.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000100.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>CARESIA PIERINO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000101.html" title="vai al dettaglio"><strong>Frassilongo/Garait</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000101.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000101.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000101.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>GROFF BRUNO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000102.html" title="vai al dettaglio"><strong>Garniga Terme</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000102.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000102.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000102.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>FRIZ ANDREA</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000103.html" title="vai al dettaglio"><strong>Giovo</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 3 su 3 <br /><a href="000053_Com/Coalizioni/000103.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 3 su 3 <br /><a href="000053_Com/Liste/000103.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 3 su 3 <br /><a href="000053_Com/Consiglio/000103.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>BRUGNARA MASSIMILIANO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000104.html" title="vai al dettaglio"><strong>Giustino</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000104.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000104.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000104.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>TISI LUIGI</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000105.html" title="vai al dettaglio"><strong>Grauno</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000105.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000105.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000105.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>CEOLAN ALFREDO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000106.html" title="vai al dettaglio"><strong>Grigno</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Coalizioni/000106.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Liste/000106.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Consiglio/000106.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>FOGAROTTO LEOPOLDO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000107.html" title="vai al dettaglio"><strong>Grumes</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000107.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000107.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000107.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>SANTUARI SIMONE</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000108.html" title="vai al dettaglio"><strong>Imer</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000108.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000108.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000108.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>BELLOTTO GIANNI</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000109.html" title="vai al dettaglio"><strong>Isera</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Coalizioni/000109.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Liste/000109.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Consiglio/000109.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>RIGOTTI ENRICA</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000110.html" title="vai al dettaglio"><strong>Ivano-Fracena</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000110.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000110.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000110.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>PAROTTO FRANCO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000111.html" title="vai al dettaglio"><strong>Lardaro</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000111.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000111.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000111.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>BONENTI WERNER</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000112.html" title="vai al dettaglio"><strong>Lasino</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Coalizioni/000112.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Liste/000112.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Consiglio/000112.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>SIMONETTI EUGENIO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000113.html" title="vai al dettaglio"><strong>Lavarone</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000113.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000113.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000113.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>LANZINI MAURO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000116.html" title="vai al dettaglio"><strong>Lisignago</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000116.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000116.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000116.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>CATTANI MARIA RITA</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000117.html" title="vai al dettaglio"><strong>Livo</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000117.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000117.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000117.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>CAROTTA FRANCO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000119.html" title="vai al dettaglio"><strong>Lona-Lases</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000119.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000119.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000119.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>CASAGRANDA MARCO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000120.html" title="vai al dettaglio"><strong>Luserna/Lusern</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000120.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000120.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000120.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>NICOLUSSI PAOLAZ LUCA</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000122.html" title="vai al dettaglio"><strong>Malosco</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000122.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000122.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000122.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>MARINI ADRIANO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000121.html" title="vai al dettaglio"><strong>Malè</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 3 su 3 <br /><a href="000053_Com/Coalizioni/000121.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 3 su 3 <br /><a href="000053_Com/Liste/000121.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 3 su 3 <br /><a href="000053_Com/Consiglio/000121.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>PAGANINI BRUNO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000123.html" title="vai al dettaglio"><strong>Massimeno</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000123.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000123.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000123.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>BELTRAMI ENRICO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000124.html" title="vai al dettaglio"><strong>Mazzin/Mazin</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000124.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000124.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000124.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>CASTELNUOVO FAUSTO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000125.html" title="vai al dettaglio"><strong>Mezzana</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000125.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000125.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000125.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>DALLA SERRA GIULIANO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000126.html" title="vai al dettaglio"><strong>Mezzano</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Coalizioni/000126.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Liste/000126.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Consiglio/000126.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>ORLER FERDINANDO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000129.html" title="vai al dettaglio"><strong>Moena/Moena</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Coalizioni/000129.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Liste/000129.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Consiglio/000129.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>FRANCESCHETTI RICCARDO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000131.html" title="vai al dettaglio"><strong>Molveno</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000131.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000131.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000131.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>FRANCHI RUGGERO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000132.html" title="vai al dettaglio"><strong>Monclassico</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000132.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000132.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000132.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>RAVELLI CARLO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000133.html" title="vai al dettaglio"><strong>Montagne</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000133.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000133.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000133.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>SIMONI MICHELA</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000136.html" title="vai al dettaglio"><strong>Nanno</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000136.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000136.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000136.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>BERGAMO ENZO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000137.html" title="vai al dettaglio"><strong>Nave San Rocco</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000137.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000137.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000137.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>GARZETTI UGO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000138.html" title="vai al dettaglio"><strong>Nogaredo</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Coalizioni/000138.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Liste/000138.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Consiglio/000138.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>MARZADRO ROMANA</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000139.html" title="vai al dettaglio"><strong>Nomi</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000139.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000139.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000139.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>MAFFEI RINALDO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000140.html" title="vai al dettaglio"><strong>Novaledo</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000140.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000140.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000140.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>ISEPPI ATTILIO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000141.html" title="vai al dettaglio"><strong>Ospedaletto</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000141.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000141.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000141.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>FELICETTI RUGGERO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000142.html" title="vai al dettaglio"><strong>Ossana</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000142.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000142.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000142.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>DELL'EVA LUCIANO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000143.html" title="vai al dettaglio"><strong>Padergnone</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000143.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000143.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000143.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>SOMMADOSSI FEDERICO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000144.html" title="vai al dettaglio"><strong>Palù del Fersina/Palae en Bersntol</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000144.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000144.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000144.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>MOAR LORIS</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000145.html" title="vai al dettaglio"><strong>Panchià</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000145.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000145.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000145.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>DEFRANCESCO BRUNO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000147.html" title="vai al dettaglio"><strong>Peio</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 3 su 3 <br /><a href="000053_Com/Coalizioni/000147.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 3 su 3 <br /><a href="000053_Com/Liste/000147.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 3 su 3 <br /><a href="000053_Com/Consiglio/000147.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>DALPEZ ANGELO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000148.html" title="vai al dettaglio"><strong>Pellizzano</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Coalizioni/000148.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Liste/000148.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Consiglio/000148.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>TOMASELLI VANNI</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000149.html" title="vai al dettaglio"><strong>Pelugo</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000149.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000149.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000149.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>GALLI STEFANO PIETRO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000151.html" title="vai al dettaglio"><strong>Pieve di Bono</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000151.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000151.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000151.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>MAESTRI ATTILIO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000153.html" title="vai al dettaglio"><strong>Pieve Tesino</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000153.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000153.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000153.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>GECELE LIVIO MARIO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000155.html" title="vai al dettaglio"><strong>Pomarolo</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Coalizioni/000155.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Liste/000155.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Consiglio/000155.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>FASANELLI MASSIMO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000156.html" title="vai al dettaglio"><strong>Pozza di Fassa/Poza</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Coalizioni/000156.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Liste/000156.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Consiglio/000156.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>DELLAGIACOMA TULLIO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000157.html" title="vai al dettaglio"><strong>Praso</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000157.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000157.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000157.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>PANELATTI ROBERTO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000159.html" title="vai al dettaglio"><strong>Preore</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000159.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000159.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000159.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>PALETTI PAOLO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000160.html" title="vai al dettaglio"><strong>Prezzo</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000160.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000160.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000160.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>BOLDRINI CELESTINO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000162.html" title="vai al dettaglio"><strong>Ragoli</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Coalizioni/000162.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Liste/000162.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Consiglio/000162.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>LEONARDI MATTEO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000163.html" title="vai al dettaglio"><strong>Revò</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Coalizioni/000163.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Liste/000163.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Consiglio/000163.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>MACCANI YVETTE</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000165.html" title="vai al dettaglio"><strong>Romallo</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000165.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000165.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000165.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>DOMINICI SILVANO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000166.html" title="vai al dettaglio"><strong>Romeno</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000166.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000166.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000166.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>WIDMANN LORENZO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000167.html" title="vai al dettaglio"><strong>Roncegno Terme</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 3 su 3 <br /><a href="000053_Com/Coalizioni/000167.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 3 su 3 <br /><a href="000053_Com/Liste/000167.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 3 su 3 <br /><a href="000053_Com/Consiglio/000167.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>MONTIBELLER MIRKO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000168.html" title="vai al dettaglio"><strong>Ronchi Valsugana</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000168.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000168.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000168.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>COLLA GIANCARLO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000169.html" title="vai al dettaglio"><strong>Roncone</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000169.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000169.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000169.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>RIZZONELLI ERMINIO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000146.html" title="vai al dettaglio"><strong>Ronzo-Chienis</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000146.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000146.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000146.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>MARTINELLI MIRKO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000170.html" title="vai al dettaglio"><strong>Ronzone</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000170.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000170.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000170.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>ENDRIZZI STEFANO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000171.html" title="vai al dettaglio"><strong>Roverè della Luna</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Coalizioni/000171.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Liste/000171.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Consiglio/000171.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>KASWALDER MICHELE</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000173.html" title="vai al dettaglio"><strong>Ruffrè-Mendola</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000173.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000173.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000173.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>BORZAGA FABRIZIO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000174.html" title="vai al dettaglio"><strong>Rumo</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000174.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000174.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000174.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>NOLETTI MICHELA</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000175.html" title="vai al dettaglio"><strong>Sagron Mis</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000175.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000175.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000175.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>GADENZ LUCA</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000176.html" title="vai al dettaglio"><strong>Samone</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000176.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000176.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000176.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>LENZI ENRICO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000177.html" title="vai al dettaglio"><strong>San Lorenzo in Banale</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000177.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000177.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000177.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>RIGOTTI GIANFRANCO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000178.html" title="vai al dettaglio"><strong>San Michele all'Adige</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Coalizioni/000178.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Liste/000178.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Consiglio/000178.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>SANDRI CLELIA</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000179.html" title="vai al dettaglio"><strong>Sant'Orsola Terme</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Coalizioni/000179.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Liste/000179.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Consiglio/000179.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>FONTANARI DAMIANO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000180.html" title="vai al dettaglio"><strong>Sanzeno</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000180.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000180.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000180.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>BONADIMAN MARCELLO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000181.html" title="vai al dettaglio"><strong>Sarnonico</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000181.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000181.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000181.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>ABRAM SANDRO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000182.html" title="vai al dettaglio"><strong>Scurelle</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000182.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000182.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000182.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>ROPELATO FULVIO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000183.html" title="vai al dettaglio"><strong>Segonzano</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000183.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000183.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000183.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>MATTEVI GIORGIO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000184.html" title="vai al dettaglio"><strong>Sfruz</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000184.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000184.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000184.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>BIASI ELENA</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000185.html" title="vai al dettaglio"><strong>Siror</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Coalizioni/000185.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Liste/000185.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Consiglio/000185.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>TAUFER WALTER</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000186.html" title="vai al dettaglio"><strong>Smarano</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000186.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000186.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000186.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>BRENTARI DANIELE</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000187.html" title="vai al dettaglio"><strong>Soraga/Soraga</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000187.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000187.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000187.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>PELLEGRINI ROBERTO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000188.html" title="vai al dettaglio"><strong>Sover</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000188.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000188.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000188.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>BATTISTI CARLO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000189.html" title="vai al dettaglio"><strong>Spera</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000189.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000189.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000189.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>VESCO ALBERTO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000190.html" title="vai al dettaglio"><strong>Spiazzo</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000190.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000190.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000190.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>ONGARI MICHELE</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000191.html" title="vai al dettaglio"><strong>Spormaggiore</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000191.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000191.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000191.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>POMAROLLI MIRCO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000192.html" title="vai al dettaglio"><strong>Sporminore</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000192.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000192.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000192.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>FRANZOI FABRIZIO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000193.html" title="vai al dettaglio"><strong>Stenico</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000193.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000193.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000193.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>MATTEVI MONICA</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000197.html" title="vai al dettaglio"><strong>Taio</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 3 su 3 <br /><a href="000053_Com/Coalizioni/000197.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 3 su 3 <br /><a href="000053_Com/Liste/000197.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 3 su 3 <br /><a href="000053_Com/Consiglio/000197.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>COVA STEFANO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000198.html" title="vai al dettaglio"><strong>Tassullo</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Coalizioni/000198.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Liste/000198.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Consiglio/000198.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>MENAPACE ANDREA</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000199.html" title="vai al dettaglio"><strong>Telve</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Coalizioni/000199.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Liste/000199.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Consiglio/000199.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>TRENTIN FABRIZIO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000200.html" title="vai al dettaglio"><strong>Telve di Sopra</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000200.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000200.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000200.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>COLME IVANO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000201.html" title="vai al dettaglio"><strong>Tenna</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000201.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000201.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000201.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>VALENTINI ANTONIO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000202.html" title="vai al dettaglio"><strong>Tenno</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Coalizioni/000202.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Liste/000202.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Consiglio/000202.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>REMIA CARLO MICHELE</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000203.html" title="vai al dettaglio"><strong>Terlago</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 3 su 3 <br /><a href="000053_Com/Coalizioni/000203.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 3 su 3 <br /><a href="000053_Com/Liste/000203.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 3 su 3 <br /><a href="000053_Com/Consiglio/000203.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>NICOLUSSI GIOVANNI</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000204.html" title="vai al dettaglio"><strong>Terragnolo</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000204.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000204.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000204.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>SUCCI MARIA TERESA</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000205.html" title="vai al dettaglio"><strong>Terres</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000205.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000205.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000205.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>MARTINI MARCO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000206.html" title="vai al dettaglio"><strong>Terzolas</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000206.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000206.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000206.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>MANINI ENRICO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000207.html" title="vai al dettaglio"><strong>Tesero</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Coalizioni/000207.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Liste/000207.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Consiglio/000207.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>ZANON FRANCESCO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000211.html" title="vai al dettaglio"><strong>Ton</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000211.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000211.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000211.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>WEBBER SANDRA</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000212.html" title="vai al dettaglio"><strong>Tonadico</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000212.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000212.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000212.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>GADENZ AURELIO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000213.html" title="vai al dettaglio"><strong>Torcegno</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000213.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000213.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000213.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>CAMPESTRINI ORNELLA</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000214.html" title="vai al dettaglio"><strong>Trambileno</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Coalizioni/000214.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Liste/000214.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Consiglio/000214.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>BISOFFI RENATO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000215.html" title="vai al dettaglio"><strong>Transacqua</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Coalizioni/000215.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Liste/000215.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Consiglio/000215.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>SIMONI MARINO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000217.html" title="vai al dettaglio"><strong>Tres</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000217.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000217.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000217.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>CORAZZOLLA ALBERTO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000218.html" title="vai al dettaglio"><strong>Tuenno</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Coalizioni/000218.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Liste/000218.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Consiglio/000218.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>LEONARDI PIETRO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000219.html" title="vai al dettaglio"><strong>Valda</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000219.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000219.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000219.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>FEDRIZZI PAOLO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000220.html" title="vai al dettaglio"><strong>Valfloriana</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000220.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000220.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000220.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>LOZZER GRAZIANO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000221.html" title="vai al dettaglio"><strong>Vallarsa</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Coalizioni/000221.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Liste/000221.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Consiglio/000221.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>GIOS GEREMIA</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000222.html" title="vai al dettaglio"><strong>Varena</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000222.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000222.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000222.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>GIANMOENA PARIDE</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000223.html" title="vai al dettaglio"><strong>Vattaro</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000223.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000223.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000223.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>TAMANINI DEVIS</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000224.html" title="vai al dettaglio"><strong>Vermiglio</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Coalizioni/000224.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Liste/000224.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Consiglio/000224.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>BERTOLINI DENIS</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000225.html" title="vai al dettaglio"><strong>Vervò</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000225.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000225.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000225.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>TODESCHI BETTA WALTER</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000226.html" title="vai al dettaglio"><strong>Vezzano</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 3 su 3 <br /><a href="000053_Com/Coalizioni/000226.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 3 su 3 <br /><a href="000053_Com/Liste/000226.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 3 su 3 <br /><a href="000053_Com/Consiglio/000226.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>TASIN EDDO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000227.html" title="vai al dettaglio"><strong>Vignola-Falesina</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000227.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000227.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000227.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>ANDERLE MATTEO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000228.html" title="vai al dettaglio"><strong>Vigo di Fassa/Vich</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000228.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000228.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000228.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>LORENZ FRANCO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000230.html" title="vai al dettaglio"><strong>Vigo Rendena</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000230.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000230.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000230.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>LORANZI EZIO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000229.html" title="vai al dettaglio"><strong>Vigolo Vattaro</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Coalizioni/000229.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Liste/000229.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Consiglio/000229.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>KASWALDER WALTER</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000231.html" title="vai al dettaglio"><strong>Villa Agnedo</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000231.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000231.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000231.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>SANDRI MARIO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000233.html" title="vai al dettaglio"><strong>Villa Rendena</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000233.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000233.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000233.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>BERNARDI EMANUELE</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000234.html" title="vai al dettaglio"><strong>Volano</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Coalizioni/000234.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Liste/000234.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Consiglio/000234.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>MATTE' FRANCESCO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000235.html" title="vai al dettaglio"><strong>Zambana</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Coalizioni/000235.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Liste/000235.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 2 su 2 <br /><a href="000053_Com/Consiglio/000235.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>MOSER MICHELE</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000236.html" title="vai al dettaglio"><strong>Ziano di Fiemme</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000236.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000236.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000236.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>VANZETTA FABIO</td>
+                </tr>
+                
+            
+                <!-- il comune di Cis non partecipa alle elezioni -->
+               
+                <tr>
+                    <td><a href="000053_Com/Candidature/000237.html" title="vai al dettaglio"><strong>Zuclo</strong></a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Coalizioni/000237.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Liste/000237.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td class="scrutini_conclusi">Sezioni 1 su 1 <br /><a href="000053_Com/Consiglio/000237.html" class="det" title="vai al dettaglio">Vai al dettaglio</a></td>
+                    <td>ARTINI PAOLO</td>
+                </tr>
+                
+            
+            </table>
+    </div> <!-- CONTAINER HOME -->
+
+
+    </div>
+	<div id="footer">
+    	<div>Regione Autonoma Trentino Alto Adige - Ripartizione II Ufficio Elettorale - <a href="accessibilita.html" title="conformità del sito rispetto alla legge Stanca">Conformità del sito</a> delle elezioni della Regione Trentino Alto Adige rispetto alle linee guida della Legge N.4 9 gennaio 2004</div>
+    </div>
+</div>
+</body>
+</html>
+
+
