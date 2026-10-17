@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /system/login
+Disallow: /system/workplace
+Disallow: /*.jpg
+Disallow: /*.gif
+Disallow: /*.png
+Disallow: /*.jsp
+Sitemap: http://autonomielocali.regione.fvg.it/aall/opencms/AALL/mappa.xml

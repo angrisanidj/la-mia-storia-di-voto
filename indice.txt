@@ -1,0 +1,11 @@
+001 http://www.elezioni.regione.sicilia.it/robots.txt
+002 http://www.elezioni.regione.sicilia.it/
+003 https://data.civis.bz.it/robots.txt
+004 https://data.civis.bz.it/api/3/action/package_search?q=comunali&rows=100
+005 https://www.regione.taa.it/robots.txt
+006 https://www.regione.taa.it/Documenti/Elezioni-Comunali
+007 https://autonomielocali.regione.fvg.it/robots.txt
+008 https://elezioni.regione.fvg.it/
+009 https://www.tuttitalia.it/robots.txt
+010 https://dati.trentino.it/api/3/action/package_search?q=elezioni%20comunali&rows=100
+011 https://www.dati.friuliveneziagiulia.it/api/views/metadata/v1?search=elezioni
