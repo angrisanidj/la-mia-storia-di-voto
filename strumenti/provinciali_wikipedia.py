@@ -2,6 +2,7 @@
 Si lancia a mano nella cartella con le pagine «Elezioni provinciali in Italia del AAAA» scaricate in
 wikitext (pAAAA.txt, da index.php?title=...&action=raw). Scarta i riquadri senza data o con una data
 incoerente con la pagina; il sito usa da qui gli anni prima del 2004 e Sicilia e Friuli-Venezia Giulia.
+Le pagine del 1995 e del 2000 non danno la data delle provinciali sarde: è in DATE_SARDEGNA.
 """
 import os, re, json, glob, datetime as dt, unicodedata
 MESI = ['gennaio','febbraio','marzo','aprile','maggio','giugno','luglio','agosto','settembre','ottobre','novembre','dicembre']
@@ -12,6 +13,12 @@ PROV = {norm(v): k for k, v in json.load(open(os.path.join(os.path.dirname(os.pa
 PROV.update({'FORLI': 'FC', 'FORLI CESENA': 'FC', 'PESARO E URBINO': 'PU', 'PESARO URBINO': 'PU', 'VERBANO CUSIO OSSOLA': 'VB', 'MASSA CARRARA': 'MS', 'MASSA E CARRARA': 'MS',
              'REGGIO EMILIA': 'RE', "REGGIO NELL EMILIA": 'RE', 'REGGIO CALABRIA': 'RC', 'CARBONIA IGLESIAS': 'CI', 'OGLIASTRA': 'OG', 'OLBIA TEMPIO': 'OT',
              'MEDIO CAMPIDANO': 'VS', 'MONZA E DELLA BRIANZA': 'MB', 'MONZA E BRIANZA': 'MB', 'BARLETTA ANDRIA TRANI': 'BT', 'L AQUILA': 'AQ', 'AQUILA': 'AQ'})
+SARDE = ('CA', 'NU', 'OR', 'SS', 'CI', 'VS', 'OG', 'OT')
+# Provinciali sarde senza data nelle pagine: si votò con le comunali, con i ballottaggi due settimane dopo.
+# 2000: Quaderni dell'Osservatorio elettorale (Di Virgilio, «Le elezioni in Italia»), 16 e 30 aprile 2000.
+# 1995: comunali sarde del 23 aprile 1995 (Archivio storico delle elezioni); presidenti in carica dal 25 aprile
+# (Pirisi, Nuoro, eletto al primo turno) e dall'8 maggio (Scano, Cagliari, eletto al ballottaggio del 7 maggio).
+DATE_SARDEGNA = {1995: dt.date(1995, 4, 23), 2000: dt.date(2000, 4, 16)}
 def date_box(anno, s):
     gg = []
     for p in re.split(r',\s*|\s+e\s+(?=\d)', re.sub(r'\d{4}', '', s)):
@@ -54,7 +61,7 @@ def tabella(t, da):
                     cand[-1][2].append([testo_link(c).replace(' (A)', ''), nums[1]]); k += 3; continue
             k += 1
     return cand
-AREA = [(r'Centro-sinistra|Ulivo|Progressisti|Unione', 'centrosinistra'), (r'Centro-destra|Polo|Casa delle Libert|Popolo della Libert', 'centrodestra'),
+AREA = [(r'Centro-sinistra|Ulivo|Progressisti|Unione(?! Democratica| di Centro| Sarda| Valdostana| Autonomista)', 'centrosinistra'), (r'Centro-destra|Polo|Casa delle Libert|Popolo della Libert', 'centrodestra'),
         (r'Rifondazione|Comunisti', 'sinistra'), (r'Alleanza Nazionale|Movimento Sociale|Fiamma|La Destra', 'destra'), (r'Lega Nord', 'altro')]
 out = []; scartati = []
 for f in sorted(glob.glob('p*.txt')):
@@ -78,6 +85,8 @@ for f in sorted(glob.glob('p*.txt')):
             pezzo = intro.split(regione, 1)[1] if regione and regione in intro else intro.split('Sardegna')[0].split('Sicilia')[0]
             dd = [dt.date(anno, MESI.index(mm) + 1, int(g)) for g, mm in re.findall(r"(\d{1,2})[°º]?(?:\s*(?:e|-)\s*\d{1,2})?\s+(" + '|'.join(MESI) + r")", pezzo)]
             ds = dd[:1]
+        if not ds and sig in SARDE and anno in DATE_SARDEGNA:
+            ds = [DATE_SARDEGNA[anno]]
         if not ds and sig and not date_intro and ufficiale and sig not in ('CA','NU','OR','SS','CI','VS','OG','OT','AG','CL','CT','EN','ME','PA','RG','SR','TP'):
             ds = [dt.date(int(ufficiale.group(1)), int(ufficiale.group(2)), int(ufficiale.group(3)))]
         if not sig or not ds: scartati.append((anno, nome, campi.get('data'))); continue
@@ -89,9 +98,9 @@ for f in sorted(glob.glob('p*.txt')):
         for i in range(1, 12):
             c = testo_link(campi.get(f'candidato{i}', ''))
             if not c: break
-            coal = campi.get(f'coalizione{i}', '') + ' ' + campi.get(f'partito{i}', '')
-            aree[c] = next((a for rx, a in AREA if re.search(rx, coal)), None)
-        cand = tabella(t, m.end())
+            # prima la coalizione, poi il partito (un partito di centro in una coalizione di centrodestra resta di centrodestra)
+            aree[c] = next((a for campo in ('coalizione', 'partito') for rx, a in AREA if re.search(rx, campi.get(f'{campo}{i}', ''))), None)
+        cand = [c for c in tabella(t, m.end()) if not re.match(r'\s*totale\b', c[0] or '', re.I)]  # la riga dei totali non è un candidato
         for c in cand: c.append(aree.get(c[0]))
         if not cand:
             cand = [[testo_link(campi[f'candidato{i}']), numero(campi.get(f'%{i}', '') or ''), [], aree.get(testo_link(campi[f'candidato{i}']))] for i in range(1, 12) if campi.get(f'candidato{i}')]

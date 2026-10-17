@@ -269,8 +269,15 @@ function indiceProvinciali() {
 }
 // La provincia di un comune a una data: le province nate dopo tornano alla provincia di prima
 const PROVINCE_MADRI_1992 = { BI: 'VC', VB: 'NO', LC: 'CO', LO: 'MI', RN: 'FC', PO: 'FI', KR: 'CZ', VV: 'CZ' };
+// Sardegna prima del 2005: quattro province. Le nuove (Olbia-Tempio, Ogliastra, Carbonia-Iglesias, Medio Campidano,
+// poi Sud Sardegna) erano parti di Sassari, Nuoro e Cagliari; in più 26 comuni lasciarono la provincia di Nuoro
+// (Budoni e San Teodoro, i 10 della Planargia, di Laconi e Genoni, i 14 del Sarcidano e della Barbagia di Seulo).
+const EX_NUORO = new Set(['B248', 'I329', 'B068', 'D640', 'E400', 'E825', 'F261', 'H661', 'L006', 'L172', 'F698', 'D968', 'D431',
+  'D982', 'E336', 'F981', 'F982', 'F986', 'G122', 'I668', 'L992', 'D430', 'D443', 'H659', 'I707', 'I706']);
+const sardaPrima2005 = c => EX_NUORO.has(c.cod) ? 'NU' : ({ SS: 'SS', OT: 'SS', NU: 'NU', OG: 'NU', OR: 'OR' })[c.sig] || 'CA';
 function provinciaStorica(c, iso) {
   let s = c.sig;
+  if (c.reg === '20' && iso < '2005-05-01') return sardaPrima2005(c);
   const cambio = CAMBI_REGIONE[c.cod];
   if (cambio && iso < cambio[0] && cambio[1] === '11') s = 'PU'; // Valmarecchia, Montecopiolo e Sassofeltrio
   if (iso < '2009-06-01') {
@@ -599,7 +606,9 @@ function candidatiReali(o) {
   } else if ((o.tipo === 'com' || o.tipo === 'bal') && o.cod && window.CANDIDATI_COMUNALI) {
     grezzi = window.CANDIDATI_COMUNALI[`${o.cod}-${o.primo || o.d}`];
   }
-  if (!grezzi || !grezzi.length) return null;
+  // la riga dei totali di una tabella non è un candidato
+  grezzi = (grezzi || []).filter(([nome]) => !/^\s*totale\b/i.test(nome || ''));
+  if (!grezzi.length) return null;
   // nell'archivio alcuni apostrofi arrivano come «?» o carattere sostitutivo
   const pulisci = t => (t || '').replace(/(\p{L})[?\uFFFD\u0092](\p{L})/gu, "$1'$2");
   let out = grezzi.map(([nome, pct, liste, area]) => ({ nome: nome ? titoloNome(nomeConosciuto(pulisci(nome)).replace(/(\p{L})\.(?=\p{L})/gu, '$1. ')).replace(/(^|\s)(de|di|da|del|della|dalla|dal|lo|la|li)(?=\s\p{Lu})/gu, (x, sp, p) => sp + p[0].toUpperCase() + p.slice(1)) : null, pct, area,
