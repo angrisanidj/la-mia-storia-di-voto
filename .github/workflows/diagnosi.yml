@@ -1,0 +1,33 @@
+name: Diagnosi pagine tuttitalia
+on:
+  push:
+    branches: [diagnosi]
+jobs:
+  prova:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install requests
+      - name: Struttura delle pagine
+        run: |
+          python - <<'PY'
+          import re, sys, time
+          sys.path.insert(0, 'strumenti')
+          import comunali_speciali as cs
+          S = cs.sessione()
+          for url in ['/sicilia/52-catania/storico-elezioni-comunali/', '/friuli-venezia-giulia/88-udine/storico-elezioni-comunali/', '/friuli-venezia-giulia/25-trieste/storico-elezioni-comunali/']:
+              time.sleep(5)
+              try:
+                  h = S.get(cs.SITO + url, timeout=(10, 30)).text
+              except Exception as e:
+                  print(f'::notice title={url}::errore {e}'); continue
+              t = cs.testo(h)
+              for sez in t.split('@@SEZIONE@@')[1:]:
+                  m = re.match(r'\s*(Elezioni Comunali (\d{4}))', sez)
+                  if not m or m.group(2) not in ('1993', '2000', '2001', '2008', '1997'):
+                      continue
+                  pos = [x.start() for x in re.finditer('allottaggio', sez)]
+                  date = [' '.join(d) for d in cs.DATA_RE.findall(sez)]
+                  pezzo = re.sub(r'\s+', ' ', sez[:900]).replace('::', ' ')
+                  print(f'::notice title={url} {m.group(1)}::lung={len(sez)} ballottaggio@{pos[:5]} date={date[:8]} | {pezzo}')
+          PY
