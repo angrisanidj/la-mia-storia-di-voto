@@ -1048,6 +1048,15 @@ function inColonne(voci, area, s, colonne) {
   return { colonne: out, colW, gapCol, messe };
 }
 
+// Nei formati a misura fissa, se non entra tutto, di base si parte dalle più recenti: restano fuori le più vecchie
+let ultimoRecenti = false;
+function impaginaFissa(ctx, righe, area, dataPiena, maxColonne) {
+  const imp = scegliImpaginazione(ctx, righe, area, dataPiena, maxColonne);
+  ultimoRecenti = false;
+  if (!imp.resto || !$('#opt-recenti').checked) return imp;
+  ultimoRecenti = true;
+  return { ...scegliImpaginazione(ctx, [...righe].reverse(), area, dataPiena, maxColonne), recenti: true };
+}
 function scegliImpaginazione(ctx, righe, area, dataPiena, maxColonne) {
   let meglio = null;
   for (const compatta of [false, true]) {
@@ -1121,7 +1130,7 @@ function disegnaLista(ctx, imp, area) {
   });
   if (imp.resto) {
     ctx.font = `600 ${26 * s * 1.3}px ${TXT}`; ctx.fillStyle = C.grigio;
-    ctx.fillText(`… e altre ${imp.resto} ${imp.resto === 1 ? 'consultazione' : 'consultazioni'}`, area.x + 168 * s, area.y + area.h - 6);
+    ctx.fillText(`… e altre ${imp.resto} ${imp.resto === 1 ? 'consultazione' : 'consultazioni'}${imp.recenti ? (imp.resto === 1 ? ' precedente' : ' precedenti') : ''}`, area.x + 168 * s, area.y + area.h - 6);
   }
 }
 
@@ -1172,7 +1181,7 @@ function disegna(cv, righe, formato = formatoScelto) {
     disegnaEmicicloCard(ctx, m + colSx / 2, H - 205, colSx > 500 ? 165 : 145, righe, colSx > 500 ? 1.05 : 0.95);
     ctx.fillStyle = C.filo; ctx.fillRect(m + colSx + 40, 70, 2, H - 210);
     const area = { x: m + colSx + 80, y: 74, w: W - m - (m + colSx + 80), h: H - 74 - 150 };
-    const imp = righe.length ? scegliImpaginazione(ctx, righe, area, dataPiena, 3) : null;
+    const imp = righe.length ? impaginaFissa(ctx, righe, area, dataPiena, 3) : null;
     if (imp) ultimoResto = imp.resto;
     if (imp) disegnaLista(ctx, imp, area);
     else { ctx.font = `400 26px ${TXT}`; ctx.fillStyle = C.grigio; ctx.fillText('Segna come hai votato per vedere qui la tua storia.', area.x, area.y + 40); }
@@ -1209,7 +1218,7 @@ function disegna(cv, righe, formato = formatoScelto) {
     H = Math.max(1350, Math.ceil(area.y + (righe.length ? tot : 90) + piede));
   } else {
     area.h = H - basso - piede - area.y;
-    imp = righe.length ? scegliImpaginazione(ctx, righe, area, dataPiena, 3) : null;
+    imp = righe.length ? impaginaFissa(ctx, righe, area, dataPiena, 3) : null;
     if (imp) ultimoResto = imp.resto;
   }
   cv.width = W; cv.height = H;
@@ -1276,7 +1285,7 @@ function programmaAnteprima() {
     const n = $('#nota-formato');
     if (n) {
       n.hidden = !ultimoResto;
-      n.textContent = ultimoResto ? `In questo formato ${ultimoResto === 1 ? 'resta fuori una consultazione' : `restano fuori ${ultimoResto} consultazioni`}: per averle tutte scegli «Lista completa» o «Storie».` : '';
+      n.textContent = ultimoResto ? `In questo formato ${ultimoResto === 1 ? `resta fuori la consultazione più ${ultimoRecenti ? 'vecchia' : 'recente'}` : `restano fuori le ${ultimoResto} più ${ultimoRecenti ? 'vecchie' : 'recenti'}`}: per averle tutte scegli «Lista completa» o «Storie».` : '';
     }
   }), 120);
 }
@@ -1338,7 +1347,7 @@ function init() {
   disegnaCalendario();
   $('#agg-res').addEventListener('click', () => { stato.residenze.push({ id: ++seq, comune: null, y: null, m: null }); disegnaResidenze(); const ins = document.querySelectorAll('#residenze input'); ins[ins.length - 1].focus(); });
   ['#titolo', '#firma'].forEach(s => $(s).addEventListener('input', programmaAnteprima));
-  ['#opt-vuote', '#opt-non', '#opt-date'].forEach(s => $(s).addEventListener('change', programmaAnteprima));
+  ['#opt-vuote', '#opt-non', '#opt-date', '#opt-recenti'].forEach(s => $(s).addEventListener('change', programmaAnteprima));
   document.querySelectorAll('input[name=formato]').forEach(r => r.addEventListener('change', () => { formatoScelto = r.value; programmaAnteprima(); }));
   $('#scarica').addEventListener('click', () => scarica(false));
   $('#scarica-jpg').addEventListener('click', () => scarica(true));
