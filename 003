@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /*/(tag)/
+Request-rate: 1/10
+Crawl-delay: 10

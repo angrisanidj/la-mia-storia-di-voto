@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html translate="no">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="google" content="notranslate">
+  <title>Elezioni comunali 2025 - Alto Adige / Gemeindewahlen 2025 - Südtirol</title>
+  <meta name="application-name" content="Elezioni comunali 2025 - Alto Adige / Gemeindewahlen 2025 - Südtirol">
+  <meta name="description"
+    content="Elezioni comunali 2025 – Provincia di Bolzano: scrutinio e risultati in tempo reale. Gemeindewahlen 2025 Südtirol: Auszählung und Ergebnisse live.">
+    <meta name="keywords"
+    content="elezioni, comunali, amministrative, alto adige, bolzano, sindaco, consiglio, wahlen, gemeinde, südtirol, bozen, gemeinderat, bürgermeister">
+  <script>(function (w,n) {
+    /^\/?$/g.test(w.location.pathname) && /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|MSIE (6|7|8)\.0/i.test(n.userAgent) && w.location.replace("/mobile/");
+  })(window, navigator);
+  </script>
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="manifest" href="/mobile/asset-manifest.json">
+  <link rel="stylesheet" href="/css/gem2020_styles.css?v=2025-10-09T16:13:01.371Z">
+  <script src="/js/jEuCookieLaw.min.js?v=2025-10-09T16:13:01.371Z"></script>
+  <script type="text/javascript">
+    /*<![CDATA[*/
+    (function() {
+    var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+    sz.src = 'https://siteimproveanalytics.com/js/siteanalyze_6048813.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+    })();
+    /*]]>*/
+  </script>
+</head>
+<body>
+  <div id="root">
+    <div class="container">
+      <div class="sr-only" lang="it"> <h1>Elezioni comunali 2025 - Alto Adige</h1> <p>Elezioni amministrative 2025 per rinnovare Sindaci e Consigli Comunali in Alto Adige, Provincia autonoma di Bolzano. I seggi saranno aperti la domenica dalle ore 7:00 alle 22:00. Lo spoglio dei voti sarà effettuato la domenica al termine delle operazioni di voto.</p></div><div class="sr-only" lang="de"> <h1>Gemeindewahlen 2025 - Südtirol</h1> <p>Gemeindewahlen 2025, bei denen der Bürgermeister und die Gemeinderäte in Südtirol gewählt werden. Die Wahllokale sind am Sonntag von 7:00 Uhr bis 22:00 Uhr geöffnet. Die Auszählung der Stimmen beginnt am Sonntagabend nach Schließung der Wahllokale.</p><p class="no_toc d-md-block">Realizzazione: Informatica Alto Adige S.p.A. e Trentino Digitale S.p.A.</p></div>
+      <div class="d-flex justify-content-center"> <div class="spinner-grow text-primary" role="status"> <span class="sr-only">Loading...</span> </div></div>
+    </div>
+  </div>
+  <script src="/js/vendor/scripts.min.js?v=2025-10-09T16:13:01.371Z"></script>
+  <script src="/js/app/ewo2025nov.min.js?v=2026-07-28T13:13:53.941Z"></script>
+  <script>(function(){MunEle&&MunEle({el:document.getElementById("root")}).init();})();</script>
+</body>
+</html>

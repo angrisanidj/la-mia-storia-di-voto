@@ -1,0 +1,1103 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js ie89 ie8" lang="it-IT"><![endif]-->
+<!--[if IE 9]><html class="no-js ie89 ie9" lang="it-IT"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html class="js" lang="it-IT">
+<!--<![endif]-->
+
+
+
+<head>
+    
+                    
+    
+    
+    
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Site: elezioni.provincia.tn.it -->
+
+                        <title>
+Elezioni</title>
+
+    
+    
+                <meta name="Content-Type" content="text/html; charset=utf-8" />
+
+            <meta name="Content-language" content="it-IT" />
+
+                    <meta name="author" content="Informatica Trentina SpA" />
+    
+                <meta name="copyright" content="Informatica Trentina SpA" />
+    
+                <meta name="description" content="Elezioni Provincia autonoma di trento" />
+    
+                <meta name="keywords" content="provincia autonoma di trento,trento,trentino,elezioni,candidature,elezioni 2018,elezioni trentino,elezioni provincia autonoma di trento,presidente provincia autonoma di trento,risultati,risultati elezioni" />
+    
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="MSSmartTagsPreventParsing" content="TRUE" />
+    <meta name="generator" content="eZ Publish" />
+    
+     
+        
+<link rel="Home" href="/" title="Elezioni pagina iniziale" />
+<link rel="Index" href="/" />
+<link rel="Top"  href="/" title="
+Elezioni" />
+<link rel="Search" href="/content/advancedsearch" title="Cerca Elezioni" />
+<link rel="Shortcut icon" href="/extension/itdesignitalia/design/designitalia/images/favicon.ico" type="image/x-icon" />
+<link rel="Copyright" href="/ezinfo/copyright" />
+<link rel="Author" href="/ezinfo/about" />
+<link rel="Alternate" type="application/rss+xml" title="RSS" href="/rss/feed/my_feed" />
+
+<script type="text/javascript">
+(function() {
+    var head = document.getElementsByTagName('head')[0];
+    var printNode = document.createElement('link');
+    printNode.rel = 'Alternate';
+    printNode.href = "/layout/set/print" + document.location.search;
+    printNode.media = 'print';
+    printNode.title = "Versione stampabile";
+    head.appendChild(printNode);
+})();
+</script>    <!-- Condivisione social meta tags -->    
+    
+    
+    
+    
+    <meta property="fb:app_id" content="130986460798178" />
+
+    <meta property="og:site_name" content="Elezioni" />
+    <meta property="og:url" content="https://elezioni.provincia.tn.it/" />
+    <meta property="og:country-name" content="Italy" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Elezioni" />
+
+    
+    
+    
+
+    
+            <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@elezioni.provincia.tn.it" />
+        <meta name="twitter:title" content="Elezioni" />
+
+            
+    <!-- / -->          <link rel="stylesheet" type="text/css" href="/var/125/cache/public/stylesheets/f99e156dffa53cb3d12d5be57c198975_1737642317_all.css" />
+    
+<script src="https://cookiescript.cloud.provincia.tn.it/twb/tndigit.webbundle.yett_tndigit.js"></script>
+<script defer src="https://cookiescript.cloud.provincia.tn.it/twb/tndigit.webbundle.elezioni.js"></script>
+
+    
+<script type="text/javascript" src="/var/125/cache/public/javascript/419e20f5df57d37c8f8f843840b7e544_1737642316.js" charset="utf-8"></script>
+
+
+<!-- <link rel="preload" href=""/extension/itdesignitalia/design/designitalia_agid/javascript/IWT.min.js"" as="script"> -->
+
+<!--[if IE 8]>
+<script type="text/javascript" src="/extension/itdesignitalia/design/designitalia/javascript/vendor/respond.min.js" ></script>
+<script type="text/javascript" src="/extension/itdesignitalia/design/designitalia/javascript/vendor/rem.min.js" ></script>
+<script type="text/javascript" src="/extension/itdesignitalia/design/designitalia/javascript/vendor/selectivizr.js" ></script>
+<script type="text/javascript" src="/extension/itdesignitalia/design/designitalia/javascript/vendor/slice.js" ></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+<script type="text/javascript" src="/extension/itdesignitalia/design/designitalia/javascript/vendor/polyfill.min.js" ></script>
+<![endif]-->    
+<script>
+console.log("inizio script");
+var script=document.createElement('script');
+script.async=true; 
+script.src="https://www.googletagmanager.com/gtag/js?id=G-6XF9ZFFYRV"
+document.getElementsByTagName("head")[0].appendChild(script);
+const gtagEl = document.createElement("script");
+const gtagBody = document.createTextNode("window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);}");
+gtagEl.appendChild(gtagBody);
+document.head.appendChild(gtagEl);
+gtag("js", new Date());
+gtag('config', 'G-6XF9ZFFYRV');
+console.log("finito script");
+</script>
+    
+
+<meta name="application-name" content="Provincia autonoma di Trento" />
+<meta name="msapplication-TileColor" content="#ffffff"/>
+<meta name="msapplication-TileImage" content="/extension/pat_base/design/standard/images/favicon/mstile-70x70.png" />
+<meta name="msapplication-square70x70logo" content="/extension/pat_base/design/standard/images/favicon/mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="/extension/itdesignitalia/design/designitalia/images/favicon/mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="/extension/pat_base/design/standard/images/favicon/mstile-310x150.png" />
+
+
+   
+<link rel="apple-touch-icon" sizes="120x120" href="/extension/itdesignitalia/design/designitalia/images/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="/extension/itdesignitalia/design/designitalia/images/favicon/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/extension/itdesignitalia/design/designitalia/images/favicon/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/extension/itdesignitalia/design/designitalia/images/favicon/manifest.json" >
+<link rel="mask-icon" href="/extension/itdesignitalia/design/designitalia/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+
+<meta name="theme-color" content="#ffffff">
+</head>
+<body class="t-Pac">
+    
+    
+<!--[if (lt IE 9) | IE 9]>
+<div class="Prose Alert Alert--warning u-layout-prose u-padding-r-bottom u-padding-r-right u-margin-r-bottom" role="alert">
+    <p class="u-text-p">
+        <b>Attenzione!</b> 
+        Stai utilizzando una versione obsoleta di Internet Explorer. Alcune funzionalità non sono garantite. 
+        E' consigliato un aggiornamento del browser Internet Explorer o l'utilizzo di un altro browser.
+    </p>
+</div>
+<![endif]-->
+
+
+
+    <ul class="Skiplinks js-fr-bypasslinks u-hiddenPrint">
+    <li>
+        <a href="#main" aria-label="Vai al Contenuto">Vai al Contenuto</a>
+    </li>
+    <li>
+        <a href="#footer" aria-label="Vai al footer">Vai al footer</a>
+    </li>
+</ul>
+
+<header class="Header u-hiddenPrint">
+    
+
+<div class="Header-banner">
+    <div class="Header-owner Headroom-hideme">
+        <a href="http://www.provincia.tn.it"><span>Provincia autonoma di Trento</span></a>
+
+        <div class="Header-languages">
+            <span>
+                <img class="LogoTrentino" alt="" src="/extension/itdesignitalia/design/designitalia/images/trentino.png">
+            </span>
+            
+                        
+                            <a class="Header-language u-hidden u-md-inlineBlock u-lg-inlineBlock" aria-label="Login" href="/user/login">
+                    <abbr title="Login">
+                        <i class="mdi mdi-lock mdi-24px"></i>
+                    </abbr>
+                </a>
+                        
+        </div>
+
+    </div>
+</div>
+    
+<div class="Header-navbar">
+    <div class="u-layout-wide Grid Grid--alignMiddle u-layoutCenter">
+        
+        <div class="Header-logo Grid-cell" aria-hidden="true">
+                            <a href="/" tabindex="-1">
+                    <img src="/var/125/storage/images/594-113-ita-IT/Elezioni-provinciali-2018.png" alt="Elezioni" />
+                </a>
+                    </div>
+
+        <div class="Header-title Grid-cell">
+    <h1 class="Header-titleLink">
+        <a href="/">   
+                                                Elezioni
+                                <br>
+                                        
+        </a>
+    </h1>
+</div>
+        
+        <div class="Header-searchTrigger Grid-cell">
+            <button aria-controls="header-search" 
+                    class="js-Header-search-trigger mdi mdi-magnify mdi-18px"
+                    title="attiva il form di ricerca"
+                    aria-label="attiva il form di ricerca" 
+                    aria-hidden="false">
+            </button>
+            <button aria-controls="header-search" 
+                    class="js-Header-search-trigger u-hidden mdi mdi-close mdi-18px" 
+                    title="disattiva il form di ricerca" 
+                    aria-label="disattiva il form di ricerca" 
+                    aria-hidden="true">
+            </button>
+        </div>
+
+        <div class="Header-utils Grid-cell">
+            <div class="Header-social Headroom-hideme">
+                
+                
+
+                
+                                     </div>
+
+            
+            <div class="Header-search" id="header-search">
+                <form class="Form" action="/content/search">
+                    <div class="Form-field Form-field--withPlaceholder Grid u-background-white u-color-grey-30 u-borderRadius-s u-border-all-xxs" role="search">
+                        <input class="Form-input Form-input--ultraLean Grid-cell u-sizeFill u-text-r-s u-color-black u-text-r-xs u-borderRadius-s" 
+                               required id="cerca" 
+                               name="SearchText" 
+                               ">
+                        
+                        <label class="Form-label u-color-grey-50 u-text-r-xxs" for="cerca">Cerca...</label>
+                        <button class="Grid-cell u-sizeFit u-color-grey-50 u-padding-all-s u-textWeight-700 mdi mdi-magnify mdi-18px" 
+                                title="Avvia la ricerca" a
+                                aria-label="Avvia la ricerca">
+                        </button>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+                        
+        
+        <div class="Header-toggle Grid-cell">
+            <a class="Hamburger-toggleContainer js-fr-offcanvas-open u-nojsDisplayInlineBlock u-lg-hidden u-md-hidden" 
+               href="#menu" 
+               aria-controls="menu" 
+               aria-label="accedi al menu" 
+               title="accedi al menu"
+               role="button"
+               id="hamburger"
+            >
+                <span class="Hamburger-toggle" role="presentation"></span>
+                <span class="Header-toggleText" role="presentation">Menu</span>
+            </a>
+        </div>
+
+        
+        <script>
+            $(document).ready(function () {
+                document.getElementById('hamburger').addEventListener('keydown', (event) => {
+                    if (event.key === 'Enter') {
+                        document.getElementById('hamburger').click();
+                        setTimeout(() => {
+                            document.getElementById('btnCloseOffcanvas').focus();
+                        }, 200);
+                    }
+                });
+            });
+        </script>
+        
+                    
+    </div>
+</div>
+        
+      
+        <div class="Headroom-hideme u-textCenter u-hidden u-sm-hidden u-md-block u-lg-block">
+
+        <nav class="Megamenu Megamenu--default js-megamenu">
+            
+                            
+                <ul class="Megamenu-list Megamenu">
+                                                                        
+<li class="Megamenu-item">
+            <a             href="/Elezioni-Comun-general-de-Fascia-2025">
+            Elezioni Comun general de Fascia 2025
+        </a>
+        
+            </li>                                                                                                
+<li class="Megamenu-item">
+            <a             href="/Elezioni-Amministrative-2025">
+            Elezioni Amministrative 2025
+        </a>
+        
+            </li>                                                                                                            
+<li class="Megamenu-item">
+            <a class="Megamenu-submenu" data-nodeid="146"            href="#">
+            Elezioni precedenti
+        </a>
+        
+                                    <div class="Megamenu-subnav u-jsDisplayNone" id="Megamenu-submenu-146">
+                                                                        <ul class="Megamenu-subnavGroup">
+                                <li>
+                                                                            <a href="/Elezioni-precedenti/Referendum-del-26-settembre-2021">Referendum del 26 settembre 2021</a>
+                                                                    </li>
+                            </ul>
+                                                                                                <ul class="Megamenu-subnavGroup">
+                                <li>
+                                                                            <a href="/Elezioni-precedenti/Elezioni-provinciali-2018">Elezioni provinciali 2018</a>
+                                                                    </li>
+                            </ul>
+                                                                                                <ul class="Megamenu-subnavGroup">
+                                <li>
+                                                                            <a href="/Elezioni-precedenti/Elezioni-Comunita">Elezioni Comunità</a>
+                                                                    </li>
+                            </ul>
+                                                                                                <ul class="Megamenu-subnavGroup">
+                                <li>
+                                                                            <a href="/Elezioni-precedenti/Elezioni-provinciali-2013">Elezioni provinciali 2013</a>
+                                                                    </li>
+                            </ul>
+                                                                                                <ul class="Megamenu-subnavGroup">
+                                <li>
+                                                                            <a href="/Elezioni-precedenti/Referendum-provinciale-abrogativo-2012">Referendum provinciale abrogativo 2012</a>
+                                                                    </li>
+                            </ul>
+                                                                                                <ul class="Megamenu-subnavGroup">
+                                <li>
+                                                                            <a href="/Elezioni-precedenti/Elezioni-provinciali-2008">Elezioni provinciali 2008</a>
+                                                                    </li>
+                            </ul>
+                                                                                                <ul class="Megamenu-subnavGroup">
+                                <li>
+                                                                            <a href="/Elezioni-precedenti/Referendum-provinciale-abrogativo-2007">Referendum provinciale abrogativo 2007</a>
+                                                                    </li>
+                            </ul>
+                                                                                                <ul class="Megamenu-subnavGroup">
+                                <li>
+                                                                            <a href="/Elezioni-precedenti/Elezioni-provinciali-2003">Elezioni provinciali 2003</a>
+                                                                    </li>
+                            </ul>
+                                                                                                <ul class="Megamenu-subnavGroup">
+                                <li>
+                                                                            <a href="/Elezioni-precedenti/Altro">Altro</a>
+                                                                    </li>
+                            </ul>
+                                                            </div>
+                        </li>                                                                                                                
+<li class="Megamenu-item">
+            <a class="Megamenu-submenu" data-nodeid="127"            href="#">
+            Voto elettronico
+        </a>
+        
+                                    <div class="Megamenu-subnav u-jsDisplayNone" id="Megamenu-submenu-127">
+                                                                        <ul class="Megamenu-subnavGroup">
+                                <li>
+                                                                            <a href="/Voto-elettronico/Cos-e-e-come-si-vota-con-il-voto-elettronico">Cos'è e come si vota con il voto elettronico</a>
+                                                                    </li>
+                            </ul>
+                                                                                                <ul class="Megamenu-subnavGroup">
+                                <li>
+                                                                            <a href="/Voto-elettronico/Il-progetto">Il progetto</a>
+                                                                    </li>
+                            </ul>
+                                                                                                <ul class="Megamenu-subnavGroup">
+                                <li>
+                                                                            <a href="/Voto-elettronico/Quadro-normativo">Quadro normativo</a>
+                                                                    </li>
+                            </ul>
+                                                                                                <ul class="Megamenu-subnavGroup">
+                                <li>
+                                                                            <a href="/Voto-elettronico/Le-sperimentazioni">Le sperimentazioni</a>
+                                                                    </li>
+                            </ul>
+                                                                                                <ul class="Megamenu-subnavGroup">
+                                <li>
+                                                                            <a href="/Voto-elettronico/La-ricerca-sociale">La ricerca sociale</a>
+                                                                    </li>
+                            </ul>
+                                                                                                <ul class="Megamenu-subnavGroup">
+                                <li>
+                                                                            <a href="/Voto-elettronico/Faq">Faq</a>
+                                                                    </li>
+                            </ul>
+                                                            </div>
+                        </li>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    </ul>
+            
+                    </nav>
+
+    </div>
+        
+</header>
+<a name="main"></a>
+
+<!--[if (gt IE 9)|!(IE)]><!-->             
+
+    <section class="Offcanvas Offcanvas--right Offcanvas--modal js-fr-offcanvas u-jsVisibilityHidden u-nojsDisplayNone u-hiddenPrint" id="menu">
+        <h2 class="u-hiddenVisually">Menu di navigazione</h2>
+        <div class="Offcanvas-content u-background-white">
+            <div class="Offcanvas-toggleContainer u-background-70 u-jsHidden">
+                <a class="Hamburger-toggleContainer js-fr-offcanvas-close u-jsVisibilityHidden" 
+                   aria-controls="menu" 
+                   aria-label="esci dalla navigazione" 
+                   title="esci dalla navigazione" href="#" id="closeOffcanvas"
+                   tabindex="-1">
+                </a>
+                <button class="Hamburger-toggleContainer u-block u-padding-left-s js-fr-offcanvas-close"
+                    aria-label="esci dalla navigazione"
+                    title="esci dalla navigazione"
+                    id="btnCloseOffcanvas"
+                >
+                    <span class="u-color-30">
+                        <i class="mdi mdi-36px mdi-close u-color-white" id="iconClose"></i>
+                    </span>
+                </button>
+            </div>
+            <nav>
+                
+                                    <ul class="Linklist Linklist--padded Treeview Treeview--default js-Treeview u-text-r-xs">
+                                                                                    <li  >
+            <a href="/Elezioni-Comun-general-de-Fascia-2025">
+                            Elezioni Comun general de Fascia 2025
+                    </a>
+        
+        
+                    
+                             
+                            <ul>
+                                            <li  >
+            <a href="/Elezioni-Comun-general-de-Fascia-2025/Pubblicazioni">
+                            Pubblicazioni
+                    </a>
+        
+        
+            </li>
+                                            <li  >
+            <a href="/Elezioni-Comun-general-de-Fascia-2025/Risultati">
+                            Risultati
+                    </a>
+        
+        
+            </li>
+                                    </ul>
+            
+                        </li>
+                                                                                                                <li  >
+            <a href="/Elezioni-Amministrative-2025">
+                            Elezioni Amministrative 2025
+                    </a>
+        
+        
+                    
+                             
+                            <ul>
+                                            <li  >
+            <a href="/Elezioni-Amministrative-2025/Manifesti">
+                            Manifesti
+                    </a>
+        
+        
+            </li>
+                                    </ul>
+            
+                        </li>
+                                                                                                                <li  >
+            <a href="/Elezioni-precedenti">
+                            Elezioni precedenti
+                    </a>
+        
+        
+                    
+                             
+                            <ul>
+                                            <li  >
+            <a href="/Elezioni-precedenti/Referendum-del-26-settembre-2021">
+                            Referendum del 26 settembre 2021
+                    </a>
+        
+        
+            </li>
+                                            <li  >
+            <a href="/Elezioni-precedenti/Elezioni-provinciali-2018">
+                            Elezioni provinciali 2018
+                    </a>
+        
+        
+            </li>
+                                            <li  >
+            <a href="/Elezioni-precedenti/Elezioni-Comunita">
+                            Elezioni Comunità
+                    </a>
+        
+        
+            </li>
+                                            <li  >
+            <a href="/Elezioni-precedenti/Elezioni-provinciali-2013">
+                            Elezioni provinciali 2013
+                    </a>
+        
+        
+            </li>
+                                            <li  >
+            <a href="/Elezioni-precedenti/Referendum-provinciale-abrogativo-2012">
+                            Referendum provinciale abrogativo 2012
+                    </a>
+        
+        
+            </li>
+                                            <li  >
+            <a href="/Elezioni-precedenti/Elezioni-provinciali-2008">
+                            Elezioni provinciali 2008
+                    </a>
+        
+        
+            </li>
+                                            <li  >
+            <a href="/Elezioni-precedenti/Referendum-provinciale-abrogativo-2007">
+                            Referendum provinciale abrogativo 2007
+                    </a>
+        
+        
+            </li>
+                                            <li  >
+            <a href="/Elezioni-precedenti/Elezioni-provinciali-2003">
+                            Elezioni provinciali 2003
+                    </a>
+        
+        
+            </li>
+                                            <li  >
+            <a href="/Elezioni-precedenti/Altro">
+                            Altro
+                    </a>
+        
+        
+            </li>
+                                    </ul>
+            
+                        </li>
+                                                                                                                <li  >
+            <a href="/Voto-elettronico">
+                            Voto elettronico
+                    </a>
+        
+        
+                    
+                             
+                            <ul>
+                                            <li  >
+            <a href="/Voto-elettronico/Cos-e-e-come-si-vota-con-il-voto-elettronico">
+                            Cos'è e come si vota con il voto elettronico
+                    </a>
+        
+        
+            </li>
+                                            <li  >
+            <a href="/Voto-elettronico/Il-progetto">
+                            Il progetto
+                    </a>
+        
+        
+            </li>
+                                            <li  >
+            <a href="/Voto-elettronico/Quadro-normativo">
+                            Quadro normativo
+                    </a>
+        
+        
+            </li>
+                                            <li  >
+            <a href="/Voto-elettronico/Le-sperimentazioni">
+                            Le sperimentazioni
+                    </a>
+        
+        
+            </li>
+                                            <li  >
+            <a href="/Voto-elettronico/La-ricerca-sociale">
+                            La ricerca sociale
+                    </a>
+        
+        
+            </li>
+                                            <li  >
+            <a href="/Voto-elettronico/Faq">
+                            Faq
+                    </a>
+        
+        
+            </li>
+                                    </ul>
+            
+                        </li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                </ul>
+                            </nav>
+        </div>
+    </section>
+
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const offcanvasMenu = document.getElementById('menu');
+
+            offcanvasMenu.addEventListener('focusout', (event) => {
+                if (!offcanvasMenu.contains(event.relatedTarget)) {
+                    document.getElementById('closeOffcanvas').click();
+                }
+            });
+
+            const icon = document.getElementById('btnCloseOffcanvas');
+
+            icon.addEventListener('keydown', (event) => {
+                console.log(event);
+                if (event.key === 'Enter') {
+                    document.getElementById('closeOffcanvas').click();
+                }
+            });
+
+            icon.addEventListener('click', (event) => {
+                document.getElementById('closeOffcanvas').click();
+            });
+        });
+    </script>
+    
+
+    <!--<![endif]-->
+
+    
+
+        
+    <div class="u-content-length">
+        <div class="u-content-timetoread">
+        </div>
+    </div>
+
+
+    
+    <div >
+        
+      
+            
+<div class="u-flow design-italia-frontpage">
+                    
+<section class="u-flow-side-image Grid" 
+         style="background: url(https://elezioni.provincia.tn.it/var/125/storage/images/elezioni-provinciali-20232/3510-3-ita-IT/Elezioni-Provinciali-2023.jpg) !important; 
+                background-position: top !important; 
+                background-repeat: no-repeat !important;
+                background-size: cover !important;">
+    <div class="u-flow-side-image-content Grid-cell u-color-white u-padding-all-xxxl">
+                                            
+        <h2 id="link-439" class="title" style="cursor: pointer;">
+            Elezioni Provinciali 2023 - affluenza e risultati
+        </h2> 
+        <script>
+            $("#link-439").click(function(){                window.location.href = 'https://www.elezioni-2023.provincia.tn.it/index.html';
+            });
+        </script>
+                
+        <div class="description">
+                            
+<a id="eztoc3508_0_0_1"></a><h4><strong>Domenica 22 ottobre 2023 gli elettori e le elettrici trentine sono chiamati al voto per il rinnovo del Consiglio provinciale di Trento e per l’elezione del Presidente della Provincia autonoma di Trento.&nbsp;</strong><strong>In queste pagine tutte le informazioni utili ed il calendario degli adempimenti previsti dalla legge.</strong></h4>                
+                    </div>
+          
+        
+            </div>
+</section>                
+
+    
+<div class="u-flow-links u-background-white">
+    <section>
+                
+                
+        <h2 class="u-layout-centerLeft u-text-r-s">
+         
+            <!-- no see-all link -->
+                </h2>
+            
+                                                    
+        <div class="Grid">
+                    <div class="u-flow-item Grid-cell u-sm-size1of2 u-md-size4of12 u-lg-size3of12">
+                                                                                    
+                <div class="u-margin-all-l u-color-60">
+                    
+                    <h3 class="u-border-bottom-m">
+                                                <a class="u-block u-text-h3 u-textClean u-color-60" href="/Elezioni-Provinciali-2023/Pubblicazioni-e-Comunicazioni">
+                            Pubblicazioni e Comunicazioni
+                        </a>  
+                                            </h3>
+                                                                        <ul class="Linklist Prose u-text-r-xs">
+                                                            <li>
+                                                                            <a href="/Elezioni-Provinciali-2023/Pubblicazioni-e-Comunicazioni/Risultati-ufficiali">Risultati ufficiali</a>
+                                                                    </li>
+                                                            <li>
+                                                                            <a href="/Elezioni-Provinciali-2023/Pubblicazioni-e-Comunicazioni/Pubblicazioni-e-utilita">Pubblicazioni e utilità</a>
+                                                                    </li>
+                                                            <li>
+                                                                                                                    <a href="/content/download/1229/9559/file/Elezioni_Provinciali_2023_Calendario_delle_operazioni.pdf">Calendario delle operazioni</a>
+                                                                                                            </li>
+                                                            <li>
+                                                                                                                    <a href="/content/download/1285/9914/file/Decreto del Presidente n. 65 dd. 18 agosto 2023.pdf">Decreto di convocazione dei comizi elettorali</a>
+                                                                                                            </li>
+                                                            <li>
+                                                                                                                    <a href="/content/download/1283/9902/file/Avvertenze_Commissione_inchiesta_antimafia.pdf">Avvertenze - Commissione inchiesta antimafia</a>
+                                                                                                            </li>
+                                                        </ul>
+                                                            </div>
+                
+                            </div>
+                    <div class="u-flow-item Grid-cell u-sm-size1of2 u-md-size4of12 u-lg-size3of12">
+                                                
+                <div class="u-margin-all-l u-color-compl-80">
+                    
+                    <h3 class="u-border-bottom-m">
+                                                <a class="u-block u-text-h3 u-textClean u-color-compl-80" href="/Elezioni-Provinciali-2023/Circolari-e-modelli">
+                            Circolari e modelli
+                        </a>  
+                                            </h3>
+                                                                        <ul class="Linklist Prose u-text-r-xs">
+                                                            <li>
+                                                                            <a href="/Elezioni-Provinciali-2023/Circolari-e-modelli/Modelli-per-i-Comuni">Modelli per i Comuni</a>
+                                                                    </li>
+                                                            <li>
+                                                                            <a href="/Elezioni-Provinciali-2023/Circolari-e-modelli/Circolari">Circolari</a>
+                                                                    </li>
+                                                            <li>
+                                                                            <a href="/Elezioni-Provinciali-2023/Circolari-e-modelli/Modelli-per-la-presentazione-delle-candidature">Modelli per la presentazione delle candidature</a>
+                                                                    </li>
+                                                            <li>
+                                                                                                                    <a href="/content/download/1501/11694/file/FACSIMILE_scheda_elettorale_interno.pdf">FACSIMILE scheda elettorale</a>
+                                                                                                            </li>
+                                                            <li>
+                                                                            <a href="https://www.ufficiostampa.provincia.tn.it/pressevent/accreditation/ita/229827">Modulo di accredito stampa</a>
+                                                                    </li>
+                                                        </ul>
+                                                            </div>
+                
+                            </div>
+                    <div class="u-flow-item Grid-cell u-sm-size1of2 u-md-size4of12 u-lg-size3of12">
+                                                                                    
+                <div class="u-margin-all-l u-color-60">
+                    
+                    <h3 class="u-border-bottom-m">
+                                                <a class="u-block u-text-h3 u-textClean u-color-60" href="/Elezioni-Provinciali-2023/Comunicazione-elettorale">
+                            Comunicazione elettorale
+                        </a>  
+                                            </h3>
+                                                                        <ul class="Linklist Prose u-text-r-xs">
+                                                            <li>
+                                                                            <a href="/Elezioni-Provinciali-2023/Comunicazione-elettorale/News">News</a>
+                                                                    </li>
+                                                            <li>
+                                                                            <a href="/Elezioni-Provinciali-2023/Comunicazione-elettorale/Elenco-candidati-Presidente">Elenco candidati Presidente</a>
+                                                                    </li>
+                                                            <li>
+                                                                            <a href="/Elezioni-Provinciali-2023/Comunicazione-elettorale/Elenco-candidati-Consigliere">Elenco candidati Consigliere</a>
+                                                                    </li>
+                                                            <li>
+                                                                                                                    <a href="/content/download/1359/10366/file/Prescrizioni_in_materia_di_comunicazione_istituzionale_in_periodo_elettorale.pdf">Prescrizioni in materia di comunicazione istituzionale in periodo elettorale</a>
+                                                                                                            </li>
+                                                            <li>
+                                                                            <a href="/content/download/1367/10418/file/Propaganda%20elettorale%20-%20avvertenze.pdf">Propaganda elettorale: avvertenze</a>
+                                                                    </li>
+                                                        </ul>
+                                                            </div>
+                
+                            </div>
+                    <div class="u-flow-item Grid-cell u-sm-size1of2 u-md-size4of12 u-lg-size3of12">
+                                                
+                <div class="u-margin-all-l u-color-compl-80">
+                    
+                    <h3 class="u-border-bottom-m">
+                                                <a class="u-block u-text-h3 u-textClean u-color-compl-80" href="/Elezioni-Provinciali-2023/Normativa">
+                            Normativa
+                        </a>  
+                                            </h3>
+                                                                        <ul class="Linklist Prose u-text-r-xs">
+                                                            <li>
+                                                                            <a href="https://trasparenza.provincia.tn.it/pagina925_elezioni-trasparenti.html">Elezioni trasparenti</a>
+                                                                    </li>
+                                                            <li>
+                                                                            <a href="/Elezioni-Provinciali-2023/Normativa/I-testi-ufficiali">I testi ufficiali</a>
+                                                                    </li>
+                                                            <li>
+                                                                                                                    <a href="/content/download/1257/9735/file/la_legge_elettorale_provinciale_in_pillole_2023.pdf">La legge elettorale provinciale in pillole</a>
+                                                                                                            </li>
+                                                            <li>
+                                                                            <a href="/Elezioni-Provinciali-2023/Normativa/Fonti-normative-sulla-propaganda-elettorale">Fonti normative sulla propaganda elettorale</a>
+                                                                    </li>
+                                                            <li>
+                                                                            <a href="/Elezioni-Provinciali-2023/Normativa/Elettori-residenti-all-estero">Elettori residenti all'estero</a>
+                                                                    </li>
+                                                        </ul>
+                                                            </div>
+                
+                            </div>
+                </div>
+        
+                
+        
+        
+    </section>
+</div>
+        </div>
+
+
+
+
+
+    </div>
+
+    
+<div class="u-background-95 u-hiddenPrint">
+    <div class="u-layout-wide u-layoutCenter u-layout-r-withGutter">
+        <footer class="Footer u-background-95">
+
+            <a name="footer"></a>
+
+            
+            <div class="Grid Grid--withGutter">
+
+    
+<div class="Footer-block Grid-cell u-md-size1of4 u-lg-size1of4">
+    <h2 class="Footer-blockTitle">
+        Informazioni
+    </h2>
+    <div class="Footer-subBlock">
+        <div class="u-lineHeight-xl u-color-white">
+                            
+<p>Numero verde 800 903606</p>                    </div>
+    </div>
+</div>
+
+
+<div class="Footer-block Grid-cell u-md-size1of4 u-lg-size1of4">
+    <h2 class="Footer-blockTitle">
+        Contatti
+    </h2>
+    <ul>
+                    
+                                                                                        
+                            <li>
+                    <i class="mdi mdi-phone"></i> Telefono 
+                    <a style="margin-left:.5rem;" href="tel:0461 494666" aria-label="Link numero telefonico 0461 494666">0461 494666</a>
+                </li>
+                                            
+                                                
+                                            
+                                                                                        
+                            <li>
+                    <i class="mdi mdi-fax"></i> Fax 
+                    <a style="margin-left:.5rem;" href="tel:0461 493690" aria-label="Link numero fax 0461 493690">0461 493690</a>
+                </li>
+                                            
+                                                
+                                            
+                                                                                        
+                            <li>
+                    <i class="mdi mdi-email"></i> Email 
+                    <a style="margin-left:.5rem;" href="mailto:serv.elettorale-anticorruzione@provincia.tn.it " aria-label="Link email serv.elettorale-anticorruzione@provincia.tn.it ">serv.elettorale-anticorruzione@provincia.tn.it </a>
+                </li>
+                                            
+                                                
+                                            
+                                                                                        
+                            <li>
+                    <i class="mdi mdi-email-secure"></i> PEC 
+                    <a style="margin-left:.5rem;" href="mailto:serv.elettorale-anticorruzione@pec.provincia.tn.it" aria-label="Link email serv.elettorale-anticorruzione@pec.provincia.tn.it">serv.elettorale-anticorruzione@pec.provincia.tn.it</a>
+                </li>
+                                            
+                                                
+                                            
+                                                                                        
+                            <li>
+                    <i class="mdi mdi-map-marker"></i> Indirizzo 
+                    <a style="margin-left:.5rem;" href="https://maps.google.com/?q=Piazza Dante, 15 - 38122 Trento (TN)" aria-label="Link google map Piazza Dante, 15 - 38122 Trento (TN)">Piazza Dante, 15 - 38122 Trento (TN)</a>
+                </li>
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                        
+    </ul>
+</div>
+
+<div class="Footer-block Grid-cell u-md-size1of4 u-lg-size1of4">
+    <h2 class="Footer-blockTitle">
+        Links
+    </h2>
+    
+    <ul>
+                                <li>
+                <a href="https://www.provincia.tn.it/Footer/Note-legali-e-crediti">
+                    note legali
+                </a>
+            </li>
+                                                                <li>
+                <a href="http://www.provincia.tn.it/socialmediapolicy/">
+                    social media policy
+                </a>
+            </li>
+                                                                <li>
+                <a href="http://www.provincia.tn.it/privacy/">
+                    privacy
+                </a>
+            </li>
+                                                                <li>
+                <a href="https://form.agid.gov.it/view/102bf380-97c6-11f0-a9c7-4fb0705d4b6b">
+                    dichiarazione di accessibilità
+                </a>
+            </li>
+                                                                <li>
+                <a href="">
+                    
+                </a>
+            </li>
+                                            </ul>
+</div>
+                                                                                                                                                                                                                                                                    <div class="Footer-block Grid-cell u-md-size1of4 u-lg-size1of4">
+        <h2 class="Footer-blockTitle">
+            Seguici su
+        </h2>
+
+
+
+        <div class="Footer-subBlock">
+            <ul class="Footer-socialIcons">
+                
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                                                 <li>
+                        <a href="https://www.facebook.com/provincia.autonoma.trento">
+                            <span class="Icon Icon-facebook"></span><span class="u-hiddenVisually">Facebook</span>
+                        </a>
+                    </li>
+                 
+                             
+                                                 <li>
+                        <a href="https://twitter.com/ProvinciaTrento">
+                            <span class="Icon Icon-twitter"></span><span class="u-hiddenVisually">Twitter</span>
+                        </a>
+                    </li>
+                 
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                                                  <li>
+                         <a href="https://www.linkedin.com/company/provincia-autonoma-di-trento">
+                             <span class="Linkedin">
+                                <i class="mdi mdi-linkedin mdi-24px"></i>
+                             </span>
+                             
+                             <span class="u-hiddenVisually">Linkedin</span>
+                         </a>
+                     </li>
+                 
+                             
+                             
+                             
+                             
+                             
+                      </div>
+    </div>
+    
+
+</div>
+            
+            <div class="Footer-links">
+    </div>
+            
+
+        </footer>
+    </div>
+</div>
+    
+    
+    
+    
+    
+    <a href="#" title="Torna all'inizio" class="ScrollTop js-scrollTop js-scrollTo">
+        <i class="ScrollTop-icon Icon-collapse" aria-hidden="true"></i>
+        <span class="u-hiddenVisually">Torna all'inizio</span>
+    </a>
+
+
+<script type="text/javascript" src="/var/125/cache/public/javascript/d9d011d2ff468075043ddeb11dbd449d_1737642300.js" charset="utf-8"></script>
+
+
+<script>__PUBLIC_PATH__ = "/extension/itdesignitalia/design/designitalia_ptn/javascript/"</script>
+<script src="/extension/itdesignitalia/design/designitalia_agid/javascript/IWT.min.js"></script>
+
+
+<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+  <div class="slides"></div>
+  <h3 class="title"><span class="sr-only">gallery</span></h3>
+  <a class="prev">‹</a>
+  <a class="next">›</a>
+  <a class="close">×</a>
+  <a class="play-pause"></a>
+  <ol class="indicator"></ol>
+</div>
+
+
+<div id="overlay-mask" style="display:none;"></div>
+<img src="/extension/ocbootstrap/design/ocbootstrap/images/loader.gif" id="ajaxuploader-loader" style="display:none;" alt="Caricamento..." />
+
+
+
+<!--  do nothing --></body>
+</html>

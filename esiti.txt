@@ -1,0 +1,17 @@
+001 200 text/plain 344
+002 200 text/html 3422
+003 200 text/plain; charset=UTF-8 69
+004 200 text/html; charset=utf-8 53589
+005 000  0
+005 errore
+006 000  0
+006 errore
+007 200 text/plain 7109
+008 503 text/html 11832
+009 200 text/plain 281504
+010 503 text/html 11832
+011 503 text/html 11832
+012 503 text/html 11832
+013 200 text/plain;charset=UTF-8 20474
+014 404 application/xml 223
+015 200 application/json;charset=utf-8 216

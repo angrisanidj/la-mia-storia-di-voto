@@ -1,0 +1,11 @@
+User-agent: bingbot
+Allow : /
+Crawl-delay: 10
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.elezionicomunali.bz.it/sitemap-elezionicomunali.xml
+Sitemap: https://www.gemeindewahlen.bz.it/sitemap-gemeindewahlen.xml
+Sitemap: https://www.litesdecomun.bz.it/sitemap-litesdecomun.xml
+Sitemap: https://www.velesdechemun.bz.it/sitemap-velesdechemun.xml
