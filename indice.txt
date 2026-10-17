@@ -1,0 +1,7 @@
+001 https://static.provinz.bz.it/robots.txt
+002 https://www.provinz.bz.it/robots.txt
+003 http://web.archive.org/cdx/search/cdx?fl=timestamp,original,statuscode&collapse=urlkey&url=static.provinz.bz.it/vote/*&limit=60000&filter=!original:.*(gem2000|gem2005|gem2010|landtag|parl|europa|refer).*
+004 https://data.civis.bz.it/api/3/action/package_list
+005 http://web.archive.org/cdx/search/cdx?fl=timestamp,original,statuscode&collapse=urlkey&url=provinz.bz.it/vote/gem201*&matchType=prefix&limit=5000
+006 http://web.archive.org/cdx/search/cdx?fl=timestamp,original,statuscode&collapse=urlkey&url=provincia.bz.it/vote/gem201*&matchType=prefix&limit=5000
+007 http://web.archive.org/cdx/search/cdx?fl=timestamp,original,statuscode&collapse=urlkey&url=static.provincia.bz.it/vote/*&limit=5000
