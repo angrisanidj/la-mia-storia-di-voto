@@ -1,0 +1,9 @@
+001 https://web.archive.org/web/20080705010259id_/http://www.elezioni.regione.sicilia.it:80/comunali2008/primoTurno/CT/ReportRisultatiCT.html
+002 https://web.archive.org/web/20130320075449id_/http://www.elezioni.regione.sicilia.it:80/comunali2008/primoTurno/CT/ReportRisultatiCT4.html
+003 https://web.archive.org/web/20130320103552id_/http://www.elezioni.regione.sicilia.it:80/comunali2008/primoTurno/CT/ReportCandidatiListeCT4.html
+004 https://web.archive.org/web/20240614115912id_/http://www.elezioni.regione.sicilia.it/comunali2023/CT/ReportRisultatiCT.html
+005 https://web.archive.org/web/20240614115857id_/http://www.elezioni.regione.sicilia.it/comunali2023/CT/ReportRisultatiCT95.html
+006 https://web.archive.org/web/20240614115856id_/http://www.elezioni.regione.sicilia.it/comunali2023/CT/ReportSeggiCT95.html
+007 https://web.archive.org/web/20240811044906id_/http://www.elezioni.regione.sicilia.it/comunali2023/primoTurno/ReportCandidatiListe.html
+008 https://web.archive.org/web/20240811063419id_/http://www.elezioni.regione.sicilia.it/comunali2023/primoTurno/ReportRisultati.html
+009 https://web.archive.org/web/20240614115906id_/http://www.elezioni.regione.sicilia.it/comunali2023/index.html

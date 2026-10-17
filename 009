@@ -1,0 +1,266 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html>
+  <head>
+    <title>Informatizzazione Dati Elezioni Comunali 2023</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-15" />
+    <link rel="stylesheet" type="text/css" href="/resource/styles//ssea.css">
+  </head>
+  
+  <body>
+    <table cellSpacing="0" cellPadding="0"><tr><td width="100"><img src="/resource/images/dot.gif" alt="user" height="0" width="100" border="0"></td><td>
+      <!-- banner -->
+<TABLE cellSpacing=0 cellPadding=0 border=0 width="780">
+  <tr>
+    <td background="/resource/images/header_bck.gif"><span class="Stile1"><img src="/resource/images/logo.gif" alt="logo regione siciliana" width="88" height="126" border="0"></span></td>
+    <td background="/resource/images/header_bck.gif" align="center"><span class="title">Assessorato Regionale delle Autonomie Locali<br>
+    e della Funzione Pubblica<br><i>Servizio Elettorale</i></span></td>
+    <td background="/resource/images/header_bck.gif"><img src="/resource/images/logo_sicilia.gif" alt="Elezioni Comunali" height="126" border="0"></td>
+  </tr>
+</table>
+
+
+    <table width="780" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td background="/resource/images/barra_bck.gif" height="41">
+          <FONT class="Stile3Bold">
+            
+            &nbsp;Dati di lunedì 12 giugno 2023, 19:58
+          </font>
+        </td>
+      </tr>
+    </table>
+
+
+<!-- banner -->
+
+
+      <!-- fine banner orizzontale per credenziali e logout-->
+
+      <table cellSpacing=0 cellPadding=0 border="0" width="780">
+        <tr width="780">
+          <td  background="/resource/images/menu_bck.gif" border="0" width="140" align="left" valign="top">
+            <!-- Tabella di menu sx -->
+            <table cellSpacing=0 cellpadding=3 border="0">
+
+
+    <tr>
+      <td class="Stile3Bold" valign="top">
+      <img src="/resource/images/bullet_menu.gif" alt="bullet" width="12" height="12" border="0"></td>
+      <td  class="Stile3Bold" valign="top" colspan=2>
+        <span class="menuSx">
+        
+        <A class=linkSottoMenu href="index.html">Home</A>
+        
+        </span>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+      </tr>
+
+      <tr>
+        <td class="Stile3Bold" valign="top">
+        <img src="/resource/images/bullet_menu.gif" alt="bullet" width="12" height="12" border="0"></td>
+        <td  class="Stile3Bold" valign="top" colspan=2>
+        <span class="menuSx">Report</span>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+      </tr>
+
+        <tr>
+          <td class="Stile3" valign="top">&nbsp;</td>
+          <td class="Stile3" valign="top">&nbsp;&nbsp;</td>
+          
+          <td class="Stile3" valign="top"><A class=linkSottoMenu href="ReportDatiLista.html">Report Sindaci e Liste</A></td>
+          
+        </tr>
+        <tr>
+          <td></td>
+        </tr>        
+        
+        <tr>
+          <td class="Stile3" valign="top">&nbsp;</td>
+          <td class="Stile3" valign="top">&nbsp;&nbsp;</td>
+          
+          <td class="Stile3" valign="top"><A class=linkSottoMenu href="ReportTabellaAffluenza.html">Affluenza-Riepilogo Regionale</A></td>
+          
+        </tr>
+        <tr>
+          <td></td>
+        </tr>        
+        
+        <tr>
+          <td class="Stile3" valign="top">&nbsp;</td>
+          <td class="Stile3" valign="top">&nbsp;&nbsp;</td>
+          
+          <td class="Stile3" valign="top"><A class=linkSottoMenu href="ReportAffluenza.html">Report Affluenza</A></td>
+          
+        </tr>
+        <tr>
+          <td></td>
+        </tr>        
+        
+        <tr>
+          <td class="Stile3" valign="top">&nbsp;</td>
+          <td class="Stile3" valign="top">&nbsp;&nbsp;</td>
+          
+          <td class="Stile3" valign="top"><A class=linkSottoMenu href="ReportCandidati.html">Report Voti Candidati Sindaco</A></td>
+          
+        </tr>
+        <tr>
+          <td></td>
+        </tr>        
+        
+        <tr>
+          <td class="Stile3" valign="top">&nbsp;</td>
+          <td class="Stile3" valign="top">&nbsp;&nbsp;</td>
+          
+          <td class="Stile3" valign="top"><A class=linkSottoMenu href="ReportCandidatiListe.html">Report Voti Candidati Sindaco e Liste</A></td>
+          
+        </tr>
+        <tr>
+          <td></td>
+        </tr>        
+        
+        <tr>
+          <td class="Stile3" valign="top">&nbsp;</td>
+          <td class="Stile3" valign="top">&nbsp;&nbsp;</td>
+          
+          <td class="Stile3" valign="top"><A class=linkSottoMenu href="ReportRisultati.html">Report Risultati</A></td>
+          
+        </tr>
+        <tr>
+          <td></td>
+        </tr>        
+        
+        <tr>
+          <td class="Stile3" valign="top">&nbsp;</td>
+          <td class="Stile3" valign="top">&nbsp;&nbsp;</td>
+          
+          <td class="Stile3" valign="top"><A class=linkSottoMenu href="ReportSeggi.html">Report Ripartizione Seggi</A></td>
+          
+        </tr>
+        <tr>
+          <td></td>
+        </tr>        
+        
+        <tr>
+          <td class="Stile3" valign="top">&nbsp;</td>
+          <td class="Stile3" valign="top">&nbsp;&nbsp;</td>
+          
+          <td class="Stile3" valign="top"><A class=linkSottoMenu href="ReportSbarramentoComuni.html">Report Sbarramento</A></td>
+          
+        </tr>
+        <tr>
+          <td></td>
+        </tr>        
+        
+</table>
+            <!-- Fine Tabella di menu sx -->
+          </td>      
+          <td align="center" valign="top" width="628">
+          
+
+
+
+
+
+
+
+
+<BODY>
+<table border="0" width="628">
+	<tr>
+		<td align="center" colspan="2">&nbsp;</td>
+	</tr>
+	<tr>
+		<td valign="top" cellspacing="0" width="408">
+		<table border="0" width="408">
+			<tr>
+			<td align='center'><FONT class='title15' >Elezioni Amministrative del 28-29 maggio 2023<br><br><br></font></td></tr><tr><td align='center'><FONT class='normalBold11'>DATI AFFLUENZA E RISULTATI DEFINITIVI<br>Turno di Ballottaggio del 11-12 giugno 2023<br><br><br><br></font></td></tr><tr><td align='center'><FONT class='normalBold'>Per consultare i dati accedere al menu' posto a fianco e selezionare la funzionalita' prescelta<br><br><br><br></font></td></tr><tr><td align='center'><FONT class='normalBold'><A href='primoTurno/index.html'>Dati affluenza e risultati provvisori relativi al primo turno</A></font></td>
+			</tr>
+		</table>
+		</td>
+		<td valign="top" width="220">
+		<fieldset><legend>News</legend>
+		<table width="200" border="0" cellpadding="0" cellspacing="0">
+			<tr>
+				<td valign="top"></td>
+				<td rowspan="2" valign="top"></td>
+				<font class="normalBold">Si comunica che per i comuni dove e' stato presentato un solo candidato Sindaco, ai fini del raggiungimento del quorum del 50% dal numero degli elettori totali sono stati detratti gli iscritti all'A.I.R.E. giusto art. 2 LR 03-04-2019</font>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+			</tr>
+		</table>
+		</fieldset>
+		<fieldset><legend>Link utili</legend>
+		<table width="200" border="0" cellpadding="0" cellspacing="0">
+			<tr>
+				<td valign="top"></td>
+				<td rowspan="2" valign="top"></td>
+				<p class="normalBold"><a href="http://www.elezioni.regione.sicilia.it" target="_new">Elezioni Comunali 2023 - Turno di ballottaggio</a></p><p class="normalBold"><a href="http://www.elezioni.regione.sicilia.it/regionali2022/index.html" target="_new">Elezioni Regionali 2022</a></p><p class="normalBold"><a href="http://www.elezioni.regione.sicilia.it/comunali2022/primoTurno/" target="_new">Elezioni Comunali 2022</a></p><p class="normalBold"><a href="http://www.elezioni.regione.sicilia.it/comunali2021/primoTurno/" target="_new">Elezioni Comunali 2021</a></p><p class="normalBold"><a href="http://www.elezioni.regione.sicilia.it/comunali2020/" target="_new">Elezioni comunali 2020</a></p><p class="normalBold"><a href="http://www.elezioni.regione.sicilia.it/comunali2019/primoTurno" target="_new">Elezioni comunali 2019</a></p><p class="normalBold"><a href="http://www.elezioni.regione.sicilia.it/comunali2018/primoTurno/" target="_new">Elezioni Comunali 2018</a></p><p class="normalBold"><a href="http://www.elezioni.regione.sicilia.it/regionali2017" target="_new">Elezioni Regionali 2017</a></p><p class="normalBold"><a href="http://www.elezioni.regione.sicilia.it/comunali2017/primoTurno/" target="_new">Elezioni Comunali 2017</a></p><p class="normalBold"><a href="http://www.elezioni.regione.sicilia.it/comunali2016/primoTurno/" target="_new">Elezioni Comunali 2016</a></p><p class="normalBold"><a href="http://www.elezioni.regione.sicilia.it/comunali2015/primoTurno" target="_new">Elezioni Comunali 2015</a></p><p class="normalBold"><a href="http://www.elezioni.regione.sicilia.it/comunali2014/primoTurno" target="_new">Elezioni Comunali 2014</a></p><p class="normalBold"><a href="http://www.elezioni.regione.sicilia.it/comunali2013/primoTurno" target="_new">Elezioni Comunali 2013</a></p><p class="normalBold"><a href="http://www.elezioni.regione.sicilia.it/comunali2012/primoTurno" target="_new">Elezioni Comunali 2012</a></p><p class="normalBold"><a href="http://www.elezioni.regione.sicilia.it/comunali2011/primoTurno" target="_new">Elezioni Comunali 2011</a></p><p class="normalBold"><a href="http://www.elezioni.regione.sicilia.it/comunali2010/primoTurno/" target="_new">Elezioni Comunali 2010</a></p><p class="normalBold"><a href="http://www.elezioni.regione.sicilia.it/comunali2009/primoTurno/" target="_new">Elezioni Comunali 2009</a></p><p class="normalBold"><a href="http://pti.regione.sicilia.it/portal/page/portal/PIR_PORTALE/PIR_LaStrutturaRegionale/PIR_AssessoratoRegionaleAutonomieLocaliFunzionePubblica/PIR_DipAutonomieLocali/PIR_Areetematiche/PIR_Elezioni" target="_new">Servizio Elettorale</a></p>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+			</tr>
+		</table>
+		</fieldset>
+		</td>
+	</tr>
+</table>
+</form>
+</BODY>
+
+          </td>
+        </tr>
+      <!-- footer -->
+<tr>
+  <td background="/resource/images/footer_4.gif" class="Stile3Bold" valign="top">
+    <img src="/resource/images/footer_1.jpg" alt="logo por" height="51" border="0">
+  </td>
+  <td background="/resource/images/footer_4.gif" valign="bottom" align=left>
+    <table width="100%" cellpadding=0 border=0 cellspacing=0>
+      <tr>
+        <td align="left">
+          <img src="/resource/images/footer_4.gif" height="51">
+        </td>
+        <td align="center">
+          <a href="https://form.agid.gov.it/view/419bcf63-c115-4123-804d-1fb910fa768e" title="Dichiarazione di accessibilità" class="is-external" rel="noopener noreferrer" target="_blank" style=" font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px">Dichiarazione di accessibilità</a>
+        </td>
+        <td align="right">
+          <img src="/resource/images/footer_3.gif" alt="logo" height="51" border="0">
+        </td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<!-- footer -->
+      </table>
+    </div>
+  </body>
+</html>
+
+
