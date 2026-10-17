@@ -232,9 +232,21 @@ def unisci(trovati):
             continue
         cod, v = r.split(":")
         voti[cod] = {date[abs(int(i)) - 1]: int(i) < 0 for i in v.split(",")}
+    def aggiungi(cod, d, ball):
+        # una data a pochi giorni da una già presente è la stessa tornata (le fonti indicano a volte il secondo giorno di voto)
+        v = voti.setdefault(cod, {})
+        g = dt.date.fromisoformat(d)
+        vicina = next((x for x in v if abs((dt.date.fromisoformat(x) - g).days) <= 3), None)
+        if vicina: v[vicina] = v[vicina] or bool(ball)
+        else: v[d] = bool(ball)
     for cod, el in trovati.items():
         for d, ball in el:
-            voti.setdefault(cod, {})[d] = bool(ball) or voti.get(cod, {}).get(d, False)
+            aggiungi(cod, d, ball)
+    # capoluoghi: tornate e ballottaggi da Wikipedia, dove tuttitalia.it non li riporta
+    cap = os.path.join(RADICE, "strumenti", "ballottaggi-capoluoghi.json")
+    if os.path.exists(cap):
+        for t in json.load(open(cap, encoding="utf-8"))["tornate"]:
+            aggiungi(t["cod"], t["primo"], t["ballottaggio"])
     tutte = sorted({d for v in voti.values() for d in v})
     pos = {d: i for i, d in enumerate(tutte)}
     nuove = [f"{cod}:{','.join(str(-(pos[d] + 1) if b else pos[d] + 1) for d, b in sorted(v.items()))}" for cod, v in sorted(voti.items())]
