@@ -1494,3 +1494,14 @@ function init() {
   aggiorna();
 }
 init();
+
+// «Metodo, fonti e limiti»: si apre anche dal link nel piede o con #metodo nell'indirizzo
+(() => {
+  const d = document.getElementById('metodo');
+  if (!d) return;
+  const apri = () => { if (location.hash === '#metodo' || location.hash === '#s-metodo') { d.open = true; d.scrollIntoView({ block: 'start' }); } };
+  window.addEventListener('hashchange', apri);
+  const l = document.getElementById('apri-metodo');
+  if (l) l.addEventListener('click', () => { d.open = true; });
+  apri();
+})();

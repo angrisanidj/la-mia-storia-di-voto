@@ -248,6 +248,23 @@ select.campo { appearance: none; padding-right: 40px; background: #fff url("data
 .sismo-nota { margin-top: 16px; font-size: .9rem; color: var(--grigio); max-width: 46em; }
 
 /* ---------- Piede ---------- */
+.metodo summary { list-style: none; cursor: pointer; display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 4px 0; }
+.metodo summary::-webkit-details-marker { display: none; }
+.metodo-titolo { font: 700 clamp(1.6rem, 4.6vw, 2.1rem)/1.1 var(--titoli); letter-spacing: -.01em; }
+.metodo-segno { flex: none; width: 40px; height: 40px; border-radius: 50%; border: 1.5px solid var(--contorno); position: relative; }
+.metodo-segno::before, .metodo-segno::after { content: ''; position: absolute; left: 50%; top: 50%; width: 14px; height: 2px; margin: -1px 0 0 -7px; background: var(--inchiostro); transition: transform .2s; }
+.metodo-segno::after { transform: rotate(90deg); }
+.metodo[open] .metodo-segno::after { transform: rotate(0deg); }
+.metodo summary:hover .metodo-segno { border-color: var(--verde); }
+.metodo summary:focus-visible { outline: 3px solid var(--verde); outline-offset: 4px; border-radius: 8px; }
+.metodo-corpo { max-width: 40em; padding-top: 8px; }
+.metodo-corpo h3 { margin-top: 30px; font: 700 1.3rem/1.2 var(--titoli); }
+.metodo-corpo p { margin-top: 10px; }
+.metodo-attacco { color: var(--grigio); }
+.metodo-elenco { margin-top: 10px; display: grid; gap: 8px; }
+.metodo-elenco li { position: relative; padding-left: 20px; }
+.metodo-elenco li::before { content: ''; position: absolute; left: 2px; top: .62em; width: 7px; height: 7px; border-radius: 50%; background: var(--verde); }
+.metodo-corpo a { color: var(--verde-scuro); }
 .piede { max-width: calc(var(--colonna) + 48px); margin: 40px auto 0; padding: 28px 24px 56px; border-top: 1px solid var(--filo); font-size: .92rem; color: var(--grigio); display: grid; gap: 10px; }
 </style>
 </head>
@@ -390,12 +407,78 @@ select.campo { appearance: none; padding-right: 40px; background: #fff url("data
     <div class="anteprima"><canvas id="tela" width="1080" height="1350" aria-label="Anteprima dell’immagine"></canvas><p class="nota-formato" id="nota-formato" hidden></p></div>
   </div>
 </section>
+
+<section class="foglio largo" id="s-metodo" aria-labelledby="h-metodo">
+  <details class="metodo" id="metodo">
+    <summary><span class="metodo-titolo" id="h-metodo">Metodo, fonti e limiti</span><span class="metodo-segno" aria-hidden="true"></span></summary>
+    <div class="metodo-corpo">
+      <p class="metodo-attacco">La pagina ricostruisce le elezioni e i referendum a cui potevi partecipare dal 1992 a oggi, partendo da due informazioni: il mese e l’anno di nascita e i comuni in cui hai vissuto. È una ricostruzione, non un certificato: le regole sono quelle di legge, i dati vengono da archivi pubblici, ma la tua situazione reale può essere stata diversa. Qui sotto trovi come funziona, da dove vengono i dati e dove sono i limiti.</p>
+
+      <h3>I tuoi dati restano tuoi</h3>
+      <p>Tutto si calcola nel browser. La pagina non salva nulla, non usa cookie, non invia le risposte a nessun server e non fa statistiche sulle visite: le immagini si disegnano sul tuo dispositivo. Chiudendo la pagina si perde tutto, e il link da condividere porta alla pagina vuota, non alle tue risposte.</p>
+
+      <h3>Quali consultazioni ci sono</h3>
+      <ul class="metodo-elenco">
+        <li><strong>Politiche</strong>: le 9 elezioni dal 1992 al 2022, con Camera e Senato come voci separate, perché sono due schede e il voto può essere diverso.</li>
+        <li><strong>Europee</strong>: le 7 dal 1994 al 2024.</li>
+        <li><strong>Referendum nazionali</strong>: le 17 giornate di voto, abrogative e costituzionali, dal 1993 al 2026, con i quesiti e le percentuali di Sì.</li>
+        <li><strong>Suppletive</strong>: le 52 elezioni di Camera e Senato nei collegi rimasti scoperti, dal 1994, con i comuni di ogni collegio e i candidati.</li>
+        <li><strong>Regionali</strong>: tutte dal 1992, nelle regioni a statuto ordinario e speciale, con i secondi turni della Sardegna (1994 e 1999) e i consigli provinciali di Trento e Bolzano.</li>
+        <li><strong>Provinciali</strong>: le elezioni dirette del presidente e del consiglio dal 1993 al 2011, con i ballottaggi. Dal 2014 le province sono enti di secondo livello e non si votano più.</li>
+        <li><strong>Comunali</strong>: le date di ogni comune dal 1993, con i ballottaggi.</li>
+        <li><strong>Referendum regionali e provinciali</strong>: 17 consultazioni dal 2002, dall’autonomia di Lombardia e Veneto ai referendum di Valle d’Aosta, Sardegna, Friuli-Venezia Giulia, Trento e Bolzano.</li>
+      </ul>
+      <p>Restano fuori i referendum comunali, le elezioni dei municipi e delle circoscrizioni, i referendum per fusioni di comuni o cambi di confine, le primarie. Se ne manca una che ti riguarda, puoi aggiungerla a mano dall’elenco.</p>
+
+      <h3>Le regole applicate</h3>
+      <ul class="metodo-elenco">
+        <li><strong>Età</strong>: servono 18 anni compiuti entro il primo giorno di voto. Con il solo mese di nascita non si può sapere il giorno: se il compleanno cade nel mese del voto, la voce è segnalata. Per il Senato servivano 25 anni fino alla riforma del 2021 (dalle politiche 2022 basta la maggiore età).</li>
+        <li><strong>Residenza</strong>: conta il comune in cui vivevi in quel mese. Nel mese di un trasloco la voce è segnalata, perché l’iscrizione nelle liste elettorali del nuovo comune può arrivare dopo.</li>
+        <li><strong>Confini di allora</strong>: regioni e province sono quelle del giorno del voto. I comuni passati di regione (l’Alta Valmarecchia nel 2009, Sappada nel 2017, Montecopiolo e Sassofeltrio nel 2021) votano dove stavano allora; le province nate dopo tornano a quelle di prima, comprese le quattro province sarde precedenti al 2005.</li>
+        <li><strong>Estero</strong>: per gli anni fuori dall’Italia la voce lo segnala; dal 2006 alle politiche si vota per corrispondenza nella circoscrizione Estero.</li>
+        <li><strong>Bolzano</strong>: per il consiglio provinciale e i referendum provinciali servono 4 anni di residenza in regione (2 dal 23 giugno 2026). Se dai comuni indicati non risultano, la voce compare tolta.</li>
+        <li><strong>Suppletive nelle grandi città</strong>: Roma, Milano, Napoli e le altre città divise tra più collegi votavano solo in alcune zone. La voce compare tolta, con le zone del collegio nella nota: se abitavi lì, la rimetti con un clic.</li>
+      </ul>
+
+      <h3>Candidati e liste nei menu</h3>
+      <p>Alle politiche e alle europee i menu propongono le liste sopra l’1% (alle politiche fino al 2001, la quota proporzionale; nei collegi uninominali del 1994-2001, le coalizioni). Per regionali e provinciali ci sono i candidati presidente con le loro liste. Per le comunali, i candidati sindaco e le liste sopra il 2% nei comuni più grandi (in generale sopra i 15.000 abitanti); nei comuni piccoli si sceglie tra coalizioni, partiti e liste civiche, o si scrive a mano. Per le suppletive, i candidati del collegio con il partito o la coalizione. Il colore di ogni voto è quello dello schieramento del candidato o della lista; si può passare ai colori dei gruppi del Parlamento europeo.</p>
+
+      <h3>Le immagini</h3>
+      <ul class="metodo-elenco">
+        <li><strong>La tessera elettorale</strong>: 18 caselle per tessera, come quella vera. Un timbro per ogni giorno in cui sei andato al seggio, con un bollino per ogni voto di quel giorno; le giornate in cui non hai votato restano vuote, con la data.</li>
+        <li><strong>Il quadrante</strong>: ogni partito votato ha un posto su due assi, l’economia (da sinistra a destra) e i valori (da progressisti a conservatori). Le posizioni vengono dal <a href="https://www.chesdata.eu/">Chapel Hill Expert Survey</a>, l’indagine in cui centinaia di politologi collocano i partiti europei, nella rilevazione più vicina al voto (1999-2024). Prima del 1999 la rilevazione non misura i valori, e per i partiti di allora si usano gli eredi; le liste unitarie (l’Ulivo, AVS, i Poli) hanno la media dei partiti che le formavano; a poche liste minori la posizione è assegnata a mano. Questi casi hanno il bordo tratteggiato. Il mirino è il baricentro dei tuoi voti, con le politiche, le suppletive e le europee al 70% e i voti locali al 30%.</li>
+        <li><strong>Le croci</strong>: una scheda per ogni voto, con la croce sul simbolo, sul Sì o sul No.</li>
+        <li><strong>Il sismografo</strong>: ogni voto su un asse a cinque posizioni, dalla sinistra alla destra, secondo la coalizione con cui la lista o il candidato si presentava in quell’elezione. Misura lo schieramento, non le idee: è un gioco.</li>
+      </ul>
+
+      <h3>I limiti da conoscere</h3>
+      <ul class="metodo-elenco">
+        <li>La ricostruzione segue la residenza. Non può sapere se votavi in un altro comune, se eri iscritto all’AIRE, se avevi un impedimento.</li>
+        <li>Le date delle comunali nelle regioni a statuto speciale (Sicilia, Friuli-Venezia Giulia, Valle d’Aosta, Trentino-Alto Adige) non vengono dall’archivio del Ministero ma dalle fonti regionali, da tuttitalia.it e da Wikipedia: per le elezioni più vecchie qualche data o ballottaggio può mancare.</li>
+        <li>Per circa cento comunali in Sicilia e Trentino-Alto Adige i candidati non sono pubblicati da nessuna fonte raggiungibile: lì il menu propone partiti e coalizioni. Nei comuni piccoli i candidati non ci sono per scelta.</li>
+        <li>Alle provinciali di Viterbo del 1993 ci sono solo i due primi candidati; alle provinciali siciliane del 1994 le liste non erano collegate ai candidati presidente e non compaiono.</li>
+        <li>Nelle suppletive delle città divise tra più collegi le zone sono quelle indicate dalle fonti, non l’elenco delle vie.</li>
+        <li>Alcuni risultati dei referendum regionali sono ufficiosi (Valle d’Aosta 2007) o vengono da una sola fonte; le differenze tra fonti sono annotate nei dati.</li>
+        <li>Il quadrante usa valutazioni di esperti, non programmi né voti in Parlamento, e riduce la politica a due dimensioni. I voti a candidati e liste civiche, che non hanno una posizione, restano fuori e sono contati in nota.</li>
+        <li>Le comunali e i candidati si aggiornano da soli ogni mese; le altre consultazioni si aggiungono a mano dopo il voto.</li>
+      </ul>
+
+      <h3>Le fonti</h3>
+      <ul class="metodo-elenco">
+        <li>Ministero dell’Interno, <a href="https://elezionistorico.interno.gov.it/">Archivio storico delle elezioni</a>: politiche, europee, referendum, regionali, provinciali dal 2004, comunali e candidati.</li>
+        <li>ISTAT: elenco dei comuni, compresi quelli soppressi, con i codici catastali.</li>
+        <li>Regioni e province autonome: archivio elettorale della Regione Friuli-Venezia Giulia, sito elettorale della Regione Siciliana, risultati della Regione Trentino-Alto Adige, della Provincia di Bolzano e di elezionicomunali.tn.it, pagine dei referendum della Regione Valle d’Aosta.</li>
+        <li><a href="https://it.wikipedia.org/">Wikipedia</a> in italiano: provinciali fino al 2003, suppletive, referendum regionali e i comuni non coperti dall’archivio, con controlli incrociati su l’Unità e sui Quaderni dell’Osservatorio elettorale della Regione Toscana; tuttitalia.it per le date delle comunali nelle regioni a statuto speciale.</li>
+        <li><a href="https://www.chesdata.eu/">Chapel Hill Expert Survey</a>, trend file 1999-2024: posizioni dei partiti nel quadrante.</li>
+      </ul>
+      <p>Il codice e i dati, con le fonti di ogni elezione, sono su <a href="https://github.com/angrisanidj/la-mia-storia-di-voto">GitHub</a>. Se trovi un errore, segnalalo lì o a <a href="https://x.com/putino">@putino</a>.</p>
+    </div>
+  </details>
+</section>
 </main>
 
 <footer class="piede">
-  <p>Elenco automatico: politiche, europee e referendum nazionali dal 1992, regionali, provinciali dirette dal 1993 al 2011 (Archivio del Ministero dal 2004, prima Wikipedia; Trento e Bolzano fino a oggi), i principali referendum regionali e le comunali con i ballottaggi dal 1993 (Archivio storico delle elezioni, Ministero dell’Interno). L’età si conta al primo giorno di voto; fino al 2018 per il Senato servivano 25 anni.</p>
-  <p>Nei menu: le liste sopra l’1% alle politiche (quota proporzionale fino al 2001) e alle europee; per regionali e comunali le liste dell’ultima consultazione nazionale, i partiti locali e le liste dei candidati presidenti. Comuni, compresi quelli soppressi: ISTAT.</p>
-  <p>Il sismografo colloca ogni voto secondo la coalizione della lista o del candidato in quell’elezione (fonti: Ministero dell’Interno e Wikipedia); i risultati dei referendum vengono dagli stessi archivi. È un gioco: misura lo schieramento, non le idee.</p>
+  <p>Elenco automatico di politiche, europee, referendum nazionali, suppletive, regionali, provinciali dirette (1993-2011), comunali con i ballottaggi e referendum regionali e provinciali, dal 1992 a oggi. Fonti principali: Archivio storico delle elezioni del Ministero dell’Interno, ISTAT, archivi delle regioni a statuto speciale, Wikipedia, Chapel Hill Expert Survey. Tutti i dettagli in <a href="#metodo" id="apri-metodo">Metodo, fonti e limiti</a>.</p>
   <p>Di Daniele Angrisani (<a href="https://x.com/putino">@putino</a>). Dello stesso autore: <a href="https://angrisanidj.github.io/il-tuo-emiciclo/">Il tuo emiciclo</a>.</p>
 </footer>
 
