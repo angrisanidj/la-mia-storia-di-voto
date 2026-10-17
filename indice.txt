@@ -1,0 +1,8 @@
+001 http://web.archive.org/cdx/search/cdx?fl=timestamp,original,statuscode,mimetype&collapse=urlkey&url=static.provinz.bz.it/vote/gem2015/*&limit=20000
+002 http://web.archive.org/cdx/search/cdx?fl=timestamp,original,statuscode,mimetype&collapse=urlkey&url=static.provinz.bz.it/vote/*&limit=30000&from=2013&to=2016
+003 http://web.archive.org/cdx/search/cdx?fl=timestamp,original,statuscode,mimetype&collapse=urlkey&url=*.elezionicomunali.tn.it/*&limit=20000
+004 http://web.archive.org/cdx/search/cdx?fl=timestamp,original,statuscode,mimetype&collapse=urlkey&url=elezionicomunali.bz.it/*&limit=5000
+005 https://www.elezionicomunali.bz.it/sitemap-elezionicomunali.xml
+006 https://www.elezionicomunali.bz.it/js/app/ewo2025nov.min.js
+007 http://web.archive.org/cdx/search/cdx?fl=timestamp,original,statuscode,mimetype&collapse=urlkey&url=provinz.bz.it/vote/*&limit=30000&from=2013&to=2016
+008 http://web.archive.org/cdx/search/cdx?fl=timestamp,original,statuscode,mimetype&collapse=urlkey&url=provincia.bz.it/vote/*&limit=30000&from=2013&to=2016
