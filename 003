@@ -1,0 +1,356 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="it">
+<head>
+<title>Regione Autonoma Friuli Venezia Giulia - Elezioni 2006</title>
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="expires" content="0">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Expires" content="0">
+<meta name='author' content='Insiel S.p.A.'>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link href="../../css/regFVG.css" rel="stylesheet" type="text/css" media="all">
+<link href="../../css/regFVG_handheld.css" rel="stylesheet" type="text/css" media="handheld">
+<link href="../../css/regFVG_stampa.css" rel="stylesheet" type="text/css" media="print">
+
+</head>
+
+
+
+
+
+
+
+
+
+
+
+<body>
+<div id="contenitore">
+
+
+	<script type="text/javascript">
+		function fillZeroLeft(stringa, dimensione)
+		{
+			while(stringa.length < dimensione) stringa = "0" + stringa;
+			return stringa;
+		}
+	
+		function modifica(form, valore)
+		{
+			if(valore != "")
+			{
+
+					form.action = fillZeroLeft(valore, 6) + '.html';
+
+
+					form.submit();
+			}
+		}
+		function modificaAff(form, valore)
+		{
+			form.action = fillZeroLeft(valore, 3) + '.html';
+			form.submit();	
+		}		
+		function modificaFiglia(form, valore)
+		{
+			form.action = document.modulo.aggpadreId.value + '_' + fillZeroLeft(valore, 3) + '.html';
+			form.submit();	
+		}
+	</script>
+
+	<div id="navigazione">
+		<div id="menuNavigazione">
+			<h1>Elezioni&nbsp;&nbsp;9 e 10 Aprile 2006</h1>
+		</div>
+		<div id="menuSottoNavigazione">
+			<div class="separa">             </div>
+			<ul class="inlinea">
+				<li>  <a href="../../elezioniCamera.html"  title="Camera">Camera</a></li>
+				<li>  <a href="../../elezioniSenato.html"  title="Senato">Senato</a></li>	
+				<li>  <a href="../../elezioniProvinciali.html"  title="Elezioni Provinciali">Elezioni Provinciali</a></li>
+				<li>  <a href="../../elezioniComunali.html" class='attiva' title="Elezioni Comunali">Elezioni Comunali</a></li>
+				<li>  <a href="../../elezioniCircoscrizionali.html"  title="Elezioni Circoscrizionali">Elezioni Circoscrizionali</a></li>
+			</ul>
+			<div class="separa">			</div>
+		</div>
+	</div>
+	<div id="bodyTopReg">
+		<div class="separa">		</div>
+			<ul class="inlinea">			
+			
+
+
+			<li> <a href='000151.html' class='attiva' title="Candidati e liste collegate" >Candidati e liste collegate</a></li>
+			<li> <a  href='../Affluenza/1.html' title="Affluenza" >Affluenza</a></li>
+			<li> <a href='../Coalizioni/000151.html' title="Sindaco">Sindaco</a></li>
+			<li> <a href='../Liste/000151.html' title="Risultati liste">Risultati liste</a></li>
+			<li> <a href='../Seggi/000151.html' title="Distribuzione seggi" >Distribuzione seggi</a></li>
+			<li> <a href='../Consiglio/000151.html' title="Composizione consiglio">Composizione consiglio</a></li>
+
+
+		</ul>
+		<div class="separa">		</div>
+	</div>	
+
+	
+		<div id="briciole">
+			<span>Sei in: &raquo;</span>
+			<span>Elezioni Comunali</span>
+			<span class='rosso'> - Candidati e liste collegate</span>
+			<span class="rosso"></span>
+		</div>
+	
+
+
+	<div id="testo">
+		<form name="modulo" action="" method="get">
+			<div id="titolotesto2">
+				<div class="list">
+						
+					<script type="text/javascript">
+						document.write('<img alt="" height="10" src="../../img/freccia_v.gif">');
+						document.write('<strong>&nbsp;&nbsp;&nbsp;Comuni:&nbsp;<\/strong>');			
+						document.write('<select name="aggregazionepadre" onchange="modifica(modulo, value);">');
+						document.write('<option value="">&lt;Seleziona Comune&gt;<\/option>');
+						document.write('	<optgroup label="GORIZIA">');
+						document.write('<option value="181">Monfalcone<\/option>');
+						document.write('<option value="183">Moraro<\/option>');
+						document.write('<option value="187">Romans d&#39;Isonzo<\/option>');
+						document.write('<option value="189">Ronchi dei Legionari<\/option>');
+						document.write('<option value="199">San Pier d&#39;Isonzo<\/option>');
+						document.write('<option value="207">Villesse<\/option>');
+						document.write('	<\/optgroup>');
+						document.write('	<optgroup label="PORDENONE">');
+						document.write('<option value="503">Castelnovo del Friuli<\/option>');
+						document.write('<option value="515">Cordenons<\/option>');
+						document.write('<option value="519">Erto e Casso<\/option>');
+						document.write('<option value="539">Pinzano al Tagliamento<\/option>');
+						document.write('<option value="545">Pordenone<\/option>');
+						document.write('<option value="549">Pravisdomini<\/option>');
+						document.write('<option value="559">San Quirino<\/option>');
+						document.write('<option value="561">San Vito al Tagliamento<\/option>');
+						document.write('<option value="575">Vajont<\/option>');
+						document.write('	<\/optgroup>');
+						document.write('	<optgroup label="TRIESTE">');
+						document.write('<option value="151">Muggia<\/option>');
+						document.write('<option value="157">Trieste<\/option>');
+						document.write('	<\/optgroup>');
+						document.write('	<optgroup label="UDINE">');
+						document.write('<option value="209">Aiello del Friuli<\/option>');
+						document.write('<option value="215">Bagnaria Arsa<\/option>');
+						document.write('<option value="219">Bertiolo <\/option>');
+						document.write('<option value="243">Codroipo<\/option>');
+						document.write('<option value="413">Comeglians<\/option>');
+						document.write('<option value="415">Dogna<\/option>');
+						document.write('<option value="253">Drenchia<\/option>');
+						document.write('<option value="269">Latisana<\/option>');
+						document.write('<option value="279">Majano<\/option>');
+						document.write('<option value="289">Moimacco<\/option>');
+						document.write('<option value="301">Palazzolo dello Stella<\/option>');
+						document.write('<option value="303">Palmanova<\/option>');
+						document.write('<option value="443">Paularo<\/option>');
+						document.write('<option value="457">Resiutta<\/option>');
+						document.write('<option value="337">Ronchis<\/option>');
+						document.write('<option value="339">Ruda<\/option>');
+						document.write('<option value="369">Tarcento<\/option>');
+						document.write('<option value="377">Torreano<\/option>');
+						document.write('<option value="391">Villa Vicentina<\/option>');
+						document.write('	<\/optgroup>');
+						document.write('<\/select>');
+					</script>
+					
+					<noscript>
+						<div id="selectSinistra2">
+							<span><strong>Comuni:&nbsp;</strong></span>
+							<div class="separa"></div>
+							<ul class="inlinea">
+								<span><strong>GORIZIA:&nbsp;</strong></span>
+								<li><a href="000181.html" class="barra">Monfalcone</a></li>
+								<li><a href="000183.html" class="barra">Moraro</a></li>
+								<li><a href="000187.html" class="barra">Romans d&#224;Isonzo</a></li>
+								<li><a href="000189.html" class="barra">Ronchi dei Legionari</a></li>
+								<li><a href="000199.html" class="barra">San Pier d&#224;Isonzo</a></li>
+								<li><a href="000207.html" class="barra">Villesse</a></li>
+								<span><strong>PORDENONE:&nbsp;</strong></span>
+								<li><a href="000503.html" class="barra">Castelnovo del Friuli</a></li>
+								<li><a href="000515.html" class="barra">Cordenons</a></li>
+								<li><a href="000519.html" class="barra">Erto e Casso</a></li>
+								<li><a href="000539.html" class="barra">Pinzano al Tagliamento</a></li>
+								<li><a href="000545.html" class="barra">Pordenone</a></li>
+								<li><a href="000549.html" class="barra">Pravisdomini</a></li>
+								<li><a href="000559.html" class="barra">San Quirino</a></li>
+								<li><a href="000561.html" class="barra">San Vito al Tagliamento</a></li>
+								<li><a href="000575.html" class="barra">Vajont</a></li>
+								<span><strong>TRIESTE:&nbsp;</strong></span>
+								<li><a href="000151.html" class="barra">Muggia</a></li>
+								<li><a href="000157.html" class="barra">Trieste</a></li>
+								<span><strong>UDINE:&nbsp;</strong></span>
+								<li><a href="000209.html" class="barra">Aiello del Friuli</a></li>
+								<li><a href="000215.html" class="barra">Bagnaria Arsa</a></li>
+								<li><a href="000219.html" class="barra">Bertiolo </a></li>
+								<li><a href="000243.html" class="barra">Codroipo</a></li>
+								<li><a href="000413.html" class="barra">Comeglians</a></li>
+								<li><a href="000415.html" class="barra">Dogna</a></li>
+								<li><a href="000253.html" class="barra">Drenchia</a></li>
+								<li><a href="000269.html" class="barra">Latisana</a></li>
+								<li><a href="000279.html" class="barra">Majano</a></li>
+								<li><a href="000289.html" class="barra">Moimacco</a></li>
+								<li><a href="000301.html" class="barra">Palazzolo dello Stella</a></li>
+								<li><a href="000303.html" class="barra">Palmanova</a></li>
+								<li><a href="000443.html" class="barra">Paularo</a></li>
+								<li><a href="000457.html" class="barra">Resiutta</a></li>
+								<li><a href="000337.html" class="barra">Ronchis</a></li>
+								<li><a href="000339.html" class="barra">Ruda</a></li>
+								<li><a href="000369.html" class="barra">Tarcento</a></li>
+								<li><a href="000377.html" class="barra">Torreano</a></li>
+								<li><a href="000391.html" class="barra">Villa Vicentina</a></li>
+							</ul>
+						</div>
+						<div class="separa"></div>
+					</noscript>
+					
+					
+
+				</div>
+			</div>
+		</form>
+		
+
+		<div class="separa"></div>	
+
+        <div id="titolotesto">
+          <div class="testigrandi">
+            <strong>CANDIDATI E LISTE COLLEGATE MUGGIA</strong>
+          </div>
+          <div class="testibianchi">
+          </div>
+        </div>
+
+		<div class="separaheight"></div>	
+		
+	
+		
+
+		        <div class="simboli">
+		          <strong>CANDIDATO</strong>
+		        </div>
+		        <div class="partito">&nbsp;</div>
+		        <div class="collegate">
+		          <strong>LISTE COLLEGATE</strong>
+		        </div>
+		        <div class="separa"></div>
+
+
+				<hr  >
+				
+				<div class="candidato">NERIO NESLADEK
+					<br>
+					<img src="../../FotoSimboli/000167/151/foto_1823.gif" alt="foto_1823.gif" width="105" height="105">
+					<br>
+					<span class="etichette">nato il 07/11/1953
+					<br>a MUGGIA (TS)</span>
+				</div>
+
+				<div class="liste2">
+	
+
+					<table summary='-' >
+
+<tr><td class="citta" ><a href='000151_002450.html' ><img height='40' width='40' src='../../FotoSimboli/000167/151/sim_2450.gif' alt="sim_2450.gif" > UN.NESLADEK X MUGGIA</a></td><td class="citta" ><a href='000151_002452.html' ><img height='40' width='40' src='../../FotoSimboli/000167/151/sim_2452.gif' alt="sim_2452.gif" > VERDI per la PACE</a></td></tr><tr><td class="citta" ><a href='000151_002451.html' ><img height='40' width='40' src='../../FotoSimboli/000167/151/sim_2451.gif' alt="sim_2451.gif" > P.R.C.</a></td><td class="citta" ><a href='000151_002449.html' ><img height='40' width='40' src='../../FotoSimboli/000167/151/sim_2449.gif' alt="sim_2449.gif" > CITTADINI PER MUGGIA</a></td></tr>
+
+					</table>
+
+
+
+				</div>
+				
+				
+
+
+
+				<hr class='hrlinea' >
+				
+				<div class="candidato">FABIO LONGO
+					<br>
+					<img src="../../FotoSimboli/000167/151/foto_1796.gif" alt="foto_1796.gif" width="105" height="105">
+					<br>
+					<span class="etichette">nato il 27/03/1967
+					<br>a TRIESTE</span>
+				</div>
+
+				<div class="liste2">
+	
+
+					<table summary='-' >
+
+<td class="citta" ><a href='000151_002368.html' ><img height='40' width='40' src='../../FotoSimboli/000167/151/sim_2368.gif' alt="sim_2368.gif" > LA TUA MUGGIA</a></td>
+
+					</table>
+
+
+
+				</div>
+				
+				
+
+
+
+				<hr class='hrlinea' >
+				
+				<div class="candidato">LORENZO GASPERINI
+					<br>
+					<img src="../../FotoSimboli/000167/151/foto_1702.gif" alt="foto_1702.gif" width="105" height="105">
+					<br>
+					<span class="etichette">nato il 18/11/1957
+					<br>a TRIESTE</span>
+				</div>
+
+				<div class="liste2">
+	
+
+					<table summary='-' >
+
+<tr><td class="citta" ><a href='000151_002352.html' ><img height='40' width='40' src='../../FotoSimboli/000167/151/sim_2352.gif' alt="sim_2352.gif" > F.I.</a></td><td class="citta" ><a href='000151_002334.html' ><img height='40' width='40' src='../../FotoSimboli/000167/151/sim_2334.gif' alt="sim_2334.gif" > INSIEME PER MUGGIA</a></td></tr><tr><td class="citta" ><a href='000151_002216.html' ><img height='40' width='40' src='../../FotoSimboli/000167/151/sim_2216.gif' alt="sim_2216.gif" > L.N.</a></td><td class="citta" ><a href='000151_002339.html' ><img height='40' width='40' src='../../FotoSimboli/000167/151/sim_2339.gif' alt="sim_2339.gif" > A.N.</a></td></tr>
+
+					</table>
+
+
+
+				</div>
+				
+				
+
+
+			<hr>
+		
+		
+
+</div>
+
+
+    <div class="piepagina">
+      <div class="sinistra">
+        <ul class="inlinea">
+          <li>
+            <a href="http://www.regione.fvg.it" class="blank"><img src="../../img/fvg.gif" alt="Logo della Regione FVG" width="90" height="20"></a>
+          </li>
+        </ul>
+      </div>
+      <div class="centro">
+        <p>DIREZIONE CENTRALE RELAZIONI INTERNAZIONALI, COMUNITARIE E AUTONOMIE LOCALI<br><strong>Servizio elettorale</strong></p>
+      </div>      
+      <div class="destra">
+        <ul class="inlinea">
+          <li>
+            <a href="http://www.insiel.it/" class="blank"><img src="../../img/insiel.gif" alt="logo Insiel Spa" width="76" height="20"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+</div>
+</body>
+</html>

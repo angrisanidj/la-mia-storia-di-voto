@@ -1,0 +1,6 @@
+001 http://web.archive.org/web/2020id_/http://elezionistorico.regione.fvg.it/elezioni2006/000167_Com/Coalizioni/000151.html
+002 http://web.archive.org/web/2020id_/http://elezionistorico.regione.fvg.it/elezioni2006/000167_Com/Liste/000151.html
+003 http://web.archive.org/web/2020id_/http://elezionistorico.regione.fvg.it/elezioni2006/000167_Com/Candidature/000151.html
+004 http://web.archive.org/web/2020id_/http://elezionistorico.regione.fvg.it/elezioni1999/
+005 http://web.archive.org/web/2020id_/http://elezionistorico.regione.fvg.it/amministrative1999/
+006 https://elezionistorico.regione.fvg.it/elezioni2006/000167_Com/Coalizioni/000151.html
