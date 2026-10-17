@@ -1,0 +1,460 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html>
+  <head>
+    <title>Informatizzazione Dati Elezioni Comunali 2012</title>
+    <link rel="stylesheet" type="text/css" href="..//resource/styles//ssea.css">
+  </head>
+  
+  <body>
+    <table cellSpacing="0" cellPadding="0"><tr><td width="100"><img src="..//resource/images/dot.gif" alt="user" height="0" width="100" border="0"></td><td>
+      <!-- banner -->
+<TABLE cellSpacing=0 cellPadding=0 border=0 width="780">
+  <tr>
+    <td background="..//resource/images/header_bck.gif"><span class="Stile1"><img src="..//resource/images/logo.gif" alt="logo regione siciliana" width="88" height="126" border="0"></span></td>
+    <td background="..//resource/images/header_bck.gif" align="center"><span class="title">Assessorato Regionale delle Autonomie Locali<br>
+    e della Funzione Pubblica<br><i>Servizio Elettorale</i></span></td>
+    <td background="..//resource/images/header_bck.gif"><img src="..//resource/images/logo_sicilia.gif" alt="Elezioni Comunali" height="126" border="0"></td>
+  </tr>
+</table>
+
+
+    <table width="780" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td background="..//resource/images/barra_bck.gif" height="41">
+          <FONT class="Stile3Bold">
+            
+            &nbsp;Dati di lunedì 14 maggio 2012, 13:25
+          </font>
+        </td>
+      </tr>
+    </table>
+
+
+<!-- banner -->
+
+
+      <!-- fine banner orizzontale per credenziali e logout-->
+
+      <table cellSpacing=0 cellPadding=0 border="0" width="780">
+        <tr width="780">
+          <td  background="..//resource/images/menu_bck.gif" border="0" width="140" align="left" valign="top">
+            <!-- Tabella di menu sx -->
+            <table cellSpacing=0 cellpadding=3 border="0">
+
+
+    <tr>
+      <td class="Stile3Bold" valign="top">
+      <img src="..//resource/images/bullet_menu.gif" alt="bullet" width="12" height="12" border="0"></td>
+      <td  class="Stile3Bold" valign="top" colspan=2>
+        <span class="menuSx">
+        
+        <A class=linkSottoMenu href="../index.html">Home</A>
+        
+        </span>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+      </tr>
+
+      <tr>
+        <td class="Stile3Bold" valign="top">
+        <img src="..//resource/images/bullet_menu.gif" alt="bullet" width="12" height="12" border="0"></td>
+        <td  class="Stile3Bold" valign="top" colspan=2>
+        <span class="menuSx">Report</span>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+      </tr>
+
+        <tr>
+          <td class="Stile3" valign="top">&nbsp;</td>
+          <td class="Stile3" valign="top">&nbsp;&nbsp;</td>
+          
+          <td class="Stile3" valign="top"><A class=linkSottoMenu href="../ReportDatiLista.html">Report Sindaci e Liste</A></td>
+          
+        </tr>
+        <tr>
+          <td></td>
+        </tr>        
+        
+        <tr>
+          <td class="Stile3" valign="top">&nbsp;</td>
+          <td class="Stile3" valign="top">&nbsp;&nbsp;</td>
+          
+          <td class="Stile3" valign="top"><A class=linkSottoMenu href="../ReportTabellaAffluenza.html">Affluenza-Riepilogo Regionale</A></td>
+          
+        </tr>
+        <tr>
+          <td></td>
+        </tr>        
+        
+        <tr>
+          <td class="Stile3" valign="top">&nbsp;</td>
+          <td class="Stile3" valign="top">&nbsp;&nbsp;</td>
+          
+          <td class="Stile3" valign="top"><A class=linkSottoMenu href="../ReportAffluenza.html">Report Affluenza</A></td>
+          
+        </tr>
+        <tr>
+          <td></td>
+        </tr>        
+        
+        <tr>
+          <td class="Stile3" valign="top">&nbsp;</td>
+          <td class="Stile3" valign="top">&nbsp;&nbsp;</td>
+          
+          <td class="Stile3" valign="top"><A class=linkSottoMenu href="../ReportCandidati.html">Report Voti Candidati Sindaco</A></td>
+          
+        </tr>
+        <tr>
+          <td></td>
+        </tr>        
+        
+        <tr>
+          <td class="Stile3" valign="top">&nbsp;</td>
+          <td class="Stile3" valign="top">&nbsp;&nbsp;</td>
+          
+          <td class="Stile3" valign="top"><A class=linkSottoMenu href="../ReportCandidatiListe.html">Report Voti Candidati Sindaco e Liste</A></td>
+          
+        </tr>
+        <tr>
+          <td></td>
+        </tr>        
+        
+        <tr>
+          <td class="Stile3" valign="top">&nbsp;</td>
+          <td class="Stile3" valign="top">&nbsp;&nbsp;</td>
+          
+          <td class="Stile3" valign="top"><A class=linkSottoMenu href="../ReportRisultati.html">Report Risultati</A></td>
+          
+        </tr>
+        <tr>
+          <td></td>
+        </tr>        
+        
+        <tr>
+          <td class="Stile3" valign="top">&nbsp;</td>
+          <td class="Stile3" valign="top">&nbsp;&nbsp;</td>
+          
+          <td class="Stile3" valign="top"><A class=linkSottoMenu href="../ReportSeggi.html">Report Ripartizione Seggi</A></td>
+          
+        </tr>
+        <tr>
+          <td></td>
+        </tr>        
+        
+        <tr>
+          <td class="Stile3" valign="top">&nbsp;</td>
+          <td class="Stile3" valign="top">&nbsp;&nbsp;</td>
+          
+          <td class="Stile3" valign="top"><A class=linkSottoMenu href="../ReportStoricoListeTradizionali.html">Report Raffronto Storico (Comuni > 10000 abitanti)</A></td>
+          
+        </tr>
+        <tr>
+          <td></td>
+        </tr>        
+        
+        <tr>
+          <td class="Stile3" valign="top">&nbsp;</td>
+          <td class="Stile3" valign="top">&nbsp;&nbsp;</td>
+          
+          <td class="Stile3" valign="top"><A class=linkSottoMenu href="../ReportSbarramentoComuni.html">Report Sbarramento</A></td>
+          
+        </tr>
+        <tr>
+          <td></td>
+        </tr>        
+        
+</table>
+            <!-- Fine Tabella di menu sx -->
+          </td>      
+          <td align="center" valign="top" width="628">
+          
+
+<script type="text/javascript" src="../js/ReportSSEA.js"></script>
+<script>
+<!--
+function gothere(){
+var cacheobj=document.authreset.town
+location=cacheobj.options[cacheobj.selectedIndex].value
+}
+//-->
+</script>
+
+<table border="0" width="100%" style="position: relative; top: 0; right: 0; bottom: 0">
+<form name="menuprovince" action="RepRisultatiSelComune" method="POST">
+<TR ROWSPAN=2 bgcolor="#969696" align="center">
+    <TD bgColor=#969696 >
+	 <B>
+	 <FONT style="FONT-WEIGHT: 700; FONT-SIZE: 10pt" face=Arial color=#ffffff>
+	  &nbsp;</FONT>
+	  <FONT style="FONT-SIZE: 10pt" face=Arial color=#ffffff size=2>
+    
+	  <A class=linkMenu title=Agrigento href="../AG/ReportRisultatiAG.html">
+    
+	  <FONT style="FONT-SIZE: 10pt" face=Arial color=#ffffff>&nbsp;&nbsp;</FONT>
+	  <FONT style="FONT-SIZE: 10pt">AG</FONT></A></FONT></B>
+	  <FONT style="FONT-WEIGHT: 700; FONT-SIZE: 10pt" face=Arial color=#ffffff>
+	  &nbsp;&nbsp; |&nbsp;&nbsp;</FONT><B>
+	  <B>
+	  <FONT style="FONT-SIZE: 10pt" face=Arial color=#ffffff size=2>
+    
+	  <A class=linkMenu title=Caltanissetta href="../CL/ReportRisultatiCL.html">
+    
+	  <FONT style="FONT-SIZE: 10pt">CL</FONT></A></FONT></B>
+	  <FONT style="FONT-WEIGHT: 700; FONT-SIZE: 10pt" face=Arial color=#ffffff>
+	  &nbsp;&nbsp; |&nbsp;&nbsp;</FONT>
+	  <B>
+	  <FONT style="FONT-SIZE: 10pt" face=Arial color=#ffffff size=2>
+    
+	  <A class=linkMenu title=Catania href="../CT/ReportRisultatiCT.html">
+    
+	  <FONT style="FONT-SIZE: 10pt">CT</FONT></A></FONT></B>
+	  <FONT style="FONT-WEIGHT: 700; FONT-SIZE: 10pt" face=Arial color=#ffffff>
+	  &nbsp;&nbsp; |&nbsp;&nbsp;</FONT>
+	  <B>
+	  <FONT style="FONT-SIZE: 10pt" face=Arial color=#ffffff size=2>
+    
+	  <A class=linkMenu title=Enna href="../EN/ReportRisultatiEN.html">
+    
+	  <FONT style="FONT-SIZE: 10pt">EN</FONT></A></FONT></B>
+	  <FONT style="FONT-WEIGHT: 700; FONT-SIZE: 10pt" face=Arial color=#ffffff>
+	  &nbsp;&nbsp; |&nbsp;&nbsp;</FONT>
+	  <B>
+	  <FONT style="FONT-SIZE: 10pt" face=Arial color=#ffffff size=2>
+    
+	  <A class=linkMenu title=Messina href="../ME/ReportRisultatiME.html">
+    
+	  <FONT style="FONT-SIZE: 10pt">ME</FONT></A></FONT></B>
+	  <FONT style="FONT-WEIGHT: 700; FONT-SIZE: 10pt" face=Arial color=#ffffff>
+	  &nbsp;&nbsp; |&nbsp;&nbsp;</FONT>
+	  <B>
+	  <FONT style="FONT-SIZE: 10pt" face=Arial color=#ffffff size=2>
+    
+	  <A class=linkMenu title=Palermo href="../PA/ReportRisultatiPA.html">
+    
+	  <FONT style="FONT-SIZE: 10pt">PA</FONT></A></FONT></B>
+	  <FONT style="FONT-WEIGHT: 700; FONT-SIZE: 10pt" face=Arial color=#ffffff>
+	  &nbsp;&nbsp; |&nbsp;&nbsp;</FONT>
+	  <B>
+	  <FONT style="FONT-SIZE: 10pt" face=Arial color=#ffffff size=2>
+    
+	  <A class=linkMenu title=Ragusa href="../RG/ReportRisultatiRG.html">
+    
+	  <FONT style="FONT-SIZE: 10pt">RG</FONT></A></FONT></B>
+	  <FONT style="FONT-WEIGHT: 700; FONT-SIZE: 10pt" face=Arial color=#ffffff>
+	  &nbsp;&nbsp; |&nbsp;&nbsp;</FONT>
+	  <B>
+	  <FONT style="FONT-SIZE: 10pt" face=Arial color=#ffffff size=2>
+    
+	  <A class=linkMenu title=Siracusa href="../SR/ReportRisultatiSR.html">
+    
+	  <FONT style="FONT-SIZE: 10pt">SR</FONT></A></FONT></B>
+	  <FONT style="FONT-WEIGHT: 700; FONT-SIZE: 10pt" face=Arial color=#ffffff>
+	  &nbsp;&nbsp; |&nbsp;&nbsp;</FONT>
+	  <B>
+	  <FONT style="FONT-SIZE: 10pt" face=Arial color=#ffffff size=2>
+    
+	  <A class=linkMenu title=Trapani href="../TP/ReportRisultatiTP.html">
+    
+	  <FONT style="FONT-SIZE: 10pt">TP</FONT></A></FONT>	  </B>
+	  <FONT style="FONT-WEIGHT: 700; FONT-SIZE: 10pt" face=Arial color=#ffffff>
+	  &nbsp;&nbsp; </FONT>
+  </TD>
+</TR>
+<input type="hidden" name="prov" value="" >
+<input type="hidden" name="provName" value="" >
+</form>
+</table>
+
+<table border="0" width="100%" style="position: relative; left: 0; top: 0; right: 0; bottom: 0">
+	<tr><td></td></tr>
+	<tr><td></td></tr>
+	<tr><td></td></tr>
+	<tr><td></td></tr>
+	<tr>
+  	<TD align="center">
+      <FONT class="title" align="center">Report Risultati</font>
+    </TD>
+	</tr>
+	<tr><td></td></tr>
+	<tr><td></td></tr>
+</table>
+
+<form name="authreset">
+
+  <table border="0">
+	<tr align="left">
+
+  	<td><font class="normalBold"> Selezionare il Comune di riferimento </font></td>
+  	<td width="200">
+<select name="town">
+
+      <option value="ReportRisultatiME8.html">Acquedolci</option>
+    
+      <option value="ReportRisultatiME14.html">Alcara Li Fusi</option>
+    
+      <option value="ReportRisultatiME30.html">Barcellona Pozzo di Gotto</option>
+    
+      <option value="ReportRisultatiME44.html">Brolo</option>
+    
+      <option value="ReportRisultatiME75.html">Capri Leone</option>
+    
+      <option value="ReportRisultatiME88.html">Castelmola</option>
+    
+      <option value="ReportRisultatiME94.html">Castroreale</option>
+    
+      <option value="ReportRisultatiME103.html">Cesarò</option>
+    
+      <option value="ReportRisultatiME125.html">Fiumedinisi</option>
+    
+      <option value="ReportRisultatiME131.html">Francavilla Di Sicilia</option>
+    
+      <option value="ReportRisultatiME136.html">Gaggi</option>
+    
+      <option value="ReportRisultatiME139.html">Gallodoro</option>
+    
+      <option value="ReportRisultatiME148.html">Gioiosa Marea</option>
+    
+      <option value="ReportRisultatiME160.html">Itala</option>
+    
+      <option value="ReportRisultatiME168.html">Letojanni</option>
+    
+      <option value="ReportRisultatiME169.html">Librizzi</option>
+    
+      <option value="ReportRisultatiME174.html">Lipari</option>
+    
+      <option value="ReportRisultatiME175.html">Longi</option>
+    
+      <option value="ReportRisultatiME178.html">Malfa</option>
+    
+      <option value="ReportRisultatiME189.html">Mazzarrà  Sant'Andrea</option>
+    
+      <option value="ReportRisultatiME193.html">Merì</option>
+    
+      <option value="ReportRisultatiME203.html">Mirto</option>
+    
+      <option value="ReportRisultatiME213.html">Montalbano Elicona</option>
+    
+      <option value="ReportRisultatiME221.html">Motta d'Affermo</option>
+    
+      <option value="ReportRisultatiME230.html">Nizza Di Sicilia</option>
+    
+      <option value="ReportRisultatiME232.html">Novara Di Sicilia</option>
+    
+      <option value="ReportRisultatiME237.html">Pagliara</option>
+    
+      <option value="ReportRisultatiME252.html">Pettineo</option>
+    
+      <option value="ReportRisultatiME257.html">Piraino</option>
+    
+      <option value="ReportRisultatiME286.html">Roccavaldina</option>
+    
+      <option value="ReportRisultatiME287.html">Roccella Valdemone</option>
+    
+      <option value="ReportRisultatiME288.html">Rodì Milici</option>
+    
+      <option value="ReportRisultatiME307.html">San Pier Niceto</option>
+    
+      <option value="ReportRisultatiME308.html">San Piero Patti</option>
+    
+      <option value="ReportRisultatiME327.html">Sant'Alessio Siculo</option>
+    
+      <option value="ReportRisultatiME321.html">Santa Marina Salina</option>
+    
+      <option value="ReportRisultatiME323.html">Santa Teresa di Riva</option>
+    
+      <option value="ReportRisultatiME332.html">Santo Stefano di Camastra</option>
+    
+      <option value="ReportRisultatiME334.html">Saponara</option>
+    
+      <option value="ReportRisultatiME335.html">Savoca</option>
+    
+      <option value="ReportRisultatiME345.html">Sinagra</option>
+    
+      <option value="ReportRisultatiME358.html">Torrenova</option>
+    
+      <option value="ReportRisultatiME377.html">Venetico</option>
+    
+      <option value="ReportRisultatiME383.html">Villafranca Tirrena</option>
+    
+</select></td></tr>
+
+<input type="hidden" name="ComuneC" value="" >
+<input type="hidden" name="provName" value="" >
+<input type="hidden" name="prov" value="ME" >
+<input type="hidden" name="NumeroSezioniTotali" value="" >
+<tr>
+<td></td>
+</tr>
+</table>
+
+<table>
+<tr>
+  <TD align="right" valign="middle">
+  
+    <input name="button" type="button" class="formbutton" title="Visualizza" onClick="gothere()" value="Visualizza" />
+  
+  </td>
+
+</tr>
+</table>
+
+</form>
+
+
+            <!-- FINE INSERISCI LA TUA PARTE -->
+
+          </td>
+        </tr>
+      <!-- footer -->
+<tr>
+  <td background="..//resource/images/footer_4.gif" class="Stile3Bold" valign="top">
+    <img src="..//resource/images/footer_1.jpg" alt="logo por" height="51" border="0">
+  </td>
+  <td background="..//resource/images/footer_4.gif" valign="bottom" align=left>
+    <table width="100%" cellpadding=0 border=0 cellspacing=0>
+      <tr>
+        <td align="left">
+          <img src="..//resource/images/footer_4.gif" height="51">
+        </td>
+        <td align="right">
+          <img src="..//resource/images/footer_3.gif" alt="logo" height="51" border="0">
+        </td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<!-- footer -->
+      </table>
+    </div>
+  </body>
+</html>
+
+

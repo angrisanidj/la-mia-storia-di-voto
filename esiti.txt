@@ -1,0 +1,46 @@
+001 200 text/html; charset=ISO-8859-1 12166
+002 200 text/html; charset=ISO-8859-1 14410
+003 200 text/html; charset=ISO-8859-1 11566
+004 200 text/html; charset=ISO-8859-1 11406
+005 200 text/html; charset=ISO-8859-1 11486
+006 000  0
+006 errore
+007 000  0
+007 errore
+008 200 text/html; charset=ISO-8859-1 12600
+009 200 text/html; charset=ISO-8859-1 11938
+010 200 text/html; charset=ISO-8859-1 13367
+011 200 text/html; charset=ISO-8859-1 15076
+012 000  0
+012 errore
+013 000  0
+013 errore
+014 200 text/html; charset=ISO-8859-1 11785
+015 200 text/html; charset=ISO-8859-1 11986
+016 200 text/html; charset=ISO-8859-1 12306
+017 200 text/html; charset=ISO-8859-1 11447
+018 200 text/html; charset=ISO-8859-1 11365
+019 200 text/html; charset=ISO-8859-1 11456
+020 000  0
+020 errore
+021 000  0
+021 errore
+022 200 text/html; charset=ISO-8859-1 11441
+023 200 text/html; charset=ISO-8859-1 11020
+024 200 text/html; charset=ISO-8859-1 13639
+025 200 text/html; charset=ISO-8859-1 11020
+026 000  0
+026 errore
+027 000  0
+027 errore
+028 200 text/html; charset=ISO-8859-1 11045
+029 200 text/html; charset=ISO-8859-1 11045
+030 200 text/html; charset=ISO-8859-1 11460
+031 200 text/html; charset=ISO-8859-1 11400
+032 200 text/html; charset=ISO-8859-1 11392
+033 200 text/html; charset=ISO-8859-1 11394
+034 200 text/html; charset=ISO-8859-1 11462
+035 000  0
+035 errore
+036 000  0
+036 errore
