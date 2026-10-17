@@ -1,0 +1,803 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="it">
+
+
+<head>
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>Elezioni Comunali 2020 (turno generale) in Provincia di Trento</title>
+
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta name="description"
+          content="Elezioni comunali 2020 - Provincia autonoma di Trento: scrutinio in tempo reale in Internet, risultati elettorali di ogni comune.">
+    <meta name="keywords"
+          content="Elezioni, Elezioni comunali 2020, Trentino, Alto Adige, Provincia autonoma di Trento">
+    <link href='../../css/gem2020_styles.css' rel="stylesheet">
+
+    <!--[if lt IE 9]>
+    <script src='../../js/ie.min.js'></script>
+    <![endif]-->
+    <link href='../../img/icons/favicon.ico' rel="icon">
+    <link href='../../img/icons/apple-touch-icon.png' rel="apple-touch-icon">
+    <link href='../../img/icons/apple-touch-icon-57x57.png' rel="apple-touch-icon" sizes="57x57">
+    <link href='../../img/icons/apple-touch-icon-76x76.png' rel="apple-touch-icon" sizes="76x76">
+    <link href='../../img/icons/apple-touch-icon-120x120.png' rel="apple-touch-icon" sizes="120x120">
+    <link href='../../img/icons/apple-touch-icon-152x152.png' rel="apple-touch-icon" sizes="152x152">
+</head>
+
+
+
+
+
+
+
+
+
+
+
+<body>
+
+
+
+
+<div class="it-header-wrapper">
+    <div class="it-header-slim-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="it-header-slim-wrapper-content"><a class="d-lg-block navbar-brand"
+                                                                   href="http://www.regione.taa.it/">Regione autonoma
+                        Trentino–Alto Adige/Südtirol</a>
+                        <div class="it-header-slim-right-zone">
+                            <div class="it-access-top-wrapper">
+                                <button class="btn btn-primary btn-sm" onclick="javascript:window.print();return false;" href="#" type="button"><i class="fa fa-print">  </i> Stampa</button>
+                            </div>
+                            
+
+
+	<div class="it-access-top-wrapper">
+		<button type="button" onkeypress="javascript:window.location.reload();" onclick="javascript:window.location.reload();" class="btn btn-success btn-sm">
+			<i class="fa fa-refresh fa-spin" aria-hidden="true"></i>Aggiorna</button>
+	</div>
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="it-nav-wrapper">
+        <div class="it-header-center-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="it-header-center-content-wrapper">
+                            <div class="it-brand-wrapper"><a href="../../index.html">
+                                <div class="icon" id="stemmaregione"><img class="img-fluid"
+                                                                          src="../../img/logo_regione_taa.png"
+                                                                          alt="Regione autonoma Trentino–Alto Adige/Südtirol">
+                                </div>
+                                <div class="it-brand-text">
+                                    <h2 class="no_toc">Elezioni amministrative 2020 – Trentino<br/><small>20-21 settembre - 4 ottobre 2020</small></h2>
+                                </div>
+                            </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+
+
+
+
+
+
+<div class="it-search-wrapper">
+<div class="container">
+	<nav class="navbar navbar-expand-lg">
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon">
+			<i class="fa fa-navicon" style="color:#fff; font-size:28px;"></i>
+		</span>
+	</button>
+
+	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		<ul class="navbar-nav">
+			
+
+			
+			<li class="nav-item"><a class="nav-link" href= '../../index.html' class="homelink"><span>Home</span></a></li>
+			<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href='../Homes/000020.html' data-toggle="dropdown" aria-expanded="false"><span>ARCO</span><span class="sr-only">current</span>
+				
+				
+				
+			</a>
+				<div class="dropdown-menu">
+					<div class="link-list-wrapper">
+						<ul class="link-list">
+							<li>
+								<h3 class="no_toc" id="heading-es-2">Primo turno</h3>
+							</li>
+							<li><a  class="list-item"  href='../Candidature/000020.html'><span>Liste e candidati</span></a><span class="divider"></span></li>
+							<li><a  class="list-item"  href='../Affluenza/000020.html'><span>Affluenza alle urne</span></a><span class="divider"></span></li>
+							<li><a  class="list-item"  href='../Coalizioni/000020.html'><span>Candidati Sindaco</span></a><span class="divider"></span></li>
+							<li><a  class="list-item"  href='000020.html'><span>Voti di lista</span></a><span class="divider"></span></li>
+							<li><a  class="list-item"  href='../Preferenze/000020.html'><span>Voti di Preferenza</span></a><span class="divider"></span></li>
+							<li><a  class="list-item"  href='../Seggi/000020.html'><span>Distribuzione seggi</span></a><span class="divider"></span></li>
+							<li><a  class="list-item"  href='../Consiglio/000020.html'><span>Composizione consiglio</span></a><span class="divider"></span></li>
+						</ul>
+					</div>
+				</div>
+			</li>
+			
+
+			
+		</ul>
+	</div>
+</nav>
+</div>
+</div>
+    </div>
+</div>
+
+
+
+
+<div class="container">
+    <nav class="breadcrumb-container" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href='../../index.html'><i class="fa fa-home" aria-hidden="true"> </i>Home</a><span class="separator">/</span></li>
+            <li class="breadcrumb-item"><a href='../Homes/000020.html'>ARCO</a><span class="separator">/</span></li>
+            <li class="breadcrumb-item active">Voti di lista</li>
+        </ol>
+    </nav>
+    
+
+
+<div class="text-right">
+	<small>Ultimo aggiornamento: 24 settembre 2020 5:37<br />Risultati ufficiosi</small>
+</div>
+
+</div>
+<div class="container">
+    <h1>Primo turno</h1>
+	<div class = "media">
+		<div class="media-body">
+			<h2>ARCO: Voti di lista</h2>
+		</div>
+	</div>
+    <div class="row">
+        <div class="col-sm-7">
+            <table class="votilista">
+                <caption>
+					2020<br>
+                    <small>
+						Totale voti validi: 8.260<br/>
+						Sezioni scrutinate - Voti di lista 12 su 12<br/>
+						Sezioni scrutinate - Voti di preferenza 12 su 12
+                    </small>
+                </caption>
+                <thead>
+                <tr>
+                    <th>Liste</th>
+                    <th>Voti</th>
+                    <th><abbr title='Percentuale'>%</abbr></th>
+                </tr>
+                </thead>
+                <tbody>
+                
+                <tr>
+                    <td>
+						<div class="media"><img src="../../FotoSimboli/62/20/sim_4122.gif"  alt="Symbol:PARTITO DEMOCRATICO DEL TRENTINO BETTA SINDACO"/>
+						<div class="media-body"><strong>PARTITO DEMOCRATICO DEL TRENTINO BETTA SINDACO</strong>
+							<div class="progress">
+								<div class="progress-bar" role="progressbar" aria-valuenow="22"
+									 aria-valuemin="0" aria-valuemax="100"
+									 style='width: 17.80%;'>17,80%
+								</div>
+							</div>
+							<small><a title="I voti di preferenza della lista PARTITO DEMOCRATICO DEL TRENTINO BETTA SINDACO a ARCO" href="../Preferenze/000020_004122.html">Voti di Preferenza</a></small>
+							</div>
+						</div>
+					</td>
+                    <td>1.470</td>
+                    <td>17,80%</td>
+                </tr>
+                
+                <tr>
+                    <td>
+						<div class="media"><img src="../../FotoSimboli/62/20/sim_4126.gif"  alt="Symbol:CIVICA OLIVAIA ETICA E AMBIENTE"/>
+						<div class="media-body"><strong>CIVICA OLIVAIA ETICA E AMBIENTE</strong>
+							<div class="progress">
+								<div class="progress-bar" role="progressbar" aria-valuenow="22"
+									 aria-valuemin="0" aria-valuemax="100"
+									 style='width: 12.37%;'>12,37%
+								</div>
+							</div>
+							<small><a title="I voti di preferenza della lista CIVICA OLIVAIA ETICA E AMBIENTE a ARCO" href="../Preferenze/000020_004126.html">Voti di Preferenza</a></small>
+							</div>
+						</div>
+					</td>
+                    <td>1.022</td>
+                    <td>12,37%</td>
+                </tr>
+                
+                <tr>
+                    <td>
+						<div class="media"><img src="../../FotoSimboli/62/20/sim_4131.gif"  alt="Symbol:LEGA AUTONOMIA SALVINI TRENTINO"/>
+						<div class="media-body"><strong>LEGA AUTONOMIA SALVINI TRENTINO</strong>
+							<div class="progress">
+								<div class="progress-bar" role="progressbar" aria-valuenow="22"
+									 aria-valuemin="0" aria-valuemax="100"
+									 style='width: 10.01%;'>10,01%
+								</div>
+							</div>
+							<small><a title="I voti di preferenza della lista LEGA AUTONOMIA SALVINI TRENTINO a ARCO" href="../Preferenze/000020_004131.html">Voti di Preferenza</a></small>
+							</div>
+						</div>
+					</td>
+                    <td>827</td>
+                    <td>10,01%</td>
+                </tr>
+                
+                <tr>
+                    <td>
+						<div class="media"><img src="../../FotoSimboli/62/20/sim_4128.gif"  alt="Symbol:SIAMO ARCO GIACOMO BERNARDI SINDACO"/>
+						<div class="media-body"><strong>SIAMO ARCO GIACOMO BERNARDI SINDACO</strong>
+							<div class="progress">
+								<div class="progress-bar" role="progressbar" aria-valuenow="22"
+									 aria-valuemin="0" aria-valuemax="100"
+									 style='width: 8.70%;'>8,70%
+								</div>
+							</div>
+							<small><a title="I voti di preferenza della lista SIAMO ARCO GIACOMO BERNARDI SINDACO a ARCO" href="../Preferenze/000020_004128.html">Voti di Preferenza</a></small>
+							</div>
+						</div>
+					</td>
+                    <td>719</td>
+                    <td>8,70%</td>
+                </tr>
+                
+                <tr>
+                    <td>
+						<div class="media"><img src="../../FotoSimboli/62/20/sim_4140.gif"  alt="Symbol:CIVICA DE LAURENTIS AUTONOMIA RESPONSABILITA' CAMBIAMENTO ORGANIZZAZIONE"/>
+						<div class="media-body"><strong>CIVICA DE LAURENTIS AUTONOMIA RESPONSABILITA' CAMBIAMENTO ORGANIZZAZIONE</strong>
+							<div class="progress">
+								<div class="progress-bar" role="progressbar" aria-valuenow="22"
+									 aria-valuemin="0" aria-valuemax="100"
+									 style='width: 7.62%;'>7,62%
+								</div>
+							</div>
+							<small><a title="I voti di preferenza della lista CIVICA DE LAURENTIS AUTONOMIA RESPONSABILITA' CAMBIAMENTO ORGANIZZAZIONE a ARCO" href="../Preferenze/000020_004140.html">Voti di Preferenza</a></small>
+							</div>
+						</div>
+					</td>
+                    <td>629</td>
+                    <td>7,62%</td>
+                </tr>
+                
+                <tr>
+                    <td>
+						<div class="media"><img src="../../FotoSimboli/62/20/sim_4143.gif"  alt="Symbol:ARCO CIVICA E AUTONOMIA ROMARZOLLO OLTRESARCA SAN GIORGIO GROTTA LINFANO"/>
+						<div class="media-body"><strong>ARCO CIVICA E AUTONOMIA ROMARZOLLO OLTRESARCA SAN GIORGIO GROTTA LINFANO</strong>
+							<div class="progress">
+								<div class="progress-bar" role="progressbar" aria-valuenow="22"
+									 aria-valuemin="0" aria-valuemax="100"
+									 style='width: 7.25%;'>7,25%
+								</div>
+							</div>
+							<small><a title="I voti di preferenza della lista ARCO CIVICA E AUTONOMIA ROMARZOLLO OLTRESARCA SAN GIORGIO GROTTA LINFANO a ARCO" href="../Preferenze/000020_004143.html">Voti di Preferenza</a></small>
+							</div>
+						</div>
+					</td>
+                    <td>599</td>
+                    <td>7,25%</td>
+                </tr>
+                
+                <tr>
+                    <td>
+						<div class="media"><img src="../../FotoSimboli/62/20/sim_4132.gif"  alt="Symbol:COMUNITA' LAVORO AMBIENTE"/>
+						<div class="media-body"><strong>COMUNITA' LAVORO AMBIENTE</strong>
+							<div class="progress">
+								<div class="progress-bar" role="progressbar" aria-valuenow="22"
+									 aria-valuemin="0" aria-valuemax="100"
+									 style='width: 5.68%;'>5,68%
+								</div>
+							</div>
+							<small><a title="I voti di preferenza della lista COMUNITA' LAVORO AMBIENTE a ARCO" href="../Preferenze/000020_004132.html">Voti di Preferenza</a></small>
+							</div>
+						</div>
+					</td>
+                    <td>469</td>
+                    <td>5,68%</td>
+                </tr>
+                
+                <tr>
+                    <td>
+						<div class="media"><img src="../../FotoSimboli/62/20/sim_4139.gif"  alt="Symbol:UNIONE PER IL TRENTINO"/>
+						<div class="media-body"><strong>UNIONE PER IL TRENTINO</strong>
+							<div class="progress">
+								<div class="progress-bar" role="progressbar" aria-valuenow="22"
+									 aria-valuemin="0" aria-valuemax="100"
+									 style='width: 4.59%;'>4,59%
+								</div>
+							</div>
+							<small><a title="I voti di preferenza della lista UNIONE PER IL TRENTINO a ARCO" href="../Preferenze/000020_004139.html">Voti di Preferenza</a></small>
+							</div>
+						</div>
+					</td>
+                    <td>379</td>
+                    <td>4,59%</td>
+                </tr>
+                
+                <tr>
+                    <td>
+						<div class="media"><img src="../../FotoSimboli/62/20/sim_4135.gif"  alt="Symbol:PARTITO AUTONOMISTA TRENTINO TIROLESE"/>
+						<div class="media-body"><strong>PARTITO AUTONOMISTA TRENTINO TIROLESE</strong>
+							<div class="progress">
+								<div class="progress-bar" role="progressbar" aria-valuenow="22"
+									 aria-valuemin="0" aria-valuemax="100"
+									 style='width: 4.43%;'>4,43%
+								</div>
+							</div>
+							<small><a title="I voti di preferenza della lista PARTITO AUTONOMISTA TRENTINO TIROLESE a ARCO" href="../Preferenze/000020_004135.html">Voti di Preferenza</a></small>
+							</div>
+						</div>
+					</td>
+                    <td>366</td>
+                    <td>4,43%</td>
+                </tr>
+                
+                <tr>
+                    <td>
+						<div class="media"><img src="../../FotoSimboli/62/20/sim_4130.gif"  alt="Symbol:ARCO CAMBIA LISTA CIVICA"/>
+						<div class="media-body"><strong>ARCO CAMBIA LISTA CIVICA</strong>
+							<div class="progress">
+								<div class="progress-bar" role="progressbar" aria-valuenow="22"
+									 aria-valuemin="0" aria-valuemax="100"
+									 style='width: 4.21%;'>4,21%
+								</div>
+							</div>
+							<small><a title="I voti di preferenza della lista ARCO CAMBIA LISTA CIVICA a ARCO" href="../Preferenze/000020_004130.html">Voti di Preferenza</a></small>
+							</div>
+						</div>
+					</td>
+                    <td>348</td>
+                    <td>4,21%</td>
+                </tr>
+                
+                <tr>
+                    <td>
+						<div class="media"><img src="../../FotoSimboli/62/20/sim_4137.gif"  alt="Symbol:PENSARCOMUNE"/>
+						<div class="media-body"><strong>PENSARCOMUNE</strong>
+							<div class="progress">
+								<div class="progress-bar" role="progressbar" aria-valuenow="22"
+									 aria-valuemin="0" aria-valuemax="100"
+									 style='width: 3.22%;'>3,22%
+								</div>
+							</div>
+							<small><a title="I voti di preferenza della lista PENSARCOMUNE a ARCO" href="../Preferenze/000020_004137.html">Voti di Preferenza</a></small>
+							</div>
+						</div>
+					</td>
+                    <td>266</td>
+                    <td>3,22%</td>
+                </tr>
+                
+                <tr>
+                    <td>
+						<div class="media"><img src="../../FotoSimboli/62/20/sim_4127.gif"  alt="Symbol:DOMANI GIOVANI IN AZIONE"/>
+						<div class="media-body"><strong>DOMANI GIOVANI IN AZIONE</strong>
+							<div class="progress">
+								<div class="progress-bar" role="progressbar" aria-valuenow="22"
+									 aria-valuemin="0" aria-valuemax="100"
+									 style='width: 3.20%;'>3,20%
+								</div>
+							</div>
+							<small><a title="I voti di preferenza della lista DOMANI GIOVANI IN AZIONE a ARCO" href="../Preferenze/000020_004127.html">Voti di Preferenza</a></small>
+							</div>
+						</div>
+					</td>
+                    <td>264</td>
+                    <td>3,20%</td>
+                </tr>
+                
+                <tr>
+                    <td>
+						<div class="media"><img src="../../FotoSimboli/62/20/sim_4136.gif"  alt="Symbol:FRATELLI D'ITALIA GIORGIA MELONI"/>
+						<div class="media-body"><strong>FRATELLI D'ITALIA GIORGIA MELONI</strong>
+							<div class="progress">
+								<div class="progress-bar" role="progressbar" aria-valuenow="22"
+									 aria-valuemin="0" aria-valuemax="100"
+									 style='width: 2.95%;'>2,95%
+								</div>
+							</div>
+							<small><a title="I voti di preferenza della lista FRATELLI D'ITALIA GIORGIA MELONI a ARCO" href="../Preferenze/000020_004136.html">Voti di Preferenza</a></small>
+							</div>
+						</div>
+					</td>
+                    <td>244</td>
+                    <td>2,95%</td>
+                </tr>
+                
+                <tr>
+                    <td>
+						<div class="media"><img src="../../FotoSimboli/62/20/sim_4133.gif"  alt="Symbol:INSIEME PER ARCO"/>
+						<div class="media-body"><strong>INSIEME PER ARCO</strong>
+							<div class="progress">
+								<div class="progress-bar" role="progressbar" aria-valuenow="22"
+									 aria-valuemin="0" aria-valuemax="100"
+									 style='width: 2.45%;'>2,45%
+								</div>
+							</div>
+							<small><a title="I voti di preferenza della lista INSIEME PER ARCO a ARCO" href="../Preferenze/000020_004133.html">Voti di Preferenza</a></small>
+							</div>
+						</div>
+					</td>
+                    <td>202</td>
+                    <td>2,45%</td>
+                </tr>
+                
+                <tr>
+                    <td>
+						<div class="media"><img src="../../FotoSimboli/62/20/sim_4124.gif"  alt="Symbol:ARCO BENE COMUNE - FUTURA 2020 VERDI E SINISTRA"/>
+						<div class="media-body"><strong>ARCO BENE COMUNE - FUTURA 2020 VERDI E SINISTRA</strong>
+							<div class="progress">
+								<div class="progress-bar" role="progressbar" aria-valuenow="22"
+									 aria-valuemin="0" aria-valuemax="100"
+									 style='width: 2.24%;'>2,24%
+								</div>
+							</div>
+							<small><a title="I voti di preferenza della lista ARCO BENE COMUNE - FUTURA 2020 VERDI E SINISTRA a ARCO" href="../Preferenze/000020_004124.html">Voti di Preferenza</a></small>
+							</div>
+						</div>
+					</td>
+                    <td>185</td>
+                    <td>2,24%</td>
+                </tr>
+                
+                <tr>
+                    <td>
+						<div class="media"><img src="../../FotoSimboli/62/20/sim_4134.gif"  alt="Symbol:UNIONE PER ARCO PER UN IMPEGNO CIVICO CON GIACOMO BERNARDI SINDACO"/>
+						<div class="media-body"><strong>UNIONE PER ARCO PER UN IMPEGNO CIVICO CON GIACOMO BERNARDI SINDACO</strong>
+							<div class="progress">
+								<div class="progress-bar" role="progressbar" aria-valuenow="22"
+									 aria-valuemin="0" aria-valuemax="100"
+									 style='width: 2.05%;'>2,05%
+								</div>
+							</div>
+							<small><a title="I voti di preferenza della lista UNIONE PER ARCO PER UN IMPEGNO CIVICO CON GIACOMO BERNARDI SINDACO a ARCO" href="../Preferenze/000020_004134.html">Voti di Preferenza</a></small>
+							</div>
+						</div>
+					</td>
+                    <td>169</td>
+                    <td>2,05%</td>
+                </tr>
+                
+                <tr>
+                    <td>
+						<div class="media"><img src="../../FotoSimboli/62/20/sim_4141.gif"  alt="Symbol:FORZA ITALIA BERLUSCONI PRESIDENTE BERNARDI"/>
+						<div class="media-body"><strong>FORZA ITALIA BERLUSCONI PRESIDENTE BERNARDI</strong>
+							<div class="progress">
+								<div class="progress-bar" role="progressbar" aria-valuenow="22"
+									 aria-valuemin="0" aria-valuemax="100"
+									 style='width: 1.23%;'>1,23%
+								</div>
+							</div>
+							<small><a title="I voti di preferenza della lista FORZA ITALIA BERLUSCONI PRESIDENTE BERNARDI a ARCO" href="../Preferenze/000020_004141.html">Voti di Preferenza</a></small>
+							</div>
+						</div>
+					</td>
+                    <td>102</td>
+                    <td>1,23%</td>
+                </tr>
+                
+                </tbody>
+            </table>
+        </div>
+        
+
+
+
+
+        <div class="col-sm-5"  style="background-color:#f5f5f5;opacity:.85;">
+            <table class="votilista">
+                <caption>Precedenti elezioni comunali<small><br/><br/>Sezioni
+                    scrutinate: 12
+                    su 12<br/>
+                </small><br/></caption>
+                <thead>
+                <tr>
+                
+
+                    <th>Liste</th>
+                    <th>Voti</th>
+                    <th><abbr title='Percentuale'>%</abbr></th>
+                </tr>
+                </thead>
+                <tbody>
+                
+
+
+
+
+                
+                <tr>
+                    
+
+                    <td>
+						<div class="media">
+							<img
+                            src="../../img/pregresso/2015/48/extra/sim_20162.gif"
+                            alt="Symbol: PARTITO DEMOCRATICO"/>
+							<div class="media-body">
+								<h3>PARTITO DEMOCRATICO</h3>
+							</div>
+						</div>
+                    </td>
+                    <td>1537
+                    </td>
+                    <td>20,32%
+                    </td>
+                </tr>
+                
+                <tr>
+                    
+
+                    <td>
+						<div class="media">
+							<img
+                            src="../../img/pregresso/2015/48/extra/sim_20163.gif"
+                            alt="Symbol: PATT"/>
+							<div class="media-body">
+								<h3>PATT</h3>
+							</div>
+						</div>
+                    </td>
+                    <td>1511
+                    </td>
+                    <td>19,98%
+                    </td>
+                </tr>
+                
+                <tr>
+                    
+
+                    <td>
+						<div class="media">
+							<img
+                            src="../../img/pregresso/2015/48/extra/sim_20159.gif"
+                            alt="Symbol: CIVICA CON BETTA …. e il gardatrentino"/>
+							<div class="media-body">
+								<h3>CIVICA CON BETTA …. e il gardatrentino</h3>
+							</div>
+						</div>
+                    </td>
+                    <td>1187
+                    </td>
+                    <td>15,69%
+                    </td>
+                </tr>
+                
+                <tr>
+                    
+
+                    <td>
+						<div class="media">
+							<img
+                            src="../../img/pregresso/2015/48/extra/sim_20161.gif"
+                            alt="Symbol: UNIONE PER IL TRENTINO"/>
+							<div class="media-body">
+								<h3>UNIONE PER IL TRENTINO</h3>
+							</div>
+						</div>
+                    </td>
+                    <td>748
+                    </td>
+                    <td>9,89%
+                    </td>
+                </tr>
+                
+                <tr>
+                    
+
+                    <td>
+						<div class="media">
+							<img
+                            src="../../img/pregresso/2015/48/extra/sim_20154.gif"
+                            alt="Symbol: MOVIMENTO 5 STELLE"/>
+							<div class="media-body">
+								<h3>MOVIMENTO 5 STELLE</h3>
+							</div>
+						</div>
+                    </td>
+                    <td>674
+                    </td>
+                    <td>8,91%
+                    </td>
+                </tr>
+                
+                <tr>
+                    
+
+                    <td>
+						<div class="media">
+							<img
+                            src="../../img/pregresso/2015/48/extra/sim_20155.gif"
+                            alt="Symbol: SIAMO ARCO"/>
+							<div class="media-body">
+								<h3>SIAMO ARCO</h3>
+							</div>
+						</div>
+                    </td>
+                    <td>642
+                    </td>
+                    <td>8,49%
+                    </td>
+                </tr>
+                
+                <tr>
+                    
+
+                    <td>
+						<div class="media">
+							<img
+                            src="../../img/pregresso/2015/48/extra/sim_20158.gif"
+                            alt="Symbol: ARCO FUTURA"/>
+							<div class="media-body">
+								<h3>ARCO FUTURA</h3>
+							</div>
+						</div>
+                    </td>
+                    <td>429
+                    </td>
+                    <td>5,67%
+                    </td>
+                </tr>
+                
+                <tr>
+                    
+
+                    <td>
+						<div class="media">
+							<img
+                            src="../../img/pregresso/2015/48/extra/sim_20160.gif"
+                            alt="Symbol: ARCO BENE COMUNE"/>
+							<div class="media-body">
+								<h3>ARCO BENE COMUNE</h3>
+							</div>
+						</div>
+                    </td>
+                    <td>323
+                    </td>
+                    <td>4,27%
+                    </td>
+                </tr>
+                
+                <tr>
+                    
+
+                    <td>
+						<div class="media">
+							<img
+                            src="../../img/pregresso/2015/48/extra/sim_20157.gif"
+                            alt="Symbol: ARCO PER UN COMUNE VIRTUOSO "/>
+							<div class="media-body">
+								<h3>ARCO PER UN COMUNE VIRTUOSO </h3>
+							</div>
+						</div>
+                    </td>
+                    <td>310
+                    </td>
+                    <td>4,10%
+                    </td>
+                </tr>
+                
+                <tr>
+                    
+
+                    <td>
+						<div class="media">
+							<img
+                            src="../../img/pregresso/2015/48/extra/sim_20156.gif"
+                            alt="Symbol: LEGA NORD TRENTINO"/>
+							<div class="media-body">
+								<h3>LEGA NORD TRENTINO</h3>
+							</div>
+						</div>
+                    </td>
+                    <td>203
+                    </td>
+                    <td>2,68%
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div><!-- /#container -->
+
+<script src='../../js//gem2020_scripts.min.js?v=2019-11-22T09:44:52.782Z'></script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-43580579-7"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-43580579-7');
+	</script>
+
+
+
+
+<footer class="it-footer">
+    <div class="it-footer-main">
+        <div class="container">
+
+
+
+            <section>
+                <div class="row clearfix">
+                    <div class="col-sm-12">
+                        <div class="">
+                            <p>
+                            <h5 class="no_toc">Per assistenza giuridica:</br>
+                                <a href="http://www.regione.taa.it/">Regione Autonoma Trentino-Alto Adige/Südtirol</a>
+                            </h5>
+                            Via Gazzoletti 2 - 38122 Trento (I)</br>
+                            Ripartizione II - Enti locali, previdenza e competenze ordinamentali</br>
+                            Tel. 0461 201308</br>
+                            email: <a href="mailto:ripaist@regione.taa.it">ripaist@regione.taa.it</a></br>
+                            pec: <a href="mailto:ripaist@pec.regione.taa.it">ripaist@pec.regione.taa.it</a></br>
+                            </p>
+                            <p>
+                            <h5 class="no_toc">Per assistenza tecnica:</br>
+                                <a href="http://www.trentinodigitale.it/">Trentino Digitale S.p.A.</a>
+                            </h5>
+                            Sede Legale: Via G. Gilli, 2 - 38121 Trento</br>
+                            Tel. 0461 800260</br>
+                            email: <a href="mailto:csd.assistenza@tndigit.it">csd.assistenza@tndigit.it</a></br>
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="py-4 border-white border-top">
+                <p class="no_toc d-md-block">Realizzazione: <a href="https://www.trentinodigitale.it/"
+                                                               style="color: white">Trentino Digitale S.p.A.</a> e
+                    <a href="https://www.siag.it/it/home" style="color: white">Informatica Alto Adige S.p.A.</a>
+                </p>
+            </section>
+        </div>
+    </div>
+    <div class="it-footer-small-prints clearfix">
+        <div class="container">
+            <h3 class="sr-only">Sezione Link Utili</h3>
+            <ul class="it-footer-small-prints-list list-inline mb-0 d-flex flex-column flex-md-row">
+                <li class="list-inline-item"><a href="http://www.regione.taa.it/note_legali.aspx" target="_blank"
+                                                title="Cookie">Note legali</a></li>
+                <li class="list-inline-item"><a href="../../media/SIE2020_Privacy.pdf" target="_blank"
+                                                title="Privacy-Cookies">Privacy</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
