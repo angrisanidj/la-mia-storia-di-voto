@@ -1,0 +1,7 @@
+001 https://static.provinz.bz.it/robots.txt
+002 http://web.archive.org/cdx/search/cdx?url=static.provinz.bz.it/vote/&matchType=prefix&fl=original&collapse=urlkey&filter=original:.*gem.*&limit=30000
+003 http://web.archive.org/cdx/search/cdx?url=static.provincia.bz.it/vote/&matchType=prefix&fl=original&collapse=urlkey&filter=original:.*gem.*&limit=30000
+004 http://web.archive.org/cdx/search/cdx?url=regione.taa.it&matchType=domain&fl=original&collapse=urlkey&filter=original:.*[Ee]lez.*&limit=30000
+005 https://static.provinz.bz.it/vote/gem2020/
+006 https://static.provinz.bz.it/vote/gem2015/
+007 https://static.provinz.bz.it/vote/gem2024feb/
