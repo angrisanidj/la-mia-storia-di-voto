@@ -1,0 +1,2 @@
+001 http://web.archive.org/cdx/search/cdx?fl=original,timestamp,statuscode,mimetype&collapse=urlkey&limit=5000&url=dati.trentino.it/dataset/ultime-elezioni-comunali&matchType=prefix
+002 http://web.archive.org/cdx/search/cdx?fl=original,timestamp,statuscode,mimetype&collapse=urlkey&limit=5000&url=dati.trentino.it/dataset/&matchType=prefix&filter=original:.*elezion.*
