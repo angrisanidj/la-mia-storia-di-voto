@@ -1,0 +1,12 @@
+001 https://elezioni.regione.fvg.it/distribuzione/json/2026-05-24_ELZ_COM_69_sindaci_AMMESSA.json
+002 https://elezioni.regione.fvg.it/distribuzione/json/2026-05-24_ELZ_COM_69_gruppo.json
+003 https://elezioni.regione.fvg.it/distribuzione/json/2026-05-24_ELZ_COM_69_intestazione_voti_sindaci.json
+004 https://elezioni.regione.fvg.it/distribuzione/json/2023-04-02_ELZ_COM_217_sindaci_AMMESSA.json
+005 https://elezioni.regione.fvg.it/distribuzione/json/2023-04-02_ELZ_COM_217_gruppo.json
+006 https://elezioni.regione.fvg.it/distribuzione/json/2023-04-02_ELZ_COM_217_intestazione_voti_sindaci.json
+007 https://elezioni.regione.fvg.it/distribuzione/json/2022-06-12_ELZ_COM_96_sindaci_AMMESSA.json
+008 https://elezioni.regione.fvg.it/distribuzione/json/2022-06-12_ELZ_COM_96_gruppo.json
+009 https://elezioni.regione.fvg.it/distribuzione/json/2022-06-12_ELZ_COM_96_intestazione_voti_sindaci.json
+010 https://elezioni.regione.fvg.it/distribuzione/json/2021-10-03_ELZ_COM_136_sindaci_AMMESSA.json
+011 https://elezioni.regione.fvg.it/distribuzione/json/2021-10-03_ELZ_COM_136_gruppo.json
+012 https://elezioni.regione.fvg.it/distribuzione/json/2021-10-03_ELZ_COM_136_intestazione_voti_sindaci.json
