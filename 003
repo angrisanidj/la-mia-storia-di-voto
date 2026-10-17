@@ -1,0 +1,547 @@
+
+<!DOCTYPE html>
+<html lang="it">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">		
+		<meta content="width=device-width, initial-scale=1" name="viewport">
+		<title>Elezioni comunali 2015 - Alto Adige | 10 Maggio | BRESSANONE | Candidati Sindaco</title>
+		
+
+		<meta http-equiv="pragma" content="no-cache">
+		<meta http-equiv="cache-control" content="no-cache">
+		<meta name="description" content="Elezioni comunali 2015 – Provincia di Bolzano: scrutinio in tempo reale in Internet, risultati elettorali di ogni comune.">
+		<meta name="keywords" content="Elezioni, elezioni comunali 2015, Alto Adige, Provincia di Bolzano">
+		<link href='../css/styles_1.css' rel="stylesheet">
+		<link href='../css/styles_2.css' rel="stylesheet">
+		<!--[if lt IE 9]>
+			<script src='../js/ie.min.js'></script>
+		<![endif]-->
+		<link href='../favicon.png' rel="icon">
+		<link href='../apple-touch-icon.png' rel="apple-touch-icon">
+		<link href='../apple-touch-icon-57x57.png' rel="apple-touch-icon" sizes="57x57">
+		<link href='../apple-touch-icon-76x76.png' rel="apple-touch-icon" sizes="76x76">
+		<link href='../apple-touch-icon-120x120.png' rel="apple-touch-icon" sizes="120x120">
+		<link href='../apple-touch-icon-152x152.png' rel="apple-touch-icon" sizes="152x152">
+		 
+         
+         
+	</head>
+	<body>
+		<form method="get" action="mayor_li_vg.htm" id="form1">
+<div class="aspNetHidden">
+ 
+</div>
+
+			<div class="container">
+				<div id="header">
+					<div id="masthead" role="banner">					
+                        <a href='../home_li_vg.htm'>
+                            <img id="logo_regione" src='../img/logo_regione_taa.png' alt="Autonome Region Trentino - Südtirol">
+							Regione autonoma Trentino–Alto Adige/Südtirol<br>
+							<strong>Elezioni amministrative 2015 - Alto Adige</strong><br>
+							<small>10 - 24 maggio 2015</small>
+						</a>
+					</div>
+					
+	
+
+
+
+<nav class="navbar navbar-default">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main_links">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			</button>
+		</div>
+		<div class="collapse navbar-collapse" id="main_links">
+   			
+
+			
+
+            <!-- MENU FOR A SINGLE MUNICIPALITY!!!! -->
+
+			<ul class="nav navbar-nav">
+
+				
+
+				<li>
+					<a id="A3" href='../home_li_vg.htm' class="homelink">
+						Home
+					</a>
+				</li>
+                <!--                -->
+				
+
+				
+            
+				<li>
+					<a  href='../turn1_li_vg.htm'>
+                       Primo turno
+					</a>
+				</li>
+
+
+
+				<li>
+					<a  href='index_li_vg.htm'><b>BRESSANONE</b> <i class="fa fa-caret-right"></i></a>
+				</li>
+
+				
+
+                <!--
+				<li>
+					<a  href='prelists_li_vg.htm'>
+						 Liste e candidati
+					</a>
+				</li>
+                -->
+
+
+
+
+				<li>
+					<a id="A4" href='afwb_li_vg.htm'>
+						Affluenza alle urne
+					</a>
+				</li>
+
+				
+
+
+				<li>
+					<a  href='#'>
+						Candidati Sindaco
+					</a>
+				</li>
+
+				
+				
+
+
+				<li>
+					<a id="Menu_Lists" href='list_li_vg.htm'>
+						Voti di lista
+					</a>
+				</li>
+				<li>
+					<a id="Menu_Prefs" href='prefi_li_vg.htm'>
+						Voti di Preferenza
+					</a>
+				</li>
+				<li id="contentSideBar_sideMenu_menuCouncil">
+					<a id="Menu_Council"  title="Neuer Gemeinderat der Gemeinde…" href='council_li_vg.htm'>
+						Nuovo consiglio
+					</a>
+				</li>
+
+				
+
+
+			</ul>
+
+			<ul class="nav navbar-nav navbar-right">
+				<li>
+					<a href="mayor_ld_vg.htm" lang="de" hreflang="de" title="Deutsche Version">
+						<abbr title="Deutsch">DE</abbr>
+					</a>
+				</li>
+								
+				<li>
+					<a href="mayor_ll_vg.htm" lang="rm" hreflang="rm" title="Versciun ladina">
+						<abbr title="Ladin">LA</abbr>
+					</a>
+				</li>				
+			</ul>
+		</div><!-- /.navbar-collapse -->
+	</div><!-- /.container-fluid -->
+</nav>
+
+
+
+		
+				</div>				
+				<div id="content">
+					<div id="main">
+						
+	<ol class="breadcrumb">
+      <li>
+            <a href='../home_li_vg.htm'>
+                Home
+            </a>
+      </li>
+      <li id="contentMain_Li1">
+            <a href='../turn1_li_vg.htm'>
+                Primo turno
+            </a>
+      </li>
+      <li>
+			<a href='index_li_vg.htm'>
+				BRESSANONE
+			</a></li><li>
+		Candidati Sindaco</li>
+	</ol>
+	
+	<div class="pull-right">
+        
+
+        <span>
+		    <button type="button" onclick="javascript:window.print();return false;" class="btn btn-default">
+			    <i class="fa fa-print"></i> 
+			    Stampa la pagina visualizzata
+		    </button>
+		    <noscript>
+			    <p>Per stampare la pagina utilizzare la funzione di stampa del browser sotto il menù 'File'</p>
+		    </noscript>
+        </span>
+
+
+    </div>
+
+
+	<h1 id="contentMain_muniHead_title" class="main_title" style="background-image:url(../img/municipalities/BZ361.gif);">
+		BRESSANONE
+	</h1>
+
+
+
+
+
+
+
+
+
+
+
+	<h2>Candidati Sindaco</h2>
+	
+
+
+    <table class="voti ruler"  
+            summary="Risultato elettorale del comune BRESSANONE: candidati sindaco elencati in base ai voti ricevuti">
+        <caption>
+            <small style="font-size:.65em;line-height:1;">Sezioni scrutinate: 22 su 22</small>
+        </caption>
+
+         <thead>
+           <tr>
+             <th scope="col" class="votiTipo">Candidato e liste collegate </th>
+             <th scope="col" class="votiTipo">eletto alla carica</th>
+             <th scope="col" class="votiTipo">Voti</th>
+             <th scope="col" class="votiTipo"><abbr title='Percentuale'>%</abbr></th>
+           </tr>
+         </thead>
+	              
+         <tbody>
+
+           <tr>
+             <th scope="row">BRUNNER PETER<br />
+               <ul class="list-inline">
+                <li>
+                    <img src="../img/symbols/2015/21011-04.gif" id="contentMain_MayorVotes_rptFinal_listRpt_0_Img2_0" alt="Symbol:SÜDTIROLER VOLKSPARTEI" title="SÜDTIROLER VOLKSPARTEI" />
+
+                    <!--    4. 
+                    SÜDTIROLER VOLKSPARTEI-->
+                </li>
+
+               </ul>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="51" aria-valuemin="0" aria-valuemax="100" style='width: 51.2%;'>
+                    51,2%
+                    </div>
+                </div>
+             </th>
+             <td class="eletto">Sindaco</td>
+             <td  class="votes_now"><strong>5.421</strong> 
+                   <div>
+						<small>
+                    		di cui solo al sindaco: 120<br>
+                       		derivanti dalle liste: 5.301
+						</small>
+                 </div>
+             </td>
+             <td  class="votes_now"><strong>51,2%</strong></td>
+           </tr>
+
+           <tr>
+             <th scope="row">BLAAS WALTER<br />
+               <ul class="list-inline">
+                <li>
+                    <img src="../img/symbols/2015/21011-06.gif" id="contentMain_MayorVotes_rptFinal_listRpt_1_Img2_0" alt="Symbol:DIE FREIHEITLICHEN" title="DIE FREIHEITLICHEN" />
+
+                    <!--    6. 
+                    DIE FREIHEITLICHEN-->
+                </li>
+
+               </ul>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="13" aria-valuemin="0" aria-valuemax="100" style='width: 13.1%;'>
+                    13,1%
+                    </div>
+                </div>
+             </th>
+             <td class="eletto">Consigliere</td>
+             <td  class="votes_now"><strong>1.387</strong> 
+                   <div>
+						<small>
+                    		di cui solo al sindaco: 111<br>
+                       		derivanti dalle liste: 1.276
+						</small>
+                 </div>
+             </td>
+             <td  class="votes_now"><strong>13,1%</strong></td>
+           </tr>
+
+           <tr>
+             <th scope="row">LETRARI ELDA<br />
+               <ul class="list-inline">
+                <li>
+                    <img src="../img/symbols/2015/21011-03.gif" id="contentMain_MayorVotes_rptFinal_listRpt_2_Img2_0" alt="Symbol:GRÜNE BÜRGERLISTE ALTERNATIVA ECOSOCIALE" title="GRÜNE BÜRGERLISTE ALTERNATIVA ECOSOCIALE" />
+
+                    <!--    3. 
+                    GRÜNE BÜRGERLISTE ALTERNATIVA ECOSOCIALE-->
+                </li>
+
+               </ul>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="11" aria-valuemin="0" aria-valuemax="100" style='width: 10.6%;'>
+                    10,6%
+                    </div>
+                </div>
+             </th>
+             <td class="eletto">Consigliere</td>
+             <td  class="votes_now"><strong>1.127</strong> 
+                   <div>
+						<small>
+                    		di cui solo al sindaco: 67<br>
+                       		derivanti dalle liste: 1.060
+						</small>
+                 </div>
+             </td>
+             <td  class="votes_now"><strong>10,6%</strong></td>
+           </tr>
+
+           <tr>
+             <th scope="row">CAPPELLETTI MARIO<br />
+               <ul class="list-inline">
+                <li>
+                    <img src="../img/symbols/2015/21011-02.gif" id="contentMain_MayorVotes_rptFinal_listRpt_3_Img2_0" alt="Symbol:PARTITO DEMOCRATICO DEMOKRATISCHE PARTEI" title="PARTITO DEMOCRATICO DEMOKRATISCHE PARTEI" />
+
+                    <!--    2. 
+                    PARTITO DEMOCRATICO DEMOKRATISCHE PARTEI-->
+                </li>
+
+               </ul>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="11" aria-valuemin="0" aria-valuemax="100" style='width: 10.6%;'>
+                    10,6%
+                    </div>
+                </div>
+             </th>
+             <td class="eletto">Consigliere</td>
+             <td  class="votes_now"><strong>1.122</strong> 
+                   <div>
+						<small>
+                    		di cui solo al sindaco: 21<br>
+                       		derivanti dalle liste: 1.101
+						</small>
+                 </div>
+             </td>
+             <td  class="votes_now"><strong>10,6%</strong></td>
+           </tr>
+
+           <tr>
+             <th scope="row">MAIR BARBARA MARIA ANNA<br />
+               <ul class="list-inline">
+                <li>
+                    <img src="../img/symbols/2015/21011-05.gif" id="contentMain_MayorVotes_rptFinal_listRpt_4_Img2_0" alt="Symbol:DEMOS BRIXEN BRESSANONE" title="DEMOS BRIXEN BRESSANONE" />
+
+                    <!--    5. 
+                    DEMOS BRIXEN BRESSANONE-->
+                </li>
+
+               </ul>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="4" aria-valuemin="0" aria-valuemax="100" style='width: 4.3%;'>
+                    4,3%
+                    </div>
+                </div>
+             </th>
+             <td class="eletto"></td>
+             <td  class="votes_now"><strong>458</strong> 
+                   <div>
+						<small>
+                    		di cui solo al sindaco: 11<br>
+                       		derivanti dalle liste: 447
+						</small>
+                 </div>
+             </td>
+             <td  class="votes_now"><strong>4,3%</strong></td>
+           </tr>
+
+           <tr>
+             <th scope="row">SPAZZINI ROBERTO<br />
+               <ul class="list-inline">
+                <li>
+                    <img src="../img/symbols/2015/21011-07.gif" id="contentMain_MayorVotes_rptFinal_listRpt_5_Img2_0" alt="Symbol:INSIEME ... PER BRESSANONE" title="INSIEME ... PER BRESSANONE" />
+
+                    <!--    7. 
+                    INSIEME ... PER BRESSANONE-->
+                </li>
+
+               </ul>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="4" aria-valuemin="0" aria-valuemax="100" style='width: 4.0%;'>
+                    4,0%
+                    </div>
+                </div>
+             </th>
+             <td class="eletto"></td>
+             <td  class="votes_now"><strong>426</strong> 
+                   <div>
+						<small>
+                    		di cui solo al sindaco: 41<br>
+                       		derivanti dalle liste: 385
+						</small>
+                 </div>
+             </td>
+             <td  class="votes_now"><strong>4,0%</strong></td>
+           </tr>
+
+           <tr>
+             <th scope="row">NOZIGLIA DANILO<br />
+               <ul class="list-inline">
+                <li>
+                    <img src="../img/symbols/2015/21011-01.gif" id="contentMain_MayorVotes_rptFinal_listRpt_6_Img2_0" alt="Symbol:LEGA NORD" title="LEGA NORD" />
+
+                    <!--    1. 
+                    LEGA NORD-->
+                </li>
+
+               </ul>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="4" aria-valuemin="0" aria-valuemax="100" style='width: 3.8%;'>
+                    3,8%
+                    </div>
+                </div>
+             </th>
+             <td class="eletto"></td>
+             <td  class="votes_now"><strong>401</strong> 
+                   <div>
+						<small>
+                    		di cui solo al sindaco: 53<br>
+                       		derivanti dalle liste: 348
+						</small>
+                 </div>
+             </td>
+             <td  class="votes_now"><strong>3,8%</strong></td>
+           </tr>
+
+           <tr>
+             <th scope="row">RELLA ELISABETTA<br />
+               <ul class="list-inline">
+                <li>
+                    <img src="../img/symbols/2015/21011-08.gif" id="contentMain_MayorVotes_rptFinal_listRpt_7_Img2_0" alt="Symbol:L&#39;ALTO ADIGE NEL CUORE" title="L&#39;ALTO ADIGE NEL CUORE" />
+
+                    <!--    8. 
+                    L'ALTO ADIGE NEL CUORE-->
+                </li>
+
+               </ul>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100" style='width: 2.4%;'>
+                    2,4%
+                    </div>
+                </div>
+             </th>
+             <td class="eletto"></td>
+             <td  class="votes_now"><strong>250</strong> 
+                   <div>
+						<small>
+                    		di cui solo al sindaco: 17<br>
+                       		derivanti dalle liste: 233
+						</small>
+                 </div>
+             </td>
+             <td  class="votes_now"><strong>2,4%</strong></td>
+           </tr>
+
+         </tbody>
+      </table>
+
+
+	
+      <table id="datiVoto" class="ruler" summary="Dati sul voto">
+        <caption>
+		Dati sul voto
+	</caption>
+
+ 	  <thead>
+		<tr>
+			<td scope="col" class="votiTipo"></td>
+			<th colspan="2" scope="col" class="votes_now col-sm-4">2015</th>
+			<th colspan="2" scope="col" class="votes_prev col-sm-4">Precedenti elezioni comunali</th>
+		</tr>
+	  </thead>
+	  
+	<tbody>
+		<tr class="odd">
+			<th scope="row">
+			   Schede valide
+			</th>
+			<td class="votes_now">10.592 </td>
+			<td class="votes_now">96,1%</td>
+			<td class="votes_prev">11.136</td>
+			<td class="votes_prev">96,9%</td>
+		</tr>
+		<tr class="even">
+			<th scope="row">
+			Schede non valide
+			</th>
+			<td class="votes_now">427 </td>
+			<td class="votes_now">3,9%</td>
+			<td class="votes_prev">352</td>
+			<td class="votes_prev">3,1%</td>
+		</tr>
+		<tr class="even">
+			<th scope="row" class="subHeader">
+			    di cui: bianche
+			</th>
+			<td class="votes_now">199 </td>
+			<td class="votes_now">1,8%</td>
+			<td class="votes_prev">135</td>
+			<td class="votes_prev">1,2%</td>
+		</tr>
+		<tr class="odd">
+			<th scope="row">
+			    Totale schede scrutinate    
+			</th>
+			<td class="votes_now">11.019</td>
+			<td class="votes_now">100%</td>
+			<td class="votes_prev">11.488</td>
+			<td class="votes_prev">100%</td>
+		</tr>
+
+
+	</tbody>
+</table>
+
+
+    
+
+
+
+					</div><!-- /#main -->
+				</div><!-- /#content -->
+				
+				<div id="footer">© 2015 Regione Trentino–Alto Adige/Südtirol | Realizzazione: Informatica Alto Adige S.p.A. e Informatica Trentina S.p.A.</div>
+			</div>
+		</form>
+		<script src="../js/scripts.min.js"></script>
+	</body>
+</html>
+

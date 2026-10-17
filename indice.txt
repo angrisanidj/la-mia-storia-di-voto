@@ -1,0 +1,3 @@
+001 http://web.archive.org/web/20100819103745id_/http://www.regione.taa.it:80/elettorale/Comunali.aspx
+002 http://web.archive.org/web/20160922144936id_/http://www.regione.taa.it:80/Elettorale/Comunali.aspx
+003 http://web.archive.org/web/2015id_/https://static.provinz.bz.it/vote/gem2015/17511/mayor_li_vg.htm

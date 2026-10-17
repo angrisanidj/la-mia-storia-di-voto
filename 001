@@ -1,0 +1,774 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="it" xml:lang="it" >
+        <head id="ctl00_Head1"><title>
+	Elezioni Comunali
+</title><meta http-equiv="Content-Type" content="text/HTML; charset=utf-8" /><meta name="Language" content="it" /><meta http-equiv="Content-Style-Type" content="text/css" /><meta name="Description" content="Ufficio Elettorale" /><meta name="keywords" content="Elezioni, Enti locali, competenze, ordinamentali" /><meta http-equiv="Content-Script-Type" content="text/javascript" /><meta name="Author" content="Coordinamento e realizzazione informatica a cura dell’Ufficio Organizzazione e Informatica della Regione Autonoma Trentino-Alto Adige" /><link rel="stylesheet" href="../cssa/stile_portale.css" type="text/css" media="screen" /><link rel="stylesheet" href="../cssa/stile_portale_statico.css" /><link media="print" href="../cssa/print_portale.css" type="text/css" rel="stylesheet" /><link rel="alternate stylesheet" type="text/css" href="../cssa/stile_portale_m.css" title="medio" /><link rel="alternate stylesheet" type="text/css" href="../cssa/stile_portale_g.css" title="grande" /><link rel="alternate stylesheet" type="text/css" href="../cssa/grande.css" title="alta" />
+        <script  type="text/javascript" src="../cssa/styles.js"></script>
+
+
+
+
+
+        </head>
+
+        <body >
+        <div class="dimensione_carattere1">
+
+                <form name="aspnetForm" method="post" action="Comunali.aspx" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE4NTY3Nzc0NTYPFgQeBFNvcnQFBERFU0MeA2ltZwUGaW1nTnVtFgJmD2QWAgIDD2QWBgIBDw8WAh4EVGV4dAUXZ2lvdmVkw6wgMTkgYWdvc3RvIDIwMTBkZAIDDw8WBB8CBQdEZXV0c2NoHgtOYXZpZ2F0ZVVybAUPQ29tdW5hbGlfZC5hc3B4FgIeBXRpdGxlBQdEZXV0c2NoZAIHD2QWCAIBDxBkEBUVCy0tIFR1dHRpIC0tBDIwMTAEMjAwOQQyMDA4BDIwMDcEMjAwNgQyMDA1BDIwMDQEMjAwMwQyMDAyBDIwMDEEMjAwMAQxOTk5BDE5OTgEMTk5NwQxOTk2BDE5OTUEMTk5NAQxOTkxBDE5OTAEMTk4ORUVCy0tIFR1dHRpIC0tBDIwMTAEMjAwOQQyMDA4BDIwMDcEMjAwNgQyMDA1BDIwMDQEMjAwMwQyMDAyBDIwMDEEMjAwMAQxOTk5BDE5OTgEMTk5NwQxOTk2BDE5OTUEMTk5NAQxOTkxBDE5OTAEMTk4ORQrAxVnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dkZAIDDxBkEBXhAQstLSBUdXR0aSAtLRdMYWRpbmksIENpbWJyaSwgTW9jaGVuaQNBTEEHQUxCSUFOTwZBTERFTk8GQU1CTEFSBkFOREFMTwRBUkNPBEFWSU8QQkFTRUxHQSBESSBQSU7DiAdCRURPTExPB0JFUlNPTkUJQkVTRU5FTExPCEJFWlpFQ0NBBUJJRU5PEUJMRUdHSU8gSU5GRVJJT1JFEUJMRUdHSU8gU1VQRVJJT1JFCEJPQ0VOQUdPB0JPTEJFTk8FQk9ORE8HQk9ORE9ORQ9CT1JHTyBWQUxTVUdBTkEJQk9TRU5USU5PCEJSRUdVWlpPCkJSRU5UT05JQ08HQlJFU0lNTwRCUkVaBkJSSU9ORQlDQURFUlpPTkUGQ0FHTsOSCENBTEFWSU5PE0NBTENFUkFOSUNBIEFMIExBR08GQ0FMREVTCkNBTERPTkFaWk8IQ0FMTElBTk8TQ0FNUElURUxMTyBESSBGQVNTQQpDQU1QT0RFTk5PDkNBTkFMIFNBTiBCT1ZPB0NBTkFaRUkIQ0FQUklBTkEGQ0FSQU5PCENBUklTT0xPB0NBUlpBTk8OQ0FTVEVMIENPTkRJTk8LQ0FTVEVMRk9ORE8PQ0FTVEVMTE8gVEVTSU5PGUNBU1RFTExPLU1PTElOQSBESSBGSUVNTUULQ0FTVEVMTlVPVk8IQ0FWQUxFU0UIQ0FWQVJFTk8IQ0FWRURBR08IQ0FWRURJTkUJQ0FWSVpaQU5BBkNFTUJSQRFDRU5UQSBTQU4gTklDT0zDkgZDSU1FR08GQ0lNT05FDENJTlRFIFRFU0lOTwNDSVMJQ0lWRVpaQU5PBENMRVMEQ0xPWgxDT01NRVpaQURVUkEGQ09OQ0VJB0NPTkRJTk8GQ09SRURPCENST1ZJQU5BBkNVTkVWTwZEQUlBTk8GREFNQkVMBURBT05FBURBUsOIBURFTk5PBkRJTUFSTwNET04HRE9SU0lOTwVEUkVOQQNEUk8FRkFFRE8TRkFJIERFTExBIFBBR0FORUxMQQVGQVZFUgZGSUFWw4gRRklFUkEgREkgUFJJTUlFUk8IRklFUk9aWk8GRkxBVk9OCEZPTEdBUklBBUZPTkRPB0ZPUk5BQ0ULRlJBU1NJTE9OR08NR0FSTklHQSBURVJNRQVHSU9WTwhHSVVTVElOTwZHUkFVTk8GR1JJR05PBkdSVU1FUwRJTUVSBUlTRVJBDUlWQU5PIEZSQUNFTkEHTEFSREFSTwZMQVNJTk8ITEFWQVJPTkUFTEFWSVMMTEVWSUNPIFRFUk1FCUxJU0lHTkFHTwRMSVZPBkxPTUFTTwpMT05BLUxBU0VTB0xVU0VSTkEFTUFMw4gHTUFMT1NDTwlNQVNTSU1FTk8GTUFaWklOB01FWlpBTkEHTUVaWkFOTwtNRVpaT0NPUk9OQQ1NRVpaT0xPTUJBUkRPBU1PRU5BD01PTElOQSBESSBMRURSTwdNT0xWRU5PC01PTkNMQVNTSUNPCE1PTlRBR05FBE1PUkkMTkFHTy1UT1JCT0xFBU5BTk5PDk5BVkUgU0FOIFJPQ0NPCE5PR0FSRURPBE5PTUkITk9WQUxFRE8LT1NQRURBTEVUVE8GT1NTQU5BClBBREVSR05PTkURUEFMw5kgREVMIEZFUlNJTkEIUEFOQ0hJw4AEUEVJTwpQRUxMSVpaQU5PBlBFTFVHTxFQRVJHSU5FIFZBTFNVR0FOQQ1QSUVWRSBESSBCT05PDlBJRVZFIERJIExFRFJPDFBJRVZFIFRFU0lOTwdQSU5aT0xPCFBPTUFST0xPDlBPWlpBIERJIEZBU1NBBVBSQVNPCFBSRURBWlpPBlBSRU9SRQZQUkVaWk8FUkFCQkkGUkFHT0xJBVJFVsOSDlJJVkEgREVMIEdBUkRBB1JPTUFMTE8GUk9NRU5PCFJPTkNFR05PEFJPTkNISSBWQUxTVUdBTkEHUk9OQ09ORQ1ST05aTy1DSElFTklTB1JPTlpPTkUSUk9WRVLDiCBERUxMQSBMVU5BCFJPVkVSRVRPB1JVRkZSw4gEUlVNTwpTQUdST04gTUlTBlNBTU9ORRVTQU4gTE9SRU5aTyBJTiBCQU5BTEUVU0FOIE1JQ0hFTEUgQUxMYEFESUdFEVNBTlRgT1JTT0xBIFRFUk1FB1NBTlpFTk8JU0FSTk9OSUNPCFNDVVJFTExFCVNFR09OWkFOTwVTRlJVWgVTSVJPUgdTTUFSQU5PBlNPUkFHQQVTT1ZFUgVTUEVSQQdTUElBWlpPDFNQT1JNQUdHSU9SRQpTUE9STUlOT1JFB1NURU5JQ08FU1RPUk8HU1RSRU1CTwdTVFJJR05PBFRBSU8IVEFTU1VMTE8FVEVMVkUOVEVMVkUgREkgU09QUkEFVEVOTkEFVEVOTk8HVEVSTEFHTwpURVJSQUdOT0xPBlRFUlJFUwhURVJaT0xBUwZURVNFUk8PVElBUk5PIERJIFNPUFJBD1RJQVJOTyBESSBTT1RUTw9USU9ORSBESSBUUkVOVE8DVE9OCFRPTkFESUNPCFRPUkNFR05PClRSQU1CSUxFTk8KVFJBTlNBQ1FVQQZUUkVOVE8EVFJFUwZUVUVOTk8FVkFMREELVkFMRkxPUklBTkEIVkFMTEFSU0EGVkFSRU5BB1ZBVFRBUk8JVkVSTUlHTElPBlZFUlbDkgdWRVpaQU5PEFZJR05PTEEtRkFMRVNJTkENVklHTyBESSBGQVNTQQxWSUdPIFJFTkRFTkEOVklHT0xPIFZBVFRBUk8MVklMTEEgQUdORURPDlZJTExBIExBR0FSSU5BDVZJTExBIFJFTkRFTkEGVk9MQU5PB1pBTUJBTkEPWklBTk8gREkgRklFTU1FBVpVQ0xPFeEBCy0tIFR1dHRpIC0tF0xhZGluaSwgQ2ltYnJpLCBNb2NoZW5pA0FMQQdBTEJJQU5PBkFMREVOTwZBTUJMQVIGQU5EQUxPBEFSQ08EQVZJTxBCQVNFTEdBIERJIFBJTsOIB0JFRE9MTE8HQkVSU09ORQlCRVNFTkVMTE8IQkVaWkVDQ0EFQklFTk8RQkxFR0dJTyBJTkZFUklPUkURQkxFR0dJTyBTVVBFUklPUkUIQk9DRU5BR08HQk9MQkVOTwVCT05ETwdCT05ET05FD0JPUkdPIFZBTFNVR0FOQQlCT1NFTlRJTk8IQlJFR1VaWk8KQlJFTlRPTklDTwdCUkVTSU1PBEJSRVoGQlJJT05FCUNBREVSWk9ORQZDQUdOw5IIQ0FMQVZJTk8TQ0FMQ0VSQU5JQ0EgQUwgTEFHTwZDQUxERVMKQ0FMRE9OQVpaTwhDQUxMSUFOTxNDQU1QSVRFTExPIERJIEZBU1NBCkNBTVBPREVOTk8OQ0FOQUwgU0FOIEJPVk8HQ0FOQVpFSQhDQVBSSUFOQQZDQVJBTk8IQ0FSSVNPTE8HQ0FSWkFOTw5DQVNURUwgQ09ORElOTwtDQVNURUxGT05ETw9DQVNURUxMTyBURVNJTk8ZQ0FTVEVMTE8tTU9MSU5BIERJIEZJRU1NRQtDQVNURUxOVU9WTwhDQVZBTEVTRQhDQVZBUkVOTwhDQVZFREFHTwhDQVZFRElORQlDQVZJWlpBTkEGQ0VNQlJBEUNFTlRBIFNBTiBOSUNPTMOSBkNJTUVHTwZDSU1PTkUMQ0lOVEUgVEVTSU5PA0NJUwlDSVZFWlpBTk8EQ0xFUwRDTE9aDENPTU1FWlpBRFVSQQZDT05DRUkHQ09ORElOTwZDT1JFRE8IQ1JPVklBTkEGQ1VORVZPBkRBSUFOTwZEQU1CRUwFREFPTkUFREFSw4gFREVOTk8GRElNQVJPA0RPTgdET1JTSU5PBURSRU5BA0RSTwVGQUVETxNGQUkgREVMTEEgUEFHQU5FTExBBUZBVkVSBkZJQVbDiBFGSUVSQSBESSBQUklNSUVSTwhGSUVST1paTwZGTEFWT04IRk9MR0FSSUEFRk9ORE8HRk9STkFDRQtGUkFTU0lMT05HTw1HQVJOSUdBIFRFUk1FBUdJT1ZPCEdJVVNUSU5PBkdSQVVOTwZHUklHTk8GR1JVTUVTBElNRVIFSVNFUkENSVZBTk8gRlJBQ0VOQQdMQVJEQVJPBkxBU0lOTwhMQVZBUk9ORQVMQVZJUwxMRVZJQ08gVEVSTUUJTElTSUdOQUdPBExJVk8GTE9NQVNPCkxPTkEtTEFTRVMHTFVTRVJOQQVNQUzDiAdNQUxPU0NPCU1BU1NJTUVOTwZNQVpaSU4HTUVaWkFOQQdNRVpaQU5PC01FWlpPQ09ST05BDU1FWlpPTE9NQkFSRE8FTU9FTkEPTU9MSU5BIERJIExFRFJPB01PTFZFTk8LTU9OQ0xBU1NJQ08ITU9OVEFHTkUETU9SSQxOQUdPLVRPUkJPTEUFTkFOTk8OTkFWRSBTQU4gUk9DQ08ITk9HQVJFRE8ETk9NSQhOT1ZBTEVETwtPU1BFREFMRVRUTwZPU1NBTkEKUEFERVJHTk9ORRFQQUzDmSBERUwgRkVSU0lOQQhQQU5DSEnDgARQRUlPClBFTExJWlpBTk8GUEVMVUdPEVBFUkdJTkUgVkFMU1VHQU5BDVBJRVZFIERJIEJPTk8OUElFVkUgREkgTEVEUk8MUElFVkUgVEVTSU5PB1BJTlpPTE8IUE9NQVJPTE8OUE9aWkEgREkgRkFTU0EFUFJBU08IUFJFREFaWk8GUFJFT1JFBlBSRVpaTwVSQUJCSQZSQUdPTEkFUkVWw5IOUklWQSBERUwgR0FSREEHUk9NQUxMTwZST01FTk8IUk9OQ0VHTk8QUk9OQ0hJIFZBTFNVR0FOQQdST05DT05FDVJPTlpPLUNISUVOSVMHUk9OWk9ORRJST1ZFUsOIIERFTExBIExVTkEIUk9WRVJFVE8HUlVGRlLDiARSVU1PClNBR1JPTiBNSVMGU0FNT05FFVNBTiBMT1JFTlpPIElOIEJBTkFMRRVTQU4gTUlDSEVMRSBBTExgQURJR0URU0FOVGBPUlNPTEEgVEVSTUUHU0FOWkVOTwlTQVJOT05JQ08IU0NVUkVMTEUJU0VHT05aQU5PBVNGUlVaBVNJUk9SB1NNQVJBTk8GU09SQUdBBVNPVkVSBVNQRVJBB1NQSUFaWk8MU1BPUk1BR0dJT1JFClNQT1JNSU5PUkUHU1RFTklDTwVTVE9STwdTVFJFTUJPB1NUUklHTk8EVEFJTwhUQVNTVUxMTwVURUxWRQ5URUxWRSBESSBTT1BSQQVURU5OQQVURU5OTwdURVJMQUdPClRFUlJBR05PTE8GVEVSUkVTCFRFUlpPTEFTBlRFU0VSTw9USUFSTk8gREkgU09QUkEPVElBUk5PIERJIFNPVFRPD1RJT05FIERJIFRSRU5UTwNUT04IVE9OQURJQ08IVE9SQ0VHTk8KVFJBTUJJTEVOTwpUUkFOU0FDUVVBBlRSRU5UTwRUUkVTBlRVRU5OTwVWQUxEQQtWQUxGTE9SSUFOQQhWQUxMQVJTQQZWQVJFTkEHVkFUVEFSTwlWRVJNSUdMSU8GVkVSVsOSB1ZFWlpBTk8QVklHTk9MQS1GQUxFU0lOQQ1WSUdPIERJIEZBU1NBDFZJR08gUkVOREVOQQ5WSUdPTE8gVkFUVEFSTwxWSUxMQSBBR05FRE8OVklMTEEgTEFHQVJJTkENVklMTEEgUkVOREVOQQZWT0xBTk8HWkFNQkFOQQ9aSUFOTyBESSBGSUVNTUUFWlVDTE8UKwPhAWdnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZxYBZmQCBQ8QZBAVdgstLSBUdXR0aSAtLQZMYWRpbmkGQUxESU5PCEFORFJJQU5PCEFOVEVSSVZPEEFQUElBTk8gUy5TLkQuVi4IQVZFTEVOR08FQkFESUEIQkFSQklBTk8HQk9MWkFOTwZCUkFJRVMIQlJFTk5FUk8KQlJFU1NBTk9ORQhCUk9OWk9MTwdCUlVOSUNPBkNBSU5FUxBDQUxEQVJPIFMuUy5ELlYuDkNBTVBPIERJIFRSRU5TC0NBTVBPIFRVUkVTE0NBU1RFTEJFTExPLUNJQVJERVMLQ0FTVEVMUk9UVE8GQ0VSTUVTB0NISUVORVMGQ0hJVVNBEkNPUk5FRE8gQUxMYElTQVJDTxJDT1JUQUNDSUEgUy5TLkQuVi4QQ09SVElOQSBTLlMuRC5WLhBDT1JWQVJBIElOIEJBRElBDUNVUk9OIFZFTk9TVEEIRE9CQklBQ08ERUdOQQZGQUxaRVMRRknDiCBBTExPIFNDSUxJQVIIRk9SVEVaWkEFRlVORVMER0FJUwpHQVJHQVpaT05FCEdMT1JFTlpBCExBIFZBTExFBUxBQ0VTB0xBR1VORE8FTEFJT04GTEFJVkVTBExBTkEETEFTQQhMQVVSRUdOTwVMVVNPTg9NQUdSRScgUy5TLkQuVi4OTUFMTEVTIFZFTk9TVEEHTUFSRUJCRQhNQVJMRU5HTwhNQVJURUxMTwdNRUxUSU5BBk1FUkFOTwlNT05HVUVMRk8ITU9OVEFHTkEQTU9TTyBJTiBQQVNTSVJJQQZOQUxMRVMHTkFUVVJOTwtOQVotU0NJQVZFUwxOT1ZBIExFVkFOVEUMTk9WQSBQT05FTlRFA09SQQdPUlRJU0VJCFBBUkNJTkVTBVBFUkNBBVBMQVVTDVBPTlRFIEdBUkRFTkEGUE9TVEFMElBSQVRPIEFMTE8gU1RFTFZJTwZQUkVET0kHUFJPVsOJUwdSQUNJTkVTEFJBU1VOLUFOVEVSU0VMVkEFUkVOT04HUklGSUFOTw9SSU8gREkgUFVTVEVSSUEHUk9ERU5HTwdTQUxPUk5PC1NBTiBDQU5ESURPE1NBTiBHRU5FU0lPIEFURVNJTk8YU0FOIExFT05BUkRPIElOIFBBU1NJUklBFVNBTiBMT1JFTlpPIERJIFNFQkFUTxRTQU4gTUFSVElOTyBJTiBCQURJQRdTQU4gTUFSVElOTyBJTiBQQVNTSVJJQQ1TQU4gUEFOQ1JBWklPGVNBTlRBIENSSVNUSU5BIFZBTEdBUkRFTkEJU0FSRU5USU5PBVNDRU5BEFNFTFZBIERFSSBNT0xJTkkUU0VMVkEgREkgVkFMIEdBUkRFTkEHU0VOQUxFUxFTRU5BTEUtU0FOIEZFTElDRQVTRVNUTwhTSUxBTkRSTwhTTFVERVJOTwdTVEVMVklPB1RFUkVOVE8HVEVSTEFOTxBURVJNRU5PIFMuUy5ELlYuBlRFU0lNTwVUSVJFUwZUSVJPTE8HVFJPREVOQQVUVUJSRQZVTFRJTU8GVkFERU5BDFZBTCBESSBWSVpaRQhWQUxEQU9SQQxWQUxMRSBBVVJJTkEPVkFMTEUgREkgQ0FTSUVTCFZBTkRPSUVTBVZBUk5BCFZFTFRVUk5PBlZFUkFOTwpWSUxMQUJBU1NBCVZJTExBTkRSTwhWSVBJVEVOTxV2Cy0tIFR1dHRpIC0tBkxhZGluaQZBTERJTk8IQU5EUklBTk8IQU5URVJJVk8QQVBQSUFOTyBTLlMuRC5WLghBVkVMRU5HTwVCQURJQQhCQVJCSUFOTwdCT0xaQU5PBkJSQUlFUwhCUkVOTkVSTwpCUkVTU0FOT05FCEJST05aT0xPB0JSVU5JQ08GQ0FJTkVTEENBTERBUk8gUy5TLkQuVi4OQ0FNUE8gREkgVFJFTlMLQ0FNUE8gVFVSRVMTQ0FTVEVMQkVMTE8tQ0lBUkRFUwtDQVNURUxST1RUTwZDRVJNRVMHQ0hJRU5FUwZDSElVU0ESQ09STkVETyBBTExgSVNBUkNPEkNPUlRBQ0NJQSBTLlMuRC5WLhBDT1JUSU5BIFMuUy5ELlYuEENPUlZBUkEgSU4gQkFESUENQ1VST04gVkVOT1NUQQhET0JCSUFDTwRFR05BBkZBTFpFUxFGScOIIEFMTE8gU0NJTElBUghGT1JURVpaQQVGVU5FUwRHQUlTCkdBUkdBWlpPTkUIR0xPUkVOWkEITEEgVkFMTEUFTEFDRVMHTEFHVU5ETwVMQUlPTgZMQUlWRVMETEFOQQRMQVNBCExBVVJFR05PBUxVU09OD01BR1JFJyBTLlMuRC5WLg5NQUxMRVMgVkVOT1NUQQdNQVJFQkJFCE1BUkxFTkdPCE1BUlRFTExPB01FTFRJTkEGTUVSQU5PCU1PTkdVRUxGTwhNT05UQUdOQRBNT1NPIElOIFBBU1NJUklBBk5BTExFUwdOQVRVUk5PC05BWi1TQ0lBVkVTDE5PVkEgTEVWQU5URQxOT1ZBIFBPTkVOVEUDT1JBB09SVElTRUkIUEFSQ0lORVMFUEVSQ0EFUExBVVMNUE9OVEUgR0FSREVOQQZQT1NUQUwSUFJBVE8gQUxMTyBTVEVMVklPBlBSRURPSQdQUk9Ww4lTB1JBQ0lORVMQUkFTVU4tQU5URVJTRUxWQQVSRU5PTgdSSUZJQU5PD1JJTyBESSBQVVNURVJJQQdST0RFTkdPB1NBTE9STk8LU0FOIENBTkRJRE8TU0FOIEdFTkVTSU8gQVRFU0lOTxhTQU4gTEVPTkFSRE8gSU4gUEFTU0lSSUEVU0FOIExPUkVOWk8gREkgU0VCQVRPFFNBTiBNQVJUSU5PIElOIEJBRElBF1NBTiBNQVJUSU5PIElOIFBBU1NJUklBDVNBTiBQQU5DUkFaSU8ZU0FOVEEgQ1JJU1RJTkEgVkFMR0FSREVOQQlTQVJFTlRJTk8FU0NFTkEQU0VMVkEgREVJIE1PTElOSRRTRUxWQSBESSBWQUwgR0FSREVOQQdTRU5BTEVTEVNFTkFMRS1TQU4gRkVMSUNFBVNFU1RPCFNJTEFORFJPCFNMVURFUk5PB1NURUxWSU8HVEVSRU5UTwdURVJMQU5PEFRFUk1FTk8gUy5TLkQuVi4GVEVTSU1PBVRJUkVTBlRJUk9MTwdUUk9ERU5BBVRVQlJFBlVMVElNTwZWQURFTkEMVkFMIERJIFZJWlpFCFZBTERBT1JBDFZBTExFIEFVUklOQQ9WQUxMRSBESSBDQVNJRVMIVkFORE9JRVMFVkFSTkEIVkVMVFVSTk8GVkVSQU5PClZJTExBQkFTU0EJVklMTEFORFJPCFZJUElURU5PFCsDdmdnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2cWAWZkAg0PPCsACwBkZIXp+ZI8WSJRT7LCzc/29Nkh2czY" />
+
+
+
+
+        <div class="skip">
+            <h1>
+                Regione Autonoma Trentino-Alto Adige/Südtirol</h1>
+            <ul>
+                <li class="elenco"><a accesskey="1" title="Vai ai contenuti"  href="#inizio_contenuti">Vai ai contenuti</a></li>
+                <li class="elenco"><a accesskey="2" title="Vai al menù dei siti collegati al portale"  href="#inizio_menu_sx">Vai al menù dei siti collegati al portale</a></li>
+                <li class="elenco"><a accesskey="3" title="Vai al menù del punto informativo e degli argomenti" href="#inizio_menu_dx">Vai al menù del punto informativo e degli argomenti</a></li>
+                <li class="elenco"><a accesskey="4" title="Vai al menù di fondo pagina" href="#inizio_footer">Vai al menù di fondo pagina</a></li>
+            </ul>
+        </div>
+        <div class="logo_stampa"><img height="90" alt="Regione Autonoma Trentino-Alto Adige" src="../immagini/stemma_regS.gif" width="250" /></div>
+        <div class="intestazione">Regione Autonoma Trentino-Alto Adige/Südtirol</div>
+
+                <div class="header_home">
+            <div class="header">
+                <div class="testata">
+        		
+                 
+                                        <div class="testalogo">
+                    <em><span style="font-family: Times New Roman CE;color:#000000">
+                        <br />Regione Autonoma Trentino-Alto Adige/Südtirol&nbsp;&nbsp;
+                    </span></em>
+                        </div>
+                      
+                    <div class="testata_padding1" >
+                    <em><span style="font-family: Times New Roman CE;color:#ffffff"><strong><span id="ctl00_Giorno">giovedì 19 agosto 2010</span></strong>&nbsp;&nbsp;&nbsp;</span></em>
+                                 
+
+        </div></div>
+	                    <div class="header_nav" >
+						                   
+			                    <div class="header_nav_box1" style="text-align: right">
+                                                                    
+                                                                   <a 
+href="http://www.meteotrentino.it/" title="Meteo" class="targetblank"><img height="20"  src="../immagini/meteo.gif" alt="Meteo" width="28" />Meteo Trentino</a>
+                                                                   <a 
+href="http://www.provincia.bz.it/meteo/altoadige.htm" title="Meteo" class="targetblank"><img height="20"  src="../immagini/meteo.gif" alt="Meteo" width="28" />Meteo Alto Adige</a>
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+       <a href="mailto:elettorale@regione.taa.it" title="Scrivici"><img height="13" src="../immagini/scrivici.gif" alt="elettorale@regione.taa.it"  width="20"/> scrivici</a>
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+						» <a id="ctl00_lingua" title="Deutsch" href="Comunali_d.aspx">Deutsch</a>
+</div>
+
+<div class="header_nav_box">
+						<br />
+						  							  
+       <span id="ctl00_SiteMapPath1"><span><a title="Home" href="/default.aspx">Home</a></span><span> &#187; </span><span><a title="Ripartizione II" href="/RipII/default.aspx">Ripartizione II</a></span><span> &#187; </span><span><a title="Ufficio Elettorale" href="/Elettorale/default.aspx">Ufficio Elettorale</a></span><span> &#187; </span><span>Elezioni Comunali</span></span>
+													 	
+					</div>
+
+             
+                  
+                   
+
+			                    <div class="header_nav_box1" style="text-align: right">
+        <a href="../aiuto.aspx" class="header_icone_sfondo" title="Aiuto">aiuto</a>|
+
+        <a href="../mappasito.aspx" class="header_icone_sfondo" title="Mappa del sito">mappa del sito</a>|
+        		
+        										
+        																																					
+                <a   href="?&amp;dimensione=medio"  onclick="setActiveStyleSheet('medio'); return false;" onkeypress="setActiveStyleSheet('medio', 1); return false;" title="[N]" accesskey="N">
+        grafica</a> | <a   href="?&amp;dimensione=alta"  onclick="setActiveStyleSheet('alta'); return false;" onkeypress="setActiveStyleSheet('alta', 1); return false;" title="[A]" accesskey="A">
+        alta visibilità</a> 
+| carattere 
+        <a 
+        class="carattere_img"  href="?&amp;dimensione=normale"  onclick="setActiveStyleSheet('normal'); return false;" onkeypress="setActiveStyleSheet('normal', 1); return false;" title="[P]" accesskey="P"><img height="16" 
+        alt="Imposta la dimensione del carattere predefinita" 
+        src="../immagini/carattere_small.gif" 
+        width="15"/></a> 
+        <div class="skip">|</div><a class="carattere_img" 
+         href="?&amp;dimensione=medio"  onclick="setActiveStyleSheet('medio'); return false;"  onkeypress="setActiveStyleSheet('medio', 1); return false;" title="[M]" accesskey="M"><img height="16" 
+        alt="Imposta la dimensione del carattere medio" src="../immagini/carattere_medio.gif" width="15"/></a>
+        <div class="skip">|</div> 
+        <a class="carattere_img"  href="?&amp;dimensione=grande"  onclick="setActiveStyleSheet('grande'); return false;" onkeypress="setActiveStyleSheet('grande', 1); return false;" title="[G]" accesskey="G">
+        <img height="16" alt="Imposta la dimensione del carattere molto grande" src="../immagini/carattere_big.gif" width="15"/></a> 
+ &nbsp;&nbsp;
+
+        </div></div>
+        					
+	                    </div>
+                </div>
+
+            
+
+        	
+                   <div class="clear header_home">&nbsp;</div>
+       		
+                <div class="contenitore_pagina2">
+                    <div class="contenitore_pagina">
+        							
+        <div class="div_nav_int_sx">
+            <a id="inizio_menu_sx" title="sinistra"></a><a id="inizio_menu_dx" title="destra"></a> 
+                 <div class="nav_204">
+        				
+								                    <div class="blocco_box">
+								                    
+
+            
+            
+            
+        
+            
+             <div class="box_1liv" >
+			                    <div class="bold titolo_nav">
+</div>
+								                    </div>
+								                    
+								                    
+								                    
+								                    
+
+	
+
+				       <div>
+				                    <div class="box_2liv">
+					                    <strong ><a href="default.aspx" title="Ufficio Elettorale" >Ufficio Elettorale</a></strong>
+				                    </div>
+			                    </div>   
+
+
+</div>
+
+
+</div>
+            
+				<div class="nav_204">
+        				
+								                    <div class="blocco_box">
+								                    
+							                    <div class="box_1liv" >
+			                    <div class="bold titolo_nav">ELEZIONI COMUNALI</div>
+								                    </div>
+								                    
+			                    <div>
+				                    <div class="box_2liv">
+					                    <strong ><a href="modulistica.aspx" title="Normativa e istruzioni" >Normativa e istruzioni</a></strong>
+				                    </div>
+			                    </div>
+			                    <div>
+				                    <div class="box_2liv">
+					                    <strong ><a href="Comunali.aspx"  title="Risultati">Risultati</a></strong>
+				                    </div>
+			                    </div>
+
+				                	
+	
+	
+
+
+  
+
+			                    																		
+ 
+
+</div>
+
+</div>		        		
+	  						                    
+<div class="nav_204">
+        				
+								                    <div class="blocco_box">
+								                    
+							                    <div class="box_1liv" >
+			                    <div class="bold titolo_nav">ELEZIONI REGIONALI</div>
+								                    </div>
+								                    
+     <div>
+				                    <div class="box_2liv">
+					                    <strong ><a href="Regionali.aspx"  title="Risultati">Risultati</a></strong>
+				                    </div>
+			                    </div>
+			                     
+
+				                	
+	
+	
+
+
+  
+
+			                    																		
+ 
+
+</div>
+
+</div>	
+	<div class="nav_204">
+        				
+								                    <div class="blocco_box">
+								                    
+							                    <div class="box_1liv" >
+			                    <div class="bold titolo_nav">REFERENDUM CONSULTIVI</div>
+								                    </div>
+								                    
+			                    <div>
+				                    <div class="box_2liv">
+					                    <strong ><a href="referendum.aspx"  title="Normativa">Normativa</a></strong>
+				                    </div>
+			                    </div>
+			                   
+
+				                	
+	
+	
+
+
+  
+
+			                    																		
+ 
+
+</div>
+
+</div>
+        		       <div class="clear">&nbsp;</div>
+        <div class="clear">&nbsp;</div>
+		
+        				
+        		
+        </div>
+        							
+ 
+
+
+        <!-- CONTENUTO -->
+
+
+        <div class="divcx_int">
+        <!-- CONTENUTO -->
+        <div class="contenitore">
+        <div class="contenitore2">
+
+        <div class="blocco_testo colonne">
+        <a id="inizio_contenuti" title="contenuti"></a>
+
+        
+<div class="box_secondario">Elezioni Comunali</div>
+<div class="testo_contenuto">
+<div class="small">
+<div class="p">
+
+
+			
+<table  summary="Maschera di ricerca" cellspacing="2" cellpadding="1" width="100%" border="0"  >
+         <caption>&nbsp;</caption>
+
+<tr>
+<th>&nbsp;</th>
+<th style="width: 218px"></th>
+</tr>                                   
+																
+										       <tr><th>&nbsp;</th>
+                                        <td class="formlabel" style="text-align: right; width: 218px;">
+                                            <label for="ctl00_Main_dAnno">
+                                                <strong>
+                                                Anno:</strong></label></td>
+                                        <td  style=" text-align: left;">
+<select name="ctl00$Main$dAnno" id="ctl00_Main_dAnno">
+	<option value="-- Tutti --">-- Tutti --</option>
+	<option value="2010">2010</option>
+	<option value="2009">2009</option>
+	<option value="2008">2008</option>
+	<option value="2007">2007</option>
+	<option value="2006">2006</option>
+	<option value="2005">2005</option>
+	<option value="2004">2004</option>
+	<option value="2003">2003</option>
+	<option value="2002">2002</option>
+	<option value="2001">2001</option>
+	<option value="2000">2000</option>
+	<option value="1999">1999</option>
+	<option value="1998">1998</option>
+	<option value="1997">1997</option>
+	<option value="1996">1996</option>
+	<option value="1995">1995</option>
+	<option value="1994">1994</option>
+	<option value="1991">1991</option>
+	<option value="1990">1990</option>
+	<option value="1989">1989</option>
+
+</select>
+                                        </td>
+                                    </tr>
+
+																	<tr><th>&nbsp;</th>
+																	                                        <td class="formlabel" style="text-align: right; width: 218px;">
+                                            <label for="ctl00_Main_dComuni_tn">
+                                                <strong>Comuni Provincia di Trento:</strong></label></td>
+
+					
+																		<td  style=" text-align: left; ">
+																		<select name="ctl00$Main$dComuni_tn" id="ctl00_Main_dComuni_tn">
+	<option selected="selected" value="-- Tutti --">-- Tutti --</option>
+	<option value="Ladini, Cimbri, Mocheni">Ladini, Cimbri, Mocheni</option>
+	<option value="ALA">ALA</option>
+	<option value="ALBIANO">ALBIANO</option>
+	<option value="ALDENO">ALDENO</option>
+	<option value="AMBLAR">AMBLAR</option>
+	<option value="ANDALO">ANDALO</option>
+	<option value="ARCO">ARCO</option>
+	<option value="AVIO">AVIO</option>
+	<option value="BASELGA DI PINÈ">BASELGA DI PIN&#200;</option>
+	<option value="BEDOLLO">BEDOLLO</option>
+	<option value="BERSONE">BERSONE</option>
+	<option value="BESENELLO">BESENELLO</option>
+	<option value="BEZZECCA">BEZZECCA</option>
+	<option value="BIENO">BIENO</option>
+	<option value="BLEGGIO INFERIORE">BLEGGIO INFERIORE</option>
+	<option value="BLEGGIO SUPERIORE">BLEGGIO SUPERIORE</option>
+	<option value="BOCENAGO">BOCENAGO</option>
+	<option value="BOLBENO">BOLBENO</option>
+	<option value="BONDO">BONDO</option>
+	<option value="BONDONE">BONDONE</option>
+	<option value="BORGO VALSUGANA">BORGO VALSUGANA</option>
+	<option value="BOSENTINO">BOSENTINO</option>
+	<option value="BREGUZZO">BREGUZZO</option>
+	<option value="BRENTONICO">BRENTONICO</option>
+	<option value="BRESIMO">BRESIMO</option>
+	<option value="BREZ">BREZ</option>
+	<option value="BRIONE">BRIONE</option>
+	<option value="CADERZONE">CADERZONE</option>
+	<option value="CAGNÒ">CAGN&#210;</option>
+	<option value="CALAVINO">CALAVINO</option>
+	<option value="CALCERANICA AL LAGO">CALCERANICA AL LAGO</option>
+	<option value="CALDES">CALDES</option>
+	<option value="CALDONAZZO">CALDONAZZO</option>
+	<option value="CALLIANO">CALLIANO</option>
+	<option value="CAMPITELLO DI FASSA">CAMPITELLO DI FASSA</option>
+	<option value="CAMPODENNO">CAMPODENNO</option>
+	<option value="CANAL SAN BOVO">CANAL SAN BOVO</option>
+	<option value="CANAZEI">CANAZEI</option>
+	<option value="CAPRIANA">CAPRIANA</option>
+	<option value="CARANO">CARANO</option>
+	<option value="CARISOLO">CARISOLO</option>
+	<option value="CARZANO">CARZANO</option>
+	<option value="CASTEL CONDINO">CASTEL CONDINO</option>
+	<option value="CASTELFONDO">CASTELFONDO</option>
+	<option value="CASTELLO TESINO">CASTELLO TESINO</option>
+	<option value="CASTELLO-MOLINA DI FIEMME">CASTELLO-MOLINA DI FIEMME</option>
+	<option value="CASTELNUOVO">CASTELNUOVO</option>
+	<option value="CAVALESE">CAVALESE</option>
+	<option value="CAVARENO">CAVARENO</option>
+	<option value="CAVEDAGO">CAVEDAGO</option>
+	<option value="CAVEDINE">CAVEDINE</option>
+	<option value="CAVIZZANA">CAVIZZANA</option>
+	<option value="CEMBRA">CEMBRA</option>
+	<option value="CENTA SAN NICOLÒ">CENTA SAN NICOL&#210;</option>
+	<option value="CIMEGO">CIMEGO</option>
+	<option value="CIMONE">CIMONE</option>
+	<option value="CINTE TESINO">CINTE TESINO</option>
+	<option value="CIS">CIS</option>
+	<option value="CIVEZZANO">CIVEZZANO</option>
+	<option value="CLES">CLES</option>
+	<option value="CLOZ">CLOZ</option>
+	<option value="COMMEZZADURA">COMMEZZADURA</option>
+	<option value="CONCEI">CONCEI</option>
+	<option value="CONDINO">CONDINO</option>
+	<option value="COREDO">COREDO</option>
+	<option value="CROVIANA">CROVIANA</option>
+	<option value="CUNEVO">CUNEVO</option>
+	<option value="DAIANO">DAIANO</option>
+	<option value="DAMBEL">DAMBEL</option>
+	<option value="DAONE">DAONE</option>
+	<option value="DARÈ">DAR&#200;</option>
+	<option value="DENNO">DENNO</option>
+	<option value="DIMARO">DIMARO</option>
+	<option value="DON">DON</option>
+	<option value="DORSINO">DORSINO</option>
+	<option value="DRENA">DRENA</option>
+	<option value="DRO">DRO</option>
+	<option value="FAEDO">FAEDO</option>
+	<option value="FAI DELLA PAGANELLA">FAI DELLA PAGANELLA</option>
+	<option value="FAVER">FAVER</option>
+	<option value="FIAVÈ">FIAV&#200;</option>
+	<option value="FIERA DI PRIMIERO">FIERA DI PRIMIERO</option>
+	<option value="FIEROZZO">FIEROZZO</option>
+	<option value="FLAVON">FLAVON</option>
+	<option value="FOLGARIA">FOLGARIA</option>
+	<option value="FONDO">FONDO</option>
+	<option value="FORNACE">FORNACE</option>
+	<option value="FRASSILONGO">FRASSILONGO</option>
+	<option value="GARNIGA TERME">GARNIGA TERME</option>
+	<option value="GIOVO">GIOVO</option>
+	<option value="GIUSTINO">GIUSTINO</option>
+	<option value="GRAUNO">GRAUNO</option>
+	<option value="GRIGNO">GRIGNO</option>
+	<option value="GRUMES">GRUMES</option>
+	<option value="IMER">IMER</option>
+	<option value="ISERA">ISERA</option>
+	<option value="IVANO FRACENA">IVANO FRACENA</option>
+	<option value="LARDARO">LARDARO</option>
+	<option value="LASINO">LASINO</option>
+	<option value="LAVARONE">LAVARONE</option>
+	<option value="LAVIS">LAVIS</option>
+	<option value="LEVICO TERME">LEVICO TERME</option>
+	<option value="LISIGNAGO">LISIGNAGO</option>
+	<option value="LIVO">LIVO</option>
+	<option value="LOMASO">LOMASO</option>
+	<option value="LONA-LASES">LONA-LASES</option>
+	<option value="LUSERNA">LUSERNA</option>
+	<option value="MALÈ">MAL&#200;</option>
+	<option value="MALOSCO">MALOSCO</option>
+	<option value="MASSIMENO">MASSIMENO</option>
+	<option value="MAZZIN">MAZZIN</option>
+	<option value="MEZZANA">MEZZANA</option>
+	<option value="MEZZANO">MEZZANO</option>
+	<option value="MEZZOCORONA">MEZZOCORONA</option>
+	<option value="MEZZOLOMBARDO">MEZZOLOMBARDO</option>
+	<option value="MOENA">MOENA</option>
+	<option value="MOLINA DI LEDRO">MOLINA DI LEDRO</option>
+	<option value="MOLVENO">MOLVENO</option>
+	<option value="MONCLASSICO">MONCLASSICO</option>
+	<option value="MONTAGNE">MONTAGNE</option>
+	<option value="MORI">MORI</option>
+	<option value="NAGO-TORBOLE">NAGO-TORBOLE</option>
+	<option value="NANNO">NANNO</option>
+	<option value="NAVE SAN ROCCO">NAVE SAN ROCCO</option>
+	<option value="NOGAREDO">NOGAREDO</option>
+	<option value="NOMI">NOMI</option>
+	<option value="NOVALEDO">NOVALEDO</option>
+	<option value="OSPEDALETTO">OSPEDALETTO</option>
+	<option value="OSSANA">OSSANA</option>
+	<option value="PADERGNONE">PADERGNONE</option>
+	<option value="PALÙ DEL FERSINA">PAL&#217; DEL FERSINA</option>
+	<option value="PANCHIÀ">PANCHI&#192;</option>
+	<option value="PEIO">PEIO</option>
+	<option value="PELLIZZANO">PELLIZZANO</option>
+	<option value="PELUGO">PELUGO</option>
+	<option value="PERGINE VALSUGANA">PERGINE VALSUGANA</option>
+	<option value="PIEVE DI BONO">PIEVE DI BONO</option>
+	<option value="PIEVE DI LEDRO">PIEVE DI LEDRO</option>
+	<option value="PIEVE TESINO">PIEVE TESINO</option>
+	<option value="PINZOLO">PINZOLO</option>
+	<option value="POMAROLO">POMAROLO</option>
+	<option value="POZZA DI FASSA">POZZA DI FASSA</option>
+	<option value="PRASO">PRASO</option>
+	<option value="PREDAZZO">PREDAZZO</option>
+	<option value="PREORE">PREORE</option>
+	<option value="PREZZO">PREZZO</option>
+	<option value="RABBI">RABBI</option>
+	<option value="RAGOLI">RAGOLI</option>
+	<option value="REVÒ">REV&#210;</option>
+	<option value="RIVA DEL GARDA">RIVA DEL GARDA</option>
+	<option value="ROMALLO">ROMALLO</option>
+	<option value="ROMENO">ROMENO</option>
+	<option value="RONCEGNO">RONCEGNO</option>
+	<option value="RONCHI VALSUGANA">RONCHI VALSUGANA</option>
+	<option value="RONCONE">RONCONE</option>
+	<option value="RONZO-CHIENIS">RONZO-CHIENIS</option>
+	<option value="RONZONE">RONZONE</option>
+	<option value="ROVERÈ DELLA LUNA">ROVER&#200; DELLA LUNA</option>
+	<option value="ROVERETO">ROVERETO</option>
+	<option value="RUFFRÈ">RUFFR&#200;</option>
+	<option value="RUMO">RUMO</option>
+	<option value="SAGRON MIS">SAGRON MIS</option>
+	<option value="SAMONE">SAMONE</option>
+	<option value="SAN LORENZO IN BANALE">SAN LORENZO IN BANALE</option>
+	<option value="SAN MICHELE ALL`ADIGE">SAN MICHELE ALL`ADIGE</option>
+	<option value="SANT`ORSOLA TERME">SANT`ORSOLA TERME</option>
+	<option value="SANZENO">SANZENO</option>
+	<option value="SARNONICO">SARNONICO</option>
+	<option value="SCURELLE">SCURELLE</option>
+	<option value="SEGONZANO">SEGONZANO</option>
+	<option value="SFRUZ">SFRUZ</option>
+	<option value="SIROR">SIROR</option>
+	<option value="SMARANO">SMARANO</option>
+	<option value="SORAGA">SORAGA</option>
+	<option value="SOVER">SOVER</option>
+	<option value="SPERA">SPERA</option>
+	<option value="SPIAZZO">SPIAZZO</option>
+	<option value="SPORMAGGIORE">SPORMAGGIORE</option>
+	<option value="SPORMINORE">SPORMINORE</option>
+	<option value="STENICO">STENICO</option>
+	<option value="STORO">STORO</option>
+	<option value="STREMBO">STREMBO</option>
+	<option value="STRIGNO">STRIGNO</option>
+	<option value="TAIO">TAIO</option>
+	<option value="TASSULLO">TASSULLO</option>
+	<option value="TELVE">TELVE</option>
+	<option value="TELVE DI SOPRA">TELVE DI SOPRA</option>
+	<option value="TENNA">TENNA</option>
+	<option value="TENNO">TENNO</option>
+	<option value="TERLAGO">TERLAGO</option>
+	<option value="TERRAGNOLO">TERRAGNOLO</option>
+	<option value="TERRES">TERRES</option>
+	<option value="TERZOLAS">TERZOLAS</option>
+	<option value="TESERO">TESERO</option>
+	<option value="TIARNO DI SOPRA">TIARNO DI SOPRA</option>
+	<option value="TIARNO DI SOTTO">TIARNO DI SOTTO</option>
+	<option value="TIONE DI TRENTO">TIONE DI TRENTO</option>
+	<option value="TON">TON</option>
+	<option value="TONADICO">TONADICO</option>
+	<option value="TORCEGNO">TORCEGNO</option>
+	<option value="TRAMBILENO">TRAMBILENO</option>
+	<option value="TRANSACQUA">TRANSACQUA</option>
+	<option value="TRENTO">TRENTO</option>
+	<option value="TRES">TRES</option>
+	<option value="TUENNO">TUENNO</option>
+	<option value="VALDA">VALDA</option>
+	<option value="VALFLORIANA">VALFLORIANA</option>
+	<option value="VALLARSA">VALLARSA</option>
+	<option value="VARENA">VARENA</option>
+	<option value="VATTARO">VATTARO</option>
+	<option value="VERMIGLIO">VERMIGLIO</option>
+	<option value="VERVÒ">VERV&#210;</option>
+	<option value="VEZZANO">VEZZANO</option>
+	<option value="VIGNOLA-FALESINA">VIGNOLA-FALESINA</option>
+	<option value="VIGO DI FASSA">VIGO DI FASSA</option>
+	<option value="VIGO RENDENA">VIGO RENDENA</option>
+	<option value="VIGOLO VATTARO">VIGOLO VATTARO</option>
+	<option value="VILLA AGNEDO">VILLA AGNEDO</option>
+	<option value="VILLA LAGARINA">VILLA LAGARINA</option>
+	<option value="VILLA RENDENA">VILLA RENDENA</option>
+	<option value="VOLANO">VOLANO</option>
+	<option value="ZAMBANA">ZAMBANA</option>
+	<option value="ZIANO DI FIEMME">ZIANO DI FIEMME</option>
+	<option value="ZUCLO">ZUCLO</option>
+
+</select>
+
+											
+																			</td>
+																	</tr>
+																
+								<tr><th>&nbsp;</th>
+																	                                        <td class="formlabel" style="text-align: right; width: 218px;">
+                                            <label for="ctl00_Main_dComuni_bz">
+                                                <strong>Comuni Provincia di Bolzano:</strong></label></td>
+
+					
+																		<td  style=" text-align: left; ">
+<select name="ctl00$Main$dComuni_bz" id="ctl00_Main_dComuni_bz">
+	<option selected="selected" value="-- Tutti --">-- Tutti --</option>
+	<option value="Ladini">Ladini</option>
+	<option value="ALDINO">ALDINO</option>
+	<option value="ANDRIANO">ANDRIANO</option>
+	<option value="ANTERIVO">ANTERIVO</option>
+	<option value="APPIANO S.S.D.V.">APPIANO S.S.D.V.</option>
+	<option value="AVELENGO">AVELENGO</option>
+	<option value="BADIA">BADIA</option>
+	<option value="BARBIANO">BARBIANO</option>
+	<option value="BOLZANO">BOLZANO</option>
+	<option value="BRAIES">BRAIES</option>
+	<option value="BRENNERO">BRENNERO</option>
+	<option value="BRESSANONE">BRESSANONE</option>
+	<option value="BRONZOLO">BRONZOLO</option>
+	<option value="BRUNICO">BRUNICO</option>
+	<option value="CAINES">CAINES</option>
+	<option value="CALDARO S.S.D.V.">CALDARO S.S.D.V.</option>
+	<option value="CAMPO DI TRENS">CAMPO DI TRENS</option>
+	<option value="CAMPO TURES">CAMPO TURES</option>
+	<option value="CASTELBELLO-CIARDES">CASTELBELLO-CIARDES</option>
+	<option value="CASTELROTTO">CASTELROTTO</option>
+	<option value="CERMES">CERMES</option>
+	<option value="CHIENES">CHIENES</option>
+	<option value="CHIUSA">CHIUSA</option>
+	<option value="CORNEDO ALL`ISARCO">CORNEDO ALL`ISARCO</option>
+	<option value="CORTACCIA S.S.D.V.">CORTACCIA S.S.D.V.</option>
+	<option value="CORTINA S.S.D.V.">CORTINA S.S.D.V.</option>
+	<option value="CORVARA IN BADIA">CORVARA IN BADIA</option>
+	<option value="CURON VENOSTA">CURON VENOSTA</option>
+	<option value="DOBBIACO">DOBBIACO</option>
+	<option value="EGNA">EGNA</option>
+	<option value="FALZES">FALZES</option>
+	<option value="FIÈ ALLO SCILIAR">FI&#200; ALLO SCILIAR</option>
+	<option value="FORTEZZA">FORTEZZA</option>
+	<option value="FUNES">FUNES</option>
+	<option value="GAIS">GAIS</option>
+	<option value="GARGAZZONE">GARGAZZONE</option>
+	<option value="GLORENZA">GLORENZA</option>
+	<option value="LA VALLE">LA VALLE</option>
+	<option value="LACES">LACES</option>
+	<option value="LAGUNDO">LAGUNDO</option>
+	<option value="LAION">LAION</option>
+	<option value="LAIVES">LAIVES</option>
+	<option value="LANA">LANA</option>
+	<option value="LASA">LASA</option>
+	<option value="LAUREGNO">LAUREGNO</option>
+	<option value="LUSON">LUSON</option>
+	<option value="MAGRE' S.S.D.V.">MAGRE' S.S.D.V.</option>
+	<option value="MALLES VENOSTA">MALLES VENOSTA</option>
+	<option value="MAREBBE">MAREBBE</option>
+	<option value="MARLENGO">MARLENGO</option>
+	<option value="MARTELLO">MARTELLO</option>
+	<option value="MELTINA">MELTINA</option>
+	<option value="MERANO">MERANO</option>
+	<option value="MONGUELFO">MONGUELFO</option>
+	<option value="MONTAGNA">MONTAGNA</option>
+	<option value="MOSO IN PASSIRIA">MOSO IN PASSIRIA</option>
+	<option value="NALLES">NALLES</option>
+	<option value="NATURNO">NATURNO</option>
+	<option value="NAZ-SCIAVES">NAZ-SCIAVES</option>
+	<option value="NOVA LEVANTE">NOVA LEVANTE</option>
+	<option value="NOVA PONENTE">NOVA PONENTE</option>
+	<option value="ORA">ORA</option>
+	<option value="ORTISEI">ORTISEI</option>
+	<option value="PARCINES">PARCINES</option>
+	<option value="PERCA">PERCA</option>
+	<option value="PLAUS">PLAUS</option>
+	<option value="PONTE GARDENA">PONTE GARDENA</option>
+	<option value="POSTAL">POSTAL</option>
+	<option value="PRATO ALLO STELVIO">PRATO ALLO STELVIO</option>
+	<option value="PREDOI">PREDOI</option>
+	<option value="PROVÉS">PROV&#201;S</option>
+	<option value="RACINES">RACINES</option>
+	<option value="RASUN-ANTERSELVA">RASUN-ANTERSELVA</option>
+	<option value="RENON">RENON</option>
+	<option value="RIFIANO">RIFIANO</option>
+	<option value="RIO DI PUSTERIA">RIO DI PUSTERIA</option>
+	<option value="RODENGO">RODENGO</option>
+	<option value="SALORNO">SALORNO</option>
+	<option value="SAN CANDIDO">SAN CANDIDO</option>
+	<option value="SAN GENESIO ATESINO">SAN GENESIO ATESINO</option>
+	<option value="SAN LEONARDO IN PASSIRIA">SAN LEONARDO IN PASSIRIA</option>
+	<option value="SAN LORENZO DI SEBATO">SAN LORENZO DI SEBATO</option>
+	<option value="SAN MARTINO IN BADIA">SAN MARTINO IN BADIA</option>
+	<option value="SAN MARTINO IN PASSIRIA">SAN MARTINO IN PASSIRIA</option>
+	<option value="SAN PANCRAZIO">SAN PANCRAZIO</option>
+	<option value="SANTA CRISTINA VALGARDENA">SANTA CRISTINA VALGARDENA</option>
+	<option value="SARENTINO">SARENTINO</option>
+	<option value="SCENA">SCENA</option>
+	<option value="SELVA DEI MOLINI">SELVA DEI MOLINI</option>
+	<option value="SELVA DI VAL GARDENA">SELVA DI VAL GARDENA</option>
+	<option value="SENALES">SENALES</option>
+	<option value="SENALE-SAN FELICE">SENALE-SAN FELICE</option>
+	<option value="SESTO">SESTO</option>
+	<option value="SILANDRO">SILANDRO</option>
+	<option value="SLUDERNO">SLUDERNO</option>
+	<option value="STELVIO">STELVIO</option>
+	<option value="TERENTO">TERENTO</option>
+	<option value="TERLANO">TERLANO</option>
+	<option value="TERMENO S.S.D.V.">TERMENO S.S.D.V.</option>
+	<option value="TESIMO">TESIMO</option>
+	<option value="TIRES">TIRES</option>
+	<option value="TIROLO">TIROLO</option>
+	<option value="TRODENA">TRODENA</option>
+	<option value="TUBRE">TUBRE</option>
+	<option value="ULTIMO">ULTIMO</option>
+	<option value="VADENA">VADENA</option>
+	<option value="VAL DI VIZZE">VAL DI VIZZE</option>
+	<option value="VALDAORA">VALDAORA</option>
+	<option value="VALLE AURINA">VALLE AURINA</option>
+	<option value="VALLE DI CASIES">VALLE DI CASIES</option>
+	<option value="VANDOIES">VANDOIES</option>
+	<option value="VARNA">VARNA</option>
+	<option value="VELTURNO">VELTURNO</option>
+	<option value="VERANO">VERANO</option>
+	<option value="VILLABASSA">VILLABASSA</option>
+	<option value="VILLANDRO">VILLANDRO</option>
+	<option value="VIPITENO">VIPITENO</option>
+
+</select>
+											
+																			</td>
+																	</tr>									<tr><th>&nbsp;</th>
+																		<td  align="center" colspan="2">
+																			<input type="submit" name="ctl00$Main$lkCerca" value="Cerca" id="ctl00_Main_lkCerca" />
+																			<input type="submit" name="ctl00$Main$reset" value="Cancella" id="ctl00_Main_reset" />
+																			</td>
+																	</tr>
+																	
+																</table>
+<br /><strong><span id="ctl00_Main_lblTracker"></span></strong> 
+																
+																
+																			
+	<br />
+			<p >
+
+        <br />
+        <br />
+</p>
+																		
+
+
+
+		
+
+</div>
+
+							</div>
+						</div>
+
+<div class="clear">&nbsp;</div><!-- navigazione pagine --><!-- navigazione pagine fine -->
+<!-- navigazione pagine --><!-- navigazione pagine fine --><!-- NB_CONTENUTO -->
+
+
+
+    <div class="clear">&nbsp;</div><!-- Banner -->
+
+<div class="clear">&nbsp;</div>
+
+
+
+
+     
+
+        <!-- Banner -->
+        </div>
+
+        </div>
+
+
+
+        </div>
+        </div>
+
+
+
+        <div class="clear">&nbsp;</div>
+
+        <a id="inizio_footer" title="footer"></a>
+
+
+        <div class="footer_small">
+        <div class="footer_small2">
+        <div class="footer2" style="text-align: center">
+        <br />		
+        																												
+        <a href="../credits.aspx" title="Credits">credits</a>
+        | 
+        <a href="../note_legali.aspx" title="Note legali">note legali</a>
+
+        </div>
+        <div>
+
+        <div class="footer_testo" style="text-align: center"><strong>Regione Autonoma Trentino-Alto Adige/Südtirol</strong> - Via Gazzoletti  2 - 
+        38122 Trento (I) - tel. +39 0461 201111<br /><strong>numero verde 800-356552</strong> - <strong>codice fiscale 80003690221</strong>
+<br /><a href="../Urp/Ecertificata.aspx" title="Posta elettronica certificata">Posta elettronica certificata</a><br /><br />
+
+        </div>
+        </div>
+       <div class="clear">&nbsp;</div>
+        </div>
+        </div>
+
+
+        </div>
+        </div>
+
+        </form> 
+
+        <noscript>
+        <div>Javascript is disabled, please enable it.</div></noscript>
+
+        </div>
+        </body>
+
+        </html>
