@@ -1,0 +1,12 @@
+[
+    {
+        "enti_interessati": 11,
+        "id_tipo_ce": 2,
+        "codice": "ELZ_COM",
+        "nome": "Elezioni comunali",
+        "data_inizio": "2026-05-24 00:00:00.0",
+        "data_riferimento": "2026-05-24 00:00:00.0",
+        "ordinale": 6,
+        "data_fine": "2026-05-25 00:00:00.0"
+    }
+]

@@ -1,0 +1,14 @@
+[
+	{
+		"titolo": "Autonomie locali",
+		"url": "https://autonomielocali.regione.fvg.it/aall/opencms/AALL/",
+		"icona": "article",
+		"visibile": true
+	},
+	{
+		"titolo": "Area scarico dati",
+		"url": "https://elezionimedia.regione.fvg.it/",
+		"icona": "cast_connected",
+		"visibile": false
+	}
+]
