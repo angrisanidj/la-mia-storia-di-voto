@@ -1,0 +1,7 @@
+001 http://web.archive.org/cdx/search/cdx?fl=original,timestamp,statuscode&collapse=urlkey&limit=20000&url=regione.taa.it/elezioni/&matchType=prefix
+002 http://web.archive.org/cdx/search/cdx?fl=original,timestamp,statuscode&collapse=urlkey&limit=20000&url=www.regione.trentino-a-adige.it/elezioni/&matchType=prefix
+003 http://web.archive.org/cdx/search/cdx?fl=original,timestamp,statuscode&collapse=urlkey&limit=20000&url=regione.trentino-a-adige.it/elezioni/&matchType=prefix
+004 https://www.regione.taa.it/elezioni/dati/40210052015.pdf
+005 https://www.regione.taa.it/elezioni/dati/40221092020.pdf
+006 http://web.archive.org/web/20230430150525id_/http://www.regione.taa.it/elezioni/dati/03610052015.pdf
+007 http://web.archive.org/cdx/search/cdx?fl=original,timestamp,statuscode&collapse=urlkey&limit=20000&url=www.regione.taa.it/elezioni/dati/&matchType=prefix&showResumeKey=true
