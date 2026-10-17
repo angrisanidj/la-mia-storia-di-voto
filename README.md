@@ -54,6 +54,7 @@ Il sismografo si scarica anche come video: la stessa animazione della pagina reg
 
 - `dati/comunali.js`: date delle comunali di ogni comune dal 1993, con i ballottaggi. Fonte: Archivio storico delle elezioni del Ministero dell'Interno; per Sicilia, Friuli-Venezia Giulia, Valle d'Aosta e Trentino-Alto Adige, che gestiscono da sé le elezioni locali, tuttitalia.it, completato per i capoluoghi e i comuni maggiori con i riquadri di it.wikipedia.org (`strumenti/ballottaggi-wikipedia.json`), perché tuttitalia.it non indica i ballottaggi delle elezioni più vecchie.
 - `dati/candidati/RR.js`: candidati sindaco e liste nei comuni sopra i 15.000 abitanti, un file per regione caricato solo quando serve.
+  Per Sicilia, Friuli-Venezia Giulia, Valle d'Aosta e Trentino-Alto Adige, dopo gli anni coperti dall'archivio: riquadri di it.wikipedia.org e, dove mancano, fonti ufficiali regionali (archivio elettorale e open data del Friuli-Venezia Giulia, risultati della Regione Trentino-Alto Adige, della Provincia di Bolzano e di elezionicomunali.tn.it, sito elettorale della Regione Siciliana), anche tramite le copie della Wayback Machine (`strumenti/candidati-*.json`). Le date sbagliate nelle fonti sono corrette, con la fonte ufficiale, in `strumenti/comunali-correzioni.json`.
 - `dati/regionali-candidati.js` e `dati/regionali-speciali.js`: candidati presidente e liste delle regionali.
 - Si aggiornano da soli ogni mese con GitHub Actions (`.github/workflows/`), con gli script in `strumenti/`.
 

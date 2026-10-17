@@ -301,6 +301,8 @@ function provincialiDi(c) {
 }
 
 // Comunali di un comune: date dall'archivio; il ballottaggio è la seconda domenica dopo il primo turno
+// (salvo le eccezioni con fonte in strumenti/comunali-correzioni.json)
+const BALLOTTAGGI_FUORI_REGOLA = { 'E421-2005-05-08': '2005-05-29' }; // Laives 2005: tre settimane dopo
 let COMUNALI_MAPPA = null;
 function comunaliDi(cod) {
   if (typeof COMUNALI_TXT === 'undefined' || typeof COMUNALI_DATE === 'undefined') return [];
@@ -314,7 +316,7 @@ function comunaliDi(cod) {
     const d = COMUNALI_DATE[Math.abs(i) - 1];
     const t = TURNI_COMUNALI.find(x => x.d === d);
     const out = { d, d2: t ? t.d2 : null };
-    if (i < 0) { out.b = t ? t.b : piuGiorni(d, 14); out.b2 = t && t.b === out.b ? t.b2 : null; }
+    if (i < 0) { out.b = BALLOTTAGGI_FUORI_REGOLA[`${cod}-${d}`] || (t ? t.b : piuGiorni(d, 14)); out.b2 = t && t.b === out.b ? t.b2 : null; }
     return out;
   });
 }

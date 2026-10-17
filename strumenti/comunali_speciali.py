@@ -275,6 +275,15 @@ def unisci(trovati):
     if os.path.exists(wiki):
         for t in json.load(open(wiki, encoding="utf-8"))["tornate"]:
             aggiungi(t["cod"], t["primo"], t["ballottaggio"], scarto=45)
+    # correzioni da fonti ufficiali regionali: prevalgono su tuttitalia.it e Wikipedia (data del primo turno e ballottaggio)
+    corr = os.path.join(RADICE, "strumenti", "comunali-correzioni.json")
+    if os.path.exists(corr):
+        for t in json.load(open(corr, encoding="utf-8"))["tornate"]:
+            v = voti.setdefault(t["cod"], {})
+            g = dt.date.fromisoformat(t["primo"])
+            for x in [x for x in v if abs((dt.date.fromisoformat(x) - g).days) <= 45]:
+                del v[x]
+            v[t["primo"]] = bool(t["ballottaggio"])
     tutte = sorted({d for v in voti.values() for d in v})
     pos = {d: i for i, d in enumerate(tutte)}
     nuove = [f"{cod}:{','.join(str(-(pos[d] + 1) if b else pos[d] + 1) for d, b in sorted(v.items()))}" for cod, v in sorted(voti.items())]

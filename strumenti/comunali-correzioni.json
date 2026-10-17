@@ -1,0 +1,40 @@
+{
+ "descrizione": "Tornate delle comunali corrette con fonti ufficiali regionali, quando tuttitalia.it e Wikipedia sbagliano data o non segnano il ballottaggio. Prevalgono sulle altre fonti (strumenti/comunali_speciali.py).",
+ "tornate": [
+  {
+   "comune": "Laives",
+   "cod": "E421",
+   "primo": "1999-05-16",
+   "ballottaggio": "1999-05-30",
+   "fonte": "https://web.archive.org/web/20150319034304/http://www.regione.taa.it:80/elezioni/dati/39016051999.pdf"
+  },
+  {
+   "comune": "Laives",
+   "cod": "E421",
+   "primo": "2005-05-08",
+   "ballottaggio": "2005-05-29",
+   "fonte": "https://web.archive.org/web/20150405145525/http://www.regione.taa.it:80/elezioni/dati/39008052005.pdf"
+  },
+  {
+   "comune": "Merano",
+   "cod": "F132",
+   "primo": "2005-05-08",
+   "ballottaggio": "2005-05-22",
+   "fonte": "https://web.archive.org/web/20100601110938/http://www.regione.taa.it:80/elezioni/dati/40208052005.pdf"
+  },
+  {
+   "comune": "Arco",
+   "cod": "A372",
+   "primo": "2005-05-08",
+   "ballottaggio": "2005-05-22",
+   "fonte": "https://web.archive.org/web/20100601210817/http://www.regione.taa.it:80/elezioni/dati/00608052005.pdf"
+  },
+  {
+   "comune": "Bressanone",
+   "cod": "B160",
+   "primo": "2005-05-08",
+   "ballottaggio": "2005-05-22",
+   "fonte": "https://web.archive.org/web/20150127180733/http://www.provinz.bz.it:80/vote/gem2005/010/mayor_ld_s0_p0_c0.htm"
+  }
+ ]
+}
