@@ -1,0 +1,3 @@
+001 https://elezionistorico.interno.gov.it/index.php?tpel=G&dtel=07/06/2009&tpa=I&tpe=C&lev0=0&levsut0=0&lev1=15&levsut1=1&lev2=20&levsut2=2&levsut3=3&ne1=15&ne2=20&es0=S&es1=S&es2=S&es3=N&ms=S&ne3=200920&lev3=920
+002 https://elezionistorico.interno.gov.it/index.php?tpel=G&dtel=28/03/2010&tpa=I&tpe=C&lev0=0&levsut0=0&lev1=15&levsut1=1&lev2=20&levsut2=2&levsut3=3&ne1=15&ne2=20&es0=S&es1=S&es2=S&es3=N&ms=S&ne3=200920&lev3=920
+003 https://elezionistorico.interno.gov.it/index.php?tpel=G&dtel=07/06/2009&tpa=I&tpe=C&lev0=0&levsut0=0&lev1=15&levsut1=1&lev2=20&levsut2=2&levsut3=3&ne1=15&ne2=20&es0=S&es1=S&es2=S&es3=N&ms=S&ne3=200490&lev3=490
