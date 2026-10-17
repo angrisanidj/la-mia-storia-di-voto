@@ -45,29 +45,109 @@ function disegnaEmicicloVoto(cv, formato) {
   const t0 = giorno(`${anno0}-01-01`), t1 = giorno(`${anno1}-12-31`);
 
   // ---- impaginazione per formato
-  const orizz = !!F.orizzontale;
+  const orizz = !!F.orizzontale, q = formato === 'quadrata', st = formato === 'storia';
   const titolo = $('#titolo').value.trim();
   const firma = $('#firma').value.trim();
-  let cx, cy, R, yLeg, xLeg, wLeg;
+  // testata: il titolo scritto dall'utente o il profilo del sismografo, con la sua frase
+  let P = null;
+  try { const D = typeof datiSismografo === 'function' ? datiSismografo() : null; P = D && D.profilo; } catch (e) { P = null; }
+  const testoTit = titolo || (P ? P.nome : '');
+  const testoDescr = P && !titolo ? P.descr : '';
+  const fsT = orizz ? 52 : q ? 50 : st ? 68 : 60, fsD = orizz ? 24 : q ? 22 : st ? 29 : 25;
+  const wTesta = orizz ? W - m - (64 + 2 * 380 + 90) : larg;
+  ctx.font = `400 ${fsD}px ${TXT}`;
+  const righeDescr = testoDescr ? righeTesto(ctx, testoDescr, wTesta).slice(0, 3) : [];
+  const hTesta = (testoTit ? fsT * 1.05 : 0) + righeDescr.length * fsD * 1.35 + (testoTit || righeDescr.length ? 10 : 0);
+
+  // legenda: prima i partiti di politiche ed europee, poi le elezioni locali per schieramento
+  const tutti = seggi.flatMap(s => s.senato ? [s, { ...s.senato, k: s.k }] : [s]);
+  const valido = s => s.k !== 'ref' && !s.non && !s.vuoto && s.col && !s.col.vuoto;
+  const corto = s => s.testo.replace(/\s*\(.*\)$/, '').replace(/^Lista\s+/i, '').trim();
+  const ue = c => typeof tavolozza !== 'undefined' && tavolozza === 'ue' && typeof GRUPPI_UE !== 'undefined'
+    ? Object.values(GRUPPI_UE).find(x => x.c.toUpperCase() === c.toUpperCase()) : null;
+  const AREE = { '#E0322B': 'centrosinistra', '#2D6FDB': 'centrodestra', '#1E1E1E': 'destra', '#8E44C4': 'civiche e centro',
+    '#8A5A3B': 'autonomisti', '#F28B1E': 'altre liste', '#F6C62C': 'altre liste', '#3BA55C': 'altre liste', '#5A6372': 'altre liste', '#FFFFFF': 'schede bianche' };
+  const naz = new Map(), loc = new Map();
+  for (const s of tutti) {
+    if (!valido(s)) continue;
+    if (s.k === 'pol' || s.k === 'eur') {
+      const k = corto(s) || '?'; const g = naz.get(k) || { c: s.col.c, n: 0, nome: k, ultimo: '' };
+      g.n++; if (s.d > g.ultimo) { g.ultimo = s.d; g.c = s.col.c; } naz.set(k, g);
+    } else {
+      const u = ue(s.col.c), k = u ? u.n : (AREE[s.col.c.toUpperCase()] || 'altre liste');
+      const g = loc.get(k) || { c: s.col.c, n: 0, nome: k, ultimo: '' }; g.n++; loc.set(k, g);
+    }
+  }
+  const ordina = m2 => [...m2.values()].sort((a, b) => b.n - a.n || b.ultimo.localeCompare(a.ultimo));
+  const sezioni = [];
+  if (naz.size) sezioni.push(['Politiche ed europee', ordina(naz)]);
+  if (loc.size) {
+    const t = ['regionali', 'provinciali', 'comunali'].filter((_, i) => seggi.some(s => s.k === ['reg', 'prov', 'com'][i])).join(', ').replace(/, ([^,]*)$/, ' e $1');
+    sezioni.push([t[0].toUpperCase() + t.slice(1), ordina(loc)]);
+  }
+  const ref = seggi.filter(s => s.k === 'ref' && !s.non && !s.vuoto);
+  const votate = perConsultazione(righeImmagine());
+  const nVoti = votate.filter(x => !x.non).length, nNon = votate.filter(x => x.non).length;
+  const coda = [];
+  if (ref.length) coda.push(`Ai referendum ${ref.filter(s => s.si && !s.no).length} Sì e ${ref.filter(s => s.no && !s.si).length} No`);
+  coda.push(nNon ? `${nNon} ${nNon === 1 ? 'volta' : 'volte'} non ho votato` : 'Mai un’astensione');
+  const fsC = orizz ? 23 : q ? 21 : st ? 28 : 24, fsE = orizz ? 18 : q ? 17 : st ? 22 : 19;
+  const passoChip = fsC * 1.75, rDot = fsC * 0.5;
+  // impagina le «gettoni» in righe che scorrono: restituisce le posizioni e l'altezza
+  const impaginaLeg = (x0, w) => {
+    const pos = []; let y = 0;
+    for (const [tit, gs] of sezioni) {
+      pos.push({ tipo: 'tit', testo: tit, x: x0, y: y + fsE }); y += fsE + 14;
+      let x = x0, riga = 0;
+      for (const g of gs) {
+        ctx.font = `600 ${fsC}px ${TXT}`; const wNome = ctx.measureText(g.nome).width;
+        ctx.font = `700 ${fsC * 1.08}px ${TIT}`; const wN = ctx.measureText(String(g.n)).width;
+        const wChip = rDot * 2 + 10 + wNome + 9 + wN;
+        if (x > x0 && x + wChip > x0 + w) { x = x0; riga++; }
+        pos.push({ tipo: 'chip', g, x, y: y + riga * passoChip + fsC * 0.85, wNome });
+        x += wChip + fsC * 1.3;
+      }
+      y += (riga + 1) * passoChip + 10;
+    }
+    pos.push({ tipo: 'coda', testo: coda.join('      '), x: x0, y: y + fsE + 4 }); y += fsE + 12;
+    return { pos, h: y };
+  };
+
+  let cx, cy, R, xLeg, wLeg, yTesta, yLeg, leg;
   if (orizz) {
     R = 380; cx = 64 + R; cy = H - 175;
-    xLeg = cx + R + 90; wLeg = W - m - xLeg; yLeg = titolo ? 300 : Math.max(230, cy - R / 2 - 140);
+    xLeg = cx + R + 90; wLeg = W - m - xLeg;
+    leg = impaginaLeg(xLeg, wLeg);
+    const blocco = hTesta + (hTesta ? 34 : 0) + leg.h;
+    yTesta = Math.max(200, (170 + H - 150) / 2 - blocco / 2);
+    yLeg = yTesta + hTesta + (hTesta ? 34 : 0);
   } else {
-    const q = formato === 'quadrata';
     R = q ? 380 : 500;
     cx = W / 2;
-    // altezza della legenda: una riga ogni due gruppi di colore, più la riga dei referendum
-    const nGruppi = new Set(seggi.flatMap(s => s.senato ? [s, s.senato] : [s]).filter(s => s.k !== 'ref' && !s.non && !s.vuoto && s.col && !s.col.vuoto).map(s => s.col.c)).size;
-    const st = formato === 'storia';
-    const hLeg = Math.ceil(Math.min(nGruppi, q ? 8 : 12) / 2) * (q ? 42 : st ? 70 : 58) + 70;
-    const inizio = alto + (q ? 112 : 140) + (titolo ? 64 : 0), fine = H - basso - 160;
-    const extra = Math.max(0, fine - inizio - (R + 50) - hLeg - 40);
-    cy = inizio + extra * 0.25 + R + 50;
-    xLeg = m; wLeg = larg; yLeg = cy + 40 + extra * 0.35 + (q ? 24 : 40);
+    leg = impaginaLeg(m, larg);
+    xLeg = m; wLeg = larg;
+    const inizio = alto + (q ? 146 : 150), fine = H - basso - 165;
+    const hArco = R + 46 + R * 0.34 * 0.2;          // anni sopra, la riga sotto il centro
+    const extra = Math.max(0, fine - inizio - hTesta - hArco - leg.h);
+    const g = Math.min(q ? 34 : st ? 120 : 70, extra / 4);
+    const sopra = (extra - 2 * g) / 2;
+    yTesta = inizio + sopra * (st ? 1 : 0.6);
+    cy = yTesta + hTesta + g + R + 46;
+    yLeg = cy + R * 0.34 * 0.2 + g;
   }
   nastroEMarchio(ctx, W, m, alto + 96, 1);
-  if (titolo && !orizz) { ctx.font = `700 54px ${TIT}`; ctx.fillStyle = C.ink; ctx.fillText(titolo, m, alto + 196); }
   if (firma) { ctx.font = `600 26px ${TXT}`; ctx.fillStyle = C.grigio; ctx.textAlign = 'right'; ctx.fillText(firma, W - m, alto + 106); ctx.textAlign = 'left'; }
+  {
+    const x0 = orizz ? xLeg : m;
+    let y = yTesta;
+    if (testoTit) {
+      let f = fsT; ctx.font = `700 ${f}px ${TIT}`;
+      while (ctx.measureText(testoTit).width > wTesta && f > 30) { f -= 2; ctx.font = `700 ${f}px ${TIT}`; }
+      ctx.fillStyle = C.ink; ctx.fillText(testoTit, x0, y + fsT * 0.8); y += fsT * 1.05;
+    }
+    ctx.font = `400 ${fsD}px ${TXT}`; ctx.fillStyle = C.grigio;
+    righeDescr.forEach((l, i) => ctx.fillText(l, x0, y + fsD * 1.05 + i * fsD * 1.35));
+  }
 
   // geometria degli anelli
   const r0 = R * 0.34, rN = R * 0.97;
@@ -105,8 +185,8 @@ function disegnaEmicicloVoto(cv, formato) {
   // nomi degli anelli, scritti lungo l'anello nello spicchio di sinistra
   anelli.forEach(([k, nome], i) => {
     const r = rAnello(i);
-    ctx.font = `600 ${Math.min(17, passoR * 0.42)}px ${TXT}`;
-    ctx.fillStyle = '#7A8494';
+    ctx.font = `600 ${Math.min(19, passoR * 0.45)}px ${TXT}`;
+    ctx.fillStyle = '#5F6877';
     let a = Math.PI - 0.03;
     for (const ch of nome) {
       const da = ctx.measureText(ch).width / r;
@@ -147,7 +227,9 @@ function disegnaEmicicloVoto(cv, formato) {
     if (s.a == null) continue;
     const [x, y] = xy(s.r, s.a), rs = s.rs;
     ctx.save();
-    if (s.k === 'ref') {
+    if (s.k === 'ref' && s.vuoto) {
+      ctx.beginPath(); ctx.arc(x, y, rs * 0.42, 0, 2 * Math.PI); ctx.fillStyle = '#E6E9EE'; ctx.fill();
+    } else if (s.k === 'ref') {
       const c = s.non ? '#9AA2AF' : s.si && !s.no ? C.verde : s.no && !s.si ? C.rosso : s.vuoto ? '#D5D9E0' : C.ink;
       ctx.beginPath(); ctx.arc(x, y, rs - 1.5, 0, 2 * Math.PI); ctx.fillStyle = '#fff'; ctx.fill();
       ctx.lineWidth = 3; ctx.strokeStyle = c; if (s.non) ctx.setLineDash([4, 3.5]); ctx.stroke(); ctx.setLineDash([]);
@@ -191,8 +273,6 @@ function disegnaEmicicloVoto(cv, formato) {
   }
 
   // ---- centro: le volte al voto, come i seggi di un parlamento
-  const votate = perConsultazione(righeImmagine());
-  const nVoti = votate.filter(x => !x.non).length, nNon = votate.filter(x => x.non).length;
   ctx.textAlign = 'center';
   ctx.font = `700 ${r0 * 0.78}px ${TIT}`; ctx.fillStyle = C.ink;
   ctx.fillText(String(nVoti), cx, cy - r0 * 0.12);
@@ -201,68 +281,19 @@ function disegnaEmicicloVoto(cv, formato) {
   ctx.textAlign = 'left';
   if (!orizz) { ctx.fillStyle = C.filo; ctx.fillRect(cx - rN - 10, cy + r0 * 0.16, 2 * rN + 20, 2); }
 
-  // ---- legenda: la storia per colori
-  const gruppi = new Map();
-  const corto = s => s.testo.replace(/\s*\(.*\)$/, '').replace(/^Lista\s+/i, '');
-  const tutti = seggi.flatMap(s => s.senato ? [s, { ...s.senato, k: s.k }] : [s]);
-  for (const s of tutti) {
-    if (s.k === 'ref' || s.non || s.vuoto || !s.col || s.col.vuoto) continue;
-    const g = gruppi.get(s.col.c) || { c: s.col.c, n: 0, naz: [], loc: [] };
-    g.n++;
-    const nome = corto(s);
-    const dove = s.k === 'pol' || s.k === 'eur' ? g.naz : g.loc;
-    if (nome && !g.naz.includes(nome) && !g.loc.includes(nome)) dove.push(nome);
-    gruppi.set(s.col.c, g);
-  }
-  const lista = [...gruppi.values()].sort((a, b) => b.n - a.n);
-  const ref = seggi.filter(s => s.k === 'ref' && !s.non && !s.vuoto);
-  const colonne = orizz ? 1 : 2, gapC = 40, wc = (wLeg - (colonne - 1) * gapC) / colonne;
-  const hRiga = orizz ? 50 : (formato === 'quadrata' ? 42 : formato === 'storia' ? 70 : 58);
-  const yFine = H - basso - 150;
-  const maxRighe = Math.max(1, Math.floor((yFine - yLeg - (orizz ? 0 : 10)) / hRiga) - 1);
-  const voci = lista.slice(0, maxRighe * colonne - 1);
-  let yl = yLeg + (orizz ? 0 : 18);
-  if (orizz && titolo) {
-    ctx.font = `700 46px ${TIT}`; ctx.fillStyle = C.ink;
-    ctx.fillText(titolo, xLeg, 210);
-  }
-  voci.forEach((g, i) => {
-    const col = i % colonne, riga = Math.floor(i / colonne);
-    const x = xLeg + col * (wc + gapC), y = yl + riga * hRiga;
-    ctx.beginPath(); ctx.arc(x + 15, y - 9, 15, 0, 2 * Math.PI); ctx.fillStyle = g.c; ctx.fill();
-    if (g.c.toUpperCase() === '#FFFFFF') { ctx.strokeStyle = '#9AA2AF'; ctx.lineWidth = 2; ctx.stroke(); }
-    ctx.font = `700 ${formato === 'quadrata' ? 26 : formato === 'storia' ? 34 : 30}px ${TIT}`; ctx.fillStyle = C.ink; ctx.textAlign = 'right';
-    ctx.fillText(String(g.n), x + wc, y);
-    const wN = ctx.measureText(String(g.n)).width;
-    ctx.textAlign = 'left';
-    const AREE = { '#E0322B': 'candidati di centrosinistra', '#2D6FDB': 'candidati di centrodestra', '#1E1E1E': 'candidati di destra',
-      '#8E44C4': 'liste civiche e di centro', '#8A5A3B': 'liste autonomiste', '#FFFFFF': 'schede bianche' };
-    // con i colori dei gruppi europei, il nome del gruppo e poi i partiti votati
-    const ue = typeof tavolozza !== 'undefined' && tavolozza === 'ue' && typeof GRUPPI_UE !== 'undefined'
-      ? Object.values(GRUPPI_UE).find(x => x.c.toUpperCase() === g.c.toUpperCase()) : null;
-    const nomi = ue ? [g.naz.length ? `${ue.n}: ${[...g.naz].reverse().join(', ')}` : ue.n]
-      : g.naz.length ? [...g.naz].reverse() : [AREE[g.c.toUpperCase()] || 'liste e candidati locali'];
-    ctx.font = `600 ${formato === 'quadrata' ? 22 : formato === 'storia' ? 28 : 25}px ${TXT}`; ctx.fillStyle = C.ink;
-    let t = '', maxW = wc - 44 - wN - 16;
-    for (const n of nomi) {
-      const p = t ? t + ', ' + n : n;
-      if (ctx.measureText(p).width > maxW) {
-        if (!t) { t = n; while (t.length > 1 && ctx.measureText(t + '…').width > maxW) t = t.slice(0, -1); t = t.trimEnd().replace(/[,(]$/, '') + '…'; }
-        else t += '…';
-        break;
-      }
-      t = p;
+  // ---- legenda: i partiti votati e gli schieramenti locali, come gettoni che scorrono
+  for (const p of leg.pos) {
+    const y = yLeg + p.y;
+    if (p.tipo === 'tit') { ctx.font = `600 ${fsE}px ${TXT}`; ctx.fillStyle = '#7A8494'; ctx.fillText(p.testo, p.x, y); }
+    else if (p.tipo === 'coda') { ctx.font = `600 ${fsE + 2}px ${TXT}`; ctx.fillStyle = C.grigio; ctx.fillText(p.testo, p.x, y); }
+    else {
+      const g = p.g, bianco = g.c.toUpperCase() === '#FFFFFF';
+      ctx.beginPath(); ctx.arc(p.x + rDot, y - fsC * 0.34, rDot, 0, 2 * Math.PI); ctx.fillStyle = g.c; ctx.fill();
+      if (bianco) { ctx.strokeStyle = '#9AA2AF'; ctx.lineWidth = 2; ctx.stroke(); }
+      ctx.font = `600 ${fsC}px ${TXT}`; ctx.fillStyle = C.ink; ctx.fillText(g.nome, p.x + rDot * 2 + 10, y);
+      ctx.font = `700 ${fsC * 1.08}px ${TIT}`; ctx.fillStyle = C.ink; ctx.fillText(String(g.n), p.x + rDot * 2 + 10 + p.wNome + 9, y);
     }
-    ctx.fillText(t, x + 44, y);
-  });
-  // ultima riga: referendum e astensioni
-  const iUlt = voci.length;
-  const yU = yl + Math.ceil((iUlt + (iUlt % colonne ? 1 : 0)) / colonne) * hRiga + (orizz ? 6 : 8);
-  ctx.font = `600 22px ${TXT}`; ctx.fillStyle = C.grigio;
-  const pezzi = [];
-  if (ref.length) pezzi.push(`${ref.filter(s => s.si && !s.no).length} Sì e ${ref.filter(s => s.no && !s.si).length} No ai referendum`);
-  pezzi.push(nNon ? `${nNon} ${nNon === 1 ? 'volta' : 'volte'} non ho votato` : 'mai un\'astensione');
-  ctx.fillText(pezzi.join('     '), xLeg, Math.min(yU, yFine - 8));
+  }
 
   disegnaPiede(ctx, m, H - basso - 78, W, m);
 }
