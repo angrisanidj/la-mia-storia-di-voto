@@ -1,0 +1,10 @@
+001 http://web.archive.org/cdx/search/cdx?fl=original,timestamp,statuscode&collapse=urlkey&limit=500&url=data.civis.bz.it/it/dataset/risultati-elezioni-comunali-extra-turno-2024-del-26-05-08-06-09-06-2024/&matchType=prefix
+002 http://web.archive.org/cdx/search/cdx?fl=original,timestamp,statuscode&collapse=urlkey&limit=500&url=data.civis.bz.it/de/dataset/risultati-elezioni-comunali-extra-turno-2024-del-26-05-08-06-09-06-2024/&matchType=prefix
+003 http://web.archive.org/web/2010id_/https://static.provinz.bz.it/vote/gem2010/8423/list_ld_vg.htm
+004 http://web.archive.org/web/2010id_/https://static.provinz.bz.it/vote/gem2010/8429/list_ld_vg.htm
+005 http://web.archive.org/web/2010id_/https://static.provinz.bz.it/vote/gem2010/8434/list_ld_vg.htm
+006 http://web.archive.org/web/2010id_/https://static.provinz.bz.it/vote/gem2010/8459/list_ld_vg.htm
+007 http://web.archive.org/web/2010id_/https://static.provinz.bz.it/vote/gem2010/8460/list_ld_vg.htm
+008 http://web.archive.org/web/2010id_/https://static.provinz.bz.it/vote/gem2010/8470/list_ld_vg.htm
+009 http://web.archive.org/web/2010id_/https://static.provinz.bz.it/vote/gem2010/8460/mayor_ld_vg.htm
+010 http://web.archive.org/web/2010id_/https://static.provinz.bz.it/vote/gem2010/8470/graph_ld_vg.htm

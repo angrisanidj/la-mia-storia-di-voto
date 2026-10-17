@@ -1,0 +1,444 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Gemeindewahlen 2010 - Südtirol | 16 - 30 Mai | LANA | Listenstimmen</title>
+
+
+<meta http-equiv="pragma" content="no-cache" />
+<meta http-equiv="cache-control" content="no-cache" />
+<meta name="description" content="Gemeindewahlen 2010 Südtirol: Auszählung live im Internet, Ergebnisse im Detail und mehr." />
+<meta name="keywords" content="Wahlen, Gemeindewahlen 2010, Südtirol" />
+<link href="../presentation/default.css" rel="stylesheet" type="text/css" media="screen, projection" title="default" />
+<link href="../presentation/print.css" rel="stylesheet" type="text/css" media="print" />
+  
+</head>
+<body id="deutsch" class="twoCols">
+<!--[if IE 7]><div class="ie7"><![endif]-->
+<!--[if IE 6]><div class="ie6"><![endif]-->
+<!--[if lt IE 6]><div class="ieQ"><![endif]-->
+<form method="get" action="8460/list_ld_vg.htm" id="aspnetForm">
+<div id="container">
+  <div id="header">
+    <div id="corporate-nav"> 
+	    <ul>
+		    <li class="skip-nav"><a href="#content" title="Überspringen Sie die Navigation und gehen Sie direkt zum Inhalt" accesskey="S">Überspringen Sie die Navigation</a></li
+		    ><li><a href="../8460/list_li_vg.htm" lang="it" xml:lang="it" title="Versione italiana della pagina" accesskey="X">Italiano</a></li
+		    ><li><a href="../8460/list_ll_vg.htm" lang="rm" xml:lang="rm" title="Versciun dla plata ladina" accesskey="R">Ladin</a></li
+		    >
+		    
+		    <li class="styleswitcher"><a href="../8460/list_ld_vl.htm" title="Hohe Lesbarkeit" accesskey="T">Hohe Lesbarkeit</a></li>
+	    </ul>
+    </div>
+    <!-- end corporate-nav -->
+    <h1><a href="../home_ld_vg.htm"><img src="../presentation/img/header_de.png" width="600" height="90" alt="Gemeindewahlen 2010 - Südtirol | 16 - 30 Mai" /></a></h1>
+    <ul id="main-nav">
+      <li class="last"><a href="../index_ld_vg.htm" accesskey="1" xml:lang="en">Verzeichnis der Gemeinden </a></li>
+    </ul>
+  </div>
+  <!-- end header -->
+  <div id="content">
+     
+    
+<div id="left-sidebar">
+      <h2>LANA</h2>
+      <ul>
+        <li><a id="Menu_Home"   title="Startseite Gemeinde ..." href='../8460/index_ld_vg.htm' accesskey="2">Startseite Gemeinde</a></li>
+        <li><a id="Menu_Mayor"  title="Bürgermeisterkandidaten der Gemeinde ..." href='../8460/mayor_ld_vg.htm' accesskey="3">Bürgermeisterkandidaten</a></li>
+        <li> <a id="Menu_Lists" title="Listenstimmenin der Gemeinde ..." href='../8460/list_ld_vg.htm' accesskey="4">Listenstimmen</a></li>
+        <li> <a id="Menu_Prefs" title="Vorzugsstimmen der Kandidaten" href='../8460/prefi_ld_vg.htm' accesskey="5">Vorzugsstimmen</a></li>
+        <li id="ctl00_contentSideBar_sideMenu_menuCouncil"> <a id="Menu_Council"  title="Neuer Gemeinderat der Gemeinde ..." href='../8460/council_ld_vg.htm' accesskey="6">Neuer Gemeinderat</a></li>
+        <li> <a id="Menu_Affl" title="Wahlbeteiligungin der Gemeinde ..." href='../8460/afwb_ld_vg.htm' accesskey="7">Wahlbeteiligung</a></li>
+        <li> <a id="Menu_Graphs" title="Wahlgrafiken der Bürgermeisterkandidaten" href='../8460/graph_ld_vg.htm' accesskey="8">Wahlgrafiken der Ergebnisse</a> </li>
+      </ul><!--end left-sidebar -->
+
+      
+</div>
+
+
+    <div id="main">
+      
+
+      <div id="breadCrumbs"> 
+            <a href='../index_ld_vg.htm'>
+                Verzeichnis der Gemeinden
+            </a> &laquo;
+            <a href='../8460/index_ld_vg.htm'>
+                LANA
+            </a> &laquo;
+            Listenstimmen
+      </div>
+      
+      
+
+  <table id="page-info">
+    <tr>
+      <td class="comune">
+      	<h2 id="ctl00_contentMain_muniHead_title" style="background-image:url(../img/municipalities/BZ391.gif);">
+      	    LANA
+      	</h2>
+      </td> 
+      <td class="printbutton">
+        <input type="image" src="../presentation/img/print_de.png" alt='Drucken Sie diese Seite' onclick="javascript:window.print();return false;" />
+        <noscript>
+        <p> Um diese Seite zu drucken, klicken Sie auf den Menüpunkt 'Datei' und wählen Sie 'Drucken' aus.  </p>        
+        </noscript></td>
+    </tr>
+  </table>
+      
+   <div id="aggiorna">
+    <input type="button" onkeypress="javascript:window.location.reload();"  onclick="javascript:window.location.reload();" value='Aktualisieren' />
+    <noscript>
+        <p> Um diese Seite zu aktualisieren, klicken Sie im Browser auf "Aktualisien" oder drücken Sie die "Taste F5".</p>
+    </noscript>
+  </div>
+
+      <h2>Listenstimmen</h2>
+      <table class="confronti">
+        <tbody>
+          <tr>
+            <td class="y2010">
+            <h3>2010</h3>
+              
+  
+  
+  
+      <table summary="Listenstimmen: Jahr 2010">
+        <caption>
+        <span>Ausgezählte Sektionen - Listenstimmen 8 von 8<br/>Ausgezählte Sektionen - Vorzugsstimmen 8 von 8</span>
+        </caption>
+        <thead>
+          <tr class="voti2010">
+            <th id="ctl00_contentMain_listvt2010_rptSeats_ctl00_Th1" colspan="2" scope="col" class="list-name">Listen</th>
+
+            
+            <th scope="col" abbr="voti" class="list-votes">Stimmen</th>
+            <th scope="col" abbr="percento" class="list-percent"><abbr title='Prozent'>%</abbr></th>
+            <th scope="col" class="list-sitze">Sitze</th>
+          </tr>
+        </thead>
+         <tfoot>
+          <tr>
+            <td colspan="5">Vorläufige Daten</td>
+
+            
+          </tr>
+        </tfoot>
+        <tbody>
+      
+          <tr class="odd">
+            <td class="list-symbol"><img src="../img/symbols/2010/21041_4.gif" alt="SÜDTIROLER VOLKSPARTEI" /></td>
+
+            <td class="list-name"><strong>SÜDTIROLER VOLKSPARTEI</strong>
+                <div>
+                     » <a href="../8460/pref_ld_p4445_vg.htm">Vorzugsstimmen</a> 
+                </div>
+            </td>
+            <td class="list-votes">3.661
+               
+            </td>
+            <td class="list-percent">60,1%</td>
+            <td class="list-percent">12</td>
+          </tr>
+      
+          <tr class="even">
+            <td class="list-symbol"><img src="../img/symbols/2010/21041_1.gif" alt="LISTA CIVICA LANA - DIE DORFLISTE LANA" /></td>
+
+            <td class="list-name"><strong>LISTA CIVICA LANA - DIE DORFLISTE LANA</strong>
+                <div>
+                     » <a href="../8460/pref_ld_p4431_vg.htm">Vorzugsstimmen</a> 
+                </div>
+            </td>
+            <td class="list-votes">663
+               
+            </td>
+            <td class="list-percent">10,9%</td>
+            <td class="list-percent">2</td>
+          </tr>
+      
+          <tr class="odd">
+            <td class="list-symbol"><img src="../img/symbols/2010/21041_5.gif" alt="SÜDTIROLER VOLKSPARTEI - PAWIGL VÖLLAN" /></td>
+
+            <td class="list-name"><strong>SÜDTIROLER VOLKSPARTEI - PAWIGL VÖLLAN</strong>
+                <div>
+                     » <a href="../8460/pref_ld_p4441_vg.htm">Vorzugsstimmen</a> 
+                </div>
+            </td>
+            <td class="list-votes">457
+               
+            </td>
+            <td class="list-percent">7,5%</td>
+            <td class="list-percent">2</td>
+          </tr>
+      
+          <tr class="even">
+            <td class="list-symbol"><img src="../img/symbols/2010/21041_2.gif" alt="UNION FÜR SÜDTIROL" /></td>
+
+            <td class="list-name"><strong>UNION FÜR SÜDTIROL</strong>
+                <div>
+                     » <a href="../8460/pref_ld_p4424_vg.htm">Vorzugsstimmen</a> 
+                </div>
+            </td>
+            <td class="list-votes">438
+               
+            </td>
+            <td class="list-percent">7,2%</td>
+            <td class="list-percent">1</td>
+          </tr>
+      
+          <tr class="odd">
+            <td class="list-symbol"><img src="../img/symbols/2010/21041_7.gif" alt="DIE FREIHEITLICHEN" /></td>
+
+            <td class="list-name"><strong>DIE FREIHEITLICHEN</strong>
+                <div>
+                     » <a href="../8460/pref_ld_p4434_vg.htm">Vorzugsstimmen</a> 
+                </div>
+            </td>
+            <td class="list-votes">399
+               
+            </td>
+            <td class="list-percent">6,6%</td>
+            <td class="list-percent">1</td>
+          </tr>
+      
+          <tr class="even">
+            <td class="list-symbol"><img src="../img/symbols/2010/21041_6.gif" alt="INSIEME LANA" /></td>
+
+            <td class="list-name"><strong>INSIEME LANA</strong>
+                <div>
+                     » <a href="../8460/pref_ld_p4443_vg.htm">Vorzugsstimmen</a> 
+                </div>
+            </td>
+            <td class="list-votes">331
+               
+            </td>
+            <td class="list-percent">5,4%</td>
+            <td class="list-percent">1</td>
+          </tr>
+      
+          <tr class="odd">
+            <td class="list-symbol"><img src="../img/symbols/2010/21041_3.gif" alt="SÜDTIROLER FREIHEIT " /></td>
+
+            <td class="list-name"><strong>SÜDTIROLER FREIHEIT </strong>
+                <div>
+                     » <a href="../8460/pref_ld_p4427_vg.htm">Vorzugsstimmen</a> 
+                </div>
+            </td>
+            <td class="list-votes">141
+               
+            </td>
+            <td class="list-percent">2,3%</td>
+            <td class="list-percent">1</td>
+          </tr>
+      
+            </tbody>
+          </table>
+          
+        
+              
+            </td>
+            <td class="y2005">
+            <h3>2005</h3>
+                
+  
+  
+  
+      <table summary="Listenstimmen: Jahr 2005">
+        <caption>
+        <span><br/>Ausgezählte Sektionen: 8 von 8</span>
+        </caption>
+        <thead>
+          <tr class="voti2005">
+            <th id="ctl00_contentMain_listvt2005_rptSeats_ctl00_Th1" colspan="2" scope="col" class="list-name">Listen</th>
+
+            
+            <th scope="col" abbr="voti" class="list-votes">Stimmen</th>
+            <th scope="col" abbr="percento" class="list-percent"><abbr title='Prozent'>%</abbr></th>
+            <th scope="col" class="list-sitze">Sitze</th>
+          </tr>
+        </thead>
+         
+        <tbody>
+      
+          <tr class="odd">
+            <td class="list-symbol"><img src="../img/symbols/2005/21041-01.gif" alt="SVP" /></td>
+
+            <td class="list-name"><strong>SVP</strong>
+                
+            </td>
+            <td class="list-votes">3.589
+               
+            </td>
+            <td class="list-percent">61,0%</td>
+            <td class="list-percent">12</td>
+          </tr>
+      
+          <tr class="even">
+            <td class="list-symbol"><img src="../img/symbols/2005/21041-07.gif" alt="DIE DORFLISTE - LANA/LISTA D'AZIONE - LANA" /></td>
+
+            <td class="list-name"><strong>DIE DORFLISTE - LANA/LISTA D'AZIONE - LANA</strong>
+                
+            </td>
+            <td class="list-votes">816
+               
+            </td>
+            <td class="list-percent">13,9%</td>
+            <td class="list-percent">3</td>
+          </tr>
+      
+          <tr class="odd">
+            <td class="list-symbol"><img src="../img/symbols/2005/21041-05.gif" alt="UNION FÜR SÜDTIROL" /></td>
+
+            <td class="list-name"><strong>UNION FÜR SÜDTIROL</strong>
+                
+            </td>
+            <td class="list-votes">577
+               
+            </td>
+            <td class="list-percent">9,8%</td>
+            <td class="list-percent">2</td>
+          </tr>
+      
+          <tr class="even">
+            <td class="list-symbol"><img src="../img/symbols/2005/21041-04.gif" alt="PAWIGL VÖLLAN" /></td>
+
+            <td class="list-name"><strong>PAWIGL VÖLLAN</strong>
+                
+            </td>
+            <td class="list-votes">504
+               
+            </td>
+            <td class="list-percent">8,6%</td>
+            <td class="list-percent">2</td>
+          </tr>
+      
+          <tr class="odd">
+            <td class="list-symbol"><img src="../img/symbols/2005/21041-06.gif" alt="INSIEME - LANA" /></td>
+
+            <td class="list-name"><strong>INSIEME - LANA</strong>
+                
+            </td>
+            <td class="list-votes">282
+               
+            </td>
+            <td class="list-percent">4,8%</td>
+            <td class="list-percent">1</td>
+          </tr>
+      
+          <tr class="even">
+            <td class="list-symbol"><img src="../img/symbols/2005/21041-03.gif" alt="ALLEANZA NAZIONALE" /></td>
+
+            <td class="list-name"><strong>ALLEANZA NAZIONALE</strong>
+                
+            </td>
+            <td class="list-votes">64
+               
+            </td>
+            <td class="list-percent">1,1%</td>
+            <td class="list-percent">0</td>
+          </tr>
+      
+          <tr class="odd">
+            <td class="list-symbol"><img src="../img/symbols/2005/21041-02.gif" alt="FORZA ITALIA" /></td>
+
+            <td class="list-name"><strong>FORZA ITALIA</strong>
+                
+            </td>
+            <td class="list-votes">51
+               
+            </td>
+            <td class="list-percent">0,9%</td>
+            <td class="list-percent">0</td>
+          </tr>
+      
+            </tbody>
+          </table>
+          
+        
+              
+            </td>
+          </tr>
+        </tbody>
+       </table>
+       
+      <table id="datiVoto" class="ruler" summary="Daten zur Wahl">
+        <caption>
+		Daten zur Wahl
+	</caption>
+    <colgroup>
+      	<col width="52%" />
+        <col width="12%" />
+        <col width="12%" />
+        <col width="12%" />
+        <col width="12%" />
+      </colgroup>
+ 	  <thead>
+		<tr>
+			<td scope="col" class="votiTipo"></td>
+			<th colspan="2" scope="col" class="voti2010">2010</th>
+			<th colspan="2" scope="col" class="voti2005">2005</th>
+		</tr>
+	  </thead>
+	  <tfoot>
+		<tr>
+			<td colspan="5">Vorläufige Daten</td>
+		</tr>
+	  </tfoot>
+	<tbody>
+		<tr class="odd">
+			<th scope="row">
+			   Gültige Stimmzettel
+			</th>
+			<td>6.090 </td>
+			<td>92,0%</td>
+			<td>5.883</td>
+			<td>92,2%</td>
+		</tr>
+		<tr class="even">
+			<th scope="row">
+			Ungültige Stimmzettel
+			</th>
+			<td>531 </td>
+			<td>8,0%</td>
+			<td>496</td>
+			<td>7,8%</td>
+		</tr>
+		<tr class="even">
+			<th scope="row" class="subHeader">
+			    davon: Weiße Stimmzettel
+			</th>
+			<td>261 </td>
+			<td>3,9%</td>
+			<td>290</td>
+			<td>4,5%</td>
+		</tr>
+		<tr class="odd">
+			<th scope="row">
+			    Insgesamt ausgezählte Stimmzettel    
+			</th>
+			<td>6.621</td>
+			<td>100%</td>
+			<td>6.379</td>
+			<td>100%</td>
+		</tr>
+
+
+	</tbody>
+</table>
+            
+
+    </div>
+    <!-- end main -->
+  </div>
+  <!-- end content -->
+  <div id="footer">© 2010 Region Trentino - Südtirol | Realisierung Südtiroler Informatik AG</div>
+</div>
+</form>
+<!--end container -->
+<!--[if lte IE 7]></div><![endif]-->
+</body>
+</html>
+
+    
