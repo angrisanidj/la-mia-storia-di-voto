@@ -1,0 +1,462 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="pragma" content="no-cache"/>
+<meta http-equiv="expires" content="0"/>
+<meta name="product" content="Ascot Web Elezioni"/>
+<meta name="copyright" content="Copyright &copy; 2010, Insiel Mercato S.p.A."/>
+<meta name="rights" content="All rights reserved"/>
+<meta name="author" content="Insiel Mercato S.p.A."/>
+<link rel="stylesheet" media="screen" href="../../css/frontend.css" />
+<title>Elezioni Amministrative Trentino Alto Adige - Risultati</title>
+<!--[if IE 6]>
+<link rel="stylesheet" media="screen" href="../../css/ie6.css" />
+<![endif]-->
+<!--[if IE 7]>
+<link rel="stylesheet" media="screen" href="../../css/ie7.css" />
+<![endif]-->
+<!--[if IE 8]>
+<link rel="stylesheet" media="screen" href="../../css/ie8.css" />
+<![endif]-->
+</head>
+
+<body>
+
+<div id="container">
+    <div id="header">
+    	<div id="intestazione">
+        	<div id="logo_elezioni">
+            	<a href="http://www.regione.taa.it/Elettorale/modulistica.aspx" target="_blank" title="vai al sito delle elezioni del Trentino Alto Adige"><img src="../../img/logo_elezioni.jpg" alt="Logo elezioni" /></a>
+            	<a href="http://www.regione.taa.it/" target="_blank" title="vai al sito del Trentino Alto Adige">Vai al sito</a>
+            </div>
+            <div id="box_tit">
+            	<div id="titolo">Regione autonoma <span class="enfasi">Trentino Alto Adige</span></div>
+                <div id="sottotitolo">Copyright Regione Autonoma Trentino-Alto Adige/Südtirol</div>
+        </div>
+            <div id="credits">Servizi realizzati da Informatica Trentina S.p.A. in collaborazione con <span>Insiel Mercato S.p.A.</span></div>
+            <div class="stabilizzatore"></div>
+        </div>
+    	<div id="element_header">
+            
+            <ul id="navigation">
+       	    	<li>
+                    
+                    <a href="../../index.html" title="vai alla home page">
+                        <span >Home</span></a>
+                    
+                </li>
+                <li  class="hidden">
+                    <a  href="000053_Com/Affluenza/index_A.html"  title="vai al riepilogo delle affluenze">
+                        <span >Riepilogo Affluenze</span></a>
+                </li>
+                <li  class="hidden">
+                    <a href="index.html"  title="vai al ballottaggio">
+                        <span>Ballottaggio</span></a>
+                </li>
+                <li >
+                    <a  href="../Candidature/000134.html"  title="vai alle candidature">
+                        <span >Candidature</span></a>
+                </li>
+                <li >
+                    <a  href="../Affluenza/000134.html"  title="vai all'affluenza">
+                        <span >Affluenza</span></a>
+                </li>
+                <li >
+                    <a  href="../Coalizioni/000134.html"  title="vai alla pagina del sindaco">
+                        <span >Sindaco</span></a>
+                </li>
+                <li >
+                    <a  href="000134.html"  title="vai alle liste">
+                        <span  id="selected" >Liste</span></a>
+                </li>
+                <li >
+                    <a  href="../Seggi/000134.html"  title="vai alla distribuzione dei seggi">
+                        <span >Distribuzione dei Seggi</span></a>
+                </li>
+                <li >
+                    <a  href="../Consiglio/000134.html"  title="vai alla composizione del consiglio">
+                        <span >Composizione Consiglio</span></a>
+                </li>
+            </ul>
+                
+          <div id="etichetta_header">Elezioni amministrative<br /><span>16 Maggio 2010</span></div>
+          <div id="box_tipo_risultati_e_dati_andamento">
+            	<div id="tipo_risultati">Risultati ufficiosi</div>
+                <div id="dati_andamento">Ultima rilevazione: 18 maggio 2010 12:11</div>
+                <div class="stabilizzatore"></div>
+          </div>
+      </div>
+    </div>
+	<div id="content">
+
+
+
+ 
+
+
+<div id="container_liste">
+<div class="scritte_top">
+    <div id="sezioni">Sezioni rilevate: 9 su 9</div>
+</div>
+<table class="intestazione">
+  <tr class="intestazione_tabella">
+    <td class="borderless_orriz_top borderless_orriz_bottom">Risultati di Lista - Comune di Mori</td>
+  </tr>
+</table>
+
+
+
+        <table class="tabella_liste">
+            <tr class="intestazione_colonna">
+                <td colspan="3">Risultati anno 2010</td>
+            </tr>
+            <tr>
+                <td>Liste</td>
+                <td colspan="2">Voti</td>
+            </tr>
+
+            <tr>
+                <td class="align space width_col_1">
+                    <img height="40" width="40" src="../../FotoSimboli/53/134/sim_1581.gif" title="PARTITO DEMOCRATICO DEL TRENTINO" alt="simbolo" align="left"/>
+                    PARTITO DEMOCRATICO DEL TRENTINO &nbsp;
+                    <br />
+                    
+                    <a href="000134_001581.html">Preferenze</a>
+                </td>
+                <td class="width_col_2">
+                    912
+               </td>
+               <td class="width_col_3 align">
+               
+                        <img src="../../img/percent_bar.jpg" width="18%" height="28" alt="Barra percentuale" class="percent_bar" align="middle" /> 18,11 %
+                    
+               </td>
+           </tr>
+
+            <tr>
+                <td class="align space width_col_1">
+                    <img height="40" width="40" src="../../FotoSimboli/53/134/sim_1580.gif" title="LEGA NORD TRENTINO" alt="simbolo" align="left"/>
+                    LEGA NORD TRENTINO &nbsp;
+                    <br />
+                    
+                    <a href="000134_001580.html">Preferenze</a>
+                </td>
+                <td class="width_col_2">
+                    897
+               </td>
+               <td class="width_col_3 align">
+               
+                        <img src="../../img/percent_bar.jpg" width="18%" height="28" alt="Barra percentuale" class="percent_bar" align="middle" /> 17,82 %
+                    
+               </td>
+           </tr>
+
+            <tr>
+                <td class="align space width_col_1">
+                    <img height="40" width="40" src="../../FotoSimboli/53/134/sim_1582.gif" title="INSIEME CON ROBERTO CALIARI SINDACO" alt="simbolo" align="left"/>
+                    INSIEME CON ROBERTO CALIARI SINDACO &nbsp;
+                    <br />
+                    
+                    <a href="000134_001582.html">Preferenze</a>
+                </td>
+                <td class="width_col_2">
+                    777
+               </td>
+               <td class="width_col_3 align">
+               
+                        <img src="../../img/percent_bar.jpg" width="15%" height="28" alt="Barra percentuale" class="percent_bar" align="middle" /> 15,43 %
+                    
+               </td>
+           </tr>
+
+            <tr>
+                <td class="align space width_col_1">
+                    <img height="40" width="40" src="../../FotoSimboli/53/134/sim_1579.gif" title="CIVITAS MORI" alt="simbolo" align="left"/>
+                    CIVITAS MORI &nbsp;
+                    <br />
+                    
+                    <a href="000134_001579.html">Preferenze</a>
+                </td>
+                <td class="width_col_2">
+                    655
+               </td>
+               <td class="width_col_3 align">
+               
+                        <img src="../../img/percent_bar.jpg" width="13%" height="28" alt="Barra percentuale" class="percent_bar" align="middle" /> 13,01 %
+                    
+               </td>
+           </tr>
+
+            <tr>
+                <td class="align space width_col_1">
+                    <img height="40" width="40" src="../../FotoSimboli/53/134/sim_1585.gif" title="PATT" alt="simbolo" align="left"/>
+                    PARTITO AUTONOMISTA TRENTINO TIROLESE &nbsp;
+                    <br />
+                    
+                    <a href="000134_001585.html">Preferenze</a>
+                </td>
+                <td class="width_col_2">
+                    559
+               </td>
+               <td class="width_col_3 align">
+               
+                        <img src="../../img/percent_bar.jpg" width="11%" height="28" alt="Barra percentuale" class="percent_bar" align="middle" /> 11,10 %
+                    
+               </td>
+           </tr>
+
+            <tr>
+                <td class="align space width_col_1">
+                    <img height="40" width="40" src="../../FotoSimboli/53/134/sim_1588.gif" title="UNIONE PER MORI" alt="simbolo" align="left"/>
+                    UNIONE PER MORI &nbsp;
+                    <br />
+                    
+                    <a href="000134_001588.html">Preferenze</a>
+                </td>
+                <td class="width_col_2">
+                    340
+               </td>
+               <td class="width_col_3 align">
+               
+                        <img src="../../img/percent_bar.jpg" width="7%" height="28" alt="Barra percentuale" class="percent_bar" align="middle" /> 6,75 %
+                    
+               </td>
+           </tr>
+
+            <tr>
+                <td class="align space width_col_1">
+                    <img height="40" width="40" src="../../FotoSimboli/53/134/sim_1584.gif" title="PER LA NOSTRA TERRA - VERDI - società e ambiente" alt="simbolo" align="left"/>
+                    PER LA NOSTRA TERRA - VERDI - SOCIETÀ E AMBIENTE &nbsp;
+                    <br />
+                    
+                    <a href="000134_001584.html">Preferenze</a>
+                </td>
+                <td class="width_col_2">
+                    307
+               </td>
+               <td class="width_col_3 align">
+               
+                        <img src="../../img/percent_bar.jpg" width="6%" height="28" alt="Barra percentuale" class="percent_bar" align="middle" /> 6,10 %
+                    
+               </td>
+           </tr>
+
+            <tr>
+                <td class="align space width_col_1">
+                    <img height="40" width="40" src="../../FotoSimboli/53/134/sim_1583.gif" title="IL POPOLO DELLA LIBERTA'" alt="simbolo" align="left"/>
+                    IL POPOLO DELLA LIBERTA' &nbsp;
+                    <br />
+                    
+                    <a href="000134_001583.html">Preferenze</a>
+                </td>
+                <td class="width_col_2">
+                    217
+               </td>
+               <td class="width_col_3 align">
+               
+                        <img src="../../img/percent_bar.jpg" width="4%" height="28" alt="Barra percentuale" class="percent_bar" align="middle" /> 4,31 %
+                    
+               </td>
+           </tr>
+
+            <tr>
+                <td class="align space width_col_1">
+                    <img height="40" width="40" src="../../FotoSimboli/53/134/sim_1586.gif" title="UDC - AIT - UNITI PER MORI" alt="simbolo" align="left"/>
+                    UDC - AIT - UNITI PER MORI &nbsp;
+                    <br />
+                    
+                    <a href="000134_001586.html">Preferenze</a>
+                </td>
+                <td class="width_col_2">
+                    176
+               </td>
+               <td class="width_col_3 align">
+               
+                        <img src="../../img/percent_bar.jpg" width="3%" height="28" alt="Barra percentuale" class="percent_bar" align="middle" /> 3,50 %
+                    
+               </td>
+           </tr>
+
+            <tr>
+                <td class="align space width_col_1">
+                    <img height="40" width="40" src="../../FotoSimboli/53/134/sim_1587.gif" title="IDEA MORI" alt="simbolo" align="left"/>
+                    IDEA MORI &nbsp;
+                    <br />
+                    
+                    <a href="000134_001587.html">Preferenze</a>
+                </td>
+                <td class="width_col_2">
+                    123
+               </td>
+               <td class="width_col_3 align">
+               
+                        <img src="../../img/percent_bar.jpg" width="2%" height="28" alt="Barra percentuale" class="percent_bar" align="middle" /> 2,44 %
+                    
+               </td>
+           </tr>
+
+            <tr>
+                <td class="align space width_col_1">
+                    <img height="40" width="40" src="../../FotoSimboli/53/134/sim_1589.gif" title="LISTA CIVICA VIVIMORI CON LE FRAZIONI" alt="simbolo" align="left"/>
+                    LISTA CIVICA VIVIMORI CON LE FRAZIONI &nbsp;
+                    <br />
+                    
+                    <a href="000134_001589.html">Preferenze</a>
+                </td>
+                <td class="width_col_2">
+                    72
+               </td>
+               <td class="width_col_3 align">
+               
+                        <img src="../../img/percent_bar.jpg" width="1%" height="28" alt="Barra percentuale" class="percent_bar" align="middle" /> 1,43 %
+                    
+               </td>
+           </tr>
+
+</table>
+<table class="tabella_elez_prec">
+    <tr>
+        <td colspan="2" class="intestazione_colonna elez_prec">Risultati elezioni precedenti</td>
+    </tr>
+    <tr>
+        <td class="width_col_4 elez_prec_liste">Liste</td>
+        <td class="width_col_5 elez_prec_voti">Voti %</td>
+    </tr>
+
+        <tr>
+            <td class="align elez_prec_liste">
+                
+             <img height="40" width="40" src="../../FotoSimboli/2005/022123mori_lista8.jpg" alt="simbolo" align="left"/>
+             CIVICA PER MORI E FRAZIONI
+            </td>
+            <td>20,04 %</td>
+        </tr>
+      
+        <tr>
+            <td class="align elez_prec_liste">
+                
+             <img height="40" width="40" src="../../FotoSimboli/2005/022123mori_lista10.jpg" alt="simbolo" align="left"/>
+             CIVITAS NUOVA MORI
+            </td>
+            <td>19,56 %</td>
+        </tr>
+      
+        <tr>
+            <td class="align elez_prec_liste">
+                
+             <img height="40" width="40" src="../../FotoSimboli/2005/022123mori_lista1.jpg" alt="simbolo" align="left"/>
+             AUTONOMISTI PER MORI
+            </td>
+            <td>14,09 %</td>
+        </tr>
+      
+        <tr>
+            <td class="align elez_prec_liste">
+                
+             <img height="40" width="40" src="../../FotoSimboli/2005/022123mori_lista6.jpg" alt="simbolo" align="left"/>
+             PROGETTO PER MORI
+            </td>
+            <td>12,32 %</td>
+        </tr>
+      
+        <tr>
+            <td class="align elez_prec_liste">
+                
+             <img height="40" width="40" src="../../FotoSimboli/2005/022123mori_lista2.jpg" alt="simbolo" align="left"/>
+             POPOLARI PER MORI
+            </td>
+            <td>7,86 %</td>
+        </tr>
+      
+        <tr>
+            <td class="align elez_prec_liste">
+                
+             <img height="40" width="40" src="../../FotoSimboli/2005/022123mori_lista9.jpg" alt="simbolo" align="left"/>
+             ALLEANZA NAZIONALE
+            </td>
+            <td>7,42 %</td>
+        </tr>
+      
+        <tr>
+            <td class="align elez_prec_liste">
+                
+             <img height="40" width="40" src="../../FotoSimboli/2005/022123mori_lista5.jpg" alt="simbolo" align="left"/>
+             UNITI PER MORI
+            </td>
+            <td>6,12 %</td>
+        </tr>
+      
+        <tr>
+            <td class="align elez_prec_liste">
+                
+             <img height="40" width="40" src="../../FotoSimboli/2005/022123mori_lista4.jpg" alt="simbolo" align="left"/>
+             LEALI AL TRENTINO
+            </td>
+            <td>5,74 %</td>
+        </tr>
+      
+        <tr>
+            <td class="align elez_prec_liste">
+                
+             <img height="40" width="40" src="../../FotoSimboli/2005/022123mori_lista3.jpg" alt="simbolo" align="left"/>
+             VERDI E DEMOCRATICI PER L'ULIVO
+            </td>
+            <td>4,59 %</td>
+        </tr>
+      
+        <tr>
+            <td class="align elez_prec_liste">
+                
+             <img height="40" width="40" src="../../FotoSimboli/2005/022123mori_lista7.jpg" alt="simbolo" align="left"/>
+             CARA MORI
+            </td>
+            <td>2,26 %</td>
+        </tr>
+      
+</table>
+
+<table class="tabella_schede">
+    <tr class="intestazione_tabella">
+	<td class="width_col_1 borderless_orriz_top">
+	Schede bianche: 22
+	</td>
+	<td class="width_col_2 borderless_orriz_top">
+	Schede nulle: 78
+	</td>
+	<td class="width_col_3 borderless_orriz_top">
+	Schede contestate e non assegnate: 0
+	</td>
+    </tr>
+    <tr class="intestazione_colonna">
+	<td colspan="3">
+            Totale voti validi: 5.035
+        </td>
+    </tr>
+</table>
+
+</div><!--CONTAINER LISTE -->
+
+    </div>
+	<div id="footer">
+    	<div>Regione Autonoma Trentino Alto Adige - Ripartizione II Ufficio Elettorale - <a href="../../accessibilita.html" title="conformità del sito rispetto alla legge Stanca">Conformità del sito</a> delle elezioni della Regione Trentino Alto Adige rispetto alle linee guida della Legge N.4 9 gennaio 2004</div>
+    </div>
+</div>
+</body>
+</html>
+
