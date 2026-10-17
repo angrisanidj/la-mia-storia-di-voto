@@ -478,6 +478,7 @@ function partitoDaLista(nome) {
   }
   const k = norm(nome);
   for (const [n, l] of INDICE_PARTITI) if (k === n || (n.length >= 3 && k.startsWith(n + ' '))) return { ...l, pieno: true };
+  for (const el of Object.values(typeof PARTITI_NAZIONALI !== 'undefined' ? PARTITI_NAZIONALI : {})) for (const l of el.liste) if (l.b && l.b.length === 2 && k === norm(l.b)) return { ...l, pieno: true };
   for (const [n, l] of INDICE_PARTITI) if (n.length > 8 && k.includes(n)) return l;
   return null;
 }
@@ -493,7 +494,9 @@ function candidatiReali(o) {
   if (!grezzi || !grezzi.length) return null;
   // nell'archivio alcuni apostrofi arrivano come «?» o carattere sostitutivo
   const pulisci = t => (t || '').replace(/(\p{L})[?\uFFFD\u0092](\p{L})/gu, "$1'$2");
-  let out = grezzi.map(([nome, pct, liste, area]) => ({ nome: nome ? titoloNome(pulisci(nome)) : null, pct, area, liste: (liste || []).map(([n, p]) => ({ n: titoloNome(pulisci(n)), p, partito: partitoDaLista(pulisci(n)) })) }));
+  let out = grezzi.map(([nome, pct, liste, area]) => ({ nome: nome ? titoloNome(pulisci(nome)) : null, pct, area,
+    // nell'archivio la somma delle liste compare come riga «Totale coalizione»: non è una lista
+    liste: (liste || []).filter(([n]) => !/^\s*totale\b/i.test(n || '')).map(([n, p]) => ({ n: titoloNome(pulisci(n)), p, partito: partitoDaLista(pulisci(n)) })) }));
   if (o.tipo === 'bal') out = out.filter(c => c.nome).sort((a, b) => (b.pct || 0) - (a.pct || 0)).slice(0, 2);
   return out;
 }
@@ -502,7 +505,8 @@ function emojiCandidato(c) {
   const area = c.area || (typeof areaCandidato === 'function' ? areaCandidato(c) : null);
   if (area && (c.area || ['sinistra', 'centrosinistra', 'centro', 'centrodestra', 'destra'].includes(area)) && typeof COLORE_AREA !== 'undefined' && COLORE_AREA[area]) return COLORE_AREA[area];
   const prima = [...c.liste].sort((a, b) => (b.p || 0) - (a.p || 0)).find(l => l.partito);
-  return prima ? emojiDi(prima.partito) : '⚪';
+  // senza nessun partito riconoscibile è un candidato civico: viola, come le liste civiche
+  return prima ? emojiDi(prima.partito) : '🟣';
 }
 const breveLista = l => l.partito && l.partito.b && l.partito.pieno ? l.partito.b : (l.n.length > 44 ? l.n.slice(0, 42) + '…' : l.n);
 const emojiLista = (l, c) => l.partito ? emojiDi(l.partito) : emojiCandidato(c);

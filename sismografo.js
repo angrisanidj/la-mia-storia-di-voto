@@ -31,6 +31,9 @@ function areaCandidato(c) {
   if (c.area) return c.area;
   const peso = {};
   for (const l of c.liste || []) { const a = l.partito && areaDi(l.partito); if (a) peso[a] = (peso[a] || 0) + (l.p || 1); }
+  // sostenuto da partiti di entrambi i poli, ciascuno con almeno un quarto dei voti dei poli: candidato trasversale, al centro
+  const sx = (peso.sinistra || 0) + (peso.centrosinistra || 0), dx = (peso.destra || 0) + (peso.centrodestra || 0);
+  if (sx && dx && Math.min(sx, dx) >= 0.25 * (sx + dx)) return 'centro';
   // in coalizione con partiti dei due poli (es. M5S con il PD) conta lo schieramento del polo
   const top = Object.entries(peso).sort((x, y) => (y[0] in ASSE) - (x[0] in ASSE) || y[1] - x[1])[0];
   return top ? top[0] : null;
