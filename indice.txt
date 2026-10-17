@@ -1,0 +1,4 @@
+001 http://web.archive.org/cdx/search/cdx?fl=timestamp,original,statuscode&collapse=urlkey&limit=5000&url=www3.comune.rovereto.tn.it/*&filter=!original:.*doc_candidati.*
+002 http://web.archive.org/web/20240603165952id_/https://www3.comune.rovereto.tn.it/elezioni-trasparenti/electo/extra/elenchi_trasparenza/0/L
+003 http://web.archive.org/web/20240603155620id_/https://www3.comune.rovereto.tn.it/elezioni-trasparenti/electo/extra/elenchi_trasparenza/0/C
+004 http://web.archive.org/web/20240603183513id_/https://www3.comune.rovereto.tn.it/elezioni-trasparenti/

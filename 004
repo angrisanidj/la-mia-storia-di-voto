@@ -1,0 +1,167 @@
+
+<!doctype html>
+<html lang="it">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="extramedia/electo/bootstrap_ita/css/bootstrap-italia.min.css">
+
+        <!-- override css -->
+        <!-- override larghezza voci menu -->
+<style>
+    .dropdown-menu {min-width: 18rem;}
+</style>
+
+<!-- override colore warning -->
+<style>
+    .bg-warning {background-color: #EEB700 !important;}
+    .bg-success-lite {background-color: #92BA80 !important;}
+    .bg-warning-lite {background-color: #EDE284 !important;}
+    .bg-danger-lite {background-color: #FCC7C7 !important;}
+    .bg-primary-lite {background-color: #86CFF9 !important;}
+    
+</style>
+
+<!-- override altezza form-group -->
+<style>
+    .form-group {margin-bottom: 1.5em;}
+    .form-control {border: 1px solid #878787;}
+</style>
+
+<!-- override body font -->
+<style>
+    body, html {
+        font-size: 15px;
+        line-height: 1.2;
+    }
+</style>
+
+<style>
+    small.piccolissimo {font-size: 0.6em;}
+    supersmall {font-size: 0.6em;}
+    span.label {position: absolute;
+            color: #435a70;
+            font-size: .7778rem;
+            display: block;
+            font-weight: 600;
+            padding: 0 .5rem;
+            line-height: calc(2.5rem - 1px);
+            top: 0;
+            -webkit-transform: translateY(-75%);
+            transform: translateY(-75%);
+        }
+</style>
+
+
+        
+    </head>
+    
+    
+    <body>
+    
+        <div class="it-header-slim-wrapper">
+            <div class="container">
+                
+                <div class="row">
+                    <div class="col-12">
+                        <div class="it-header-slim-wrapper-content">
+                            
+    <h2><a class="d-none d-lg-block navbar-brand" href="index.html">COMUNE DI ROVERETO - elezioni trasparenti</a></h2>
+
+
+                            
+
+                            
+                            <!-- menu principale dell'applicativo  -->
+                            
+
+
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+
+
+        
+        
+<br>
+<br>
+
+        
+        
+    <span id="top"></span>
+    <div class="row">
+        <div class="col-md-1" align="center">
+            &nbsp;
+        </div>
+        <div class="col-md-1" align="center">
+            <a class="btn btn-info btn-sm" href="electo/extra/elenchi_trasparenza/0/S">Candidati sindaco</a> <br><br>
+        </div>
+        <div class="col-md-1" align="center">
+            <a class="btn btn-primary btn-sm" href="electo/extra/elenchi_trasparenza/0/L">Liste comunali</a> <br><br>
+        </div>
+        <div class="col-md-1" align="center">
+            <a class="btn btn-primary btn-sm" href="electo/extra/elenchi_trasparenza/1/L">Circoscr. Centro</a> <br><br>
+        </div>
+        <div class="col-md-1" align="center">
+            <a class="btn btn-primary btn-sm" href="electo/extra/elenchi_trasparenza/2/L">Circoscr. Nord</a> <br><br>
+        </div>
+        <div class="col-md-1" align="center">
+            <a class="btn btn-primary btn-sm" href="electo/extra/elenchi_trasparenza/3/L">Circoscr. Sacco S.Giorgio</a> <br><br>
+        </div>
+        <div class="col-md-1" align="center">
+            <a class="btn btn-primary btn-sm" href="electo/extra/elenchi_trasparenza/4/L">Circoscr. Sud</a> <br><br>
+        </div>
+        <div class="col-md-1" align="center">
+            <a class="btn btn-primary btn-sm" href="electo/extra/elenchi_trasparenza/5/L">Circoscr. Lizzana Mori Ferrovia</a> <br><br>
+        </div>
+        <div class="col-md-1" align="center">
+            <a class="btn btn-primary btn-sm" href="electo/extra/elenchi_trasparenza/6/L">Circoscr. Marco</a> <br><br>
+        </div>
+        <div class="col-md-1" align="center">
+            <a class="btn btn-primary btn-sm" href="electo/extra/elenchi_trasparenza/7/L">Circoscr. Noriglio</a> <br><br>
+        </div>
+        <div class="col-md-1" align="center">
+            <a class="btn btn-info btn-sm" href="electo/extra/elenchi_trasparenza/0/C">Elenco completo dei candidati</a> <br><br>
+        </div>
+    </div>
+    <hr>
+    
+        
+            
+                <h3 align="center">Elezioni trasparenti</h3>
+                <h5 align="center">scegliere una sezione per ottenere informazioni in merito a curriculum vitae e certificato penale dei candidati</h5>
+             
+         
+        <hr>
+        
+        
+     
+    
+    
+
+
+        
+        <div class="fixed-bottom">
+            
+            
+        </div>
+        
+
+    <!-- JS -->
+    <script src="extramedia/electo/bootstrap_ita/js/bootstrap-italia.bundle.min.js"></script>
+    
+    
+
+    
+    
+    
+
+  </body>
+</html>
