@@ -1,0 +1,2 @@
+001 http://web.archive.org/cdx/search/cdx?fl=original,timestamp,statuscode,length&limit=200&url=www.regione.taa.it/Elettorale/Comunali.aspx
+002 http://web.archive.org/cdx/search/cdx?fl=original,timestamp,statuscode,length&limit=200&url=www.regione.taa.it/elezioni/dati/*&filter=statuscode:200&collapse=urlkey
