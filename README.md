@@ -25,6 +25,7 @@ Tutto avviene nel browser. La pagina non usa cookie né `localStorage`, non invi
 | `dati/provinciali-wiki.js` | Provinciali dirette 1993-2003 e di Sicilia e Friuli-Venezia Giulia, da it.wikipedia.org |
 | `dati/referendum.js` | Quesiti dei referendum e percentuale dei Sì di ciascuno |
 | `fonti/` | Dati di partenza in JSON, con l'indicazione delle fonti |
+| `fonti/sicilia-regione/` | Pagine del sito elettorale della Regione Siciliana (www.elezioni.regione.sicilia.it, che non risponde dall'estero) da cui `strumenti/candidati_sicilia.py` ricava `strumenti/candidati-sicilia-regione.json` |
 
 I dati grezzi con le fonti (URL per ogni elezione) sono in `fonti/`: i file in `dati/` ne sono la versione compatta.
 

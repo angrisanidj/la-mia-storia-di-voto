@@ -38,8 +38,10 @@ dati/comunali.js). Nomi da «COGNOME NOME» a «Nome Cognome»; area lasciata a 
 Dall'Italia il sito risponde, e le pagine si possono scaricare direttamente: in PAGINE/indice.json gli indirizzi diretti
 (http://www.elezioni.regione.sicilia.it/comunaliAAAA/primoTurno/PR/ReportRisultatiPRnnn.html) valgono come quelli della
 Wayback Machine, con gli stessi controlli, e la fonte è l'indirizzo diretto. WIKI = «-» salta Wikipedia, --uscita FILE
-scrive su un altro file:
-    python strumenti/candidati_sicilia.py PAGINE - strumenti/sicilia-da-scaricare.json --uscita strumenti/candidati-sicilia-regione.json
+scrive su un altro file. Le pagine delle 86 elezioni di strumenti/sicilia-da-scaricare.json (con gli indici provinciali
+da cui vengono i numeri dei comuni) sono conservate in fonti/sicilia-regione, perché il file si possa rigenerare anche
+da dove il sito non risponde:
+    python strumenti/candidati_sicilia.py fonti/sicilia-regione - strumenti/sicilia-da-scaricare.json --uscita strumenti/candidati-sicilia-regione.json
 """
 import os, re, sys, json, html, glob, tempfile, subprocess, unicodedata, collections, datetime as dt
 
