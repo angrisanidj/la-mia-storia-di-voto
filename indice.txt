@@ -1,0 +1,1 @@
+001 http://web.archive.org/cdx/search/cdx?url=regione.fvg.it&matchType=domain&filter=original:.*[Ee]lez.*&from=1999&to=2007&fl=original,timestamp,statuscode&collapse=urlkey&limit=3000
