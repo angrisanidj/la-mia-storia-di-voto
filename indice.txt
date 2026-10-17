@@ -1,0 +1,8 @@
+001 http://web.archive.org/cdx/search/cdx?fl=original,timestamp,statuscode&collapse=urlkey&limit=3000&url=comune.pergine.tn.it&matchType=domain&filter=original:.*lezion.*
+002 http://web.archive.org/cdx/search/cdx?fl=original,timestamp,statuscode&collapse=urlkey&limit=3000&url=comune.rivadelgarda.tn.it&matchType=domain&filter=original:.*lezion.*
+003 http://web.archive.org/cdx/search/cdx?fl=original,timestamp,statuscode&collapse=urlkey&limit=3000&url=comune.arco.tn.it&matchType=domain&filter=original:.*lezion.*
+004 http://web.archive.org/cdx/search/cdx?fl=original,timestamp,statuscode&collapse=urlkey&limit=3000&url=comune.mori.tn.it&matchType=domain&filter=original:.*lezion.*
+005 http://web.archive.org/web/20150501174557id_/http://www.comune.rovereto.tn.it:80/Elezioni-e-referendum/Elezioni-precedenti/Amministrative-2010/Risultati-del-primo-turno
+006 http://web.archive.org/web/20150516091610id_/http://www.comune.rovereto.tn.it:80/Elezioni-e-referendum/Elezioni-comunali-e-circoscrizionali-2015/Liste-candidati-e-risultati/Elezione-del-Sindaco-e-del-Consiglio-comunale
+007 http://web.archive.org/web/20240615045925id_/https://www.comune.rovereto.tn.it/Novita/Avvisi/Elezioni-amministrative
+008 http://web.archive.org/web/20240603183513id_/https://www3.comune.rovereto.tn.it/elezioni-trasparenti/
