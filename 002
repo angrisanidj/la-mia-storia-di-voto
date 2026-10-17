@@ -1,0 +1,376 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
+<head>
+	<title>Sistema delle autonomie locali - Approfondimenti</title>
+	<meta name="description" content="Studi e ricerche" />
+	<meta name="keywords" content="" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="robots" content="index, follow" />
+	<meta name="revisit-after" content="7 days" />
+	<meta http-equiv="pragma" content="no-cache" /> 
+	<meta http-equiv="Cache-Control" content="no-cache" /> 
+	<meta http-equiv="expires" content="0" />
+
+	<!-- INSERIMENTO TAG MONITORAGGIO HEAD -->
+	<!-- Cookie Consent by https://www.PrivacyPolicies.com -->
+	<link href="/aall/export/system/modules/it.insiel.autonomielocali.new/resources/css/cookie-consent.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="/aall/export/system/modules/it.insiel.autonomielocali.new/resources/js/cookie-consent-nostyle.js" charset="UTF-8"></script>
+	<script type="text/javascript" charset="UTF-8">
+	document.addEventListener('DOMContentLoaded', function () {
+		cookieconsent.run({"notice_banner_type":"simple","consent_type":"express","palette":"dark","language":"it","page_load_consent_levels":["strictly-necessary"],"notice_banner_reject_button_hide":false,"preferences_center_close_button_hide":false,"page_refresh_confirmation_buttons":true,"website_name":"Sistema delle autonomie locali","website_privacy_policy_url":"https://www.regione.fvg.it/rafvg/cms/RAFVG/privacy/"});
+	});
+	</script>
+	<script type="text/javascript">
+		var pageViewData = new Object();
+		//Eventuali variabili personalizzate
+	</script>
+	<script type="text/plain" cookie-consent="tracking" src="https://assets.adobedtm.com/fc6aa7b15a0e/f3cb9027e504/launch-4f3e1cf681e7.min.js" async></script>
+	<!-- FINE INSERIMENTO TAG MONITORAGGIO HEAD  -->
+
+<meta name="WT.cg_n" content="Elezioni   " />
+<meta name="DCS.dcsaut" content="Guest" />
+
+	
+	<link href="/aall/opencms/system/modules/it.insiel.autonomielocali.new/resources/css/style.css?preset=/AALL/_config_/layout/twocolumsNoMenu&amp;style=/AALL/_config_/layout/styleAALL" rel="stylesheet" type="text/css" />
+
+	<!-- insert individual stylesheet -->
+	<link rel="stylesheet" type="text/css" href="/aall/export/system/modules/it.insiel.autonomielocali.new/resources/style/style.css" media="all" title="stile browser" />
+<link href="/aall/export/sites/default/AALL/_config_/css/print.css" rel="stylesheet" type="text/css" media="print" /><script type="text/javaScript" src="/aall/opencms/AALL/_config_/js/script.js"></script>
+	<script src="/aall/export/templateone/resources/page.js" type="text/javascript"></script>
+	</head>
+<body onload="inizializza();ColoraRighe();">
+<div id="window">
+	<div id="page">
+		<div id="container">
+			<!-- begin: header -->
+		    <div id="headerAccessibilita">	    
+		    	<div id="topnav">
+		    		</div>
+		    	<div class="invisibile">
+<div class="accessibilita">
+<ul class="inlinea">
+    <li><a href="#skip">Salta al contenuto</a></li>
+    <li><a href="#menutematiche">Salta al menù aree tematiche</a></li>
+    <li><a href="#menu">Salta al menù </a></li>
+    <li><a href="#menufooter">Salta al menù fondo pagina</a></li>
+</ul>
+</div>
+</div>
+<!-- barra FVG -->
+<div class="barrafvg"><a name="top"></a>
+<div class="container-barrafvg">
+<div class="wrapper-content-barrafvg"><a class="barrafvg-brand d-none d-lg-block blank" href="http://www.regione.fvg.it" aria-label="vai al sito della Regione Autonoma Friuli Venezia Giulia">                       <img src="/aall/export/sites/default/assets/images-loghi-RegioneFVG/logo-Barra-FVG.png" alt="logo: Regione FVG" />                       </a>
+<div class="fvg-mobile"><a class="barrafvg-brand" href="http://www.regione.fvg.it" aria-label="vai al sito della Regione Autonoma Friuli Venezia Giulia">                                   <img src="/aall/export/sites/default/assets/images-loghi-RegioneFVG/logo-Barra-FVG.png" alt="logo: Regione FVG" />                               </a></div>
+</div>
+<div><!-- // --></div>
+</div>
+<div class="separa"><!-- --></div>
+</div>
+<div id="header">
+<div class="headerUP">
+<div class="headerUPSX">
+<div class="contenitoreHeaderUPSX">
+<ul>
+    <li><a title="home" href="/aall/opencms/AALL/">home</a></li>
+    <li><a title="contatti" href="/aall/opencms/AALL/Servizi/contatti/">contatti</a></li>
+    <li><a title="mappa del sito" href="/aall/opencms/AALL/Servizi/mappa.jsp">mappa del sito</a></li>
+    <li><img alt="" src="/aall/export/sites/default/AALL/_config_/img/lucchetto.gif" /> <strong><a title="area riservata" href="/aall/opencms/AALL/area_riservata/">area riservata</a></strong></li>
+</ul>
+</div>
+</div>
+<div class="headerUPDX">
+<div class="contenitoreHeaderUPDX">
+<div class="invisibile">
+<h1>Ricerca nel portale</h1>
+<div class="separa"><!-- // --></div>
+</div>
+<form id="frmCerca" method="post" action="/aall/opencms/AALL/Servizi/ricerca.html">
+    <div>
+    <p><input type="hidden" name="action" value="search" /> <input type="hidden" name="searchPage" value="1" /> <input type="hidden" name="index" value="Online project IT (VFS)" /> <label for="cerca">cerca nel sito</label></p>
+    <input id="cerca" class="ricerca" name="query" type="text" /> <input id="submit" class="buttonRicerca" type="submit" name="startsearch" value="&gt;" /></div>
+</form>
+</div>
+</div>
+</div>
+<div class="headerDOWN">
+<div class="headerDOWNSX">
+<div class="contenitoreHeaderDOWNSX">
+<div class="invisibile">
+<h1>sistema delle autonomie locali</h1>
+</div>
+<a title="homepage del sistema delle autonomie locali" href="/aall/opencms/AALL/"><img alt="logo Autonomie Locali" src="/aall/export/sites/default/AALL/_config_/img/logoAutonomieLocali.jpg" /></a></div>
+</div>
+<div class="headerDOWNDX">
+<div class="contenitoreHeaderDOWNDX">
+<div class="invisibile">
+<h2>Menù servizi informativi</h2>
+<div class="separa"><!-- // --></div>
+</div>
+<ul>
+    <li><a title="consulenza agli enti locali" href="/aall/opencms/AALL/Servizi/pareri-2015/">consulenza agli enti locali</a></li>
+    <li><a title="biblioteca" href="/aall/opencms/AALL/Servizi/biblioteca/">biblioteca</a></li>
+    <li><a title="pubblicazioni" href="/aall/opencms/AALL/Servizi/pubblicazioni/">pubblicazioni</a></li>
+    <li><a title="Help online" target="_self" href="/aall/opencms/AALL/Help/index.html">help</a></li>
+    <li><a title="news" href="/aall/opencms/AALL/Servizi/news/index.html">news</a></li>
+    <li><a title="newsletter" href="/aall/opencms/AALL/Servizi/newsletter/">newsletter</a></li>
+    <li><a title="RSS" href="/aall/opencms/AALL/Servizi/rss/">RSS</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="invisibile">
+<h2>Aree tematiche</h2>
+<div class="separa"><!-- // --></div>
+</div></div>		
+			<!-- end: header -->
+			
+			<!-- begin: main navigation -->
+			<a id="menutematiche" name="menutematiche"></a>
+			<div class="menu">
+	<div class="menuColor">
+	<ul>
+			<li>
+				<a title="Informazioni generali" href="/aall/opencms/AALL/Informazioni_generali/" class="gradient">Informazioni generali</a>
+				
+				</li><li>
+				<a title="finanza locale" href="/aall/opencms/AALL/Finanza_locale/" class="gradient">finanza locale</a>
+				
+				</li><li>
+				<a title="Tributi locali" href="/aall/opencms/AALL/tributi_locali/" class="gradient">Tributi locali</a>
+				
+				</li><li>
+				<a title="elezioni" href="/aall/export/sites/default/AALL/Elezioni/" class="gradient current">elezioni</a>
+				
+				</li><li>
+				<a title="polizia locale e sicurezza" href="/aall/opencms/AALL/Polizia_Locale_e_sicurezza/" class="gradient">polizia locale e sicurezza</a>
+				
+				</li><li>
+				<a title="Forme Collaborative" href="/aall/opencms/AALL/Forme_Collaborative/" class="gradient">Forme Collaborative</a>
+				
+				</li><li>
+				<a title="fusioni di comuni" href="/aall/opencms/AALL/fusioni-comuni/" class="gradient">fusioni di comuni</a>
+				
+				</li><li>
+				<a title="Sindaci emeriti" href="/aall/opencms/AALL/Sindaci_emeriti/" class="gradient">Sindaci emeriti</a>
+				
+				</li><li>
+				<a title="Organo di revisione" href="/aall/opencms/AALL/Organo_di_revisione/" class="gradient">Organo di revisione</a>
+				
+				</li><li>
+				<a title="Centrale unica di committenza" href="/aall/opencms/AALL/CUC/" class="gradient">Centrale unica di committenza</a>
+				
+				</li>
+		</ul>
+	<div class="separa"><!-- // --></div>
+	</div>
+<div class="separa"><!-- // --></div>
+</div>
+<!-- end: main navigation -->
+			
+			<!-- begin: breadcrumb -->
+			<div class="briciole">
+				<ul class="briciole">
+
+<li><a href="/aall/opencms/AALL/" title="sistema delle autonomie locali">home</a></li>
+	
+	<li>&raquo;&nbsp;<a href="/aall/export/sites/default/AALL/Elezioni/" title="Elezioni">Elezioni</a>&nbsp;</li>
+<li>&raquo;&nbsp;<strong>Approfondimenti</strong></li>
+</ul>
+</div>
+			<!-- end: breadcrumb -->
+			
+			<!-- begin: content area #main -->
+			
+			<div id="contenuto">
+			
+			<div id="colonnaSX">
+				<div class="contenitoreColonnaSX">
+				<div class="ansa">
+				
+		
+			
+			<!-- begin: left column -->
+			<a id="menu" name="menu"></a>
+					<!-- include the left navigation menu -->
+						<!-- include the boxes on the left side -->
+						<div class="menuSezione">
+	<div class="menuSezioneMenu">
+	<h2 class="menuSezioneMenu1">Elezioni</h2><ul>
+		<li><a title="Elezioni comunali 2026" href="/aall/export/sites/default/AALL/Elezioni/elezioni2026/" >Elezioni comunali 2026</a>
+			
+			</li><li><a title="F.A.Q." href="/aall/opencms/AALL/Elezioni/faq/" >F.A.Q.</a>
+			
+			</li><li><a title="Scadenze elettorali" href="/aall/export/sites/default/AALL/Elezioni/scadenze/" >Scadenze elettorali</a>
+			
+			</li><li><a title="Risultati elettorali" href="/aall/export/sites/default/AALL/Elezioni/risultati/" >Risultati elettorali</a>
+			
+			</li><li><a title="Download risultati" href="/aall/export/sites/default/AALL/Elezioni/scarico_risultati/" >Download risultati</a>
+			
+			</li><li><a title="Guida alle elezioni comunali" href="/aall/export/sites/default/AALL/Elezioni/GuidaElezAmm/" >Guida alle elezioni comunali</a>
+			
+			</li><li><a title="Codice elettorale" href="/aall/export/sites/default/AALL/Elezioni/Codice_elettorale/" >Codice elettorale</a>
+			
+			</li><li><a title="Documentazione elezioni precedenti" href="/aall/export/sites/default/AALL/Elezioni/documentazione_elezioni_precedenti/" >Documentazione elezioni precedenti</a>
+			
+			</li><li>&gt; <a title="Approfondimenti" href="/aall/export/sites/default/AALL/Elezioni/Approfondimenti/" class="menuSelectedInterno">Approfondimenti</a>
+			
+			</li><li><a title="Anagrafe amministratori locali" href="/aall/export/sites/default/AALL/Elezioni/Anagrafe_amministratori/" >Anagrafe amministratori locali</a>
+			
+			<div class="separa"><!-- // --></div></li></ul>
+	
+	<div class="separa"><!-- // --></div>
+	
+	<div class="separa"><!-- // --></div>
+	</div>
+	
+	<div class="menuSezioneimmagine">
+	<img src="/aall/export/sites/default/AALL/_config_/img/immagineSezioneElezioni.jpg_822352132.jpg" width="178" height="288" alt="Elezioni" /><div class="separa"><!-- // --></div>
+	</div>
+<div class="separa"><!-- // --></div>
+</div><div class="box_schema1">
+
+	<div class="separa"><!-- // --></div>
+		</div><div class="box_schema3">
+
+	<div class="separa"><!-- // --></div>
+		</div><!-- end: left column -->
+				</div>
+				</div>
+			</div>				
+			
+			<!-- begin: right column -->
+
+					<!-- include the boxes on the right side -->
+					<!-- end: right column -->
+			
+			
+			<!-- begin: center column -->
+			<div id="centrale">
+				<div class="contenitoreCentrale">
+				<!--apertura-->
+					<!-- anchor for accessible link to main content -->
+					<a id="skip" name="skip"></a>
+					
+<div class="testoCentrale">
+<h2 class="testoCentraleTitolo">Approfondimenti</h2>
+<div class="separa"><!-- // --></div><p>In questa pagina del portale delle autonomie locali sono pubblicati gli approfondimenti del Servizio elettorale in materia di procedimento elettorale e analisi del voto.<br />
+Si possono distinguere due diversi tipi di approfondimento: quelli che riguardano i diversi aspetti del procedimento elettorale (ad esempio, le modalità operative degli uffici di sezione, il voto per corrispondenza, ecc.) e quelli che, con riferimento a singoli turni elettorali, si propongono di evidenziare il rendimento del sistema elettorale attraverso l&rsquo;esame degli effetti dallo stesso prodotti.<br />
+&nbsp;</p>
+<div id="essential_id_for_layout" style="position: fixed; width: 100%; height: 100%; inset: 0px; display: none; background-color: rgba(0, 0, 0, 0.3); z-index: 9999999; cursor: pointer;">&nbsp;</div><ul>
+<li><a class="blank" href="/aall/export/sites/default/AALL/Elezioni/Approfondimenti/allegati/Elezioni_provinciali_2014.pdf" title="Elezione del Consiglio provinciale di Pordenone 2014. Relazione conclusiva." onclick="dcsMultiTrack('DCS.dcssip', 'http://autonomielocali.regione.fvg.it','DCS.dcsuri','/aall/export/sites/default/AALL/Elezioni/Approfondimenti/allegati/Elezioni_provinciali_2014.pdf','WT.ti','Elezioni/Approfondimenti/Elezione del Consiglio provinciale di Pordenone 2014. Relazione conclusiva.', 'WT.ac', 'Elezione del Consiglio provinciale di Pordenone 2014. Relazione conclusiva.');">Elezione del Consiglio provinciale di Pordenone 2014. Relazione conclusiva.</a> &gt;
+<div class="separa10px"></div></li>   	
+<li><a class="blank" href="/aall/export/sites/default/AALL/Elezioni/Approfondimenti/allegati/Regionali2013_Relazione_Conclusiva.pdf" title="Elezioni regionali 2013. Relazione conclusiva." onclick="dcsMultiTrack('DCS.dcssip', 'http://autonomielocali.regione.fvg.it','DCS.dcsuri','/aall/export/sites/default/AALL/Elezioni/Approfondimenti/allegati/Regionali2013_Relazione_Conclusiva.pdf','WT.ti','Elezioni/Approfondimenti/Elezioni regionali 2013. Relazione conclusiva.', 'WT.ac', 'Elezioni regionali 2013. Relazione conclusiva.');">Elezioni regionali 2013. Relazione conclusiva.</a> &gt;
+<div class="separa10px"></div></li>   	
+<li><a class="blank" href="/aall/export/sites/default/AALL/Elezioni/Approfondimenti/allegati/Risultati_2013.pdf" title="Elezione del Presidente della Regione e del Consiglio Regionale - XI legislatura - 21, 22 aprile 2013" onclick="dcsMultiTrack('DCS.dcssip', 'http://autonomielocali.regione.fvg.it','DCS.dcsuri','/aall/export/sites/default/AALL/Elezioni/Approfondimenti/allegati/Risultati_2013.pdf','WT.ti','Elezioni/Approfondimenti/Elezione del Presidente della Regione e del Consiglio Regionale - XI legislatura - 21, 22 aprile 2013', 'WT.ac', 'Elezione del Presidente della Regione e del Consiglio Regionale - XI legislatura - 21, 22 aprile 2013');">Elezione del Presidente della Regione e del Consiglio Regionale - XI legislatura - 21, 22 aprile 2013</a> &gt;
+<div class="separa10px"></div></li>   	
+<li><a class="blank" href="/aall/export/sites/default/AALL/Elezioni/Approfondimenti/allegati/Relazione_elezioni_2012.pdf" title="Le elezioni comunali del 6 e 7 maggio 2012." onclick="dcsMultiTrack('DCS.dcssip', 'http://autonomielocali.regione.fvg.it','DCS.dcsuri','/aall/export/sites/default/AALL/Elezioni/Approfondimenti/allegati/Relazione_elezioni_2012.pdf','WT.ti','Elezioni/Approfondimenti/Le elezioni comunali del 6 e 7 maggio 2012.', 'WT.ac', 'Le elezioni comunali del 6 e 7 maggio 2012.');">Le elezioni comunali del 6 e 7 maggio 2012.</a> &gt;
+<div class="separa10px"></div></li>   	
+<li><a class="blank" href="/aall/export/sites/default/AALL/Elezioni/Approfondimenti/allegati/Relazione2011.pdf" title="Le elezioni provinciali e comunali del 15 e 16 maggio 2011." onclick="dcsMultiTrack('DCS.dcssip', 'http://autonomielocali.regione.fvg.it','DCS.dcsuri','/aall/export/sites/default/AALL/Elezioni/Approfondimenti/allegati/Relazione2011.pdf','WT.ti','Elezioni/Approfondimenti/Le elezioni provinciali e comunali del 15 e 16 maggio 2011.', 'WT.ac', 'Le elezioni provinciali e comunali del 15 e 16 maggio 2011.');">Le elezioni provinciali e comunali del 15 e 16 maggio 2011.</a> &gt;
+<div class="separa10px"></div></li>   	
+<li><a class="blank" href="/aall/export/sites/default/AALL/Elezioni/Approfondimenti/allegati/Relazione2009.pdf" title="Gli amministratori locali nel Friuli Venezia Giulia. Indagine statistica sull’offerta politica nella regione. - 2009" onclick="dcsMultiTrack('DCS.dcssip', 'http://autonomielocali.regione.fvg.it','DCS.dcsuri','/aall/export/sites/default/AALL/Elezioni/Approfondimenti/allegati/Relazione2009.pdf','WT.ti','Elezioni/Approfondimenti/Gli amministratori locali nel Friuli Venezia Giulia. Indagine statistica sull’offerta politica nella regione. - 2009', 'WT.ac', 'Gli amministratori locali nel Friuli Venezia Giulia. Indagine statistica sull’offerta politica nella regione. - 2009');">Gli amministratori locali nel Friuli Venezia Giulia. Indagine statistica sull’offerta politica nella regione. - 2009</a> &gt;
+<div class="separa10px"></div></li>   	
+<li><a class="blank" href="/aall/export/sites/default/AALL/Elezioni/Approfondimenti/allegati/Relazione2008.pdf" title="Elezioni regionali,provinciali e comunali 2008. Relazione conclusiva." onclick="dcsMultiTrack('DCS.dcssip', 'http://autonomielocali.regione.fvg.it','DCS.dcsuri','/aall/export/sites/default/AALL/Elezioni/Approfondimenti/allegati/Relazione2008.pdf','WT.ti','Elezioni/Approfondimenti/Elezioni regionali,provinciali e comunali 2008. Relazione conclusiva.', 'WT.ac', 'Elezioni regionali,provinciali e comunali 2008. Relazione conclusiva.');">Elezioni regionali,provinciali e comunali 2008. Relazione conclusiva.</a> &gt;
+<div class="separa10px"></div></li>   	
+</ul>
+<ul>
+    <li><a class="blank" href="http://atlanteelettorale.regione.fvg.it/" title="Atlante elettorale 1987-2006 della Regione Autonoma Friuli Venezia Giulia">Atlante elettorale 1987-2006 della Regione Autonoma Friuli Venezia Giulia</a> &gt;
+<div class="separa10px"></div></li>
+</ul>
+<br /><br />
+<div class="separa"></div>
+</div>
+<!-- include the second body from an xml page, if available -->
+	<!-- include the boxes in the center -->
+	<div class="clear">&nbsp;</div>	
+	<!--chiusura-->			
+				
+	<div class="barraCentrale">
+	<div class="barraCentraleSXInterna">
+	<div class="separa"><img src="/aall/export/system/modules/it.insiel.autonomielocali.new/resources/img/trasp.gif" alt="immagine notizia" /></div>
+	</div>
+	<div class="barraCentraleDXInterna">
+[ <img src="/aall/export/system/modules/it.insiel.autonomielocali.new/resources/img/stampa.gif" alt="immagine notizia" /> <a href="?__element=foot&amp;template=print" title="stampa">stampa</a> ] 
+[ <img src="/aall/export/system/modules/it.insiel.autonomielocali.new/resources/img/top.gif" alt="immagine notizia" /> <a href="#top" title="top">top</a> ] 
+	
+	</div>
+	<div class="separa"><!-- // --></div>
+	</div>
+				
+		</div>					
+			</div>
+			<!-- end: center column -->
+			
+		</div>
+		<!-- end: content area -->
+		
+		<!-- begin: #footer -->
+		<div id="footer">
+		<a id="menufooter" name="menufooter"></a>
+			<div class="footerContenuto">
+<div class="footerContenutoMenu">
+<div class="invisibile">
+<h2>Menù navigazione piè pagina</h2>
+<div class="separa"><!-- // --></div>
+</div>
+<ul>
+    <li><a title="home" href="/aall/opencms/AALL/">home</a></li>
+    <li><a title="contatti" href="/aall/opencms/AALL/Servizi/contatti/">contatti</a></li>
+    <li><a href="http://www.regione.fvg.it/rafvg/cms/RAFVG/privacy/" target="_blank">privacy</a></li>
+    <li><a title="mappa del sito" href="/aall/opencms/AALL/Servizi/mappa.jsp">mappa del sito</a></li>
+    <li><a title="area riservata" href="/aall/opencms/AALL/area_riservata/">area riservata</a></li>
+</ul>
+</div>
+<div class="footerContenutoMenu">
+<ul>
+    <li><a title="consulenza agli enti locali" href="/aall/opencms/AALL/Servizi/pareri-2015/">consulenza agli enti locali</a></li>
+    <li><a title="biblioteca" href="/aall/opencms/AALL/Servizi/biblioteca/">biblioteca</a></li>
+    <li><a title="pubblicazioni" href="/aall/opencms/AALL/Servizi/pubblicazioni/">pubblicazioni</a></li>
+    <li><a title="Help online" target="_self" href="/aall/opencms/AALL/Help/index.html">help</a></li>
+    <li><a title="news" href="/aall/opencms/AALL/Servizi/news/index.html">news</a></li>
+    <li><a title="newsletter" href="/aall/opencms/AALL/Servizi/newsletter/">newsletter</a></li>
+    <li><a title="RSS" href="/aall/opencms/AALL/Servizi/rss/">RSS</a></li>
+</ul>
+</div>
+<div class="footerContenutoMenu">
+<ul>
+    <li><a title="informazioni generali" href="/aall/opencms/AALL/Informazioni_generali/">informazioni generali</a></li>
+    <li><a title="finanza locale" href="/aall/opencms/AALL/Finanza_locale/">finanza locale</a></li>
+    <li><a title="elezioni" href="/aall/export/sites/default/AALL/Elezioni/">elezioni</a></li>
+    <li><a title="polizia locale e sicurezza" href="/aall/opencms/AALL/Polizia_Locale_e_sicurezza/">polizia locale e sicurezza</a></li>
+    <li><a title="forme associative" href="/aall/opencms/AALL/Forme_Collaborative/">forme associative</a></li>
+    <li><a title="devoluzione" href="/aall/opencms/AALL/Devoluzione/">devoluzione</a></li>
+    <li><a title="normativa" href="/aall/opencms/AALL/Informazioni_generali/Normativa/">normativa</a></li>
+</ul>
+</div>
+<div class="footerContenutoRicerca">
+<form id="frmCercaFooter" method="post" action="/aall/opencms/AALL/Servizi/ricerca.html">
+    <div>
+    <p><input type="hidden" name="action" value="search" /> <input type="hidden" name="searchPage" value="1" /> <input type="hidden" name="index" value="Online project IT (VFS)" /> <label for="cercaFooter">cerca nel sito</label></p>
+    <input id="cercaFooter" class="ricerca" name="query" type="text" /> <input id="submit2" class="buttonRicercaFooter" type="submit" name="startsearch" value="&gt;" /></div>
+</form>
+</div>
+</div>
+<div class="footerCredits">Direzione centrale autonomie locali, funzione pubblica, sicurezza e politiche dell&rsquo;immigrazione   | <a title="feedback" href="mailto:accessibile.rafvg@regione.fvg.it">feedback</a> |  <a title="dichiarazione di accessibilità" href="https://form.agid.gov.it/view/647081e0-79ae-11ef-ae9d-25f4dd79c9a0">dichiarazione di accessibilità</a>   | <a title="disclaimer" href="/aall/opencms/AALL/Servizi/disclaimer.html">disclaimer</a></div>
+<div class="invisibile">
+<div class="accessibilita">
+<ul class="inlinea">
+    <li><a href="#skip">Salta al contenuto</a></li>
+    <li><a href="#menutematiche">Salta al menù aree tematiche</a></li>
+    <li><a href="#menu">Salta al menù </a></li>
+    <li><a href="#menufooter">Salta al menù fondo pagina</a></li>
+    <li><a href="#top">Inizio pagina</a></li>
+</ul>
+</div>
+</div></div>
+		<!-- end: #footer -->	
+		</div>
+		<!-- end: #page -->
+	</div>
+</div>
+
+	
+
+</body>
+</html>

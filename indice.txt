@@ -1,0 +1,7 @@
+001 https://elezioni.regione.fvg.it/main.b37cebe704614830.js
+002 https://autonomielocali.regione.fvg.it/aall/opencms/AALL/Elezioni/Approfondimenti/
+003 http://web.archive.org/cdx/search/cdx?url=elezioni.regione.fvg.it&matchType=domain&from=2005&to=2009&limit=500&fl=original,timestamp&collapse=urlkey
+004 http://web.archive.org/cdx/search/cdx?url=www.regione.fvg.it/elezioni*&from=2005&to=2008&limit=500&fl=original,timestamp&collapse=urlkey
+005 https://elezionistorico.interno.gov.it/index.php?tpel=G&dtel=13/06/1999
+006 https://www.tuttitalia.it/friuli-venezia-giulia/67-muggia/storico-elezioni-comunali/
+007 https://www.tuttitalia.it/friuli-venezia-giulia/75-fontanafredda/storico-elezioni-comunali/
