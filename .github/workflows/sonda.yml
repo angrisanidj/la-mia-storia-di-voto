@@ -6,6 +6,10 @@ on:
       urls:
         description: "Indirizzi separati da spazi"
         required: true
+      ramo:
+        description: "Nome del ramo su cui salvare (sonda-NOME)"
+        required: false
+        default: "base"
 permissions:
   contents: write
 jobs:
@@ -24,12 +28,12 @@ jobs:
             sleep 2
           done
           cat sonda/esiti.txt
-      - name: Salva sul ramo «sonda» (non tocca il sito)
+      - name: Salva sul ramo «sonda-NOME» (non tocca il sito)
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           cd sonda
-          git init -q -b sonda
+          git init -q -b sonda-${{ inputs.ramo }}
           git -c user.name=github-actions[bot] -c user.email=41898282+github-actions[bot]@users.noreply.github.com add -A
           git -c user.name=github-actions[bot] -c user.email=41898282+github-actions[bot]@users.noreply.github.com commit -q -m "Sonda ${{ github.run_id }}"
-          git push -q -f "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git" sonda
+          git push -q -f "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git" sonda-${{ inputs.ramo }}
