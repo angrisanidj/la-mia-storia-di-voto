@@ -1,0 +1,9 @@
+001 https://elezionistorico.regione.fvg.it/main.f7322de89420928d.js
+002 https://elezionistorico.regione.fvg.it/distribuzione/json-storico/a_2006-04-09_ELZ_PROV_032.json
+003 https://elezionistorico.regione.fvg.it/distribuzione/json-storico/a_2006-04-09_ELZ_PROV_32.json
+004 https://elezionistorico.regione.fvg.it/distribuzione/json-storico/a_2006-04-09_ELZ_PROV_031.json
+005 https://elezionistorico.regione.fvg.it/distribuzione/json-storico/a_2006-04-09_ELZ_PROV_030.json
+006 https://elezionistorico.regione.fvg.it/distribuzione/json-storico/a_2006-04-09_ELZ_PROV_093.json
+007 https://elezionistorico.regione.fvg.it/distribuzione/json-storico/a_2006-04-09_ELZ_PROV.json
+008 https://elezionistorico.regione.fvg.it/distribuzione/json-storico/a_2009-06-06_ELZ_PROV_093.json
+009 https://elezionistorico.regione.fvg.it/distribuzione/json-storico/a_2009-06-06_ELZ_PROV_93.json
