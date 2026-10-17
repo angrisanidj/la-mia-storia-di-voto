@@ -1,0 +1,2 @@
+001 https://elezionistorico.interno.gov.it/robots.txt
+002 https://elezionistorico.interno.gov.it/index.php?tpel=G&dtel=07/06/2009
