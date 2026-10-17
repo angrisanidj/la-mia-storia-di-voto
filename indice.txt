@@ -1,0 +1,11 @@
+001 https://web.archive.org/cdx/search/cdx?output=txt&fl=timestamp,original&collapse=urlkey&limit=30&matchType=prefix&url=elezioni.regione.sicilia.it/provinciali2006
+002 https://web.archive.org/cdx/search/cdx?output=txt&fl=timestamp,original&collapse=urlkey&limit=30&matchType=prefix&url=elezioni.regione.sicilia.it/provinciali2007
+003 https://web.archive.org/cdx/search/cdx?output=txt&fl=timestamp,original&collapse=urlkey&limit=30&matchType=prefix&url=elezioni.regione.sicilia.it/amministrative2006
+004 https://web.archive.org/cdx/search/cdx?output=txt&fl=timestamp,original&collapse=urlkey&limit=30&matchType=prefix&url=elezioni.regione.sicilia.it/amministrative2007
+005 https://web.archive.org/cdx/search/cdx?output=txt&fl=timestamp,original&collapse=urlkey&limit=30&matchType=prefix&url=elezioni.regione.sicilia.it/comunali2006
+006 https://web.archive.org/cdx/search/cdx?output=txt&fl=timestamp,original&collapse=urlkey&limit=30&matchType=prefix&url=elezioni.regione.sicilia.it/comunali2007
+007 https://web.archive.org/cdx/search/cdx?output=txt&fl=timestamp,original&collapse=urlkey&limit=30&matchType=prefix&url=elezioni.regione.sicilia.it/elezioni2006
+008 https://web.archive.org/cdx/search/cdx?output=txt&fl=timestamp,original&collapse=urlkey&limit=30&matchType=prefix&url=elezioni.regione.sicilia.it/elezioni2007
+009 https://web.archive.org/cdx/search/cdx?output=txt&fl=timestamp,original&collapse=urlkey&limit=30&matchType=prefix&url=elezioni.regione.sicilia.it/provinciali2003
+010 https://web.archive.org/cdx/search/cdx?output=txt&fl=timestamp,original&collapse=urlkey&limit=30&matchType=prefix&url=elezioni.regione.sicilia.it/provinciali
+011 https://web.archive.org/cdx/search/cdx?output=txt&fl=timestamp,original&limit=200&url=elezioni.regione.sicilia.it/&matchType=domain&filter=original:.*(2006|2007).*&collapse=urlkey
