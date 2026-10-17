@@ -467,6 +467,31 @@ const COALIZIONI_LOCALI = [
 
 // ===== Candidati reali (archivio del Ministero e regioni a statuto speciale) =====
 const PARTICELLE = new Set(['di', 'del', 'della', 'dei', 'degli', 'delle', 'de', 'da', 'dal', 'e', 'per', 'con', 'in', 'il', 'la', 'le', 'lo', 'gli', 'a', 'al', 'alla', 'nel', 'nella', 'sul', 'sulla']);
+// «Sala Giuseppe detto Beppe» -> «Sala Beppe»; «Brichetto Arnaboldi Letizia Maria detta Letizia Moratti» -> «Letizia Moratti».
+// Senza «detto» resta l'ordine dell'archivio (cognome nome): rigirarlo spezzerebbe i cognomi composti.
+const PARTICELLE_COGNOME = new Set(['de', 'di', 'da', 'del', 'della', 'dalla', 'dal', 'dei', 'degli', 'delle', 'lo', 'la', 'li', 'le', 'd', 'dell', 'mac', 'van', 'von']);
+function nomeConosciuto(t) {
+  const m = (t || '').match(/^(.*?)\s*\(?\s*\bdett[oa]\s+([^()]+?)\s*\)?\s*$/i);
+  if (!m) return t;
+  const alias = m[2].trim(), parole = m[1].trim().split(/\s+/);
+  const pa = alias.split(/\s+/);
+  if (pa.length >= 2) {
+    // «Letizia Moratti» -> «Moratti Letizia», come gli altri nomi dell'archivio (con la particella: «Nando Dalla Chiesa» -> «Dalla Chiesa Nando»)
+    if (pa.some(p => norm(p) === 'in')) return alias;
+    const j = pa.length >= 3 && PARTICELLE_COGNOME.has(norm(pa[pa.length - 2])) ? pa.length - 2 : pa.length - 1;
+    return [...pa.slice(j), ...pa.slice(0, j)].join(' ');
+  }
+  // cognome da sposata: «Bossi in Moratti» -> Moratti
+  const k = parole.findIndex((p, i) => i > 0 && norm(p) === 'in');
+  const inizio = k > 0 && k < parole.length - 1 ? k + 1 : 0;
+  const cognome = [parole[inizio]];
+  for (let i = inizio + 1; i < parole.length - 1 && PARTICELLE_COGNOME.has(norm(parole[i - 1])); i++) cognome.push(parole[i]);
+  // il «detto» è una variante del cognome: nome + variante
+  const na = norm(alias), nc = norm(cognome.join(' '));
+  if (na[0] === nc[0] && na.slice(-4) === nc.slice(-4) && parole[inizio + cognome.length]) return `${alias} ${parole[inizio + cognome.length]}`;
+  // stesso ordine dell'archivio (cognome prima), così nei menu i nomi restano coerenti
+  return `${cognome.join(' ')} ${alias}`;
+}
 function titoloNome(t) {
   if (!t || t !== t.toUpperCase()) return t || '';
   return t.toLowerCase().split(/(\s+|-|')/).map((w, i) => (/^\s+$|^-$|^'$/.test(w) || (i > 0 && PARTICELLE.has(w))) ? w : w.charAt(0).toUpperCase() + w.slice(1)).join('')
@@ -508,7 +533,7 @@ function candidatiReali(o) {
   if (!grezzi || !grezzi.length) return null;
   // nell'archivio alcuni apostrofi arrivano come «?» o carattere sostitutivo
   const pulisci = t => (t || '').replace(/(\p{L})[?\uFFFD\u0092](\p{L})/gu, "$1'$2");
-  let out = grezzi.map(([nome, pct, liste, area]) => ({ nome: nome ? titoloNome(pulisci(nome)) : null, pct, area,
+  let out = grezzi.map(([nome, pct, liste, area]) => ({ nome: nome ? titoloNome(nomeConosciuto(pulisci(nome)).replace(/(\p{L})\.(?=\p{L})/gu, '$1. ')).replace(/(^|\s)(de|di|da|del|della|dalla|dal|lo|la|li)(?=\s\p{Lu})/gu, (x, sp, p) => sp + p[0].toUpperCase() + p.slice(1)) : null, pct, area,
     // nell'archivio la somma delle liste compare come riga «Totale coalizione»: non è una lista
     liste: (liste || []).filter(([n]) => !/^\s*totale\b/i.test(n || '')).map(([n, p]) => ({ n: titoloNome(pulisci(n)), p, partito: partitoDaLista(pulisci(n)) })) }));
   if (o.tipo === 'bal') out = out.filter(c => c.nome).sort((a, b) => (b.pct || 0) - (a.pct || 0)).slice(0, 2);
