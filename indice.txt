@@ -1,0 +1,3 @@
+001 https://web.archive.org/cdx/search/cdx?url=archivioelettorale.it/*&output=json&fl=timestamp,original,statuscode&collapse=urlkey&filter=statuscode:200&limit=20000
+002 http://www.archivioelettorale.it/
+003 https://www.archivioelettorale.it/robots.txt
