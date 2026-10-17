@@ -17,6 +17,7 @@ Tutto avviene nel browser. La pagina non usa cookie né `localStorage`, non invi
 | `app.js` | Logica: calcolo delle elezioni, interfaccia, disegno del PNG |
 | `tavolozza.js` | Tavolozza alternativa «Gruppi europei»: colori dei gruppi del Parlamento europeo per partiti, candidati e liste civiche |
 | `sismografo.js` | Il sismografo del voto: posizione dei voti, profilo, pendolo animato e immagine |
+| `emiciclo.js` | L'emiciclo della storia di voto, l'immagine principale |
 | `dati/elezioni.js` | Calendario: politiche, europee, referendum nazionali, regionali per regione, provinciali di Trento e Bolzano, referendum regionali, comuni che hanno cambiato regione, turni ordinari delle comunali |
 | `dati/comuni.js` | Comuni italiani attivi e soppressi (fonte ISTAT), con regione e nomi precedenti |
 | `dati/partiti.js` | Liste sopra l'1% a politiche ed europee, coalizioni, partiti locali, colori proposti |
@@ -37,7 +38,9 @@ Per aggiungere una nuova consultazione basta modificare il file in `dati/` corri
 - Comuni passati di regione: Valmarecchia (2009), Sappada (2017), Montecopiolo e Sassofeltrio (2021).
 - Provinciali: si votavano direttamente dal 1993 al 2011 (dal 2014 le province sono enti di secondo livello). La provincia è quella di allora: Monza e Brianza, Fermo e Barletta-Andria-Trani dal 2009, prima Milano, Ascoli Piceno, Bari o Foggia; Biella, Verbano-Cusio-Ossola, Lecco, Lodi, Rimini, Prato, Crotone e Vibo Valentia dal 1995; le province sarde dal 2005 secondo l'archivio, prima le quattro di allora (Cagliari, Sassari, Nuoro, Oristano), con i 26 comuni che nel 2005 lasciarono la provincia di Nuoro. Le provinciali sarde del 1995 e del 2000 (23 aprile 1995 e 16 aprile 2000, con le comunali) non hanno la data nelle pagine di Wikipedia: è indicata in `strumenti/provinciali_wikipedia.py` con le fonti.
 
-L'immagine personale si esporta in cinque formati (lista completa, Instagram post, storie, X, quadrata), in PNG o JPG; nei formati a misura fissa la lista si impagina da sola su più colonne e a corpo ridotto.
+L'immagine principale è l'emiciclo: ogni voto è un seggio, da sinistra a destra il tempo (dal primo voto a oggi), dal centro verso l'esterno un anello per tipo di elezione (politiche, europee, regionali, provinciali, comunali, referendum), con il colore di come si è votato. Camera e Senato votati in modo diverso sono un seggio diviso a metà, il ballottaggio un anello bianco dentro il seggio, l'astensione un seggio tratteggiato, i referendum una spunta verde (Sì) o una croce rossa (No). Al centro le volte al voto; sotto, la legenda dei colori con i partiti votati a politiche ed europee (con la tavolozza europea, il nome del gruppo). La lista dei voti, nome per nome, resta come seconda scelta.
+
+L'immagine con la lista si esporta in cinque formati (lista completa, Instagram post, storie, X, quadrata), in PNG o JPG; nei formati a misura fissa la lista si impagina da sola su più colonne e a corpo ridotto.
 
 ## Il sismografo del voto
 

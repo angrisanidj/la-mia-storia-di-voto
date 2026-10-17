@@ -1080,7 +1080,7 @@ const FORMATI = {
   x: { W: 1600, H: 900, nome: 'X', file: 'x', orizzontale: true },
   quadrata: { W: 1080, H: 1080, nome: 'Quadrata', file: 'quadrata' },
 };
-let formatoScelto = 'lista';
+let formatoScelto = 'post';
 
 // Misura ogni voce dell'elenco a una data scala, piena (etichetta sopra, voto sotto) o compatta (una riga sola)
 function misuraVoci(ctx, righe, s, larg, compatta, dataPiena) {
@@ -1234,10 +1234,11 @@ function nastroEMarchio(ctx, W, m, yM, s = 1) {
 }
 
 let ultimoResto = 0;
-let contenuto = 'lista';
+let contenuto = 'emiciclo';
 function disegna(cv, righe, formato = formatoScelto) {
   ultimoResto = 0;
   if (contenuto === 'sismografo') return disegnaSismografo(cv, formato);
+  if (contenuto === 'emiciclo') return disegnaEmicicloVoto(cv, formato === 'lista' ? 'post' : formato);
   const F = FORMATI[formato] || FORMATI.lista;
   const ctx = cv.getContext('2d');
   const W = F.W;
@@ -1398,6 +1399,7 @@ function condividiLink() {
 }
 function nomeFile(ext) {
   if (contenuto === 'sismografo') return `il-mio-sismografo-del-voto-${FORMATI[formatoScelto === 'lista' ? 'post' : formatoScelto].file}.${ext}`;
+  if (contenuto === 'emiciclo') return `il-mio-emiciclo-del-voto-${FORMATI[formatoScelto === 'lista' ? 'post' : formatoScelto].file}.${ext}`;
   return `la-mia-storia-di-voto-${FORMATI[formatoScelto].file}.${ext}`;
 }
 async function generaBlob(tipo = 'image/png') {
@@ -1411,7 +1413,7 @@ async function scarica(jpg) {
   const url = URL.createObjectURL(blob);
   const a = el('a', { href: url, download: nomeFile(jpg ? 'jpg' : 'png') }); document.body.append(a); a.click(); a.remove();
   setTimeout(() => URL.revokeObjectURL(url), 2000);
-  annuncia(`Immagine scaricata: ${FORMATI[contenuto === 'sismografo' && formatoScelto === 'lista' ? 'post' : formatoScelto].nome}, ${jpg ? 'JPG' : 'PNG'}.`);
+  annuncia(`Immagine scaricata: ${FORMATI[contenuto !== 'lista' && formatoScelto === 'lista' ? 'post' : formatoScelto].nome}, ${jpg ? 'JPG' : 'PNG'}.`);
 }
 
 // ===== Avvio =====
@@ -1440,16 +1442,18 @@ function init() {
   document.querySelectorAll('input[name=tavolozza]').forEach(r => r.addEventListener('change', () => {
     tavolozza = r.value; leg.hidden = tavolozza !== 'ue'; aggiorna(false);
   }));
-  // cosa va nell'immagine: la lista dei voti o il sismografo (che non ha la lista completa a lunghezza libera)
-  document.querySelectorAll('input[name=contenuto]').forEach(r => r.addEventListener('change', () => {
-    contenuto = r.value;
+  // cosa va nell'immagine: l'emiciclo (di base), la lista dei voti o il sismografo. Solo la lista ha il formato a lunghezza libera.
+  const sceltaContenuto = () => {
     const lista = document.querySelector('input[name=formato][value=lista]');
-    lista.disabled = contenuto === 'sismografo';
-    lista.closest('label').hidden = contenuto === 'sismografo';
-    if (contenuto === 'sismografo' && formatoScelto === 'lista') { const p = document.querySelector('input[name=formato][value=post]'); p.checked = true; formatoScelto = 'post'; }
-    document.querySelectorAll('.solo-lista').forEach(n => { n.hidden = contenuto === 'sismografo'; });
-    programmaAnteprima();
-  }));
+    const soloLista = contenuto === 'lista';
+    lista.disabled = !soloLista;
+    lista.closest('label').hidden = !soloLista;
+    if (!soloLista && formatoScelto === 'lista') { const p = document.querySelector('input[name=formato][value=post]'); p.checked = true; formatoScelto = 'post'; }
+    document.querySelectorAll('.solo-lista').forEach(n => { n.hidden = !soloLista; });
+    document.querySelectorAll('.con-titolo').forEach(n => { n.hidden = contenuto === 'sismografo'; });
+  };
+  document.querySelectorAll('input[name=contenuto]').forEach(r => r.addEventListener('change', () => { contenuto = r.value; sceltaContenuto(); programmaAnteprima(); }));
+  sceltaContenuto();
   try {
     if (navigator.canShare && navigator.canShare({ files: [new File([new Blob()], 'x.png', { type: 'image/png' })] })) {
       $('#condividi').hidden = false;
