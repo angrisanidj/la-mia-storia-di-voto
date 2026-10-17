@@ -1,0 +1,2 @@
+001 http://web.archive.org/cdx/search/cdx?url=elezionistorico.regione.fvg.it/elezioni1999/Comunali/&matchType=prefix&limit=400&fl=original,timestamp,statuscode&collapse=urlkey
+002 http://web.archive.org/cdx/search/cdx?url=elezioni.regione.fvg.it/amministrative1999/&matchType=prefix&limit=400&fl=original,timestamp,statuscode&collapse=urlkey
