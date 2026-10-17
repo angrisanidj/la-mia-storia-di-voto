@@ -1,0 +1,256 @@
+<html>
+
+<head>
+<title>Elezioni comunali 2000</title>
+<style>
+<!---
+A:hover { color: red ; }
+-td {  }
+td {  font-size: 10pt}
+a:hover {  color: #800000}
+/* */--></style>
+</head>
+
+<body link="#000080" vlink="#000080" alink="#800000" bgcolor="#FFFFFF" >
+<p><img src="../../images/banner_bz_i.gif"  alt="">
+</p>
+
+<table border="0" cellspacing="0" cellpadding="0" width="580">
+  <tr>
+    <td><table border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td><font face="Arial" size="1" color="#000080"><u><img border="0" src="../../images/pfeil6.gif"
+        hspace="5" width="18" height="10"><a href="../home_i.htm">Home</a></u></font></td>
+        <td><font face="Arial" size="1" color="#000080"><u><img border="0" src="../../images/pfeil5.gif"
+        hspace="5" width="14" height="10"><a href="../index_i.htm">Alto Adige</a></u></font></td>
+        <td><font face="Arial" size="1" color="#000080"><u><img border="0" src="../../images/pfeil5.gif"
+        hspace="5" width="14" height="10"></u></font></td>
+        <td><font face="Arial" size="1" color="#000080"><b>MERANO</b></font></td>
+        <td></td>
+      </tr>
+          <tr><td valign="middle" colspan="2">&nbsp;</td>
+        <td></td>
+
+        <td colspan="2"><table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td><font face="Arial" size="1" color="#000080"><u><img border="0" src="../../images/pfeil6.gif"
+            hspace="5" width="18" height="10"></u>Risultati elettorali del primo turno</font></td>
+          </tr>
+          <tr>
+            <td><font face="Arial" size="1" color="#000080"><u><img border="0" src="../../images/pfeil6.gif"
+            hspace="5" width="18" height="10"></u><a href="../graf/graf402.htm">Rappresentazione grafica</a></font></td>
+          </tr>
+          <tr>
+            <td><font face="Arial" size="1" color="#000080"><u><img border="0" src="../../images/pfeil6.gif"
+            hspace="5" width="18" height="10"></u><a href="../cons/cons402.htm">Nuovo consiglio comunale</a></font></td>
+          </tr>
+          <tr>
+            <td><font face="Arial" size="1" color="#000080"><u><img border="0" src="../../images/pfeil6.gif"
+            hspace="5" width="18" height="10"></u><a href="../ball/ball402.htm">Risultati del ballottaggio</a></font></td>
+          </tr>
+        </table>
+        </td>
+      </tr>
+    </table>
+    </td>
+    <td><font face="Arial" size="2"><img src="../../images/Stemmi/BZ402.gif"  alt=""></font></td>
+  </tr>
+</table>
+
+
+<table border="0" width="580" cellpadding="4">
+  <tr>
+    <td width="556" bgcolor="#E5E5E5" colspan="4"><strong><font face="Arial" size="2"><i>Risultati elettorali</i></font></strong></td>
+  </tr>
+  <tr>
+    <td width="451" bgcolor="#E0E0E0"  colspan="2"><strong><font face="Arial" size="2"
+    color="#800000">Candidati Sindaco</font></strong></td>
+    <td width="64" align="right" bgcolor="#E0E0E0"><strong><font face="Arial" size="2"
+    color="#800000">Voti&nbsp;</font></strong></td>
+    <td width="41" align="right" bgcolor="#E0E0E0"><strong><font face="Arial" size="2"
+    color="#800000">%&nbsp;</font></strong></td>
+  </tr>
+  
+
+
+
+
+
+
+    <tr>
+    <td width="13" valign="top" bgcolor="#E5E5E5"><strong><font face="Arial" size="2">6</font></strong></td>
+    <td width="430" bgcolor="#E5E5E5"><font face="Arial" size="2"><strong>Alber Franz Anton &nbsp;<img valign="top" border="0" src="..\..\images\stichwahl_i.gif" ><br>
+    </strong>Sudtiroler Volkspartei</font></td>
+    <td width="64" bgcolor="#E5E5E5" align="right"><font face="Arial" size="2">7353</font></td>
+    <td width="41" bgcolor="#E5E5E5" align="right"><font face="Arial" size="2">36,4</font></td>
+  </tr>
+    <tr>
+    <td width="13" valign="top" bgcolor="#F1F1F1"><strong><font face="Arial" size="2">3</font></strong></td>
+    <td width="430" bgcolor="#F1F1F1"><font face="Arial" size="2"><strong>Aprile Eugenio &nbsp;<img valign="top" border="0" src="..\..\images\stichwahl_i.gif" ><br>
+    </strong>Lega Nord, Forza Italia - Ccd - Cdu, Alleanza Nazionale</font></td>
+    <td width="64" bgcolor="#F1F1F1" align="right"><font face="Arial" size="2">5997</font></td>
+    <td width="41" bgcolor="#F1F1F1" align="right"><font face="Arial" size="2">29,7</font></td>
+  </tr>
+    <tr>
+    <td width="13" valign="top" bgcolor="#E5E5E5"><strong><font face="Arial" size="2">2</font></strong></td>
+    <td width="430" bgcolor="#E5E5E5"><font face="Arial" size="2"><strong>Rossi Daniela <br>
+    </strong>Verdi - Grune - Verc, Noi Per L'Alto Adige, Democratici Di Sinistra  - Demokratische Linke</font></td>
+    <td width="64" bgcolor="#E5E5E5" align="right"><font face="Arial" size="2">5562</font></td>
+    <td width="41" bgcolor="#E5E5E5" align="right"><font face="Arial" size="2">27,6</font></td>
+  </tr>
+    <tr>
+    <td width="13" valign="top" bgcolor="#F1F1F1"><strong><font face="Arial" size="2">1</font></strong></td>
+    <td width="430" bgcolor="#F1F1F1"><font face="Arial" size="2"><strong>Augsten Karl <br>
+    </strong>Union Fur Sudtirol</font></td>
+    <td width="64" bgcolor="#F1F1F1" align="right"><font face="Arial" size="2">559</font></td>
+    <td width="41" bgcolor="#F1F1F1" align="right"><font face="Arial" size="2">2,8</font></td>
+  </tr>
+    <tr>
+    <td width="13" valign="top" bgcolor="#E5E5E5"><strong><font face="Arial" size="2">5</font></strong></td>
+    <td width="430" bgcolor="#E5E5E5"><font face="Arial" size="2"><strong>Gabrielli Fiorina <br>
+    </strong>Rifondazione Partito Comunista</font></td>
+    <td width="64" bgcolor="#E5E5E5" align="right"><font face="Arial" size="2">355</font></td>
+    <td width="41" bgcolor="#E5E5E5" align="right"><font face="Arial" size="2">1,8</font></td>
+  </tr>
+    <tr>
+    <td width="13" valign="top" bgcolor="#F1F1F1"><strong><font face="Arial" size="2">4</font></strong></td>
+    <td width="430" bgcolor="#F1F1F1"><font face="Arial" size="2"><strong>Mair Hans <br>
+    </strong>Burgerliste</font></td>
+    <td width="64" bgcolor="#F1F1F1" align="right"><font face="Arial" size="2">350</font></td>
+    <td width="41" bgcolor="#F1F1F1" align="right"><font face="Arial" size="2">1,7</font></td>
+  </tr>
+  
+
+</table>
+<table border="0" width="580" cellpadding="4">
+  <tr><td><font face="Arial"><small><small>&nbsp;</small></small></font></td></tr>
+</table>
+
+
+<table border="0" width="580" cellpadding="4">
+  <tr >
+    <td width="402" bgcolor="#E0E0E0" colspan="2"><strong><font face="Arial" size="2"
+    color="#800000">Voti di lista<br>
+    </font></strong><font face="Arial" color="#800000" size="1">(per i voti di preferenza cliccare sulla lista)</font></td>
+    <td width="51" align="right" bgcolor="#E0E0E0"><strong><font face="Arial" size="2"
+    color="#800000">Voti&nbsp;</font></strong></td>
+    <td width="64" align="right" bgcolor="#E0E0E0"><strong><font face="Arial" size="2"
+    color="#800000">%&nbsp;</font></strong></td>
+    <td width="41" align="right" bgcolor="#E0E0E0"><strong><font face="Arial" size="2"
+    color="#800000">Seggi&nbsp;</font></strong></td>
+  </tr>
+
+
+  <tr>
+    <td width="13" bgcolor="#E5E5E5"><font face="Arial" size="2"><strong>2</strong></font></td>
+    <td width="383" bgcolor="#E5E5E5"><a href="../lists/list2088.htm"><font face="Arial" size="2">Sudtiroler Volkspartei</font></a></td>
+    <td width="51" align="right" bgcolor="#E5E5E5"><font face="Arial" size="2">7210</font></td>
+    <td width="64" align="right" bgcolor="#E5E5E5"><font face="Arial" size="2">37,4</font></td>
+    <td width="41" align="right" bgcolor="#E5E5E5"><font face="Arial" size="2">-</font></td>
+  </tr>  <tr>
+    <td width="13" bgcolor="#E5E5E5"><font face="Arial" size="2"><strong>4</strong></font></td>
+    <td width="383" bgcolor="#E5E5E5"><a href="../lists/list2085.htm"><font face="Arial" size="2">Forza Italia - Ccd - Cdu</font></a></td>
+    <td width="51" align="right" bgcolor="#E5E5E5"><font face="Arial" size="2">2985</font></td>
+    <td width="64" align="right" bgcolor="#E5E5E5"><font face="Arial" size="2">15,5</font></td>
+    <td width="41" align="right" bgcolor="#E5E5E5"><font face="Arial" size="2">-</font></td>
+  </tr>  <tr>
+    <td width="13" bgcolor="#E5E5E5"><font face="Arial" size="2"><strong>7</strong></font></td>
+    <td width="383" bgcolor="#E5E5E5"><a href="../lists/list2086.htm"><font face="Arial" size="2">Alleanza Nazionale</font></a></td>
+    <td width="51" align="right" bgcolor="#E5E5E5"><font face="Arial" size="2">2573</font></td>
+    <td width="64" align="right" bgcolor="#E5E5E5"><font face="Arial" size="2">13,4</font></td>
+    <td width="41" align="right" bgcolor="#E5E5E5"><font face="Arial" size="2">-</font></td>
+  </tr>  <tr>
+    <td width="13" bgcolor="#E5E5E5"><font face="Arial" size="2"><strong>9</strong></font></td>
+    <td width="383" bgcolor="#E5E5E5"><a href="../lists/list2064.htm"><font face="Arial" size="2">Noi Per L'Alto Adige</font></a></td>
+    <td width="51" align="right" bgcolor="#E5E5E5"><font face="Arial" size="2">2218</font></td>
+    <td width="64" align="right" bgcolor="#E5E5E5"><font face="Arial" size="2">11,5</font></td>
+    <td width="41" align="right" bgcolor="#E5E5E5"><font face="Arial" size="2">-</font></td>
+  </tr>  <tr>
+    <td width="13" bgcolor="#E5E5E5"><font face="Arial" size="2"><strong>8</strong></font></td>
+    <td width="383" bgcolor="#E5E5E5"><a href="../lists/list2066.htm"><font face="Arial" size="2">Verdi - Grune - Verc</font></a></td>
+    <td width="51" align="right" bgcolor="#E5E5E5"><font face="Arial" size="2">1991</font></td>
+    <td width="64" align="right" bgcolor="#E5E5E5"><font face="Arial" size="2">10,3</font></td>
+    <td width="41" align="right" bgcolor="#E5E5E5"><font face="Arial" size="2">-</font></td>
+  </tr>  <tr>
+    <td width="13" bgcolor="#E5E5E5"><font face="Arial" size="2"><strong>10</strong></font></td>
+    <td width="383" bgcolor="#E5E5E5"><a href="../lists/list2072.htm"><font face="Arial" size="2">Democratici Di Sinistra  - Demokratische Linke</font></a></td>
+    <td width="51" align="right" bgcolor="#E5E5E5"><font face="Arial" size="2">983</font></td>
+    <td width="64" align="right" bgcolor="#E5E5E5"><font face="Arial" size="2">5,1</font></td>
+    <td width="41" align="right" bgcolor="#E5E5E5"><font face="Arial" size="2">-</font></td>
+  </tr>  <tr>
+    <td width="13" bgcolor="#E5E5E5"><font face="Arial" size="2"><strong>3</strong></font></td>
+    <td width="383" bgcolor="#E5E5E5"><a href="../lists/list2090.htm"><font face="Arial" size="2">Union Fur Sudtirol</font></a></td>
+    <td width="51" align="right" bgcolor="#E5E5E5"><font face="Arial" size="2">530</font></td>
+    <td width="64" align="right" bgcolor="#E5E5E5"><font face="Arial" size="2">2,8</font></td>
+    <td width="41" align="right" bgcolor="#E5E5E5"><font face="Arial" size="2">-</font></td>
+  </tr>  <tr>
+    <td width="13" bgcolor="#E5E5E5"><font face="Arial" size="2"><strong>6</strong></font></td>
+    <td width="383" bgcolor="#E5E5E5"><a href="../lists/list2092.htm"><font face="Arial" size="2">Rifondazione Partito Comunista</font></a></td>
+    <td width="51" align="right" bgcolor="#E5E5E5"><font face="Arial" size="2">346</font></td>
+    <td width="64" align="right" bgcolor="#E5E5E5"><font face="Arial" size="2">1,8</font></td>
+    <td width="41" align="right" bgcolor="#E5E5E5"><font face="Arial" size="2">-</font></td>
+  </tr>  <tr>
+    <td width="13" bgcolor="#E5E5E5"><font face="Arial" size="2"><strong>5</strong></font></td>
+    <td width="383" bgcolor="#E5E5E5"><a href="../lists/list2089.htm"><font face="Arial" size="2">Burgerliste</font></a></td>
+    <td width="51" align="right" bgcolor="#E5E5E5"><font face="Arial" size="2">325</font></td>
+    <td width="64" align="right" bgcolor="#E5E5E5"><font face="Arial" size="2">1,7</font></td>
+    <td width="41" align="right" bgcolor="#E5E5E5"><font face="Arial" size="2">-</font></td>
+  </tr>  <tr>
+    <td width="13" bgcolor="#E5E5E5"><font face="Arial" size="2"><strong>1</strong></font></td>
+    <td width="383" bgcolor="#E5E5E5"><a href="../lists/list2087.htm"><font face="Arial" size="2">Lega Nord</font></a></td>
+    <td width="51" align="right" bgcolor="#E5E5E5"><font face="Arial" size="2">106</font></td>
+    <td width="64" align="right" bgcolor="#E5E5E5"><font face="Arial" size="2">0,6</font></td>
+    <td width="41" align="right" bgcolor="#E5E5E5"><font face="Arial" size="2">-</font></td>
+  </tr></table>
+<table border="0" width="580" cellpadding="4">
+  <tr><td><font face="Arial"><small><small>&nbsp;</small></small></font></td></tr>
+</table>
+<table border="0" width="580" cellpadding="4">
+  <tr>
+    <td width="445" bgcolor="#E0E0E0" colspan="2"><strong><font face="Arial" size="2"
+    color="#800000">Dati sul voto </font></strong></td>
+    <td width="64" bgcolor="#E0E0E0"><p align="right"><strong><font face="Arial" size="2"
+    color="#800000">Voti</font></strong></td>
+    <td width="35" bgcolor="#E0E0E0"><font face="Arial" size="2" color="#800000"><strong><p
+    align="right">%</strong></font></td>
+  </tr>
+  <tr>
+    <td width="445" bgcolor="#E5E5E5" colspan="2"><font face="Arial" size="2">Schede valide:</font></td>
+    <td width="64" bgcolor="#E5E5E5" align="right"><font face="Arial" size="2">20.176</font></td>
+    <td width="41" bgcolor="#E5E5E5" align="right"><font face="Arial" size="2">95,4</font></td>
+  </tr>
+  <tr>
+    <td width="445" bgcolor="#F1F1F1" colspan="2"><font face="Arial" size="2">Schede non valide:</font></td>
+    <td width="64" bgcolor="#F1F1F1" align="right"><font face="Arial" size="2">982</font></td>
+    <td width="41" bgcolor="#F1F1F1" align="right"><font face="Arial" size="2">4,6</font></td>
+  </tr>
+  <tr>
+    <td width="445" bgcolor="#E5E5E5" colspan="2"><font face="Arial" size="2"><em>di cui bianche:</em></font></td>
+    <td width="64" bgcolor="#E5E5E5" align="right"><font face="Arial" size="2">364</font></td>
+    <td width="41" bgcolor="#E5E5E5" align="right"><font face="Arial" size="2">&nbsp;</font></td>
+  </tr>
+  <tr>
+    <td width="445" bgcolor="#F1F1F1" colspan="2"><font face="Arial" size="2"><b><i>Schede scrutinate</i></b></font></td>
+    <td width="64" bgcolor="#F1F1F1" align="right"><font face="Arial" size="2"><b><i>21.158</i></b></font></td>
+    <td width="41" bgcolor="#F1F1F1" align="right">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="564" bgcolor="#E5E5E5" colspan="4"></td>
+  </tr>
+  <tr>
+    <td width="400" bgcolor="#F1F1F1"><font face="Arial" size="2"><b><i>Affluenza alle urne alle ore 22.00:&nbsp;</i></b></font></td>
+    <td width="164" align="right" bgcolor="#F1F1F1" colspan="3"><p align="right"><font
+    face="Arial" size="2"><b><i>74,2%</i></b></font></td>
+  </tr>
+</table>
+
+<table border="0" width="100%" cellspacing="0" cellpadding="4">
+  <tr>
+    <td><font face="Arial" size="1">I dati sono da considerarsi ufficiosi in quanto soggetti a verifica.</font><p>
+    <font face="Arial" size="1">© 2000 Copyright Regione Trentino-Alto Adige<br>realizzazione Informatica Alto Adige S.p.A.</font></td>
+  </tr>
+</table>
+
+<p>&nbsp;</p>
+</body>
+

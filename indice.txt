@@ -1,0 +1,16 @@
+001 http://web.archive.org/web/20100601110938id_/http://www.regione.taa.it:80/elezioni/dati/40208052005.pdf
+002 http://web.archive.org/web/20190921182231id_/http://www.regione.taa.it/elezioni/dati/40210052015.pdf
+003 http://web.archive.org/web/20100601215349id_/http://www.regione.taa.it:80/elezioni/dati/40214052000.pdf
+004 http://web.archive.org/web/20100601110806id_/http://www.regione.taa.it:80/elezioni/dati/16008052005.pdf
+005 http://web.archive.org/web/20100601211958id_/http://www.regione.taa.it:80/elezioni/dati/12109052004.pdf
+006 http://web.archive.org/web/20030731004135id_/http://www.regione.trentino-a-adige.it:80/giunta/elezioni_it/comunali_2003/dati/Riva.pdf
+007 http://web.archive.org/web/19991006030803id_/http://www.regione.taa.it:80/elezioni/elezioni99.html
+008 http://web.archive.org/web/20000309181649id_/http://www.regione.taa.it:80/elezioni/prov_tn.htm
+009 http://web.archive.org/web/20000118122101id_/http://www.regione.taa.it:80/elezioni/prov_bz.htm
+010 http://web.archive.org/web/2000id_/http://comune.rovereto.tn.it:80/comune/organi/elezioni/giugno1996/sindaci02061996.htm
+011 http://web.archive.org/web/20041029id_/http://www.provincia.bz.it:80/vote/gem2000/BZ/comm/comm354.htm
+012 http://web.archive.org/web/20041029id_/http://www.provincia.bz.it:80/vote/gem2000/BZ/comm/comm361.htm
+013 http://web.archive.org/web/20041029id_/http://www.provincia.bz.it:80/vote/gem2000/BZ/comm/comm363.htm
+014 http://web.archive.org/web/20041029id_/http://www.provincia.bz.it:80/vote/gem2000/BZ/comm/comm391.htm
+015 http://web.archive.org/web/20041029id_/http://www.provincia.bz.it:80/vote/gem2000/BZ/comm/comm402.htm
+016 http://web.archive.org/web/20150127180733id_/http://www.provinz.bz.it:80/vote/gem2005/010/mayor_ld_s0_p0_c0.htm
