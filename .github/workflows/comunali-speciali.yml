@@ -26,6 +26,8 @@ jobs:
     timeout-minutes: 350
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main  # sempre lo stato più recente, anche se il giro è partito da un commit precedente
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'

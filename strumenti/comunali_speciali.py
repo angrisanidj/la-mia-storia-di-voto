@@ -34,7 +34,10 @@ OGNI_MINUTI = float(os.environ.get("SALVA_OGNI_MINUTI", "15"))
 STATO = os.path.join(RADICE, "strumenti", "comunali-speciali-stato.json")
 MESI = {m: i + 1 for i, m in enumerate(["gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno", "luglio",
                                         "agosto", "settembre", "ottobre", "novembre", "dicembre"])}
-DATA_RE = re.compile(r"(\d{1,2})(?:\s*(?:e|-)\s*\d{1,2})?\s+(" + "|".join(MESI) + r")\s+(\d{4})", re.I)
+_M = "|".join(MESI)
+# «6 giugno 1993», «13 e 14 aprile 2008», «1° giugno 2015», «31 maggio e 1° giugno 2015» (conta il primo giorno)
+DATA_RE = re.compile(r"(\d{1,2})[^\d\s]{0,3}(?:\s*(?:e|-)\s*\d{1,2}[^\d\s]{0,3})?\s+(" + _M + r")(?:\s*(?:e|-)\s*\d{1,2}[^\d\s]{0,3}\s+(?:" + _M + r"))?\s+(\d{4})", re.I)
+VERSIONE = 2  # con la versione 2 si rileggono le pagine con anni mancanti, lette con la vecchia lettura delle date
 
 
 def norm(s):
@@ -89,6 +92,15 @@ def carica_comuni():
         for n in [nome] + [a for a in alias.split(";") if a]:
             indice.setdefault((reg, norm(n)), []).append((cod, att == "1"))
     return indice
+
+
+def buchi(el):
+    """Una tornata saltata (più di 5 anni e mezzo tra due elezioni), nessuna prima del 2000 o nessuna dal 2019."""
+    ds = sorted(dt.date.fromisoformat(d) for d, _ in el)
+    if not ds:
+        return True
+    salti = [(b - a).days / 365 for a, b in zip(ds, ds[1:])]
+    return (salti and max(salti) > 5.7) or ds[0].year > 1999 or ds[-1].year < 2019
 
 
 def salva_stato(stato):
@@ -161,7 +173,13 @@ def main():
     """Lavora a rate: salva lo stato man mano e riparte da dove si era fermato."""
     S = sessione()
     indice = carica_comuni()
-    stato = json.load(open(STATO, encoding="utf-8")) if os.path.exists(STATO) else {"pagine": {}, "fatti": {}}
+    stato = json.load(open(STATO, encoding="utf-8")) if os.path.exists(STATO) else {"pagine": {}, "fatti": {}, "versione": VERSIONE}
+    if stato.get("versione", 1) < VERSIONE:
+        da_rileggere = [u for u, el in stato["fatti"].items() if buchi(el)]
+        for u in da_rileggere:
+            del stato["fatti"][u]
+        stato["versione"] = VERSIONE
+        print(f"[i] {len(da_rileggere)} pagine da rileggere con la nuova lettura delle date", flush=True)
     # 1) elenco delle pagine dei comuni, regione per regione (una volta sola)
     for slug_reg, reg in REGIONI.items():
         if slug_reg in stato["pagine"]:
@@ -232,21 +250,22 @@ def unisci(trovati):
             continue
         cod, v = r.split(":")
         voti[cod] = {date[abs(int(i)) - 1]: int(i) < 0 for i in v.split(",")}
-    def aggiungi(cod, d, ball):
+    def aggiungi(cod, d, ball, scarto=3):
         # una data a pochi giorni da una già presente è la stessa tornata (le fonti indicano a volte il secondo giorno di voto)
         v = voti.setdefault(cod, {})
         g = dt.date.fromisoformat(d)
-        vicina = next((x for x in v if abs((dt.date.fromisoformat(x) - g).days) <= 3), None)
+        vicina = min((x for x in v if abs((dt.date.fromisoformat(x) - g).days) <= scarto), key=lambda x: abs((dt.date.fromisoformat(x) - g).days), default=None)
         if vicina: v[vicina] = v[vicina] or bool(ball)
         else: v[d] = bool(ball)
     for cod, el in trovati.items():
         for d, ball in el:
             aggiungi(cod, d, ball)
-    # capoluoghi: tornate e ballottaggi da Wikipedia, dove tuttitalia.it non li riporta
-    cap = os.path.join(RADICE, "strumenti", "ballottaggi-capoluoghi.json")
-    if os.path.exists(cap):
-        for t in json.load(open(cap, encoding="utf-8"))["tornate"]:
-            aggiungi(t["cod"], t["primo"], t["ballottaggio"])
+    # comuni maggiori: tornate e ballottaggi da Wikipedia, dove tuttitalia.it non li riporta.
+    # Entro 45 giorni da una data già nota è la stessa tornata (Wikipedia a volte sbaglia il giorno): si aggiunge solo il ballottaggio.
+    wiki = os.path.join(RADICE, "strumenti", "ballottaggi-wikipedia.json")
+    if os.path.exists(wiki):
+        for t in json.load(open(wiki, encoding="utf-8"))["tornate"]:
+            aggiungi(t["cod"], t["primo"], t["ballottaggio"], scarto=45)
     tutte = sorted({d for v in voti.values() for d in v})
     pos = {d: i for i, d in enumerate(tutte)}
     nuove = [f"{cod}:{','.join(str(-(pos[d] + 1) if b else pos[d] + 1) for d, b in sorted(v.items()))}" for cod, v in sorted(voti.items())]
