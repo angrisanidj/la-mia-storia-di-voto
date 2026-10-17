@@ -1,0 +1,632 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html>
+  <head>
+    <title>Informatizzazione Dati Elezioni Comunali 2018</title>
+    <link rel="stylesheet" type="text/css" href="..//resource/styles//ssea.css">
+	<meta charset="UTF-8">
+  </head>
+  
+  <body>
+    <table cellSpacing="0" cellPadding="0"><tr><td width="100"><img src="..//resource/images/dot.gif" alt="user" height="0" width="100" border="0"></td><td>
+      <!-- banner -->
+<TABLE cellSpacing=0 cellPadding=0 border=0 width="780">
+  <tr>
+    <td background="..//resource/images/header_bck.gif"><span class="Stile1"><img src="..//resource/images/logo.gif" alt="logo regione siciliana" width="88" height="126" border="0"></span></td>
+    <td background="..//resource/images/header_bck.gif" align="center"><span class="title">Assessorato Regionale delle Autonomie Locali<br>
+    e della Funzione Pubblica<br><i>Servizio Elettorale</i></span></td>
+    <td background="..//resource/images/header_bck.gif"><img src="..//resource/images/logo_sicilia.gif" alt="Elezioni Comunali" height="126" border="0"></td>
+  </tr>
+</table>
+
+
+    <table width="780" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td background="..//resource/images/barra_bck.gif" height="41">
+          <FONT class="Stile3Bold">
+            
+            &nbsp;Dati di mercoledì 20 giugno 2018, 09:35
+          </font>
+        </td>
+      </tr>
+    </table>
+
+
+<!-- banner -->
+
+
+      <!-- fine banner orizzontale per credenziali e logout-->
+
+      <table cellSpacing=0 cellPadding=0 border="0" width="780">
+        <tr width="780">
+          <td  background="..//resource/images/menu_bck.gif" border="0" width="140" align="left" valign="top">
+            <!-- Tabella di menu sx -->
+            <table cellSpacing=0 cellpadding=3 border="0">
+
+
+    <tr>
+      <td class="Stile3Bold" valign="top">
+      <img src="..//resource/images/bullet_menu.gif" alt="bullet" width="12" height="12" border="0"></td>
+      <td  class="Stile3Bold" valign="top" colspan=2>
+        <span class="menuSx">
+        
+        <A class=linkSottoMenu href="../index.html">Home</A>
+        
+        </span>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+      </tr>
+
+      <tr>
+        <td class="Stile3Bold" valign="top">
+        <img src="..//resource/images/bullet_menu.gif" alt="bullet" width="12" height="12" border="0"></td>
+        <td  class="Stile3Bold" valign="top" colspan=2>
+        <span class="menuSx">Report</span>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+      </tr>
+
+        <tr>
+          <td class="Stile3" valign="top">&nbsp;</td>
+          <td class="Stile3" valign="top">&nbsp;&nbsp;</td>
+          
+          <td class="Stile3" valign="top"><A class=linkSottoMenu href="../ReportDatiLista.html">Report Sindaci e Liste</A></td>
+          
+        </tr>
+        <tr>
+          <td></td>
+        </tr>        
+        
+        <tr>
+          <td class="Stile3" valign="top">&nbsp;</td>
+          <td class="Stile3" valign="top">&nbsp;&nbsp;</td>
+          
+          <td class="Stile3" valign="top"><A class=linkSottoMenu href="../ReportTabellaAffluenza.html">Affluenza-Riepilogo Regionale</A></td>
+          
+        </tr>
+        <tr>
+          <td></td>
+        </tr>        
+        
+        <tr>
+          <td class="Stile3" valign="top">&nbsp;</td>
+          <td class="Stile3" valign="top">&nbsp;&nbsp;</td>
+          
+          <td class="Stile3" valign="top"><A class=linkSottoMenu href="../ReportAffluenza.html">Report Affluenza</A></td>
+          
+        </tr>
+        <tr>
+          <td></td>
+        </tr>        
+        
+        <tr>
+          <td class="Stile3" valign="top">&nbsp;</td>
+          <td class="Stile3" valign="top">&nbsp;&nbsp;</td>
+          
+          <td class="Stile3" valign="top"><A class=linkSottoMenu href="../ReportCandidati.html">Report Voti Candidati Sindaco</A></td>
+          
+        </tr>
+        <tr>
+          <td></td>
+        </tr>        
+        
+        <tr>
+          <td class="Stile3" valign="top">&nbsp;</td>
+          <td class="Stile3" valign="top">&nbsp;&nbsp;</td>
+          
+          <td class="Stile3" valign="top"><A class=linkSottoMenu href="../ReportCandidatiListe.html">Report Voti Candidati Sindaco e Liste</A></td>
+          
+        </tr>
+        <tr>
+          <td></td>
+        </tr>        
+        
+        <tr>
+          <td class="Stile3" valign="top">&nbsp;</td>
+          <td class="Stile3" valign="top">&nbsp;&nbsp;</td>
+          
+          <td class="Stile3" valign="top"><A class=linkSottoMenu href="../ReportRisultati.html">Report Risultati</A></td>
+          
+        </tr>
+        <tr>
+          <td></td>
+        </tr>        
+        
+        <tr>
+          <td class="Stile3" valign="top">&nbsp;</td>
+          <td class="Stile3" valign="top">&nbsp;&nbsp;</td>
+          
+          <td class="Stile3" valign="top"><A class=linkSottoMenu href="../ReportSeggi.html">Report Ripartizione Seggi</A></td>
+          
+        </tr>
+        <tr>
+          <td></td>
+        </tr>        
+        
+        <tr>
+          <td class="Stile3" valign="top">&nbsp;</td>
+          <td class="Stile3" valign="top">&nbsp;&nbsp;</td>
+          
+          <td class="Stile3" valign="top"><A class=linkSottoMenu href="../ReportSbarramentoComuni.html">Report Sbarramento</A></td>
+          
+        </tr>
+        <tr>
+          <td></td>
+        </tr>        
+        
+</table>
+            <!-- Fine Tabella di menu sx -->
+          </td>      
+          <td align="center" valign="top" width="628">
+          
+
+<script type="text/javascript" src="..//resource/js//ReportSSEA.js"></script>
+
+
+
+
+          <!-- INSERIMENTO PARTE PERSONALIZZATA -->
+
+<table border="0" width="100%" style="position: relative; top: 0; right: 0; bottom: 0">
+<form name="menuprovince" action="/idec/voto/RepCandidatieListeSelComune" method="POST">
+
+
+
+
+<TR ROWSPAN=2 bgcolor="#969696" align="center">
+    <TD bgColor=#969696 >
+	 <B>
+	 <FONT style="FONT-WEIGHT: 700; FONT-SIZE: 10pt" face=Arial color=#ffffff>
+	  &nbsp;</FONT>
+	  <FONT style="FONT-SIZE: 10pt" face=Arial color=#ffffff size=2>
+    
+	  <A class=linkMenu title=Agrigento href="../AG/ReportCandidatiListeAG.html">
+    
+
+	  <FONT style="FONT-SIZE: 10pt" face=Arial color=#ffffff>&nbsp;&nbsp;</FONT>
+	  <FONT style="FONT-SIZE: 10pt">AG</FONT></A></FONT></B>
+
+
+
+
+
+
+	  <FONT style="FONT-WEIGHT: 700; FONT-SIZE: 10pt" face=Arial color=#ffffff>
+	  &nbsp;&nbsp; |&nbsp;&nbsp;</FONT><B>
+	  <B>
+	  <FONT style="FONT-SIZE: 10pt" face=Arial color=#ffffff size=2>
+    
+	  <A class=linkMenu title=Caltanissetta href="../CL/ReportCandidatiListeCL.html">
+    
+
+	  <FONT style="FONT-SIZE: 10pt">CL</FONT></A></FONT></B>
+	  <FONT style="FONT-WEIGHT: 700; FONT-SIZE: 10pt" face=Arial color=#ffffff>
+	  &nbsp;&nbsp; |&nbsp;&nbsp;</FONT>
+	  <B>
+	  <FONT style="FONT-SIZE: 10pt" face=Arial color=#ffffff size=2>
+    
+	  <A class=linkMenu title=Catania href="../CT/ReportCandidatiListeCT.html">
+    
+
+	  <FONT style="FONT-SIZE: 10pt">CT</FONT></A></FONT></B>
+	  <FONT style="FONT-WEIGHT: 700; FONT-SIZE: 10pt" face=Arial color=#ffffff>
+	  &nbsp;&nbsp; |&nbsp;&nbsp;</FONT>
+	  <B>
+	  <FONT style="FONT-SIZE: 10pt" face=Arial color=#ffffff size=2>
+    
+
+
+	  <A class=linkMenu title=Enna  href="../EN/ReportCandidatiListeEN.html">
+
+    
+
+	  <FONT style="FONT-SIZE: 10pt">EN</FONT></A></FONT></B>
+	  <FONT style="FONT-WEIGHT: 700; FONT-SIZE: 10pt" face=Arial color=#ffffff>
+	  &nbsp;&nbsp; |&nbsp;&nbsp;</FONT>
+	  <B>
+	  <FONT style="FONT-SIZE: 10pt" face=Arial color=#ffffff size=2>
+    
+
+
+	  <A class=linkMenu title=Messina  href="../ME/ReportCandidatiListeME.html">
+
+    
+
+	  <FONT style="FONT-SIZE: 10pt">ME</FONT></A></FONT></B>
+	  <FONT style="FONT-WEIGHT: 700; FONT-SIZE: 10pt" face=Arial color=#ffffff>
+	  &nbsp;&nbsp; |&nbsp;&nbsp;</FONT>
+	  <B>
+	  <FONT style="FONT-SIZE: 10pt" face=Arial color=#ffffff size=2>
+
+    
+
+	  <A class=linkMenu title=Palermo href="../PA/ReportCandidatiListePA.html">
+
+    
+
+	  <FONT style="FONT-SIZE: 10pt">PA</FONT></A></FONT></B>
+	  <FONT style="FONT-WEIGHT: 700; FONT-SIZE: 10pt" face=Arial color=#ffffff>
+	  &nbsp;&nbsp; |&nbsp;&nbsp;</FONT>
+	  <B>
+	  <FONT style="FONT-SIZE: 10pt" face=Arial color=#ffffff size=2>
+
+    
+
+
+	  <A class=linkMenu title=Ragusa href="../RG/ReportCandidatiListeRG.html">
+
+    
+
+
+	  <FONT style="FONT-SIZE: 10pt">RG</FONT></A></FONT></B>
+	  <FONT style="FONT-WEIGHT: 700; FONT-SIZE: 10pt" face=Arial color=#ffffff>
+	  &nbsp;&nbsp; |&nbsp;&nbsp;</FONT>
+	  <B>
+	  <FONT style="FONT-SIZE: 10pt" face=Arial color=#ffffff size=2>
+
+    
+
+
+
+	  <A class=linkMenu title=Siracusa href="../SR/ReportCandidatiListeSR.html">
+
+    
+
+	  <FONT style="FONT-SIZE: 10pt">SR</FONT></A></FONT></B>
+	  <FONT style="FONT-WEIGHT: 700; FONT-SIZE: 10pt" face=Arial color=#ffffff>
+	  &nbsp;&nbsp; |&nbsp;&nbsp;</FONT>
+	  <B>
+	  <FONT style="FONT-SIZE: 10pt" face=Arial color=#ffffff size=2>
+
+    
+
+	  <A class=linkMenu title=Trapani href="../TP/ReportCandidatiListeTP.html">
+
+    
+
+	  <FONT style="FONT-SIZE: 10pt">TP</FONT></A></FONT>
+	  </B>
+	  <FONT style="FONT-WEIGHT: 700; FONT-SIZE: 10pt" face=Arial color=#ffffff>
+	  &nbsp;&nbsp; </FONT>
+    </TD>
+</TR>
+
+<input type="hidden" name="prov" value="" >
+<input type="hidden" name="provName" value="" >
+</form>
+</table>
+
+
+
+
+<table border="0" width="100%" style="position: relative; left: 0; top: 0; right: 0; bottom: 0">
+	<tr><td align="center" class="normalBold10">Elezioni Amministrative del 10 Giugno 2018</td></tr>
+	
+	<tr><td><BR></td></tr>
+	<tr><TD align="center"><FONT class="normalBold10" align="center"><!-- Sezione principale -->Report Voti Candidati Sindaco e Liste</font></TD></tr>
+	<tr align="center" class="normalBold10"><td>Comune di Partanna (TP)</td></TR>
+
+	
+		<tr align="center" class="normalBold10"><td>Risultati Candidati Sindaco relativi a n. 14 su n. 14 sezioni</td></TR>
+	
+	
+		
+			<tr align="center" class="normalBold10"><td>Risultati Liste relativi a n. 14 su n. 14 sezioni</td></TR>
+		
+	
+	
+		<tr align="center" class="normalBold10"><td>Dati relativi allo scrutinio completo</td></TR>
+	
+
+	
+
+
+
+<table border="0" width="100%">
+	<tr>
+
+
+	
+
+
+
+	<td align="right">
+	<form name="downloadForm" action="RepCandidatiListeDownload;jsessionid=BBD870C6FF54A9185E142AC4ABF76E90" method="post" >
+	  <input type="hidden" name="prov" value="TP">
+	  <input type="hidden" name="provName" value="TRAPANI">
+	  <input type="hidden" name="town" value="244">
+	  <input type="hidden" name="FLAGBALLOTTAGGIO" value="false">
+	</form>
+
+
+    
+			<img src="..//resource/images/bullet_menu.gif" alt="bullet" width="12" height="12" border="0">
+			<a bgcolor="#80B9E1" class="normalBold" href="ReportCandidatiListeTP244.pdf"> Download Report</a>
+    
+
+	</td>
+
+     
+
+	</tr>
+
+</table>
+
+
+
+		
+
+		
+
+		<table border="3" width="600" align="center">
+			<tr bgColor = "#FFFFFF" class="normal" height="40">
+			
+					<td width="20" bgColor = "#9ABEE6" class="normalBold" align="center" >N°</td>
+					<td width="20" bgColor = "#FFFFFF" class="normal" align="center" >1</td>
+					<td width="80" bgColor = "#9ABEE6"  class="normalBold" align="center">Candidato Sindaco</td>
+					<td width="250" bgColor = "#FFFFFF" class="normal" align="left"> DE BENEDETTI ANNA MARIA</td>
+					<td width="50" bgColor = "#9ABEE6" class="normalBold" align="center">VOTI</td>
+					<td width="80" bgColor = "#FFFFFF" class="normal" align="center">453</td>
+					<td width="20" bgColor = "#9ABEE6" class="normalBold" align="center">%</td>
+					<td width="80" bgColor = "#FFFFFF" class="normal" align="center">7,25%</td>
+     									
+				
+			</tr>
+		</table>
+		
+		<table border="3" width="600" align="center">
+			<tr height="25" bgColor = "#9ABEE6"  valign="middle" class="normalBold" >
+			  <td width="50"  align="center">N°</td>
+			  
+			  	<td width="350" align="center" colspan="2">Lista/e Collegata/e</td>
+			  
+			  <td width="50" align="center">Candidati</td>
+			  <td width="50" align="center">Voti</td>
+			  <td width="100" align="center">%</td>
+		   </tr>
+
+
+		 
+	  		<tr height="25" height="50" bgColor = "#FFFFFF"  valign="middle" class="normal" align="center"
+				 >
+                    <td width = "50"  >1</td>
+                     
+                    	<td width = "50" align="left" ><img border="0" src="..//resource/contrassegni//6235.JPG" width="50" height="50"></td>
+                     
+                    <td width = "300" align="left">MOVIMENTO 5 STELLE</td>
+                    <td width = "50" >16</td>
+                    <td  width = "50" >458</td>
+                  	<td width = "100" >7,45%</td>	
+	            </tr>
+     	
+     
+      <!-- 
+     	<tr height="25" bgColor = "#FFFFFF"  valign="middle" class="normalBold" align="center">
+     		<td colspan="3"></td>
+     		<td class="normalBold" align ="center" >Totale</td>
+     		<td  class="normalBold" width = "50" ></td>
+     		
+					<td class="normalBold" width = "100" >%</td>
+     		
+     		<td class="normalBold" width = "100" >-</td>
+			
+     		</tr> -->
+	
+ 	</table>
+ 
+
+<br>
+
+
+		
+
+		
+
+		<table border="3" width="600" align="center">
+			<tr bgcolor="#9999CC" class="normal" height="40">
+			
+					<td width="20" bgColor = "#9ABEE6" class="normalBold" align="center" >N°</td>
+					<td width="20" bgColor = "#FFFFFF" class="normal" align="center" >2</td>
+					<td width="80" bgColor = "#9ABEE6"  class="normalBold" align="center">Sindaco <br> Eletto</td>
+					<td width="250" bgcolor="#9999CC" class="normal" align="left"> CATANIA NICOLO'</td>
+					<td width="50" bgColor = "#9ABEE6" class="normalBold" align="center">VOTI</td>
+					<td width="80" bgColor = "#FFFFFF" class="normal" align="center">3.512</td>
+					<td width="20" bgColor = "#9ABEE6" class="normalBold" align="center">%</td>
+					<td width="80" bgColor = "#FFFFFF" class="normal" align="center">56,17%</td>
+     									
+				
+			</tr>
+		</table>
+		
+		<table border="3" width="600" align="center">
+			<tr height="25" bgColor = "#9ABEE6"  valign="middle" class="normalBold" >
+			  <td width="50"  align="center">N°</td>
+			  
+			  	<td width="350" align="center" colspan="2">Lista/e Collegata/e</td>
+			  
+			  <td width="50" align="center">Candidati</td>
+			  <td width="50" align="center">Voti</td>
+			  <td width="100" align="center">%</td>
+		   </tr>
+
+
+		 
+	  		<tr height="25" height="50" bgColor = "#FFFFFF"  valign="middle" class="normal" align="center"
+				 >
+                    <td width = "50"  >2</td>
+                     
+                    	<td width = "50" align="left" ><img border="0" src="..//resource/contrassegni//6629.JPG" width="50" height="50"></td>
+                     
+                    <td width = "300" align="left">PARTANNA CITTA' EUROPEA</td>
+                    <td width = "50" >16</td>
+                    <td  width = "50" >3.269</td>
+                  	<td width = "100" >53,18%</td>	
+	            </tr>
+     	
+     
+      <!-- 
+     	<tr height="25" bgColor = "#FFFFFF"  valign="middle" class="normalBold" align="center">
+     		<td colspan="3"></td>
+     		<td class="normalBold" align ="center" >Totale</td>
+     		<td  class="normalBold" width = "50" ></td>
+     		
+					<td class="normalBold" width = "100" >%</td>
+     		
+     		<td class="normalBold" width = "100" >-</td>
+			
+     		</tr> -->
+	
+ 	</table>
+ 
+
+<br>
+
+
+		
+
+		
+
+		<table border="3" width="600" align="center">
+			<tr bgColor = "#FFFFFF" class="normal" height="40">
+			
+					<td width="20" bgColor = "#9ABEE6" class="normalBold" align="center" >N°</td>
+					<td width="20" bgColor = "#FFFFFF" class="normal" align="center" >3</td>
+					<td width="80" bgColor = "#9ABEE6"  class="normalBold" align="center">Candidato Sindaco</td>
+					<td width="250" bgColor = "#FFFFFF" class="normal" align="left"> CRINELLI FRANCESCO</td>
+					<td width="50" bgColor = "#9ABEE6" class="normalBold" align="center">VOTI</td>
+					<td width="80" bgColor = "#FFFFFF" class="normal" align="center">2.287</td>
+					<td width="20" bgColor = "#9ABEE6" class="normalBold" align="center">%</td>
+					<td width="80" bgColor = "#FFFFFF" class="normal" align="center">36,58%</td>
+     									
+				
+			</tr>
+		</table>
+		
+		<table border="3" width="600" align="center">
+			<tr height="25" bgColor = "#9ABEE6"  valign="middle" class="normalBold" >
+			  <td width="50"  align="center">N°</td>
+			  
+			  	<td width="350" align="center" colspan="2">Lista/e Collegata/e</td>
+			  
+			  <td width="50" align="center">Candidati</td>
+			  <td width="50" align="center">Voti</td>
+			  <td width="100" align="center">%</td>
+		   </tr>
+
+
+		 
+	  		<tr height="25" height="50" bgColor = "#FFFFFF"  valign="middle" class="normal" align="center"
+				 >
+                    <td width = "50"  >3</td>
+                     
+                    	<td width = "50" align="left" ><img border="0" src="..//resource/contrassegni//6631.JPG" width="50" height="50"></td>
+                     
+                    <td width = "300" align="left">CRINELLI SINDACO</td>
+                    <td width = "50" >16</td>
+                    <td  width = "50" >2.420</td>
+                  	<td width = "100" >39,37%</td>	
+	            </tr>
+     	
+     
+      <!-- 
+     	<tr height="25" bgColor = "#FFFFFF"  valign="middle" class="normalBold" align="center">
+     		<td colspan="3"></td>
+     		<td class="normalBold" align ="center" >Totale</td>
+     		<td  class="normalBold" width = "50" ></td>
+     		
+					<td class="normalBold" width = "100" >%</td>
+     		
+     		<td class="normalBold" width = "100" >-</td>
+			
+     		</tr> -->
+	
+ 	</table>
+ 
+
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- FINE INSERIMENTO PARTE PERSONALIZZATA -->
+
+
+
+
+
+            <p align="center">
+              <br>
+              <FONT class="normalBold" >
+                I report pubblicati sono meramente indicativi in quanto elaborati sui dati provvisori comunicati dai Comuni
+              </FONT>
+            </p>
+          </td>
+        </tr>
+      <!-- footer -->
+<tr>
+  <td background="..//resource/images/footer_4.gif" class="Stile3Bold" valign="top">
+    <img src="..//resource/images/footer_1.jpg" alt="logo por" height="51" border="0">
+  </td>
+  <td background="..//resource/images/footer_4.gif" valign="bottom" align=left>
+    <table width="100%" cellpadding=0 border=0 cellspacing=0>
+      <tr>
+        <td align="left">
+          <img src="..//resource/images/footer_4.gif" height="51">
+        </td>
+        <td align="right">
+          <img src="..//resource/images/footer_3.gif" alt="logo" height="51" border="0">
+        </td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<!-- footer -->
+      </table>
+    </td></tr></table>
+  </body>
+</html>
+
+
