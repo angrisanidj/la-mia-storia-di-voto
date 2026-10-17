@@ -1,0 +1,4 @@
+001 http://web.archive.org/web/20150501174557id_/http://www.comune.rovereto.tn.it:80/Elezioni-e-referendum/Elezioni-precedenti/Amministrative-2010/Risultati-del-primo-turno
+002 http://web.archive.org/web/20150516091610id_/http://www.comune.rovereto.tn.it:80/Elezioni-e-referendum/Elezioni-comunali-e-circoscrizionali-2015/Liste-candidati-e-risultati/Elezione-del-Sindaco-e-del-Consiglio-comunale
+003 http://web.archive.org/cdx/search/cdx?fl=original,timestamp,statuscode&collapse=urlkey&limit=500&url=data.civis.bz.it/it/dataset/risultati-elezioni-comunali-extra-turno-2024-del-26-05-08-06-09-06-2024/resource/&matchType=prefix
+004 http://web.archive.org/web/20240615045925id_/https://www.comune.rovereto.tn.it/Novita/Avvisi/Elezioni-amministrative
