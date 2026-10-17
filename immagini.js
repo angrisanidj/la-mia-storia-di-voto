@@ -378,24 +378,31 @@ const IMG = (() => {
       ctx.font = `500 ${f2}px ${TXT}`; const w2 = ctx.measureText(t2).width;
       const w = Math.max(w1, w2) + 6, h = f1 + f2 + 6;
       const prove = [];
-      for (const dist of [6, 34, 70]) for (const a of [0, Math.PI, -Math.PI / 2, Math.PI / 2, -Math.PI / 4, Math.PI / 4, -3 * Math.PI / 4, 3 * Math.PI / 4]) {
+      for (const dist of [6, 34, 70, 110]) for (let k = 0; k < 16; k++) { const a = [0, 8, 12, 4, 14, 2, 10, 6, 15, 1, 13, 3, 9, 7, 11, 5][k] * Math.PI / 8;
         const cx = X + Math.cos(a) * (r + dist), cy = Y + Math.sin(a) * (r + dist);
         prove.push([Math.cos(a) > 0.3 ? cx : Math.cos(a) < -0.3 ? cx - w : cx - w / 2, Math.sin(a) > 0.3 ? cy : Math.sin(a) < -0.3 ? cy - h : cy - h / 2, dist]);
       }
       const altri = G.filter(o => o !== g);
-      let ok = null, meglio = -1e9;
+      // distanza di un rettangolo da una bolla (dal bordo della bolla al punto più vicino del rettangolo)
+      const dal = (x, y, o) => Math.hypot(Math.max(x - o.X, 0, o.X - x - w), Math.max(y - o.Y, 0, o.Y - y - h)) - o.r;
+      let ok = null, meglio = -1e9, chiaro = false;
       for (const pr of prove) {
         const [x, y, dist] = pr;
         if (!(x > X0 && x + w < X0 + S && y > Y0 && y + h < Y0 + S && libero(x, y, w, h))) continue;
-        const cx = x + w / 2, cy = y + h / 2;
-        const dOwn = Math.hypot(cx - X, cy - Y) - r;
-        const dAlt = Math.min(1e4, ...altri.map(o => Math.hypot(cx - o.X, cy - o.Y) - o.r));
-        const punti = Math.min(dAlt, 90) - dOwn * 0.9 - dist * 0.3;
-        if (punti > meglio) { meglio = punti; ok = pr; }
+        const dOwn = dal(x, y, g);
+        const dAlt = Math.min(1e4, ...altri.map(o => dal(x, y, o)));
+        // senza equivoci: la bolla più vicina all'etichetta dev'essere la sua, con un margine
+        // e anche il centro del testo dev'essere più vicino alla sua bolla che alle altre
+        const cx = x + w / 2, cy = y + h / 2, dc = o => Math.hypot(cx - o.X, cy - o.Y) - o.r;
+        const netta = dAlt >= dOwn + 6 && altri.every(o => dc(o) > dc(g) + 12);
+        // se nessun posto è netto, quello in cui il testo è più chiaramente della sua bolla, con un filo
+        const scarto = Math.min(80, ...altri.map(o => dc(o) - dc(g)));
+        const punti = netta ? 1000 + Math.min(dAlt, 60) - dOwn * 1.2 : scarto * 2 + Math.min(dAlt, 40) - dist * 0.2;
+        if (punti > meglio) { meglio = punti; ok = pr; chiaro = netta; }
       }
       ok = ok || prove[0];
       const [lx, ly] = ok; occupati.push([lx, ly, w, h]);
-      if (ok[2] > 6) { const qx = Math.max(lx, Math.min(X, lx + w)), qy = Math.max(ly, Math.min(Y, ly + h)), a = Math.atan2(qy - Y, qx - X); ctx.beginPath(); ctx.moveTo(X + Math.cos(a) * r, Y + Math.sin(a) * r); ctx.lineTo(qx, qy); ctx.strokeStyle = 'rgba(22,27,38,0.3)'; ctx.lineWidth = 1; ctx.stroke(); }
+      if (ok[2] > 6 || !chiaro) { const qx = Math.max(lx, Math.min(X, lx + w)), qy = Math.max(ly, Math.min(Y, ly + h)), a = Math.atan2(qy - Y, qx - X); ctx.beginPath(); ctx.moveTo(X + Math.cos(a) * r, Y + Math.sin(a) * r); ctx.lineTo(qx, qy); ctx.strokeStyle = 'rgba(22,27,38,0.45)'; ctx.lineWidth = 1.2; ctx.stroke(); }
       ctx.textAlign = 'left';
       ctx.font = `700 ${f1}px ${TXT}`; ctx.fillStyle = C.ink; ctx.fillText(t1, lx + 3, ly + f1 - 2);
       ctx.font = `500 ${f2}px ${TXT}`; ctx.fillStyle = C.grigio; ctx.fillText(t2, lx + 3, ly + f1 + f2 + 1);
