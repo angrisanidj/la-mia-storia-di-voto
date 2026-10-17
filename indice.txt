@@ -1,0 +1,13 @@
+001 https://datahub.civis.bz.it/robots.txt
+002 https://datahub.civis.bz.it/region-of-trentino-alto-adige-suedtirol/
+003 https://datahub.civis.bz.it/region-of-trentino-alto-adige-suedtirol/elezioni-comunali-2020/
+004 https://datahub.civis.bz.it/region-of-trentino-alto-adige-suedtirol/elezioni-comunali-2020/VOTISINDACI.CSV
+005 https://datahub.civis.bz.it/region-of-trentino-alto-adige-suedtirol/elezioni-comunali-2020/VOTILISTESINDACI.CSV
+006 https://datahub.civis.bz.it/region-of-trentino-alto-adige-suedtirol/elezioni-comunali-2020/VOTILISTE.CSV
+007 https://datahub.civis.bz.it/region-of-trentino-alto-adige-suedtirol/elezioni-comunali-2020/COLLEGAMENTI.CSV
+008 https://datahub.civis.bz.it/region-of-trentino-alto-adige-suedtirol/elezioni-comunali-2025/VOTISINDACI-SUM.CSV
+009 https://datahub.civis.bz.it/region-of-trentino-alto-adige-suedtirol/elezioni-comunali-2025/VOTILISTESINDACI-SUM.CSV
+010 https://datahub.civis.bz.it/region-of-trentino-alto-adige-suedtirol/elezioni-comunali-2025/VOTILISTE-SUM.CSV
+011 https://datahub.civis.bz.it/region-of-trentino-alto-adige-suedtirol/elezioni-comunali-2021/VOTISINDACI-SUM.CSV
+012 https://datahub.civis.bz.it/region-of-trentino-alto-adige-suedtirol/elezioni-comunali-2015/VOTISINDACI.CSV
+013 https://datahub.civis.bz.it/region-of-trentino-alto-adige-suedtirol/elezioni-comunali-2024/VOTISINDACI-SUM.CSV
