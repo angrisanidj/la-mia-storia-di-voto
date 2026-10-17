@@ -1,0 +1,8 @@
+001 http://web.archive.org/cdx/search/cdx?fl=original,timestamp,statuscode,mimetype&collapse=urlkey&limit=20000&url=www.regione.taa.it/Documenti/Elezioni-Comunali&matchType=prefix
+002 http://web.archive.org/cdx/search/cdx?fl=original,timestamp,statuscode,mimetype&collapse=urlkey&limit=20000&url=www.regione.taa.it/Documenti/Elezioni-comunali&matchType=prefix
+003 http://web.archive.org/cdx/search/cdx?fl=original,timestamp,statuscode,mimetype&collapse=urlkey&limit=20000&url=data.civis.bz.it/dataset/elezioni-comunali&matchType=prefix
+004 http://web.archive.org/cdx/search/cdx?fl=original,timestamp,statuscode,mimetype&collapse=urlkey&limit=20000&url=data.civis.bz.it/it/dataset/elezioni-comunali&matchType=prefix
+005 http://web.archive.org/cdx/search/cdx?fl=original,timestamp,statuscode,mimetype&collapse=urlkey&limit=20000&url=data.civis.bz.it/de/dataset/elezioni-comunali&matchType=prefix
+006 http://web.archive.org/cdx/search/cdx?fl=original,timestamp,statuscode,mimetype&collapse=urlkey&limit=20000&url=data.civis.bz.it/de/dataset/risultati-elezioni-comunali&matchType=prefix
+007 http://web.archive.org/cdx/search/cdx?fl=original,timestamp,statuscode,mimetype&collapse=urlkey&limit=20000&url=data.civis.bz.it/it/dataset/risultati-elezioni-comunali&matchType=prefix
+008 http://web.archive.org/cdx/search/cdx?fl=original,timestamp,statuscode,mimetype&collapse=urlkey&limit=20000&url=www.regione.taa.it/Argomenti/Elezioni-comunali&matchType=prefix
