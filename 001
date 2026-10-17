@@ -1,0 +1,405 @@
+
+<!doctype html>
+<html lang="it">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="../../../../extramedia/electo/bootstrap_ita/css/bootstrap-italia.min.css">
+
+        <!-- override css -->
+        <!-- override larghezza voci menu -->
+<style>
+    .dropdown-menu {min-width: 18rem;}
+</style>
+
+<!-- override colore warning -->
+<style>
+    .bg-warning {background-color: #EEB700 !important;}
+    .bg-success-lite {background-color: #92BA80 !important;}
+    .bg-warning-lite {background-color: #EDE284 !important;}
+    .bg-danger-lite {background-color: #FCC7C7 !important;}
+    .bg-primary-lite {background-color: #86CFF9 !important;}
+    
+</style>
+
+<!-- override altezza form-group -->
+<style>
+    .form-group {margin-bottom: 1.5em;}
+    .form-control {border: 1px solid #878787;}
+</style>
+
+<!-- override body font -->
+<style>
+    body, html {
+        font-size: 15px;
+        line-height: 1.2;
+    }
+</style>
+
+<style>
+    small.piccolissimo {font-size: 0.6em;}
+    supersmall {font-size: 0.6em;}
+    span.label {position: absolute;
+            color: #435a70;
+            font-size: .7778rem;
+            display: block;
+            font-weight: 600;
+            padding: 0 .5rem;
+            line-height: calc(2.5rem - 1px);
+            top: 0;
+            -webkit-transform: translateY(-75%);
+            transform: translateY(-75%);
+        }
+</style>
+
+
+        
+    </head>
+    
+    
+    <body>
+    
+        <div class="it-header-slim-wrapper">
+            <div class="container">
+                
+                <div class="row">
+                    <div class="col-12">
+                        <div class="it-header-slim-wrapper-content">
+                            
+    <h2><a class="d-none d-lg-block navbar-brand" href="../index.html">COMUNE DI ROVERETO - elezioni trasparenti</a></h2>
+
+
+                            
+
+                            
+                            <!-- menu principale dell'applicativo  -->
+                            
+
+
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+
+
+        
+        
+<br>
+<br>
+
+        
+        
+    <span id="top"></span>
+    <div class="row">
+        <div class="col-md-1" align="center">
+            &nbsp;
+        </div>
+        <div class="col-md-1" align="center">
+            <a class="btn btn-info btn-sm" href="S">Candidati sindaco</a> <br><br>
+        </div>
+        <div class="col-md-1" align="center">
+            <a class="btn btn-primary btn-sm" href="L">Liste comunali</a> <br><br>
+        </div>
+        <div class="col-md-1" align="center">
+            <a class="btn btn-primary btn-sm" href="../1/L">Circoscr. Centro</a> <br><br>
+        </div>
+        <div class="col-md-1" align="center">
+            <a class="btn btn-primary btn-sm" href="../2/L">Circoscr. Nord</a> <br><br>
+        </div>
+        <div class="col-md-1" align="center">
+            <a class="btn btn-primary btn-sm" href="../3/L">Circoscr. Sacco S.Giorgio</a> <br><br>
+        </div>
+        <div class="col-md-1" align="center">
+            <a class="btn btn-primary btn-sm" href="../4/L">Circoscr. Sud</a> <br><br>
+        </div>
+        <div class="col-md-1" align="center">
+            <a class="btn btn-primary btn-sm" href="../5/L">Circoscr. Lizzana Mori Ferrovia</a> <br><br>
+        </div>
+        <div class="col-md-1" align="center">
+            <a class="btn btn-primary btn-sm" href="../6/L">Circoscr. Marco</a> <br><br>
+        </div>
+        <div class="col-md-1" align="center">
+            <a class="btn btn-primary btn-sm" href="../7/L">Circoscr. Noriglio</a> <br><br>
+        </div>
+        <div class="col-md-1" align="center">
+            <a class="btn btn-info btn-sm" href="C">Elenco completo dei candidati</a> <br><br>
+        </div>
+    </div>
+    <hr>
+    
+        
+            
+                <h3 align="center">Candidati Sindaco</h3>
+             
+         
+        <hr>
+        
+            
+            
+            
+                <div class="row">
+                    <div class="col-md-2 col-xs-6">
+                       <strong>Nominativo</strong>
+                    </div>
+                    <div class="col-md-2 col-xs-6">
+                        <strong>Luogo e data di nascita</strong>
+                    </div>
+                    <div class="col-md-3 col-xs-12">
+                       <strong>Lista</strong>
+                    </div>
+                    <div class="col-md-2 col-xs-4">
+                       <strong>Comunali/circoscr.</strong>
+                    </div>
+                    
+                    <div class="col-md-2 col-xs-8">
+                    </div>
+                </div>
+                <hr>
+            
+            
+            <div class="row" style="background-color: #F5F5F5;">
+                <div class="col-md-2 col-xs-6">
+                    &nbsp;&nbsp;<strong>LUI Gianpiero</strong>
+                </div>
+                <div class="col-md-2 col-xs-6">
+                     20/04/1967 - Rovereto
+                </div>
+                
+                <div class="col-md-3 col-xs-11">
+                    
+                    <small><strong></strong></small>
+                    
+                </div>
+<!--
+                <div class="col-md-1 col-xs-1">
+                    1
+                </div>
+-->
+                <div class="col-md-2 col-xs-5">
+                    
+                        <strong><small>CONSIGLIO COMUNALE</small></strong>
+                    
+                </div>
+                <div class="col-md-2 col-xs-7">
+                
+                        <h4>
+                    
+                            <a class="btn btn-link" href="../../../../local/electo/file_allegati/doc_candidati/CV_LUI_GIANPIERO.pdf">C.V.</a>
+                        &nbsp;|&nbsp;
+                    
+                    
+                        <a class="btn btn-link" href="../../../../local/electo/file_allegati/doc_candidati/CP_LUI_GIANPIERO.pdf">Certificato penale</a>
+                     
+                                       
+                        </h4>
+                
+                </div>
+            
+            </div>
+        
+            
+            
+            
+            
+            <div class="row" style="background-color: #FEFEFE;">
+                <div class="col-md-2 col-xs-6">
+                    &nbsp;&nbsp;<strong>ROBOL Giulia</strong>
+                </div>
+                <div class="col-md-2 col-xs-6">
+                     08/01/1972 - Rovereto
+                </div>
+                
+                <div class="col-md-3 col-xs-11">
+                    
+                    <small><strong></strong></small>
+                    
+                </div>
+<!--
+                <div class="col-md-1 col-xs-1">
+                    2
+                </div>
+-->
+                <div class="col-md-2 col-xs-5">
+                    
+                        <strong><small>CONSIGLIO COMUNALE</small></strong>
+                    
+                </div>
+                <div class="col-md-2 col-xs-7">
+                
+                        <h4>
+                    
+                            <a class="btn btn-link" href="../../../../local/electo/file_allegati/doc_candidati/CV_GIULIA_ROBOL.pdf">C.V.</a>
+                        &nbsp;|&nbsp;
+                    
+                    
+                        <a class="btn btn-link" href="../../../../local/electo/file_allegati/doc_candidati/CP_GIULIA_ROBOL.pdf">Certificato penale</a>
+                     
+                                       
+                        </h4>
+                
+                </div>
+            
+            </div>
+        
+            
+            
+            
+            
+            <div class="row" style="background-color: #F5F5F5;">
+                <div class="col-md-2 col-xs-6">
+                    &nbsp;&nbsp;<strong>PICCINNI Paolo</strong>
+                </div>
+                <div class="col-md-2 col-xs-6">
+                     30/06/1958 - Rovereto
+                </div>
+                
+                <div class="col-md-3 col-xs-11">
+                    
+                    <small><strong></strong></small>
+                    
+                </div>
+<!--
+                <div class="col-md-1 col-xs-1">
+                    3
+                </div>
+-->
+                <div class="col-md-2 col-xs-5">
+                    
+                        <strong><small>CONSIGLIO COMUNALE</small></strong>
+                    
+                </div>
+                <div class="col-md-2 col-xs-7">
+                
+                        <h4>
+                    
+                            <a class="btn btn-link" href="../../../../local/electo/file_allegati/doc_candidati/piccinnipaolo.cv.pdf">C.V.</a>
+                        &nbsp;|&nbsp;
+                    
+                    
+                        <a class="btn btn-link" href="../../../../local/electo/file_allegati/doc_candidati/piccinnipaolo.cg.pdf">Certificato penale</a>
+                     
+                                       
+                        </h4>
+                
+                </div>
+            
+            </div>
+        
+            
+            
+            
+            
+            <div class="row" style="background-color: #FEFEFE;">
+                <div class="col-md-2 col-xs-6">
+                    &nbsp;&nbsp;<strong>MARSILI Milo</strong>
+                </div>
+                <div class="col-md-2 col-xs-6">
+                     29/11/1969 - Rovereto
+                </div>
+                
+                <div class="col-md-3 col-xs-11">
+                    
+                    <small><strong></strong></small>
+                    
+                </div>
+<!--
+                <div class="col-md-1 col-xs-1">
+                    4
+                </div>
+-->
+                <div class="col-md-2 col-xs-5">
+                    
+                        <strong><small>CONSIGLIO COMUNALE</small></strong>
+                    
+                </div>
+                <div class="col-md-2 col-xs-7">
+                
+                        <h4>
+                    
+                            <a class="btn btn-link" href="../../../../local/electo/file_allegati/doc_candidati/CV_MARSILI_MILO.pdf">C.V.</a>
+                        &nbsp;|&nbsp;
+                    
+                    
+                        <a class="btn btn-link" href="../../../../local/electo/file_allegati/doc_candidati/CP_MARSILI_MILO.pdf">Certificato penale</a>
+                     
+                                       
+                        </h4>
+                
+                </div>
+            
+            </div>
+        
+            
+            
+            
+            
+            <div class="row" style="background-color: #F5F5F5;">
+                <div class="col-md-2 col-xs-6">
+                    &nbsp;&nbsp;<strong>DORIGOTTI Michele</strong>
+                </div>
+                <div class="col-md-2 col-xs-6">
+                     18/07/1979 - Rovereto
+                </div>
+                
+                <div class="col-md-3 col-xs-11">
+                    
+                    <small><strong></strong></small>
+                    
+                </div>
+<!--
+                <div class="col-md-1 col-xs-1">
+                    5
+                </div>
+-->
+                <div class="col-md-2 col-xs-5">
+                    
+                        <strong><small>CONSIGLIO COMUNALE</small></strong>
+                    
+                </div>
+                <div class="col-md-2 col-xs-7">
+                
+                        <h4>
+                    
+                            <a class="btn btn-link" href="../../../../local/electo/file_allegati/doc_candidati/CV_MICHELE_DORIGOTTI.pdf">C.V.</a>
+                        &nbsp;|&nbsp;
+                    
+                    
+                        <a class="btn btn-link" href="../../../../local/electo/file_allegati/doc_candidati/CP_DORIGOTTI_MICHELE.pdf">Certificato penale</a>
+                     
+                                       
+                        </h4>
+                
+                </div>
+            
+            </div>
+        
+        
+     
+    
+    
+
+
+        
+        <div class="fixed-bottom">
+            
+            
+        </div>
+        
+
+    <!-- JS -->
+    <script src="../../../../extramedia/electo/bootstrap_ita/js/bootstrap-italia.bundle.min.js"></script>
+    
+    
+
+    
+    
+    
+
+  </body>
+</html>
