@@ -1,0 +1,4 @@
+001 https://www.comune.rovereto.tn.it/robots.txt
+002 https://www.comune.rovereto.tn.it/ocmultibinary/download/11628/279361/5/cf51a6bea259f54cd8d251cb4933dc8d.pdf/file/Consiglieri_comunali.pdf
+003 https://www.comune.rovereto.tn.it/ocmultibinary/download/11628/279361/5/5a3fd0e24d35a5902ac5ff6cc334f828.pdf/file/Preferenze_consiglio_2024.pdf
+004 http://web.archive.org/cdx/search/cdx?url=www.regione.taa.it/Argomenti/Focus/&matchType=prefix&fl=original,timestamp,statuscode&collapse=urlkey
