@@ -1,0 +1,11 @@
+001 https://datahub.civis.bz.it/region-of-trentino-alto-adige-suedtirol/elezioni-comunali-2024/2024-05-26/VOTISINDACI-SUM.CSV
+002 https://datahub.civis.bz.it/region-of-trentino-alto-adige-suedtirol/elezioni-comunali-2024/2024-05-26/VOTILISTE-SUM.CSV
+003 https://datahub.civis.bz.it/region-of-trentino-alto-adige-suedtirol/elezioni-comunali-2024/2024-05-26/COLLEGAMENTI.CSV
+004 https://datahub.civis.bz.it/region-of-trentino-alto-adige-suedtirol/elezioni-comunali-2024/2024-05-26/VOTILISTESINDACI-SUM.CSV
+005 http://web.archive.org/web/20100601210817id_/http://www.regione.taa.it:80/elezioni/dati/00608052005.pdf
+006 http://web.archive.org/web/2015id_/http://www.regione.taa.it:80/elezioni/dati/39008052005.pdf
+007 http://web.archive.org/web/2015id_/http://www.regione.taa.it:80/elezioni/dati/39016051999.pdf
+008 http://web.archive.org/web/2015id_/http://www.regione.taa.it:80/elezioni/dati/39016052010.pdf
+009 http://web.archive.org/web/20150126091532id_/http://www.provinz.bz.it:80/vote/gem2005/039/mayor_ld_s0_p0_c0.htm
+010 http://web.archive.org/web/20150126091516id_/http://www.provinz.bz.it:80/vote/gem2005/039/list_ld_s0_p0_c0.htm
+011 http://web.archive.org/web/20150127180723id_/http://www.provinz.bz.it:80/vote/gem2005/010/list_ld_s0_p0_c0.htm
