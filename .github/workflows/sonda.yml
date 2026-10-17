@@ -1,0 +1,29 @@
+# Scarica alcune pagine e le restituisce come artefatto: serve a studiare una fonte prima di scriverne il programma.
+name: Sonda
+on:
+  workflow_dispatch:
+    inputs:
+      urls:
+        description: "Indirizzi separati da spazi"
+        required: true
+jobs:
+  sonda:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Scarica
+        env:
+          URLS: ${{ inputs.urls }}
+        run: |
+          mkdir sonda; i=0
+          for u in $URLS; do
+            i=$((i+1)); n=$(printf "%03d" $i)
+            echo "$n $u" >> sonda/indice.txt
+            curl -sSL -m 60 -A "la-mia-storia-di-voto (github.com/angrisanidj/la-mia-storia-di-voto)" -o "sonda/$n" -w "$n %{http_code} %{content_type} %{size_download}\n" "$u" >> sonda/esiti.txt || echo "$n errore" >> sonda/esiti.txt
+            sleep 2
+          done
+          cat sonda/esiti.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: sonda
+          path: sonda
+          retention-days: 3
