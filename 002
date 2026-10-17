@@ -1,0 +1,8 @@
+User-agent: bingbot
+Allow : /
+Crawl-delay: 10
+
+User-agent: *
+Allow: /
+
+Sitemap: https://2024elezionicomunali.regione.taa.it/sitemap-elezionicomunali.xml

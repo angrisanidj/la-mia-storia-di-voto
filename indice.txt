@@ -1,0 +1,4 @@
+001 http://web.archive.org/cdx/search/cdx?fl=original,timestamp,statuscode&collapse=urlkey&limit=5000&url=2024elezionicomunali.regione.taa.it&matchType=domain
+002 https://2024elezionicomunali.regione.taa.it/robots.txt
+003 https://2024elezionicomunali.regione.taa.it/Risultati/Coalizioni/000172.html
+004 https://2024elezionicomunali.regione.taa.it/Risultati/Liste/000172.html
