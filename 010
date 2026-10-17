@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>Elezioni</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" height="100%">
+  <tr> 
+    <td align="center" valign="middle">
+      <p><img src="images/home_i.jpg" align="middle" usemap="#Map" border="0"></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="1">&copy; 2001 </font><font face="Arial" size="1"> 
+        Informatica Alto Adige spa</font></p>
+      </td>
+  </tr>
+</table>
+<map name="Map"> 
+  <area shape="rect" coords="161,247,545,276" href="landtag_i.htm" target="_self">
+  <area shape="rect" coords="151,172,389,199" href="europa99/home_i.htm" target="_self">
+  <area shape="rect" coords="222,100,476,125" href="home_i.htm" target="_self">
+  <area shape="rect" coords="146,23,408,50" href="start2001_i.htm" target="_self">
+</map>
+</body>
+</html>

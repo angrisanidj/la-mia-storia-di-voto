@@ -1,0 +1,213 @@
+<html>
+
+<head>
+<title>Elezioni comunali 2000</title>
+<style>
+<!---
+A:hover { color: red ; }
+-td {  }
+td {  font-size: 10pt}
+a:hover {  color: #800000}
+/* */--></style>
+</head>
+
+<body link="#000080" vlink="#000080" alink="#800000" bgcolor="#FFFFFF" >
+
+<p><img src="../../images/banner_tn_i.gif"  alt="">
+</p>
+
+<table border="0" cellspacing="0" cellpadding="0" width="580">
+  <tr>
+    <td><table border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td><font face="Arial" size="1" color="#000080"><u><img border="0" src="../../images/pfeil6.gif"
+        hspace="5" width="18" height="10"><a href="../home_i.htm">Home</a></u></font></td>
+        <td><font face="Arial" size="1" color="#000080"><u><img border="0" src="../../images/pfeil5.gif"
+        hspace="5" width="14" height="10"><a href="../index_i.htm">Trentino</a></u></font></td>
+        <td><font face="Arial" size="1" color="#000080"><u><img border="0" src="../../images/pfeil5.gif"
+        hspace="5" width="14" height="10"></u></font></td>
+        <td><font face="Arial" size="1" color="#000080"><b>PERGINE VALSUGANA</b></font></td>
+        <td></td>
+      </tr>
+          <tr><td valign="middle" colspan="2">&nbsp;</td>
+        <td></td>
+
+        <td colspan="2"><table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td><font face="Arial" size="1" color="#000080"><u><img border="0" src="../../images/pfeil6.gif"
+            hspace="5" width="18" height="10"></u>Risultati elettorali</font></td>
+          </tr>
+          <tr>
+            <td><font face="Arial" size="1" color="#000080"><u><img border="0" src="../../images/pfeil6.gif"
+            hspace="5" width="18" height="10"></u><a href="../graf/graf137.htm">Rappresentazione grafica</a></font></td>
+          </tr>
+          <tr>
+            <td><font face="Arial" size="1" color="#000080"><u><img border="0" src="../../images/pfeil6.gif"
+            hspace="5" width="18" height="10"></u><a href="../cons/cons137.htm">Nuovo consiglio comunale</a></font></td>
+          </tr>
+        </table>
+        </td>
+      </tr>
+    </table>
+    </td>
+    <td><font face="Arial" size="2"><img src="../../images/Stemmi/TN137.gif"  alt=""></font></td>
+  </tr>
+</table>
+
+
+<table border="0" width="580" cellpadding="4">
+  <tr>
+    <td width="556" bgcolor="#E5E5E5" colspan="4"><strong><font face="Arial" size="2"><i>Risultati elettorali</font></i></strong></td>
+  </tr>
+  <tr>
+    <td width="451" bgcolor="#E0E0E0"  colspan="2"><strong><font face="Arial" size="2"
+    color="#800000">Candidati Sindaco</font></strong></td>
+    <td width="64" align="right" bgcolor="#E0E0E0"><strong><font face="Arial" size="2"
+    color="#800000">Voti&nbsp;</font></strong></td>
+    <td width="41" align="right" bgcolor="#E0E0E0"><strong><font face="Arial" size="2"
+    color="#800000">%&nbsp;</font></strong></td>
+  </tr>
+  
+
+
+
+
+
+
+    <tr>
+    <td width="13" valign="top" bgcolor="#E5E5E5"><strong><font face="Arial" size="2">1</font></strong></td>
+    <td width="430" bgcolor="#E5E5E5"><font face="Arial" size="2"><strong>Anderle Renzo &nbsp;<img border="0" src="..\..\images\buergermeister_i.gif" ><br>
+    </strong>Civica Margherita, Pergine Insieme Per L'Ulivo, Sdi - Socialisti Democratici Autonomisti, Verdi, Autonomisti Trentini</font></td>
+    <td width="64" bgcolor="#E5E5E5" align="right"><font face="Arial" size="2">5987</font></td>
+    <td width="41" bgcolor="#E5E5E5" align="right"><font face="Arial" size="2">59,5</font></td>
+  </tr>
+    <tr>
+    <td width="13" valign="top" bgcolor="#F1F1F1"><strong><font face="Arial" size="2">2</font></strong></td>
+    <td width="430" bgcolor="#F1F1F1"><font face="Arial" size="2"><strong>Pintarelli Primo <br>
+    </strong>Centro Democratico Perginese, Patt, Arcobaleno</font></td>
+    <td width="64" bgcolor="#F1F1F1" align="right"><font face="Arial" size="2">4082</font></td>
+    <td width="41" bgcolor="#F1F1F1" align="right"><font face="Arial" size="2">40,5</font></td>
+  </tr>
+  
+
+</table>
+<table border="0" width="580" cellpadding="4">
+  <tr><td><font face="Arial"><small><small>&nbsp;</small></small></font></td></tr>
+</table>
+
+
+<table border="0" width="580" cellpadding="4">
+  <tr >
+    <td width="402" bgcolor="#E0E0E0" colspan="2"><strong><font face="Arial" size="2"
+    color="#800000">Voti di lista<br>
+    </font></strong><font face="Arial" color="#800000" size="1">(per i voti di preferenza cliccare sulla lista)</font></td>
+    <td width="51" align="right" bgcolor="#E0E0E0"><strong><font face="Arial" size="2"
+    color="#800000">Voti&nbsp;</font></strong></td>
+    <td width="64" align="right" bgcolor="#E0E0E0"><strong><font face="Arial" size="2"
+    color="#800000">%&nbsp;</font></strong></td>
+    <td width="41" align="right" bgcolor="#E0E0E0"><strong><font face="Arial" size="2"
+    color="#800000">Seggi&nbsp;</font></strong></td>
+  </tr>
+
+
+  <tr>
+    <td width="13" bgcolor="#E5E5E5"><font face="Arial" size="2"><strong>2</strong></font></td>
+    <td width="383" bgcolor="#E5E5E5"><a href="../lists/list1895.htm"><font face="Arial" size="2">Civica Margherita</font></a></td>
+    <td width="51" align="right" bgcolor="#E5E5E5"><font face="Arial" size="2">1795</font></td>
+    <td width="64" align="right" bgcolor="#E5E5E5"><font face="Arial" size="2">19,9</font></td>
+    <td width="41" align="right" bgcolor="#E5E5E5"><font face="Arial" size="2">6</font></td>
+  </tr>  <tr>
+    <td width="13" bgcolor="#E5E5E5"><font face="Arial" size="2"><strong>7</strong></font></td>
+    <td width="383" bgcolor="#E5E5E5"><a href="../lists/list1890.htm"><font face="Arial" size="2">Patt</font></a></td>
+    <td width="51" align="right" bgcolor="#E5E5E5"><font face="Arial" size="2">1543</font></td>
+    <td width="64" align="right" bgcolor="#E5E5E5"><font face="Arial" size="2">17,1</font></td>
+    <td width="41" align="right" bgcolor="#E5E5E5"><font face="Arial" size="2">4</font></td>
+  </tr>  <tr>
+    <td width="13" bgcolor="#E5E5E5"><font face="Arial" size="2"><strong>8</strong></font></td>
+    <td width="383" bgcolor="#E5E5E5"><a href="../lists/list1889.htm"><font face="Arial" size="2">Arcobaleno</font></a></td>
+    <td width="51" align="right" bgcolor="#E5E5E5"><font face="Arial" size="2">1386</font></td>
+    <td width="64" align="right" bgcolor="#E5E5E5"><font face="Arial" size="2">15,4</font></td>
+    <td width="41" align="right" bgcolor="#E5E5E5"><font face="Arial" size="2">4</font></td>
+  </tr>  <tr>
+    <td width="13" bgcolor="#E5E5E5"><font face="Arial" size="2"><strong>3</strong></font></td>
+    <td width="383" bgcolor="#E5E5E5"><a href="../lists/list1909.htm"><font face="Arial" size="2">Pergine Insieme Per L'Ulivo</font></a></td>
+    <td width="51" align="right" bgcolor="#E5E5E5"><font face="Arial" size="2">1108</font></td>
+    <td width="64" align="right" bgcolor="#E5E5E5"><font face="Arial" size="2">12,3</font></td>
+    <td width="41" align="right" bgcolor="#E5E5E5"><font face="Arial" size="2">4</font></td>
+  </tr>  <tr>
+    <td width="13" bgcolor="#E5E5E5"><font face="Arial" size="2"><strong>4</strong></font></td>
+    <td width="383" bgcolor="#E5E5E5"><a href="../lists/list1904.htm"><font face="Arial" size="2">Sdi - Socialisti Democratici Autonomisti</font></a></td>
+    <td width="51" align="right" bgcolor="#E5E5E5"><font face="Arial" size="2">1033</font></td>
+    <td width="64" align="right" bgcolor="#E5E5E5"><font face="Arial" size="2">11,5</font></td>
+    <td width="41" align="right" bgcolor="#E5E5E5"><font face="Arial" size="2">4</font></td>
+  </tr>  <tr>
+    <td width="13" bgcolor="#E5E5E5"><font face="Arial" size="2"><strong>1</strong></font></td>
+    <td width="383" bgcolor="#E5E5E5"><a href="../lists/list1891.htm"><font face="Arial" size="2">Centro Democratico Perginese</font></a></td>
+    <td width="51" align="right" bgcolor="#E5E5E5"><font face="Arial" size="2">977</font></td>
+    <td width="64" align="right" bgcolor="#E5E5E5"><font face="Arial" size="2">10,8</font></td>
+    <td width="41" align="right" bgcolor="#E5E5E5"><font face="Arial" size="2">3</font></td>
+  </tr>  <tr>
+    <td width="13" bgcolor="#E5E5E5"><font face="Arial" size="2"><strong>6</strong></font></td>
+    <td width="383" bgcolor="#E5E5E5"><a href="../lists/list1893.htm"><font face="Arial" size="2">Autonomisti Trentini</font></a></td>
+    <td width="51" align="right" bgcolor="#E5E5E5"><font face="Arial" size="2">594</font></td>
+    <td width="64" align="right" bgcolor="#E5E5E5"><font face="Arial" size="2">6,6</font></td>
+    <td width="41" align="right" bgcolor="#E5E5E5"><font face="Arial" size="2">2</font></td>
+  </tr>  <tr>
+    <td width="13" bgcolor="#E5E5E5"><font face="Arial" size="2"><strong>5</strong></font></td>
+    <td width="383" bgcolor="#E5E5E5"><a href="../lists/list1902.htm"><font face="Arial" size="2">Verdi</font></a></td>
+    <td width="51" align="right" bgcolor="#E5E5E5"><font face="Arial" size="2">578</font></td>
+    <td width="64" align="right" bgcolor="#E5E5E5"><font face="Arial" size="2">6,4</font></td>
+    <td width="41" align="right" bgcolor="#E5E5E5"><font face="Arial" size="2">2</font></td>
+  </tr></table>
+<table border="0" width="580" cellpadding="4">
+  <tr><td><font face="Arial"><small><small>&nbsp;</small></small></font></td></tr>
+</table>
+<table border="0" width="580" cellpadding="4">
+  <tr>
+    <td width="445" bgcolor="#E0E0E0" colspan="2"><strong><font face="Arial" size="2"
+    color="#800000">Dati sul voto </font></strong></td>
+    <td width="64" bgcolor="#E0E0E0"><p align="right"><strong><font face="Arial" size="2"
+    color="#800000">Voti</font></strong></td>
+    <td width="35" bgcolor="#E0E0E0"><font face="Arial" size="2" color="#800000"><strong><p
+    align="right">%</strong></font></td>
+  </tr>
+  <tr>
+    <td width="445" bgcolor="#E5E5E5" colspan="2"><font face="Arial" size="2">Schede valide:</font></td>
+    <td width="64" bgcolor="#E5E5E5" align="right"><font face="Arial" size="2">10.069</font></td>
+    <td width="41" bgcolor="#E5E5E5" align="right"><font face="Arial" size="2">93,6</font></td>
+  </tr>
+  <tr>
+    <td width="445" bgcolor="#F1F1F1" colspan="2"><font face="Arial" size="2">Schede non valide:</font></td>
+    <td width="64" bgcolor="#F1F1F1" align="right"><font face="Arial" size="2">686</font></td>
+    <td width="41" bgcolor="#F1F1F1" align="right"><font face="Arial" size="2">6,4</font></td>
+  </tr>
+  <tr>
+    <td width="445" bgcolor="#E5E5E5" colspan="2"><font face="Arial" size="2"><em>di cui bianche:</em></font></td>
+    <td width="64" bgcolor="#E5E5E5" align="right"><font face="Arial" size="2">112</font></td>
+    <td width="41" bgcolor="#E5E5E5" align="right"><font face="Arial" size="2">&nbsp;</font></td>
+  </tr>
+  <tr>
+    <td width="445" bgcolor="#F1F1F1" colspan="2"><font face="Arial" size="2"><b><i>Schede scrutinate</i></b></font></td>
+    <td width="64" bgcolor="#F1F1F1" align="right"><font face="Arial" size="2"><b><i>10.755</i></b></font></td>
+    <td width="41" bgcolor="#F1F1F1" align="right">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="564" bgcolor="#E5E5E5" colspan="4"></td>
+  </tr>
+  <tr>
+    <td width="400" bgcolor="#F1F1F1"><font face="Arial" size="2"><b><i>Affluenza alle urne alle ore 22.00:&nbsp;</i></b></font></td>
+    <td width="164" align="right" bgcolor="#F1F1F1" colspan="3"><p align="right"><font
+    face="Arial" size="2"><b><i>79,7%</i></b></font></td>
+  </tr>
+</table>
+
+<table border="0" width="100%" cellspacing="0" cellpadding="4">
+  <tr>
+    <td><font face="Arial" size="1">I dati sono da considerarsi ufficiosi in quanto soggetti a verifica.</font><p>
+    <font face="Arial" size="1">© 2000 Copyright Regione Trentino-Alto Adige<br>realizzazione Informatica Alto Adige S.p.A.</font></td>
+  </tr>
+</table>
+
+<p>&nbsp;</p>
+</body>
+

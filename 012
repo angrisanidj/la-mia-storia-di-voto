@@ -1,0 +1,319 @@
+<!--- NOT ENABLED .....  DATA WERE:
+NAME:NoData
+Comm_id:390
+Type:2
+Phase:20
+Allow:
+Deny:
+--><!--- NOT ENABLED .....  DATA WERE:
+NAME:ListTblM
+Comm_id:390
+Type:2
+Phase:20
+Allow:
+Deny:
+--><!--- NOT ENABLED .....  DATA WERE:
+NAME:Totali
+Comm_id:390
+Type:2
+Phase:20
+Allow:
+Deny:
+-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<title>Elezioni comunali 2005: LAIVES - Candidati Sindaco</title>
+		<link href="../css/default.css" rel="stylesheet" type="text/css" media="screen, projection"	title="default">
+		<link href="../css/hiContrast.css" rel="alternate stylesheet" type="text/css" media="screen, projection" title="hiContrast">
+		<link href="../css/print.css" rel="stylesheet" type="text/css" media="print">
+		<script type="text/javascript" src="../css/styleswitcher.js"></script>
+		<script src="../css/dw_cookies.js" type="text/javascript"></script>
+		<script src="../css/tableRuler.js" type="text/javascript"></script>
+		<script type="text/javascript">
+<!--
+window.onload=function(){tableruler();}
+//-->
+		</script>
+	</head>
+	<body id="italiano" class="twoCols">
+		<form name="formDefault" method="post" action="Page.aspx?Code=pgMuniMayor&amp;L=I&amp;S=0&amp;P=0&amp;C=0&amp;D=890" id="formDefault">
+<input type="hidden" name="__VIEWSTATE" value="dDwyMDE2MzkwMjkyOzs+4pSuUi7eMywMkWM8uTSNh2LRiz0=" />
+
+			<div id="wrapper">
+				
+<div id="header">
+	<h1 id="HeaderTop_Title">Elezioni comunali 2005 - Regione Trentino Alto Adige</h1>
+	<h2 id="HeaderTop_SubTitle" style="background-image:url(../img/stemmi/BZ390.gif);">
+		LAIVES
+		<br>
+		<span>
+			Candidati Sindaco<br/>
+			
+		</span>
+	</h2>
+	<ul class="serviceNavigator line1">
+		<li>
+			<a href="#" onclick="setActiveStyleSheet('hiContrast'); window.location.reload(); return false;" onkeypress="setActiveStyleSheet('hiContrast'); window.location.reload(); return false;"
+				accesskey="1" title='Alto contrasto'>
+				Alto contrasto
+			</a>
+		<li class="lastItem">
+			<a href="#" onclick="setActiveStyleSheet('default'); window.location.reload(); return false;" onkeypress="setActiveStyleSheet('default'); window.location.reload(); return false;"
+				accesskey="2" title='Versione grafica'>
+				Versione grafica
+			</a>
+		</li>
+	</ul>
+	<ul class="serviceNavigator line2">
+		<li>
+			<a href='../topindex_li_s0_p0_c0.htm' title='Indice generale dei comuni'>
+				Indice Comuni
+			</a>
+		<li>
+			<a href="mayor_ld_s0_p0_c0.htm" title="Versione in lingua tedesca" accesskey="3" xml:lang="de">
+				Deutsch
+			</a>
+		<li class="lastItem">
+			<a href="mayor_ll_s0_p0_c0.htm" title="Versione in lingua ladina" accesskey="4" xml:lang="rm">
+				Ladin
+			</a>
+		</li>
+	</ul>
+</div>
+
+				
+<div id="breadCrumbs">
+<a href='../topindex_li_s0_p0_c0.htm'>Indice Comuni</a> &laquo; 
+<a href='index_li_s0_p0_c0.htm'>LAIVES</a> &laquo; 
+Candidati Sindaco 
+</div>
+				<!-- Qui si crea il navigator ...o si muore! -->
+				<div id="mainNavigator">
+<div class="menuExtraItem"><a href="javascript:window.print();" title='Stampa questa pagina'>Stampa</a></div>
+<h2>Comune di LAIVES</h2>
+<strong>
+	Ballottaggio
+</strong>
+<ul>
+	<li>
+		<a id="Menu_Home" title="Home" href="index_li_s0_p0_c0.htm">Home</a>
+	</li>
+	<li>
+		<a id="Menu_Mayor2T" title="Candidati Sindaco" href="#">Candidati Sindaco</a>
+	</li>
+	<li>
+		<a id="Menu_Affl2T" title="Affluenza alle urne" href="afwb_li_s0_p0_c0.htm">Affluenza alle urne</a>
+	</li>
+	<li>
+		<a id="Menu_ListSeats" title="Assegnazione seggi" href="list_li_s0_p0_c0.htm">Assegnazione seggi</a>
+	</li>
+	<li>
+		<a id="Menu_Council" title="Consiglio comunale" href="council_li_s0_p0_c0.htm">Consiglio comunale</a>
+	</li>
+</ul>
+<strong>
+	Primo turno
+</strong>
+<ul>
+	<li>
+		<a id="Menu_Mayor" title="Candidati Sindaco" href="../039/mayor_li_s0_p0_c0.htm">Candidati Sindaco</a>
+	</li>
+	<li>
+		<a id="Menu_Lists" title="Voti di lista" href="../039/list_li_s0_p0_c0.htm">Voti di lista</a>
+	</li>
+	<li>
+		<a id="Menu_Prefs" title="Voti di preferenza" href="../039/prefi_li_s0_p0_c0.htm">Voti di preferenza</a>
+	</li>
+	<li>
+		<a id="Menu_ListsResult" title="Risultati per lista" href="../039/listx_li_s0_p0_c0.htm">Risultati per lista</a>
+	</li>
+	<li>
+		<a id="Menu_Affl" title="Affluenza alle urne" href="../039/afwb_li_s0_p0_c0.htm">Affluenza alle urne</a>
+	</li>
+	<li>
+		<a id="Menu_Graphs" title="Grafici elettorali" href="../039/graphs_li_s0_p0_c0.htm">Grafici elettorali</a>
+	</li>
+</ul>
+</div>
+				<!-- ...-->
+				<div id="content">
+					
+<div id="sceltaSezione">
+	<button type="button" onclick="javascript:window.location.reload();">
+		Aggiorna
+	</button>
+	<label for="sezione">
+		Scelta della sezione
+	</label>
+	<select id="sezione" title='Scelta della sezione' onChange="javascript:location.href=this.options[this.selectedIndex].value;" >
+		<option value="#"  selected >Tutte le sezioni scrutinate</option>
+		<optgroup  label='Sezioni del comune'>
+			
+					<option value="mayor_li_s7247_p0_c0.htm" >1 - Scuola Elementare Laives</option>
+				
+					<option value="mayor_li_s7480_p0_c0.htm" >2 - Scuola Elementare Laives</option>
+				
+					<option value="mayor_li_s7484_p0_c0.htm" >3 - Scuola Elementare Laives</option>
+				
+					<option value="mayor_li_s7483_p0_c0.htm" >4 - Scuola Elementare Laives</option>
+				
+					<option value="mayor_li_s7481_p0_c0.htm" >5 - Scuola Elementare Laives</option>
+				
+					<option value="mayor_li_s7485_p0_c0.htm" >6 - Scuola Elementare Laives</option>
+				
+					<option value="mayor_li_s7479_p0_c0.htm" >7 - Scuola Media</option>
+				
+					<option value="mayor_li_s7478_p0_c0.htm" >8 - Scuola Media</option>
+				
+					<option value="mayor_li_s7477_p0_c0.htm" >9 - Scuola Media</option>
+				
+					<option value="mayor_li_s7476_p0_c0.htm" >10 - Scuola Media</option>
+				
+					<option value="mayor_li_s7248_p0_c0.htm" >11 - Scuola Media</option>
+				
+					<option value="mayor_li_s7472_p0_c0.htm" >12 - Scuola Elementare Pineta</option>
+				
+					<option value="mayor_li_s7473_p0_c0.htm" >13 - Scuola Elementare Pineta</option>
+				
+					<option value="mayor_li_s7475_p0_c0.htm" >14 - Scuola Elementare La Costa</option>
+				
+					<option value="mayor_li_s7471_p0_c0.htm" >15 - Scuola Elementare S.Giacomo</option>
+				
+					<option value="mayor_li_s7482_p0_c0.htm" >16 - Scuola Elementare S.Giacomo</option>
+				
+					<option value="mayor_li_s7474_p0_c0.htm" >17 - Scuola Elementare S.Giacomo</option>
+				
+		</optgroup>
+	</select>
+</div>
+
+<table class="ruler"  id="voti" summary='Il voto nel comune di LAIVES: elenco dei candidati sindaco ordinati per numero di voti e raffronto con le elezioni 2000'>
+	<caption>
+		Candidati sindaco
+		<br>
+		<span>
+			(sezioni scrutinate: 17 su 17)
+		</span>
+	</caption>
+	<thead>
+		<tr>
+			<th rowspan="2" class="votiTipo" scope="col">
+				Candidato e liste collegate
+			</th>
+			<th colspan="2" scope="col" class="voti2005">
+				2005</th>
+		</tr>
+		<tr>
+			<th scope="col" class="voti2005">
+				Voti
+			</th>
+			<th scope="col" class="voti2005">
+				%</th>
+		</tr>
+	</thead>
+	<tfoot>
+		<tr>
+			<td colspan="3">Dati Provvisori</td>
+		</tr>
+	</tfoot>
+	<tbody>
+		
+				<tr class="even">
+					<th scope="row">
+						1. Polonioli Giovanni<sup>Sindaco</sup>
+						<br />
+						<span>
+							<a id="ListTblME_rptMayorVotes__ctl0_DataList" title="Dati relativi alle preferenze del candidato su tutte le sezioni scrutinate" href="mayors_li_s0_p0_c35141.htm">[Dati per sezione]</a>
+						</span>
+						<ul><li>LA MARGHERITA - DEMOCRAZIA E' LIBERTA'</li><li>LAIVES PER IL DUEMILA</li><li>VERDI-GRÜNE-VERC</li><li>UDC - Libertas</li><li>DEMOCRATICI DI SINISTRA - LINKSDEMOKRATEN</li></ul>
+					</th>
+					<td>4.499</td>
+					<td>74,3%</td>
+				</tr>
+			
+				<tr class="odd">
+					<th scope="row">
+						2. Forti Georg<sup>Consigliere</sup>
+						<br />
+						<span>
+							<a id="ListTblME_rptMayorVotes__ctl1_DataList" title="Dati relativi alle preferenze del candidato su tutte le sezioni scrutinate" href="mayors_li_s0_p0_c35169.htm">[Dati per sezione]</a>
+						</span>
+						<ul><li>SVP</li></ul>
+					</th>
+					<td>1.556</td>
+					<td>25,7%</td>
+				</tr>
+			
+	</tbody>
+</table>
+
+<table id="datiVoto" class="ruler">
+	<caption>
+		Dati sul voto
+	</caption>
+	<thead>
+		<tr>
+			<td></td>
+			<th colspan="2" scope="col" class="voti2005">2005</th>
+		</tr>
+	</thead>
+	<tfoot>
+		<tr>
+			<td colspan="3">Dati Provvisori</td>
+		</tr>
+	</tfoot>
+	<tbody>
+		<tr class="odd">
+			<th>
+				Schede valide
+			</th>
+			<td>6.055</td>
+			<td>93,8%</td>
+		</tr>
+		<tr class="even">
+			<th>
+				Schede non valide
+			</th>
+			<td>397</td>
+			<td>6,2%</td>
+		</tr>
+		<tr class="even">
+			<th class="subHeader">
+				di cui: bianche
+			</th>
+			<td>119</td>
+			<td>1,8%</td>
+		</tr>
+		<tr class="odd">
+			<th>
+				Totale schede scrutinate
+			</th>
+			<td>6.452</td>
+			<td>100%</td>
+		</tr>
+		<tr class="even">
+			<th>
+			</th>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr class="odd">
+			<th>
+				Affluenza alle ore 22.
+			</th>
+			<td colspan="2">53,1%</td>
+		</tr>
+	</tbody>
+</table>
+
+					<div id="copy">
+					   © Regione Trentino - Alto Adige | Realizzazione Informatica Alto Adige Spa
+					</div>
+				</div>
+			</div>
+		</form>
+	</body>
+</html>
