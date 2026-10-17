@@ -1234,11 +1234,14 @@ function nastroEMarchio(ctx, W, m, yM, s = 1) {
 }
 
 let ultimoResto = 0;
-let contenuto = 'emiciclo';
+let contenuto = 'tessera';
 function disegna(cv, righe, formato = formatoScelto) {
   ultimoResto = 0;
   if (contenuto === 'sismografo') return disegnaSismografo(cv, formato);
-  if (contenuto === 'emiciclo') return disegnaEmicicloVoto(cv, formato === 'lista' ? 'post' : formato);
+  const f = formato === 'lista' ? 'post' : formato;
+  if (contenuto === 'tessera') return IMG.tessera(cv, f);
+  if (contenuto === 'quadrante') return IMG.quadrante(cv, f);
+  if (contenuto === 'croci') return IMG.croci(cv, f);
   const F = FORMATI[formato] || FORMATI.lista;
   const ctx = cv.getContext('2d');
   const W = F.W;
@@ -1399,7 +1402,8 @@ function condividiLink() {
 }
 function nomeFile(ext) {
   if (contenuto === 'sismografo') return `il-mio-sismografo-del-voto-${FORMATI[formatoScelto === 'lista' ? 'post' : formatoScelto].file}.${ext}`;
-  if (contenuto === 'emiciclo') return `il-mio-emiciclo-del-voto-${FORMATI[formatoScelto === 'lista' ? 'post' : formatoScelto].file}.${ext}`;
+  const nomi = { tessera: 'la-mia-tessera-elettorale', quadrante: 'il-quadrante-del-mio-voto', croci: 'le-mie-croci' };
+  if (nomi[contenuto]) return `${nomi[contenuto]}-${FORMATI[formatoScelto === 'lista' ? 'post' : formatoScelto].file}.${ext}`;
   return `la-mia-storia-di-voto-${FORMATI[formatoScelto].file}.${ext}`;
 }
 async function generaBlob(tipo = 'image/png') {
@@ -1442,7 +1446,7 @@ function init() {
   document.querySelectorAll('input[name=tavolozza]').forEach(r => r.addEventListener('change', () => {
     tavolozza = r.value; leg.hidden = tavolozza !== 'ue'; aggiorna(false);
   }));
-  // cosa va nell'immagine: l'emiciclo (di base), la lista dei voti o il sismografo. Solo la lista ha il formato a lunghezza libera.
+  // cosa va nell'immagine: la tessera (di base), il quadrante, le croci, la lista dei voti o il sismografo. Solo la lista ha il formato a lunghezza libera.
   const sceltaContenuto = () => {
     const lista = document.querySelector('input[name=formato][value=lista]');
     const soloLista = contenuto === 'lista';
