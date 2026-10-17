@@ -1,0 +1,7 @@
+001 https://datahub.civis.bz.it/region-of-trentino-alto-adige-suedtirol/elezioni-comunali-2024/2024-02-25/VOTISINDACI-SUM.CSV
+002 http://web.archive.org/web/20260415032149id_/https://data.civis.bz.it/it/dataset/risultati-elezioni-comunali-extra-turno-2024-del-10-11-24-11-2024
+003 https://www.2024.elezionicomunali.tn.it/
+004 https://www.2015.elezionicomunali.tn.it/Risultati/Coalizioni/000172.html
+005 https://www.2020.elezionicomunali.tn.it/Risultati/Coalizioni/000172.html
+006 https://www.elezionicomunali.tn.it/
+007 https://www.extraturno.2024.elezionicomunali.tn.it/

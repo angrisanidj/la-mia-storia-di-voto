@@ -1,0 +1,12 @@
+001 200 application/vnd.ms-excel 1551
+002 200 text/html; charset=utf-8 68605
+003 000  0
+003 errore
+004 000  0
+004 errore
+005 000  0
+005 errore
+006 000  0
+006 errore
+007 000  0
+007 errore
