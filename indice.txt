@@ -1,0 +1,8 @@
+001 http://web.archive.org/cdx/search/cdx?fl=original,timestamp,statuscode&collapse=urlkey&limit=50000&url=www.provinz.bz.it/vote/&matchType=prefix
+002 http://web.archive.org/cdx/search/cdx?fl=original,timestamp,statuscode&collapse=urlkey&limit=50000&url=www.provincia.bz.it/vote/&matchType=prefix
+003 http://web.archive.org/cdx/search/cdx?fl=original,timestamp,statuscode&collapse=urlkey&limit=50000&url=regione.trentino-a-adige.it&matchType=domain&filter=original:.*omunal.*
+004 http://web.archive.org/cdx/search/cdx?fl=original,timestamp,statuscode&collapse=urlkey&limit=50000&url=www.regione.taa.it/&matchType=prefix&filter=original:.*omunal.*
+005 http://web.archive.org/cdx/search/cdx?fl=original,timestamp,statuscode&collapse=urlkey&limit=50000&url=static.provinz.bz.it/vote/gem2000/&matchType=prefix
+006 http://web.archive.org/cdx/search/cdx?fl=original,timestamp,statuscode&collapse=urlkey&limit=50000&url=static.provinz.bz.it/vote/gem2005/&matchType=prefix
+007 http://web.archive.org/cdx/search/cdx?fl=original,timestamp,statuscode&collapse=urlkey&limit=50000&url=static.provinz.bz.it/vote/gem2020/&matchType=prefix
+008 http://web.archive.org/cdx/search/cdx?fl=original,timestamp,statuscode&collapse=urlkey&limit=50000&url=provincia.bz.it&matchType=domain&filter=original:.*elezioni.comunal.*
