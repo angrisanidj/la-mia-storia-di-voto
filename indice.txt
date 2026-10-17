@@ -1,0 +1,5 @@
+001 http://elezionistorico.regione.fvg.it/robots.txt
+002 http://elezionistorico.regione.fvg.it/
+003 http://elezionistorico.regione.fvg.it/elezioni2006/000167_Com/Consiglio/000181.html
+004 http://elezionistorico.regione.fvg.it/elezioni2006/
+005 http://elezionistorico.regione.fvg.it/elezioni1999/
