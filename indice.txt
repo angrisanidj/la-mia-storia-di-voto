@@ -1,0 +1,2 @@
+001 https://web.archive.org/cdx/search/cdx?url=comune.rovereto.tn.it/comune/organi/elezioni/*&output=json&fl=timestamp,original,statuscode&collapse=urlkey&filter=statuscode:200
+002 https://web.archive.org/cdx/search/cdx?url=www.comune.rovereto.tn.it/comune/organi/elezioni/*&output=json&fl=timestamp,original,statuscode&collapse=urlkey&filter=statuscode:200
