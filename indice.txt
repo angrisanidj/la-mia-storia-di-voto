@@ -1,0 +1,10 @@
+001 http://web.archive.org/cdx/search/cdx?fl=original,timestamp,statuscode,mimetype&collapse=urlkey&limit=5000&url=data.civis.bz.it/it/dataset/7dae046d-74d8-4856-8221-f4f667880e69/&matchType=prefix
+002 http://web.archive.org/cdx/search/cdx?fl=original,timestamp,statuscode,mimetype&collapse=urlkey&limit=5000&url=data.civis.bz.it/dataset/7dae046d-74d8-4856-8221-f4f667880e69/&matchType=prefix
+003 http://web.archive.org/cdx/search/cdx?fl=original,timestamp,statuscode,mimetype&collapse=urlkey&limit=5000&url=data.civis.bz.it/it/dataset/d5dfecf7-dba1-4a6d-96d1-fc99804c3d09/&matchType=prefix
+004 http://web.archive.org/cdx/search/cdx?fl=original,timestamp,statuscode,mimetype&collapse=urlkey&limit=5000&url=data.civis.bz.it/dataset/d5dfecf7-dba1-4a6d-96d1-fc99804c3d09/&matchType=prefix
+005 http://web.archive.org/cdx/search/cdx?fl=original,timestamp,statuscode,mimetype&collapse=urlkey&limit=5000&url=data.civis.bz.it/it/dataset/238950c8-af0a-48bd-82ee-da72978ec034/&matchType=prefix
+006 http://web.archive.org/cdx/search/cdx?fl=original,timestamp,statuscode,mimetype&collapse=urlkey&limit=5000&url=data.civis.bz.it/dataset/238950c8-af0a-48bd-82ee-da72978ec034/&matchType=prefix
+007 http://web.archive.org/cdx/search/cdx?fl=original,timestamp,statuscode,mimetype&collapse=urlkey&limit=5000&url=data.civis.bz.it/it/dataset/6b7eeaad-490f-4092-ad9c-5bc7cf161b41/&matchType=prefix
+008 http://web.archive.org/cdx/search/cdx?fl=original,timestamp,statuscode,mimetype&collapse=urlkey&limit=5000&url=data.civis.bz.it/dataset/6b7eeaad-490f-4092-ad9c-5bc7cf161b41/&matchType=prefix
+009 http://web.archive.org/cdx/search/cdx?fl=original,timestamp,statuscode,mimetype&collapse=urlkey&limit=5000&url=data.civis.bz.it/it/dataset/elezioni-comunali-2020/&matchType=prefix
+010 http://web.archive.org/cdx/search/cdx?fl=original,timestamp,statuscode,mimetype&collapse=urlkey&limit=5000&url=data.civis.bz.it/de/dataset/elezioni-comunali-2020/&matchType=prefix
