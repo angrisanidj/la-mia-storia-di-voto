@@ -1,0 +1,1475 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<title>Gemeindewahlen 2005:  - Wahlergebnisse</title>
+		<link href="css/default.css" rel="stylesheet" type="text/css" media="screen, projection" title="default">
+		<link href="css/hiContrast.css" rel="alternate stylesheet" type="text/css" media="screen, projection" title="hiContrast">
+		<link href="css/print.css" rel="stylesheet" type="text/css" media="print">
+		<script type="text/javascript" src="css/styleswitcher.js"></script>
+		<script src="css/dw_cookies.js" type="text/javascript"></script>
+		<script src="css/tableRuler.js" type="text/javascript"></script>
+		<script type="text/javascript">
+<!--
+window.onload=function(){tableruler();}
+//-->
+		</script>
+	</head>
+	<body id="deutsch" class="singleCol">
+		<form name="formDefault" method="post" action="Page.aspx?Code=pgTopIndex&amp;L=D&amp;S=0&amp;P=0&amp;C=0" id="formDefault">
+<input type="hidden" name="__VIEWSTATE" value="dDwyMDE2MzkwMjkyOzs+iY++m4Dxh/AKusqmx80vDA1wHqA=" />
+
+			<div id="wrapper">
+				
+<div id="header">
+	<h1 id="HeaderTop_Title">Gemeindewahlen 2005 - Region Trentino-Südtirol</h1>
+	<h2 id="HeaderTop_SubTitle">
+		Verzeichnis der Gemeinden
+		<br>
+		<span>
+			Wahlergebnisse<br/>
+			<br/><strong>8 - 22. Mai 2005</strong>
+		</span>
+	</h2>
+	<ul class="serviceNavigator line1">
+		<li>
+			<a href="#" onclick="setActiveStyleSheet('hiContrast'); window.location.reload(); return false;" onkeypress="setActiveStyleSheet('hiContrast'); window.location.reload(); return false;"
+				accesskey="1" title='Hoher Kontrast'>
+				Hoher Kontrast
+			</a>
+		<li class="lastItem">
+			<a href="#" onclick="setActiveStyleSheet('default'); window.location.reload(); return false;" onkeypress="setActiveStyleSheet('default'); window.location.reload(); return false;"
+				accesskey="2" title='Grafische Version '>
+				Grafische Version 
+			</a>
+		</li>
+	</ul>
+	<ul class="serviceNavigator line2">
+		<li>
+			<a href='#' title='Allgemeines Verzeichnis der Gemeinden'>
+				Verzeichnis der Gemeinden
+			</a>
+		<li>
+			<a href="topindex_li_s0_p0_c0.htm" title="Italienische Version" accesskey="3" xml:lang="it">
+				Italiano
+			</a>
+		<li class="lastItem">
+			<a href="topindex_ll_s0_p0_c0.htm" title="Ladinische Version" accesskey="4" xml:lang="rm">
+				Ladin
+			</a>
+		</li>
+	</ul>
+</div>
+
+				
+				<!-- Qui si crea il navigator ...o si muore! -->
+				
+				<!-- .. -->
+				<div id="content">
+					
+<div id="aggiorna">
+	<input type="button"  onclick="javascript:window.location.reload();" value='Aktualisieren' />
+</div>
+<h3>Stichwahl</h3>
+<table id="scrutinio" summary='' >
+	<caption>
+		&nbsp;
+	</caption>
+	<thead>
+		<tr>
+			<th scope="col">
+				Gemeinde
+			</th>
+			<th scope="col">
+				Bürgermeister-<br>kandidaten
+			</th>
+			<th scope="col">
+				Wahlbeteiligung
+			</th>
+			<th scope="col">
+				Verteilung der Sitze
+			</th>
+			<th scope="col">
+				Neuer Gemeinderat
+			</th>
+		</tr>
+	</thead>
+	<tfoot>
+		<tr>
+			<td colSpan="5">Provisorische Daten</td>
+		</tr>
+	</tfoot>
+	<tbody>
+		
+				<tr>
+					<th scope="row">
+						»
+						<a href="507/index_ld_s0_p0_c0.htm">BOZEN</a>
+					</th>
+					<td class="percent100"><a href="507/mayor_ld_s0_p0_c0.htm">Sektion 80 von 80</a></td>
+					<td class="percent100"><a href="507/afwb_ld_s0_p0_c0.htm">Wahlbeteiligung</a></td>
+					<td class="percent100"><a href="507/list_ld_s0_p0_c0.htm">Sitze</a></td>
+					<td class="percent100"><a href="507/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="510/index_ld_s0_p0_c0.htm">BRIXEN</a>
+					</th>
+					<td class="percent100"><a href="510/mayor_ld_s0_p0_c0.htm">Sektion 22 von 22</a></td>
+					<td class="percent100"><a href="510/afwb_ld_s0_p0_c0.htm">Wahlbeteiligung</a></td>
+					<td class="percent100"><a href="510/list_ld_s0_p0_c0.htm">Sitze</a></td>
+					<td class="percent100"><a href="510/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="539/index_ld_s0_p0_c0.htm">LEIFERS</a>
+					</th>
+					<td class="percent100"><a href="539/mayor_ld_s0_p0_c0.htm">Sektion 17 von 17</a></td>
+					<td class="percent100"><a href="539/afwb_ld_s0_p0_c0.htm">Wahlbeteiligung</a></td>
+					<td class="percent100"><a href="539/list_ld_s0_p0_c0.htm">Sitze</a></td>
+					<td class="percent100"><a href="539/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="551/index_ld_s0_p0_c0.htm">MERAN</a>
+					</th>
+					<td class="percent100"><a href="551/mayor_ld_s0_p0_c0.htm">Sektion 28 von 28</a></td>
+					<td class="percent100"><a href="551/afwb_ld_s0_p0_c0.htm">Wahlbeteiligung</a></td>
+					<td class="percent100"><a href="551/list_ld_s0_p0_c0.htm">Sitze</a></td>
+					<td class="percent100"><a href="551/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+	</tbody>
+</table>
+
+(*) In Leifers findet die Stichwahl am 29. Mai 2005 statt. 
+<br/><br/><br/>
+
+<h3>Erster Wahlgang</h3>
+
+
+<table id="scrutinio" summary='' >
+	<caption>
+		&nbsp; 
+	</caption>
+	<thead>
+		<tr>
+			<th scope="col">
+				Gemeinde
+			</th>
+			<th scope="col">
+				Bürgermeister-<br>kandidaten
+			</th>
+			<th scope="col">
+				Listenstimmen
+			</th>
+			<th scope="col">
+				Vorzugsstimmen 
+			</th>
+			<th scope="col">
+				Neuer Gemeinderat
+			</th>
+		</tr>
+	</thead>
+	<tfoot>
+		<tr>
+			<td colSpan="5">Provisorische Daten</td>
+		</tr>
+	</tfoot>
+	<tbody>
+		
+				<tr>
+					<th class="subHeader" scope="col" colSpan="5">
+						Gemeinden mit mehr als 15.000 Einwohnern
+					</th>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						» BOZEN
+					</th>
+					<td class="percent100"><a href="007/mayor_ld_s0_p0_c0.htm">Sektion 80 von 80</a></td>
+					<td class="percent100"><a href="007/list_ld_s0_p0_c0.htm">Sektion 80 von 80</a></td>
+					<td class="percent100"><a href="007/prefi_ld_s0_p0_c0.htm">Sektion 80 von 80</a></td>
+					<td class="percent0"> Stichwahl </td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						» BRIXEN
+					</th>
+					<td class="percent100"><a href="010/mayor_ld_s0_p0_c0.htm">Sektion 22 von 22</a></td>
+					<td class="percent100"><a href="010/list_ld_s0_p0_c0.htm">Sektion 22 von 22</a></td>
+					<td class="percent100"><a href="010/prefi_ld_s0_p0_c0.htm">Sektion 22 von 22</a></td>
+					<td class="percent0"> Stichwahl </td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						» LEIFERS
+					</th>
+					<td class="percent100"><a href="039/mayor_ld_s0_p0_c0.htm">Sektion 17 von 17</a></td>
+					<td class="percent100"><a href="039/list_ld_s0_p0_c0.htm">Sektion 17 von 17</a></td>
+					<td class="percent100"><a href="039/prefi_ld_s0_p0_c0.htm">Sektion 17 von 17</a></td>
+					<td class="percent0"> Stichwahl </td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						» MERAN
+					</th>
+					<td class="percent100"><a href="051/mayor_ld_s0_p0_c0.htm">Sektion 28 von 28</a></td>
+					<td class="percent100"><a href="051/list_ld_s0_p0_c0.htm">Sektion 28 von 28</a></td>
+					<td class="percent100"><a href="051/prefi_ld_s0_p0_c0.htm">Sektion 28 von 28</a></td>
+					<td class="percent0"> Stichwahl </td>
+				</tr>
+			
+		
+				<tr>
+					<th class="subHeader" scope="col" colSpan="5">
+						Gemeinden bis zu 15.000 Einwohnern
+					</th>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="005/index_ld_s0_p0_c0.htm">ABTEI</a>
+					</th>
+					<td class="percent100"><a href="005/mayor_ld_s0_p0_c0.htm">Sektion 3 von 3</a></td>
+					<td class="percent100"><a href="005/list_ld_s0_p0_c0.htm">Sektion 3 von 3</a></td>
+					<td class="percent100"><a href="005/prefi_ld_s0_p0_c0.htm">Sektion 3 von 3</a></td>
+					<td class="percent100"><a href="005/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="107/index_ld_s0_p0_c0.htm">AHRNTAL</a>
+					</th>
+					<td class="percent100"><a href="107/mayor_ld_s0_p0_c0.htm">Sektion 7 von 7</a></td>
+					<td class="percent100"><a href="107/list_ld_s0_p0_c0.htm">Sektion 7 von 7</a></td>
+					<td class="percent100"><a href="107/prefi_ld_s0_p0_c0.htm">Sektion 7 von 7</a></td>
+					<td class="percent100"><a href="107/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="000/index_ld_s0_p0_c0.htm">ALDEIN</a>
+					</th>
+					<td class="percent100"><a href="000/mayor_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="000/list_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="000/prefi_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="000/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="037/index_ld_s0_p0_c0.htm">ALGUND</a>
+					</th>
+					<td class="percent100"><a href="037/mayor_ld_s0_p0_c0.htm">Sektion 4 von 4</a></td>
+					<td class="percent100"><a href="037/list_ld_s0_p0_c0.htm">Sektion 4 von 4</a></td>
+					<td class="percent100"><a href="037/prefi_ld_s0_p0_c0.htm">Sektion 4 von 4</a></td>
+					<td class="percent100"><a href="037/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="002/index_ld_s0_p0_c0.htm">ALTREI</a>
+					</th>
+					<td class="percent100"><a href="002/mayor_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="002/list_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="002/prefi_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="002/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="001/index_ld_s0_p0_c0.htm">ANDRIAN</a>
+					</th>
+					<td class="percent100"><a href="001/mayor_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="001/list_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="001/prefi_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="001/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="060/index_ld_s0_p0_c0.htm">AUER</a>
+					</th>
+					<td class="percent100"><a href="060/mayor_ld_s0_p0_c0.htm">Sektion 3 von 3</a></td>
+					<td class="percent100"><a href="060/list_ld_s0_p0_c0.htm">Sektion 3 von 3</a></td>
+					<td class="percent100"><a href="060/prefi_ld_s0_p0_c0.htm">Sektion 3 von 3</a></td>
+					<td class="percent100"><a href="060/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="006/index_ld_s0_p0_c0.htm">BARBIAN</a>
+					</th>
+					<td class="percent100"><a href="006/mayor_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="006/list_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="006/prefi_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="006/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="011/index_ld_s0_p0_c0.htm">BRANZOLL</a>
+					</th>
+					<td class="percent100"><a href="011/mayor_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="011/list_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="011/prefi_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="011/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="009/index_ld_s0_p0_c0.htm">BRENNER</a>
+					</th>
+					<td class="percent100"><a href="009/mayor_ld_s0_p0_c0.htm">Sektion 3 von 3</a></td>
+					<td class="percent100"><a href="009/list_ld_s0_p0_c0.htm">Sektion 3 von 3</a></td>
+					<td class="percent100"><a href="009/prefi_ld_s0_p0_c0.htm">Sektion 3 von 3</a></td>
+					<td class="percent100"><a href="009/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="012/index_ld_s0_p0_c0.htm">BRUNECK</a>
+					</th>
+					<td class="percent100"><a href="012/mayor_ld_s0_p0_c0.htm">Sektion 14 von 14</a></td>
+					<td class="percent100"><a href="012/list_ld_s0_p0_c0.htm">Sektion 14 von 14</a></td>
+					<td class="percent100"><a href="012/prefi_ld_s0_p0_c0.htm">Sektion 14 von 14</a></td>
+					<td class="percent100"><a href="012/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="066/index_ld_s0_p0_c0.htm">BURGSTALL</a>
+					</th>
+					<td class="percent100"><a href="066/mayor_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="066/list_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="066/prefi_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="066/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="025/index_ld_s0_p0_c0.htm">CORVARA</a>
+					</th>
+					<td class="percent100"><a href="025/mayor_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="025/list_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="025/prefi_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="025/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="059/index_ld_s0_p0_c0.htm">DEUTSCHNOFEN</a>
+					</th>
+					<td class="percent100"><a href="059/mayor_ld_s0_p0_c0.htm">Sektion 4 von 4</a></td>
+					<td class="percent100"><a href="059/list_ld_s0_p0_c0.htm">Sektion 4 von 4</a></td>
+					<td class="percent100"><a href="059/prefi_ld_s0_p0_c0.htm">Sektion 4 von 4</a></td>
+					<td class="percent100"><a href="059/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="047/index_ld_s0_p0_c0.htm">ENNEBERG</a>
+					</th>
+					<td class="percent100"><a href="047/mayor_ld_s0_p0_c0.htm">Sektion 3 von 3</a></td>
+					<td class="percent100"><a href="047/list_ld_s0_p0_c0.htm">Sektion 3 von 3</a></td>
+					<td class="percent100"><a href="047/prefi_ld_s0_p0_c0.htm">Sektion 3 von 3</a></td>
+					<td class="percent100"><a href="047/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="003/index_ld_s0_p0_c0.htm">EPPAN A.D.W.</a>
+					</th>
+					<td class="percent100"><a href="003/mayor_ld_s0_p0_c0.htm">Sektion 10 von 10</a></td>
+					<td class="percent100"><a href="003/list_ld_s0_p0_c0.htm">Sektion 10 von 10</a></td>
+					<td class="percent100"><a href="003/prefi_ld_s0_p0_c0.htm">Sektion 10 von 10</a></td>
+					<td class="percent100"><a href="003/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="111/index_ld_s0_p0_c0.htm">FELDTHURNS</a>
+					</th>
+					<td class="percent100"><a href="111/mayor_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="111/list_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="111/prefi_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="111/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="031/index_ld_s0_p0_c0.htm">FRANZENSFESTE</a>
+					</th>
+					<td class="percent100"><a href="031/mayor_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="031/list_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="031/prefi_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="031/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="015/index_ld_s0_p0_c0.htm">FREIENFELD</a>
+					</th>
+					<td class="percent100"><a href="015/mayor_ld_s0_p0_c0.htm">Sektion 3 von 3</a></td>
+					<td class="percent100"><a href="015/list_ld_s0_p0_c0.htm">Sektion 3 von 3</a></td>
+					<td class="percent100"><a href="015/prefi_ld_s0_p0_c0.htm">Sektion 3 von 3</a></td>
+					<td class="percent100"><a href="015/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="033/index_ld_s0_p0_c0.htm">GAIS</a>
+					</th>
+					<td class="percent100"><a href="033/mayor_ld_s0_p0_c0.htm">Sektion 3 von 3</a></td>
+					<td class="percent100"><a href="033/list_ld_s0_p0_c0.htm">Sektion 3 von 3</a></td>
+					<td class="percent100"><a href="033/prefi_ld_s0_p0_c0.htm">Sektion 3 von 3</a></td>
+					<td class="percent100"><a href="033/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="034/index_ld_s0_p0_c0.htm">GARGAZON</a>
+					</th>
+					<td class="percent100"><a href="034/mayor_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="034/list_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="034/prefi_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="034/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="035/index_ld_s0_p0_c0.htm">GLURNS</a>
+					</th>
+					<td class="percent100"><a href="035/mayor_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="035/list_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="035/prefi_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="035/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="026/index_ld_s0_p0_c0.htm">GRAUN IN VINSCHGAU</a>
+					</th>
+					<td class="percent100"><a href="026/mayor_ld_s0_p0_c0.htm">Sektion 4 von 4</a></td>
+					<td class="percent100"><a href="026/list_ld_s0_p0_c0.htm">Sektion 4 von 4</a></td>
+					<td class="percent100"><a href="026/prefi_ld_s0_p0_c0.htm">Sektion 4 von 4</a></td>
+					<td class="percent100"><a href="026/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="108/index_ld_s0_p0_c0.htm">GSIES</a>
+					</th>
+					<td class="percent100"><a href="108/mayor_ld_s0_p0_c0.htm">Sektion 3 von 3</a></td>
+					<td class="percent100"><a href="108/list_ld_s0_p0_c0.htm">Sektion 3 von 3</a></td>
+					<td class="percent100"><a href="108/prefi_ld_s0_p0_c0.htm">Sektion 3 von 3</a></td>
+					<td class="percent100"><a href="108/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="004/index_ld_s0_p0_c0.htm">HAFLING</a>
+					</th>
+					<td class="percent100"><a href="004/mayor_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="004/list_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="004/prefi_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="004/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="077/index_ld_s0_p0_c0.htm">INNICHEN</a>
+					</th>
+					<td class="percent100"><a href="077/mayor_ld_s0_p0_c0.htm">Sektion 4 von 4</a></td>
+					<td class="percent100"><a href="077/list_ld_s0_p0_c0.htm">Sektion 4 von 4</a></td>
+					<td class="percent100"><a href="077/prefi_ld_s0_p0_c0.htm">Sektion 4 von 4</a></td>
+					<td class="percent100"><a href="077/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="078/index_ld_s0_p0_c0.htm">JENESIEN</a>
+					</th>
+					<td class="percent100"><a href="078/mayor_ld_s0_p0_c0.htm">Sektion 4 von 4</a></td>
+					<td class="percent100"><a href="078/list_ld_s0_p0_c0.htm">Sektion 4 von 4</a></td>
+					<td class="percent100"><a href="078/prefi_ld_s0_p0_c0.htm">Sektion 4 von 4</a></td>
+					<td class="percent100"><a href="078/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="014/index_ld_s0_p0_c0.htm">KALTERN A.D.W.</a>
+					</th>
+					<td class="percent100"><a href="014/mayor_ld_s0_p0_c0.htm">Sektion 5 von 5</a></td>
+					<td class="percent100"><a href="014/list_ld_s0_p0_c0.htm">Sektion 5 von 5</a></td>
+					<td class="percent100"><a href="014/prefi_ld_s0_p0_c0.htm">Sektion 5 von 5</a></td>
+					<td class="percent100"><a href="014/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="022/index_ld_s0_p0_c0.htm">KARNEID</a>
+					</th>
+					<td class="percent100"><a href="022/mayor_ld_s0_p0_c0.htm">Sektion 5 von 5</a></td>
+					<td class="percent100"><a href="022/list_ld_s0_p0_c0.htm">Sektion 5 von 5</a></td>
+					<td class="percent100"><a href="022/prefi_ld_s0_p0_c0.htm">Sektion 5 von 5</a></td>
+					<td class="percent100"><a href="022/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="017/index_ld_s0_p0_c0.htm">KASTELBELL-TSCHARS</a>
+					</th>
+					<td class="percent100"><a href="017/mayor_ld_s0_p0_c0.htm">Sektion 3 von 3</a></td>
+					<td class="percent100"><a href="017/list_ld_s0_p0_c0.htm">Sektion 3 von 3</a></td>
+					<td class="percent100"><a href="017/prefi_ld_s0_p0_c0.htm">Sektion 3 von 3</a></td>
+					<td class="percent100"><a href="017/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="018/index_ld_s0_p0_c0.htm">KASTELRUTH</a>
+					</th>
+					<td class="percent100"><a href="018/mayor_ld_s0_p0_c0.htm">Sektion 6 von 6</a></td>
+					<td class="percent100"><a href="018/list_ld_s0_p0_c0.htm">Sektion 6 von 6</a></td>
+					<td class="percent100"><a href="018/prefi_ld_s0_p0_c0.htm">Sektion 6 von 6</a></td>
+					<td class="percent100"><a href="018/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="020/index_ld_s0_p0_c0.htm">KIENS</a>
+					</th>
+					<td class="percent100"><a href="020/mayor_ld_s0_p0_c0.htm">Sektion 3 von 3</a></td>
+					<td class="percent100"><a href="020/list_ld_s0_p0_c0.htm">Sektion 3 von 3</a></td>
+					<td class="percent100"><a href="020/prefi_ld_s0_p0_c0.htm">Sektion 3 von 3</a></td>
+					<td class="percent100"><a href="020/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="021/index_ld_s0_p0_c0.htm">KLAUSEN</a>
+					</th>
+					<td class="percent100"><a href="021/mayor_ld_s0_p0_c0.htm">Sektion 6 von 6</a></td>
+					<td class="percent100"><a href="021/list_ld_s0_p0_c0.htm">Sektion 6 von 6</a></td>
+					<td class="percent100"><a href="021/prefi_ld_s0_p0_c0.htm">Sektion 6 von 6</a></td>
+					<td class="percent100"><a href="021/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="013/index_ld_s0_p0_c0.htm">KUENS</a>
+					</th>
+					<td class="percent100"><a href="013/mayor_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="013/list_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="013/prefi_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="013/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="023/index_ld_s0_p0_c0.htm">KURTATSCH A.D.W.</a>
+					</th>
+					<td class="percent100"><a href="023/mayor_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="023/list_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="023/prefi_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="023/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="024/index_ld_s0_p0_c0.htm">KURTINIG A.D.W.</a>
+					</th>
+					<td class="percent100"><a href="024/mayor_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="024/list_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="024/prefi_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="024/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="041/index_ld_s0_p0_c0.htm">LAAS</a>
+					</th>
+					<td class="percent100"><a href="041/mayor_ld_s0_p0_c0.htm">Sektion 5 von 5</a></td>
+					<td class="percent100"><a href="041/list_ld_s0_p0_c0.htm">Sektion 5 von 5</a></td>
+					<td class="percent100"><a href="041/prefi_ld_s0_p0_c0.htm">Sektion 5 von 5</a></td>
+					<td class="percent100"><a href="041/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="038/index_ld_s0_p0_c0.htm">LAJEN</a>
+					</th>
+					<td class="percent100"><a href="038/mayor_ld_s0_p0_c0.htm">Sektion 3 von 3</a></td>
+					<td class="percent100"><a href="038/list_ld_s0_p0_c0.htm">Sektion 3 von 3</a></td>
+					<td class="percent100"><a href="038/prefi_ld_s0_p0_c0.htm">Sektion 3 von 3</a></td>
+					<td class="percent100"><a href="038/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="040/index_ld_s0_p0_c0.htm">LANA</a>
+					</th>
+					<td class="percent100"><a href="040/mayor_ld_s0_p0_c0.htm">Sektion 8 von 8</a></td>
+					<td class="percent100"><a href="040/list_ld_s0_p0_c0.htm">Sektion 8 von 8</a></td>
+					<td class="percent100"><a href="040/prefi_ld_s0_p0_c0.htm">Sektion 8 von 8</a></td>
+					<td class="percent100"><a href="040/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="036/index_ld_s0_p0_c0.htm">LATSCH</a>
+					</th>
+					<td class="percent100"><a href="036/mayor_ld_s0_p0_c0.htm">Sektion 5 von 5</a></td>
+					<td class="percent100"><a href="036/list_ld_s0_p0_c0.htm">Sektion 5 von 5</a></td>
+					<td class="percent100"><a href="036/prefi_ld_s0_p0_c0.htm">Sektion 5 von 5</a></td>
+					<td class="percent100"><a href="036/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="042/index_ld_s0_p0_c0.htm">LAUREIN</a>
+					</th>
+					<td class="percent100"><a href="042/mayor_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="042/list_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="042/prefi_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="042/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="044/index_ld_s0_p0_c0.htm">LÜSEN</a>
+					</th>
+					<td class="percent100"><a href="044/mayor_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="044/list_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="044/prefi_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="044/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="046/index_ld_s0_p0_c0.htm">MALS</a>
+					</th>
+					<td class="percent100"><a href="046/mayor_ld_s0_p0_c0.htm">Sektion 5 von 5</a></td>
+					<td class="percent100"><a href="046/list_ld_s0_p0_c0.htm">Sektion 5 von 5</a></td>
+					<td class="percent100"><a href="046/prefi_ld_s0_p0_c0.htm">Sektion 5 von 5</a></td>
+					<td class="percent100"><a href="046/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="045/index_ld_s0_p0_c0.htm">MARGREID A.D.W.</a>
+					</th>
+					<td class="percent100"><a href="045/mayor_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="045/list_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="045/prefi_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="045/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="048/index_ld_s0_p0_c0.htm">MARLING</a>
+					</th>
+					<td class="percent100"><a href="048/mayor_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="048/list_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="048/prefi_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="048/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="049/index_ld_s0_p0_c0.htm">MARTELL</a>
+					</th>
+					<td class="percent100"><a href="049/mayor_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="049/list_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="049/prefi_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="049/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="050/index_ld_s0_p0_c0.htm">MÖLTEN</a>
+					</th>
+					<td class="percent100"><a href="050/mayor_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="050/list_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="050/prefi_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="050/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="053/index_ld_s0_p0_c0.htm">MONTAN</a>
+					</th>
+					<td class="percent100"><a href="053/mayor_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="053/list_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="053/prefi_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="053/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="054/index_ld_s0_p0_c0.htm">MOOS IN PASSEIER</a>
+					</th>
+					<td class="percent100"><a href="054/mayor_ld_s0_p0_c0.htm">Sektion 5 von 5</a></td>
+					<td class="percent100"><a href="054/list_ld_s0_p0_c0.htm">Sektion 5 von 5</a></td>
+					<td class="percent100"><a href="054/prefi_ld_s0_p0_c0.htm">Sektion 5 von 5</a></td>
+					<td class="percent100"><a href="054/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="074/index_ld_s0_p0_c0.htm">MÜHLBACH</a>
+					</th>
+					<td class="percent100"><a href="074/mayor_ld_s0_p0_c0.htm">Sektion 4 von 4</a></td>
+					<td class="percent100"><a href="074/list_ld_s0_p0_c0.htm">Sektion 4 von 4</a></td>
+					<td class="percent100"><a href="074/prefi_ld_s0_p0_c0.htm">Sektion 4 von 4</a></td>
+					<td class="percent100"><a href="074/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="087/index_ld_s0_p0_c0.htm">MÜHLWALD</a>
+					</th>
+					<td class="percent100"><a href="087/mayor_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="087/list_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="087/prefi_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="087/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="055/index_ld_s0_p0_c0.htm">NALS</a>
+					</th>
+					<td class="percent100"><a href="055/mayor_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="055/list_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="055/prefi_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="055/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="056/index_ld_s0_p0_c0.htm">NATURNS</a>
+					</th>
+					<td class="percent100"><a href="056/mayor_ld_s0_p0_c0.htm">Sektion 4 von 4</a></td>
+					<td class="percent100"><a href="056/list_ld_s0_p0_c0.htm">Sektion 4 von 4</a></td>
+					<td class="percent100"><a href="056/prefi_ld_s0_p0_c0.htm">Sektion 4 von 4</a></td>
+					<td class="percent100"><a href="056/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="057/index_ld_s0_p0_c0.htm">NATZ-SCHABS</a>
+					</th>
+					<td class="percent100"><a href="057/mayor_ld_s0_p0_c0.htm">Sektion 4 von 4</a></td>
+					<td class="percent100"><a href="057/list_ld_s0_p0_c0.htm">Sektion 4 von 4</a></td>
+					<td class="percent100"><a href="057/prefi_ld_s0_p0_c0.htm">Sektion 4 von 4</a></td>
+					<td class="percent100"><a href="057/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="028/index_ld_s0_p0_c0.htm">NEUMARKT</a>
+					</th>
+					<td class="percent100"><a href="028/mayor_ld_s0_p0_c0.htm">Sektion 4 von 4</a></td>
+					<td class="percent100"><a href="028/list_ld_s0_p0_c0.htm">Sektion 4 von 4</a></td>
+					<td class="percent100"><a href="028/prefi_ld_s0_p0_c0.htm">Sektion 4 von 4</a></td>
+					<td class="percent100"><a href="028/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="113/index_ld_s0_p0_c0.htm">NIEDERDORF</a>
+					</th>
+					<td class="percent100"><a href="113/mayor_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="113/list_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="113/prefi_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="113/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="062/index_ld_s0_p0_c0.htm">PARTSCHINS</a>
+					</th>
+					<td class="percent100"><a href="062/mayor_ld_s0_p0_c0.htm">Sektion 4 von 4</a></td>
+					<td class="percent100"><a href="062/list_ld_s0_p0_c0.htm">Sektion 4 von 4</a></td>
+					<td class="percent100"><a href="062/prefi_ld_s0_p0_c0.htm">Sektion 4 von 4</a></td>
+					<td class="percent100"><a href="062/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="063/index_ld_s0_p0_c0.htm">PERCHA</a>
+					</th>
+					<td class="percent100"><a href="063/mayor_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="063/list_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="063/prefi_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="063/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="029/index_ld_s0_p0_c0.htm">PFALZEN</a>
+					</th>
+					<td class="percent100"><a href="029/mayor_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="029/list_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="029/prefi_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="029/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="104/index_ld_s0_p0_c0.htm">PFATTEN</a>
+					</th>
+					<td class="percent100"><a href="104/mayor_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="104/list_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="104/prefi_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="104/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="106/index_ld_s0_p0_c0.htm">PFITSCH</a>
+					</th>
+					<td class="percent100"><a href="106/mayor_ld_s0_p0_c0.htm">Sektion 4 von 4</a></td>
+					<td class="percent100"><a href="106/list_ld_s0_p0_c0.htm">Sektion 4 von 4</a></td>
+					<td class="percent100"><a href="106/prefi_ld_s0_p0_c0.htm">Sektion 4 von 4</a></td>
+					<td class="percent100"><a href="106/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="064/index_ld_s0_p0_c0.htm">PLAUS</a>
+					</th>
+					<td class="percent100"><a href="064/mayor_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="064/list_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="064/prefi_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="064/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="067/index_ld_s0_p0_c0.htm">PRAD AM STILFSERJOCH</a>
+					</th>
+					<td class="percent100"><a href="067/mayor_ld_s0_p0_c0.htm">Sektion 3 von 3</a></td>
+					<td class="percent100"><a href="067/list_ld_s0_p0_c0.htm">Sektion 3 von 3</a></td>
+					<td class="percent100"><a href="067/prefi_ld_s0_p0_c0.htm">Sektion 3 von 3</a></td>
+					<td class="percent100"><a href="067/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="008/index_ld_s0_p0_c0.htm">PRAGS</a>
+					</th>
+					<td class="percent100"><a href="008/mayor_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="008/list_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="008/prefi_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="008/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="068/index_ld_s0_p0_c0.htm">PRETTAU</a>
+					</th>
+					<td class="percent100"><a href="068/mayor_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="068/list_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="068/prefi_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="068/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="069/index_ld_s0_p0_c0.htm">PROVEIS</a>
+					</th>
+					<td class="percent100"><a href="069/mayor_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="069/list_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="069/prefi_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="069/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="071/index_ld_s0_p0_c0.htm">RASEN-ANTHOLZ</a>
+					</th>
+					<td class="percent100"><a href="071/mayor_ld_s0_p0_c0.htm">Sektion 4 von 4</a></td>
+					<td class="percent100"><a href="071/list_ld_s0_p0_c0.htm">Sektion 4 von 4</a></td>
+					<td class="percent100"><a href="071/prefi_ld_s0_p0_c0.htm">Sektion 4 von 4</a></td>
+					<td class="percent100"><a href="071/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="070/index_ld_s0_p0_c0.htm">RATSCHINGS</a>
+					</th>
+					<td class="percent100"><a href="070/mayor_ld_s0_p0_c0.htm">Sektion 7 von 7</a></td>
+					<td class="percent100"><a href="070/list_ld_s0_p0_c0.htm">Sektion 7 von 7</a></td>
+					<td class="percent100"><a href="070/prefi_ld_s0_p0_c0.htm">Sektion 7 von 7</a></td>
+					<td class="percent100"><a href="070/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="073/index_ld_s0_p0_c0.htm">RIFFIAN</a>
+					</th>
+					<td class="percent100"><a href="073/mayor_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="073/list_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="073/prefi_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="073/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="072/index_ld_s0_p0_c0.htm">RITTEN</a>
+					</th>
+					<td class="percent100"><a href="072/mayor_ld_s0_p0_c0.htm">Sektion 8 von 8</a></td>
+					<td class="percent100"><a href="072/list_ld_s0_p0_c0.htm">Sektion 8 von 8</a></td>
+					<td class="percent100"><a href="072/prefi_ld_s0_p0_c0.htm">Sektion 8 von 8</a></td>
+					<td class="percent100"><a href="072/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="075/index_ld_s0_p0_c0.htm">RODENECK</a>
+					</th>
+					<td class="percent100"><a href="075/mayor_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="075/list_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="075/prefi_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="075/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="076/index_ld_s0_p0_c0.htm">SALURN</a>
+					</th>
+					<td class="percent100"><a href="076/mayor_ld_s0_p0_c0.htm">Sektion 3 von 3</a></td>
+					<td class="percent100"><a href="076/list_ld_s0_p0_c0.htm">Sektion 3 von 3</a></td>
+					<td class="percent100"><a href="076/prefi_ld_s0_p0_c0.htm">Sektion 3 von 3</a></td>
+					<td class="percent100"><a href="076/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="016/index_ld_s0_p0_c0.htm">SAND IN TAUFERS</a>
+					</th>
+					<td class="percent100"><a href="016/mayor_ld_s0_p0_c0.htm">Sektion 6 von 6</a></td>
+					<td class="percent100"><a href="016/list_ld_s0_p0_c0.htm">Sektion 6 von 6</a></td>
+					<td class="percent100"><a href="016/prefi_ld_s0_p0_c0.htm">Sektion 6 von 6</a></td>
+					<td class="percent100"><a href="016/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="085/index_ld_s0_p0_c0.htm">SARNTAL</a>
+					</th>
+					<td class="percent100"><a href="085/mayor_ld_s0_p0_c0.htm">Sektion 7 von 7</a></td>
+					<td class="percent100"><a href="085/list_ld_s0_p0_c0.htm">Sektion 7 von 7</a></td>
+					<td class="percent100"><a href="085/prefi_ld_s0_p0_c0.htm">Sektion 7 von 7</a></td>
+					<td class="percent100"><a href="085/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="086/index_ld_s0_p0_c0.htm">SCHENNA</a>
+					</th>
+					<td class="percent100"><a href="086/mayor_ld_s0_p0_c0.htm">Sektion 4 von 4</a></td>
+					<td class="percent100"><a href="086/list_ld_s0_p0_c0.htm">Sektion 4 von 4</a></td>
+					<td class="percent100"><a href="086/prefi_ld_s0_p0_c0.htm">Sektion 4 von 4</a></td>
+					<td class="percent100"><a href="086/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="092/index_ld_s0_p0_c0.htm">SCHLANDERS</a>
+					</th>
+					<td class="percent100"><a href="092/mayor_ld_s0_p0_c0.htm">Sektion 6 von 6</a></td>
+					<td class="percent100"><a href="092/list_ld_s0_p0_c0.htm">Sektion 6 von 6</a></td>
+					<td class="percent100"><a href="092/prefi_ld_s0_p0_c0.htm">Sektion 6 von 6</a></td>
+					<td class="percent100"><a href="092/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="093/index_ld_s0_p0_c0.htm">SCHLUDERNS</a>
+					</th>
+					<td class="percent100"><a href="093/mayor_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="093/list_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="093/prefi_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="093/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="090/index_ld_s0_p0_c0.htm">SCHNALS</a>
+					</th>
+					<td class="percent100"><a href="090/mayor_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="090/list_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="090/prefi_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="090/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="091/index_ld_s0_p0_c0.htm">SEXTEN</a>
+					</th>
+					<td class="percent100"><a href="091/mayor_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="091/list_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="091/prefi_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="091/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="084/index_ld_s0_p0_c0.htm">ST. CHRISTINA IN GRÖDEN</a>
+					</th>
+					<td class="percent100"><a href="084/mayor_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="084/list_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="084/prefi_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="084/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="079/index_ld_s0_p0_c0.htm">ST. LEONHARD IN PASSEIER</a>
+					</th>
+					<td class="percent100"><a href="079/mayor_ld_s0_p0_c0.htm">Sektion 4 von 4</a></td>
+					<td class="percent100"><a href="079/list_ld_s0_p0_c0.htm">Sektion 4 von 4</a></td>
+					<td class="percent100"><a href="079/prefi_ld_s0_p0_c0.htm">Sektion 4 von 4</a></td>
+					<td class="percent100"><a href="079/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="080/index_ld_s0_p0_c0.htm">ST. LORENZEN</a>
+					</th>
+					<td class="percent100"><a href="080/mayor_ld_s0_p0_c0.htm">Sektion 3 von 3</a></td>
+					<td class="percent100"><a href="080/list_ld_s0_p0_c0.htm">Sektion 3 von 3</a></td>
+					<td class="percent100"><a href="080/prefi_ld_s0_p0_c0.htm">Sektion 3 von 3</a></td>
+					<td class="percent100"><a href="080/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="082/index_ld_s0_p0_c0.htm">ST. MARTIN IN PASSEIER</a>
+					</th>
+					<td class="percent100"><a href="082/mayor_ld_s0_p0_c0.htm">Sektion 3 von 3</a></td>
+					<td class="percent100"><a href="082/list_ld_s0_p0_c0.htm">Sektion 3 von 3</a></td>
+					<td class="percent100"><a href="082/prefi_ld_s0_p0_c0.htm">Sektion 3 von 3</a></td>
+					<td class="percent100"><a href="082/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="081/index_ld_s0_p0_c0.htm">ST. MARTIN IN THURN</a>
+					</th>
+					<td class="percent100"><a href="081/mayor_ld_s0_p0_c0.htm">Sektion 3 von 3</a></td>
+					<td class="percent100"><a href="081/list_ld_s0_p0_c0.htm">Sektion 3 von 3</a></td>
+					<td class="percent100"><a href="081/prefi_ld_s0_p0_c0.htm">Sektion 3 von 3</a></td>
+					<td class="percent100"><a href="081/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="083/index_ld_s0_p0_c0.htm">ST. PANKRAZ</a>
+					</th>
+					<td class="percent100"><a href="083/mayor_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="083/list_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="083/prefi_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="083/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="061/index_ld_s0_p0_c0.htm">ST. ULRICH</a>
+					</th>
+					<td class="percent100"><a href="061/mayor_ld_s0_p0_c0.htm">Sektion 4 von 4</a></td>
+					<td class="percent100"><a href="061/list_ld_s0_p0_c0.htm">Sektion 4 von 4</a></td>
+					<td class="percent100"><a href="061/prefi_ld_s0_p0_c0.htm">Sektion 4 von 4</a></td>
+					<td class="percent100"><a href="061/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="115/index_ld_s0_p0_c0.htm">STERZING</a>
+					</th>
+					<td class="percent100"><a href="115/mayor_ld_s0_p0_c0.htm">Sektion 5 von 5</a></td>
+					<td class="percent100"><a href="115/list_ld_s0_p0_c0.htm">Sektion 5 von 5</a></td>
+					<td class="percent100"><a href="115/prefi_ld_s0_p0_c0.htm">Sektion 5 von 5</a></td>
+					<td class="percent100"><a href="115/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="094/index_ld_s0_p0_c0.htm">STILFS</a>
+					</th>
+					<td class="percent100"><a href="094/mayor_ld_s0_p0_c0.htm">Sektion 4 von 4</a></td>
+					<td class="percent100"><a href="094/list_ld_s0_p0_c0.htm">Sektion 4 von 4</a></td>
+					<td class="percent100"><a href="094/prefi_ld_s0_p0_c0.htm">Sektion 4 von 4</a></td>
+					<td class="percent100"><a href="094/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="102/index_ld_s0_p0_c0.htm">TAUFERS IM MÜNSTERTAL</a>
+					</th>
+					<td class="percent100"><a href="102/mayor_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="102/list_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="102/prefi_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="102/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="095/index_ld_s0_p0_c0.htm">TERENTEN</a>
+					</th>
+					<td class="percent100"><a href="095/mayor_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="095/list_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="095/prefi_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="095/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="096/index_ld_s0_p0_c0.htm">TERLAN</a>
+					</th>
+					<td class="percent100"><a href="096/mayor_ld_s0_p0_c0.htm">Sektion 4 von 4</a></td>
+					<td class="percent100"><a href="096/list_ld_s0_p0_c0.htm">Sektion 4 von 4</a></td>
+					<td class="percent100"><a href="096/prefi_ld_s0_p0_c0.htm">Sektion 4 von 4</a></td>
+					<td class="percent100"><a href="096/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="099/index_ld_s0_p0_c0.htm">TIERS</a>
+					</th>
+					<td class="percent100"><a href="099/mayor_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="099/list_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="099/prefi_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="099/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="100/index_ld_s0_p0_c0.htm">TIROL</a>
+					</th>
+					<td class="percent100"><a href="100/mayor_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="100/list_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="100/prefi_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="100/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="098/index_ld_s0_p0_c0.htm">TISENS</a>
+					</th>
+					<td class="percent100"><a href="098/mayor_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="098/list_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="098/prefi_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="098/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="027/index_ld_s0_p0_c0.htm">TOBLACH</a>
+					</th>
+					<td class="percent100"><a href="027/mayor_ld_s0_p0_c0.htm">Sektion 3 von 3</a></td>
+					<td class="percent100"><a href="027/list_ld_s0_p0_c0.htm">Sektion 3 von 3</a></td>
+					<td class="percent100"><a href="027/prefi_ld_s0_p0_c0.htm">Sektion 3 von 3</a></td>
+					<td class="percent100"><a href="027/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="097/index_ld_s0_p0_c0.htm">TRAMIN A.D.W.</a>
+					</th>
+					<td class="percent100"><a href="097/mayor_ld_s0_p0_c0.htm">Sektion 3 von 3</a></td>
+					<td class="percent100"><a href="097/list_ld_s0_p0_c0.htm">Sektion 3 von 3</a></td>
+					<td class="percent100"><a href="097/prefi_ld_s0_p0_c0.htm">Sektion 3 von 3</a></td>
+					<td class="percent100"><a href="097/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="101/index_ld_s0_p0_c0.htm">TRUDEN</a>
+					</th>
+					<td class="percent100"><a href="101/mayor_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="101/list_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="101/prefi_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="101/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="019/index_ld_s0_p0_c0.htm">TSCHERMS</a>
+					</th>
+					<td class="percent100"><a href="019/mayor_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="019/list_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="019/prefi_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="019/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="089/index_ld_s0_p0_c0.htm">U.L. FRAU IM WALDE-ST. FELIX</a>
+					</th>
+					<td class="percent100"><a href="089/mayor_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="089/list_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="089/prefi_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="089/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="103/index_ld_s0_p0_c0.htm">ULTEN</a>
+					</th>
+					<td class="percent100"><a href="103/mayor_ld_s0_p0_c0.htm">Sektion 4 von 4</a></td>
+					<td class="percent100"><a href="103/list_ld_s0_p0_c0.htm">Sektion 4 von 4</a></td>
+					<td class="percent100"><a href="103/prefi_ld_s0_p0_c0.htm">Sektion 4 von 4</a></td>
+					<td class="percent100"><a href="103/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="110/index_ld_s0_p0_c0.htm">VAHRN</a>
+					</th>
+					<td class="percent100"><a href="110/mayor_ld_s0_p0_c0.htm">Sektion 4 von 4</a></td>
+					<td class="percent100"><a href="110/list_ld_s0_p0_c0.htm">Sektion 4 von 4</a></td>
+					<td class="percent100"><a href="110/prefi_ld_s0_p0_c0.htm">Sektion 4 von 4</a></td>
+					<td class="percent100"><a href="110/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="114/index_ld_s0_p0_c0.htm">VILLANDERS</a>
+					</th>
+					<td class="percent100"><a href="114/mayor_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="114/list_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="114/prefi_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="114/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="032/index_ld_s0_p0_c0.htm">VILLNÖSS</a>
+					</th>
+					<td class="percent100"><a href="032/mayor_ld_s0_p0_c0.htm">Sektion 3 von 3</a></td>
+					<td class="percent100"><a href="032/list_ld_s0_p0_c0.htm">Sektion 3 von 3</a></td>
+					<td class="percent100"><a href="032/prefi_ld_s0_p0_c0.htm">Sektion 3 von 3</a></td>
+					<td class="percent100"><a href="032/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="109/index_ld_s0_p0_c0.htm">VINTL</a>
+					</th>
+					<td class="percent100"><a href="109/mayor_ld_s0_p0_c0.htm">Sektion 4 von 4</a></td>
+					<td class="percent100"><a href="109/list_ld_s0_p0_c0.htm">Sektion 4 von 4</a></td>
+					<td class="percent100"><a href="109/prefi_ld_s0_p0_c0.htm">Sektion 4 von 4</a></td>
+					<td class="percent100"><a href="109/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="030/index_ld_s0_p0_c0.htm">VÖLS AM SCHLERN</a>
+					</th>
+					<td class="percent100"><a href="030/mayor_ld_s0_p0_c0.htm">Sektion 3 von 3</a></td>
+					<td class="percent100"><a href="030/list_ld_s0_p0_c0.htm">Sektion 3 von 3</a></td>
+					<td class="percent100"><a href="030/prefi_ld_s0_p0_c0.htm">Sektion 3 von 3</a></td>
+					<td class="percent100"><a href="030/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="112/index_ld_s0_p0_c0.htm">VÖRAN</a>
+					</th>
+					<td class="percent100"><a href="112/mayor_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="112/list_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="112/prefi_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="112/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="065/index_ld_s0_p0_c0.htm">WAIDBRUCK</a>
+					</th>
+					<td class="percent100"><a href="065/mayor_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="065/list_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="065/prefi_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="065/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="052/index_ld_s0_p0_c0.htm">WELSBERG</a>
+					</th>
+					<td class="percent100"><a href="052/mayor_ld_s0_p0_c0.htm">Sektion 3 von 3</a></td>
+					<td class="percent100"><a href="052/list_ld_s0_p0_c0.htm">Sektion 3 von 3</a></td>
+					<td class="percent100"><a href="052/prefi_ld_s0_p0_c0.htm">Sektion 3 von 3</a></td>
+					<td class="percent100"><a href="052/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="058/index_ld_s0_p0_c0.htm">WELSCHNOFEN</a>
+					</th>
+					<td class="percent100"><a href="058/mayor_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="058/list_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="058/prefi_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="058/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="043/index_ld_s0_p0_c0.htm">WENGEN</a>
+					</th>
+					<td class="percent100"><a href="043/mayor_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="043/list_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="043/prefi_ld_s0_p0_c0.htm">Sektion 1 von 1</a></td>
+					<td class="percent100"><a href="043/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+				<tr>
+					<th scope="row">
+						»
+						<a href="088/index_ld_s0_p0_c0.htm">WOLKENSTEIN IN GRÖDEN</a>
+					</th>
+					<td class="percent100"><a href="088/mayor_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="088/list_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="088/prefi_ld_s0_p0_c0.htm">Sektion 2 von 2</a></td>
+					<td class="percent100"><a href="088/council_ld_s0_p0_c0.htm">Verfügbar</a></td>
+				</tr>
+			
+	</tbody>
+</table>
+
+
+
+					<div id="copy">
+						© Region Trentino - Südtirol | Realisierung Südtiroler Informatik AG
+					</div>
+				</div>
+			</div>
+		</form>
+	</body>
+</html>

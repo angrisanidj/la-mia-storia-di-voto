@@ -1,0 +1,391 @@
+<html>
+
+<head>
+<title>Gemeindewahlen 2000</title>
+<style>
+<!---
+A:hover { color: red ; }
+-td {  }
+td {  font-size: 10pt}
+a:hover {  color: #800000}
+/* */--></style>
+</head>
+
+<body link="#000080" vlink="#000080" alink="#800000" bgcolor="#FFFFFF">
+
+<p><img border="0" src="../images/banner_bz_d.gif" WIDTH="556" HEIGHT="77"></p>
+
+<table border="0" cellspacing="0" cellpadding="0" width="580">
+  <tr>
+    <td><table border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td><font face="Arial" size="1" color="#000080"><u><img border="0" src="../images/pfeil6.gif" hspace="5" width="18" height="10"><a href="home_d.htm">Home</a></u></font></td>
+        <td><font face="Arial" size="1" color="#000080"><img border="0" src="../images/pfeil5.gif" hspace="5" WIDTH="14" HEIGHT="10">Südtirol</font></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+    </td>
+    <td></td>
+  </tr>
+</table>
+
+<table border="0" cellpadding="5">
+  <tr>
+    <td valign="top"><a href="home_d.htm"><img src="../images/pfeil4.gif" alt="arrow up" border="0" WIDTH="14" HEIGHT="18"></a></td>
+    <td style="padding-left: 10"><strong><font face="Arial" color="#800000" size="3">Inoffizielle
+    Wahlergebnisse nach Gemeinden</font><br>
+    <font face="Arial" color="#000080"><font size="1">Für Detailergebnisse wählen Sie die
+    gewünschte Gemeinde aus.</font></font></strong>
+    </td>
+  </tr>
+  <tr>
+    <td></td>
+    <td width="550"><table BORDER="0" CELLSPACING="2" WIDTH="100%" bgcolor="#f1f1f1">
+      <tr>
+        <td height="35" colspan="8" bgcolor="#E0E0E0" width="548"><b><font face="Arial" size="3" color="#80000">&nbsp;Gemeinden mit mehr als 13.000 Einwohnern:</font></b></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><a href="comm/gemm358.htm"><font face="Arial" size="1">Bozen</font></a></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><a href="comm/gemm361.htm"><font face="Arial" size="1">Brixen</font></a></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm402.htm">Meran</a></font></td>
+        <td height="34" widht="25"><font color="#f1f1f1">---</font></td>
+        <td height="34" widht="25"><font color="#f1f1f1">---</font></td>
+      </tr>
+      <tr>
+        <td height="35" colspan="8" bgcolor="#E0E0E0" width="548"><b><font face="Arial" size="3" color="#80000">&nbsp;Gemeinden bis zu 13.000 Einwohnern:</font></b></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm356.htm">Abtei</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm458.htm">Ahrntal</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm351.htm">Aldein</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm388.htm">Algund</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm353.htm">Altrei</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm352.htm">Andrian</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm411.htm">Auer</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm358.htm">Barbian</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm360.htm">Brenner</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm363.htm">Bruneck</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm417.htm">Burgstall</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm376.htm">Corvara</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm410.htm">Deutschnofen</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm398.htm">Enneberg</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm354.htm">Eppan A.D.W.</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm462.htm">Feldthurns</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm382.htm">Franzensfeste</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm384.htm">Gais</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm385.htm">Gargazon</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm386.htm">Glurns</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm377.htm">GRAUN IM VINSCHGAU</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm459.htm">Gsies</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm355.htm">Hafling</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm428.htm">Innichen</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm429.htm">Jenesien</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm365.htm">Kaltern A.D.W.</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm373.htm">Karneid</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm368.htm">Kastelbell-Tschars</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm369.htm">Kastelruth</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm371.htm">Kiens</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm372.htm">Klausen</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm364.htm">Kuens</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm374.htm">Kurtatsch A.D.W.</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm375.htm">Kurtinig A.D.W.</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm392.htm">Laas</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm389.htm">Lajen</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm391.htm">Lana</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm387.htm">Latsch</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm393.htm">Laurein</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm395.htm">Lüsen</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm397.htm">Mals</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm396.htm">Margreid A.D.W.</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm399.htm">Marling</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm400.htm">Martell</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm404.htm">Montan</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm405.htm">Moos In Passeier</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm401.htm">Mölten</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm425.htm">Mühlbach</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm438.htm">Mühlwald</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm406.htm">Nals</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm407.htm">Naturns</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm408.htm">Natz-Schabs</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm379.htm">Neumarkt</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm464.htm">Niederdorf</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm456.htm">Olang</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm413.htm">Partschins</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm414.htm">Percha</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm380.htm">Pfalzen</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm455.htm">Pfatten</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm457.htm">Pfitsch</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm415.htm">Plaus</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm418.htm">Prad Am Stilfserjoch</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm359.htm">Prags</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm419.htm">Prettau</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm420.htm">Proveis</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm422.htm">Rasen-Antholz</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm421.htm">Ratschings</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm424.htm">Riffian</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm423.htm">Ritten</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm426.htm">Rodeneck</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm427.htm">Salurn</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm367.htm">Sand In Taufers</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm436.htm">Sarntal</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm437.htm">Schenna</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm443.htm">Schlanders</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm444.htm">Schluderns</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm441.htm">Schnals</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm442.htm">Sexten</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm435.htm">St. Christina In Gröden</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm430.htm">St. Leonhard In Passeier</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm431.htm">St. Lorenzen</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm433.htm">St. Martin In Passeier</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm432.htm">St. Martin In Thurn</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm434.htm">St. Pankraz</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm412.htm">St. Ulrich</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm466.htm">Sterzing</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm445.htm">Stilfs</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm453.htm">Taufers Im Münstertal</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm446.htm">Terenten</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm447.htm">Terlan</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm450.htm">Tiers</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm451.htm">Tirol</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm449.htm">Tisens</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm378.htm">Toblach</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm448.htm">Tramin A.D.W.</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm452.htm">Truden</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm370.htm">Tscherms</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm440.htm">U.L. Frau Im Walde-St. Felix</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm454.htm">Ulten</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm461.htm">Vahrn</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm465.htm">Villanders</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm383.htm">Villnöss</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm460.htm">Vintl</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm381.htm">Völs Am Schlern</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm463.htm">Vöran</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm416.htm">Waidbruck</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm403.htm">Welsberg</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm409.htm">Welschnofen</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm394.htm">Wengen</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/gemm439.htm">Wolkenstein In Gröden</a></font></td>
+        <td height="34" widht="25"><font color="#f1f1f1">---</font></td>
+        <td height="34" widht="25"><font color="#f1f1f1">---</font></td>
+        <td height="34" widht="25"><font color="#f1f1f1">---</font></td>
+        <td height="34" widht="25"><font color="#f1f1f1">---</font></td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+  <tr>
+    <td></td>
+    <td width="547"><table BORDER="0" COLSPAN="2" CELLSPACING="0" BORDERCOLOR="#000000" WIDTH="552" bgcolor="#F0F8FF">
+      <tr>
+        <td bgcolor="#ECECEC"><font face="Arial" size="2" color="#000080">&nbsp;Legende:</font></td>
+        <td bgcolor="#ECECEC"><img src="../images/but_05.gif" alt="vollständige Daten" WIDTH="20" HEIGHT="20"></td>
+        <td bgcolor="#ECECEC"><font face="Arial" size="2" color="#000000">vollständige Daten</font></td>
+        <td bgcolor="#ECECEC"><img src="../images/but_01.gif" alt="keine Daten" WIDTH="20" HEIGHT="20"></td>
+        <td bgcolor="#ECECEC"><font face="Arial" size="2" color="#000000">keine Daten</font></td>
+        <td bgcolor="#ECECEC"><img src="../images/but_02.gif" alt="unter 50%" WIDTH="20" HEIGHT="20"></td>
+        <td bgcolor="#ECECEC"><font face="Arial" size="2" color="#000000">unter 50%<sup>*</sup></font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#ECECEC" colspan="3"><font face="Arial" size="1">&nbsp;* %-Anteil bereits
+        ausgezählter Sektionen</font></td>
+        <td bgcolor="#ECECEC"><img src="../images/but_03.gif" alt="über 50%" WIDTH="20" HEIGHT="20"></td>
+        <td bgcolor="#ECECEC"><font face="Arial" size="2" color="#000000">über 50%<sup>*</sup></font></td>
+        <td bgcolor="#ECECEC"><img src="../images/but_04.gif" alt="über 75%" WIDTH="20" HEIGHT="20"></td>
+        <td bgcolor="#ECECEC"><font face="Arial" size="2" color="#000000">über 75%<sup>*</sup></font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#ECECEC" colspan="7">&nbsp;</td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><table border="0" width="100%" cellspacing="0" cellpadding="0">
+      <tr>
+        <td><font face="Arial" size="1">Inoffizielle Daten die noch überprüft werden müssen.</font><p><font face="Arial" size="1">© 2000 Copyright Region Trentino-Südtirol<br>
+        Realisierung Südtiroler Informatik AG</font></td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

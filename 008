@@ -1,0 +1,861 @@
+<html>
+
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Gemeindewahlen 2000</title>
+</head>
+
+<body link="#000000" vlink="#808080">
+
+<table border="0">
+  <tr>
+    <td colspan="2"><img border="0" src="../images/banner_bz_d.gif" WIDTH="556" HEIGHT="77"></td>
+  </tr>
+  <tr>
+    <td height="20" colspan="2"></td>
+  </tr>
+  <tr>
+    <td><table border="0" cellspacing="0" cellpadding="2">
+      <tr>
+        <td><font face="Arial" size="1" color="#000080"><u><img border="0" src="../images/pfeil6.gif" hspace="5" width="18" height="10"><a href="home_d.htm">Home</a></u></font></td>
+        <td><img src="../images/pfeil5.gif" alt="pfeil5.gif (55 bytes)" WIDTH="14" HEIGHT="10"><font face="Verdana" size="1"> </font><font size="1" face="Arial">Südtirol - gewählte Bürgerneister</font></td>
+      </tr>
+    </table>
+    </td>
+    <td><strong><font face="Arial" size="3">&nbsp;</font><font color="#800000" face="Arial" size="3"><span lang="DE" style="mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Arial; mso-ansi-language: DE"><b>Südtirol
+    - Gewählte Bürgermeister</b></span></font></strong></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="right"><table border="0" cellpadding="2">
+      <tr>
+        <td><strong><font face="Verdana" size="2" color="#800000">Download-Exceldatei</font></strong></td>
+        <td><a href="sindaci_de_it_BZ.xls"><img src="../images/excel2000_16px.gif" border="0" WIDTH="16" HEIGHT="16"></a></td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+  <tr>
+    <td bgcolor="#DBDBDB" colspan="2"><table BORDER="0" CELLPADDING="2" WIDTH="100%">
+      <tr>
+        <td bgcolor="#F1F1F1" align="center"><font face="Verdana" size="2" color="#800000"><strong>Gemeinde</strong></font></td>
+        <td bgcolor="#F1F1F1" align="center"><font face="Verdana" size="2" color="#800000"><strong>Bürgermeister</strong></font></td>
+        <td bgcolor="#F1F1F1" align="center"><font face="Verdana" size="2" color="#800000"><strong>Liste</strong></font></td>
+        <td bgcolor="#F1F1F1" align="center"><font face="Verdana" size="2" color="#800000"><strong>Stimmen</strong></font></td>
+        <td bgcolor="#F1F1F1" align="center"><font face="Verdana" size="2" color="#800000"><strong>&nbsp;&nbsp;
+        %&nbsp; </strong></font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1" colspan="5"><font face="Verdana" size="2" color="#800000"><strong>Gemeinden
+        mit mehr als 13.000 Einwohnern: </strong></font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">BOZEN</font></td>
+        <td bgcolor="#F1F1F1"><font face="Arial" size="1" color="#800000"><strong>STICHWAHL<br>
+        </strong></font><font face="Verdana" size="1">Salghetti Drioli Giovanni/Pasquali Alberto</font></td>
+        <td bgcolor="#F1F1F1">&nbsp; </td>
+        <td bgcolor="#F1F1F1">&nbsp; </td>
+        <td bgcolor="#F1F1F1">&nbsp; </td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">MERAN</font></td>
+        <td bgcolor="#F1F1F1"><font face="Arial" size="1" color="#800000"><strong>STICHWAHL<br>
+        </strong></font><font face="Verdana" size="1">Alber Franz Anton/Aprile Eugenio</font></td>
+        <td bgcolor="#F1F1F1">&nbsp; </td>
+        <td bgcolor="#F1F1F1">&nbsp; </td>
+        <td bgcolor="#F1F1F1">&nbsp; </td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">BRIXEN</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SEEBACHER KLAUS</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p align="right"><font face="Verdana" size="1">5677</font></td>
+        <td bgcolor="#F1F1F1"><p align="right"><font face="Verdana" size="1">52,0</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1" colspan="5"><font face="Verdana" size="2" color="#800000"><strong>Gemeinden
+        bis zu 13.000 Einwohnern: </strong></font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">ABTEI</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">DORIGO UGO</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">CIASTEL DA LA ILA</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">1161</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">61,7</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">AHRNTAL</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">RIEDER HUBERT</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">FÜR DAS AHRNTAL<br>
+        BÜRGERLISTE</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">2608</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">76,2</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">ALDEIN</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">PITSCHL JOSEF</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">757</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">75,6</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">ALGUND</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SCHRÖTTER ANTON</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">1832</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">84,2</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">ALTREI</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">LOCHMANN HARTWIG FRIEDRICH</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">118</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">49,6</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">ANDRIAN</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">VON DELLEMANN OTTO</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">323</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">69,9</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">AUER</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">KERSCHBAUMER KURT</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">600</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">58,3</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">BARBIAN</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">PUNTAIER ISIDOR</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">607</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">63,4</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">BRENNER</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">EGARTNER CHRISTIAN</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">907</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">86,4</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">BRUNECK</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">TSCHURTSCHENTHALER CHRISTIAN</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">2945</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">43,7</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">BURGSTALL</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">GANTHALER MARTIN</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">S V P</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">393</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">53,9</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">CORVARA</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">KOSTNER HEINZ</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">STRETTA DI MANO</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">511</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">64,0</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">DEUTSCHNOFEN</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">DAUM BERNHARD</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP - DEUTSCHNOFEN</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">1265</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">58,9</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">ENNEBERG</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">PALFRADER ALBERTO</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">AL PLAN</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">934</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">64,4</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">EPPAN A.D.W.</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">LINTNER FRANZ</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">4369</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">79,5</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">FELDTHURNS</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">DORFMANN ANTON</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">825</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">53,2</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">FRANZENSFESTE</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">WILD JOHANN</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">315</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">70,6</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">GAIS</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">BRUGGER MAX KARL</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP GAIS UTTENHEIM</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">928</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">58,3</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">GARGAZON</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">BERTOLDI RUDOLF JOSEF</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">616</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">83,2</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">GLURNS</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">WALLNÖFER ERICH JOSEF</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">270</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">54,1</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">GRAUN IM VINSCHGAU</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">PLANGGER ALBRECHT</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">1081</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">80,9</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">GSIES</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">FELDERER ANTON</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">744</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">63,4</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">HAFLING</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">REITERER JOSEF</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">345</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">100,0</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">INNICHEN</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">PASSLER JOSEF</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">1129</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">100,0</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">JENESIEN</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">EGGER OSWALD (TRIFALLER)</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">1073</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">69,3</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">KALTERN A.D.W.</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">BATTISTI MATSCHER WILFRIED</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">2637</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">77,7</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">KARNEID</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">KOFLER ALBIN (GUMMER)</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP BLUMAU, GUMMER,<br>
+        KARDAUN, STEINEGG</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">730</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">40,2</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">KASTELBELL-TSCHARS</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">ALBER DR. ING. JOSEF</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP KASTELBELL-TSCHARS</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">1070</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">79,1</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">KASTELRUTH</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">KARBON VINZENZ (KIENZL)</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP (KASTELRUTH, SEIS)</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">2164</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">60,5</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">KIENS</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">NIEDERKOFLER REINHARD</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">710</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">43,5</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">KLAUSEN</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SCHEIDLE ARTHUR</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">EDELWEISSLISTE KLAUSEN</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">1822</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">73,4</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">KUENS</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">KLEON ALOIS</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">153</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">100,0</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">KURTATSCH A.D.W.</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SCHIEFER OSWALD</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">1164</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">96,4</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">KURTINIG A.D.W.</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">GIACOMOZZI WALTER</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">239</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">72,6</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">LAAS</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">PLATTER WOLFGANG ANTON</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP LAAS-ALLITZ-TANAS</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">950</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">41,1</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">LAJEN</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">GRÜNBERGER ENGELBERT</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">1042</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">81,3</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">LANA</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">GUFLER CHRISTOPH WERNER</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">3988</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">80,7</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">LATSCH</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">PIRCHER MARKUS</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">1868</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">70,5</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">LAUREIN</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">UNGERER OSWALD</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">125</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">100,0</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">LÜSEN</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">KASER FRANZ (GROßPLON)</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">645</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">74,7</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">MALS</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">NOGGLER JOSEF</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">2293</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">100,0</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">MARGREID A.D.W.</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">PUNTSCHER JOHANN (HANSI)</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">BÜRGERLISTE MARGREID</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">257</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">40,7</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">MARLING</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">GÖGELE KARL (KIRCHER)</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">740</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">54,6</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">MARTELL</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">GAMPER PETER</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">257</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">42,5</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">MÖLTEN</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">HEIß ALOIS (OBERKAPILL)</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">639</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">81,6</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">MONTAN</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">AMORT ALOIS (LUIS)</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">621</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">71,1</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">MOOS IN PASSEIER</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">KLOTZ WILHELM MATHIAS (EBNERHOF)</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">1018</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">72,5</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">MÜHLBACH</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">GRUBER FRANZ</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP MERANSEN</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">1167</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">100,0</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">MÜHLWALD</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">UNTERHOFER JOSEF</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">692</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">100,0</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">NALS</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">PIRCHER FRANZ</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">509</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">51,6</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">NATURNS</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">WEISS WALTER</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">1951</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">100,0</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">NATZ-SCHABS</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">ÜBERBACHER VERH. UNTERKIRCHER
+        MARIANNA</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP AICHA</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">804</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">59,0</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">NEUMARKT</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">VEDOVELLI ALFRED</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">1252</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">58,8</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">NIEDERDORF</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">PASSLER JOHANN</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">439</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">57,9</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">OLANG</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">JUD ALFRED</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">851</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">50,7</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">PARTSCHINS</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">TAPPEINER ROBERT</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">822</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">46,7</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">PERCHA</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">NIEDERWOLFSGRUBER GOTTFRIED</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">512</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">100,0</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">PFALZEN</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">HAINZ MANFRED</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">978</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">77,8</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">PFATTEN</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">MOSNA CARLO</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">NOI PER L'ALTO ADIGE</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">260</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">58,2</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">PFITSCH</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">FREI JOHANN</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">935</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">69,7</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">PLAUS</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SCHULER ARNOLD</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">235</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">81,0</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">PRAD AM STILFSERJOCH</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">GAPP GEOM. HERBERT</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">1020</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">63,9</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">PRAGS</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">MUTSCHLECHNER ALFRED</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">209</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">58,7</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">PRETTAU</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">BRUGGER ALOIS</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">186</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">55,0</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">PROVEIS</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">MAIRHOFER SEBASTIAN</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">108</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">100,0</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">RASEN-ANTHOLZ</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">MESSNER KARL</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP RASEN</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">902</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">56,1</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">RATSCHINGS</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SILLER LEOPOLD</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">1641</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">70,9</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">RIFFIAN</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">KOFLER ALBIN ERNST</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">457</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">69,2</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">RITTEN</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">ROTTENSTEINER FERDINAND</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">2138</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">59,2</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">RODENECK</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SILGONER GOTTFRIED</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">330</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">49,7</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SALURN</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">GIACOMOZZI GIORGIO MARCO</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">NOI PER L'ALTO ADIGE</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">779</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">47,0</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SAND IN TAUFERS</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">INNERHOFER TONI JOHANN (DRUMMLER)</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">1411</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">49,4</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SARNTAL</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">THALER KARL</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">2125</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">54,9</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SCHENNA</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">PIRCHER ALBERT (STAFER)</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">1403</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">100,0</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SCHLANDERS</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">WALLNÖFER JOHANN</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">2560</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">80,5</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SCHLUDERNS</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">KLOTZ DR. KRISTIAN</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">709</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">100,0</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SCHNALS</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">VARIOLA HUBERT JOSEF</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">642</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">73,2</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SEXTEN</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">RAINER WILHELM</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">734</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">76,6</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">ST. CHRISTINA IN GRÖDEN</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SENONER BRUNO</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">694</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">85,0</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">ST. LEONHARD IN PASSEIER</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">PFITSCHER KONRAD KLAUS (LOCHER KONRAD)</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">1828</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">92,8</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">ST. LORENZEN</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">GRÄBER HELMUT HERBERT</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">1371</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">68,4</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">ST. MARTIN IN PASSEIER</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">PIRPAMER HERMANN</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">1471</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">100,0</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">ST. MARTIN IN THURN</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">DEJACO FRANCESCO ((PEPI))</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">CASTELLO E SCRITTA LUNGIARÜ</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">632</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">100,0</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">ST. PANKRAZ</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">TUMPFER HERMANN</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">702</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">100,0</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">ST. ULRICH</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">PIAZZA KONRAD (DA CIASCIAN)</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">1521</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">62,0</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">STERZING</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">EGGER THOMAS</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">1568</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">50,7</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">STILFS</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">HOFER CAV. JOSEF</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">446</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">55,5</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">TAUFERS IM MÜNSTERTAL</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">FLIRI HERMANN</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">332</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">55,1</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">TERENTEN</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">WEGER JOSEF</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">496</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">51,5</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">TERLAN</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">PLATTER JOSEF</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">854</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">43,2</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">TIERS</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SCHÖNAUER MARTIN</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">263</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">46,7</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">TIROL</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">LADURNER IGNAZ</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">887</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">100,0</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">TISENS</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">KNOLL THOMAS ANTON</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">707</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">59,8</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">TOBLACH</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">MAIR BERNHARD</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">1348</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">72,4</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">TRAMIN A.D.W.</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">DISSERTORI WERNER</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">1227</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">62,5</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">TRUDEN</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">LANZINER EDMUND</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">LISTA CIVICA - BÜRGERLISTE</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">308</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">54,8</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">TSCHERMS</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">HUBER KARL</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">545</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">100,0</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">U.L. FRAU IM WALDE-ST. FELIX</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">KOFLER WALTRAUD</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP ST. FELIX</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">385</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">100,0</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">ULTEN</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">TIES RUDOLF (FÖRSTLER RUDL)</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">991</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">51,8</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">VAHRN</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SIGMUND JOSEF</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">1285</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">73,7</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">VILLANDERS</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">KRAPF JOSEF</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">763</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">69,3</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">VILLNÖSS</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">MESSNER ROBERT</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">808</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">52,6</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">VINTL</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">CERBARO RUDOLF</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">1148</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">60,1</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">VÖLS AM SCHLERN</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">KOMPATSCHER JOSEF (ZIMMERLEHNER)</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">971</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">57,5</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">VÖRAN</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">ALBER ALFONS (STEGER)</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">296</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">62,8</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">WAIDBRUCK</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">MERLER NORBERTO</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">78</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">75,0</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">WELSBERG</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">MITTERMAIR FRIEDRICH</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">SVP</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">759</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">49,7</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">WELSCHNOFEN</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">NEULICHEDL LUIS (DRITSCHER)</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">FÜR WELSCHNOFEN</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">720</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">64,3</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">WENGEN</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">COMPLOJER FRANZ</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">CAMPANILE - TURM - CIAMPANÌ</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">478</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">100,0</font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">WOLKENSTEIN IN GRÖDEN</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">DEMETZ ROLANDO (DE PLAN)</font></td>
+        <td bgcolor="#F1F1F1"><font face="Verdana" size="1">LADINS</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">876</font></td>
+        <td bgcolor="#F1F1F1"><p ALIGN="RIGHT"><font face="Verdana" size="1">57,6</font></td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><font face="Arial" size="1">© 2000 Copyright Region Trentino-Südtirol<br>
+    Realisierung Südtiroler Informatik AG</font></td>
+  </tr>
+</table>
+</body>
+</html>

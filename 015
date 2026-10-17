@@ -1,0 +1,304 @@
+<!-- Template Source Dir: //DX<br>
+/--><!-- Template Source Dir: //DX<br>
+/--><!-- Template Source Dir: //DX<br>
+/--><!-- Template Source Dir: //DX<br>
+/--><!-- Template Source Dir: //DX<br>
+/--><!-- Template Source Dir: //DX<br>
+/--><!--- NOT ENABLED .....  DATA WERE:Comm_id:381
+Type:1
+Phase:8
+Partial:9
+Total:9--><!-- Template Source Dir: //DX<br>
+/-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<title>Elezioni comunali 2005: FIÈ ALLO SCILIAR - Candidati Sindaco</title>
+		<link href="../css/default.css" rel="stylesheet" type="text/css" media="screen, projection"	title="default">
+		<link href="../css/hiContrast.css" rel="alternate stylesheet" type="text/css" media="screen, projection" title="hiContrast">
+		<link href="../css/print.css" rel="stylesheet" type="text/css" media="print">
+		<script type="text/javascript" src="../css/styleswitcher.js"></script>
+		<script src="../css/dw_cookies.js" type="text/javascript"></script>
+		<script src="../css/tableRuler.js" type="text/javascript"></script>
+		<script type="text/javascript">
+<!--
+window.onload=function(){tableruler();}
+//-->
+		</script>
+	</head>
+	<body id="italiano" class="twoCols">
+		<form name="formDefault" method="post" action="Page.aspx?Code=pgMuniMayor&amp;L=I&amp;S=0&amp;P=0&amp;C=0&amp;D=381" id="formDefault">
+<input type="hidden" name="__VIEWSTATE" value="dDwxNTg0NDMxMzQyOzs+Io3+LsV+Rs2ggn75tT78rF4Fhmk=" />
+
+			<div id="wrapper">
+				
+<div id="header">
+	<h1 id="HeaderTop_Title">Elezioni comunali 2005 - Regione Trentino Alto Adige</h1>
+	<h2 id="HeaderTop_SubTitle" style="background-image:url(../img/stemmi/BZ381.gif);">
+		FIÈ ALLO SCILIAR
+		<br>
+		<span>
+			Candidati Sindaco<br/>
+			
+		</span>
+	</h2>
+	<ul class="serviceNavigator line1">
+		<li>
+			<a href="#" onclick="setActiveStyleSheet('hiContrast'); window.location.reload(); return false;" onkeypress="setActiveStyleSheet('hiContrast'); window.location.reload(); return false;"
+				accesskey="1" title='Alto contrasto'>
+				Alto contrasto
+			</a>
+		<li class="lastItem">
+			<a href="#" onclick="setActiveStyleSheet('default'); window.location.reload(); return false;" onkeypress="setActiveStyleSheet('default'); window.location.reload(); return false;"
+				accesskey="2" title='Versione grafica'>
+				Versione grafica
+			</a>
+		</li>
+	</ul>
+	<ul class="serviceNavigator line2">
+		<li>
+			<a href='../topindex_li_s0_p0_c0.htm' title='Indice generale dei comuni'>
+				Indice Comuni
+			</a>
+		<li>
+			<a href="mayor_ld_s0_p0_c0.htm" title="Versione in lingua tedesca" accesskey="3" xml:lang="de">
+				Deutsch
+			</a>
+		<li class="lastItem">
+			<a href="mayor_ll_s0_p0_c0.htm" title="Versione in lingua ladina" accesskey="4" xml:lang="rm">
+				Ladin
+			</a>
+		</li>
+	</ul>
+</div>
+
+				
+<div id="breadCrumbs">
+<a href='../topindex_li_s0_p0_c0.htm'>Indice Comuni</a> &laquo; 
+<a href='index_li_s0_p0_c0.htm'>FIÈ ALLO SCILIAR</a> &laquo; 
+Candidati Sindaco 
+</div>
+				<!-- Qui si crea il navigator ...o si muore! -->
+				<div id="mainNavigator">
+<div class="menuExtraItem"><a href="javascript:window.print();" title='Stampa questa pagina'>Stampa</a></div>	
+	<h2>Comune di FIÈ ALLO SCILIAR</h2>
+	<ul>
+		<li>
+			<a id="Menu_Home" title="Home" href="index_li_s0_p0_c0.htm">Home</a>
+		<li>
+			<a id="Menu_Mayor" title="Candidati Sindaco" href="#">Candidati Sindaco</a>
+		<li>
+			<a id="Menu_Lists" title="Voti di lista" href="list_li_s0_p0_c0.htm">Voti di lista</a>
+		<li>
+			<a id="Menu_Prefs" title="Voti di preferenza" href="prefi_li_s0_p0_c0.htm">Voti di preferenza</a>
+		<li>
+			<a id="Menu_Council" title="Consiglio comunale" href="council_li_s0_p0_c0.htm">Consiglio comunale</a>
+		<li>
+			<a id="Menu_ListsResult" title="Risultati per lista" href="listx_li_s0_p0_c0.htm">Risultati per lista</a>
+		<li>
+			<a id="Menu_Affl" title="Affluenza alle urne" href="afwb_li_s0_p0_c0.htm">Affluenza alle urne</a>
+		<li>
+			<a id="Menu_Graphs" title="Grafici elettorali" href="graphs_li_s0_p0_c0.htm">Grafici elettorali</a>
+		</li>
+	</ul>
+
+</div>
+				<!-- ...-->
+				<div id="content">
+					
+<div id="sceltaSezione">
+	<button type="button" onclick="javascript:window.location.reload();">
+		Aggiorna
+	</button>
+	<label for="sezione">
+		Scelta della sezione
+	</label>
+	<select id="sezione" title='Scelta della sezione' onChange="javascript:location.href=this.options[this.selectedIndex].value;" >
+		<option value="#"  selected >Tutte le sezioni scrutinate</option>
+		<optgroup  label='Sezioni del comune'>
+			
+					<option value="mayor_li_s7657_p0_c0.htm" >1 - Edificio Comunale</option>
+				
+					<option value="mayor_li_s7458_p0_c0.htm" >2 - Scuola Elementare Aica Di Fie'</option>
+				
+					<option value="mayor_li_s7459_p0_c0.htm" >3 - Edificio Comunale</option>
+				
+		</optgroup>
+	</select>
+</div>
+
+<table class="ruler"  id="voti" summary='Il voto nel comune di FIÈ ALLO SCILIAR: elenco dei candidati sindaco ordinati per numero di voti e raffronto con le elezioni 2000'>
+	<caption>
+		Candidati sindaco
+		<br>
+		<span>
+			(sezioni scrutinate: 3 su 3)
+		</span>
+	</caption>
+	<thead>
+		<tr>
+			<th rowspan="2" scope="col" class="votiTipo">
+				Candidato e liste collegate
+			</th>
+			<th colspan="2" scope="col" class="voti2005">
+				2005</th>
+			<th rowspan="2" scope="col" class="votiVariazione">
+				+ / -
+			</th>
+			<th colspan="2" scope="col" class="voti2000">
+				2000</th>
+		</tr>
+		<tr>
+			<th scope="col" class="voti2005">
+				Voti
+			</th>
+			<th scope="col" class="voti2005">
+				%</th>
+			<th scope="col" class="voti2000">
+				Voti
+			</th>
+			<th scope="col" class="voti2000">
+				%</th>
+		</tr>
+	</thead>
+	<tfoot>
+		<tr>
+			<td colspan="7">Dati Provvisori</td>
+		</tr>
+	</tfoot>
+	<tbody>
+		
+				<tr class="even">
+					<th scope="row">
+						1. KOMPATSCHER ARNO<sup>Sindaco</sup>
+						<br />
+						<span>
+							<a id="ListTblS_rptListVotes__ctl0_DataList" title="Dati relativi alle preferenze del candidato su tutte le sezioni scrutinate" href="mayors_li_s0_p0_c33090.htm">[Dati per sezione]</a>
+						</span>
+						<ul><li>SVP</li></ul>
+					</th>
+					<td>1.045</td>
+					<td>54,7%</td>
+					<td class="positivo">--</td>
+					<td>--</td>
+					<td>--</td>
+				</tr>
+			
+				<tr class="odd">
+					<th scope="row">
+						2. STAMPFER OTHMAR<sup>Consigliere</sup>
+						<br />
+						<span>
+							<a id="ListTblS_rptListVotes__ctl1_DataList" title="Dati relativi alle preferenze del candidato su tutte le sezioni scrutinate" href="mayors_li_s0_p0_c33105.htm">[Dati per sezione]</a>
+						</span>
+						<ul><li>SVP</li></ul>
+					</th>
+					<td>763</td>
+					<td>39,9%</td>
+					<td class="positivo">--</td>
+					<td>--</td>
+					<td>--</td>
+				</tr>
+			
+				<tr class="even">
+					<th scope="row">
+						1. LANTSCHNER EMMA
+						<br />
+						<span>
+							<a id="ListTblS_rptListVotes__ctl2_DataList" title="Dati relativi alle preferenze del candidato su tutte le sezioni scrutinate" href="mayors_li_s0_p0_c33744.htm">[Dati per sezione]</a>
+						</span>
+						<ul><li>Dorfliste VÖLS Lista Civica</li></ul>
+					</th>
+					<td>104</td>
+					<td>5,4%</td>
+					<td class="positivo">--</td>
+					<td>--</td>
+					<td>--</td>
+				</tr>
+			
+	</tbody>
+</table>
+
+<table id="datiVoto" class="ruler">
+	<caption>
+		Dati sul voto
+	</caption>
+	<thead>
+		<tr>
+			<td></td>
+			<th colspan="2" scope="col" class="voti2005">
+				2005</th>
+			<th colspan="2" scope="col" class="voti2000">
+				2000</th>
+		</tr>
+	</thead>
+	<tfoot>
+		<tr>
+			<td colspan="6">Dati Provvisori</td>
+		</tr>
+	</tfoot>
+	<tbody>
+		<tr class="odd">
+			<th>
+				Schede valide
+			</th>
+			<td>1.912</td>
+			<td>91,1%</td>
+			<td>1.689</td>
+			<td>83,6%</td>
+		</tr>
+		<tr class="even">
+			<th>
+				Schede non valide
+			</th>
+			<td>187</td>
+			<td>8,9%</td>
+			<td>332</td>
+			<td>16,4%</td>
+		</tr>
+		<tr class="even">
+			<th class="subHeader">
+				di cui: bianche
+			</th>
+			<td>117</td>
+			<td>5,6%</td>
+			<td>215</td>
+			<td>10,6%</td>
+		</tr>
+		<tr class="odd">
+			<th>
+				Totale schede scrutinate
+			</th>
+			<td>2.099</td>
+			<td>100%</td>
+			<td>2.021</td>
+			<td>100%</td>
+		</tr>
+		<tr class="even">
+			<th>
+			</th>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr class="odd">
+			<th>
+				Affluenza alle ore 22.
+			</th>
+			<td colspan="2">84,7%</td>
+			<td colspan="2">84,6%</td>
+		</tr>
+	</tbody>
+</table>
+
+					<div id="copy">
+					   © Regione Trentino - Alto Adige | Realizzazione Informatica Alto Adige Spa
+					</div>
+				</div>
+			</div>
+		</form>
+	</body>
+</html>

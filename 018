@@ -1,0 +1,4158 @@
+<!DOCTYPE html>
+<!--[if IE 9]> <html lang="it" class="ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="it"  > <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+      <meta name="csrf_field_name" content="_csrf_token" />
+      <meta name="_csrf_token" content="ImMxNjhhNGJhNjQyY2E1ZmMwNmYxZTUyYmQ4M2RjM2U5NTJmNzM2ZGQi.atOmAg.1t5HVgVs5LB72lODK-KsPCqT7AY" />
+
+      <meta name="generator" content="ckan 2.10.7" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta property="og:image" content="https://data.civis.bz.it/images/logo/opendata_suedtirol_logo_600x315.png"/>
+
+    <title>Portale OpenData Bolzano</title>
+
+    
+    
+    <link rel="shortcut icon" href="/base/images/ckan.ico" />
+    
+    
+        <link rel="alternate" type="text/n3" href="https://data.civis.bz.it/it/catalog.n3"/>
+        <link rel="alternate" type="text/turtle" href="https://data.civis.bz.it/it/catalog.ttl"/>
+        <link rel="alternate" type="application/rdf+xml" href="https://data.civis.bz.it/it/catalog.xml"/>
+        <link rel="alternate" type="application/ld+json" href="https://data.civis.bz.it/it/catalog.jsonld"/>
+    
+
+   
+  
+    
+   
+      
+      
+      
+    
+   <link rel="stylesheet" href="/css/multilang.css" type="text/css">
+
+    
+
+  
+
+   <link rel="shortcut icon" href="/favicon.ico" />
+   <link rel="canonical" href="https://data.civis.bz.it/" />
+   
+
+
+    
+      
+      
+    
+
+    
+    <link href="/webassets/base/1c87a999_main.css" rel="stylesheet"/>
+<link href="/webassets/ckanext-harvest/c95a0af2_harvest_css.css" rel="stylesheet"/>
+<link href="/webassets/ckanext-activity/6ac15be0_activity.css" rel="stylesheet"/>
+<link href="/webassets/provbz/17d61131_provbz.css" rel="stylesheet"/>
+    
+  </head>
+
+  
+  <body data-site-root="https://data.civis.bz.it/" data-locale-root="https://data.civis.bz.it/it/" >
+
+    
+    <div class="visually-hidden-focusable"><a href="#content">Skip to main content</a></div>
+  
+
+  
+    
+
+ 
+  <div class="masthead masthead-top">
+    <div class="container">
+        <div class="content">
+          <a class="civis-a-link" href="https://civis.bz.it/" target="_blank">
+            <img src="/images/logo/logo_mycivis_red.svg" height="48px"/>
+          </a>
+        </div>
+    </div>
+  </div>
+
+
+<div class="masthead">
+      
+  <div class="container ck-row">
+    
+    <hgroup class="header-image">
+
+      
+        
+        
+         <a id="logo" rel="Home" title="Open Data Portal South Tyrol" href="/it/">
+    			 <img src="/images/logo/opendata_suedtirol_logo.png" alt="Open Data Portal South Tyrol" title="Open Data Portal South Tyrol"/>  
+    		  </a>
+        
+      
+    </hgroup>
+  </div>
+</div>
+<header class="masthead masthead-navbar">
+  <div class="container">
+      <div class="content">
+        
+          <nav class="section navigation">
+            <ul class="nav nav-pills navbar">
+              
+
+              
+              
+               <li class="active"><a href="/it/dataset/">Dataset</a></li><li><a href="/it/organization/">Organizzazioni</a></li><li><a href="/it/group/">Categorie</a></li><li><a href="/it/about">Informazioni</a></li><li><a href="/it/faq">Faq</a></li>
+
+              
+            </ul>
+          </nav>
+        
+
+        
+        
+    </div>
+  </div>
+</header>
+
+
+  
+    <div class="main">
+      <div id="content" class="container">
+        
+          
+            <div class="flash-messages">
+              
+                
+              
+            </div>
+          
+
+          
+            <div class="toolbar" role="navigation" aria-label="Breadcrumb">
+              
+                
+                  <ol class="breadcrumb">
+                    
+<li class="home"><a href="/it/" aria-label="Home"><i class="fa fa-home"></i><span> Home</span></a></li>
+                    
+  <li class="active"><a href="/it/dataset/">Dataset</a></li>
+
+                  </ol>
+                
+              
+            </div>
+          
+
+          <div class="row wrapper">
+            
+            
+            
+
+            
+              <aside class="secondary col-md-3">
+                
+                
+  <div class="filters">
+    <div>
+      
+        
+
+    
+    
+	
+	    
+		<section class="module module-narrow module-shallow">
+		    
+			<h2 class="module-heading">
+			    <i class="fa fa-filter"></i>
+			    Organizzazioni
+			</h2>
+		    
+		    
+			
+			    
+				<nav aria-label="Organizzazioni">
+				    <ul class="list-unstyled nav nav-simple nav-facet">
+					
+					    
+					    
+					    
+					    
+					    <li class="nav-item ">
+						<a href="/it/dataset/?q=comunali&amp;organization=provbz" title="Provincia Autonoma di Bolzano - Alto Adige">
+						    <span class="item-label">Provincia Autonoma...</span>
+						    <span class="hidden separator"> - </span>
+						    <span class="item-count badge">25</span>
+							
+						</a>
+					    </li>
+					
+					    
+					    
+					    
+					    
+					    <li class="nav-item ">
+						<a href="/it/dataset/?q=comunali&amp;organization=consorzio-dei-comuni" title="Consorzio dei Comuni della Provincia di Bolzano">
+						    <span class="item-label">Consorzio dei...</span>
+						    <span class="hidden separator"> - </span>
+						    <span class="item-count badge">1</span>
+							
+						</a>
+					    </li>
+					
+					    
+					    
+					    
+					    
+					    <li class="nav-item ">
+						<a href="/it/dataset/?q=comunali&amp;organization=pab-natura-paesaggio-e-sviluppo-del-territorio" title="PAB: Rip. 28 Sviluppo del territorio, natura e paesaggio">
+						    <span class="item-label">PAB: Rip. 28...</span>
+						    <span class="hidden separator"> - </span>
+						    <span class="item-count badge">1</span>
+							
+						</a>
+					    </li>
+					
+				    </ul>
+				</nav>
+
+				<p class="module-footer">
+				    
+					
+				    
+				</p>
+			    
+			
+		    
+		</section>
+	    
+	
+    
+
+      
+        
+
+    
+    
+	
+	    
+		<section class="module module-narrow module-shallow">
+		    
+			<h2 class="module-heading">
+			    <i class="fa fa-filter"></i>
+			    Categorie
+			</h2>
+		    
+		    
+			
+			    
+				<nav aria-label="Categorie">
+				    <ul class="list-unstyled nav nav-simple nav-facet">
+					
+					    
+					    
+					    
+					    
+					    <li class="nav-item ">
+						<a href="/it/dataset/?q=comunali&amp;groups=boundaries" title="">
+						    <span class="item-label">Gestione del territorio</span>
+						    <span class="hidden separator"> - </span>
+						    <span class="item-count badge">25</span>
+							
+						</a>
+					    </li>
+					
+					    
+					    
+					    
+					    
+					    <li class="nav-item ">
+						<a href="/it/dataset/?q=comunali&amp;groups=economy" title="">
+						    <span class="item-label">Economia</span>
+						    <span class="hidden separator"> - </span>
+						    <span class="item-count badge">1</span>
+							
+						</a>
+					    </li>
+					
+				    </ul>
+				</nav>
+
+				<p class="module-footer">
+				    
+					
+				    
+				</p>
+			    
+			
+		    
+		</section>
+	    
+	
+    
+
+      
+        
+
+    
+    
+	
+	    
+		<section class="module module-narrow module-shallow">
+		    
+			<h2 class="module-heading">
+			    <i class="fa fa-filter"></i>
+			    Tag
+			</h2>
+		    
+		    
+			
+			    
+				<nav aria-label="Tag">
+				    <ul class="list-unstyled nav nav-simple nav-facet">
+					
+					    
+					    
+					    
+					    
+					    <li class="nav-item ">
+						<a href="/it/dataset/?q=comunali&amp;tags=EU" title="">
+						    <span class="item-label">EU</span>
+						    <span class="hidden separator"> - </span>
+						    <span class="item-count badge">23</span>
+							
+						</a>
+					    </li>
+					
+					    
+					    
+					    
+					    
+					    <li class="nav-item ">
+						<a href="/it/dataset/?q=comunali&amp;tags=National+legislation" title="">
+						    <span class="item-label">National legislation</span>
+						    <span class="hidden separator"> - </span>
+						    <span class="item-count badge">23</span>
+							
+						</a>
+					    </li>
+					
+					    
+					    
+					    
+					    
+					    <li class="nav-item ">
+						<a href="/it/dataset/?q=comunali&amp;tags=Regionale" title="">
+						    <span class="item-label">Regionale</span>
+						    <span class="hidden separator"> - </span>
+						    <span class="item-count badge">23</span>
+							
+						</a>
+					    </li>
+					
+					    
+					    
+					    
+					    
+					    <li class="nav-item ">
+						<a href="/it/dataset/?q=comunali&amp;tags=Cartografia+di+base+per+immagini%2FCopertura+terrestre" title="Cartografia di base per immagini/Copertura terrestre">
+						    <span class="item-label">Cartografia di...</span>
+						    <span class="hidden separator"> - </span>
+						    <span class="item-count badge">16</span>
+							
+						</a>
+					    </li>
+					
+					    
+					    
+					    
+					    
+					    <li class="nav-item ">
+						<a href="/it/dataset/?q=comunali&amp;tags=immagine+aerea" title="">
+						    <span class="item-label">immagine aerea</span>
+						    <span class="hidden separator"> - </span>
+						    <span class="item-count badge">12</span>
+							
+						</a>
+					    </li>
+					
+					    
+					    
+					    
+					    
+					    <li class="nav-item ">
+						<a href="/it/dataset/?q=comunali&amp;tags=Orto+immagini" title="">
+						    <span class="item-label">Orto immagini</span>
+						    <span class="hidden separator"> - </span>
+						    <span class="item-count badge">12</span>
+							
+						</a>
+					    </li>
+					
+					    
+					    
+					    
+					    
+					    <li class="nav-item ">
+						<a href="/it/dataset/?q=comunali&amp;tags=Ortofoto" title="">
+						    <span class="item-label">Ortofoto</span>
+						    <span class="hidden separator"> - </span>
+						    <span class="item-count badge">12</span>
+							
+						</a>
+					    </li>
+					
+					    
+					    
+					    
+					    
+					    <li class="nav-item ">
+						<a href="/it/dataset/?q=comunali&amp;tags=Copertura+del+suolo" title="">
+						    <span class="item-label">Copertura del suolo</span>
+						    <span class="hidden separator"> - </span>
+						    <span class="item-count badge">5</span>
+							
+						</a>
+					    </li>
+					
+					    
+					    
+					    
+					    
+					    <li class="nav-item ">
+						<a href="/it/dataset/?q=comunali&amp;tags=Bolzano" title="">
+						    <span class="item-label">Bolzano</span>
+						    <span class="hidden separator"> - </span>
+						    <span class="item-count badge">4</span>
+							
+						</a>
+					    </li>
+					
+					    
+					    
+					    
+					    
+					    <li class="nav-item ">
+						<a href="/it/dataset/?q=comunali&amp;tags=Carta+tecnica" title="">
+						    <span class="item-label">Carta tecnica</span>
+						    <span class="hidden separator"> - </span>
+						    <span class="item-count badge">4</span>
+							
+						</a>
+					    </li>
+					
+				    </ul>
+				</nav>
+
+				<p class="module-footer">
+				    
+					
+					    <a href="/it/dataset/?q=comunali&amp;_tags_limit=0" class="read-more">Mostra altro Tag</a>
+					
+				    
+				</p>
+			    
+			
+		    
+		</section>
+	    
+	
+    
+
+      
+        
+
+    
+    
+	
+	    
+		<section class="module module-narrow module-shallow">
+		    
+			<h2 class="module-heading">
+			    <i class="fa fa-filter"></i>
+			    Formati
+			</h2>
+		    
+		    
+			
+			    
+				<nav aria-label="Formati">
+				    <ul class="list-unstyled nav nav-simple nav-facet">
+					
+					    
+					    
+					    
+					    
+					    <li class="nav-item ">
+						<a href="/it/dataset/?q=comunali&amp;res_format=WMS" title="">
+						    <span class="item-label">WMS</span>
+						    <span class="hidden separator"> - </span>
+						    <span class="item-count badge">26</span>
+							
+						</a>
+					    </li>
+					
+					    
+					    
+					    
+					    
+					    <li class="nav-item ">
+						<a href="/it/dataset/?q=comunali&amp;res_format=WFS" title="">
+						    <span class="item-label">WFS</span>
+						    <span class="hidden separator"> - </span>
+						    <span class="item-count badge">9</span>
+							
+						</a>
+					    </li>
+					
+					    
+					    
+					    
+					    
+					    <li class="nav-item ">
+						<a href="/it/dataset/?q=comunali&amp;res_format=WCS" title="">
+						    <span class="item-label">WCS</span>
+						    <span class="hidden separator"> - </span>
+						    <span class="item-count badge">2</span>
+							
+						</a>
+					    </li>
+					
+					    
+					    
+					    
+					    
+					    <li class="nav-item ">
+						<a href="/it/dataset/?q=comunali&amp;res_format=CSV" title="">
+						    <span class="item-label">CSV</span>
+						    <span class="hidden separator"> - </span>
+						    <span class="item-count badge">1</span>
+							
+						</a>
+					    </li>
+					
+					    
+					    
+					    
+					    
+					    <li class="nav-item ">
+						<a href="/it/dataset/?q=comunali&amp;res_format=XLS" title="">
+						    <span class="item-label">XLS</span>
+						    <span class="hidden separator"> - </span>
+						    <span class="item-count badge">1</span>
+							
+						</a>
+					    </li>
+					
+				    </ul>
+				</nav>
+
+				<p class="module-footer">
+				    
+					
+				    
+				</p>
+			    
+			
+		    
+		</section>
+	    
+	
+    
+
+      
+        
+
+    
+    
+	
+	    
+		<section class="module module-narrow module-shallow">
+		    
+			<h2 class="module-heading">
+			    <i class="fa fa-filter"></i>
+			    Licenze sulle risorse
+			</h2>
+		    
+		    
+			
+			    
+				<nav aria-label="Licenze sulle risorse">
+				    <ul class="list-unstyled nav nav-simple nav-facet">
+					
+					    
+					    
+					    
+					    
+					    <li class="nav-item ">
+						<a href="/it/dataset/?q=comunali&amp;resource_license_it=Creative+Commons+CC0+1.0+Universale+-+Public+Domain+Dedication+%28CC0+1.0%29" title="Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)">
+						    <span class="item-label">Creative Commons...</span>
+						    <span class="hidden separator"> - </span>
+						    <span class="item-count badge">27</span>
+							
+						</a>
+					    </li>
+					
+				    </ul>
+				</nav>
+
+				<p class="module-footer">
+				    
+					
+				    
+				</p>
+			    
+			
+		    
+		</section>
+	    
+	
+    
+
+      
+        
+
+    
+    
+	
+	    
+		<section class="module module-narrow module-shallow">
+		    
+			<h2 class="module-heading">
+			    <i class="fa fa-filter"></i>
+			    Temi del dataset
+			</h2>
+		    
+		    
+			
+			    
+				<nav aria-label="Temi del dataset">
+				    <ul class="list-unstyled nav nav-simple nav-facet">
+					
+					    
+					    
+					    
+					    
+					    <li class="nav-item ">
+						<a href="/it/dataset/?q=comunali&amp;dcat_theme=OP_DATPRO" title="">
+						    <span class="item-label">Dati provvisori</span>
+						    <span class="hidden separator"> - </span>
+						    <span class="item-count badge">24</span>
+							
+						</a>
+					    </li>
+					
+					    
+					    
+					    
+					    
+					    <li class="nav-item ">
+						<a href="/it/dataset/?q=comunali&amp;dcat_theme=GOVE" title="">
+						    <span class="item-label">Governo e settore pubblico</span>
+						    <span class="hidden separator"> - </span>
+						    <span class="item-count badge">1</span>
+							
+						</a>
+					    </li>
+					
+					    
+					    
+					    
+					    
+					    <li class="nav-item ">
+						<a href="/it/dataset/?q=comunali&amp;dcat_theme=SOCI" title="">
+						    <span class="item-label">Popolazione e società</span>
+						    <span class="hidden separator"> - </span>
+						    <span class="item-count badge">1</span>
+							
+						</a>
+					    </li>
+					
+					    
+					    
+					    
+					    
+					    <li class="nav-item ">
+						<a href="/it/dataset/?q=comunali&amp;dcat_theme=TRAN" title="">
+						    <span class="item-label">Trasporti</span>
+						    <span class="hidden separator"> - </span>
+						    <span class="item-count badge">1</span>
+							
+						</a>
+					    </li>
+					
+				    </ul>
+				</nav>
+
+				<p class="module-footer">
+				    
+					
+				    
+				</p>
+			    
+			
+		    
+		</section>
+	    
+	
+    
+
+      
+        
+
+    
+    
+	
+	    
+		<section class="module module-narrow module-shallow">
+		    
+			<h2 class="module-heading">
+			    <i class="fa fa-filter"></i>
+			    Sottotemi
+			</h2>
+		    
+		    
+			
+			    
+				<p class="module-content empty">Non ci sono Sottotemi che corrispondono a questa ricerca</p>
+			    
+			
+		    
+		</section>
+	    
+	
+    
+
+      
+    </div>
+    <a class="close no-text hide-filters"><i class="fa fa-times-circle"></i><span class="text">close</span></a>
+  </div>
+
+              </aside>
+            
+
+            
+              <div class="primary col-md-9 col-xs-12" role="main">
+                
+                
+  <section class="module">
+    <div class="module-content">
+      
+        
+      
+      
+        
+        
+        
+
+
+
+
+
+
+
+<form id="dataset-search-form" class="search-form" method="get" data-module="select-switch">
+
+  
+    <div class="input-group search-input-group">
+      <input aria-label="Cerca dataset..." id="field-giant-search" type="text" class="form-control input-lg" name="q" value="comunali" autocomplete="off" placeholder="Cerca dataset...">
+      
+      <span class="input-group-btn">
+        <button class="btn btn-default btn-lg" type="submit" value="search" aria-label="Invia">
+          <i class="fa fa-search"></i>
+        </button>
+      </span>
+      
+    </div>
+  
+
+  
+    
+  
+
+  
+    
+      <div class="form-group control-order-by">
+        <label for="field-order-by">Ordina per</label>
+        <select id="field-order-by" name="sort" class="form-control form-select">
+          
+            
+              <option value="score desc, metadata_modified desc" selected="selected">Rilevanza</option>
+            
+          
+            
+              <option value="title_string asc">Nome Crescente</option>
+            
+          
+            
+              <option value="title_string desc">Nome Decrescente</option>
+            
+          
+            
+              <option value="metadata_modified desc">Ultima modifica</option>
+            
+          
+            
+          
+        </select>
+        
+        <button class="btn btn-default js-hide" type="submit">Vai</button>
+        
+      </div>
+    
+  
+
+  
+    
+      <h1>
+
+  
+  
+  
+  
+
+27 dataset trovati per &#34;comunali&#34;</h1>
+    
+  
+
+  
+    
+      <p class="filter-list">
+        
+      </p>
+      <a class="show-filters btn btn-default">Risultato del Filtro</a>
+    
+  
+
+</form>
+
+
+
+
+      
+      
+        
+
+  
+    <ul class="dataset-list list-unstyled">
+    	
+	      
+	        
+
+
+
+
+
+
+  <li class="dataset-item">
+    <div class="package-item-clickable" onClick="location.href='/it/dataset/ortofoto-comunali-2000'">
+    
+      <div class="dataset-content">
+        
+          <h2 class="dataset-heading">
+            
+              
+            
+            
+            <a href="/it/dataset/ortofoto-comunali-2000" title="Ortofoto comunali 2000">
+            Ortofoto comunali 2000
+            </a>
+            
+            
+              
+              
+            
+          </h2>
+        
+        
+          
+        
+        
+          
+            <div>Ortofoto 2000 , risoluzione massima 5cm; L’utilizzo dei dati è vincolato dal rispetto delle condizioni di cui al modello di licenza Creative Commons BY 4.0</div>
+          
+        
+      </div>
+      
+        
+          
+            <ul class="dataset-resources list-unstyled">
+              
+				
+
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+					
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+
+                
+                  
+                  
+                
+
+                
+                  <li>
+                    <span class="badge badge-default badge-geocatalog" data-format="geocatalog">Geocatalogo</span>
+                  </li>
+                
+              
+            </ul>
+          
+        
+      
+    
+    </div>
+  </li>
+
+	      
+	        
+
+
+
+
+
+
+  <li class="dataset-item">
+    <div class="package-item-clickable" onClick="location.href='/it/dataset/ortofoto-comunali-2019'">
+    
+      <div class="dataset-content">
+        
+          <h2 class="dataset-heading">
+            
+              
+            
+            
+            <a href="/it/dataset/ortofoto-comunali-2019" title="Ortofoto comunali 2019">
+            Ortofoto comunali 2019
+            </a>
+            
+            
+              
+              
+            
+          </h2>
+        
+        
+          
+        
+        
+          
+            <div>Ortofoto 2019 , risoluzione massima 5cm; L’utilizzo dei dati è vincolato dal rispetto delle condizioni di cui al modello di licenza Creative Commons BY 4.0</div>
+          
+        
+      </div>
+      
+        
+          
+            <ul class="dataset-resources list-unstyled">
+              
+				
+
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+					
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+
+                
+                  
+                  
+                
+
+                
+                  <li>
+                    <span class="badge badge-default badge-geocatalog" data-format="geocatalog">Geocatalogo</span>
+                  </li>
+                
+              
+            </ul>
+          
+        
+      
+    
+    </div>
+  </li>
+
+	      
+	        
+
+
+
+
+
+
+  <li class="dataset-item">
+    <div class="package-item-clickable" onClick="location.href='/it/dataset/ortofoto-comunali-2023'">
+    
+      <div class="dataset-content">
+        
+          <h2 class="dataset-heading">
+            
+              
+            
+            
+            <a href="/it/dataset/ortofoto-comunali-2023" title="Ortofoto comunali 2023">
+            Ortofoto comunali 2023
+            </a>
+            
+            
+              
+              
+            
+          </h2>
+        
+        
+          
+        
+        
+          
+            <div>Ortofoto 2023 , risoluzione massima 5cm; L’utilizzo dei dati è vincolato dal rispetto delle condizioni di cui al modello di licenza Creative Commons BY 4.0</div>
+          
+        
+      </div>
+      
+        
+          
+            <ul class="dataset-resources list-unstyled">
+              
+				
+
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+					
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+
+                
+                  
+                  
+                
+
+                
+                  <li>
+                    <span class="badge badge-default badge-geocatalog" data-format="geocatalog">Geocatalogo</span>
+                  </li>
+                
+              
+            </ul>
+          
+        
+      
+    
+    </div>
+  </li>
+
+	      
+	        
+
+
+
+
+
+
+  <li class="dataset-item">
+    <div class="package-item-clickable" onClick="location.href='/it/dataset/ortofoto-comunali-2008'">
+    
+      <div class="dataset-content">
+        
+          <h2 class="dataset-heading">
+            
+              
+            
+            
+            <a href="/it/dataset/ortofoto-comunali-2008" title="Ortofoto comunali 2008">
+            Ortofoto comunali 2008
+            </a>
+            
+            
+              
+              
+            
+          </h2>
+        
+        
+          
+        
+        
+          
+            <div>Ortofoto 2008 , risoluzione massima 5cm; L’utilizzo dei dati è vincolato dal rispetto delle condizioni di cui al modello di licenza Creative Commons BY 4.0</div>
+          
+        
+      </div>
+      
+        
+          
+            <ul class="dataset-resources list-unstyled">
+              
+				
+
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+					
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+
+                
+                  
+                  
+                
+
+                
+                  <li>
+                    <span class="badge badge-default badge-geocatalog" data-format="geocatalog">Geocatalogo</span>
+                  </li>
+                
+              
+            </ul>
+          
+        
+      
+    
+    </div>
+  </li>
+
+	      
+	        
+
+
+
+
+
+
+  <li class="dataset-item">
+    <div class="package-item-clickable" onClick="location.href='/it/dataset/ortofoto-comunali-2024'">
+    
+      <div class="dataset-content">
+        
+          <h2 class="dataset-heading">
+            
+              
+            
+            
+            <a href="/it/dataset/ortofoto-comunali-2024" title="Ortofoto comunali 2024">
+            Ortofoto comunali 2024
+            </a>
+            
+            
+              
+              
+            
+          </h2>
+        
+        
+          
+        
+        
+          
+            <div>Ortofoto 2024 , risoluzione massima 4cm; L’utilizzo dei dati è vincolato dal rispetto delle condizioni di cui al modello di licenza Creative Commons BY 4.0</div>
+          
+        
+      </div>
+      
+        
+          
+            <ul class="dataset-resources list-unstyled">
+              
+				
+
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+					
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+
+                
+                  
+                  
+                
+
+                
+                  <li>
+                    <span class="badge badge-default badge-geocatalog" data-format="geocatalog">Geocatalogo</span>
+                  </li>
+                
+              
+            </ul>
+          
+        
+      
+    
+    </div>
+  </li>
+
+	      
+	        
+
+
+
+
+
+
+  <li class="dataset-item">
+    <div class="package-item-clickable" onClick="location.href='/it/dataset/ortofoto-comunali-2022'">
+    
+      <div class="dataset-content">
+        
+          <h2 class="dataset-heading">
+            
+              
+            
+            
+            <a href="/it/dataset/ortofoto-comunali-2022" title="Ortofoto comunali 2022">
+            Ortofoto comunali 2022
+            </a>
+            
+            
+              
+              
+            
+          </h2>
+        
+        
+          
+        
+        
+          
+            <div>Ortofoto 2022 , risoluzione massima 5cm; L’utilizzo dei dati è vincolato dal rispetto delle condizioni di cui al modello di licenza Creative Commons BY 4.0</div>
+          
+        
+      </div>
+      
+        
+          
+            <ul class="dataset-resources list-unstyled">
+              
+				
+
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+					
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+
+                
+                  
+                  
+                
+
+                
+                  <li>
+                    <span class="badge badge-default badge-geocatalog" data-format="geocatalog">Geocatalogo</span>
+                  </li>
+                
+              
+            </ul>
+          
+        
+      
+    
+    </div>
+  </li>
+
+	      
+	        
+
+
+
+
+
+
+  <li class="dataset-item">
+    <div class="package-item-clickable" onClick="location.href='/it/dataset/ortofoto-comunali-2007'">
+    
+      <div class="dataset-content">
+        
+          <h2 class="dataset-heading">
+            
+              
+            
+            
+            <a href="/it/dataset/ortofoto-comunali-2007" title="Ortofoto comunali 2007">
+            Ortofoto comunali 2007
+            </a>
+            
+            
+              
+              
+            
+          </h2>
+        
+        
+          
+        
+        
+          
+            <div>Ortofoto 2007 , risoluzione massima 5cm; L’utilizzo dei dati è vincolato dal rispetto delle condizioni di cui al modello di licenza Creative Commons BY 4.0</div>
+          
+        
+      </div>
+      
+        
+          
+            <ul class="dataset-resources list-unstyled">
+              
+				
+
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+					
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+
+                
+                  
+                  
+                
+
+                
+                  <li>
+                    <span class="badge badge-default badge-geocatalog" data-format="geocatalog">Geocatalogo</span>
+                  </li>
+                
+              
+            </ul>
+          
+        
+      
+    
+    </div>
+  </li>
+
+	      
+	        
+
+
+
+
+
+
+  <li class="dataset-item">
+    <div class="package-item-clickable" onClick="location.href='/it/dataset/ortofoto-comunali-2009'">
+    
+      <div class="dataset-content">
+        
+          <h2 class="dataset-heading">
+            
+              
+            
+            
+            <a href="/it/dataset/ortofoto-comunali-2009" title="Ortofoto comunali 2009">
+            Ortofoto comunali 2009
+            </a>
+            
+            
+              
+              
+            
+          </h2>
+        
+        
+          
+        
+        
+          
+            <div>Ortofoto 2009 , risoluzione massima 5cm; L’utilizzo dei dati è vincolato dal rispetto delle condizioni di cui al modello di licenza Creative Commons BY 4.0</div>
+          
+        
+      </div>
+      
+        
+          
+            <ul class="dataset-resources list-unstyled">
+              
+				
+
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+					
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+
+                
+                  
+                  
+                
+
+                
+                  <li>
+                    <span class="badge badge-default badge-geocatalog" data-format="geocatalog">Geocatalogo</span>
+                  </li>
+                
+              
+            </ul>
+          
+        
+      
+    
+    </div>
+  </li>
+
+	      
+	        
+
+
+
+
+
+
+  <li class="dataset-item">
+    <div class="package-item-clickable" onClick="location.href='/it/dataset/ortofoto-comunali-2018'">
+    
+      <div class="dataset-content">
+        
+          <h2 class="dataset-heading">
+            
+              
+            
+            
+            <a href="/it/dataset/ortofoto-comunali-2018" title="Ortofoto comunali 2018">
+            Ortofoto comunali 2018
+            </a>
+            
+            
+              
+              
+            
+          </h2>
+        
+        
+          
+        
+        
+          
+            <div>Ortofoto 2018 , risoluzione massima 5cm; L’utilizzo dei dati è vincolato dal rispetto delle condizioni di cui al modello di licenza Creative Commons BY 4.0</div>
+          
+        
+      </div>
+      
+        
+          
+            <ul class="dataset-resources list-unstyled">
+              
+				
+
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+					
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+
+                
+                  
+                  
+                
+
+                
+                  <li>
+                    <span class="badge badge-default badge-geocatalog" data-format="geocatalog">Geocatalogo</span>
+                  </li>
+                
+              
+            </ul>
+          
+        
+      
+    
+    </div>
+  </li>
+
+	      
+	        
+
+
+
+
+
+
+  <li class="dataset-item">
+    <div class="package-item-clickable" onClick="location.href='/it/dataset/ortofoto-comunali-2006'">
+    
+      <div class="dataset-content">
+        
+          <h2 class="dataset-heading">
+            
+              
+            
+            
+            <a href="/it/dataset/ortofoto-comunali-2006" title="Ortofoto comunali 2006">
+            Ortofoto comunali 2006
+            </a>
+            
+            
+              
+              
+            
+          </h2>
+        
+        
+          
+        
+        
+          
+            <div>Ortofoto 2006, risoluzione massima 5cm; L’utilizzo dei dati è vincolato dal rispetto delle condizioni di cui al modello di licenza Creative Commons BY 4.0</div>
+          
+        
+      </div>
+      
+        
+          
+            <ul class="dataset-resources list-unstyled">
+              
+				
+
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+					
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+
+                
+                  
+                  
+                
+
+                
+                  <li>
+                    <span class="badge badge-default badge-geocatalog" data-format="geocatalog">Geocatalogo</span>
+                  </li>
+                
+              
+            </ul>
+          
+        
+      
+    
+    </div>
+  </li>
+
+	      
+	        
+
+
+
+
+
+
+  <li class="dataset-item">
+    <div class="package-item-clickable" onClick="location.href='/it/dataset/ortofoto-comunali-2011'">
+    
+      <div class="dataset-content">
+        
+          <h2 class="dataset-heading">
+            
+              
+            
+            
+            <a href="/it/dataset/ortofoto-comunali-2011" title="Ortofoto comunali 2011">
+            Ortofoto comunali 2011
+            </a>
+            
+            
+              
+              
+            
+          </h2>
+        
+        
+          
+        
+        
+          
+            <div>Ortofoto 2011 , risoluzione massima 5cm; L’utilizzo dei dati è vincolato dal rispetto delle condizioni di cui al modello di licenza Creative Commons BY 4.0</div>
+          
+        
+      </div>
+      
+        
+          
+            <ul class="dataset-resources list-unstyled">
+              
+				
+
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+					
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+
+                
+                  
+                  
+                
+
+                
+                  <li>
+                    <span class="badge badge-default badge-geocatalog" data-format="geocatalog">Geocatalogo</span>
+                  </li>
+                
+              
+            </ul>
+          
+        
+      
+    
+    </div>
+  </li>
+
+	      
+	        
+
+
+
+
+
+
+  <li class="dataset-item">
+    <div class="package-item-clickable" onClick="location.href='/it/dataset/ortofoto-comunali-2010'">
+    
+      <div class="dataset-content">
+        
+          <h2 class="dataset-heading">
+            
+              
+            
+            
+            <a href="/it/dataset/ortofoto-comunali-2010" title="Ortofoto comunali 2010">
+            Ortofoto comunali 2010
+            </a>
+            
+            
+              
+              
+            
+          </h2>
+        
+        
+          
+        
+        
+          
+            <div>Ortofoto 2010 , risoluzione massima 5cm; L’utilizzo dei dati è vincolato dal rispetto delle condizioni di cui al modello di licenza Creative Commons BY 4.0</div>
+          
+        
+      </div>
+      
+        
+          
+            <ul class="dataset-resources list-unstyled">
+              
+				
+
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+					
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+
+                
+                  
+                  
+                
+
+                
+                  <li>
+                    <span class="badge badge-default badge-geocatalog" data-format="geocatalog">Geocatalogo</span>
+                  </li>
+                
+              
+            </ul>
+          
+        
+      
+    
+    </div>
+  </li>
+
+	      
+	        
+
+
+
+
+
+
+  <li class="dataset-item">
+    <div class="package-item-clickable" onClick="location.href='/it/dataset/piani-di-protezione-civile-comunali-ppcc'">
+    
+      <div class="dataset-content">
+        
+          <h2 class="dataset-heading">
+            
+              
+            
+            
+            <a href="/it/dataset/piani-di-protezione-civile-comunali-ppcc" title="Piani di protezione civile comunali (PPCC)">
+            Piani di protezione civile comunali (PPCC)
+            </a>
+            
+            
+              
+              
+            
+          </h2>
+        
+        
+          
+        
+        
+          
+            <div>Copertura Piani di protezione civile comunali con stato d'elaborazione</div>
+          
+        
+      </div>
+      
+        
+          
+            <ul class="dataset-resources list-unstyled">
+              
+				
+
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+					
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+
+                
+                  
+                  
+                
+                  
+                  
+                
+
+                
+                  <li>
+                    <span class="badge badge-default badge-geocatalog" data-format="geocatalog">Geocatalogo</span>
+                  </li>
+                
+              
+            </ul>
+          
+        
+      
+    
+    </div>
+  </li>
+
+	      
+	        
+
+
+
+
+
+
+  <li class="dataset-item">
+    <div class="package-item-clickable" onClick="location.href='/it/dataset/piani-di-protezione-civile-comunali-ppcc'">
+    
+      <div class="dataset-content">
+        
+          <h2 class="dataset-heading">
+            
+              
+            
+            
+            <a href="/it/dataset/piani-di-protezione-civile-comunali-ppcc" title="Piani di protezione civile comunali (PPCC)">
+            Piani di protezione civile comunali (PPCC)
+            </a>
+            
+            
+              
+              
+            
+          </h2>
+        
+        
+          
+        
+        
+          
+            <div>Piani di protezione civile comunali con stato d'elaborazione</div>
+          
+        
+      </div>
+      
+        
+          
+            <ul class="dataset-resources list-unstyled">
+              
+				
+
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+					
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+
+                
+                  
+                  
+                
+                  
+                  
+                
+
+                
+                  <li>
+                    <span class="badge badge-default badge-geocatalog" data-format="geocatalog">Geocatalogo</span>
+                  </li>
+                
+              
+            </ul>
+          
+        
+      
+    
+    </div>
+  </li>
+
+	      
+	        
+
+
+
+
+
+
+  <li class="dataset-item">
+    <div class="package-item-clickable" onClick="location.href='/it/dataset/streetnames-from-addresspoints'">
+    
+      <div class="dataset-content">
+        
+          <h2 class="dataset-heading">
+            
+              
+            
+            
+            <a href="/it/dataset/streetnames-from-addresspoints" title="Rete viaria - Nomi strade comunali estratte dagli indirizzi">
+            Rete viaria - Nomi strade comunali estratte dagli indirizzi
+            </a>
+            
+            
+              
+              
+            
+          </h2>
+        
+        
+          
+        
+        
+          
+            <div>La tabella contiene tutti i nomi della strade comunali dell'Alto Adige. I nomi delle strade sono stati estratti da circa 130.000 singoli indirizzi che vengono continuamente...</div>
+          
+        
+      </div>
+      
+        
+          
+            <ul class="dataset-resources list-unstyled">
+              
+				
+
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+
+                
+                  
+                  
+                    <li>
+                      <a href="/it/dataset/streetnames-from-addresspoints" class="badge badge-default" data-format="csv">CSV</a>
+                    </li>
+                  
+                
+                  
+                  
+                    <li>
+                      <a href="/it/dataset/streetnames-from-addresspoints" class="badge badge-default" data-format="xls">XLS</a>
+                    </li>
+                  
+                
+
+                
+              
+            </ul>
+          
+        
+      
+    
+    </div>
+  </li>
+
+	      
+	        
+
+
+
+
+
+
+  <li class="dataset-item">
+    <div class="package-item-clickable" onClick="location.href='/it/dataset/piani-di-protezione-civile-comunali-aree-e-strutture-per-lemergenza'">
+    
+      <div class="dataset-content">
+        
+          <h2 class="dataset-heading">
+            
+              
+            
+            
+            <a href="/it/dataset/piani-di-protezione-civile-comunali-aree-e-strutture-per-lemergenza" title="Piani di protezione civile comunali: aree e strutture per l&#39;emergenza">
+            Piani di protezione civile comunali: aree e strutture per l&#39;emergenza
+            </a>
+            
+            
+              
+              
+            
+          </h2>
+        
+        
+          
+        
+        
+          
+            <div>Il dataset contiene le aree e le strutture per l'emergenza (aree o punti di raccolta, aree o strutture di ricovero, aree di ammassamento soccorsi) come anche i comitati...</div>
+          
+        
+      </div>
+      
+        
+          
+            <ul class="dataset-resources list-unstyled">
+              
+				
+
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+					
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+
+                
+                  
+                  
+                
+                  
+                  
+                
+
+                
+                  <li>
+                    <span class="badge badge-default badge-geocatalog" data-format="geocatalog">Geocatalogo</span>
+                  </li>
+                
+              
+            </ul>
+          
+        
+      
+    
+    </div>
+  </li>
+
+	      
+	        
+
+
+
+
+
+
+  <li class="dataset-item">
+    <div class="package-item-clickable" onClick="location.href='/it/dataset/piani-urbanistici-storici-1978'">
+    
+      <div class="dataset-content">
+        
+          <h2 class="dataset-heading">
+            
+              
+            
+            
+            <a href="/it/dataset/piani-urbanistici-storici-1978" title="Piani Urbanistici storici 1978">
+            Piani Urbanistici storici 1978
+            </a>
+            
+            
+              
+              
+            
+          </h2>
+        
+        
+          
+        
+        
+          
+            <div>Dati storici relativi ai piani urbanistici comunali con copertura dell'intero territorio provinciale - Data elaborazione 1978</div>
+          
+        
+      </div>
+      
+        
+          
+            <ul class="dataset-resources list-unstyled">
+              
+				
+
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+					
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+
+                
+                  
+                  
+                
+
+                
+                  <li>
+                    <span class="badge badge-default badge-geocatalog" data-format="geocatalog">Geocatalogo</span>
+                  </li>
+                
+              
+            </ul>
+          
+        
+      
+    
+    </div>
+  </li>
+
+	      
+	        
+
+
+
+
+
+
+  <li class="dataset-item">
+    <div class="package-item-clickable" onClick="location.href='/it/dataset/vie'">
+    
+      <div class="dataset-content">
+        
+          <h2 class="dataset-heading">
+            
+              
+            
+            
+            <a href="/it/dataset/vie" title="Vie">
+            Vie
+            </a>
+            
+            
+              
+              
+            
+          </h2>
+        
+        
+          
+        
+        
+          
+            <div>Vie (nomi ufficiali delle vie comunali secondo l'ufficio anagrafe)</div>
+          
+        
+      </div>
+      
+        
+          
+            <ul class="dataset-resources list-unstyled">
+              
+				
+
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+					
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+
+                
+                  
+                  
+                
+                  
+                  
+                
+
+                
+                  <li>
+                    <span class="badge badge-default badge-geocatalog" data-format="geocatalog">Geocatalogo</span>
+                  </li>
+                
+              
+            </ul>
+          
+        
+      
+    
+    </div>
+  </li>
+
+	      
+	        
+
+
+
+
+
+
+  <li class="dataset-item">
+    <div class="package-item-clickable" onClick="location.href='/it/dataset/confini'">
+    
+      <div class="dataset-content">
+        
+          <h2 class="dataset-heading">
+            
+              
+            
+            
+            <a href="/it/dataset/confini" title="Confini">
+            Confini
+            </a>
+            
+            
+              
+              
+            
+          </h2>
+        
+        
+          
+        
+        
+          
+            <div>Confini comunali, provinciali e statali</div>
+          
+        
+      </div>
+      
+        
+          
+            <ul class="dataset-resources list-unstyled">
+              
+				
+
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+					
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+
+                
+                  
+                  
+                
+                  
+                  
+                
+
+                
+                  <li>
+                    <span class="badge badge-default badge-geocatalog" data-format="geocatalog">Geocatalogo</span>
+                  </li>
+                
+              
+            </ul>
+          
+        
+      
+    
+    </div>
+  </li>
+
+	      
+	        
+
+
+
+
+
+
+  <li class="dataset-item">
+    <div class="package-item-clickable" onClick="location.href='/it/dataset/piani-urbanistici-confini'">
+    
+      <div class="dataset-content">
+        
+          <h2 class="dataset-heading">
+            
+              
+            
+            
+            <a href="/it/dataset/piani-urbanistici-confini" title="Piani urbanistici: confini">
+            Piani urbanistici: confini
+            </a>
+            
+            
+              
+              
+            
+          </h2>
+        
+        
+          
+        
+        
+          
+            <div>Confini comunali, provinciali e statali</div>
+          
+        
+      </div>
+      
+        
+          
+            <ul class="dataset-resources list-unstyled">
+              
+				
+
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+					
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+				  
+				
+
+                
+                  
+                  
+                
+                  
+                  
+                
+
+                
+                  <li>
+                    <span class="badge badge-default badge-geocatalog" data-format="geocatalog">Geocatalogo</span>
+                  </li>
+                
+              
+            </ul>
+          
+        
+      
+    
+    </div>
+  </li>
+
+	      
+	    
+    </ul>
+  
+
+      
+    </div>
+
+    
+      <div class="pagination-wrapper">
+  <ul class="pagination justify-content-center"> <li class="page-item active">
+  <a class="page-link" href="/it/dataset/?q=comunali&amp;page=1">1</a>
+</li> <li class="page-item">
+  <a class="page-link" href="/it/dataset/?q=comunali&amp;page=2">2</a>
+</li> <li class="page-item">
+  <a class="page-link" href="/it/dataset/?q=comunali&amp;page=2">»</a>
+</li></ul>
+</div>
+    
+  </section>
+
+  
+  <section class="module">
+    <div class="module-content">
+      
+      <small>
+        
+        
+        
+          E' possibile inoltre accedere al registro usando le <a href="/it/api/3">API</a> (vedi <a href="http://docs.ckan.org/en/2.10/api/">Documentazione API</a>). 
+      </small>
+      
+    </div>
+  </section>
+  
+
+              </div>
+            
+          </div>
+        
+      </div>
+    </div>
+  
+    
+
+<footer class="site-footer">
+  <div class="container ck-row-footer">
+    
+	<div class="row">
+	  <!-- <div class="footer-left"> -->
+	  <div class="col-md-4 footer-links">
+		<nav class="footer-links">
+			
+			  <ul class="list-unstyled footer-lks">
+				
+				  
+				  <li>
+					  <a href=/it/info>
+						  <i class="fa-solid fa-comment"></i>
+						  Informazioni Dati Alto Adige
+					  </a>
+				  </li>
+				  <li>
+					  <a href=/it/faq>
+						  <i class="fa-solid fa-question"></i>
+						  Domande frequenti
+					  </a>
+				  </li>
+				  <li>
+					  <a href="/feeds/dataset.atom">
+						<i class="fa-solid fa-rss"></i>
+						Atom Feed
+					  </a>
+				  </li>
+				  <li>
+					<a href=/it/acknowledgements>
+					  <i class="fa-solid fa-user"></i>
+					  Ringraziamenti
+					</a>
+				  </li>
+				  <li>
+                    
+						<a href="https://static.civis.bz.it/public/downloads/note_legali/Note_legali_it.pdf" target="_blank">
+					
+						  <i class="fa-solid fa-gavel"></i>
+						  Note legali
+						</a>
+				  </li>
+				  <li>
+					
+						<a href="https://static.civis.bz.it/public/downloads/privacy/myCIVIS_Informativa_generale_it.pdf" target="_blank">
+					
+						  <i class="fa-solid fa-key"></i>
+						  Privacy
+						</a>
+				  </li>
+				  <li>
+					<a href="mailto:opendata@siag.it">
+					  <i class="fa-solid fa-share"></i>
+					  Contattaci
+					</a>
+				  </li>
+				  <li>
+					
+						<a href="https://static.civis.bz.it/public/downloads/cookie_policy/Cookie_Policy_it.pdf" target="_blank">
+					
+						  <i class="fa-solid fa-bullseye"></i>
+						  Cookie
+						</a>
+				  </li>
+				
+			  </ul>
+
+			  <ul class="list-unstyled copyrights">
+				  <li>
+					
+					  © 2025 Provincia autonoma di Bolzano - Informatica Alto Adige SPA • Cod. Fisc.: 00390090215
+					  PEC: 
+					  <a href="mailto:generaldirektion.direzionegenerale@pec.prov.bz.it">
+						generaldirektion.direzionegenerale@pec.prov.bz.it
+				      </a>
+					
+				  </li>
+			  </ul>
+			
+		</nav>	  
+	  </div>
+	  
+	  <!-- <div class="footer-center"> -->
+		<div class="col-md-4">
+		<nav class="footer-links">	  
+			<ul class="list-unstyled">
+				
+				  
+
+				  <li><a href="https://docs.ckan.org/en/2.10/api/index.html">CKAN API</a></li>
+				  <li><a href="http://www.okfn.org/">Open Knowledge Foundation</a></li>
+				  <li><a href="http://www.opendefinition.org/okd/"><img src="http://assets.okfn.org/images/ok_buttons/od_80x15_blue.png"></a></li>
+				  <li>
+					<p class="powered-by">
+					   <strong>Realizzato con</strong> <a class="ckan-footer-logo" href="http://ckan.org"><span>CKAN</span></a>
+					</p>
+				  </li>
+				
+			</ul>
+		</nav>
+	  </div>
+	  
+      <!-- <div class="attribution footer-right"> -->
+		<div class="col-md-4 attribution">
+        
+        
+		<img src="/images/logo/opendata_suedtirol_logo_bw.png" alt="Logo Open Data Alto Adige" class="logo_footer">
+		
+		<!-- User Login part -->
+		
+          
+          <nav class="account not-authed">
+            <ul class="unstyled">
+              
+	              
+
+                     
+                      <li><i class="fa-solid fa-lock"></i><a href="/it/user/login">AREA RISERVATA</a></li>
+
+	              
+              
+            </ul>
+          </nav>
+        
+
+		
+          
+<form class="lang-select" action="/it/util/redirect" data-module="select-switch" method="POST">
+  
+<input type="hidden" name="_csrf_token" value="ImMxNjhhNGJhNjQyY2E1ZmMwNmYxZTUyYmQ4M2RjM2U5NTJmNzM2ZGQi.atOmAg.1t5HVgVs5LB72lODK-KsPCqT7AY"/> 
+  <div class="form-group">
+    <label for="field-lang-select">Lingua</label>
+    <select id="field-lang-select" name="url" data-module="autocomplete" data-module-dropdown-class="lang-dropdown" data-module-container-class="lang-container">
+      
+        <option value="/it/dataset?q=comunali" selected="selected">
+          italiano
+        </option>
+      
+        <option value="/de/dataset?q=comunali" >
+          Deutsch
+        </option>
+      
+    </select>
+  </div>
+  <button class="btn btn-default d-none " type="submit">Vai</button>
+</form>
+
+
+        
+      </div>
+	</div>
+    
+  </div>
+</footer>
+  
+  
+  
+  
+  
+  
+  
+    
+
+  
+
+    
+    
+    
+
+
+      
+
+    
+    
+    <link href="/webassets/vendor/f3b8236b_select2.css" rel="stylesheet"/>
+<link href="/webassets/vendor/d05bf0e7_fontawesome.css" rel="stylesheet"/>
+    <script src="/webassets/vendor/8c3c143a_jquery.js" type="text/javascript"></script>
+<script src="/webassets/vendor/9cf42cfd_vendor.js" type="text/javascript"></script>
+<script src="/webassets/vendor/6d1ad7e6_bootstrap.js" type="text/javascript"></script>
+<script src="/webassets/base/6fddaa3f_main.js" type="text/javascript"></script>
+<script src="/webassets/base/0d750fad_ckan.js" type="text/javascript"></script>
+<script src="/webassets/activity/0fdb5ee0_activity.js" type="text/javascript"></script>
+<script src="/webassets/provbz/5f723f99_base.js" type="text/javascript"></script>
+<script src="/webassets/provbz/93c5cf9c_cookiechoices.js" type="text/javascript"></script>
+  </body>
+</html>

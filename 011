@@ -1,0 +1,632 @@
+<html>
+
+<head>
+<title>Elezioni comunali 2000</title>
+<style>
+<!---
+A:hover { color: red ; }
+-td {  }
+td {  font-size: 10pt}
+a:hover {  color: #800000}
+/* */--></style>
+</head>
+
+<body link="#000080" vlink="#000080" alink="#800000" bgcolor="#FFFFFF">
+
+<p><img border="0" src="../images/banner_tn_i.gif" WIDTH="556" HEIGHT="77"></p>
+
+<table border="0" cellspacing="0" cellpadding="0" width="580">
+  <tr>
+    <td><table border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td><font face="Arial" size="1" color="#000080"><u><img border="0" src="../images/pfeil6.gif" hspace="5" width="18" height="10"><a href="home_i.htm">Home</a></u></font></td>
+        <td><font face="Arial" size="1" color="#000080"><img border="0" src="../images/pfeil5.gif" hspace="5" WIDTH="14" HEIGHT="10">Trentino</font></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+    </td>
+    <td></td>
+  </tr>
+</table>
+
+<table border="0" cellpadding="5">
+  <tr>
+    <td valign="top"><a href="home_i.htm"><img src="../images/pfeil4.gif" alt="arrow up" border="0" WIDTH="14" HEIGHT="18"></a></td>
+    <td style="padding-left: 10"><strong><font face="Arial" color="#800000" size="3">Risultati
+    elettorali ufficiosi per comune</font><br>
+    <font face="Arial" color="#000080"><font size="1">Per i risultati dettagliati scegliere il
+    comune desiderato.</font></strong>
+    </font></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td width="550"><table BORDER="0" CELLSPACING="2" WIDTH="100%" bgcolor="#f1f1f1">
+      <tr>
+        <td height="35" colspan="8" bgcolor="#E0E0E0" width="548"><b><font face="Arial" size="3" color="#80000">&nbsp;Comuni con piú di 3.000 abitanti:</font></b></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm1.htm">Ala</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm7.htm">Avio</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm8.htm">Baselga Di Pinè</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm20.htm">Borgo Valsugana</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm47.htm">Cavalese</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm59.htm">Cles</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm76.htm">Dro</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm84.htm">Folgaria</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm101.htm">Lavis</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm114.htm">Mezzocorona</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm115.htm">Mezzolombardo</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm121.htm">Mori</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm137.htm">Pergine Valsugana</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm182.htm">Storo</a></font></td>
+        <td height="34" widht="25"><font color="#f1f1f1">---</font></td>
+        <td height="34" widht="25"><font color="#f1f1f1">---</font></td>
+        <td height="34" widht="25"><font color="#f1f1f1">---</font></td>
+        <td height="34" widht="25"><font color="#f1f1f1">---</font></td>
+      </tr>
+      <tr>
+        <td height="35" colspan="8" bgcolor="#E0E0E0" width="548"><b><font face="Arial" size="3" color="#80000">&nbsp;Comuni fino a 3.000 abitanti:</font></b></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm2.htm">Albiano</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm3.htm">Aldeno</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm4.htm">Amblar</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm9.htm">Bedollo</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm11.htm">Besenello</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm12.htm">Bezzecca</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm13.htm">Bieno</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm14.htm">Bleggio Inferiore</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm15.htm">Bleggio Superiore</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm16.htm">Bocenago</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm17.htm">Bolbeno</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm18.htm">Bondo</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm19.htm">Bondone</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm21.htm">Bosentino</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm22.htm">Breguzzo</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm24.htm">Bresimo</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm25.htm">Brez</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm26.htm">Brione</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm27.htm">Caderzone</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm28.htm">Cagnò</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm29.htm">Calavino</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm30.htm">Calceranica Al Lago</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm31.htm">Caldes</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm32.htm">Caldonazzo</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm33.htm">Calliano</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm34.htm">Campitello Di Fassa</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm35.htm">Campodenno</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm36.htm">Canal San Bovo</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm37.htm">Canazei</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm38.htm">Capriana</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm39.htm">Carano</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm40.htm">Carisolo</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm42.htm">Castel Condino</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm43.htm">Castelfondo</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm45.htm">Castello Tesino</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm44.htm">Castello-Molina Di Fiemme</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm46.htm">Castelnuovo</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm48.htm">Cavareno</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm49.htm">Cavedago</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm50.htm">Cavedine</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm51.htm">Cavizzana</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm52.htm">Cembra</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm53.htm">Centa San Nicolò</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm54.htm">Cimego</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm55.htm">Cimone</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm56.htm">Cinte Tesino</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm57.htm">Cis</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm58.htm">Civezzano</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm60.htm">Cloz</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm61.htm">Commezzadura</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm62.htm">Concei</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm63.htm">Condino</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm64.htm">Coredo</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm65.htm">Croviana</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm66.htm">Cunevo</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm67.htm">Daiano</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm68.htm">Dambel</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm69.htm">Daone</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm70.htm">Darè</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm71.htm">Denno</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm72.htm">Dimaro</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm74.htm">Dorsino</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm75.htm">Drena</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm77.htm">Faedo</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm78.htm">Fai Della Paganella</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm79.htm">Faver</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm80.htm">Fiavè</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm81.htm">Fiera Di Primiero</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm82.htm">Fierozzo</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm83.htm">Flavon</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm85.htm">Fondo</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm86.htm">Fornace</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm87.htm">Frassilongo</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm88.htm">Garniga Terme</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm89.htm">Giovo</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm90.htm">Giustino</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm91.htm">Grauno</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm92.htm">Grigno</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm93.htm">Grumes</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm94.htm">Imer</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm95.htm">Isera</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm96.htm">Ivano-Fracena</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm97.htm">Lardaro</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm98.htm">Lasino</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm100.htm">Lavarone</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm103.htm">Lisignago</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm104.htm">Livo</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm105.htm">Lomaso</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm106.htm">Lona-Lases</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm107.htm">Luserna</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm109.htm">Malosco</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm108.htm">Malè</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm110.htm">Massimeno</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm111.htm">Mazzin</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm112.htm">Mezzana</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm113.htm">Mezzano</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm116.htm">Moena</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm117.htm">Molina Di Ledro</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm118.htm">Molveno</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm119.htm">Monclassico</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm120.htm">Montagne</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm122.htm">Nago-Torbole</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm123.htm">Nanno</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm124.htm">Nave San Rocco</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm125.htm">Nogaredo</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm126.htm">Nomi</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm127.htm">Novaledo</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm128.htm">Ospedaletto</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm129.htm">Ossana</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm130.htm">Padergnone</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm131.htm">Palù Del Fersina</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm132.htm">Panchià</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm134.htm">Peio</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm135.htm">Pellizzano</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm136.htm">Pelugo</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm138.htm">Pieve Di Bono</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm139.htm">Pieve Di Ledro</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm140.htm">Pieve Tesino</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm141.htm">Pinzolo</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm142.htm">Pomarolo</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm143.htm">Pozza Di Fassa</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm144.htm">Praso</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm146.htm">Preore</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm147.htm">Prezzo</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm148.htm">Rabbi</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm149.htm">Ragoli</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm150.htm">Revò</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm152.htm">Romallo</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm153.htm">Romeno</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm154.htm">Roncegno</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm155.htm">Ronchi Valsugana</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm156.htm">Roncone</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm157.htm">Ronzo-Chienis</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm158.htm">Ronzone</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm159.htm">Roverè Della Luna</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm161.htm">Ruffrè</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm162.htm">Rumo</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm163.htm">Sagron Mis</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm164.htm">Samone</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm165.htm">San Lorenzo In Banale</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm166.htm">San Michele All`Adige</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm167.htm">Sant`Orsola Terme</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm168.htm">Sanzeno</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm169.htm">Sarnonico</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm170.htm">Scurelle</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm171.htm">Segonzano</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm172.htm">Sfruz</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm173.htm">Siror</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm174.htm">Smarano</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm175.htm">Soraga</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm176.htm">Sover</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm177.htm">Spera</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm178.htm">Spiazzo</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm179.htm">Spormaggiore</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm180.htm">Sporminore</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm181.htm">Stenico</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm183.htm">Strembo</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm184.htm">Strigno</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm186.htm">Tassullo</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm187.htm">Telve</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm188.htm">Telve Di Sopra</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm189.htm">Tenna</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm190.htm">Tenno</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm191.htm">Terlago</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm192.htm">Terragnolo</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm193.htm">Terres</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm194.htm">Terzolas</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm195.htm">Tesero</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm196.htm">Tiarno Di Sopra</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm197.htm">Tiarno Di Sotto</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm199.htm">Ton</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm200.htm">Tonadico</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm201.htm">Torcegno</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm202.htm">Trambileno</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm203.htm">Transacqua</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm205.htm">Tres</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm206.htm">Tuenno</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm208.htm">Valfloriana</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm209.htm">Vallarsa</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm211.htm">Varena</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm212.htm">Vattaro</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm213.htm">Vermiglio</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm214.htm">Vervò</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm215.htm">Vezzano</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm216.htm">Vignola-Falesina</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm219.htm">Vigo Rendena</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm218.htm">Vigolo Vattaro</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm220.htm">Villa Agnedo</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm221.htm">Villa Lagarina</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm222.htm">Villa Rendena</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm223.htm">Volano</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm224.htm">Zambana</a></font></td>
+      </tr>
+      <tr>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm225.htm">Ziano Di Fiemme</a></font></td>
+        <td height="34" widht="25" valign="center" style="padding-left: 8"><img border="0" src="..\images\but_05.gif"></td>
+        <td height="34" widht="112" valign="center"><font face="Arial" size="1"><a href="comm/comm226.htm">Zuclo</a></font></td>
+        <td height="34" widht="25"><font color="#f1f1f1">---</font></td>
+        <td height="34" widht="25"><font color="#f1f1f1">---</font></td>
+        <td height="34" widht="25"><font color="#f1f1f1">---</font></td>
+        <td height="34" widht="25"><font color="#f1f1f1">---</font></td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+  <tr>
+    <td></td>
+    <td width="547"><table BORDER="0" COLSPAN="2" CELLSPACING="0" BORDERCOLOR="#000000" WIDTH="552" bgcolor="#F0F8FF" style="padding-top: 3">
+      <tr>
+        <td bgcolor="#ECECEC"><font face="Arial" size="2" color="#000080">&nbsp;Legenda:</font></td>
+        <td bgcolor="#ECECEC"><img src="../images/but_05.gif" alt="dati completi" WIDTH="20" HEIGHT="20"></td>
+        <td bgcolor="#ECECEC"><font face="Arial" size="2" color="#000000">dati completi</font></td>
+        <td bgcolor="#ECECEC"><img src="../images/but_01.gif" alt="nessun dato" WIDTH="20" HEIGHT="20"></td>
+        <td bgcolor="#ECECEC"><font face="Arial" size="2" color="#000000">nessun dato</font></td>
+        <td bgcolor="#ECECEC"><img src="../images/but_02.gif" alt="meno del 50%" WIDTH="20" HEIGHT="20"></td>
+        <td bgcolor="#ECECEC"><font face="Arial" size="2" color="#000000">meno del 50%<sup>*</sup></font></td>
+      </tr>
+      <tr>
+        <td bgcolor="#ECECEC" colspan="3"><font face="Arial" size="1">&nbsp;* percentuale delle
+        sezioni scrutinate</font></td>
+        <td bgcolor="#ECECEC"><img src="../images/but_03.gif" alt="parziali" WIDTH="20" HEIGHT="20"></td>
+        <td bgcolor="#ECECEC"><font face="Arial" size="2" color="#000000">oltre 50%<sup>*</sup></font></td>
+        <td bgcolor="#ECECEC"><img src="../images/but_04.gif" alt="parziali" WIDTH="20" HEIGHT="20"></td>
+        <td bgcolor="#ECECEC"><font face="Arial" size="2" color="#000000">oltre 75%<sup>*</sup></font></td>
+      </tr>
+      <tr>
+        <td colspan="7" bgcolor="#ECECEC">&nbsp;</td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><table border="0" width="100%" cellspacing="0" cellpadding="0">
+      <tr>
+        <td><font face="Arial" size="1">I dati sono da considerarsi ufficiosi in quanto soggetti a
+        verifica.</font><p><font face="Arial" size="1">© 2000 Copyright Regione Trentino-Alto
+        Adige<br>
+        realizzazione Informatica Alto Adige S.p.A.</font></td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

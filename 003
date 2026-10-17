@@ -1,0 +1,803 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Gemeindewahlen 2010 - Südtirol | 16 - 30 Mai | Die neuen B&uuml;rgermeister</title>
+
+
+<meta http-equiv="pragma" content="no-cache" />
+<meta http-equiv="cache-control" content="no-cache" />
+<meta name="description" content="Gemeindewahlen 2010 Südtirol: Auszählung live im Internet, Ergebnisse im Detail und mehr." />
+<meta name="keywords" content="Wahlen, Gemeindewahlen 2010, Südtirol" />
+<link href="presentation/default.css" rel="stylesheet" type="text/css" media="screen, projection" title="default" />
+<link href="presentation/print.css" rel="stylesheet" type="text/css" media="print" />
+  
+</head>
+<body id="deutsch" class="twoCols">
+<!--[if IE 7]><div class="ie7"><![endif]-->
+<!--[if IE 6]><div class="ie6"><![endif]-->
+<!--[if lt IE 6]><div class="ieQ"><![endif]-->
+<form method="get" action="mayors_ld_vg.htm" id="aspnetForm">
+<div id="container">
+  <div id="header">
+    <div id="corporate-nav"> 
+	    <ul>
+		    <li class="skip-nav"><a href="#content" title="Überspringen Sie die Navigation und gehen Sie direkt zum Inhalt" accesskey="S">Überspringen Sie die Navigation</a></li
+		    ><li><a href="mayors_li_vg.htm" lang="it" xml:lang="it" title="Versione italiana della pagina" accesskey="X">Italiano</a></li
+		    ><li><a href="mayors_ll_vg.htm" lang="rm" xml:lang="rm" title="Versciun dla plata ladina" accesskey="R">Ladin</a></li
+		    >
+		    
+		    <li class="styleswitcher"><a href="mayors_ld_vl.htm" title="Hohe Lesbarkeit" accesskey="T">Hohe Lesbarkeit</a></li>
+	    </ul>
+    </div>
+    <!-- end corporate-nav -->
+    <h1><a href="home_ld_vg.htm"><img src="presentation/img/header_de.png" width="600" height="90" alt="Gemeindewahlen 2010 - Südtirol | 16 - 30 Mai" /></a></h1>
+    <ul id="main-nav">
+      <li class="last"><a href="index_ld_vg.htm" accesskey="1" xml:lang="en">Verzeichnis der Gemeinden </a></li>
+    </ul>
+  </div>
+  <!-- end header -->
+  <div id="content">
+     
+    <div id="left-sidebar">
+          <h2>Gemeindewahlen 2010 </h2>
+          <ul>
+          
+            <li><a href='index_ld_vg.htm'>
+               Wahlergebnisse  
+                </a>
+            </li>
+            <li><a href='afwb_ld_vg.htm'>
+                Wahlbeteiligung
+                </a>
+            </li>
+          </ul>
+    </div>
+
+
+    <div id="main">
+      
+      <div id="breadCrumbs"><a href='index_ld_vg.htm'>Home</a> &laquo; Die neuen B&uuml;rgermeister </div>
+      <table id="page-info" cellspacing="0">
+        <tr>
+          <td class="breadcrumbs">&nbsp; </td>
+          <td class="printbutton">
+            <input type="image" src="presentation/img/print_de.png" alt='Drucken Sie diese Seite' onclick="javascript:window.print();return false;" />
+            <noscript>
+            <p> Um diese Seite zu drucken, klicken Sie auf den Menüpunkt 'Datei' und wählen Sie 'Drucken' aus.  </p>
+            </noscript>
+          </td>
+        </tr>
+      </table>
+      <h2>Die neuen B&uuml;rgermeister </h2>
+      
+      
+          <table  class="sindaci ruler" summary='Die neuen Bürgermeister in Gemeinden mit mehr als 15.000 Einwohnern'>
+            <caption>
+            Gemeinden mit mehr als 15.000 Einwohnern
+            </caption>
+            <thead>
+              <tr>
+                <th class="votiTipo" scope="col">Gemeinde</th>
+                <th class="votiTipo" scope="col">Bürgermeister/-in</th>
+                <th class="votiTipo" scope="col">Liste</th>
+              </tr>
+            </thead>
+            <tfoot>
+              <tr>
+                <td colspan="3">Vorläufige Daten </td>
+              </tr>
+            </tfoot>
+            <tbody>
+      
+          <tr class="even">
+            <th scope="row">BOZEN</th>
+            <td class="eletto">SPAGNOLLI LUIGI (Gigi) </td>
+            <td></td>
+          </tr>
+      
+          <tr class="odd">
+            <th scope="row">BRIXEN</th>
+            <td class="eletto">PÜRGSTALLER ALBERT </td>
+            <td></td>
+          </tr>
+      
+          <tr class="even">
+            <th scope="row">LEIFERS</th>
+            <td class="eletto">DI FEDE LILIANA </td>
+            <td></td>
+          </tr>
+      
+          <tr class="odd">
+            <th scope="row">MERAN</th>
+            <td class="eletto">JANUTH GÜNTHER </td>
+            <td></td>
+          </tr>
+      
+            </tbody>
+          </table>
+      
+
+      
+          <table  class="sindaci ruler" summary='Die neuen Bürgermeister in Gemeinden bis zu 15.000 Einwohnern'>
+            <caption>
+                Gemeinden bis zu 15.000 Einwohnern
+            </caption>
+            <thead>
+              <tr>
+                <th class="votiTipo" scope="col">Gemeinde</th>
+                <th class="votiTipo" scope="col">Bürgermeister/-in</th>
+                <th class="votiTipo" scope="col">Liste</th>
+              </tr>
+            </thead>
+            <tfoot>
+              <tr>
+                <td colspan="3">Vorläufige Daten </td>
+              </tr>
+            </tfoot>
+            <tbody>
+      
+          <tr class="even">
+            <th scope="row">AHRNTAL</th>
+            <td class="eletto">KLAMMER HELMUT GEBHARD </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="odd">
+            <th scope="row">ALDEIN</th>
+            <td class="eletto">MATZNELLER CHRISTOPH (Thaler) </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="even">
+            <th scope="row">ALGUND</th>
+            <td class="eletto">GAMPER ULRICH </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="odd">
+            <th scope="row">ALTREI</th>
+            <td class="eletto">LOCHMANN HARTWIG FRIEDRICH </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="even">
+            <th scope="row">ANDRIAN</th>
+            <td class="eletto">DANAY ROLAND </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="odd">
+            <th scope="row">AUER</th>
+            <td class="eletto">PICHLER ROLAND </td>
+            <td>DORFLISTE AUER</td>
+          </tr>
+      
+          <tr class="even">
+            <th scope="row">BARBIAN</th>
+            <td class="eletto">KLAMMSTEINER ALFONS (Unterfaller) </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="odd">
+            <th scope="row">BRANZOLL</th>
+            <td class="eletto">ZITO BENEDETTO </td>
+            <td>DEMOCRATICI DI CENTRO BRONZOLO CASINI UDC</td>
+          </tr>
+      
+          <tr class="even">
+            <th scope="row">BRUNECK</th>
+            <td class="eletto">TSCHURTSCHENTHALER CHRISTIAN </td>
+            <td>SVP </td>
+          </tr>
+      
+          <tr class="odd">
+            <th scope="row">BURGSTALL</th>
+            <td class="eletto">UNTERKOFLER OTHMAR (Pfefferle) </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="even">
+            <th scope="row">CORVARA</th>
+            <td class="eletto">ROTTONARA ROBERT </td>
+            <td>UNIUN CALFOSCH-PESCOSTA-CORVARA SVP</td>
+          </tr>
+      
+          <tr class="odd">
+            <th scope="row">DEUTSCHNOFEN</th>
+            <td class="eletto">DAUM  BERNHARD </td>
+            <td>SVP DEUTSCHNOFEN</td>
+          </tr>
+      
+          <tr class="even">
+            <th scope="row">ENNEBERG</th>
+            <td class="eletto">PALFRADER ALBERTO  </td>
+            <td>LISTE "AL PLAN"</td>
+          </tr>
+      
+          <tr class="odd">
+            <th scope="row">EPPAN A.D.W.</th>
+            <td class="eletto">TRETTL WILFRIED </td>
+            <td>BÜRGERLISTE EPPAN</td>
+          </tr>
+      
+          <tr class="even">
+            <th scope="row">FRANZENSFESTE</th>
+            <td class="eletto">AMORT  RICHARD </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="odd">
+            <th scope="row">FREIENFELD</th>
+            <td class="eletto">HOLZER ARMIN </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="even">
+            <th scope="row">GAIS</th>
+            <td class="eletto">STIFTER AUSSERHOFER ROMANA ANNA </td>
+            <td>SVP GAIS</td>
+          </tr>
+      
+          <tr class="odd">
+            <th scope="row">GARGAZON</th>
+            <td class="eletto">GORFER ARMIN </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="even">
+            <th scope="row">GLURNS</th>
+            <td class="eletto">WALLNÖFER   ERICH JOSEF  </td>
+            <td>SÜDTIROLER VOLKSPARTEI </td>
+          </tr>
+      
+          <tr class="odd">
+            <th scope="row">GRAUN IM VINSCHGAU</th>
+            <td class="eletto">NOGGLER HEINRICH </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="even">
+            <th scope="row">GSIES</th>
+            <td class="eletto">SCHWINGSHACKL PAUL </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="odd">
+            <th scope="row">HAFLING</th>
+            <td class="eletto">PEER ANDREAS </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="even">
+            <th scope="row">INNICHEN</th>
+            <td class="eletto">TSCHURTSCHENTHALER WERNER (Raner) </td>
+            <td>SVP (SÜDTIROLER VOLKSPARTEI)</td>
+          </tr>
+      
+          <tr class="odd">
+            <th scope="row">JENESIEN</th>
+            <td class="eletto">ROMEN PAUL </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="even">
+            <th scope="row">KALTERN A.D.W.</th>
+            <td class="eletto">BENIN BERNARD GERTRUD </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="odd">
+            <th scope="row">KARNEID</th>
+            <td class="eletto">KOFLER ALBIN </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="even">
+            <th scope="row">KASTELBELL-TSCHARS</th>
+            <td class="eletto">TAPPEINER GUSTAV </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="odd">
+            <th scope="row">KASTELRUTH</th>
+            <td class="eletto">COLLI ANDREAS (Colli) </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="even">
+            <th scope="row">KIENS</th>
+            <td class="eletto">NIEDERKOFLER REINHARD </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="odd">
+            <th scope="row">KLAUSEN</th>
+            <td class="eletto">GASSER FINK MARIA-ANNA (Maria) </td>
+            <td>SVP KLAUSEN</td>
+          </tr>
+      
+          <tr class="even">
+            <th scope="row">KUENS</th>
+            <td class="eletto">KUEN ALOIS </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="odd">
+            <th scope="row">KURTATSCH A.D.W.</th>
+            <td class="eletto">FISCHER MARTIN </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="even">
+            <th scope="row">KURTINIG A.D.W.</th>
+            <td class="eletto">MAYR MANFRED </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="odd">
+            <th scope="row">LAAS</th>
+            <td class="eletto">TAPPEINER ANDREAS </td>
+            <td>SVP LAAS, ALLITZ, TANAS</td>
+          </tr>
+      
+          <tr class="even">
+            <th scope="row">LAJEN</th>
+            <td class="eletto">LEITER STEFAN </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="odd">
+            <th scope="row">LANA</th>
+            <td class="eletto">STAUDER HARALD </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="even">
+            <th scope="row">LATSCH</th>
+            <td class="eletto">WEISS KARL </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="odd">
+            <th scope="row">LAUREIN</th>
+            <td class="eletto">THALER HARTMANN </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="even">
+            <th scope="row">LÜSEN</th>
+            <td class="eletto">FISCHNALLER JOSEF MARIA </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="odd">
+            <th scope="row">MARGREID A.D.W.</th>
+            <td class="eletto">DEGASPERI GOZZI THERESIA </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="even">
+            <th scope="row">MARLING</th>
+            <td class="eletto">MAIRHOFER  WALTER FRANZ (Rochele) </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="odd">
+            <th scope="row">MARTELL</th>
+            <td class="eletto">ALTSTÄTTER GEORG </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="even">
+            <th scope="row">MÖLTEN</th>
+            <td class="eletto">WIEDMER IN/VERH. PERKMANN ANGELIKA </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="odd">
+            <th scope="row">MONTAN</th>
+            <td class="eletto">DELVAI HILBER MONIKA </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="even">
+            <th scope="row">MOOS IN PASSEIER</th>
+            <td class="eletto">KLOTZ WILHELM MATHIAS (Eben) </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="odd">
+            <th scope="row">MÜHLBACH</th>
+            <td class="eletto">PRUGGER CHRISTOPH </td>
+            <td>SVP  MÜHLBACH</td>
+          </tr>
+      
+          <tr class="even">
+            <th scope="row">MÜHLWALD</th>
+            <td class="eletto">NIEDERBRUNNER PAUL (Handlung) </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="odd">
+            <th scope="row">NALS</th>
+            <td class="eletto">PIRCHER FRANZ </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="even">
+            <th scope="row">NATURNS</th>
+            <td class="eletto">HEIDEGGER ANDREAS </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="odd">
+            <th scope="row">NATZ-SCHABS</th>
+            <td class="eletto">GASSER PETER </td>
+            <td>SÜDTIROLER VOLKSPARTEI NATZ VIUMS</td>
+          </tr>
+      
+          <tr class="even">
+            <th scope="row">NEUMARKT</th>
+            <td class="eletto">PICHLER HORST </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="odd">
+            <th scope="row">NIEDERDORF</th>
+            <td class="eletto">PLONER KURT </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="even">
+            <th scope="row">OLANG</th>
+            <td class="eletto">BACHMANN REINHARD </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="odd">
+            <th scope="row">PARTSCHINS</th>
+            <td class="eletto">GÖGELE ALBERT </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="even">
+            <th scope="row">PERCHA</th>
+            <td class="eletto">REINALTER JOACHIM </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="odd">
+            <th scope="row">PFALZEN</th>
+            <td class="eletto">GATTERER JOSEF </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="even">
+            <th scope="row">PFATTEN</th>
+            <td class="eletto">BEATI ALESSANDRO </td>
+            <td>CIVICA DEL CASTELLO</td>
+          </tr>
+      
+          <tr class="odd">
+            <th scope="row">PFITSCH</th>
+            <td class="eletto">FREI JOHANN </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="even">
+            <th scope="row">PRAD AM STILFSERJOCH</th>
+            <td class="eletto">PINGGERA HUBERT </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="odd">
+            <th scope="row">PRAGS</th>
+            <td class="eletto">MUTSCHLECHNER ALFRED </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="even">
+            <th scope="row">PRETTAU</th>
+            <td class="eletto">STEGER ROBERT ALEXANDER </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="odd">
+            <th scope="row">PROVEIS</th>
+            <td class="eletto">GAMPER ULRICH </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="even">
+            <th scope="row">RASEN-ANTHOLZ</th>
+            <td class="eletto">BERGER HERBERT </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="odd">
+            <th scope="row">RATSCHINGS</th>
+            <td class="eletto">HELFER  SEBASTIAN </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="even">
+            <th scope="row">RIFFIAN</th>
+            <td class="eletto">WERNER KARL </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="odd">
+            <th scope="row">RITTEN</th>
+            <td class="eletto">LINTNER PAUL </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="even">
+            <th scope="row">RODENECK</th>
+            <td class="eletto">FALLER KLAUS </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="odd">
+            <th scope="row">SALURN</th>
+            <td class="eletto">GIACOMOZZI GIORGIO MARCO </td>
+            <td>IMPEGNO PER SALORNO-VORSCHLAG FÜR SALURN</td>
+          </tr>
+      
+          <tr class="even">
+            <th scope="row">SAND IN TAUFERS</th>
+            <td class="eletto">INNERBICHLER HELMUTH </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="odd">
+            <th scope="row">SARNTAL</th>
+            <td class="eletto">LOCHER FRANZ THOMAS (Oberhöller) </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="even">
+            <th scope="row">SCHENNA</th>
+            <td class="eletto">KRÖLL ALOIS PETER  (Luis) </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="odd">
+            <th scope="row">SCHLANDERS</th>
+            <td class="eletto">PINGGERA DIETER </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="even">
+            <th scope="row">SCHLUDERNS</th>
+            <td class="eletto">WEGMANN ERWIN </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="odd">
+            <th scope="row">SCHNALS</th>
+            <td class="eletto">RAINER KARL JOSEF (Lehrer - Karl) </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="even">
+            <th scope="row">SEXTEN</th>
+            <td class="eletto">EGARTER FRITZ </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="odd">
+            <th scope="row">ST. CHRISTINA IN GRÖDEN</th>
+            <td class="eletto">HOFER EUGEN (Hofer Group) </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="even">
+            <th scope="row">ST. LEONHARD IN PASSEIER</th>
+            <td class="eletto">TSCHÖLL OSWALD LORENZ (Kammerveiter Oswald) </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="odd">
+            <th scope="row">ST. LORENZEN</th>
+            <td class="eletto">GRÄBER HELMUT </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="even">
+            <th scope="row">ST. MARTIN IN PASSEIER</th>
+            <td class="eletto">PAMER ROSMARIE </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="odd">
+            <th scope="row">ST. MARTIN IN THURN</th>
+            <td class="eletto">VIDESOTT HEINRICH (Heinz) </td>
+            <td>CIASTEL</td>
+          </tr>
+      
+          <tr class="even">
+            <th scope="row">ST. PANKRAZ</th>
+            <td class="eletto">HOLZNER THOMAS (Klauser Thomas) </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="odd">
+            <th scope="row">ST. ULRICH</th>
+            <td class="eletto">MORODER EWALD (Salman) </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="even">
+            <th scope="row">STERZING</th>
+            <td class="eletto">MESSNER FRIEDRICH KARL (Fritz Karl) </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="odd">
+            <th scope="row">STILFS</th>
+            <td class="eletto">TSCHENETT HARTWIG </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="even">
+            <th scope="row">TAUFERS IM MÜNSTERTAL</th>
+            <td class="eletto">FLIRI HERMANN BERNHARD </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="odd">
+            <th scope="row">TERENTEN</th>
+            <td class="eletto">SCHMID MANFRED </td>
+            <td>SVP</td>
+          </tr>
+      
+          <tr class="even">
+            <th scope="row">TERLAN</th>
+            <td class="eletto">RUNER KLAUS </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="odd">
+            <th scope="row">TIERS</th>
+            <td class="eletto">VILLGRATTNER KARL MARKUS (Tennen) </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="even">
+            <th scope="row">TIROL</th>
+            <td class="eletto">LAIMER ELISABETH </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="odd">
+            <th scope="row">TISENS</th>
+            <td class="eletto">MAIR URBAN </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="even">
+            <th scope="row">TOBLACH</th>
+            <td class="eletto">BOCHER GUIDO </td>
+            <td>INDIPENDENTI - UNABHÄNGIGE</td>
+          </tr>
+      
+          <tr class="odd">
+            <th scope="row">TRAMIN A.D.W.</th>
+            <td class="eletto">DISSERTORI WERNER </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="even">
+            <th scope="row">TRUDEN IM NATURPARK</th>
+            <td class="eletto">LANZINER EDMUND </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="odd">
+            <th scope="row">TSCHERMS</th>
+            <td class="eletto">PERNTHALER ROLAND </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="even">
+            <th scope="row">U.L. FRAU IM WALDE-ST. FELIX</th>
+            <td class="eletto">AUSSERER PATRIK </td>
+            <td>SVP ST. FELIX</td>
+          </tr>
+      
+          <tr class="odd">
+            <th scope="row">ULTEN</th>
+            <td class="eletto">MAIRHOFER BEATRIX </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="even">
+            <th scope="row">VAHRN</th>
+            <td class="eletto">SCHATZER ANDREAS </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="odd">
+            <th scope="row">VILLANDERS</th>
+            <td class="eletto">BAUMGARTNER WALTER (Marzuner Walter) </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="even">
+            <th scope="row">VILLNÖSS</th>
+            <td class="eletto">MESSNER ROBERT </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="odd">
+            <th scope="row">VINTL</th>
+            <td class="eletto">HUBER WALTER </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="even">
+            <th scope="row">VÖLS AM SCHLERN</th>
+            <td class="eletto">KOMPATSCHER ARNO </td>
+            <td>SVP</td>
+          </tr>
+      
+          <tr class="odd">
+            <th scope="row">VÖRAN</th>
+            <td class="eletto">EGGER THOMAS (Botzner) </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="even">
+            <th scope="row">WAIDBRUCK</th>
+            <td class="eletto">RABANSER OSWALD  </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="odd">
+            <th scope="row">WELSBERG-TAISTEN</th>
+            <td class="eletto">SCHWINGSHACKL ALBIN INGENUIN </td>
+            <td>SVP TAISTEN</td>
+          </tr>
+      
+          <tr class="even">
+            <th scope="row">WELSCHNOFEN</th>
+            <td class="eletto">DEJORI MARKUS (Schnegger) </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+          <tr class="odd">
+            <th scope="row">WENGEN</th>
+            <td class="eletto">COMPLOJER FRANZ (Dlijia) </td>
+            <td>LA VAL</td>
+          </tr>
+      
+          <tr class="even">
+            <th scope="row">WOLKENSTEIN IN GRÖDEN</th>
+            <td class="eletto">MUSSNER PETER </td>
+            <td>SÜDTIROLER VOLKSPARTEI</td>
+          </tr>
+      
+            </tbody>
+          </table>
+      
+
+      
+
+
+    </div>
+    <!-- end main -->
+  </div>
+  <!-- end content -->
+  <div id="footer">© 2010 Region Trentino - Südtirol | Realisierung Südtiroler Informatik AG</div>
+</div>
+</form>
+<!--end container -->
+<!--[if lte IE 7]></div><![endif]-->
+</body>
+</html>
+
+    
