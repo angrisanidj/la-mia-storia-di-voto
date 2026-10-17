@@ -1,0 +1,482 @@
+[	
+	{
+		"enti_interessati": 3,
+		"id_tipo_ce": 2,
+		"descrizione": "Elezioni provinciali 2006",
+		"codice": "ELZ_PROV",
+		"nome": "Elezioni provinciali",
+		"data_inizio": "2006-04-09 00:00:00.0",
+		"data_riferimento": "2006-04-09 00:00:00.0",
+		"ordinale": 6,
+		"data_fine": "2006-04-09 00:00:00.0"
+	},
+	{
+		"enti_interessati": 3,
+		"id_tipo_ce": 2,
+		"descrizione": "Elezioni provinciali 2001",
+		"codice": "ELZ_PROV",
+		"nome": "Elezioni provinciali",
+		"data_inizio": "2001-06-10 00:00:00.0",
+		"data_riferimento": "2001-06-10 00:00:00.0",
+		"ordinale": 6,
+		"data_fine": "2001-06-10 00:00:00.0"
+	},
+
+	{
+		"enti_interessati": 1,
+		"id_tipo_ce": 2,
+		"descrizione": "Elezioni provinciali 2004",
+		"codice": "ELZ_PROV",
+		"nome": "Elezioni provinciali",
+		"data_inizio": "2004-06-12 00:00:00.0",
+		"data_riferimento": "2004-06-12 00:00:00.0",
+		"ordinale": 6,
+		"data_fine": "2004-06-12 00:00:00.0"
+	},
+
+	{
+		"enti_interessati": 2,
+		"id_tipo_ce": 2,
+		"descrizione": "Elezioni provinciali 1999",
+		"codice": "ELZ_PROV",
+		"nome": "Elezioni provinciali",
+		"data_inizio": "1999-06-13 00:00:00.0",
+		"data_riferimento": "1999-06-13 00:00:00.0",
+		"ordinale": 6,
+		"data_fine": "1999-06-13 00:00:00.0"
+	},
+	{
+		"enti_interessati": 1,
+		"id_tipo_ce": 2,
+		"descrizione": "Elezioni provinciali 2008",
+		"codice": "ELZ_PROV",
+		"nome": "Elezioni provinciali",
+		"data_inizio": "2008-04-13 00:00:00.0",
+		"data_riferimento": "2008-04-13 00:00:00.0",
+		"ordinale": 6,
+		"data_fine": "2008-04-13 00:00:00.0"
+	},
+	{
+		"enti_interessati": 1,
+		"id_tipo_ce": 2,
+		"descrizione": "Elezioni provinciali 2009",
+		"codice": "ELZ_PROV",
+		"nome": "Elezioni provinciali",
+		"data_inizio": "2009-06-06 00:00:00.0",
+		"data_riferimento": "2009-06-06 00:00:00.0",
+		"ordinale": 6,
+		"data_fine": "2009-06-06 00:00:00.0"
+	},
+	{
+		"enti_interessati": 2,
+		"id_tipo_ce": 2,
+		"descrizione": "Elezioni provinciali 2011",
+		"codice": "ELZ_PROV",
+		"nome": "Elezioni provinciali",
+		"data_inizio": "2011-05-15 00:00:00.0",
+		"data_riferimento": "2011-05-15 00:00:00.0",
+		"ordinale": 6,
+		"data_fine": "2011-05-15 00:00:00.0"
+	},
+	{
+		"enti_interessati": 1,
+		"id_tipo_ce": 2,
+		"descrizione": "Elezioni provinciali 2013",
+		"codice": "ELZ_PROV",
+		"nome": "Elezioni provinciali",
+		"data_inizio": "2013-04-21 00:00:00.0",
+		"data_riferimento": "2013-04-21 00:00:00.0",
+		"ordinale": 6,
+		"data_fine": "2013-04-21 00:00:00.0"
+	},
+
+	{
+		"enti_interessati": 1,
+		"id_tipo_ce": 4,
+		"descrizione": "Elezioni regionali del 8 giugno 2003",
+		"codice": "ELZ_REG",
+		"nome": "Elezioni regionali",
+		"data_inizio": "2003-06-08 00:00:00.0",
+		"data_riferimento": "2003-06-08 00:00:00.0",
+		"ordinale": 6,
+		"data_fine": "2003-06-08 00:00:00.0"
+	},
+	{
+		"enti_interessati": 1,
+		"id_tipo_ce": 4,
+		"descrizione": "Elezioni regionali del 14 giugno 1998",
+		"codice": "ELZ_REG",
+		"nome": "Elezioni regionali",
+		"data_inizio": "1998-06-14 00:00:00.0",
+		"data_riferimento": "1998-06-14 00:00:00.0",
+		"ordinale": 6,
+		"data_fine": "1998-06-14 00:00:00.0"
+	},
+	{
+		"enti_interessati": 1,
+		"id_tipo_ce": 4,
+		"descrizione": "Elezioni regionali del 13 aprile 2008",
+		"codice": "ELZ_REG",
+		"nome": "Elezioni regionali",
+		"data_inizio": "2008-04-13 00:00:00.0",
+		"data_riferimento": "2008-04-13 00:00:00.0",
+		"ordinale": 6,
+		"data_fine": "2008-04-13 00:00:00.0"
+	},
+	{
+		"enti_interessati": 1,
+		"id_tipo_ce": 4,
+		"descrizione": "Elezioni regionali del 21 aprile 2013",
+		"codice": "ELZ_REG",
+		"nome": "Elezioni regionali",
+		"data_inizio": "2013-04-21 00:00:00.0",
+		"data_riferimento": "2013-04-21 00:00:00.0",
+		"ordinale": 6,
+		"data_fine": "2013-04-21 00:00:00.0"
+	},
+	{
+		"enti_interessati": 6,
+		"id_tipo_ce": 2,
+		"descrizione": "Elezioni comunali 1998",
+		"codice": "ELZ_COM",
+		"nome": "Elezioni comunali",
+		"data_inizio": "1998-11-15 00:00:00.0",
+		"data_riferimento": "1998-11-15 00:00:00.0",
+		"ordinale": 6,
+		"data_fine": "1998-11-15 00:00:00.0"
+	},
+	{
+		"enti_interessati": 14,
+		"id_tipo_ce": 2,
+		"descrizione": "Elezioni comunali 1998",
+		"codice": "ELZ_COM",
+		"nome": "Elezioni comunali",
+		"data_inizio": "1998-06-14 00:00:00.0",
+		"data_riferimento": "1998-06-14 00:00:00.0",
+		"ordinale": 6,
+		"data_fine": "1998-06-14 00:00:00.0"
+	},
+	{
+		"enti_interessati": 155,
+		"id_tipo_ce": 2,
+		"descrizione": "Elezioni comunali 1999",
+		"codice": "ELZ_COM",
+		"nome": "Elezioni comunali",
+		"data_inizio": "1999-06-13 00:00:00.0",
+		"data_riferimento": "1999-06-13 00:00:00.0",
+		"ordinale": 6,
+		"data_fine": "1999-06-13 00:00:00.0"
+	},
+	{
+		"enti_interessati": 6,
+		"id_tipo_ce": 2,
+		"descrizione": "Elezioni comunali 2000",
+		"codice": "ELZ_COM",
+		"nome": "Elezioni comunali",
+		"data_inizio": "2000-04-16 00:00:00.0",
+		"data_riferimento": "2000-04-16 00:00:00.0",
+		"ordinale": 6,
+		"data_fine": "2000-04-16 00:00:00.0"
+	},
+	{
+		"enti_interessati": 33,
+		"id_tipo_ce": 2,
+		"descrizione": "Elezioni comunali 2001",
+		"codice": "ELZ_COM",
+		"nome": "Elezioni comunali",
+		"data_inizio": "2001-06-10 00:00:00.0",
+		"data_riferimento": "2001-06-10 00:00:00.0",
+		"ordinale": 6,
+		"data_fine": "2001-06-10 00:00:00.0"
+	},
+	{
+		"enti_interessati": 21,
+		"id_tipo_ce": 2,
+		"descrizione": "Elezioni comunali 2002",
+		"codice": "ELZ_COM",
+		"nome": "Elezioni comunali",
+		"data_inizio": "2002-05-26 00:00:00.0",
+		"data_riferimento": "2002-05-26 00:00:00.0",
+		"ordinale": 6,
+		"data_fine": "2002-05-26 00:00:00.0"
+	},
+	{
+		"enti_interessati": 7,
+		"id_tipo_ce": 2,
+		"descrizione": "Elezioni comunali 2003",
+		"codice": "ELZ_COM",
+		"nome": "Elezioni comunali",
+		"data_inizio": "2003-06-09 00:00:00.0",
+		"data_riferimento": "2003-06-09 00:00:00.0",
+		"ordinale": 6,
+		"data_fine": "2003-06-09 00:00:00.0"
+	},
+	{
+		"enti_interessati": 152,
+		"id_tipo_ce": 2,
+		"descrizione": "Elezioni comunali 2004",
+		"codice": "ELZ_COM",
+		"nome": "Elezioni comunali",
+		"data_inizio": "2004-06-12 00:00:00.0",
+		"data_riferimento": "2004-06-12 00:00:00.0",
+		"ordinale": 6,
+		"data_fine": "2004-06-12 00:00:00.0"
+	},
+	{
+		"enti_interessati": 7,
+		"id_tipo_ce": 2,
+		"descrizione": "Elezioni comunali 2005",
+		"codice": "ELZ_COM",
+		"nome": "Elezioni comunali",
+		"data_inizio": "2005-06-22 00:00:00.0",
+		"data_riferimento": "2005-06-22 00:00:00.0",
+		"ordinale": 6,
+		"data_fine": "2005-06-22 00:00:00.0"
+	},
+	{
+		"enti_interessati": 36,
+		"id_tipo_ce": 2,
+		"descrizione": "Elezioni comunali 2006",
+		"codice": "ELZ_COM",
+		"nome": "Elezioni comunali",
+		"data_inizio": "2006-04-10 00:00:00.0",
+		"data_riferimento": "2006-04-10 00:00:00.0",
+		"ordinale": 6,
+		"data_fine": "2006-04-10 00:00:00.0"
+	},
+	{
+		"enti_interessati": 25,
+		"id_tipo_ce": 2,
+		"descrizione": "Elezioni comunali 2007",
+		"codice": "ELZ_COM",
+		"nome": "Elezioni comunali",
+		"data_inizio": "2007-05-28 00:00:00.0",
+		"data_riferimento": "2007-05-28 00:00:00.0",
+		"ordinale": 6,
+		"data_fine": "2007-05-28 00:00:00.0"
+	},
+
+	{
+		"enti_interessati": 8,
+		"id_tipo_ce": 2,
+		"descrizione": "Elezioni comunali 2008",
+		"codice": "ELZ_COM",
+		"nome": "Elezioni comunali",
+		"data_inizio": "2008-04-14 00:00:00.0",
+		"data_riferimento": "2008-04-14 00:00:00.0",
+		"ordinale": 6,
+		"data_fine": "2008-04-14 00:00:00.0"
+	},
+	{
+		"enti_interessati": 142,
+		"id_tipo_ce": 2,
+		"descrizione": "Elezioni comunali 2009",
+		"codice": "ELZ_COM",
+		"nome": "Elezioni comunali",
+		"data_inizio": "2009-06-07 00:00:00.0",
+		"data_riferimento": "2009-06-07 00:00:00.0",
+		"ordinale": 6,
+		"data_fine": "2009-06-07 00:00:00.0"
+	},
+	{
+		"enti_interessati": 9,
+		"id_tipo_ce": 2,
+		"descrizione": "Elezioni comunali 2010",
+		"codice": "ELZ_COM",
+		"nome": "Elezioni comunali",
+		"data_inizio": "2010-05-16 00:00:00.0",
+		"data_riferimento": "2010-05-16 00:00:00.0",
+		"ordinale": 6,
+		"data_fine": "2010-05-16 00:00:00.0"
+	},
+	{
+		"enti_interessati": 40,
+		"id_tipo_ce": 2,
+		"descrizione": "Elezioni comunali 2011",
+		"codice": "ELZ_COM",
+		"nome": "Elezioni comunali",
+		"data_inizio": "2011-05-15 00:00:00.0",
+		"data_riferimento": "2011-05-15 00:00:00.0",
+		"ordinale": 6,
+		"data_fine": "2011-05-15 00:00:00.0"
+	},
+	{
+		"enti_interessati": 26,
+		"id_tipo_ce": 2,
+		"descrizione": "Elezioni comunali 2012",
+		"codice": "ELZ_COM",
+		"nome": "Elezioni comunali",
+		"data_inizio": "2012-05-06 00:00:00.0",
+		"data_riferimento": "2012-05-06 00:00:00.0",
+		"ordinale": 6,
+		"data_fine": "2012-05-06 00:00:00.0"
+	},
+	{
+		"enti_interessati": 13,
+		"id_tipo_ce": 2,
+		"descrizione": "Elezioni comunali 2013",
+		"codice": "ELZ_COM",
+		"nome": "Elezioni comunali",
+		"data_inizio": "2013-04-22 00:00:00.0",
+		"data_riferimento": "2013-04-22 00:00:00.0",
+		"ordinale": 6,
+		"data_fine": "2013-04-22 00:00:00.0"
+	},
+	{
+		"enti_interessati": 131,
+		"id_tipo_ce": 2,
+		"descrizione": "Elezioni comunali 2014",
+		"codice": "ELZ_COM",
+		"nome": "Elezioni comunali",
+		"data_inizio": "2014-05-25 00:00:00.0",
+		"data_riferimento": "2014-05-25 00:00:00.0",
+		"ordinale": 6,
+		"data_fine": "2014-05-25 00:00:00.0"
+	},
+	{
+		"enti_interessati": 10,
+		"id_tipo_ce": 2,
+		"descrizione": "Elezioni comunali 2015",
+		"codice": "ELZ_COM",
+		"nome": "Elezioni comunali",
+		"data_inizio": "2015-05-31 00:00:00.0",
+		"data_riferimento": "2015-05-31 00:00:00.0",
+		"ordinale": 6,
+		"data_fine": "2015-05-31 00:00:00.0"
+	},
+	{
+		"enti_interessati": 39,
+		"id_tipo_ce": 2,
+		"descrizione": "Elezioni comunali 2016",
+		"codice": "ELZ_COM",
+		"nome": "Elezioni comunali",
+		"data_inizio": "2016-06-05 00:00:00.0",
+		"data_riferimento": "2016-06-05 00:00:00.0",
+		"ordinale": 6,
+		"data_fine": "2016-06-05 00:00:00.0"
+	},
+	{
+		"enti_interessati": 4,
+		"id_tipo_ce": 2,
+		"descrizione": "Elezioni comunali 2016",
+		"codice": "ELZ_COM",
+		"nome": "Elezioni comunali",
+		"data_inizio": "2016-10-23 00:00:00.0",
+		"data_riferimento": "2016-10-23 00:00:00.0",
+		"ordinale": 6,
+		"data_fine": "2016-10-23 00:00:00.0"
+	},
+
+	{
+		"enti_interessati": 27,
+		"id_tipo_ce": 2,
+		"descrizione": "Elezioni comunali 2017",
+		"codice": "ELZ_COM",
+		"nome": "Elezioni comunali",
+		"data_inizio": "2017-06-11 00:00:00.0",
+		"data_riferimento": "2017-06-11 00:00:00.0",
+		"ordinale": 6,
+		"data_fine": "2017-06-11 00:00:00.0"
+	},
+	{
+		"enti_interessati": 1,
+		"id_tipo_ce": 4,
+		"descrizione": "Elezioni circoscrizionali del 5 Giugno 2016",
+		"codice": "ELZ_CIRC",
+		"nome": "Elezioni circoscrizionali",
+		"data_inizio": "2016-06-05 00:00:00.0",
+		"data_riferimento": "2016-06-05 00:00:00.0",
+		"ordinale": 6,
+		"data_fine": "2016-06-05 00:00:00.0"
+	},
+	{
+		"enti_interessati": 2,
+		"id_tipo_ce": 4,
+		"descrizione": "Elezioni circoscrizionali del 15 Maggio 2011",
+		"codice": "ELZ_CIRC",
+		"nome": "Elezioni circoscrizionali",
+		"data_inizio": "2011-05-15 00:00:00.0",
+		"data_riferimento": "2011-05-15 00:00:00.0",
+		"ordinale": 6,
+		"data_fine": "2011-05-15 00:00:00.0"
+	},
+	{
+		"enti_interessati": 1,
+		"id_tipo_ce": 4,
+		"descrizione": "Elezioni circoscrizionali del 27 Maggio 2007",
+		"codice": "ELZ_CIRC",
+		"nome": "Elezioni circoscrizionali",
+		"data_inizio": "2007-05-27 00:00:00.0",
+		"data_riferimento": "2007-05-27 00:00:00.0",
+		"ordinale": 6,
+		"data_fine": "2007-05-27 00:00:00.0"
+	},
+	{
+		"enti_interessati": 2,
+		"id_tipo_ce": 4,
+		"descrizione": "Elezioni circoscrizionali del 9 Aprile 2006",
+		"codice": "ELZ_CIRC",
+		"nome": "Elezioni circoscrizionali",
+		"data_inizio": "2006-04-09 00:00:00.0",
+		"data_riferimento": "2006-04-09 00:00:00.0",
+		"ordinale": 6,
+		"data_fine": "2006-04-09 00:00:00.0"
+	},
+	{
+		"enti_interessati": 1,
+		"id_tipo_ce": 4,
+		"descrizione": "Elezioni circoscrizionali del 8 Giugno 2003",
+		"codice": "ELZ_CIRC",
+		"nome": "Elezioni circoscrizionali",
+		"data_inizio": "2003-06-08 00:00:00.0",
+		"data_riferimento": "2003-06-08 00:00:00.0",
+		"ordinale": 6,
+		"data_fine": "2003-06-08 00:00:00.0"
+	},
+	{
+		"enti_interessati": 1,
+		"id_tipo_ce": 4,
+		"descrizione": "Elezioni circoscrizionali del 26 Maggio 2002",
+		"codice": "ELZ_CIRC",
+		"nome": "Elezioni circoscrizionali",
+		"data_inizio": "2002-05-26 00:00:00.0",
+		"data_riferimento": "2002-05-26 00:00:00.0",
+		"ordinale": 6,
+		"data_fine": "2002-05-26 00:00:00.0"
+	},
+	{
+		"enti_interessati": 2,
+		"id_tipo_ce": 4,
+		"descrizione": "Elezioni circoscrizionali del 26 Maggio 2001",
+		"codice": "ELZ_CIRC",
+		"nome": "Elezioni circoscrizionali",
+		"data_inizio": "2001-05-26 00:00:00.0",
+		"data_riferimento": "2001-05-26 00:00:00.0",
+		"ordinale": 6,
+		"data_fine": "2001-05-26 00:00:00.0"
+	}
+	,
+	{
+		"enti_interessati": 1,
+		"id_tipo_ce": 4,
+		"descrizione": "Elezioni circoscrizionali del 14 Giugno 1998",
+		"codice": "ELZ_CIRC",
+		"nome": "Elezioni circoscrizionali",
+		"data_inizio": "1998-06-14 00:00:00.0",
+		"data_riferimento": "1998-06-14 00:00:00.0",
+		"ordinale": 6,
+		"data_fine": "1998-06-14 00:00:00.0"
+	}
+	,
+	{
+		"enti_interessati": 1,
+		"id_tipo_ce": 4,
+		"descrizione": "Elezioni circoscrizionali del 15 Novembre 1998",
+		"codice": "ELZ_CIRC",
+		"nome": "Elezioni circoscrizionali",
+		"data_inizio": "1998-11-15 00:00:00.0",
+		"data_riferimento": "1998-11-15 00:00:00.0",
+		"ordinale": 6,
+		"data_fine": "1998-11-15 00:00:00.0"
+	}	
+]

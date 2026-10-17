@@ -1,0 +1,14 @@
+[
+    {
+      "titolo": "Portale risultati",
+      "url": "https://elezioni.regione.fvg.it/",
+      "icona": "ballot-box",
+      "visibile": true
+    },
+    {
+      "titolo": "Portale amministratori",
+      "url": "https://elezioniamministratori.regione.fvg.it/",
+      "icona": "users",
+      "visibile": true
+    }
+  ]
