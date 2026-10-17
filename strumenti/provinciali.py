@@ -88,7 +88,15 @@ def main():
                     ball = bool(re.search(r"II\s*turno", h4, re.I))
                     chiave = f"{sig}-{iso}"
                     elezioni[chiave] = {"n": pt.strip().title(), "b": 1 if ball else 0, "c": compatta(cand) if cand else []}
-                    comuni = leggi_select(h4, "sel_sezione4")
+                    # sotto la provincia ci sono i collegi, sotto i collegi i comuni
+                    comuni = []
+                    pp4, pv4 = leggi_onchange(h4, "sel_sezione4")
+                    for cv, _ in leggi_select(h4, "sel_sezione4"):
+                        try:
+                            h5 = scendi_livello(S, pp4, pv4, cv)
+                            comuni += leggi_select(h5, "sel_sezione5")
+                        except requests.RequestException as e:
+                            print(f"[!] {iso} {pt} collegio {cv}: {e}", flush=True)
                     if SOLO_PROVA and n < 2:
                         print(f"::notice title=prova:: {pt}: select {selects(h4)}; {len(comuni)} comuni; ballottaggio {ball}; candidati {json.dumps(elezioni[chiave]['c'][:3], ensure_ascii=False)[:600]}", flush=True)
                     for _, ct in comuni:

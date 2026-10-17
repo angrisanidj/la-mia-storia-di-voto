@@ -30,7 +30,7 @@ jobs:
         run: pip install requests "git+https://github.com/jack89-ML/tallyho"
       - name: Scarica le provinciali
         env:
-          SOLO_PROVA: '1'
+          SOLO_PROVA: '0'
           PAUSA: '0.15'
         run: python strumenti/provinciali.py
       - name: Salva i dati
