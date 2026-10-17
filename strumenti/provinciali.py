@@ -26,6 +26,10 @@ from tallyho.navigazione import leggi_onchange, leggi_select, scendi_livello  # 
 from tallyho.parsing import estrai_tabelle, parse_candidati, parse_candidati_regionali  # noqa: E402
 
 SOLO_PROVA = os.environ.get("SOLO_PROVA") == "1"
+# I comuni di ogni provincia (collegio per collegio) servono solo dove i confini sono cambiati in modi che la
+# pagina non sa ricostruire: le province sarde del 2005. Altrove basta la sigla del comune (con le correzioni
+# per Monza e Brianza, Fermo, Barletta-Andria-Trani e Valmarecchia, fatte nella pagina).
+SIGLE_CON_COMUNI = set(os.environ.get("SIGLE_CON_COMUNI", "CA,NU,OR,SS,CI,VS,OG,OT").split(","))
 DAL, AL = dt.date(1993, 1, 1), dt.date(2013, 12, 31)
 # province soppresse o rinominate che non sono più in province.json
 PROVINCE_STORICHE = {"CARBONIA IGLESIAS": "CI", "OGLIASTRA": "OG", "OLBIA TEMPIO": "OT", "MEDIO CAMPIDANO": "VS",
@@ -91,7 +95,7 @@ def main():
                     # sotto la provincia ci sono i collegi, sotto i collegi i comuni
                     comuni = []
                     pp4, pv4 = leggi_onchange(h4, "sel_sezione4")
-                    for cv, _ in leggi_select(h4, "sel_sezione4"):
+                    for cv, _ in (leggi_select(h4, "sel_sezione4") if sig in SIGLE_CON_COMUNI else []):
                         try:
                             h5 = scendi_livello(S, pp4, pv4, cv)
                             comuni += leggi_select(h5, "sel_sezione5")
