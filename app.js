@@ -485,9 +485,9 @@ function partitoDaLista(nome) {
   }
   // abbreviazioni frequenti nell'archivio del Ministero
   const sigla = b => { for (const el of Object.values(typeof PARTITI_NAZIONALI !== 'undefined' ? PARTITI_NAZIONALI : {})) { const l = el.liste.find(x => x.b === b); if (l) return l; } return null; };
-  if (/^part\.?\s*democr/i.test(nome) && sigla('PD')) return sigla('PD');
+  if (/^part\.?\s*democr/i.test(nome) && sigla('PD')) return { ...sigla('PD'), pieno: true };
   if (/^lega\s+(lombarda|veneta|nord|piemont|emilia|toscana|friuli|liguria|trentina)/i.test(nome) && sigla('Lega Nord')) return sigla('Lega Nord');
-  if (/^dem(ocratici)?\.?\s*(di\s*)?sin(istra)?\b/i.test(nome) && sigla('DS')) return sigla('DS');
+  if (/^dem(ocratici)?\.?\s*(di\s*)?sin(istra)?\b/i.test(nome) && sigla('DS')) return { ...sigla('DS'), pieno: true };
   if (/\bcen[\s.-]*sin\b|\bcentro[\s-]?sinistra\b/i.test(nome)) return { b: 'Centrosinistra', n: 'Centrosinistra', a: 'centrosinistra' };
   if (/\bcen[\s.-]*des\b|\bcentro[\s-]?destra\b/i.test(nome)) return { b: 'Centrodestra', n: 'Centrodestra', a: 'centrodestra' };
   const k = norm(nome);
@@ -542,7 +542,7 @@ const CIVICHE = [
   { b: 'Lista civica', n: 'Lista civica (altra)', e: '🟣', civica: true },
 ];
 const SCHEDE = [{ v: '__bianca', t: 'Scheda bianca ⚪', l: 'Scheda bianca' }, { v: '__nulla', t: 'Scheda nulla', l: 'Scheda nulla' }];
-const emojiDi = p => p.e || (typeof COLORE_PARTITO !== 'undefined' && COLORE_PARTITO[p.b]) || (typeof COLORE_AREA !== 'undefined' && COLORE_AREA[p.a]) || '⚪';
+const emojiDi = p => p.e || (typeof COLORE_PARTITO !== 'undefined' && COLORE_PARTITO[p.b]) || (typeof COLORE_AREA !== 'undefined' && COLORE_AREA[p.a]) || '🟣';
 
 // Ultima consultazione nazionale (politiche o europee) svolta entro la data
 function ultimaNazionale(iso) {
@@ -646,9 +646,7 @@ function controlliScelta(o, r, inp, dopo = () => {}) {
     const nomeCand = o.tipo === 'reg' ? (o.reg === '04' ? 'Candidato presidente della provincia' : 'Candidato presidente') : 'Candidato sindaco';
     if (vc.length) box.append(seleziona(nomeCand, [[null, vc], ['Altro', SCHEDE]], r.sel.coalizione, v => {
       r.sel.coalizione = v;
-      // scelto il candidato, la lista resta solo se è una delle sue
-      const pc = vc.find(x => x.v === v);
-      if (pc && r.sel.lista && !tutteListe.some(x => x.v === r.sel.lista && x.c === pc.c)) r.sel.lista = '';
+      // la lista scelta resta anche se è di un altro candidato: è il voto disgiunto
       componi(); disegnaElenco();
     }));
     if (o.tipo !== 'bal' && tutteListe.length) {
