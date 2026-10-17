@@ -1,0 +1,11 @@
+001 https://elezioni.provincia.tn.it/Elezioni-precedenti/Altro
+002 https://www.github.com/robots.txt
+003 https://www.github.com/robots.txt
+004 https://www.github.com/robots.txt
+005 https://www.github.com/robots.txt
+006 https://elezioni.provincia.tn.it/Elezioni-precedenti
+007 https://www.github.com/robots.txt
+008 https://www.github.com/robots.txt
+009 https://www.github.com/robots.txt
+010 https://www.github.com/robots.txt
+011 https://elezioni.provincia.tn.it/Elezioni-Amministrative-2025
