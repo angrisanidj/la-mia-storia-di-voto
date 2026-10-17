@@ -1,0 +1,9 @@
+001 https://dati.trentino.it/robots.txt
+002 https://dati.trentino.it/dataset/ultime-elezioni-comunali
+003 https://datahub.civis.bz.it/region-of-trentino-alto-adige-suedtirol/elezioni-comunali-2021/VOTILISTE-SUM.CSV
+004 https://datahub.civis.bz.it/region-of-trentino-alto-adige-suedtirol/elezioni-comunali-2021/VOTILISTESINDACI-SUM.CSV
+005 https://datahub.civis.bz.it/region-of-trentino-alto-adige-suedtirol/elezioni-comunali-2021/COLLEGAMENTI.CSV
+006 https://datahub.civis.bz.it/region-of-trentino-alto-adige-suedtirol/elezioni-comunali-2024-05-26/VOTISINDACI-SUM.CSV
+007 https://datahub.civis.bz.it/region-of-trentino-alto-adige-suedtirol/elezioni-comunali-2024-02-25/VOTISINDACI-SUM.CSV
+008 https://datahub.civis.bz.it/region-of-trentino-alto-adige-suedtirol/elezioni-comunali-2025/COLLEGAMENTI.CSV
+009 https://datahub.civis.bz.it/region-of-trentino-alto-adige-suedtirol/elezioni-comunali-2023/VOTISINDACI-SUM.CSV

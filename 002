@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<!--[if IE 9]> <html lang="it" class="ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="it"> <!--<![endif]-->
+  <head>
+    
+  <meta charset="utf-8" />
+      <meta name="generator" content="ckan 2.9.5" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google-site-verification" content="rFxQHyuvQNZoHMuvpQKJpyM8KezA1fBjIhlWY5xomaU" />
+  <link
+     rel="alternate"
+     type="application/atom+xml"
+     title="Feed Atom di Dati Trentino"
+     href="/revision/list?format=atom" />
+
+    <title>Errore 404 - Dati Trentino</title>
+
+    
+    <link rel="shortcut icon" href="/images/icons/icon.png" />
+    
+    
+   
+  
+      
+      
+      
+      
+    
+  
+
+   <link rel="stylesheet" href="/css/multilang.css" type="text/css">
+
+
+    
+    
+
+
+
+    
+      
+      
+    
+
+    
+    <link href="/webassets/base/4f3188fa_main.css" rel="stylesheet"/>
+<link href="/webassets/datitrentinoit/d0f83092_datitrentinoit.css" rel="stylesheet"/>
+<link href="/webassets/ckanext-harvest/c95a0af2_harvest_css.css" rel="stylesheet"/>
+    
+  </head>
+
+  
+  <body data-site-root="https://dati.trentino.it/" data-locale-root="https://dati.trentino.it/" >
+
+    
+    <div class="sr-only sr-only-focusable"><a href="#content">Salta al contenuto</a></div>
+  
+
+  
+     
+<div class="account-masthead">
+  <div class="container">
+     
+    <nav class="account not-authed" aria-label="Account">
+      <ul class="list-unstyled">
+        
+        <li><a href="/user/login">Accedi</a></li>
+         
+      </ul>
+    </nav>
+     
+  </div>
+</div>
+
+<header class="navbar navbar-static-top masthead">
+    
+  <div class="container">
+    <div class="navbar-right">
+      <button data-target="#main-navigation-toggle" data-toggle="collapse" class="navbar-toggle collapsed" type="button" aria-label="expand or collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="fa fa-bars"></span>
+      </button>
+    </div>
+    <hgroup class="header-image navbar-left">
+      
+<a class="logo" href="/">
+  <img src="/images/logo.png" alt="Dati Trentino" />
+</a>
+
+
+<div class="subtitle">
+  <p>Portale federato degli open data del Trentino</p>
+</div>
+
+
+
+    </hgroup>
+
+    <div class="collapse navbar-collapse" id="main-navigation-toggle">
+      
+      <nav class="section navigation">
+        <ul class="nav nav-pills">
+            
+<li><a href="/dataset/">Dataset</a></li><li><a href="/organization/">Organizzazioni</a></li><li><a href="/group/">Gruppi</a></li><li><a href="/showcase">Bacheca</a></li><li><a href="/faq">FAQ</a></li>
+
+        </ul>
+      </nav>
+       
+    </div>
+  </div>
+</header>
+
+  
+    <div class="main">
+      <div id="content" class="container">
+        
+          
+  
+  
+
+
+          
+            <div class="toolbar" role="navigation" aria-label="Breadcrumb">
+              
+
+            </div>
+          
+
+          <div class="row wrapper no-nav">
+            
+            
+            
+
+            
+
+            
+  <article class="module">
+    <div class="module-content">
+      
+      <h1>404 Not Found</h1>
+      
+      Dataset non trovato
+    </div>
+  </article>
+
+          </div>
+        
+      </div>
+    </div>
+  
+     
+
+
+
+<footer class="site-footer">
+  <div class="container"><div class="row-fluid">
+
+    
+    <nav class="footer-links span4">
+      <ul class="unstyled">
+	<li><a href="https://www.provincia.tn.it/Media/FAQ-Domande-frequenti/FAQ-Catalogo-opendata">
+	    <i class="fa fa-question" aria-hidden="true"></i>
+	    Domande frequenti
+	</a></li>
+	<li><a href="/acknowledgements">
+	    <i class="fa fa-user" aria-hidden="true"></i>
+	    Ringraziamenti
+	</a></li>
+	<li><a href="https://www.provincia.tn.it/Media/FAQ-Domande-frequenti/FAQ-Catalogo-opendata/Note-legali-e-Privacy">
+	    <i class="fa fa-gavel" aria-hidden="true"></i>
+	    Note legali
+	</a></li>
+	<li><a href="https://www.provincia.tn.it/Media/FAQ-Domande-frequenti/FAQ-Catalogo-opendata/Note-legali-e-Privacy">
+	    <i class="fa fa-key" aria-hidden="true"></i>
+	    Privacy
+	</a></li>
+      </ul>
+    </nav>
+
+    
+    <nav class="footer-links span4">
+      <ul class="unstyled">
+          <li>
+            <a href="/report" title="Report">
+              <i class="fa fa-list" aria-hidden="true"></i>
+                Report
+            </a>
+          </li>
+	<li><a href="http://docs.ckan.org/en/2.9/api/index.html">CKAN API</a></li>
+	<li><a href="http://www.okfn.org/">Open Knowledge Foundation</a></li>
+	<li><a href="http://www.opendefinition.org/okd/"><img src="/images/od_80x15_blue.png"></a></li>
+	
+        
+        
+
+      </ul>
+    </nav>
+
+    
+    <div class="attribution span4" style="text-align:center;">
+      
+      <p><a href="http://www.innovazione.provincia.tn.it/opendata"><img src="/images/logo_prov_tn.jpg" /></a></p>
+
+      <hr>
+      <p style="line-height:32px;">
+
+        
+        <ul class="unstyled" style="display: inline-block">
+        
+        
+        </ul>
+        <strong>Fatto con</strong> <a class="hide-text ckan-footer-logo" href="http://ckan.org">CKAN</a>
+      </p>
+      
+
+
+
+<form class="form-inline form-select lang-select" action="/util/redirect" data-module="select-switch" method="POST">
+  <label for="field-lang-select">Lingua</label>
+  <br/>
+  <select id="field-lang-select" name="url" data-module="autocomplete" data-module-dropdown-class="lang-dropdown" data-module-container-class="lang-container">
+    
+        <option value="/it/dataset/ultime-elezioni-comunali" >
+          italiano
+        </option>
+    
+        <option value="/de/dataset/ultime-elezioni-comunali" >
+          Deutsch
+        </option>
+    
+        <option value="/fr/dataset/ultime-elezioni-comunali" >
+          français
+        </option>
+    
+        <option value="/en/dataset/ultime-elezioni-comunali" >
+          English
+        </option>
+    
+  </select>
+  <button class="btn js-hide" type="submit">Vai</button>
+</form>
+    </div>
+
+  </div></div>
+
+  
+    
+  
+</footer>
+  
+  
+  
+  
+  
+    
+
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://ingestion.webanalytics.italia.it/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '44443']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+
+      
+
+    
+    
+    <link href="/webassets/vendor/f3b8236b_select2.css" rel="stylesheet"/>
+<link href="/webassets/vendor/0b01aef1_font-awesome.css" rel="stylesheet"/>
+    <script src="/webassets/vendor/d8ae4bed_jquery.js" type="text/javascript"></script>
+<script src="/webassets/vendor/fb6095a0_vendor.js" type="text/javascript"></script>
+<script src="/webassets/vendor/580fa18d_bootstrap.js" type="text/javascript"></script>
+<script src="/webassets/base/15a18f6c_main.js" type="text/javascript"></script>
+<script src="/webassets/base/266988e1_ckan.js" type="text/javascript"></script>
+  </body>
+</html>
