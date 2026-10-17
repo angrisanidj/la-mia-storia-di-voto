@@ -1,0 +1,7 @@
+001 http://web.archive.org/web/20251227id_/https://data.civis.bz.it/dataset/7dae046d-74d8-4856-8221-f4f667880e69/resource/e36868d0-1f03-4876-a11c-61d9fba1335d
+002 http://web.archive.org/web/20251227id_/https://data.civis.bz.it/dataset/7dae046d-74d8-4856-8221-f4f667880e69/resource/795d2b38-dff9-464d-b19f-bebbf1151dab
+003 http://web.archive.org/web/20251227id_/https://data.civis.bz.it/dataset/7dae046d-74d8-4856-8221-f4f667880e69/resource/29cd0cc1-2765-4aaa-9a76-e4598cd3c9fb
+004 http://web.archive.org/web/20251227id_/https://data.civis.bz.it/dataset/7dae046d-74d8-4856-8221-f4f667880e69/resource/65742263-c13b-48aa-88a4-4071e6722a03
+005 http://web.archive.org/web/20251220id_/https://data.civis.bz.it/dataset/238950c8-af0a-48bd-82ee-da72978ec034/resource/7a39e559-b9d5-40d0-88a6-bf82241a7ebd
+006 http://web.archive.org/web/20251220id_/https://data.civis.bz.it/dataset/238950c8-af0a-48bd-82ee-da72978ec034/resource/a1b01ae1-6348-40ea-a68c-e1deaa2a20bd
+007 http://web.archive.org/web/20251220id_/https://data.civis.bz.it/dataset/238950c8-af0a-48bd-82ee-da72978ec034/resource/22fc013c-8c35-4b86-b30f-c5af3e98773e
