@@ -1,0 +1,431 @@
+{
+ "descrizione": "Referendum regionali e delle province autonome di Trento e Bolzano dal 1992 in cui votava l'intera regione o provincia. si = % di Sì sui voti validi; affluenza = % di votanti sugli elettori; quorum: true raggiunto, false non raggiunto, null non previsto. Generato da strumenti/referendum_regionali.py.",
+ "referendum": [
+  {
+   "r": "06",
+   "d": "2002-09-29",
+   "s": "Referendum legge elettorale",
+   "l": "Referendum confermativo sulla legge statutaria del Friuli-Venezia Giulia (forma di governo ed elezione del consiglio)",
+   "tipo": "confermativo",
+   "quorum": null,
+   "affluenza": 23.06,
+   "quesiti": [
+    {
+     "breve": "Legge statutaria su forma di governo, elezione del consiglio regionale e referendum",
+     "si": 26.94
+    }
+   ],
+   "fonte": "https://it.wikipedia.org/wiki/Referendum_confermativo_in_Friuli-Venezia_Giulia_del_2002",
+   "nota": "Wikipedia indica «quorum non raggiunto», ma lo Statuto (art. 12) non prevede quorum per il referendum confermativo: la legge non fu promulgata perché vinse il No. Affluenza 23,06% come nella voce; votanti/iscritti della stessa voce darebbero 22,84%."
+  },
+  {
+   "r": "05",
+   "d": "2002-10-06",
+   "s": "Referendum buono-scuola",
+   "l": "Referendum abrogativo regionale sul buono-scuola in Veneto",
+   "tipo": "abrogativo",
+   "quorum": false,
+   "affluenza": 21.15,
+   "quesiti": [
+    {
+     "breve": "Abrogazione della legge regionale sul buono-scuola (L.R. 1/2001)",
+     "si": 93.51
+    }
+   ],
+   "fonte": "https://it.wikipedia.org/wiki/Referendum_abrogativo_in_Veneto_del_2002",
+   "nota": "Affluenza e voti dalla voce di Wikipedia (che cita ECN); non trovati sul sito della Regione."
+  },
+  {
+   "r": "04",
+   "p": "TN",
+   "d": "2007-09-30",
+   "s": "Referendum provinciale scuola",
+   "l": "Referendum provinciale abrogativo sul finanziamento delle scuole paritarie in Trentino",
+   "tipo": "abrogativo",
+   "quorum": false,
+   "affluenza": 18.91,
+   "quesiti": [
+    {
+     "breve": "Pianificazione del sistema scolastico e finanziamento delle istituzioni paritarie",
+     "si": 93.17
+    }
+   ],
+   "fonte": "https://it.wikipedia.org/wiki/Referendum_abrogativo_nella_provincia_autonoma_di_Trento_del_2007"
+  },
+  {
+   "r": "20",
+   "d": "2007-10-21",
+   "s": "Referendum legge statutaria",
+   "l": "Referendum confermativo sulla legge statutaria della Sardegna",
+   "tipo": "confermativo",
+   "quorum": false,
+   "affluenza": 15.7,
+   "quesiti": [
+    {
+     "breve": "Legge statutaria della Regione autonoma della Sardegna (approvata il 7 marzo 2007)",
+     "si": 32.18
+    }
+   ],
+   "fonte": "https://giurcost.org/decisioni/2009/0149s-09.html",
+   "nota": "Voti e affluenza riportati nella sentenza della Corte costituzionale n. 149/2009 (votanti 228.440). Quorum di un terzo degli elettori: la Corte d'appello dichiarò il referendum non valido (30 giugno 2008); la Corte costituzionale annullò poi la promulgazione della legge."
+  },
+  {
+   "r": "02",
+   "d": "2007-11-18",
+   "s": "Referendum propositivi",
+   "l": "Referendum propositivi regionali in Valle d'Aosta (legge elettorale e ospedale, 5 quesiti)",
+   "tipo": "propositivo",
+   "quorum": false,
+   "affluenza": 27.61,
+   "quesiti": [
+    {
+     "breve": "Preferenza unica",
+     "si": 91.6,
+     "affluenza": 27.61,
+     "fonte": "https://www.regione.vda.it/amministrazione/elezioni/referendum2007/Default_i.asp?p=1&f=0&Tipo=R&L=I&idele=085&noref=1"
+    },
+    {
+     "breve": "Elezione diretta della Giunta regionale",
+     "si": 91.08,
+     "affluenza": 27.52,
+     "fonte": "https://www.regione.vda.it/amministrazione/elezioni/referendum2007/Default_i.asp?p=1&f=0&Tipo=R&L=I&idele=086&noref=2"
+    },
+    {
+     "breve": "Dichiarazione preventiva delle alleanze politiche",
+     "si": 93.66,
+     "affluenza": 27.6,
+     "fonte": "https://www.regione.vda.it/amministrazione/elezioni/referendum2007/Default_i.asp?p=1&f=0&Tipo=R&L=I&idele=087&noref=3"
+    },
+    {
+     "breve": "Equilibrio della rappresentanza tra i generi",
+     "si": 80.82,
+     "affluenza": 27.4,
+     "fonte": "https://www.regione.vda.it/amministrazione/elezioni/referendum2007/Default_i.asp?p=1&f=0&Tipo=R&L=I&idele=088&noref=4"
+    },
+    {
+     "breve": "Nuovo e unico presidio ospedaliero",
+     "si": 63.56,
+     "affluenza": 27.16,
+     "fonte": "https://www.regione.vda.it/amministrazione/elezioni/referendum2007/Default_i.asp?p=1&f=0&Tipo=R&L=I&idele=089&noref=5"
+    }
+   ],
+   "fonte": "https://www.regione.vda.it/amministrazione/elezioni/Referendum2007/default_i.asp",
+   "nota": "Risultati del sito della Regione (indicati come ufficiosi). Quorum del 45% degli elettori."
+  },
+  {
+   "r": "04",
+   "p": "BZ",
+   "d": "2009-10-25",
+   "s": "Referendum provinciali",
+   "l": "Referendum provinciali propositivi in Alto Adige (5 quesiti)",
+   "tipo": "propositivo",
+   "quorum": false,
+   "affluenza": 38.23,
+   "quesiti": [
+    {
+     "breve": "Edilizia abitativa agevolata: precedenza alla popolazione locale",
+     "si": 82.6,
+     "affluenza": 37.92
+    },
+    {
+     "breve": "Residenze di tempo libero (legge urbanistica)",
+     "si": 80.91,
+     "affluenza": 37.88
+    },
+    {
+     "breve": "Democrazia diretta: referendum e iniziativa popolare (Union für Südtirol)",
+     "si": 71.73,
+     "affluenza": 37.83
+    },
+    {
+     "breve": "Democrazia diretta (Iniziativa per più democrazia)",
+     "si": 83.16,
+     "affluenza": 38.12
+    },
+    {
+     "breve": "Riduzione del traffico aereo (aeroporto di Bolzano)",
+     "si": 80.96,
+     "affluenza": 38.23
+    }
+   ],
+   "fonte": "https://it.wikipedia.org/wiki/Referendum_propositivi_nella_provincia_autonoma_di_Bolzano_del_2009",
+   "nota": "Quorum del 40% degli elettori."
+  },
+  {
+   "r": "20",
+   "d": "2011-05-15",
+   "d2": "2011-05-16",
+   "s": "Referendum nucleare (regionale)",
+   "l": "Referendum consultivo sul nucleare in Sardegna",
+   "tipo": "consultivo",
+   "quorum": true,
+   "affluenza": 59.98,
+   "quesiti": [
+    {
+     "breve": "Contrarietà a centrali nucleari e depositi di scorie in Sardegna",
+     "si": 97.14
+    }
+   ],
+   "fonte": "https://it.wikipedia.org/wiki/Referendum_consultivo_in_Sardegna_del_2011",
+   "nota": "La Regione dichiarò il 97,13% di Sì; dai voti (848.691 Sì, 25.026 No) viene 97,14%."
+  },
+  {
+   "r": "04",
+   "p": "TN",
+   "d": "2012-04-29",
+   "s": "Referendum provinciale Comunità di valle",
+   "l": "Referendum provinciale abrogativo sulle Comunità di valle in Trentino",
+   "tipo": "abrogativo",
+   "quorum": false,
+   "affluenza": 27.38,
+   "quesiti": [
+    {
+     "breve": "Abrogazione delle Comunità di valle",
+     "si": 93.56
+    }
+   ],
+   "fonte": "https://it.wikipedia.org/wiki/Referendum_abrogativo_nella_provincia_autonoma_di_Trento_del_2012"
+  },
+  {
+   "r": "20",
+   "d": "2012-05-06",
+   "s": "Referendum regionali",
+   "l": "Referendum regionali sardi su province ed enti (10 quesiti)",
+   "tipo": "abrogativo e consultivo",
+   "quorum": true,
+   "affluenza": 35.51,
+   "quesiti": [
+    {
+     "breve": "Abrogazione del riassetto generale delle province (L.R. 4/1997)",
+     "tipo": "abrogativo",
+     "si": 96.94
+    },
+    {
+     "breve": "Abrogazione degli adempimenti per le nuove province (L.R. 10/2002)",
+     "tipo": "abrogativo",
+     "si": 97.61
+    },
+    {
+     "breve": "Abrogazione della delibera sulle nuove circoscrizioni provinciali",
+     "tipo": "abrogativo",
+     "si": 97.72
+    },
+    {
+     "breve": "Abrogazione delle province di Carbonia-Iglesias, Medio Campidano, Ogliastra, Olbia-Tempio",
+     "tipo": "abrogativo",
+     "si": 96.87
+    },
+    {
+     "breve": "Abolizione delle province storiche",
+     "tipo": "consultivo",
+     "si": 65.99
+    },
+    {
+     "breve": "Assemblea costituente per un nuovo Statuto",
+     "tipo": "consultivo",
+     "si": 94.42
+    },
+    {
+     "breve": "Elezione diretta del presidente con primarie",
+     "tipo": "consultivo",
+     "si": 96.86
+    },
+    {
+     "breve": "Abrogazione delle indennità dei consiglieri regionali (art. 1 L.R. 2/1966)",
+     "tipo": "abrogativo",
+     "si": 97.18
+    },
+    {
+     "breve": "Abolizione dei consigli di amministrazione di enti e agenzie regionali",
+     "tipo": "consultivo",
+     "si": 97.06
+    },
+    {
+     "breve": "Riduzione a 50 dei consiglieri regionali",
+     "tipo": "consultivo",
+     "si": 98.28
+    }
+   ],
+   "fonte": "https://it.wikipedia.org/wiki/Referendum_in_Sardegna_del_2012",
+   "nota": "Affluenza definitiva sul totale degli iscritti; i votanti dei singoli quesiti vanno da 525.292 a 525.558. Quorum di un terzo degli elettori."
+  },
+  {
+   "r": "02",
+   "d": "2012-11-18",
+   "s": "Referendum rifiuti",
+   "l": "Referendum propositivo regionale sul trattamento a caldo dei rifiuti (pirogassificatore) in Valle d'Aosta",
+   "tipo": "propositivo",
+   "quorum": true,
+   "affluenza": 48.93,
+   "quesiti": [
+    {
+     "breve": "Proposta di legge popolare sulla gestione dei rifiuti (no al trattamento a caldo)",
+     "si": 94.02
+    }
+   ],
+   "fonte": "https://www.regione.vda.it/amministrazione/elezioni/referendum2012/Default_i.asp?ele=108&p=1&f=0&Tipo=VR&L=I",
+   "nota": "Affluenza: https://www.regione.vda.it/amministrazione/elezioni/referendum2012/Default_i.asp?ele=108&p=1&f=0&Tipo=D&L=I&giorno=3&ora=15 . Quorum del 45%."
+  },
+  {
+   "r": "04",
+   "p": "BZ",
+   "d": "2014-02-09",
+   "s": "Referendum provinciale partecipazione",
+   "l": "Referendum provinciale confermativo sulla legge per la partecipazione civica in Alto Adige",
+   "tipo": "confermativo",
+   "quorum": null,
+   "affluenza": 26.45,
+   "quesiti": [
+    {
+     "breve": "Legge provinciale sulla partecipazione civica in Alto Adige",
+     "si": 34.69
+    }
+   ],
+   "fonte": "https://it.wikipedia.org/wiki/Referendum_confermativo_nella_provincia_autonoma_di_Bolzano_del_2014"
+  },
+  {
+   "r": "04",
+   "p": "BZ",
+   "d": "2016-06-12",
+   "s": "Referendum provinciale aeroporto",
+   "l": "Referendum provinciale consultivo sull'aeroporto di Bolzano",
+   "tipo": "consultivo",
+   "quorum": true,
+   "affluenza": 46.67,
+   "quesiti": [
+    {
+     "breve": "Disegno di legge 60/15 «Norme sull'aeroporto di Bolzano»",
+     "si": 29.27
+    }
+   ],
+   "fonte": "https://it.wikipedia.org/wiki/Referendum_consultivo_nella_provincia_autonoma_di_Bolzano_del_2016",
+   "nota": "Quorum del 40% degli elettori."
+  },
+  {
+   "r": "03",
+   "d": "2017-10-22",
+   "s": "Referendum autonomia",
+   "l": "Referendum consultivo sull’autonomia della Lombardia",
+   "tipo": "consultivo",
+   "quorum": null,
+   "affluenza": 38.21,
+   "quesiti": [
+    {
+     "breve": "Autonomia differenziata (art. 116 Cost.)",
+     "si": 96.02
+    }
+   ],
+   "fonte": "https://it.wikipedia.org/wiki/Referendum_consultivo_in_Lombardia_del_2017"
+  },
+  {
+   "r": "05",
+   "d": "2017-10-22",
+   "s": "Referendum autonomia",
+   "l": "Referendum consultivo sull’autonomia del Veneto",
+   "tipo": "consultivo",
+   "quorum": true,
+   "affluenza": 57.2,
+   "quesiti": [
+    {
+     "breve": "Ulteriori forme di autonomia per il Veneto",
+     "si": 98.1
+    }
+   ],
+   "fonte": "https://it.wikipedia.org/wiki/Referendum_consultivo_in_Veneto_del_2017",
+   "nota": "Affluenza ufficiale 57,2%; la tabella della voce (2.328.947 votanti su 4.019.628 elettori) darebbe 57,94%."
+  },
+  {
+   "r": "04",
+   "p": "TN",
+   "d": "2021-09-26",
+   "s": "Referendum provinciale biodistretto",
+   "l": "Referendum provinciale propositivo sul distretto biologico in Trentino",
+   "tipo": "propositivo",
+   "quorum": false,
+   "affluenza": 15.59,
+   "quesiti": [
+    {
+     "breve": "Qualificazione come distretto biologico del territorio agricolo trentino",
+     "si": 96.96
+    }
+   ],
+   "fonte": "https://it.wikipedia.org/wiki/Referendum_propositivo_nella_provincia_autonoma_di_Trento_del_2021",
+   "nota": "Quorum del 40% degli elettori."
+  },
+  {
+   "r": "04",
+   "p": "BZ",
+   "d": "2022-05-29",
+   "s": "Referendum provinciale democrazia diretta",
+   "l": "Referendum provinciale confermativo sulla riforma della democrazia diretta in Alto Adige",
+   "tipo": "confermativo",
+   "quorum": null,
+   "affluenza": 22.17,
+   "quesiti": [
+    {
+     "breve": "Modifiche alle leggi su democrazia diretta e Consiglio dei Comuni",
+     "si": 24.01
+    }
+   ],
+   "fonte": "https://it.wikipedia.org/wiki/Referendum_confermativo_nella_provincia_autonoma_di_Bolzano_del_2022"
+  },
+  {
+   "r": "02",
+   "d": "2025-08-10",
+   "s": "Referendum legge elettorale",
+   "l": "Referendum confermativo sulla legge elettorale della Valle d'Aosta (tre preferenze)",
+   "tipo": "confermativo",
+   "quorum": null,
+   "affluenza": 16.04,
+   "quesiti": [
+    {
+     "breve": "Reintroduzione delle tre preferenze e rappresentanza di genere",
+     "si": 52.14
+    }
+   ],
+   "fonte": "https://it.wikipedia.org/wiki/Referendum_confermativo_in_Valle_d%27Aosta_del_2025"
+  }
+ ],
+ "esclusi": [
+  {
+   "referendum": "Emilia-Romagna, 1990 (abrogativi)",
+   "motivo": "prima del 1992",
+   "fonte": "https://it.wikipedia.org/wiki/Referendum_abrogativi_in_Emilia-Romagna_del_1990"
+  },
+  {
+   "referendum": "Piemonte, caccia (previsto il 3 giugno 2012)",
+   "motivo": "non si è tenuto: la Regione abrogò la legge un mese prima",
+   "fonte": "https://it.wikipedia.org/wiki/Referendum_piemontese_sulla_caccia"
+  },
+  {
+   "referendum": "Friuli-Venezia Giulia, 21 marzo 2004 (Provincia dell'Alto Friuli)",
+   "motivo": "solo una parte della regione",
+   "fonte": "https://autonomielocali.regione.fvg.it/aall/export/sites/default/AALL/Elezioni/risultati/referendum/index.html"
+  },
+  {
+   "referendum": "Friuli-Venezia Giulia, 2007-2017 (fusioni di comuni)",
+   "motivo": "referendum di fusione",
+   "fonte": "https://autonomielocali.regione.fvg.it/aall/export/sites/default/AALL/Elezioni/risultati/referendum/index.html"
+  },
+  {
+   "referendum": "Valle d'Aosta, Courmayeur 1° giugno 2014",
+   "motivo": "comunale",
+   "fonte": "https://www.regione.vda.it/amministrazione/Elezioni/Consultazioni_referendarie/Referendum_regionali/Archivio/default_i.aspx"
+  },
+  {
+   "referendum": "Provincia di Belluno, 22 ottobre 2017 (autonomia provinciale)",
+   "motivo": "provinciale fuori dalle province autonome",
+   "fonte": "https://it.wikipedia.org/wiki/Referendum_consultivo_in_provincia_di_Belluno_del_2017"
+  },
+  {
+   "referendum": "Verbano-Cusio-Ossola, 21 ottobre 2018 (passaggio alla Lombardia)",
+   "motivo": "territoriale e provinciale",
+   "fonte": "https://it.wikipedia.org/wiki/Referendum_consultivo_nella_provincia_del_Verbano-Cusio-Ossola_del_2018"
+  },
+  {
+   "referendum": "Trento, terzo mandato del presidente (richiesto nel 2025)",
+   "motivo": "non indetto",
+   "fonte": "https://www.ladige.it/cronaca/il-centrosinistra-al-referendum-contro-il-terzo-mandato-del-presidente-provinciale-axus2ltw"
+  }
+ ]
+}

@@ -201,9 +201,13 @@ function calcola() {
     });
   }
   for (const e of REFERENDUM_REGIONALI) {
-    aggiungiRegionali(e.d, e.d2, (r) => {
-      if (r !== e.r) return;
-      push({ key: `RR:${e.r}:${e.d}`, d: e.d, d2: e.d2, tipo: 'ref', qk: `R${e.r}-${e.d}`, etichetta: e.s, descr: e.l, note: [] });
+    aggiungiRegionali(e.d, e.d2, (r, res, trasloco) => {
+      if (r !== e.r || (e.p && res.comune.sig !== e.p)) return;
+      const note = trasloco ? ['Ti sei trasferito in quel mese: verifica dove eri iscritto.'] : [];
+      let escl = false;
+      // a Bolzano per i referendum provinciali vale la residenza in regione chiesta per il consiglio provinciale
+      if (e.p === 'BZ' && !residenteDa(e.d, 4, '04')) { note.push('Per i referendum provinciali di Bolzano servivano 4 anni di residenza in regione: dai comuni indicati non risultano.'); escl = true; }
+      push({ key: `RR:${e.r}${e.p || ''}:${e.d}`, d: e.d, d2: e.d2, tipo: 'ref', qk: `R${e.r}${e.p || ''}-${e.d}`, etichetta: e.s, descr: e.l, note, esclDefault: escl });
     });
   }
 

@@ -81,11 +81,25 @@ const PROVINCIALI_TAA = [
 ];
 
 // Referendum regionali (solo i principali, a livello di intera regione).
+// Referendum regionali e provinciali (Trento e Bolzano: p), dal 1992. Fonti in strumenti/referendum-regionali.json
 const REFERENDUM_REGIONALI = [
+  { r: '06', d: '2002-09-29', s: 'Referendum legge elettorale', l: 'Referendum confermativo sulla legge statutaria del Friuli-Venezia Giulia (forma di governo ed elezione del consiglio)' },
+  { r: '05', d: '2002-10-06', s: 'Referendum buono-scuola', l: 'Referendum abrogativo regionale sul buono-scuola in Veneto' },
+  { r: '04', p: 'TN', d: '2007-09-30', s: 'Referendum provinciale scuola', l: 'Referendum provinciale abrogativo sul finanziamento delle scuole paritarie in Trentino' },
+  { r: '20', d: '2007-10-21', s: 'Referendum legge statutaria', l: 'Referendum confermativo sulla legge statutaria della Sardegna' },
+  { r: '02', d: '2007-11-18', s: 'Referendum propositivi', l: 'Referendum propositivi regionali in Valle d’Aosta (legge elettorale e ospedale, 5 quesiti)' },
+  { r: '04', p: 'BZ', d: '2009-10-25', s: 'Referendum provinciali', l: 'Referendum provinciali propositivi in Alto Adige (5 quesiti)' },
+  { r: '20', d: '2011-05-15', d2: '2011-05-16', s: 'Referendum nucleare (regionale)', l: 'Referendum consultivo sul nucleare in Sardegna' },
+  { r: '04', p: 'TN', d: '2012-04-29', s: 'Referendum provinciale Comunità di valle', l: 'Referendum provinciale abrogativo sulle Comunità di valle in Trentino' },
+  { r: '20', d: '2012-05-06', s: 'Referendum regionali', l: 'Referendum regionali sardi su province ed enti (10 quesiti)' },
+  { r: '02', d: '2012-11-18', s: 'Referendum rifiuti', l: 'Referendum propositivo regionale sul trattamento a caldo dei rifiuti (pirogassificatore) in Valle d’Aosta' },
+  { r: '04', p: 'BZ', d: '2014-02-09', s: 'Referendum provinciale partecipazione', l: 'Referendum provinciale confermativo sulla legge per la partecipazione civica in Alto Adige' },
+  { r: '04', p: 'BZ', d: '2016-06-12', s: 'Referendum provinciale aeroporto', l: 'Referendum provinciale consultivo sull’aeroporto di Bolzano' },
   { r: '03', d: '2017-10-22', s: 'Referendum autonomia', l: 'Referendum consultivo sull’autonomia della Lombardia' },
   { r: '05', d: '2017-10-22', s: 'Referendum autonomia', l: 'Referendum consultivo sull’autonomia del Veneto' },
-  { r: '20', d: '2011-05-15', d2: '2011-05-16', s: 'Referendum nucleare (regionale)', l: 'Referendum consultivo sul nucleare in Sardegna' },
-  { r: '20', d: '2012-05-06', s: 'Referendum regionali', l: 'Referendum regionali sardi su province ed enti (10 quesiti)' },
+  { r: '04', p: 'TN', d: '2021-09-26', s: 'Referendum provinciale biodistretto', l: 'Referendum provinciale propositivo sul distretto biologico in Trentino' },
+  { r: '04', p: 'BZ', d: '2022-05-29', s: 'Referendum provinciale democrazia diretta', l: 'Referendum provinciale confermativo sulla riforma della democrazia diretta in Alto Adige' },
+  { r: '02', d: '2025-08-10', s: 'Referendum legge elettorale', l: 'Referendum confermativo sulla legge elettorale della Valle d’Aosta (tre preferenze)' },
 ];
 
 // Comuni passati da una regione all'altra: codice catastale -> [data di passaggio, regione prima, regione dopo]
