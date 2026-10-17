@@ -1,0 +1,9 @@
+001 https://elezionistorico.regione.fvg.it/distribuzione/json-storico/a_2004-06-12_ELZ_PROV_2.json
+002 https://elezionistorico.regione.fvg.it/distribuzione/json-storico/a_2006-04-09_ELZ_PROV_1.json
+003 https://elezionistorico.regione.fvg.it/distribuzione/json-storico/a_2006-04-09_ELZ_PROV_4.json
+004 https://elezionistorico.regione.fvg.it/distribuzione/json-storico/a_2008-04-13_ELZ_PROV_4.json
+005 https://elezionistorico.regione.fvg.it/distribuzione/json-storico/a_2009-06-06_ELZ_PROV_2.json
+006 https://elezionistorico.regione.fvg.it/distribuzione/json-storico/a_2011-05-15_ELZ_PROV_1.json
+007 https://elezionistorico.regione.fvg.it/distribuzione/json-storico/a_2011-05-15_ELZ_PROV_3.json
+008 https://web.archive.org/cdx/search/cdx?output=json&fl=timestamp,original,statuscode&collapse=urlkey&limit=2000&url=elezioni.regione.sicilia.it/provinciali2008/*
+009 https://web.archive.org/cdx/search/cdx?output=json&fl=timestamp,original,statuscode&collapse=urlkey&limit=2000&url=elezioni.regione.sicilia.it/*&filter=original:.*rovinc.*
