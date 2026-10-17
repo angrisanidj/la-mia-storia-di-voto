@@ -542,7 +542,8 @@ const CIVICHE = [
   { b: 'Lista civica', n: 'Lista civica (altra)', e: '🟣', civica: true },
 ];
 const SCHEDE = [{ v: '__bianca', t: 'Scheda bianca ⚪', l: 'Scheda bianca' }, { v: '__nulla', t: 'Scheda nulla', l: 'Scheda nulla' }];
-const emojiDi = p => p.e || (typeof COLORE_PARTITO !== 'undefined' && COLORE_PARTITO[p.b]) || (typeof COLORE_AREA !== 'undefined' && COLORE_AREA[p.a]) || '🟣';
+// colore di un partito: il suo, altrimenti quello della sua area (per i partiti locali l'area è in «area», «a» è l'anno di fine)
+const emojiDi = p => p.e || (typeof COLORE_PARTITO !== 'undefined' && COLORE_PARTITO[p.b]) || (typeof COLORE_AREA !== 'undefined' && COLORE_AREA[typeof p.a === 'string' ? p.a : p.area]) || '🟣';
 
 // Ultima consultazione nazionale (politiche o europee) svolta entro la data
 function ultimaNazionale(iso) {
