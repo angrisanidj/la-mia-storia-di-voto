@@ -370,7 +370,7 @@ function disegnaTracciato(ctx, a, D, s, prog = 1) {
       if (r.esito === 'si' || r.esito === 'no') disegnaSegno(ctx, SEGNI.find(x => x.tipo === r.esito), xF, y, rP * 0.95);
       else { ctx.fillStyle = '#9AA2AF'; rr(ctx, xF - rP * 0.9, y - rP * 0.9, rP * 1.8, rP * 1.8, rP * 0.4); ctx.fill(); }
     }
-    else if (r.k === 'civico') tondo(ctx, xF, y, rP, '#8E44C4');
+    else if (r.k === 'civico') tondo(ctx, xF, y, rP, coloreCivico());
     else if (r.k === 'non') tondo(ctx, xF, y, rP * 0.85, '#fff', '#9AA2AF', 2.5 * s);
     else if (r.k === 'bianca') tondo(ctx, xF, y, rP * 0.85, '#fff', C.ink, 1.5 * s);
     else tondo(ctx, xF, y, rP * 0.55, k.vuoto ? '#C3C8D2' : k.c);
@@ -437,7 +437,7 @@ function disegnaLegenda(ctx, voci, x, y, w, s) {
     else if (k === 'altro') tondo(ctx, cx, y, r - 1, '#fff', '#9AA2AF', 3 * s);
     else if (k === 'si' || k === 'no') disegnaSegno(ctx, SEGNI.find(z => z.tipo === k), cx, y, r);
     else if (k === 'misto') { ctx.fillStyle = '#9AA2AF'; rr(ctx, cx - r, y - r, 2 * r, 2 * r, r * 0.4); ctx.fill(); }
-    else if (k === 'civico') tondo(ctx, cx, y, r, '#8E44C4');
+    else if (k === 'civico') tondo(ctx, cx, y, r, coloreCivico());
     else if (k === 'bianca') tondo(ctx, cx, y, r * 0.9, '#fff', C.ink, 1.5 * s);
     else if (k === 'non') tondo(ctx, cx, y, r * 0.9, '#fff', '#9AA2AF', 2.5 * s);
     else tondo(ctx, cx, y, r * 0.6, '#C3C8D2');

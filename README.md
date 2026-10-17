@@ -15,6 +15,7 @@ Tutto avviene nel browser. La pagina non usa cookie né `localStorage`, non invi
 | `condivisione.png`, `condivisione-quadrata.png` | Anteprime per i link condivisi |
 | `social/` | Immagini per promuovere il link: X 1600×900, Instagram post 1080×1350, storie 1080×1920 |
 | `app.js` | Logica: calcolo delle elezioni, interfaccia, disegno del PNG |
+| `tavolozza.js` | Tavolozza alternativa «Gruppi europei»: colori dei gruppi del Parlamento europeo per partiti, candidati e liste civiche |
 | `sismografo.js` | Il sismografo del voto: posizione dei voti, profilo, pendolo animato e immagine |
 | `dati/elezioni.js` | Calendario: politiche, europee, referendum nazionali, regionali per regione, provinciali di Trento e Bolzano, referendum regionali, comuni che hanno cambiato regione, turni ordinari delle comunali |
 | `dati/comuni.js` | Comuni italiani attivi e soppressi (fonte ISTAT), con regione e nomi precedenti |

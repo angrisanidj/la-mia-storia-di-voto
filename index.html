@@ -237,6 +237,10 @@ select.campo { appearance: none; padding-right: 40px; background: #fff url("data
   .studio .opzioni { position: sticky; top: 20px; }
 }
 
+.legenda-ue { margin-top: 10px; display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 4px 12px; font-size: .85rem; color: var(--grigio); }
+.legenda-ue li { display: flex; align-items: center; gap: 7px; }
+.legenda-ue i { flex: none; width: 11px; height: 11px; border-radius: 50%; background: var(--c); }
+
 /* ---------- Sismografo ---------- */
 #sismo { display: block; width: 100%; height: auto; }
 .sismo-azioni { margin-top: 22px; }
@@ -329,6 +333,14 @@ select.campo { appearance: none; padding-right: 40px; background: #fff url("data
           <label><input type="radio" name="contenuto" value="sismografo"><span>Il sismografo</span></label>
         </div>
       </fieldset>
+      <fieldset class="formati">
+        <legend class="etichetta">Colori</legend>
+        <div class="pillole" id="tavolozze">
+          <label><input type="radio" name="tavolozza" value="partiti" checked><span>Dei partiti</span></label>
+          <label><input type="radio" name="tavolozza" value="ue"><span>Gruppi europei</span></label>
+        </div>
+        <ul class="legenda-ue" id="legenda-ue" hidden></ul>
+      </fieldset>
       <div class="solo-lista"><label class="etichetta" for="titolo">Titolo</label><input id="titolo" class="campo" placeholder="Automatico" maxlength="60"></div>
       <div><label class="etichetta" for="firma">Firma, se vuoi</label><input id="firma" class="campo" placeholder="Il tuo nome o @account" maxlength="40"></div>
       <div class="spunte solo-lista">
@@ -380,6 +392,7 @@ select.campo { appearance: none; padding-right: 40px; background: #fff url("data
 <script src="dati/comunali.js"></script>
 <script src="dati/regionali-candidati.js"></script>
 <script src="dati/regionali-speciali.js"></script>
+<script src="tavolozza.js"></script>
 <script src="app.js"></script>
 <script src="sismografo.js"></script>
 </body>

@@ -383,9 +383,16 @@ function coloreVoto(o) {
   const st = statoDi(o), r = risposta(o.key);
   if (st === 'escl') return null;
   if (st === 'non') return { c: '#fff', b: '#9AA2AF', vuoto: true };
+  const ue = coloriUE(r);
+  if (ue && ue[0]) return { c: ue[0], b: ue[0] };
   const m = r.testo.match(new RegExp(SEGNI.map(x => x.e).join('|'), 'u'));
   if (m) { const sg = SEGNO_DA_EMOJI[m[0]]; return { c: sg.c, b: sg.c === '#FFFFFF' ? '#9AA2AF' : sg.c }; }
   return r.testo.trim() ? { c: '#5A6372', b: '#5A6372' } : { c: '#fff', b: '#C3C8D2', vuoto: true };
+}
+// I colori europei dei simboli di una risposta, se il testo è ancora quello scelto dai menu
+function coloriUE(r) {
+  if (tavolozza !== 'ue' || !r.eu || !r.eu.some(Boolean) || r.testo !== r.testoPos) return null;
+  return r.eu;
 }
 function applicaColore(nodo, o) {
   const k = coloreVoto(o);
@@ -476,6 +483,13 @@ function partitoDaLista(nome) {
     }
     INDICE_PARTITI.sort((a, b) => b[0].length - a[0].length);
   }
+  // abbreviazioni frequenti nell'archivio del Ministero
+  const sigla = b => { for (const el of Object.values(typeof PARTITI_NAZIONALI !== 'undefined' ? PARTITI_NAZIONALI : {})) { const l = el.liste.find(x => x.b === b); if (l) return l; } return null; };
+  if (/^part\.?\s*democr/i.test(nome) && sigla('PD')) return sigla('PD');
+  if (/^lega\s+(lombarda|veneta|nord|piemont|emilia|toscana|friuli|liguria|trentina)/i.test(nome) && sigla('Lega Nord')) return sigla('Lega Nord');
+  if (/^dem(ocratici)?\.?\s*(di\s*)?sin(istra)?\b/i.test(nome) && sigla('DS')) return sigla('DS');
+  if (/\bcen[\s.-]*sin\b|\bcentro[\s-]?sinistra\b/i.test(nome)) return { b: 'Centrosinistra', n: 'Centrosinistra', a: 'centrosinistra' };
+  if (/\bcen[\s.-]*des\b|\bcentro[\s-]?destra\b/i.test(nome)) return { b: 'Centrodestra', n: 'Centrodestra', a: 'centrodestra' };
   const k = norm(nome);
   for (const [n, l] of INDICE_PARTITI) if (k === n || (n.length >= 3 && k.startsWith(n + ' '))) return { ...l, pieno: true };
   for (const el of Object.values(typeof PARTITI_NAZIONALI !== 'undefined' ? PARTITI_NAZIONALI : {})) for (const l of el.liste) if (l.b && l.b.length === 2 && k === norm(l.b)) return { ...l, pieno: true };
@@ -570,7 +584,7 @@ function controlliScelta(o, r, inp, dopo = () => {}) {
   const box = el('div', { class: 'scelte' });
   r.sel = r.sel || {};
   // pos: lo schieramento del voto scelto dai menu, per il sismografo
-  const imposta = (t, pos = null) => { inp.value = t; r.testo = t; r.st = 'ok'; r.pos = pos; r.testoPos = t; dopo(); programmaAnteprima(); };
+  const imposta = (t, pos = null, eu = null) => { inp.value = t; r.testo = t; r.st = 'ok'; r.pos = pos; r.testoPos = t; r.eu = eu ? eu.map(coloreGruppo) : null; dopo(); programmaAnteprima(); };
   const scheda = v => SCHEDE.find(x => x.v === v);
   const anno = o.d.slice(0, 4);
 
@@ -595,7 +609,7 @@ function controlliScelta(o, r, inp, dopo = () => {}) {
       if (lista === '__altro') parti.push(uninominale ? 'Altro candidato' : 'Altra lista');
       const pos = pl ? (pl.v === 'Estero' ? { area: 'altro', col: null } : { area: pl.p.a, col: primo ? pl.p === primo : null, piccolo: (pl.p.p || 0) < 4 })
         : lista === '__altro' ? { area: null, col: false, piccolo: true } : pc ? { area: pc.p.a, col: null } : null;
-      imposta(parti.join(' '), pos);
+      imposta(parti.join(' '), pos, [...(pc ? [gruppoPartito(pc.p)] : []), ...(pl ? [gruppoPartito(pl.p)] : [])]);
     };
     if (coal) box.append(seleziona('Coalizione (scheda uninominale)', [[null, coal]], r.sel.coalizione, v => { r.sel.coalizione = v; componi(); }));
     box.append(seleziona(uninominale ? 'Candidato (coalizione)' : coal ? 'Lista (scheda proporzionale)' : 'Lista votata', [[uninominale ? 'Coalizioni e gruppi sopra l’1%' : 'Liste sopra l’1%', liste], ['Altro', [{ v: '__altro', l: uninominale ? 'Un altro candidato' : 'Un’altra lista' }, ...SCHEDE]]], r.sel.lista, v => { r.sel.lista = v; componi(); }));
@@ -627,7 +641,7 @@ function controlliScelta(o, r, inp, dopo = () => {}) {
         const top = piuVotato(tutteListe.map(x => x.lst));
         pos = { area: a, civica: !pl.lst.partito, col: !conNome.length && top ? pl.lst === top : null };
       }
-      imposta(parti.join(' '), pos);
+      imposta(parti.join(' '), pos, [...(pc ? [gruppoCandidato(pc.c)] : []), ...(pl ? [gruppoLista(pl.lst, pl.c)] : [])]);
     };
     const nomeCand = o.tipo === 'reg' ? (o.reg === '04' ? 'Candidato presidente della provincia' : 'Candidato presidente') : 'Candidato sindaco';
     if (vc.length) box.append(seleziona(nomeCand, [[null, vc], ['Altro', SCHEDE]], r.sel.coalizione, v => {
@@ -661,7 +675,7 @@ function controlliScelta(o, r, inp, dopo = () => {}) {
       if (pl) parti.push(pl.p.civica || /^lista /i.test(pl.p.b) ? `${pl.p.b} ${emojiDi(pl.p)}` : `Lista ${pl.p.b} ${emojiDi(pl.p)}`);
       const aC = pc ? AREA_COALIZIONE[pc.p.b] || null : null, aL = pl ? areaDi(pl.p) : null;
       const pos = pc || pl ? { area: aC || aL, civica: (pc && pc.p.b === 'Civico') || (!pc && pl && !!pl.p.civica), col: null } : null;
-      imposta(parti.join(' '), pos);
+      imposta(parti.join(' '), pos, [...(pc ? [GRUPPO_COALIZIONE_LOCALE[pc.p.b] || null] : []), ...(pl ? [gruppoPartito(pl.p)] : [])]);
     };
     const nomeCand = o.tipo === 'reg' ? (o.reg === '04' ? 'Candidato presidente della provincia' : 'Candidato presidente') : 'Candidato sindaco';
     if (!senzaPresidente) box.append(seleziona(nomeCand, [[null, coalizioni], ['Altro', o.tipo === 'bal' ? SCHEDE : []]], r.sel.coalizione, v => { r.sel.coalizione = v; componi(); }));
@@ -887,7 +901,7 @@ function righeImmagine() {
       continue;
     }
     n++;
-    out.push({ n, gruppo: o.gruppo || o.key, anno: o.d.slice(0, 4), quando: dataPiena ? dataBreve(o.d) : o.d.slice(0, 4), giorno: dataLunga(o.d, o.d2).replace(/ \d{4}$/, ''), etichetta: o.etichetta, testo, non: st === 'non', colore: coloreVoto(o) });
+    out.push({ n, gruppo: o.gruppo || o.key, anno: o.d.slice(0, 4), quando: dataPiena ? dataBreve(o.d) : o.d.slice(0, 4), giorno: dataLunga(o.d, o.d2).replace(/ \d{4}$/, ''), etichetta: o.etichetta, testo, non: st === 'non', colore: coloreVoto(o), eu: st === 'ok' ? coloriUE(r) : null });
   }
   return out;
 }
@@ -970,7 +984,12 @@ function misuraVoci(ctx, righe, s, larg, compatta, dataPiena) {
   return righe.map(r => {
     const et = (dataPiena ? r.giorno + ' · ' : '') + r.etichetta;
     const fE = `600 ${fsE}px ${TXT}`, fV = r.non ? `400 ${fsV}px ${TXT}` : `700 ${fsV}px ${TXT}`;
-    const tokV = r.testo ? tokenizza(r.testo).map(t => ({ ...t, f: fV, c: r.non ? C.grigio : C.ink })) : [];
+    let nSim = 0;
+    // con la tavolozza europea i tondi colorati prendono, in ordine, i colori dei gruppi
+    const tokV = r.testo ? tokenizza(r.testo).map(t => {
+      if (t.segno && !t.segno.tipo && t.segno.c !== '#FFFFFF' && r.eu) { const c = r.eu[nSim++]; if (c) t = { segno: { ...t.segno, c } }; }
+      return { ...t, f: fV, c: r.non ? C.grigio : C.ink };
+    }) : [];
     if (compatta) {
       const fC = `600 ${fsV * 0.86}px ${TXT}`;
       const toks = [...parole(et + (r.testo ? ':' : '')).map(t => ({ ...t, f: fC, c: C.grigio })), ...(r.testo ? [{ t: ' ', f: fC, c: C.grigio }] : []),
@@ -1302,6 +1321,12 @@ function init() {
   $('#copia-link').addEventListener('click', condividiLink);
   if (MENU_CONDIVISIONE) $('#copia-link').textContent = 'Condividi il link';
   $('#copia').addEventListener('click', () => copia(contenuto === 'sismografo' ? testoSismografo() : testoSemplice(), 'Risultato copiato negli appunti.'));
+  // tavolozza: colori dei partiti o dei gruppi del Parlamento europeo
+  const leg = $('#legenda-ue');
+  leg.append(...Object.values(GRUPPI_UE).map(g => el('li', {}, el('i', { style: `--c:${g.c}` }), g.n)));
+  document.querySelectorAll('input[name=tavolozza]').forEach(r => r.addEventListener('change', () => {
+    tavolozza = r.value; leg.hidden = tavolozza !== 'ue'; aggiorna(false);
+  }));
   // cosa va nell'immagine: la lista dei voti o il sismografo (che non ha la lista completa a lunghezza libera)
   document.querySelectorAll('input[name=contenuto]').forEach(r => r.addEventListener('change', () => {
     contenuto = r.value;
