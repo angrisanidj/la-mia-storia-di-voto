@@ -52,7 +52,7 @@ def main():
             if DAL <= d <= AL:
                 date.append((d, t.strip()))
     date.sort()
-    print(f"[i] {len(date)} date di provinciali: {[d.isoformat() for d, _ in date]}", flush=True)
+    print(f"::notice title=date::{len(date)} date di provinciali: {[d.isoformat() for d, _ in date]}", flush=True)
     if SOLO_PROVA:
         date = [x for x in date if x[0].year == 2004][:1] or date[:1]
 
@@ -65,7 +65,7 @@ def main():
             h = S.get(f"{BASE}?tpel=P&dtel={testo}").text
             aree = leggi_select(h, "sel_aree")
             if not aree:
-                print(f"[?] {iso}: nessuna area; select: {selects(h)}", flush=True)
+                print(f"::warning title=area::{iso}: nessuna area; select: {selects(h)}", flush=True)
                 continue
             pp, pv = leggi_onchange(h, "sel_aree")
             area = next((a for a in aree if a[1].strip().upper() == "ITALIA"), aree[0])
@@ -78,11 +78,11 @@ def main():
                 pp3, pv3 = leggi_onchange(h3, "sel_sezione3")
                 province = leggi_select(h3, "sel_sezione3")
                 if SOLO_PROVA:
-                    print(f"[prova] {iso} {rt}: select {selects(h3)}; province {[p[1] for p in province][:12]}", flush=True)
+                    print(f"::notice title=prova:: {iso} {rt}: select {selects(h3)}; province {[p[1] for p in province][:12]}", flush=True)
                 for pvv, pt in province:
                     sig = prov.get(norm(pt)) or norm(pt)
                     if sig == norm(pt):
-                        print(f"[?] provincia senza sigla: {pt}", flush=True)
+                        print(f"::warning title=sigla::provincia senza sigla: {pt}", flush=True)
                     h4 = scendi_livello(S, pp3, pv3, pvv)
                     cand = parse_candidati(estrai_tabelle(h4)) or parse_candidati_regionali(h4)
                     ball = bool(re.search(r"II\s*turno", h4, re.I))
@@ -90,7 +90,7 @@ def main():
                     elezioni[chiave] = {"n": pt.strip().title(), "b": 1 if ball else 0, "c": compatta(cand) if cand else []}
                     comuni = leggi_select(h4, "sel_sezione4")
                     if SOLO_PROVA and n < 2:
-                        print(f"[prova] {pt}: select {selects(h4)}; {len(comuni)} comuni; ballottaggio {ball}; candidati {json.dumps(elezioni[chiave]['c'][:3], ensure_ascii=False)[:600]}", flush=True)
+                        print(f"::notice title=prova:: {pt}: select {selects(h4)}; {len(comuni)} comuni; ballottaggio {ball}; candidati {json.dumps(elezioni[chiave]['c'][:3], ensure_ascii=False)[:600]}", flush=True)
                     for _, ct in comuni:
                         c = indice.get((reg, norm(ct)), [])
                         if len(c) > 1:
@@ -103,7 +103,7 @@ def main():
                             continue
                         comuni_di.setdefault(c[0][0], []).append(chiave)
                     n += 1
-            print(f"[ok] {iso}: {n} province", flush=True)
+            print(f"::notice title={iso}::{n} province", flush=True)
         except requests.RequestException as e:
             print(f"[!] {iso}: {e}", flush=True)
     scrivi(elezioni, comuni_di, non_trovati)
@@ -125,7 +125,7 @@ def scrivi(elezioni, comuni_di, non_trovati):
         f.write(js)
     with open(os.path.join(RADICE, "strumenti", "provinciali-non-trovati.txt"), "w", encoding="utf-8") as f:
         f.write("\n".join(sorted(non_trovati)) + "\n")
-    print(f"[ok] {len(elezioni)} elezioni provinciali, {len(comuni_di)} comuni, {len(non_trovati)} nomi non abbinati", flush=True)
+    print(f"::notice title=fine::{len(elezioni)} elezioni provinciali, {len(comuni_di)} comuni, {len(non_trovati)} nomi non abbinati", flush=True)
 
 
 if __name__ == "__main__":
