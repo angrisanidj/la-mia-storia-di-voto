@@ -1,0 +1,7 @@
+001 http://web.archive.org/cdx/search/cdx?fl=original,timestamp,statuscode&collapse=urlkey&limit=20000&url=www.regione.trentino-a-adige.it/Elettorale/&matchType=prefix
+002 http://web.archive.org/cdx/search/cdx?fl=original,timestamp,statuscode&collapse=urlkey&limit=20000&url=www.regione.taa.it/Elettorale/&matchType=prefix
+003 http://web.archive.org/cdx/search/cdx?fl=original,timestamp,statuscode&collapse=urlkey&limit=20000&url=www.regione.taa.it/elezioni&matchType=prefix
+004 http://web.archive.org/cdx/search/cdx?fl=original,timestamp,statuscode&collapse=urlkey&limit=20000&url=elezioni.regione.taa.it&matchType=domain
+005 http://web.archive.org/cdx/search/cdx?fl=original,timestamp,statuscode&collapse=urlkey&limit=20000&url=www.regione.trentino-a-adige.it/giunta/elezioni_it/&matchType=prefix
+006 http://web.archive.org/cdx/search/cdx?fl=original,timestamp,statuscode&collapse=urlkey&limit=20000&url=www.regione.taa.it/Comuni/&matchType=prefix&filter=original:.*lez.*
+007 http://web.archive.org/cdx/search/cdx?fl=original,timestamp,statuscode&collapse=urlkey&limit=20000&url=www.comune.rovereto.tn.it/&matchType=prefix&filter=original:.*lezion.*
