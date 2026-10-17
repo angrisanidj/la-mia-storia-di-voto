@@ -1,0 +1,45 @@
+name: Aggiorna provinciali
+
+# Scarica dall'Archivio storico delle elezioni le provinciali dirette (1993-2011) con
+# candidati, liste, ballottaggi e i comuni di ogni provincia, e scrive dati/provinciali.js.
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['strumenti/provinciali.py', '.github/workflows/provinciali.yml']
+
+permissions:
+  contents: write
+
+concurrency:
+  group: provinciali
+  cancel-in-progress: false
+
+jobs:
+  aggiorna:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Dipendenze
+        run: pip install requests "git+https://github.com/jack89-ML/tallyho"
+      - name: Scarica le provinciali
+        env:
+          SOLO_PROVA: '1'
+          PAUSA: '0.15'
+        run: python strumenti/provinciali.py
+      - name: Salva i dati
+        if: env.SOLO_PROVA != '1'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dati/provinciali.js strumenti/provinciali-non-trovati.txt
+          if git diff --cached --quiet; then echo "Nessuna novità"; exit 0; fi
+          git commit -m "Provinciali dall'Archivio storico delle elezioni"
+          git pull --rebase origin main
+          git push
