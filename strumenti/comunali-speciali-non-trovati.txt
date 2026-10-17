@@ -1,3 +1,4 @@
 19	/sicilia/60-tripi-abakainon/storico-elezioni-comunali/
 19	/sicilia/82-lampedusa-linosa/storico-elezioni-comunali/
 06	/friuli-venezia-giulia/43-erto-casso/storico-elezioni-comunali/
+06	/friuli-venezia-giulia/77-san-dorligo-della-valle-dolina/storico-elezioni-comunali/
