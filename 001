@@ -1,0 +1,1900 @@
+
+<!DOCTYPE html>
+<!--[if IE 7]> <html lang="it" class="ie ie7"> <![endif]-->
+<!--[if IE 8]> <html lang="it" class="ie ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="it" class="ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="it"> <!--<![endif]-->
+  <head>
+    <!--[if lte ie 8]><script type="text/javascript" src="/fanstatic/vendor/:version:2015-09-11T23:51:43.44/html5.min.js"></script><![endif]-->
+<link rel="stylesheet" type="text/css" href="/fanstatic/vendor/:version:2015-09-11T23:51:43.44/select2/select2.css" />
+<link rel="stylesheet" type="text/css" href="/fanstatic/css/:version:2015-09-11T23:51:43.42/main.min.css" />
+<link rel="stylesheet" type="text/css" href="/fanstatic/vendor/:version:2015-09-11T23:51:43.44/font-awesome/css/font-awesome.min.css" />
+<!--[if ie 7]><link rel="stylesheet" type="text/css" href="/fanstatic/vendor/:version:2015-09-11T23:51:43.44/font-awesome/css/font-awesome-ie7.min.css" /><![endif]-->
+<link rel="stylesheet" type="text/css" href="/fanstatic/ckanext-dcatapit/:version:2019-04-10T15:28:23.74/dcatapit.css" />
+<link rel="stylesheet" type="text/css" href="/fanstatic/ckanext-harvest/:version:2015-09-14T16:35:44.84/styles/harvest.css" />
+<link rel="stylesheet" type="text/css" href="/fanstatic/pages/:version:2015-10-23T16:11:24.80/css/bootstrap.css" />
+
+    <meta charset="utf-8" />
+  <meta name="generator" content="ckan 2.4.0" />
+  
+
+  <meta property="og:image" content="https://data.civis.bz.it/images/logo/opendata_suedtirol_logo_600x315.png"/>
+    <title>Portale OpenData Bolzano</title>
+
+    
+    
+   
+    <link rel="shortcut icon" href="/images/icons/favicon.ico" />
+    
+
+    <!--[if IE]>
+    <script src="/classList.min.js"></script>
+    <![endif]-->
+
+    
+    
+    
+    
+
+  <link rel="alternate" type="application/rdf+xml" href="https://data.civis.bz.it/it/dataset/7dae046d-74d8-4856-8221-f4f667880e69.rdf"/>
+
+   <link rel="alternate" type="text/n3" href="https://data.civis.bz.it/it/dataset/7dae046d-74d8-4856-8221-f4f667880e69.n3"/>
+   <link rel="alternate" type="text/ttl" href="https://data.civis.bz.it/it/dataset/7dae046d-74d8-4856-8221-f4f667880e69.ttl"/>
+   <link rel="alternate" type="application/rdf+xml" href="https://data.civis.bz.it/it/dataset/7dae046d-74d8-4856-8221-f4f667880e69.xml"/>
+   <link rel="alternate" type="application/ld+json" href="https://data.civis.bz.it/it/dataset/7dae046d-74d8-4856-8221-f4f667880e69.jsonld"/>
+
+  
+   
+   
+      
+    
+   <link rel="stylesheet" href="/css/multilang.css" type="text/css">
+
+   <link rel="stylesheet" href="/css/provbz.css" type="text/css">
+
+  
+
+
+    
+      
+      <script>
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-47078896-11', 'auto');
+ga('send', 'pageview');
+//--><!]]>
+</script>
+    
+  
+  <meta property="og:title" content="Risultati Elezioni Comunali 2020 - Open Data Portal South Tyrol">
+  <meta property="og:description" content="Il dataset contiene i risultati ufficiali delle ultime elezioni comunali per comune della regione.
+
+La titolarità piena ed esclusiva del dataset &amp;#34;Risultati Elezioni Comunali 2020&amp;#34; è del/la Regione...">
+
+    
+  </head>
+
+  
+  <body data-site-root="https://data.civis.bz.it/" data-locale-root="https://data.civis.bz.it/it/" >
+
+    
+    <div class="hide"><a href="#content">Salta al contenuto</a></div>
+  
+
+  
+    
+
+
+  <!--header class="account-masthead">
+    <div class="container">
+      
+        
+          <nav class="account not-authed">
+            <ul class="unstyled">
+              
+              <li><a href="/it/user/login">Accedi</a></li>
+              
+              
+            </ul>
+          </nav>
+        
+      
+    </div>
+  </header-->
+  <div class="masthead masthead-top">
+    <div class="container">
+        <div class="content">
+          <a class="civis-a-link" href="https://civis.bz.it/" target="_blank">
+            <div class="civis-link">
+              <div class="civis-logo"></div> CIVIS.<span>bz.it <i class="icon-chevron-right"></i></span>
+            </div>
+          </a>
+        </div>
+    </div>
+  </div>
+
+
+<div class="masthead">
+  
+    
+  
+  <div class="container ck-row">
+    
+    <hgroup class="header-image">
+
+      
+        
+          <!--a class="logo" href="/it/"><img src="/base/images/ckan-logo.png" alt="Open Data Portal South Tyrol Logo" title="Open Data Portal South Tyrol Logo" /></a-->
+    		  <a id="logo" rel="Home" title="Open Data Portal South Tyrol" href="/it/">
+    			 <img src="/images/logo/opendata_suedtirol_logo.png" alt="Open Data Portal South Tyrol" title="Open Data Portal South Tyrol"/>  
+    		  </a>
+        
+      
+    </hgroup>
+  </div>
+</div>
+<header class="masthead masthead-navbar">
+  <div class="container">
+      <div class="content">
+        
+          
+          <nav class="section navigation">
+            <ul class="nav nav-pills navbar">
+              
+                <li><a href="/it/dataset">Dataset</a></li><li><a href="/it/organization">Organizzazioni</a></li><li><a href="/it/group">Categorie</a></li><li><a href="/it/info">Informazioni</a></li><li><a href="/it/faq">Faq</a></li>
+              
+            </ul>
+          </nav>
+        
+
+        
+    </div>
+  </div>
+</header>
+
+
+
+  
+  <div id="center-body"></div>
+    <div role="main" class="main-ck">
+      <div id="content" class="container">
+        
+          
+            <div class="flash-messages">
+              
+                
+              
+            </div>
+          
+
+          
+            <div class="toolbar">
+              
+                
+                  <ol class="breadcrumb">
+                    
+<!-- Snippet snippets/home_breadcrumb_item.html start -->
+
+<li class="home"><a href="/it/"><i class="icon-home"></i><span> Home</span></a></li>
+<!-- Snippet snippets/home_breadcrumb_item.html end -->
+
+                    
+  
+    
+    
+      
+      <li><a href="/it/organization">Organizzazioni</a></li>
+      <li><a href="/it/organization/regione-autonoma-trentino-alto-adige">Regione Autonoma ...</a></li>
+    
+    <li class="active"><a class=" active" href="/it/dataset/elezioni-comunali-2020">Risultati Elezioni Comunali ...</a></li>
+  
+
+                  </ol>
+                
+              
+            </div>
+          
+
+          <div class="row wrapper">
+
+            
+            
+            
+
+            
+              <div class="primary span9">
+                
+                
+                  <article class="module">
+                    
+                      <header class="module-content page-header">
+                        
+                        <ul class="nav nav-tabs">
+                          
+  <li class="active"><a href="/it/dataset/elezioni-comunali-2020"><i class="icon-sitemap"></i> Dataset</a></li>
+  <li><a href="/it/dataset/groups/elezioni-comunali-2020"><i class="icon-group"></i> Categorie</a></li>
+  <li><a href="/it/dataset/activity/elezioni-comunali-2020"><i class="icon-time"></i> Flusso di attività</a></li>
+  <li><a href="/it/dataset/elezioni-comunali-2020/related"><i class="icon-picture"></i> Correlazioni</a></li>
+
+                        </ul>
+                      </header>
+                    
+                    <div class="module-content">
+                      
+                      
+  
+    
+      
+    
+
+
+  
+
+  
+    
+    <h1>
+      
+        Risultati Elezioni Comunali 2020
+        
+        
+      
+    </h1>
+    
+  
+    <div class="notes embedded-content">
+      <p>Il dataset contiene i risultati ufficiali delle ultime elezioni comunali per comune della regione.
+</p>
+<p>La titolarità piena ed esclusiva del dataset "Risultati Elezioni Comunali 2020" è del/la Regione Autonoma Trentino Alto-Adige/Südtirol (Licenziante), ai sensi della L. 633/41 e s.m.i.
+</p>
+<p>Il/La Regione Autonoma Trentino Alto-Adige/Südtirol autorizza la libera e gratuita consultazione, estrazione, riproduzione e modifica dei dati in essa contenuti da parte di chiunque (Licenziatario) vi abbia interesse per qualunque fine, purché nel rispetto dei termini della licenza Creative Commons - Attribuzione 2.5 Italia (testo integrale: <a href="http://creativecommons.org/licenses/by/2.5/it/legalcode" target="_blank" rel="nofollow">http://creativecommons.org/licenses/by/2.5/it/legalcode</a>).
+</p>
+<p>L'attribuzione dovrà fornire una menzione adeguata di:
+</p>
+<p>• Autore originale e/o titolare dei diritti: Ufficio elettorale
+</p>
+<p>• Terze parti designate, se esistenti
+</p>
+<p>• Nome della Banca Dati: Risultati Elezioni Comunali 2020
+</p>
+<p>• <a href="http://www.regione.taa.it/Elettorale/Comunali.aspx" target="_blank" rel="nofollow">http://www.regione.taa.it/Elettorale/Comunali.aspx</a> ove ciò sia ragionevolmente possibile;
+</p>
+<p>In caso di documenti rielaborati o opere derivate di vario genere, l'attribuzione dovrà essere effettuata in modo tale da non ingenerare confusione rispetto all'origine del documento stesso.
+</p>
+<p>Il set di dati Contiene i RISULTATI ufficiali delle Elezioni comunali dal Comune della Regione.
+</p>
+<p>La titolarità Piena Ed Esclusiva del set di dati "RISULTATI Elezioni Comunali 2020" E del / La Regione Autonoma Trentino-Alto Adige / Südtirol (Licenziante), Ai sensi della L. 633/41 e smi
+</p>
+<p>Il / La Regione Autonoma Trentino-Alto Adige / Südtirol autorizza la libera e Gratuita Consultazione, Estrazione, Riproduzione e Modifica dei Dati nella ESSA Contenuti da parte di chiunque (licenziatario) vi abbia interesse per bene Qualunque, Purche nel RISPETTO dei termini della Licenza Creative Commons - Attribuzione 2.5 Italia (testo integrale: <a href="http://creativecommons.org/licenses/by/2.5/it/legalcode" target="_blank" rel="nofollow">http://creativecommons.org/licenses/by/2.5/it/legalcode</a>).
+</p>
+<p>L'Attribuzione dovra FORNIRE Una Menzione adeguata di:
+</p>
+<p>• Autore originale e / o titolare dei Diritti: Ufficio elettorale
+</p>
+<p>• Terze designato parti, se esistenti
+</p>
+<p>• Nome della Banca Dati: RISULTATI Elezioni Comunali 2020
+</p>
+<p>• <a href="http://www.regione.taa.it/Elettorale/Comunali.aspx" target="_blank" rel="nofollow">http://www.regione.taa.it/Elettorale/Comunali.aspx</a> ove cio Sia ragionevolmente possibile;
+</p>
+<p>In Caso di Documenti rielaborati o Opere di derivati ​​vario Genere, l'Attribuzione dovra Essere effettuata in modo da non ingenerare racconto confusione RISPETTO all'origine del documento Stesso.
+</p>
+<p>Si Precisa esplicitamente Che con la présente il Licenza Licenziante intende autorizzare il licenziatario ad esercitare, ferme restando le restrizioni della Licenza di cui sopra, Anche i DIRITTI Disciplinati dall'arte. 102-bis e ss., L. 633/41 e s.m.i. (cd diritto sui generis del costitutore di Una Banca di Dati).
+</p>
+<p>Il licenziatario E Invitato a segnalare Calcola OGNI Eventuale Errore o incongruenza venisse rilevata RISPETTO al contenuto del documento. La segnalazione di EVENTUALI inesattezze o Errori PUÒ Essere please select al following Indirizzo di posta elettronica elettorale@regione.taa.it, gestito da Ufficio elettorale. Una copia di qualunque documento o set di dati rielaborato Potra Essere di posta elettronica all'indirizzo elettorale@regione.taa.it please select.Si precisa esplicitamente che con la presente licenza il Licenziante intende autorizzare il Licenziatario ad esercitare, ferme restando le restrizioni della licenza di cui sopra, anche i diritti disciplinati dall'art. 102-bis e ss., L. 633/41 e s.m.i. (c.d. diritto sui generis del costitutore di una banca di dati).
+</p>
+<p>Il Licenziatario è invitato a segnalare ogni eventuale errore o incongruenza venisse rilevata rispetto al contenuto del documento. La segnalazione di eventuali inesattezze o errori può essere inviata al seguente indirizzo di posta elettronica elettorale@regione.taa.it, gestito da Ufficio elettorale. Una copia di qualunque documento o dataset rielaborato potrà essere inviata all'indirizzo di posta elettronica elettorale@regione.taa.it.
+</p>
+    </div>
+  
+
+    
+    <span class="insert-comment-thread"></span>
+  
+
+  
+    
+<!-- Snippet package/snippets/resources_list_multilang.html start -->
+
+
+
+
+
+<section id="dataset-resources" class="resources">
+  <h3>Dati e Risorse</h3>
+  
+    
+      <ul class="resource-list">
+        
+          
+            
+
+            
+            
+<!-- Snippet package/snippets/resource_item_multilang.html start -->
+
+
+
+
+
+  <li class="resource-item" data-id="65742263-c13b-48aa-88a4-4071e6722a03">
+    
+    <a class="heading" href="/it/dataset/elezioni-comunali-2020/resource/65742263-c13b-48aa-88a4-4071e6722a03" title="Collegamenti">
+      Collegamenti<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+      
+<!-- Snippet snippets/popular.html start -->
+
+
+<!-- Snippet snippets/popular.html end -->
+
+    </a>
+    
+    
+    
+      <p class="description">
+        
+      </p>
+    
+    
+
+    
+    
+    <div class="dropdown btn-group">
+      <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+        <i class="icon-share-alt"></i>
+        Esplora
+        <span class="caret"></span>
+      </a>
+      <ul class="dropdown-menu">
+        
+        <li>
+          <a href="/it/dataset/elezioni-comunali-2020/resource/65742263-c13b-48aa-88a4-4071e6722a03">
+            
+              <i class="icon-bar-chart"></i>
+              Anteprima
+            
+          </a>
+        </li>
+        
+          
+
+          
+
+          
+
+          
+            <li>
+              <a href="https://press.elezionicomunali.bz.it/COLLEGAMENTI.CSV" class="resource-url-analytics" target="_blank">
+                
+                  <i class="icon-download"></i>
+                  Download
+                            
+              </a>
+            </li>
+          
+
+          
+        
+        
+        
+      </ul>
+    </div>
+    
+    
+  </li>
+
+<!-- Snippet package/snippets/resource_item_multilang.html end -->
+
+            
+          
+            
+
+            
+            
+<!-- Snippet package/snippets/resource_item_multilang.html start -->
+
+
+
+
+
+  <li class="resource-item" data-id="69197cd2-1ec5-413c-a6e9-a7a75a83e3d9">
+    
+    <a class="heading" href="/it/dataset/elezioni-comunali-2020/resource/69197cd2-1ec5-413c-a6e9-a7a75a83e3d9" title="Affluenze">
+      Affluenze<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+      
+<!-- Snippet snippets/popular.html start -->
+
+
+<!-- Snippet snippets/popular.html end -->
+
+    </a>
+    
+    
+    
+      <p class="description">
+        
+      </p>
+    
+    
+
+    
+    
+    <div class="dropdown btn-group">
+      <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+        <i class="icon-share-alt"></i>
+        Esplora
+        <span class="caret"></span>
+      </a>
+      <ul class="dropdown-menu">
+        
+        <li>
+          <a href="/it/dataset/elezioni-comunali-2020/resource/69197cd2-1ec5-413c-a6e9-a7a75a83e3d9">
+            
+              <i class="icon-bar-chart"></i>
+              Anteprima
+            
+          </a>
+        </li>
+        
+          
+
+          
+
+          
+
+          
+            <li>
+              <a href="https://press.elezionicomunali.bz.it/AFFLUENZE.CSV" class="resource-url-analytics" target="_blank">
+                
+                  <i class="icon-download"></i>
+                  Download
+                            
+              </a>
+            </li>
+          
+
+          
+        
+        
+        
+      </ul>
+    </div>
+    
+    
+  </li>
+
+<!-- Snippet package/snippets/resource_item_multilang.html end -->
+
+            
+          
+            
+
+            
+            
+<!-- Snippet package/snippets/resource_item_multilang.html start -->
+
+
+
+
+
+  <li class="resource-item" data-id="e36868d0-1f03-4876-a11c-61d9fba1335d">
+    
+    <a class="heading" href="/it/dataset/elezioni-comunali-2020/resource/e36868d0-1f03-4876-a11c-61d9fba1335d" title="Voti Sindaci">
+      Voti Sindaci<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+      
+<!-- Snippet snippets/popular.html start -->
+
+
+<!-- Snippet snippets/popular.html end -->
+
+    </a>
+    
+    
+    
+      <p class="description">
+        
+      </p>
+    
+    
+
+    
+    
+    <div class="dropdown btn-group">
+      <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+        <i class="icon-share-alt"></i>
+        Esplora
+        <span class="caret"></span>
+      </a>
+      <ul class="dropdown-menu">
+        
+        <li>
+          <a href="/it/dataset/elezioni-comunali-2020/resource/e36868d0-1f03-4876-a11c-61d9fba1335d">
+            
+              <i class="icon-bar-chart"></i>
+              Anteprima
+            
+          </a>
+        </li>
+        
+          
+
+          
+
+          
+
+          
+            <li>
+              <a href="https://press.elezionicomunali.bz.it/VOTISINDACI.CSV" class="resource-url-analytics" target="_blank">
+                
+                  <i class="icon-download"></i>
+                  Download
+                            
+              </a>
+            </li>
+          
+
+          
+        
+        
+        
+      </ul>
+    </div>
+    
+    
+  </li>
+
+<!-- Snippet package/snippets/resource_item_multilang.html end -->
+
+            
+          
+            
+
+            
+            
+<!-- Snippet package/snippets/resource_item_multilang.html start -->
+
+
+
+
+
+  <li class="resource-item" data-id="29cd0cc1-2765-4aaa-9a76-e4598cd3c9fb">
+    
+    <a class="heading" href="/it/dataset/elezioni-comunali-2020/resource/29cd0cc1-2765-4aaa-9a76-e4598cd3c9fb" title="Voti Liste">
+      Voti Liste<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+      
+<!-- Snippet snippets/popular.html start -->
+
+
+<!-- Snippet snippets/popular.html end -->
+
+    </a>
+    
+    
+    
+      <p class="description">
+        
+      </p>
+    
+    
+
+    
+    
+    <div class="dropdown btn-group">
+      <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+        <i class="icon-share-alt"></i>
+        Esplora
+        <span class="caret"></span>
+      </a>
+      <ul class="dropdown-menu">
+        
+        <li>
+          <a href="/it/dataset/elezioni-comunali-2020/resource/29cd0cc1-2765-4aaa-9a76-e4598cd3c9fb">
+            
+              <i class="icon-bar-chart"></i>
+              Anteprima
+            
+          </a>
+        </li>
+        
+          
+
+          
+
+          
+
+          
+            <li>
+              <a href="https://press.elezionicomunali.bz.it/VOTILISTE.CSV" class="resource-url-analytics" target="_blank">
+                
+                  <i class="icon-download"></i>
+                  Download
+                            
+              </a>
+            </li>
+          
+
+          
+        
+        
+        
+      </ul>
+    </div>
+    
+    
+  </li>
+
+<!-- Snippet package/snippets/resource_item_multilang.html end -->
+
+            
+          
+            
+
+            
+            
+<!-- Snippet package/snippets/resource_item_multilang.html start -->
+
+
+
+
+
+  <li class="resource-item" data-id="795d2b38-dff9-464d-b19f-bebbf1151dab">
+    
+    <a class="heading" href="/it/dataset/elezioni-comunali-2020/resource/795d2b38-dff9-464d-b19f-bebbf1151dab" title="Voti Liste Sindaci">
+      Voti Liste Sindaci<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+      
+<!-- Snippet snippets/popular.html start -->
+
+
+<!-- Snippet snippets/popular.html end -->
+
+    </a>
+    
+    
+    
+      <p class="description">
+        
+      </p>
+    
+    
+
+    
+    
+    <div class="dropdown btn-group">
+      <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+        <i class="icon-share-alt"></i>
+        Esplora
+        <span class="caret"></span>
+      </a>
+      <ul class="dropdown-menu">
+        
+        <li>
+          <a href="/it/dataset/elezioni-comunali-2020/resource/795d2b38-dff9-464d-b19f-bebbf1151dab">
+            
+              <i class="icon-bar-chart"></i>
+              Anteprima
+            
+          </a>
+        </li>
+        
+          
+
+          
+
+          
+
+          
+            <li>
+              <a href="https://press.elezionicomunali.bz.it/VOTILISTESINDACI.CSV" class="resource-url-analytics" target="_blank">
+                
+                  <i class="icon-download"></i>
+                  Download
+                            
+              </a>
+            </li>
+          
+
+          
+        
+        
+        
+      </ul>
+    </div>
+    
+    
+  </li>
+
+<!-- Snippet package/snippets/resource_item_multilang.html end -->
+
+            
+          
+            
+
+            
+            
+<!-- Snippet package/snippets/resource_item_multilang.html start -->
+
+
+
+
+
+  <li class="resource-item" data-id="05ab6fd6-e627-41a0-b222-107df0ba8051">
+    
+    <a class="heading" href="/it/dataset/elezioni-comunali-2020/resource/05ab6fd6-e627-41a0-b222-107df0ba8051" title="Voti Consiglieri">
+      Voti Consiglieri<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+      
+<!-- Snippet snippets/popular.html start -->
+
+
+<!-- Snippet snippets/popular.html end -->
+
+    </a>
+    
+    
+    
+      <p class="description">
+        
+      </p>
+    
+    
+
+    
+    
+    <div class="dropdown btn-group">
+      <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+        <i class="icon-share-alt"></i>
+        Esplora
+        <span class="caret"></span>
+      </a>
+      <ul class="dropdown-menu">
+        
+        <li>
+          <a href="/it/dataset/elezioni-comunali-2020/resource/05ab6fd6-e627-41a0-b222-107df0ba8051">
+            
+              <i class="icon-bar-chart"></i>
+              Anteprima
+            
+          </a>
+        </li>
+        
+          
+
+          
+
+          
+
+          
+            <li>
+              <a href="https://press.elezionicomunali.bz.it/VOTICONSIGLIERI.CSV" class="resource-url-analytics" target="_blank">
+                
+                  <i class="icon-download"></i>
+                  Download
+                            
+              </a>
+            </li>
+          
+
+          
+        
+        
+        
+      </ul>
+    </div>
+    
+    
+  </li>
+
+<!-- Snippet package/snippets/resource_item_multilang.html end -->
+
+            
+          
+            
+
+            
+            
+<!-- Snippet package/snippets/resource_item_multilang.html start -->
+
+
+
+
+
+  <li class="resource-item" data-id="6ad1a103-6561-4de9-8317-64416b47d43b">
+    
+    <a class="heading" href="/it/dataset/elezioni-comunali-2020/resource/6ad1a103-6561-4de9-8317-64416b47d43b" title="Affluenze Ballottaggio">
+      Affluenze Ballottaggio<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+      
+<!-- Snippet snippets/popular.html start -->
+
+
+<!-- Snippet snippets/popular.html end -->
+
+    </a>
+    
+    
+    
+      <p class="description">
+        
+      </p>
+    
+    
+
+    
+    
+    <div class="dropdown btn-group">
+      <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+        <i class="icon-share-alt"></i>
+        Esplora
+        <span class="caret"></span>
+      </a>
+      <ul class="dropdown-menu">
+        
+        <li>
+          <a href="/it/dataset/elezioni-comunali-2020/resource/6ad1a103-6561-4de9-8317-64416b47d43b">
+            
+              <i class="icon-bar-chart"></i>
+              Anteprima
+            
+          </a>
+        </li>
+        
+          
+
+          
+
+          
+
+          
+            <li>
+              <a href="https://press.elezionicomunali.bz.it/AFFLUENZE-B.CSV" class="resource-url-analytics" target="_blank">
+                
+                  <i class="icon-download"></i>
+                  Download
+                            
+              </a>
+            </li>
+          
+
+          
+        
+        
+        
+      </ul>
+    </div>
+    
+    
+  </li>
+
+<!-- Snippet package/snippets/resource_item_multilang.html end -->
+
+            
+          
+            
+
+            
+            
+<!-- Snippet package/snippets/resource_item_multilang.html start -->
+
+
+
+
+
+  <li class="resource-item" data-id="8355b6fc-1caa-4fe5-9c92-b22fea5ec670">
+    
+    <a class="heading" href="/it/dataset/elezioni-comunali-2020/resource/8355b6fc-1caa-4fe5-9c92-b22fea5ec670" title="Voti Sindaci Ballottaggio">
+      Voti Sindaci Ballottaggio<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+      
+<!-- Snippet snippets/popular.html start -->
+
+
+<!-- Snippet snippets/popular.html end -->
+
+    </a>
+    
+    
+    
+      <p class="description">
+        
+      </p>
+    
+    
+
+    
+    
+    <div class="dropdown btn-group">
+      <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+        <i class="icon-share-alt"></i>
+        Esplora
+        <span class="caret"></span>
+      </a>
+      <ul class="dropdown-menu">
+        
+        <li>
+          <a href="/it/dataset/elezioni-comunali-2020/resource/8355b6fc-1caa-4fe5-9c92-b22fea5ec670">
+            
+              <i class="icon-bar-chart"></i>
+              Anteprima
+            
+          </a>
+        </li>
+        
+          
+
+          
+
+          
+
+          
+            <li>
+              <a href="https://press.elezionicomunali.bz.it/VOTISINDACI-B.CSV" class="resource-url-analytics" target="_blank">
+                
+                  <i class="icon-download"></i>
+                  Download
+                            
+              </a>
+            </li>
+          
+
+          
+        
+        
+        
+      </ul>
+    </div>
+    
+    
+  </li>
+
+<!-- Snippet package/snippets/resource_item_multilang.html end -->
+
+            
+          
+            
+
+            
+            
+<!-- Snippet package/snippets/resource_item_multilang.html start -->
+
+
+
+
+
+  <li class="resource-item" data-id="9f3dd0fa-2e18-410a-894a-0f27cf81b3d6">
+    
+    <a class="heading" href="/it/dataset/elezioni-comunali-2020/resource/9f3dd0fa-2e18-410a-894a-0f27cf81b3d6" title="Istruzioni">
+      Istruzioni<span class="format-label" property="dc:format" data-format="pdf">PDF</span>
+      
+<!-- Snippet snippets/popular.html start -->
+
+
+<!-- Snippet snippets/popular.html end -->
+
+    </a>
+    
+    
+    
+      <p class="description">
+        
+      </p>
+    
+    
+
+    
+    
+    <div class="dropdown btn-group">
+      <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+        <i class="icon-share-alt"></i>
+        Esplora
+        <span class="caret"></span>
+      </a>
+      <ul class="dropdown-menu">
+        
+        <li>
+          <a href="/it/dataset/elezioni-comunali-2020/resource/9f3dd0fa-2e18-410a-894a-0f27cf81b3d6">
+            
+              <i class="icon-bar-chart"></i>
+              Anteprima
+            
+          </a>
+        </li>
+        
+          
+
+          
+
+          
+
+          
+            <li>
+              <a href="https://data.civis.bz.it/it/dataset/7dae046d-74d8-4856-8221-f4f667880e69/resource/9f3dd0fa-2e18-410a-894a-0f27cf81b3d6/download/1-istruzioni.pdf" class="resource-url-analytics" target="_blank">
+                
+                  <i class="icon-download"></i>
+                  Download
+                            
+              </a>
+            </li>
+          
+
+          
+        
+        
+        
+      </ul>
+    </div>
+    
+    
+  </li>
+
+<!-- Snippet package/snippets/resource_item_multilang.html end -->
+
+            
+          
+            
+
+            
+          
+        
+      </ul>
+    
+    
+</section>
+<!-- Snippet package/snippets/resources_list_multilang.html end -->
+
+  
+
+  
+    
+<!-- Snippet package/snippets/tags.html start -->
+
+  <section class="tags">
+    
+<!-- Snippet snippets/tag_list.html start -->
+
+
+
+  <ul class="tag-list well">
+    
+      <li>
+        <a class="tag" href="/it/dataset?tags=Governo+e+settore+pubblico">Governo e settore p...</a>
+      </li>
+    
+      <li>
+        <a class="tag" href="/it/dataset?tags=affluenza">affluenza</a>
+      </li>
+    
+      <li>
+        <a class="tag" href="/it/dataset?tags=autonoma">autonoma</a>
+      </li>
+    
+      <li>
+        <a class="tag" href="/it/dataset?tags=candidati">candidati</a>
+      </li>
+    
+      <li>
+        <a class="tag" href="/it/dataset?tags=comunali">comunali</a>
+      </li>
+    
+      <li>
+        <a class="tag" href="/it/dataset?tags=comuni">comuni</a>
+      </li>
+    
+      <li>
+        <a class="tag" href="/it/dataset?tags=consiglieri">consiglieri</a>
+      </li>
+    
+      <li>
+        <a class="tag" href="/it/dataset?tags=elettori">elettori</a>
+      </li>
+    
+      <li>
+        <a class="tag" href="/it/dataset?tags=elezioni">elezioni</a>
+      </li>
+    
+      <li>
+        <a class="tag" href="/it/dataset?tags=liste">liste</a>
+      </li>
+    
+      <li>
+        <a class="tag" href="/it/dataset?tags=regione">regione</a>
+      </li>
+    
+      <li>
+        <a class="tag" href="/it/dataset?tags=sindaci">sindaci</a>
+      </li>
+    
+      <li>
+        <a class="tag" href="/it/dataset?tags=voti">voti</a>
+      </li>
+    
+  </ul>
+
+<!-- Snippet snippets/tag_list.html end -->
+
+  </section>
+
+<!-- Snippet package/snippets/tags.html end -->
+
+  
+
+  
+
+  
+<!-- Snippet package/snippets/dcatapit_additional_info.html start -->
+<section class="additional-info">
+  <h3>Metadati del Dataset</h3>
+
+    
+    
+  <table class="table table-striped table-bordered table-condensed">
+    <tbody>
+    
+      
+      
+
+      
+        
+
+            
+
+              
+
+                  
+                  
+
+                  
+
+                  
+              <tr>
+                  <th scope="row" class="dataset-label">Identificativo del dataset</th>
+                      
+                  <td class="dataset-details">p_bz:f2faa413-de8d-4e06-aa93-3e21b3e31955</td>
+                      
+              </tr>
+                  
+
+              
+          
+        
+      
+        
+
+            
+                
+                
+                    <tr>
+                      <th scope="row" class="dataset-label">Altro identificativo</th>
+                      <td class="dataset-details">
+                            N/A
+                      </td>
+                    </tr>
+                
+            
+        
+      
+        
+
+            
+                
+
+                
+                    
+                    <tr>
+                      <th scope="row" class="dataset-label">Temi del dataset</th>
+                      <td class="dataset-details">
+                        <span class="bold">Governo e settore pubblico</span>
+                        <br/>
+                        
+                            <span>0416 procedura elettorale e voto</span><br/>
+                        
+                      </td>
+                    </tr>
+                    
+                
+
+            
+        
+      
+        
+
+            
+                
+            <tr>
+                <th scope="row" class="dataset-label">Editore del Dataset</th>
+                <td class="dataset-details">
+                
+                    									
+                        
+                    <span style="font-weight:bold">Nome: </span><span>Regione Autonoma Trentino - Alto Adige</span><br/>
+                        
+                    									
+                        
+                    <span style="font-weight:bold">Codice IPA/IVA: </span><span>D5F0KF</span><br/>
+                        
+                    
+                
+                </td>
+            </tr>
+
+            
+        
+      
+        
+
+            
+
+              
+
+                  
+                  
+
+                  
+
+                  
+              <tr>
+                  <th scope="row" class="dataset-label">Data di rilascio</th>
+                      
+                  <td class="dataset-details">09-10-2020</td>
+                      
+              </tr>
+                  
+
+              
+          
+        
+      
+        
+
+            
+
+              
+
+                  
+                  
+
+                  
+
+                  
+              <tr>
+                  <th scope="row" class="dataset-label">Data di modifica</th>
+                      
+                  <td class="dataset-details">09-10-2020</td>
+                      
+              </tr>
+                  
+
+              
+          
+        
+      
+        
+
+            
+
+              
+
+                  
+                  
+
+                  
+
+                  
+              <tr>
+                  <th scope="row" class="dataset-label">Copertura Geografica</th>
+                  <td class="dataset-details">Bolzano</td>
+              </tr>
+                  
+
+              
+          
+        
+      
+        
+
+            
+
+              
+
+                  
+                  
+
+                  
+
+                  
+              <tr>
+                  <th scope="row" class="dataset-label">URI di GeoNames</th>
+                      
+                  <td class="dataset-details"><a href="http://www.geonames.org/3181912" rel="" target="_blank">http://www.geonames.org/3181912</a></td>
+                      
+              </tr>
+                  
+
+              
+          
+        
+      
+        
+
+            
+
+              
+
+                  
+                  
+
+                  
+
+                  
+              <tr>
+                  <th scope="row" class="dataset-label">Lingue del dataset</th>
+                  <td class="dataset-details">tedesco, italiano</td>
+              </tr>
+                  
+
+              
+          
+        
+      
+        
+
+            
+                
+
+                
+                    
+                    <tr>
+                        <th scope="row" class="dataset-label">Estensione temporale</th>
+                        <td class="dataset-details">
+                            <span class="bold">Da: </span><span>01-01-2020</span>
+                            
+                                     <span class="bold">    A: </span><span>31-12-2020</span>
+                            
+                        </td>
+                    </tr>
+                    
+                
+
+
+            
+        
+      
+        
+
+            
+                
+                
+                <tr>
+                    <th scope="row" class="dataset-label">Titolare</th>
+                    <td class="dataset-details">
+                    
+                        									
+                            
+                        <span style="font-weight:bold">Nome: </span><span>Regione Autonoma Trentino-Alto Adige</span><br/>
+                            
+                        									
+                            
+                        <span style="font-weight:bold">Codice IPA/IVA: </span><span>D5F0KF</span><br/>
+                            
+                        
+                    
+                    </td>
+                </tr>
+
+                
+          
+        
+      
+        
+
+            
+
+              
+
+                  
+                  
+
+                  
+
+                  
+              <tr>
+                  <th scope="row" class="dataset-label">Frequenza</th>
+                  <td class="dataset-details">mai</td>
+              </tr>
+                  
+
+              
+          
+        
+      
+        
+
+            
+
+              
+
+              <tr>
+                  <th scope="row" class="dataset-label">Versione di</th>
+                  <td class="dataset-details">N/A</td>
+              </tr>
+              
+          
+        
+      
+        
+
+            
+                
+
+                
+
+          
+        
+      
+        
+
+            
+                
+                
+                    <tr>
+                      <th scope="row" class="dataset-label">Autore</th>
+                      <td class="dataset-details">
+                            N/A
+                      </td>
+                    </tr>
+                
+            
+        
+      
+        
+
+            
+
+              
+
+              <tr>
+                  <th scope="row" class="dataset-label">Data di creazione</th>
+                  <td class="dataset-details">N/A</td>
+              </tr>
+              
+          
+        
+      
+        
+
+            
+
+              
+
+              <tr>
+                  <th scope="row" class="dataset-label">Codifica caratteri (Set dei caratteri)</th>
+                  <td class="dataset-details">N/A</td>
+              </tr>
+              
+          
+        
+      
+        
+
+            
+
+              
+
+                  
+                  
+
+                  
+
+                  
+              <tr>
+                  <th scope="row" class="dataset-label">URL sito</th>
+                      
+                  <td class="dataset-details"><a href="https://civis.bz.it/de/themen/wahlen.html" rel="" target="_blank">https://civis.bz.it/de/themen/wahlen.html</a></td>
+                      
+              </tr>
+                  
+
+              
+          
+        
+      
+        
+      
+    
+    </tbody>
+  </table>
+</section>
+
+
+
+<!-- Snippet package/snippets/dcatapit_additional_info.html end -->
+
+  
+<!-- Snippet package/snippets/additional_info.html start -->
+
+<section class="additional-info">
+  <h3>Informazioni addizionali</h3>
+  <table class="table table-striped table-bordered table-condensed">
+    <tbody>
+      
+
+        
+          <tr>
+            <th scope="row" class="dataset-label">Autore</th>
+            <td class="dataset-details" property="dc:creator">Ufficio elettorale</td>
+          </tr>
+        
+
+        
+          <tr>
+            <th scope="row" class="dataset-label">Origine</th>
+            <td class="dataset-details" property="dc:creator"><a href="https://civis.bz.it/it/temi/elezioni.html" rel="foaf:homepage" target="_blank">https://civis.bz.it/it/temi/elezioni.html</a></td>
+          </tr>
+        
+
+        
+          <tr>
+            <th scope="row" class="dataset-label">Contatto</th>
+            <td class="dataset-details"><a href="mailto:elettorale@regione.taa.it">elettorale@regione.taa.it</a></td>
+          </tr>
+        
+
+      
+    </tbody>
+  </table>
+</section>
+<!-- Snippet package/snippets/additional_info.html end -->
+
+
+
+
+                    </div>
+                  </article>
+                
+              </div>
+            
+
+            
+              <aside class="secondary span3">
+                
+                
+
+  
+
+  
+    
+<!-- Snippet package/snippets/info.html start -->
+
+
+  
+    <section class="module module-narrow">
+      <div class="module context-info">
+        <div class="module-content">
+          
+            
+              <h1 class="heading">Risultati Elezioni Comunali 2020</h1>
+            
+            
+              <div class="nums">
+                <dl>
+                  <dt>Sostenitori</dt>
+                  <dd><span>0</span></dd>
+                </dl>
+              </div>
+            
+            
+              
+                <div class="follow_button">
+                  
+                </div>
+              
+            
+          
+        </div>
+      </div>
+    </section>
+  
+
+<!-- Snippet package/snippets/info.html end -->
+
+  
+
+  
+  
+    
+    
+<!-- Snippet snippets/organization.html start -->
+
+
+
+
+
+  
+  <div class="module module-narrow module-shallow context-info">
+    
+      <h2 class="module-heading"><i class="icon-building"></i> Organizzazione</h2>
+    
+    <section class="module-content">
+      
+      
+        <div class="image">
+          <a href="/it/organization/regione-autonoma-trentino-alto-adige">
+            <img src="/base/images/placeholder-organization.png" width="200" alt="regione-autonoma-trentino-alto-adige" />
+          </a>
+        </div>
+      
+      
+      <h1 class="heading">Regione Autonoma Trentino-Alto Adige
+        
+      </h1>
+      
+      
+      
+        <p class="empty">Non c&#39;è una descrizione per questa organizzazione</p>
+      
+      
+      
+      
+    </section>
+  </div>
+  
+<!-- Snippet snippets/organization.html end -->
+
+  
+
+
+  
+    
+<!-- Snippet snippets/social.html start -->
+
+
+  <section class="module module-narrow social">
+    
+      <h2 class="module-heading"><i class="icon-medium icon-share"></i> Sociale</h2>
+    
+    
+      <ul class="nav nav-simple">
+        <li class="nav-item"><a href="https://plus.google.com/share?url=https://data.civis.bz.it/it/dataset/elezioni-comunali-2020" target="_blank"><i class="icon-google-plus-sign"></i> Google+</a></li>
+        <li class="nav-item"><a href="https://twitter.com/share?url=https://data.civis.bz.it/it/dataset/elezioni-comunali-2020" target="_blank"><i class="icon-twitter-sign"></i> Twitter</a></li>
+        <li class="nav-item"><a href="https://www.facebook.com/sharer.php?u=https://data.civis.bz.it/it/dataset/elezioni-comunali-2020" target="_blank"><i class="icon-facebook-sign"></i> Facebook</a></li>
+      </ul>
+    
+  </section>
+
+<!-- Snippet snippets/social.html end -->
+
+  
+
+  
+    
+<!-- Snippet snippets/license.html start -->
+
+
+
+
+
+  
+    
+      
+        <section class="module module-narrow module-shallow license">
+          
+            <h2 class="module-heading"><i class="icon-medium icon-lock"></i> Licenza</h2>
+          
+          
+            <p class="module-content">
+              
+                
+  
+    <a href="http://creativecommons.org/licenses/by-nd/4.0/deed.it" rel="dc:rights">Creative Commons CC-BY ND 4.0</a>
+  
+
+                
+                  <a href="http://opendefinition.org/okd/" title="Questo dataset è conforme alla Open Definition.">
+                      <img class="open-data" src="/base/images/od_80x15_blue.png" alt="[Open Data]" />
+                  </a>
+                
+              
+            </p>
+          
+        </section>
+      
+    
+  
+
+<!-- Snippet snippets/license.html end -->
+
+  
+
+
+              </aside>
+            
+          </div>
+        
+      </div>
+    </div>
+  
+    
+
+<footer class="site-footer">
+  <div class="container ck-row-footer">
+    	
+	  <div class="footer-left">
+		<nav class="footer-links">
+			
+			  <ul class="unstyled footer-lks">
+				
+				  <!--li><a href="/it/about">Informazioni Open Data Portal South Tyrol</a></li-->
+				  <li>
+					  <a href=/it/info>
+						  <i class="icon-comment footer_icon"></i>
+						  Informazioni Open data Alto Adige
+					  </a>
+				  </li>
+				  <li>
+					  <a href=/it/faq>
+						  <i class="icon-question footer_icon"></i>
+						  Domande frequenti
+					  </a>
+				  </li>
+				  <li>
+					  <a href="/revision/list?format=atom">
+						<i class="icon-rss footer_icon"></i> 
+						Atom Feed
+					  </a>
+				  </li>
+				  <li>
+					<a href=/it/acknowledgements>
+					  <i class="icon-user footer_icon"></i>
+					  Ringraziamenti
+					</a>
+				  </li>
+				  <li>
+					<a href=/it/legal>
+					  <i class="icon-legal footer_icon"></i>
+					  Note legali
+					</a>
+				  </li>
+				  <li>
+					<a href=/it/privacy>
+					  <i class="icon-key footer_icon"></i>
+					  Privacy
+					</a>
+				  </li>
+				  <li>
+					<a href="mailto:opendata@retecivica.bz.it">
+					  <i class="icon-share-alt footer_icon"></i>
+					  Contattaci
+					</a>
+				  </li>
+				  <li>
+					
+						<a href="http://www.retecivica.bz.it/it/cookie.asp" target="_blank">
+						  <i class="icon-bullseye footer_icon"></i>
+						  Cookie
+						</a>
+					
+				  </li>
+				
+			  </ul>
+
+			  <ul class="unstyled copyrights">
+				  <li>
+					
+					  © 2015 Provincia autonoma di Bolzano - Informatica Alto Adige SPA • Cod. Fisc.: 00390090215
+					  PEC: 
+					  <a href="mailto:generaldirektion.direzionegenerale@pec.prov.bz.it">
+						generaldirektion.direzionegenerale@pec.prov.bz.it
+				      </a>
+					
+				  </li>
+			  </ul>
+			
+		</nav>	  
+	  </div>
+	  
+	  <div class="footer-center">	
+		<nav class="footer-links">	  
+			<ul class="unstyled">
+				
+				  
+
+				  <li><a href="http://docs.ckan.org/en/ckan-2.4.3/api/index.html">CKAN API</a></li>
+				  <li><a href="http://www.okfn.org/">Open Knowledge Foundation</a></li>
+				  <li><a href="http://www.opendefinition.org/okd/"><img src="http://assets.okfn.org/images/ok_buttons/od_80x15_blue.png"></a></li>
+				  <li>
+					<p class="powered-by">
+					   <strong>Realizzato con</strong> <a class="ckan-footer-logo" href="http://ckan.org"><span class="sr-only">CKAN</span></a>
+					</p>
+				  </li>
+				
+			</ul>
+		</nav>
+	  </div>
+	  
+      <div class="attribution footer-right">
+        
+        
+		<img src="/images/logo/opendata_suedtirol_logo_bw.png" alt="Logo Open Data Alto Adige" class="logo_footer">
+		
+		<!-- User Login part -->
+		
+          <!--nav class="account not-authed">
+            <ul class="unstyled">
+              
+            </ul>
+          </nav-->
+          <nav class="account not-authed">
+            <ul class="unstyled">
+              
+	              
+
+                     
+                      <li><i class="icon-lock"></i><a href="/it/user/login">AREA RISERVATA</a></li>
+
+	              
+              
+            </ul>
+          </nav>
+        
+		
+		
+          
+<!-- Snippet snippets/language_selector.html start -->
+
+
+
+
+
+<form class="form-inline form-select lang-select" action="/it/util/redirect" data-module="select-switch" method="POST">
+  <label for="field-lang-select">Lingua</label>
+  <br/>
+  <select id="field-lang-select" name="url" data-module="autocomplete" data-module-dropdown-class="lang-dropdown" data-module-container-class="lang-container">
+    
+        <option value="/it/dataset/elezioni-comunali-2020" selected="selected">
+          italiano
+        </option>
+    
+        <option value="/de/dataset/elezioni-comunali-2020" >
+          Deutsch
+        </option>
+    
+  </select>
+  <button class="btn js-hide" type="submit">Vai</button>
+</form>
+<!-- Snippet snippets/language_selector.html end -->
+
+        
+      </div>
+	  
+    
+  </div>
+
+  
+    
+  
+</footer>
+  
+    
+    
+    
+
+    
+
+    
+
+  
+    
+
+  
+      
+  
+    
+
+    
+  
+
+  <script>document.getElementsByTagName('html')[0].className += ' js';</script>
+<script type="text/javascript" src="/fanstatic/vendor/:version:2015-09-11T23:51:43.44/jquery.min.js"></script>
+<script type="text/javascript" src="/fanstatic/vendor/:version:2015-09-11T23:51:43.44/:bundle:bootstrap/js/bootstrap.min.js;jed.min.js;select2/select2.min.js"></script>
+<script type="text/javascript" src="/fanstatic/base/:version:2015-09-11T23:51:43.44/:bundle:plugins/jquery.inherit.min.js;plugins/jquery.proxy-all.min.js;plugins/jquery.url-helpers.min.js;plugins/jquery.date-helpers.min.js;plugins/jquery.slug.min.js;plugins/jquery.slug-preview.min.js;plugins/jquery.truncator.min.js;plugins/jquery.masonry.min.js;plugins/jquery.form-warning.min.js;sandbox.min.js;module.min.js;pubsub.min.js;client.min.js;notify.min.js;i18n.min.js;main.min.js;modules/select-switch.min.js;modules/slug-preview.min.js;modules/basic-form.min.js;modules/confirm-action.min.js;modules/api-info.min.js;modules/autocomplete.min.js;modules/custom-fields.min.js;modules/related-item.min.js;modules/data-viewer.min.js;modules/table-selectable-rows.min.js;modules/resource-form.min.js;modules/resource-upload-field.min.js;modules/resource-reorder.min.js;modules/resource-view-reorder.min.js;modules/follow.min.js;modules/activity-stream.min.js;modules/dashboard.min.js;modules/resource-view-embed.min.js;view-filters.min.js;modules/resource-view-filters-form.min.js;modules/resource-view-filters.min.js;modules/table-toggle-more.min.js;modules/dataset-visibility.min.js;modules/media-grid.min.js;modules/image-upload.min.js"></script>
+<script type="text/javascript" src="/fanstatic/ckanext-provbz/:version:2017-01-30T14:29:51.05/:bundle:cookiechoices/cookiechoices.js;base.js"></script>
+<script type="text/javascript" src="/fanstatic/pages/:version:2015-10-23T16:11:24.80/:bundle:js/medium-editor.min.js;js/pages-editor.js"></script></body>
+</html>

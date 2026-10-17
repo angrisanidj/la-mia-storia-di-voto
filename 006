@@ -1,0 +1,654 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it">
+<head>
+    
+
+                                                                                            
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o?o:n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({QJf3ax:[function(e,n){function t(e){function n(n,t,a){e&&e(n,t,a),a||(a={});for(var u=c(n),f=u.length,s=i(a,o,r),p=0;f>p;p++)u[p].apply(s,t);return s}function a(e,n){f[e]=c(e).concat(n)}function c(e){return f[e]||[]}function u(){return t(n)}var f={};return{on:a,emit:n,create:u,listeners:c,_events:f}}function r(){return{}}var o="nr@context",i=e("gos");n.exports=t()},{gos:"7eSDFh"}],ee:[function(e,n){n.exports=e("QJf3ax")},{}],3:[function(e,n){function t(e){return function(){r(e,[(new Date).getTime()].concat(i(arguments)))}}var r=e("handle"),o=e(1),i=e(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(e,n){window.NREUM[n]=t("api-"+n)}),n.exports=window.NREUM},{1:12,2:13,handle:"D5DuLP"}],"7eSDFh":[function(e,n){function t(e,n,t){if(r.call(e,n))return e[n];var o=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return e[n]=o,o}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],gos:[function(e,n){n.exports=e("7eSDFh")},{}],handle:[function(e,n){n.exports=e("D5DuLP")},{}],D5DuLP:[function(e,n){function t(e,n,t){return r.listeners(e).length?r.emit(e,n,t):(o[e]||(o[e]=[]),void o[e].push(n))}var r=e("ee").create(),o={};n.exports=t,t.ee=r,r.q=o},{ee:"QJf3ax"}],id:[function(e,n){n.exports=e("XL7HBI")},{}],XL7HBI:[function(e,n){function t(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:i(e,o,function(){return r++})}var r=1,o="nr@id",i=e("gos");n.exports=t},{gos:"7eSDFh"}],G9z0Bl:[function(e,n){function t(){var e=d.info=NREUM.info,n=f.getElementsByTagName("script")[0];if(e&&e.licenseKey&&e.applicationID&&n){c(p,function(n,t){n in e||(e[n]=t)});var t="https"===s.split(":")[0]||e.sslForHttp;d.proto=t?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=d.proto+e.agent,n.parentNode.insertBefore(r,n)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=e("handle"),c=e(1),u=(e(2),window),f=u.document,s=(""+location).split("?")[0],p={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-632.min.js"},d=n.exports={offset:i(),origin:s,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),u.addEventListener("load",t,!1)):(f.attachEvent("onreadystatechange",r),u.attachEvent("onload",t)),a("mark",["firstbyte",i()])},{1:12,2:3,handle:"D5DuLP"}],loader:[function(e,n){n.exports=e("G9z0Bl")},{}],12:[function(e,n){function t(e,n){var t=[],o="",i=0;for(o in e)r.call(e,o)&&(t[i]=n(o,e[o]),i+=1);return t}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],13:[function(e,n){function t(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(0>o?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=t},{}]},{},["G9z0Bl"]);</script>
+
+<meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta name="Content-Type" content="text/html; charset=utf-8" /><meta name="Content-language" content="it-IT" /><meta name="author" content="eZ Systems" /><meta name="copyright" content="eZ Systems" /><meta name="description" content="Content Management System" /><meta name="keywords" content="cms, publish, e-commerce, content management, development framework" />
+<meta name="MSSmartTagsPreventParsing" content="TRUE" />
+<meta name="generator" content="eZ Publish with OpenContent OpenPA Extension" />
+
+<title>        Elezioni comunali 2015 - risultati 10 maggio 2015 / Avvisi e news / Comunicazioni / Entra in Comune / Sito ufficiale del Comune di Rovereto - Comune di Rovereto
+    </title>
+    
+<link rel="Home" href="/" title="Comune di Rovereto pagina iniziale" />
+<link rel="Index" href="/" />
+<link rel="Top"  href="/" title="        Elezioni comunali 2015 - risultati 10 maggio 2015 / Avvisi e news / Comunicazioni / Entra in Comune / Sito ufficiale del Comune di Rovereto - Comune di Rovereto
+    " />
+<link rel="Search" href="/content/advancedsearch" title="Cerca Comune di Rovereto" />
+<link rel="Shortcut icon" href="/extension/openpa_designs/design/rovereto-evoq/images/favicon.ico" type="image/x-icon" />
+<link rel="Copyright" href="/ezinfo/copyright" />
+<link rel="Author" href="/ezinfo/about" />
+<link rel="Alternate" type="application/rss+xml" title="RSS" href="/rss/feed/my_feed" />
+<script type="text/javascript">
+(function() {
+    var head = document.getElementsByTagName('head')[0];
+    var printNode = document.createElement('link');
+    printNode.rel = 'Alternate';
+    printNode.href = "/layout/set/print/Entra-in-Comune/Comunicazioni/Avvisi-e-news/Elezioni-comunali-2015-risultati-10-maggio-2015" + document.location.search;
+    printNode.media = 'print';
+    printNode.title = "Versione stampabile";
+    head.appendChild(printNode);
+})();
+</script><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+
+
+
+    
+<link rel="stylesheet" type="text/css" href="/var/rovereto/cache/public/stylesheets/rovereto_frontend_comune.css?_=1442305957" />
+
+
+
+
+
+<script type="text/javascript" src="/var/rovereto/cache/public/javascript/2deec9ede189ff6af390464283e82909.js" charset="utf-8"></script>
+
+
+<!--[if lt IE 9]>
+<script src="/extension/openpa_designs/design/openpa_design_responsive/javascript/html5shiv.js"></script>
+<script src="/extension/openpa_designs/design/openpa_design_responsive/javascript/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  
+<script src="/extension/openpa/design/standard/javascript/cookiechoices.js"></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function(event) {cookieChoices.showCookieConsentBar("I cookie ci aiutano ad erogare servizi di qualità. Utilizzando i nostri servizi, l'utente accetta le nostre modalità d'uso dei cookie.",'OK','Maggiori informazioni','http://www.comune.rovereto.tn.it/openpa/cookie');});
+</script>
+
+
+<!--[if lt IE 7]>
+<div class="alert alert-info">
+<p class="browsehappy">Stai usando un browser <strong>obsoleto</strong>. <a href="http://browsehappy.com/">Aggiornalo</a> e navigherai più felice.</p>
+</div>
+<![endif]-->
+
+
+<div id="page">
+
+    
+            
+<div id="header" class="container comune">
+    
+    <div class="row" >
+    <div class="col-md-7">
+        <h1 id="logo">
+            <a href="/" title="Comune di Rovereto">
+                <img src="/extension/openpa_designs/design/rovereto-evoq/images/comune/stemma.jpg" alt="Stemma Comune di Rovereto"/>
+                <span class="sitename">
+                    <span class="main">Comune di Rovereto</span>
+                    <span class="detail">Provincia di Trento</span>
+                </span>
+            </a>
+        </h1>
+    </div>
+    <div class="col-md-5">
+        <div class="row">
+                        <div class="col-xs-2">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Mostra menu</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+                        <div class="col-xs-10">
+                <form action="/content/search" id="searchbox">
+                    <fieldset>
+                        <legend class="hide">Strumenti di ricerca</legend>
+                        <label for="searchbox_text" class="hide">Cerca</label>
+                         
+                            <input id="searchbox_text" name="SearchText" type="text" />
+                            <button class="btn-link" type="submit"><img src="/extension/openpa_designs/design/rovereto-evoq/images/comune/searchbutton.png" alt="Cerca" /></button>
+                                                                        
+                                                <input type="hidden" value="Cerca" name="SearchButton" />                    
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>    
+    <div class="row" id="main-nav">
+        <div class="col-md-3 col-xs-6 section-name active">
+            <a href="/Entra-in-Comune">Entra in Comune</a>
+        </div>
+        <div class="col-md-3 hidden-sm hidden-xs section-slug active">
+            
+<p>Tutte le informazioni sui servizi erogati&nbsp;e sull’Amministrazione&nbsp;</p>        </div>
+        <div class="col-md-3 col-xs-6 section-name">            
+            <a href="/Vivi-la-citta">Vivi la città</a>
+        </div>
+        <div class="col-md-3 hidden-sm hidden-xs section-slug">
+            
+<p>Natura e cultura, tradizione e contemporaneità. Scoprila e vivila!</p>        </div>
+    </div>
+    
+    <div class="collapse navbar-collapse navbar-menu-collapse">    
+        <ul id="top-menu" class="nav nav-justified">
+                
+                
+                        
+        <li><a href="/Entra-in-Comune/Organi-e-uffici">Organi e uffici</a></li>
+                
+                        
+        <li><a href="/Entra-in-Comune/Atti-e-documenti">Atti e documenti</a></li>
+                
+                        
+        <li><a href="/Entra-in-Comune/Servizi-erogati">Servizi erogati</a></li>
+                
+                        
+        <li class="active"><a href="/Entra-in-Comune/Comunicazioni">Comunicazioni</a></li>
+                
+                        
+        <li><a href="/Entra-in-Comune/Amministrazione-trasparente">Amministrazione trasparente </a></li>
+            </ul>
+    </div>
+        
+<h2 class="hide">Ti trovi in:</h2>
+<ol class="breadcrumb">
+   
+      
+                
+    	                        <li><a href="/">
+                                    Home
+                            </a></li>
+                    
+                        
+    	                        <li><a href="/Entra-in-Comune">
+                                    Entra in Comune
+                            </a></li>
+                    
+                        
+    	                        <li><a href="/Entra-in-Comune/Comunicazioni">
+                                    Comunicazioni
+                            </a></li>
+                    
+                        
+    	                        <li><a href="/Entra-in-Comune/Comunicazioni/Avvisi-e-news">
+                                    Avvisi e news
+                            </a></li>
+                    
+                        
+    	                        <li class="active">Elezioni comunali 2015 - risultati 10 maggio 2015</li>
+                    
+            
+</ol>        
+    
+</div>
+
+<div id="content" class="container comune">
+    
+    
+
+    <div class="row">
+    
+                        
+        <div class="col-md-2 leftmenu">
+            
+    <nav class="menu-left">
+    <div class="collapse navbar-collapse navbar-ex1-collapse">    	
+        
+    
+	        <ul class="menu-list">
+                            
+                                                    <li class="firstli">
+                    <a href="/Entra-in-Comune/Comunicazioni/Press-Room">
+                        <span>Press Room</span>
+                    </a>
+            
+                        </li>
+                                    
+                                                    <li>
+                    <a href="/Entra-in-Comune/Comunicazioni/Avvisi-e-news" class="selected">
+                        <span>Avvisi e news</span>
+                    </a>
+            
+                                                                                </li>
+                                    
+                                                    <li>
+                    <a href="/Entra-in-Comune/Comunicazioni/URP-Ufficio-relazioni-con-il-pubblico">
+                        <span>URP - Ufficio relazioni con il pubblico</span>
+                    </a>
+            
+                        </li>
+                                    
+                                                    <li>
+					<a href="http://www.lineamica.gov.it/" title="Linea amica" class="menu-item-link" rel="/Entra-in-Comune/Comunicazioni/Linea-amica">
+						<span>Linea amica </span>
+					</a>				
+            
+                        </li>
+                                    
+                                                    <li>
+                    <a href="/Entra-in-Comune/Comunicazioni/Notiziario-del-Comune">
+                        <span>Notiziario del Comune </span>
+                    </a>
+            
+                        </li>
+                                    
+                                                    <li>
+                    <a href="/Entra-in-Comune/Comunicazioni/Albo-associazioni">
+                        <span>Albo associazioni</span>
+                    </a>
+            
+                        </li>
+                                    
+                                                                                <li class="lastli">
+                    <a href="/Entra-in-Comune/Comunicazioni/web-tv">
+                        <span>web-tv</span>
+                    </a>
+            
+                        </li>
+                        </ul>
+            </div>
+    </nav>
+
+    </div>
+           
+    <div class="body col-md-10">         
+        
+<div class="class-avviso row">
+	<div class="col-md-12">
+
+        <h1>Elezioni comunali 2015 - risultati 10 maggio 2015</h1>
+        
+        
+            <p class="last-modified">
+    <em>Aggiornato a Lunedì, 25 Maggio 2015</em>
+      	</p>
+        
+        
+        
+
+     
+    
+        
+        
+<div class="attributi-principali clearfix">
+	                
+        <div class="main-image pull-left">
+            
+    
+        
+    
+                                                                                                                                            <img src="/var/rovereto/storage/images/entra-in-comune/comunicazioni/avvisi-e-news/elezioni-comunali-2015-risultati-10-maggio-2015/982036-6-ita-IT/Elezioni-comunali-2015-risultati-10-maggio-2015_medium.jpg" class="img-responsive"  alt="facciata palazzo comunale" title="facciata palazzo comunale" />
+            
+    
+    
+            </div>        
+        
+
+    
+        
+    
+
+</div>
+        
+        
+                                <div class="attributi-base">
+        
+
+    		
+        		
+        	 
+					
+        		
+        	 
+					
+        		
+        	                
+                				
+				
+                				   <div class="row attribute-descrizione">
+					<div class="col-md-12">
+													
+<p>Nel link sotto riportato:</p><p>collegamento al sito della Regione Trentino-Alto Adige per la visualizzazione di tutti i risultati del voto della tornata di domenica 10 maggio 2015, con i voti riferiti ai candidati sindaci, i voti di lista ed i voti di preferenza;</p><p>risultati dei consigli circoscrizionali suddivisi per: Voti di lista, Voti ai candidati e Dati affluenza</p>											</div>
+				   </div>
+							 
+					
+        					
+					
+        					
+					
+        					
+					
+        					
+					
+        		
+        	 
+					
+        					
+					
+        					
+					
+        		
+        	 
+					
+        		
+        	 
+					
+        					
+					
+        					
+					
+        					
+			</div>            
+        
+        
+         
+        
+        
+        
+        
+           
+        
+    
+    
+
+            <div class="panel panel-default">
+            <div class="panel-heading">
+                <h2>Informazioni correlate:</h2>
+            </div>
+                		 
+                         
+                                                                                                
+                                    
+                                         
+                                                                                                                                                                                                                                                                                                                                                                                        
+                                    
+                                         
+                                                                                                                                                                                                                                                                                                
+                                    
+                                
+            <div class="table-responsive">
+            <table class="table table-compressed table-striped advanced_search" cellspacing="0" cellpadding="0" border="0">
+                <thead>
+                    <tr>
+                    <th>Contenuto</th>
+                    <th>Data</th>
+                    </tr>
+                </thead>
+                <tbody>
+                                                                            
+                        <tr class="">
+
+<td>
+	
+    <h4>
+        <a href="/Elezioni-e-referendum/Elezioni-comunali-e-circoscrizionali-2015/Liste-candidati-e-risultati/Elezione-del-Sindaco-e-del-Consiglio-comunale">Elezione del Sindaco e del Consiglio comunale</a>
+        <small>Pagina del sito</small>
+    </h4>
+    
+    <a href="/Elezioni-e-referendum/Elezioni-comunali-e-circoscrizionali-2015/Liste-candidati-e-risultati/Elezione-del-Sindaco-e-del-Consiglio-comunale"><small>Elezioni-e-referendum/Elezioni-comunali-e-circoscrizionali-2015/Liste-candidati-e-risultati/Elezione-del-Sindaco-e-del-Consiglio-comunale</small></a>
+                
+        <p>
+        
+Risultati tornata elettorale del 10 maggio 2015 e liste di candidati presentate
+    </p>
+            
+
+</td>
+
+
+<td>
+    Giovedì, 23 Aprile 2015
+</td>
+
+</tr>
+                                                                                                
+                        <tr class="">
+
+<td>
+	
+    <h4>
+        <a href="/Elezioni-e-referendum/Elezioni-comunali-e-circoscrizionali-2015/Liste-candidati-e-risultati/Elezione-dei-Consigli-circoscrizionali/Risultati-elezioni-circoscrizionali">Risultati elezioni circoscrizionali</a>
+        <small>Pagina del sito</small>
+    </h4>
+    
+    <a href="/Elezioni-e-referendum/Elezioni-comunali-e-circoscrizionali-2015/Liste-candidati-e-risultati/Elezione-dei-Consigli-circoscrizionali/Risultati-elezioni-circoscrizionali"><small>Elezioni-e-referendum/Elezioni-comunali-e-circoscrizionali-2015/Liste-candidati-e-risultati/Elezione-dei-Consigli-circoscrizionali/Risultati-elezioni-circoscrizionali</small></a>
+                
+        <p>
+        
+Ecco i risultati nelle varie circoscrizioni, aggiornati al 14 maggio 2015.
+    </p>
+            
+
+</td>
+
+
+<td>
+    Lunedì, 11 Maggio 2015
+</td>
+
+</tr>
+                                                    </tbody>
+            </table>
+            </div>
+                        
+        </div>
+                         
+           
+        
+    
+        
+        
+
+                
+        
+        
+    
+           
+                
+                
+            
+                    
+                                
+        
+                    
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+                                        
+                 
+            
+        
+                
+        
+            
+    </div>
+</div>
+    
+    </div>
+    
+    
+        	
+    
+    </div>
+    
+    
+    
+
+    
+    
+<div class="row well valuation">
+    <div class="col-md-12">
+    <h4>Aiutaci a migliorare il sito web</h4>
+    <form action="/content/action" method="post" >
+        
+        <div class="row"> 
+            <div class="col-lg-6">
+                            
+                    <input type="hidden" value="" name="ContentObjectAttribute_ezselect_selected_array_73848" />                
+                    <label class="control-label">Hai trovato utile, corretta e completa l'informazione?</label>
+                    <div class="utilita-container">
+                        <div class="utilita">
+                            <label for="utilita1"><input id="utilita1" type="radio" value="0" name="ContentObjectAttribute_ezselect_selected_array_73848[]" /> per nulla</label>
+                        </div>
+                        <div class="utilita">
+                            <label for="utilita2"><input id="utilita2" type="radio" value="1" name="ContentObjectAttribute_ezselect_selected_array_73848[]" /> poco</label>
+                        </div>
+                        <div class="utilita">
+                            <label for="utilita3"><input id="utilita3" type="radio" value="2" name="ContentObjectAttribute_ezselect_selected_array_73848[]" /> abbastanza</label>
+                        </div>
+                        <div class="utilita">
+                            <label for="utilita4"><input id="utilita4" type="radio" value="3" name="ContentObjectAttribute_ezselect_selected_array_73848[]" /> molto</label>
+                        </div>
+                    </div>            
+                                
+                                <div class="form-group">
+                    <label for="helpemail_aiutaci" class="control-label">Il mio indirizzo e-mail (facoltativo)</label>                
+                    <input id="helpemail_aiutaci" class="form-control" type="text" value="" name="ContentObjectAttribute_ezstring_data_text_73851"  />                
+                </div>
+                                
+                
+                <link rel="stylesheet" type="text/css" href="/extension/nxc_captcha/design/standard/stylesheets/nxc.captcha.css" />
+
+                <script type="text/javascript" src="/extension/nxc_captcha/design/standard/javascript/nxc.captcha.js" charset="utf-8"></script>
+
+                
+                                                
+                                                        
+                    <label for="nxc-captcha-collection-input-236050" class="control-label">Antispam</label>
+                    <p>
+                        <img id="nxc-captcha-236050" alt="Secure code" title="Secure code" src="/nxc_captcha/get/3710/nxc_captcha_collection_attribute_236050/1" />
+                        <a href="/nxc_captcha/get/3710/nxc_captcha_collection_attribute_236050/1" class="nxc-captcha-regenerate" id="nxc-captcha-regenerate-236050">Ricarica</a>
+                    </p>
+                    <p>
+                        <input class="captcha-input form-control" id="nxc-captcha-collection-input-236050" type="text" name="nxc_captcha_236050" value="" size="4" maxlength="4" />
+                    </p>
+                                
+                    
+                
+            </div>
+            
+            <div class="col-lg-6">           
+                                <div class="form-group">
+                    <label for="helpcomment" class="control-label">Osservazioni riguardanti questa pagina:</label>
+                    <textarea style="height: 240px" id="helpcomment" class="form-control" name="ContentObjectAttribute_ezstring_data_text_73850" cols="20" rows="4"></textarea>                
+                </div>
+                            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <input class="box" type="hidden" value="Nodo: 98948; Oggetto:99702; Versione: 14; Titolo: Elezioni comunali 2015 - risultati 10 maggio 2015" name="ContentObjectAttribute_ezstring_data_text_73852" />	
+                <input class="box" type="hidden" value="http://www.comune.rovereto.tn.it/Entra-in-Comune/Comunicazioni/Avvisi-e-news/Elezioni-comunali-2015-risultati-10-maggio-2015" name="ContentObjectAttribute_ezstring_data_text_73853" />
+                <input type="hidden" value="4911" name="TopLevelNode"/>
+                <input type="hidden" value="4911" name="ContentNodeID"/>
+                <input type="hidden" value="5345" name="ContentObjectID"/>
+                <input type="hidden" name="ViewMode" value="full" />            
+                <input class="defaultbutton pull-right" type="submit" value="Invia la valutazione" name="ActionCollectInformation"/>
+            </div>
+        </div>
+    </form>
+
+    </div>
+</div>            
+    
+        
+    
+</div>
+         
+
+<div id="footer">
+    
+    <div id="footer-menu" style="background-image: none">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h4><a href="/Entra-in-Comune" title="Link a Entra in Comune">Entra in Comune</a></h4>
+                    <ul>
+                                                                                                <li><a href="/Entra-in-Comune/Organi-e-uffici" title="Link a Organi e uffici">Organi e uffici</a></li>
+                                                                        <li><a href="/Entra-in-Comune/Atti-e-documenti" title="Link a Atti e documenti">Atti e documenti</a></li>
+                                                                        <li><a href="/Entra-in-Comune/Servizi-erogati" title="Link a Servizi erogati">Servizi erogati</a></li>
+                                                                        <li><a href="/Entra-in-Comune/Comunicazioni" title="Link a Comunicazioni">Comunicazioni</a></li>
+                                                                        <li><a href="/Entra-in-Comune/Amministrazione-trasparente" title="Link a Amministrazione trasparente ">Amministrazione trasparente </a></li>
+                                            </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4><a href="/Vivi-la-citta" title="Link a Vivi la città">Vivi la città</a></h4>
+                    <ul>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <li><a href="/Vivi-la-citta/Calendario" title="Link a Calendario">Calendario</a></li>
+                                                                                                <li><a href="/Vivi-la-citta/Cultura" title="Link a Cultura">Cultura</a></li>
+                                                                        <li><a href="/Vivi-la-citta/Ambiente" title="Link a Ambiente">Ambiente</a></li>
+                                                                        <li><a href="/Vivi-la-citta/Sport" title="Link a Sport">Sport</a></li>
+                                                                        <li><a href="/Vivi-la-citta/Persona" title="Link a Persona">Persona</a></li>
+                                                                        <li><a href="/Vivi-la-citta/Info-utili" title="Link a Info utili">Info utili</a></li>
+                                            </ul>
+                </div>
+                <div class="col-md-4">
+                    <p class="social-links">
+                        <a href="https://www.facebook.com/ComuneDiRovereto" title="Link a Facebook"><img src="/extension/openpa_designs/design/rovereto-evoq/images/comune/facebook-comune.png" alt="Facebook" /></a>
+                        <a href="https://twitter.com/ComuneRovereto" title="Link a Twitter"><img src="/extension/openpa_designs/design/rovereto-evoq/images/comune/twitter-comune.png" alt="Twitter" /></a>
+                        <span>Rovereto è social!</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer-contact" class="container">
+        <div class="row">
+            <div class="col-md-8 vcard">
+                <p><strong class="fn org">Comune di Rovereto</strong></p>
+                <p><span class="adr"><span class="street-address">piazza Podestà, 11</span> - <span class="postal-code">38068</span> <span class="locality">Rovereto</span> <abbr class="region" title="Trento">TN</abbr></span> - 
+                    <span class="tel"><span class="type">tel.</span> 0464 452 111</span> -
+                    <span class="tel"><span class="type">fax</span> 0464 452 433</span> <br />
+                    e-mail <a class="email" href="mailto:urp@comune.rovereto.tn.it">urp<span class="spamfilter">SPAMFILTER</span>@comune.rovereto.tn.it</a> - Skype <a class="email" href="skype:comune.rovereto.skype?call">comune.rovereto.skype</a> <br />
+                    posta elettronica certificata (p.e.c.) <a class="email" href="mailto:comunerovereto.tn@legalmail.it">comunerovereto.tn<span class="spamfilter">SPAMFILTER</span>@legalmail.it</a> <br />
+                    partita iva / codice fiscale  00125390229
+                </p>
+            </div>
+            <div class="col-md-4 info">
+                                
+                <p><strong>Informazioni su questo sito web</strong></p>
+                <ul>
+                                            <li><a href="/Informazioni/Redazione-sito" title="Link a Redazione sito">Redazione sito</a></li>
+                                            <li><a href="/Informazioni/Privacy" title="Link a Privacy">Privacy</a></li>
+                                            <li><a href="/Informazioni/Note-legali" title="Link a Note legali">Note legali</a></li>
+                                            <li><a href="/Informazioni/Elenco-siti-tematici" title="Link a Elenco siti tematici">Elenco siti tematici</a></li>
+                                        
+                                        <li><a href="/user/login?url=/Entra-in-Comune/Comunicazioni/Avvisi-e-news/Elezioni-comunali-2015-risultati-10-maggio-2015" title="Login al sistema">Accesso redazione</a></li>
+                                    </ul>
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+
+</div>
+<script type="text/javascript">
+<!--
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-40978163-16']);
+    _gaq.push(['_trackPageview']);
+    
+    (function() {    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+-->
+</script>
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["trackPageView"]);
+  _paq.push(["enableLinkTracking"]);
+
+  (function() {    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://www2.comune.rovereto.tn.it/piwik/";
+    _paq.push(["setTrackerUrl", u+"piwik.php"]);
+    _paq.push(["setSiteId", "2"]);
+    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+    g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Piwik Code -->
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"eda20603fe","applicationID":"11188372","transactionName":"YwFUYUZWCBZYVRFcWlpLY0ddGA8LXVMdG0VcFA==","queueTime":0,"applicationTime":865,"atts":"T0ZXFw5MGxg=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
+</html>

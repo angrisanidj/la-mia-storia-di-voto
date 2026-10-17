@@ -1,0 +1,6 @@
+001 http://web.archive.org/web/20210124212034id_/https://data.civis.bz.it/it/dataset/elezioni-comunali-2020
+002 http://web.archive.org/web/20230922151453id_/https://data.civis.bz.it/it/dataset/risultati-elezioni-comunali-2021
+003 http://web.archive.org/web/20250909233325id_/https://data.civis.bz.it/it/dataset/risultati-elezioni-comunali-2025
+004 http://web.archive.org/web/20260415042019id_/https://data.civis.bz.it/it/dataset/risultati-elezioni-comunali-extra-turno-2024-del-26-05-08-06-09-06-2024
+005 https://www.comune.rovereto.tn.it/Documenti-e-dati/Documenti-attivita-politica/Elezioni-comunali-e-circoscrizionali-2024
+006 http://web.archive.org/web/2015id_/http://www.comune.rovereto.tn.it/Entra-in-Comune/Comunicazioni/Avvisi-e-news/Elezioni-comunali-2015-risultati-10-maggio-2015

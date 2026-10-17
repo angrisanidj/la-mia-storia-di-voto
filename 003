@@ -1,0 +1,2488 @@
+
+<!DOCTYPE html>
+<!--[if IE 9]> <html lang="it" class="ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="it"  > <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+      <meta name="csrf_field_name" content="_csrf_token" />
+      <meta name="_csrf_token" content="IjMxODIxMDU2ZTNkNzc2NDEwNDkwYjUwZjMwMDQ1OWM3ZDYxZWMxNjUi.aMC5RQ.hhgqX1GHi6qS6iFhHIvLEWGP_-Q" />
+
+      <meta name="generator" content="ckan 2.10.7" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta property="og:image" content="https://data.civis.bz.it/images/logo/opendata_suedtirol_logo_600x315.png"/>
+
+    <title>Portale OpenData Bolzano</title>
+
+    
+    
+
+    <link rel="shortcut icon" href="/images/icons/favicon-bz.ico" />
+    
+
+    
+      
+          <link rel="alternate" type="text/n3" href="https://data.civis.bz.it/it/dataset/238950c8-af0a-48bd-82ee-da72978ec034.n3"/>
+          <link rel="alternate" type="text/turtle" href="https://data.civis.bz.it/it/dataset/238950c8-af0a-48bd-82ee-da72978ec034.ttl"/>
+          <link rel="alternate" type="application/rdf+xml" href="https://data.civis.bz.it/it/dataset/238950c8-af0a-48bd-82ee-da72978ec034.xml"/>
+          <link rel="alternate" type="application/ld+json" href="https://data.civis.bz.it/it/dataset/238950c8-af0a-48bd-82ee-da72978ec034.jsonld"/>
+      
+    
+
+   
+  
+    
+   
+      
+      
+      
+    
+   <link rel="stylesheet" href="/css/multilang.css" type="text/css">
+
+    
+
+  
+
+   <link rel="canonical" href="https://data.civis.bz.it/" />
+   
+
+
+    
+      
+      
+    
+  
+  <meta property="og:title" content="Risultati Elezioni Comunali 2025 - Open Data Portal South Tyrol">
+  <meta property="og:description" content="Il dataset contiene i risultati ufficiali delle ultime elezioni comunali per comune della regione. La titolarità piena ed esclusiva del dataset &amp;#34;Risultati Elezioni Comunali 2025&amp;#34; è del/la Regione...">
+
+
+    
+    <link href="/webassets/base/1c87a999_main.css" rel="stylesheet"/>
+<link href="/webassets/ckanext-harvest/c95a0af2_harvest_css.css" rel="stylesheet"/>
+<link href="/webassets/ckanext-activity/6ac15be0_activity.css" rel="stylesheet"/>
+<link href="/webassets/provbz/826287ff_provbz.css" rel="stylesheet"/>
+    
+  </head>
+
+  
+  <body data-site-root="https://data.civis.bz.it/" data-locale-root="https://data.civis.bz.it/it/" >
+
+    
+    <div class="visually-hidden-focusable"><a href="#content">Skip to main content</a></div>
+  
+
+  
+    
+
+ 
+  <div class="masthead masthead-top">
+    <div class="container">
+        <div class="content">
+          <a class="civis-a-link" href="https://civis.bz.it/" target="_blank">
+            <div class="civis-link">
+              <div class="civis-logo"></div> CIVIS.<span>bz.it <i class="icon-chevron-right"></i></span>
+            </div>
+          </a>
+        </div>
+    </div>
+  </div>
+
+
+<div class="masthead">
+      
+  <div class="container ck-row">
+    
+    <hgroup class="header-image">
+
+      
+        
+        
+         <a id="logo" rel="Home" title="Open Data Portal South Tyrol" href="/it/">
+    			 <img src="/images/logo/opendata_suedtirol_logo.png" alt="Open Data Portal South Tyrol" title="Open Data Portal South Tyrol"/>  
+    		  </a>
+        
+      
+    </hgroup>
+  </div>
+</div>
+<header class="masthead masthead-navbar">
+  <div class="container">
+      <div class="content">
+        
+          <nav class="section navigation">
+            <ul class="nav nav-pills navbar">
+              
+
+              
+              
+               <li class="active"><a href="/it/dataset/">Dataset</a></li><li><a href="/it/organization/">Organizzazioni</a></li><li><a href="/it/group/">Categorie</a></li><li><a href="/it/about">Informazioni</a></li><li><a href="/it/faq">Faq</a></li>
+
+              
+            </ul>
+          </nav>
+        
+
+        
+        
+    </div>
+  </div>
+</header>
+
+
+  
+    <div class="main">
+      <div id="content" class="container">
+        
+          
+            <div class="flash-messages">
+              
+                
+              
+            </div>
+          
+
+          
+            <div class="toolbar" role="navigation" aria-label="Breadcrumb">
+              
+                
+                  <ol class="breadcrumb">
+                    
+<li class="home"><a href="/it/" aria-label="Home"><i class="fa fa-home"></i><span> Home</span></a></li>
+                    
+  
+    
+    
+      
+      
+      <li><a href="/it/organization/">Organizzazioni</a></li>
+      <li><a href="/it/organization/regione-autonoma-trentino-alto-adige" title="Regione Autonoma Trentino-Alto Adige">Regione Autonoma...</a></li>
+    
+    <li class="active"><a href="/it/dataset/risultati-elezioni-comunali-2025" title="Risultati Elezioni Comunali 2025">Risultati Elezioni Comunali 2025</a></li>
+  
+
+                  </ol>
+                
+              
+            </div>
+          
+
+          <div class="row wrapper">
+            
+            
+            
+
+            
+              <aside class="secondary col-md-3">
+                
+                
+
+  
+
+  
+    
+
+  
+    <section class="module module-narrow">
+      <div class="module context-info">
+        <div class="module-content">
+          
+            
+              <h1 class="heading">Risultati Elezioni Comunali 2025</h1>
+            
+            
+              
+              <div class="nums">
+                <dl>
+                  <dt>Sostenitori</dt>
+                  <dd data-module="followers-counter" data-module-id="238950c8-af0a-48bd-82ee-da72978ec034" data-module-num_followers="0"><span>0</span></dd>
+                </dl>
+              </div>
+            
+            
+              
+                <div class="follow_button">
+                  
+                </div>
+              
+            
+          
+        </div>
+      </div>
+    </section>
+  
+
+  
+
+  
+    
+      
+      
+
+
+
+
+
+  <div class="module module-narrow module-shallow context-info">
+    
+      <h2 class="module-heading"><i class="fa fa-building"></i> Organizzazione</h2>
+    
+    <section class="module-content">
+      
+      
+        <div class="image">
+          <a href="/it/organization/regione-autonoma-trentino-alto-adige">
+            <img src="https://data.civis.bz.it/uploads/group/2018-10-23-105856.271821logoregionetaa.png" width="200" alt="regione-autonoma-trentino-alto-adige" />
+          </a>
+        </div>
+      
+      
+      <h1 class="heading">Regione Autonoma Trentino-Alto Adige
+        
+      </h1>
+      
+      
+      
+        <p class="empty">Non c'è una descrizione per questa organizzazione</p>
+      
+      
+      
+      
+    </section>
+  </div>
+  
+    
+  
+
+  
+    
+
+  <section class="module module-narrow social">
+    
+      <h2 class="module-heading"><i class="fa fa-share-square"></i> Sociale</h2>
+    
+    
+      <ul class="nav nav-simple">
+        <li class="nav-item"><a href="https://twitter.com/share?url=https://data.civis.bz.it/it/dataset/risultati-elezioni-comunali-2025" target="_blank"><i class="fa-brands fa-twitter-square"></i> Twitter</a></li>
+        <li class="nav-item"><a href="https://www.facebook.com/sharer.php?u=https://data.civis.bz.it/it/dataset/risultati-elezioni-comunali-2025" target="_blank"><i class="fa-brands fa-facebook-square"></i> Facebook</a></li>
+      </ul>
+    
+  </section>
+
+  
+
+  
+    
+
+
+
+
+  
+    
+      
+        <section class="module module-narrow module-shallow license">
+          
+            <h2 class="module-heading"><i class="icon-medium icon-lock"></i> Licenza</h2>
+          
+          
+            <p class="module-content">
+              
+                
+  
+    <span property="dc:rights">Licenza non specificata</span>
+  
+
+                
+              
+            </p>
+          
+        </section>
+      
+    
+  
+
+  
+
+
+              </aside>
+            
+
+            
+              <div class="primary col-md-9 col-xs-12" role="main">
+                
+                
+                  <article class="module">
+                    
+                      <header class="module-content page-header">
+                        
+                        <ul class="nav nav-tabs">
+                          
+  
+  <li class="active"><a href="/it/dataset/risultati-elezioni-comunali-2025"><i class="fa fa-sitemap"></i> Dataset</a></li>
+  <li><a href="/it/dataset/groups/risultati-elezioni-comunali-2025"><i class="fa fa-users"></i> Categorie</a></li>
+
+  <li><a href="/it/dataset/activity/risultati-elezioni-comunali-2025"><i class="fa fa-clock"></i> Flusso di attività</a></li>
+
+                        </ul>
+                      </header>
+                    
+                    <div class="module-content">
+                      
+                      
+  
+                      
+  
+    
+    <h1>
+      
+        Risultati Elezioni Comunali 2025
+        
+        
+      
+    </h1>
+    
+  
+    <div class="notes embedded-content">
+      <p>Il dataset contiene i risultati ufficiali delle ultime elezioni comunali per comune della regione.</p>
+<p>La titolarità piena ed esclusiva del dataset "Risultati Elezioni Comunali 2025" è del/la Regione Autonoma Trentino Alto-Adige/Südtirol (Licenziante), ai sensi della L. 633/41 e s.m.i.</p>
+<p>Il/La Regione Autonoma Trentino Alto-Adige/Südtirol autorizza la libera e gratuita consultazione, estrazione, riproduzione e modifica dei dati in essa contenuti da parte di chiunque (Licenziatario) vi abbia interesse per qualunque fine, purché nel rispetto dei termini della licenza Creative Commons - Attribuzione 2.5 Italia (testo integrale: <a href="http://creativecommons.org/licenses/by/2.5/it/legalcode" target="_blank" rel="nofollow">http://creativecommons.org/licenses/by/2.5/it/legalcode</a>).</p>
+<p>L'attribuzione dovrà fornire una menzione adeguata di:</p>
+<p>• Autore originale e/o titolare dei diritti: Ufficio elettorale</p>
+<p>• Terze parti designate, se esistenti</p>
+<p>• Nome della Banca Dati: Risultati Elezioni Comunali 2025</p>
+<p>• <a href="http://www.regione.taa.it/Elettorale/Comunali.aspx" target="_blank" rel="nofollow">http://www.regione.taa.it/Elettorale/Comunali.aspx</a> ove ciò sia ragionevolmente possibile;</p>
+<p>In caso di documenti rielaborati o opere derivate di vario genere, l'attribuzione dovrà essere effettuata in modo tale da non ingenerare confusione rispetto all'origine del documento stesso.</p>
+<p>Il set di dati Contiene i RISULTATI ufficiali delle Elezioni comunali dal Comune della Regione.</p>
+<p>La titolarità Piena Ed Esclusiva del set di dati "RISULTATI Elezioni Comunali 2025" E del / La Regione Autonoma Trentino-Alto Adige / Südtirol (Licenziante), Ai sensi della L. 633/41 e smi</p>
+<p>Il / La Regione Autonoma Trentino-Alto Adige / Südtirol autorizza la libera e Gratuita Consultazione, Estrazione, Riproduzione e Modifica dei Dati nella ESSA Contenuti da parte di chiunque (licenziatario) vi abbia interesse per bene Qualunque, Purche nel RISPETTO dei termini della Licenza Creative Commons - Attribuzione 2.5 Italia (testo integrale: <a href="http://creativecommons.org/licenses/by/2.5/it/legalcode" target="_blank" rel="nofollow">http://creativecommons.org/licenses/by/2.5/it/legalcode</a>).</p>
+<p>L'Attribuzione dovra FORNIRE Una Menzione adeguata di:</p>
+<p>• Autore originale e / o titolare dei Diritti: Ufficio elettorale</p>
+<p>• Terze designato parti, se esistenti</p>
+<p>• Nome della Banca Dati: RISULTATI Elezioni Comunali 2025</p>
+<p>• <a href="http://www.regione.taa.it/Elettorale/Comunali.aspx" target="_blank" rel="nofollow">http://www.regione.taa.it/Elettorale/Comunali.aspx</a> ove cio Sia ragionevolmente possibile;</p>
+<p>In Caso di Documenti rielaborati o Opere di derivati ​​vario Genere, l'Attribuzione dovra Essere effettuata in modo da non ingenerare racconto confusione RISPETTO all'origine del documento Stesso.</p>
+<p>Si Precisa esplicitamente Che con la présente il Licenza Licenziante intende autorizzare il licenziatario ad esercitare, ferme restando le restrizioni della Licenza di cui sopra, Anche i DIRITTI Disciplinati dall'arte. 102-bis e ss., L. 633/41 e s.m.i. (cd diritto sui generis del costitutore di Una Banca di Dati).</p>
+<p>Il licenziatario E Invitato a segnalare Calcola OGNI Eventuale Errore o incongruenza venisse rilevata RISPETTO al contenuto del documento. La segnalazione di EVENTUALI inesattezze o Errori PUÒ Essere please select al following Indirizzo di posta elettronica elettorale@regione.taa.it, gestito da Ufficio elettorale. Una copia di qualunque documento o set di dati rielaborato Potra Essere di posta elettronica all'indirizzo elettorale@regione.taa.it please select.Si precisa esplicitamente che con la presente licenza il Licenziante intende autorizzare il Licenziatario ad esercitare, ferme restando le restrizioni della licenza di cui sopra, anche i diritti disciplinati dall'art. 102-bis e ss., L. 633/41 e s.m.i. (c.d. diritto sui generis del costitutore di una banca di dati).</p>
+<p>Il Licenziatario è invitato a segnalare ogni eventuale errore o incongruenza venisse rilevata rispetto al contenuto del documento. La segnalazione di eventuali inesattezze o errori può essere inviata al seguente indirizzo di posta elettronica elettorale@regione.taa.it, gestito da Ufficio elettorale. Una copia di qualunque documento o dataset rielaborato potrà essere inviata all'indirizzo di posta elettronica elettorale@regione.taa.it.</p>
+    </div>
+  
+
+    
+    <span class="insert-comment-thread"></span>
+  
+
+  
+    
+
+<section id="dataset-resources" class="resources">
+  <h2>Data e Risorse</h2>
+  
+    
+      <ul class="resource-list">
+        
+          
+          
+            
+               
+
+
+
+<li class="resource-item" data-id="b7e18db2-f751-4d64-8e22-ba3824fcff64">
+  
+  <a class="heading" href="/it/dataset/risultati-elezioni-comunali-2025/resource/b7e18db2-f751-4d64-8e22-ba3824fcff64" title="Istruzioni">
+    Istruzioni<span class="format-label" property="dc:format" data-format="pdf">PDF</span>
+    
+
+  </a>
+  
+  
+    <p class="description">
+      
+    </p>
+  
+  
+  
+  <div class="dropdown btn-group">
+    <a href="#" class="btn btn-primary dropdown-toggle" type="button" id="dropdownExplorer" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="fa fa-share"></i>
+      Esplora
+      <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="dropdownExplorer">
+      
+        
+          <li>
+            <a class="dropdown-item" href="/it/dataset/risultati-elezioni-comunali-2025/resource/b7e18db2-f751-4d64-8e22-ba3824fcff64">
+              
+                <i class="fa fa-chart-bar"></i>
+                Anteprima
+              
+            </a>
+          </li>
+        
+
+        
+
+        
+          
+            
+          
+
+          
+
+      <li>
+        <a class="dropdown-item resource-url-analytics" href="https://datahub.civis.bz.it/region-of-trentino-alto-adige-suedtirol/elezioni-comunali-2025/1-istruzioni.pdf" target="_blank" rel="noreferrer">
+          
+            <i class="fa fa-arrow-circle-down"></i>
+            Download
+          
+        </a>
+      </li>
+
+          
+
+      
+      
+      
+    </ul>
+  </div>
+  
+  
+</li>
+            
+          
+            
+               
+
+
+
+<li class="resource-item" data-id="46efffb5-d4fe-4f5a-911c-becc40683dbf">
+  
+  <a class="heading" href="/it/dataset/risultati-elezioni-comunali-2025/resource/46efffb5-d4fe-4f5a-911c-becc40683dbf" title="Anleitungen">
+    Anleitungen<span class="format-label" property="dc:format" data-format="pdf">PDF</span>
+    
+
+  </a>
+  
+  
+    <p class="description">
+      
+    </p>
+  
+  
+  
+  <div class="dropdown btn-group">
+    <a href="#" class="btn btn-primary dropdown-toggle" type="button" id="dropdownExplorer" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="fa fa-share"></i>
+      Esplora
+      <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="dropdownExplorer">
+      
+        
+          <li>
+            <a class="dropdown-item" href="/it/dataset/risultati-elezioni-comunali-2025/resource/46efffb5-d4fe-4f5a-911c-becc40683dbf">
+              
+                <i class="fa fa-chart-bar"></i>
+                Anteprima
+              
+            </a>
+          </li>
+        
+
+        
+
+        
+          
+            
+          
+
+          
+
+      <li>
+        <a class="dropdown-item resource-url-analytics" href="https://datahub.civis.bz.it/region-of-trentino-alto-adige-suedtirol/elezioni-comunali-2025/1-anleitungen.pdf" target="_blank" rel="noreferrer">
+          
+            <i class="fa fa-arrow-circle-down"></i>
+            Download
+          
+        </a>
+      </li>
+
+          
+
+      
+      
+      
+    </ul>
+  </div>
+  
+  
+</li>
+            
+          
+            
+               
+
+
+
+<li class="resource-item" data-id="2550e46c-5dc8-4e46-96ac-808b56580482">
+  
+  <a class="heading" href="/it/dataset/risultati-elezioni-comunali-2025/resource/2550e46c-5dc8-4e46-96ac-808b56580482" title="Affluenze">
+    Affluenze<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+  </a>
+  
+  
+    <p class="description">
+      
+    </p>
+  
+  
+  
+  <div class="dropdown btn-group">
+    <a href="#" class="btn btn-primary dropdown-toggle" type="button" id="dropdownExplorer" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="fa fa-share"></i>
+      Esplora
+      <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="dropdownExplorer">
+      
+        
+          <li>
+            <a class="dropdown-item" href="/it/dataset/risultati-elezioni-comunali-2025/resource/2550e46c-5dc8-4e46-96ac-808b56580482">
+              
+                <i class="fa fa-chart-bar"></i>
+                Anteprima
+              
+            </a>
+          </li>
+        
+
+        
+
+        
+          
+            
+          
+
+          
+
+      <li>
+        <a class="dropdown-item resource-url-analytics" href="https://datahub.civis.bz.it/region-of-trentino-alto-adige-suedtirol/elezioni-comunali-2025/AFFLUENZE.CSV" target="_blank" rel="noreferrer">
+          
+            <i class="fa fa-arrow-circle-down"></i>
+            Download
+          
+        </a>
+      </li>
+
+          
+
+      
+      
+      
+    </ul>
+  </div>
+  
+  
+</li>
+            
+          
+            
+               
+
+
+
+<li class="resource-item" data-id="e524b98a-3fa2-4018-8cbe-2affbd5a89a7">
+  
+  <a class="heading" href="/it/dataset/risultati-elezioni-comunali-2025/resource/e524b98a-3fa2-4018-8cbe-2affbd5a89a7" title="Affluenze per comune">
+    Affluenze per comune<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+  </a>
+  
+  
+    <p class="description">
+      
+    </p>
+  
+  
+  
+  <div class="dropdown btn-group">
+    <a href="#" class="btn btn-primary dropdown-toggle" type="button" id="dropdownExplorer" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="fa fa-share"></i>
+      Esplora
+      <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="dropdownExplorer">
+      
+        
+          <li>
+            <a class="dropdown-item" href="/it/dataset/risultati-elezioni-comunali-2025/resource/e524b98a-3fa2-4018-8cbe-2affbd5a89a7">
+              
+                <i class="fa fa-info-circle"></i>
+                Altre informazioni
+              
+            </a>
+          </li>
+        
+
+        
+
+        
+          
+            
+          
+
+          
+
+      <li>
+        <a class="dropdown-item resource-url-analytics" href="https://datahub.civis.bz.it/region-of-trentino-alto-adige-suedtirol/elezioni-comunali-2025/AFFLUENZE-SUM.CSV" target="_blank" rel="noreferrer">
+          
+            <i class="fa fa-external-link"></i>
+            Vai alla risorsa
+          
+        </a>
+      </li>
+
+          
+
+      
+      
+      
+    </ul>
+  </div>
+  
+  
+</li>
+            
+          
+            
+               
+
+
+
+<li class="resource-item" data-id="6e5eeeb9-9378-497a-a72e-80030ba72e86">
+  
+  <a class="heading" href="/it/dataset/risultati-elezioni-comunali-2025/resource/6e5eeeb9-9378-497a-a72e-80030ba72e86" title="Affluenze Ballottaggio">
+    Affluenze Ballottaggio<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+  </a>
+  
+  
+    <p class="description">
+      
+    </p>
+  
+  
+  
+  <div class="dropdown btn-group">
+    <a href="#" class="btn btn-primary dropdown-toggle" type="button" id="dropdownExplorer" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="fa fa-share"></i>
+      Esplora
+      <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="dropdownExplorer">
+      
+        
+          <li>
+            <a class="dropdown-item" href="/it/dataset/risultati-elezioni-comunali-2025/resource/6e5eeeb9-9378-497a-a72e-80030ba72e86">
+              
+                <i class="fa fa-info-circle"></i>
+                Altre informazioni
+              
+            </a>
+          </li>
+        
+
+        
+
+        
+          
+            
+          
+
+          
+
+      <li>
+        <a class="dropdown-item resource-url-analytics" href="https://datahub.civis.bz.it/region-of-trentino-alto-adige-suedtirol/elezioni-comunali-2025/AFFLUENZE-B.CSV" target="_blank" rel="noreferrer">
+          
+            <i class="fa fa-external-link"></i>
+            Vai alla risorsa
+          
+        </a>
+      </li>
+
+          
+
+      
+      
+      
+    </ul>
+  </div>
+  
+  
+</li>
+            
+          
+            
+               
+
+
+
+<li class="resource-item" data-id="f1334836-bd6c-4bcc-aebb-24e12133e0a2">
+  
+  <a class="heading" href="/it/dataset/risultati-elezioni-comunali-2025/resource/f1334836-bd6c-4bcc-aebb-24e12133e0a2" title="Affluenze per comune Ballottaggio">
+    Affluenze per comune Ballottaggio<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+  </a>
+  
+  
+    <p class="description">
+      
+    </p>
+  
+  
+  
+  <div class="dropdown btn-group">
+    <a href="#" class="btn btn-primary dropdown-toggle" type="button" id="dropdownExplorer" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="fa fa-share"></i>
+      Esplora
+      <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="dropdownExplorer">
+      
+        
+          <li>
+            <a class="dropdown-item" href="/it/dataset/risultati-elezioni-comunali-2025/resource/f1334836-bd6c-4bcc-aebb-24e12133e0a2">
+              
+                <i class="fa fa-info-circle"></i>
+                Altre informazioni
+              
+            </a>
+          </li>
+        
+
+        
+
+        
+          
+            
+          
+
+          
+
+      <li>
+        <a class="dropdown-item resource-url-analytics" href="https://datahub.civis.bz.it/region-of-trentino-alto-adige-suedtirol/elezioni-comunali-2025/AFFLUENZE-SUM-B.CSV" target="_blank" rel="noreferrer">
+          
+            <i class="fa fa-external-link"></i>
+            Vai alla risorsa
+          
+        </a>
+      </li>
+
+          
+
+      
+      
+      
+    </ul>
+  </div>
+  
+  
+</li>
+            
+          
+            
+               
+
+
+
+<li class="resource-item" data-id="cabf34d5-d5c1-4f8e-8563-81454f6f2076">
+  
+  <a class="heading" href="/it/dataset/risultati-elezioni-comunali-2025/resource/cabf34d5-d5c1-4f8e-8563-81454f6f2076" title="Collegamenti">
+    Collegamenti<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+  </a>
+  
+  
+    <p class="description">
+      
+    </p>
+  
+  
+  
+  <div class="dropdown btn-group">
+    <a href="#" class="btn btn-primary dropdown-toggle" type="button" id="dropdownExplorer" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="fa fa-share"></i>
+      Esplora
+      <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="dropdownExplorer">
+      
+        
+          <li>
+            <a class="dropdown-item" href="/it/dataset/risultati-elezioni-comunali-2025/resource/cabf34d5-d5c1-4f8e-8563-81454f6f2076">
+              
+                <i class="fa fa-info-circle"></i>
+                Altre informazioni
+              
+            </a>
+          </li>
+        
+
+        
+
+        
+          
+            
+          
+
+          
+
+      <li>
+        <a class="dropdown-item resource-url-analytics" href="https://datahub.civis.bz.it/region-of-trentino-alto-adige-suedtirol/elezioni-comunali-2025/COLLEGAMENTI.CSV" target="_blank" rel="noreferrer">
+          
+            <i class="fa fa-external-link"></i>
+            Vai alla risorsa
+          
+        </a>
+      </li>
+
+          
+
+      
+      
+      
+    </ul>
+  </div>
+  
+  
+</li>
+            
+          
+            
+               
+
+
+
+<li class="resource-item" data-id="fcd6dd9e-cba8-4f11-83d0-a13ad0618647">
+  
+  <a class="heading" href="/it/dataset/risultati-elezioni-comunali-2025/resource/fcd6dd9e-cba8-4f11-83d0-a13ad0618647" title="Voti Consiglieri">
+    Voti Consiglieri<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+  </a>
+  
+  
+    <p class="description">
+      
+    </p>
+  
+  
+  
+  <div class="dropdown btn-group">
+    <a href="#" class="btn btn-primary dropdown-toggle" type="button" id="dropdownExplorer" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="fa fa-share"></i>
+      Esplora
+      <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="dropdownExplorer">
+      
+        
+          <li>
+            <a class="dropdown-item" href="/it/dataset/risultati-elezioni-comunali-2025/resource/fcd6dd9e-cba8-4f11-83d0-a13ad0618647">
+              
+                <i class="fa fa-info-circle"></i>
+                Altre informazioni
+              
+            </a>
+          </li>
+        
+
+        
+
+        
+          
+            
+          
+
+          
+
+      <li>
+        <a class="dropdown-item resource-url-analytics" href="https://datahub.civis.bz.it/region-of-trentino-alto-adige-suedtirol/elezioni-comunali-2025/VOTICONSIGLIERI.CSV" target="_blank" rel="noreferrer">
+          
+            <i class="fa fa-external-link"></i>
+            Vai alla risorsa
+          
+        </a>
+      </li>
+
+          
+
+      
+      
+      
+    </ul>
+  </div>
+  
+  
+</li>
+            
+          
+            
+               
+
+
+
+<li class="resource-item" data-id="81198e78-61e1-48cf-846c-e21efa410389">
+  
+  <a class="heading" href="/it/dataset/risultati-elezioni-comunali-2025/resource/81198e78-61e1-48cf-846c-e21efa410389" title="Voti Consiglieri Comune">
+    Voti Consiglieri Comune<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+  </a>
+  
+  
+    <p class="description">
+      
+    </p>
+  
+  
+  
+  <div class="dropdown btn-group">
+    <a href="#" class="btn btn-primary dropdown-toggle" type="button" id="dropdownExplorer" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="fa fa-share"></i>
+      Esplora
+      <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="dropdownExplorer">
+      
+        
+          <li>
+            <a class="dropdown-item" href="/it/dataset/risultati-elezioni-comunali-2025/resource/81198e78-61e1-48cf-846c-e21efa410389">
+              
+                <i class="fa fa-info-circle"></i>
+                Altre informazioni
+              
+            </a>
+          </li>
+        
+
+        
+
+        
+          
+            
+          
+
+          
+
+      <li>
+        <a class="dropdown-item resource-url-analytics" href="https://datahub.civis.bz.it/region-of-trentino-alto-adige-suedtirol/elezioni-comunali-2025/VOTICONSIGLIERI-SUM.CSV" target="_blank" rel="noreferrer">
+          
+            <i class="fa fa-external-link"></i>
+            Vai alla risorsa
+          
+        </a>
+      </li>
+
+          
+
+      
+      
+      
+    </ul>
+  </div>
+  
+  
+</li>
+            
+          
+            
+               
+
+
+
+<li class="resource-item" data-id="a26885f7-9735-4d68-86a3-44f310813d11">
+  
+  <a class="heading" href="/it/dataset/risultati-elezioni-comunali-2025/resource/a26885f7-9735-4d68-86a3-44f310813d11" title="Voti Liste">
+    Voti Liste<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+  </a>
+  
+  
+    <p class="description">
+      
+    </p>
+  
+  
+  
+  <div class="dropdown btn-group">
+    <a href="#" class="btn btn-primary dropdown-toggle" type="button" id="dropdownExplorer" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="fa fa-share"></i>
+      Esplora
+      <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="dropdownExplorer">
+      
+        
+          <li>
+            <a class="dropdown-item" href="/it/dataset/risultati-elezioni-comunali-2025/resource/a26885f7-9735-4d68-86a3-44f310813d11">
+              
+                <i class="fa fa-info-circle"></i>
+                Altre informazioni
+              
+            </a>
+          </li>
+        
+
+        
+
+        
+          
+            
+          
+
+          
+
+      <li>
+        <a class="dropdown-item resource-url-analytics" href="https://datahub.civis.bz.it/region-of-trentino-alto-adige-suedtirol/elezioni-comunali-2025/VOTILISTE.CSV" target="_blank" rel="noreferrer">
+          
+            <i class="fa fa-external-link"></i>
+            Vai alla risorsa
+          
+        </a>
+      </li>
+
+          
+
+      
+      
+      
+    </ul>
+  </div>
+  
+  
+</li>
+            
+          
+            
+               
+
+
+
+<li class="resource-item" data-id="22fc013c-8c35-4b86-b30f-c5af3e98773e">
+  
+  <a class="heading" href="/it/dataset/risultati-elezioni-comunali-2025/resource/22fc013c-8c35-4b86-b30f-c5af3e98773e" title="Voti Liste Comune">
+    Voti Liste Comune<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+  </a>
+  
+  
+    <p class="description">
+      
+    </p>
+  
+  
+  
+  <div class="dropdown btn-group">
+    <a href="#" class="btn btn-primary dropdown-toggle" type="button" id="dropdownExplorer" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="fa fa-share"></i>
+      Esplora
+      <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="dropdownExplorer">
+      
+        
+          <li>
+            <a class="dropdown-item" href="/it/dataset/risultati-elezioni-comunali-2025/resource/22fc013c-8c35-4b86-b30f-c5af3e98773e">
+              
+                <i class="fa fa-info-circle"></i>
+                Altre informazioni
+              
+            </a>
+          </li>
+        
+
+        
+
+        
+          
+            
+          
+
+          
+
+      <li>
+        <a class="dropdown-item resource-url-analytics" href="https://datahub.civis.bz.it/region-of-trentino-alto-adige-suedtirol/elezioni-comunali-2025/VOTILISTE-SUM.CSV" target="_blank" rel="noreferrer">
+          
+            <i class="fa fa-external-link"></i>
+            Vai alla risorsa
+          
+        </a>
+      </li>
+
+          
+
+      
+      
+      
+    </ul>
+  </div>
+  
+  
+</li>
+            
+          
+            
+               
+
+
+
+<li class="resource-item" data-id="743a765c-bac6-4a82-910e-e020d0ecfc88">
+  
+  <a class="heading" href="/it/dataset/risultati-elezioni-comunali-2025/resource/743a765c-bac6-4a82-910e-e020d0ecfc88" title="Voti Liste Sindaci">
+    Voti Liste Sindaci<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+  </a>
+  
+  
+    <p class="description">
+      
+    </p>
+  
+  
+  
+  <div class="dropdown btn-group">
+    <a href="#" class="btn btn-primary dropdown-toggle" type="button" id="dropdownExplorer" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="fa fa-share"></i>
+      Esplora
+      <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="dropdownExplorer">
+      
+        
+          <li>
+            <a class="dropdown-item" href="/it/dataset/risultati-elezioni-comunali-2025/resource/743a765c-bac6-4a82-910e-e020d0ecfc88">
+              
+                <i class="fa fa-info-circle"></i>
+                Altre informazioni
+              
+            </a>
+          </li>
+        
+
+        
+
+        
+          
+            
+          
+
+          
+
+      <li>
+        <a class="dropdown-item resource-url-analytics" href="https://datahub.civis.bz.it/region-of-trentino-alto-adige-suedtirol/elezioni-comunali-2025/VOTILISTESINDACI.CSV" target="_blank" rel="noreferrer">
+          
+            <i class="fa fa-external-link"></i>
+            Vai alla risorsa
+          
+        </a>
+      </li>
+
+          
+
+      
+      
+      
+    </ul>
+  </div>
+  
+  
+</li>
+            
+          
+            
+               
+
+
+
+<li class="resource-item" data-id="a1b01ae1-6348-40ea-a68c-e1deaa2a20bd">
+  
+  <a class="heading" href="/it/dataset/risultati-elezioni-comunali-2025/resource/a1b01ae1-6348-40ea-a68c-e1deaa2a20bd" title="Voti Liste Sindaci Comune">
+    Voti Liste Sindaci Comune<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+  </a>
+  
+  
+    <p class="description">
+      
+    </p>
+  
+  
+  
+  <div class="dropdown btn-group">
+    <a href="#" class="btn btn-primary dropdown-toggle" type="button" id="dropdownExplorer" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="fa fa-share"></i>
+      Esplora
+      <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="dropdownExplorer">
+      
+        
+          <li>
+            <a class="dropdown-item" href="/it/dataset/risultati-elezioni-comunali-2025/resource/a1b01ae1-6348-40ea-a68c-e1deaa2a20bd">
+              
+                <i class="fa fa-info-circle"></i>
+                Altre informazioni
+              
+            </a>
+          </li>
+        
+
+        
+
+        
+          
+            
+          
+
+          
+
+      <li>
+        <a class="dropdown-item resource-url-analytics" href="https://datahub.civis.bz.it/region-of-trentino-alto-adige-suedtirol/elezioni-comunali-2025/VOTILISTESINDACI-SUM.CSV" target="_blank" rel="noreferrer">
+          
+            <i class="fa fa-external-link"></i>
+            Vai alla risorsa
+          
+        </a>
+      </li>
+
+          
+
+      
+      
+      
+    </ul>
+  </div>
+  
+  
+</li>
+            
+          
+            
+               
+
+
+
+<li class="resource-item" data-id="ab46652c-6e9d-43e0-8345-d130e9fc4ec7">
+  
+  <a class="heading" href="/it/dataset/risultati-elezioni-comunali-2025/resource/ab46652c-6e9d-43e0-8345-d130e9fc4ec7" title="Voti Sindaci">
+    Voti Sindaci<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+  </a>
+  
+  
+    <p class="description">
+      
+    </p>
+  
+  
+  
+  <div class="dropdown btn-group">
+    <a href="#" class="btn btn-primary dropdown-toggle" type="button" id="dropdownExplorer" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="fa fa-share"></i>
+      Esplora
+      <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="dropdownExplorer">
+      
+        
+          <li>
+            <a class="dropdown-item" href="/it/dataset/risultati-elezioni-comunali-2025/resource/ab46652c-6e9d-43e0-8345-d130e9fc4ec7">
+              
+                <i class="fa fa-info-circle"></i>
+                Altre informazioni
+              
+            </a>
+          </li>
+        
+
+        
+
+        
+          
+            
+          
+
+          
+
+      <li>
+        <a class="dropdown-item resource-url-analytics" href="https://datahub.civis.bz.it/region-of-trentino-alto-adige-suedtirol/elezioni-comunali-2025/VOTISINDACI.CSV" target="_blank" rel="noreferrer">
+          
+            <i class="fa fa-external-link"></i>
+            Vai alla risorsa
+          
+        </a>
+      </li>
+
+          
+
+      
+      
+      
+    </ul>
+  </div>
+  
+  
+</li>
+            
+          
+            
+               
+
+
+
+<li class="resource-item" data-id="7a39e559-b9d5-40d0-88a6-bf82241a7ebd">
+  
+  <a class="heading" href="/it/dataset/risultati-elezioni-comunali-2025/resource/7a39e559-b9d5-40d0-88a6-bf82241a7ebd" title="Voti Sindaci Comune">
+    Voti Sindaci Comune<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+  </a>
+  
+  
+    <p class="description">
+      
+    </p>
+  
+  
+  
+  <div class="dropdown btn-group">
+    <a href="#" class="btn btn-primary dropdown-toggle" type="button" id="dropdownExplorer" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="fa fa-share"></i>
+      Esplora
+      <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="dropdownExplorer">
+      
+        
+          <li>
+            <a class="dropdown-item" href="/it/dataset/risultati-elezioni-comunali-2025/resource/7a39e559-b9d5-40d0-88a6-bf82241a7ebd">
+              
+                <i class="fa fa-info-circle"></i>
+                Altre informazioni
+              
+            </a>
+          </li>
+        
+
+        
+
+        
+          
+            
+          
+
+          
+
+      <li>
+        <a class="dropdown-item resource-url-analytics" href="https://datahub.civis.bz.it/region-of-trentino-alto-adige-suedtirol/elezioni-comunali-2025/VOTISINDACI-SUM.CSV" target="_blank" rel="noreferrer">
+          
+            <i class="fa fa-external-link"></i>
+            Vai alla risorsa
+          
+        </a>
+      </li>
+
+          
+
+      
+      
+      
+    </ul>
+  </div>
+  
+  
+</li>
+            
+          
+            
+               
+
+
+
+<li class="resource-item" data-id="2b552b97-e8e3-4847-8beb-749803479393">
+  
+  <a class="heading" href="/it/dataset/risultati-elezioni-comunali-2025/resource/2b552b97-e8e3-4847-8beb-749803479393" title="Voti Sindaci Ballottaggio">
+    Voti Sindaci Ballottaggio<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+  </a>
+  
+  
+    <p class="description">
+      
+    </p>
+  
+  
+  
+  <div class="dropdown btn-group">
+    <a href="#" class="btn btn-primary dropdown-toggle" type="button" id="dropdownExplorer" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="fa fa-share"></i>
+      Esplora
+      <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="dropdownExplorer">
+      
+        
+          <li>
+            <a class="dropdown-item" href="/it/dataset/risultati-elezioni-comunali-2025/resource/2b552b97-e8e3-4847-8beb-749803479393">
+              
+                <i class="fa fa-info-circle"></i>
+                Altre informazioni
+              
+            </a>
+          </li>
+        
+
+        
+
+        
+          
+            
+          
+
+          
+
+      <li>
+        <a class="dropdown-item resource-url-analytics" href="https://datahub.civis.bz.it/region-of-trentino-alto-adige-suedtirol/elezioni-comunali-2025/VOTISINDACI-B.CSV" target="_blank" rel="noreferrer">
+          
+            <i class="fa fa-external-link"></i>
+            Vai alla risorsa
+          
+        </a>
+      </li>
+
+          
+
+      
+      
+      
+    </ul>
+  </div>
+  
+  
+</li>
+            
+          
+            
+               
+
+
+
+<li class="resource-item" data-id="2477dab1-0983-4fc1-836d-7ffd0b3d6ba2">
+  
+  <a class="heading" href="/it/dataset/risultati-elezioni-comunali-2025/resource/2477dab1-0983-4fc1-836d-7ffd0b3d6ba2" title="Voti Sindaci Comune Ballottaggio">
+    Voti Sindaci Comune Ballottaggio<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+  </a>
+  
+  
+    <p class="description">
+      
+    </p>
+  
+  
+  
+  <div class="dropdown btn-group">
+    <a href="#" class="btn btn-primary dropdown-toggle" type="button" id="dropdownExplorer" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="fa fa-share"></i>
+      Esplora
+      <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="dropdownExplorer">
+      
+        
+          <li>
+            <a class="dropdown-item" href="/it/dataset/risultati-elezioni-comunali-2025/resource/2477dab1-0983-4fc1-836d-7ffd0b3d6ba2">
+              
+                <i class="fa fa-info-circle"></i>
+                Altre informazioni
+              
+            </a>
+          </li>
+        
+
+        
+
+        
+          
+            
+          
+
+          
+
+      <li>
+        <a class="dropdown-item resource-url-analytics" href="https://datahub.civis.bz.it/region-of-trentino-alto-adige-suedtirol/elezioni-comunali-2025/VOTISINDACI-SUM-B.CSV" target="_blank" rel="noreferrer">
+          
+            <i class="fa fa-external-link"></i>
+            Vai alla risorsa
+          
+        </a>
+      </li>
+
+          
+
+      
+      
+      
+    </ul>
+  </div>
+  
+  
+</li>
+            
+          
+        
+      </ul>
+    
+  
+</section>
+  
+
+  
+    
+
+  <section class="tags">
+    
+
+
+  <ul class="tag-list">
+    
+      <li>
+        <a class="tag" href="/it/dataset/?tags=Governo+e+settore+pubblico" title="Governo e settore pubblico">Governo e settore pubblico</a>
+      </li>
+    
+      <li>
+        <a class="tag" href="/it/dataset/?tags=candidati" title="candidati">candidati</a>
+      </li>
+    
+      <li>
+        <a class="tag" href="/it/dataset/?tags=comunali" title="comunali">comunali</a>
+      </li>
+    
+      <li>
+        <a class="tag" href="/it/dataset/?tags=consiglieri" title="consiglieri">consiglieri</a>
+      </li>
+    
+      <li>
+        <a class="tag" href="/it/dataset/?tags=elezioni" title="elezioni">elezioni</a>
+      </li>
+    
+      <li>
+        <a class="tag" href="/it/dataset/?tags=sindaci" title="sindaci">sindaci</a>
+      </li>
+    
+      <li>
+        <a class="tag" href="/it/dataset/?tags=voti" title="voti">voti</a>
+      </li>
+    
+  </ul>
+
+  </section>
+
+  
+
+  
+
+  <section class="additional-info">
+  <h3>Metadati del Dataset</h3>
+
+    
+
+  <table class="table table-striped table-bordered table-condensed">
+    <tbody>
+    
+      
+      
+
+      
+        
+
+            
+
+              
+
+                  
+                  
+
+                  
+
+                  
+              <tr>
+                  <th scope="row" class="dataset-label">Identificativo del dataset</th>
+                      
+                  <td class="dataset-details">p_bz:9db9b47c-6b0a-43e3-87cb-d1c91c7d1020</td>
+                      
+              </tr>
+                  
+
+              
+          
+        
+      
+        
+
+            
+                
+                
+                    <tr>
+                      <th scope="row" class="dataset-label">Altro identificativo</th>
+                      <td class="dataset-details">
+                            N/A
+                      </td>
+                    </tr>
+                
+            
+        
+      
+        
+
+            
+                
+
+                
+                    
+                    <tr>
+                      <th scope="row" class="dataset-label">Temi del dataset</th>
+                      <td class="dataset-details">
+                        <span class="bold">Dati provvisori</span>
+                        <br/>
+                        
+                      </td>
+                    </tr>
+                    
+                
+
+            
+        
+      
+        
+
+            
+                
+            <tr>
+                <th scope="row" class="dataset-label">Editore del Dataset</th>
+                <td class="dataset-details">
+                
+                    
+                        
+                    <span style="font-weight:bold">Nome: </span><span>Regione Autonoma Trentino - Alto Adige</span><br/>
+                        
+                    
+                        
+                    <span style="font-weight:bold">Codice IPA/IVA: </span><span>D5F0KF</span><br/>
+                        
+                    
+                
+                </td>
+            </tr>
+
+            
+        
+      
+        
+
+            
+
+              
+
+                  
+                  
+
+                  
+
+                  
+              <tr>
+                  <th scope="row" class="dataset-label">Data di rilascio</th>
+                      
+                  <td class="dataset-details">12-08-2025</td>
+                      
+              </tr>
+                  
+
+              
+          
+        
+      
+        
+
+            
+
+              
+
+                  
+                  
+
+                  
+
+                  
+              <tr>
+                  <th scope="row" class="dataset-label">Data di modifica</th>
+                      
+                  <td class="dataset-details">12-08-2025</td>
+                      
+              </tr>
+                  
+
+              
+          
+        
+      
+        
+
+            
+
+              
+
+                  
+                  
+
+                  
+
+                  
+              <tr>
+                  <th scope="row" class="dataset-label">Copertura Geografica</th>
+                  <td class="dataset-details">Bolzano</td>
+              </tr>
+                  
+
+              
+          
+        
+      
+        
+
+            
+
+              
+
+                  
+                  
+
+                  
+
+                  
+              <tr>
+                  <th scope="row" class="dataset-label">URI di GeoNames</th>
+                      
+                  <td class="dataset-details"><a href="http://www.geonames.org/3181912" rel="" target="_blank">http://www.geonames.org/3181912</a></td>
+                      
+              </tr>
+                  
+
+              
+          
+        
+      
+        
+
+            
+
+              
+
+                  
+                  
+
+                  
+
+                  
+              <tr>
+                  <th scope="row" class="dataset-label">Lingue del dataset</th>
+                  <td class="dataset-details">italiano, tedesco</td>
+              </tr>
+                  
+
+              
+          
+        
+      
+        
+
+            
+                
+
+                
+                    <tr>
+                      <th scope="row" class="dataset-label">Estensione temporale</th>
+                      <td class="dataset-details">
+                            N/A
+                      </td>
+                    </tr>
+                
+
+
+            
+        
+      
+        
+
+            
+                
+                
+                <tr>
+                    <th scope="row" class="dataset-label">Titolare</th>
+                    <td class="dataset-details">
+                    
+                        
+                            
+                        <span style="font-weight:bold">Nome: </span><span>Regione Autonoma Trentino-Alto Adige</span><br/>
+                            
+                        
+                            
+                        <span style="font-weight:bold">Codice IPA/IVA: </span><span>D5F0KF</span><br/>
+                            
+                        
+                    
+                    </td>
+                </tr>
+
+                
+          
+        
+      
+        
+
+            
+
+              
+
+                  
+                  
+
+                  
+
+                  
+              <tr>
+                  <th scope="row" class="dataset-label">Frequenza di aggiornamento</th>
+                  <td class="dataset-details">mai</td>
+              </tr>
+                  
+
+              
+          
+        
+      
+        
+
+            
+
+              
+
+              <tr>
+                  <th scope="row" class="dataset-label">Versione di</th>
+                  <td class="dataset-details">N/A</td>
+              </tr>
+              
+          
+        
+      
+        
+
+            
+                
+
+                
+
+          
+        
+      
+        
+
+            
+                
+                
+                    <tr>
+                      <th scope="row" class="dataset-label">Autore</th>
+                      <td class="dataset-details">
+                            N/A
+                      </td>
+                    </tr>
+                
+            
+        
+      
+        
+
+            
+
+              
+
+              <tr>
+                  <th scope="row" class="dataset-label">Creation Date</th>
+                  <td class="dataset-details">N/A</td>
+              </tr>
+              
+          
+        
+      
+        
+
+            
+
+              
+
+              <tr>
+                  <th scope="row" class="dataset-label">Encoding</th>
+                  <td class="dataset-details">N/A</td>
+              </tr>
+              
+          
+        
+      
+        
+
+            
+
+              
+
+                  
+                  
+
+                  
+
+                  
+              <tr>
+                  <th scope="row" class="dataset-label">URL del sito</th>
+                      
+                  <td class="dataset-details"><a href="https://civis.bz.it/de/themen/wahlen.html" rel="" target="_blank">https://civis.bz.it/de/themen/wahlen.html</a></td>
+                      
+              </tr>
+                  
+
+              
+          
+        
+      
+        
+      
+    
+    </tbody>
+  </table>
+</section>
+
+
+
+  
+<section class="additional-info">
+  <h3>Informazioni supplementari</h3>
+  <table class="table table-striped table-bordered table-condensed">
+    <tbody>
+      
+
+        
+          <tr>
+            <th scope="row" class="dataset-label">Autore</th>
+            <td class="dataset-details" property="dc:creator">Ufficio elettorale</td>
+          </tr>
+        
+
+        
+          <tr>
+            <th scope="row" class="dataset-label">Origin</th>
+            <td class="dataset-details" property="dc:creator"><a href="[&quot;/it/dataset/edit/risultati-elezioni-comunali-2025&quot;, &quot;[\&quot;/it/dataset/edit/risultati-elezioni-comunali-2025\&quot;, \&quot;[\\\&quot;/it/dataset/new?group=20533fe8-2800-492e-bcf2-1078090f725b\\\&quot;, \\\&quot;https://civis.bz.it/it/temi/elezioni.html\\\&quot;]\&quot;]&quot;]" rel="foaf:homepage" target="_blank">[&quot;/it/dataset/edit/risultati-elezioni-comunali-2025&quot;, &quot;[\&quot;/it/dataset/edit/risultati-elezioni-comunali-2025\&quot;, \&quot;[\\\&quot;/it/dataset/new?group=20533fe8-2800-492e-bcf2-1078090f725b\\\&quot;, \\\&quot;https://civis.bz.it/it/temi/elezioni.html\\\&quot;]\&quot;]&quot;]</a></td>
+          </tr>
+        
+
+        
+          <tr>
+            <th scope="row" class="dataset-label">Contact</th>
+            <td class="dataset-details"><a href=mailto:elettorale@regione.taa.it>elettorale@regione.taa.it</a></td>
+          </tr>
+        
+
+      
+    </tbody>
+  </table>
+</section>
+
+
+
+                    </div>
+                  </article>
+                
+              </div>
+            
+          </div>
+        
+      </div>
+    </div>
+  
+    
+
+<footer class="site-footer">
+  <div class="container ck-row-footer">
+    
+	<div class="row">
+	  <!-- <div class="footer-left"> -->
+	  <div class="col-md-4 footer-links">
+		<nav class="footer-links">
+			
+			  <ul class="list-unstyled footer-lks">
+				
+				  
+				  <li>
+					  <a href=/it/info>
+						  <i class="fa-solid fa-comment"></i>
+						  Informazioni Dati Alto Adige
+					  </a>
+				  </li>
+				  <li>
+					  <a href=/it/faq>
+						  <i class="fa-solid fa-question"></i>
+						  Domande frequenti
+					  </a>
+				  </li>
+				  <li>
+					  <a href="/revision/list?format=atom">
+						<i class="fa-solid fa-rss"></i> 
+						Atom Feed
+					  </a>
+				  </li>
+				  <li>
+					<a href=/it/acknowledgements>
+					  <i class="fa-solid fa-user"></i>
+					  Ringraziamenti
+					</a>
+				  </li>
+				  <li>
+					<a href=/it/legal>
+					  <i class="fa-solid fa-gavel"></i>
+					  Note legali
+					</a>
+				  </li>
+				  <li>
+					<a href=/it/privacy>
+					  <i class="fa-solid fa-key"></i>
+					  Privacy
+					</a>
+				  </li>
+				  <li>
+					<a href="mailto:opendata@siag.it">
+					  <i class="fa-solid fa-share"></i>
+					  Contattaci
+					</a>
+				  </li>
+				  <li>
+					
+						<a href="http://www.retecivica.bz.it/it/cookie.asp" target="_blank">
+						  <i class="fa-solid fa-bullseye"></i>
+						  Cookie
+						</a>
+					
+				  </li>
+				
+			  </ul>
+
+			  <ul class="list-unstyled copyrights">
+				  <li>
+					
+					  © 2025 Provincia autonoma di Bolzano - Informatica Alto Adige SPA • Cod. Fisc.: 00390090215
+					  PEC: 
+					  <a href="mailto:generaldirektion.direzionegenerale@pec.prov.bz.it">
+						generaldirektion.direzionegenerale@pec.prov.bz.it
+				      </a>
+					
+				  </li>
+			  </ul>
+			
+		</nav>	  
+	  </div>
+	  
+	  <!-- <div class="footer-center"> -->
+		<div class="col-md-4">
+		<nav class="footer-links">	  
+			<ul class="list-unstyled">
+				
+				  
+
+				  <li><a href="https://docs.ckan.org/en/2.10/api/index.html">CKAN API</a></li>
+				  <li><a href="http://www.okfn.org/">Open Knowledge Foundation</a></li>
+				  <li><a href="http://www.opendefinition.org/okd/"><img src="http://assets.okfn.org/images/ok_buttons/od_80x15_blue.png"></a></li>
+				  <li>
+					<p class="powered-by">
+					   <strong>Realizzato con</strong> <a class="ckan-footer-logo" href="http://ckan.org"><span>CKAN</span></a>
+					</p>
+				  </li>
+				
+			</ul>
+		</nav>
+	  </div>
+	  
+      <!-- <div class="attribution footer-right"> -->
+		<div class="col-md-4 attribution">
+        
+        
+		<img src="/images/logo/opendata_suedtirol_logo_bw.png" alt="Logo Open Data Alto Adige" class="logo_footer">
+		
+		<!-- User Login part -->
+		
+          
+          <nav class="account not-authed">
+            <ul class="unstyled">
+              
+	              
+
+                     
+                      <li><i class="fa-solid fa-lock"></i><a href="/it/user/login">AREA RISERVATA</a></li>
+
+	              
+              
+            </ul>
+          </nav>
+        
+
+		
+          
+<form class="lang-select" action="/it/util/redirect" data-module="select-switch" method="POST">
+  
+<input type="hidden" name="_csrf_token" value="IjMxODIxMDU2ZTNkNzc2NDEwNDkwYjUwZjMwMDQ1OWM3ZDYxZWMxNjUi.aMC5RQ.hhgqX1GHi6qS6iFhHIvLEWGP_-Q"/> 
+  <div class="form-group">
+    <label for="field-lang-select">Lingua</label>
+    <select id="field-lang-select" name="url" data-module="autocomplete" data-module-dropdown-class="lang-dropdown" data-module-container-class="lang-container">
+      
+        <option value="/it/dataset/risultati-elezioni-comunali-2025" selected="selected">
+          italiano
+        </option>
+      
+        <option value="/de/dataset/risultati-elezioni-comunali-2025" >
+          Deutsch
+        </option>
+      
+    </select>
+  </div>
+  <button class="btn btn-default d-none " type="submit">Vai</button>
+</form>
+
+
+        
+      </div>
+	</div>
+    
+  </div>
+</footer>
+  
+  
+  
+  
+  
+  
+  
+    
+
+  
+
+    
+    
+    
+
+
+  
+      
+  
+    
+
+      
+          <script type="application/ld+json">
+           {
+    "@context": {
+        "brick": "https://brickschema.org/schema/Brick#",
+        "csvw": "http://www.w3.org/ns/csvw#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcam": "http://purl.org/dc/dcam/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "dcmitype": "http://purl.org/dc/dcmitype/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "doap": "http://usefulinc.com/ns/doap#",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "odrl": "http://www.w3.org/ns/odrl/2/",
+        "org": "http://www.w3.org/ns/org#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "prof": "http://www.w3.org/ns/dx/prof/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "qb": "http://purl.org/linked-data/cube#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "schema": "http://schema.org/",
+        "sh": "http://www.w3.org/ns/shacl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "sosa": "http://www.w3.org/ns/sosa/",
+        "ssn": "http://www.w3.org/ns/ssn/",
+        "time": "http://www.w3.org/2006/time#",
+        "vann": "http://purl.org/vocab/vann/",
+        "void": "http://rdfs.org/ns/void#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "@graph": [
+        {
+            "@id": "http://prov.bz/dataset/238950c8-af0a-48bd-82ee-da72978ec034/resource/2b552b97-e8e3-4847-8beb-749803479393",
+            "@type": "schema:DataDownload",
+            "schema:encodingFormat": "CSV",
+            "schema:name": "Voti Sindaci Ballottaggio",
+            "schema:url": "https://datahub.civis.bz.it/region-of-trentino-alto-adige-suedtirol/elezioni-comunali-2025/VOTISINDACI-B.CSV"
+        },
+        {
+            "@id": "http://prov.bz/dataset/238950c8-af0a-48bd-82ee-da72978ec034/resource/81198e78-61e1-48cf-846c-e21efa410389",
+            "@type": "schema:DataDownload",
+            "schema:encodingFormat": "CSV",
+            "schema:name": "Voti Consiglieri Comune",
+            "schema:url": "https://datahub.civis.bz.it/region-of-trentino-alto-adige-suedtirol/elezioni-comunali-2025/VOTICONSIGLIERI-SUM.CSV"
+        },
+        {
+            "@id": "http://prov.bz/dataset/238950c8-af0a-48bd-82ee-da72978ec034/resource/a26885f7-9735-4d68-86a3-44f310813d11",
+            "@type": "schema:DataDownload",
+            "schema:encodingFormat": "CSV",
+            "schema:name": "Voti Liste",
+            "schema:url": "https://datahub.civis.bz.it/region-of-trentino-alto-adige-suedtirol/elezioni-comunali-2025/VOTILISTE.CSV"
+        },
+        {
+            "@id": "http://prov.bz/dataset/238950c8-af0a-48bd-82ee-da72978ec034/resource/22fc013c-8c35-4b86-b30f-c5af3e98773e",
+            "@type": "schema:DataDownload",
+            "schema:encodingFormat": "CSV",
+            "schema:name": "Voti Liste Comune",
+            "schema:url": "https://datahub.civis.bz.it/region-of-trentino-alto-adige-suedtirol/elezioni-comunali-2025/VOTILISTE-SUM.CSV"
+        },
+        {
+            "@id": "http://prov.bz/dataset/238950c8-af0a-48bd-82ee-da72978ec034/resource/a1b01ae1-6348-40ea-a68c-e1deaa2a20bd",
+            "@type": "schema:DataDownload",
+            "schema:encodingFormat": "CSV",
+            "schema:name": "Voti Liste Sindaci Comune",
+            "schema:url": "https://datahub.civis.bz.it/region-of-trentino-alto-adige-suedtirol/elezioni-comunali-2025/VOTILISTESINDACI-SUM.CSV"
+        },
+        {
+            "@id": "http://prov.bz/dataset/238950c8-af0a-48bd-82ee-da72978ec034/resource/e524b98a-3fa2-4018-8cbe-2affbd5a89a7",
+            "@type": "schema:DataDownload",
+            "schema:encodingFormat": "CSV",
+            "schema:name": "Affluenze per comune",
+            "schema:url": "https://datahub.civis.bz.it/region-of-trentino-alto-adige-suedtirol/elezioni-comunali-2025/AFFLUENZE-SUM.CSV"
+        },
+        {
+            "@id": "http://prov.bz/dataset/238950c8-af0a-48bd-82ee-da72978ec034/resource/b7e18db2-f751-4d64-8e22-ba3824fcff64",
+            "@type": "schema:DataDownload",
+            "schema:encodingFormat": "PDF",
+            "schema:name": "Istruzioni",
+            "schema:url": "https://datahub.civis.bz.it/region-of-trentino-alto-adige-suedtirol/elezioni-comunali-2025/1-istruzioni.pdf"
+        },
+        {
+            "@id": "http://prov.bz/dataset/238950c8-af0a-48bd-82ee-da72978ec034/resource/6e5eeeb9-9378-497a-a72e-80030ba72e86",
+            "@type": "schema:DataDownload",
+            "schema:encodingFormat": "CSV",
+            "schema:name": "Affluenze Ballottaggio",
+            "schema:url": "https://datahub.civis.bz.it/region-of-trentino-alto-adige-suedtirol/elezioni-comunali-2025/AFFLUENZE-B.CSV"
+        },
+        {
+            "@id": "http://prov.bz/dataset/238950c8-af0a-48bd-82ee-da72978ec034/resource/fcd6dd9e-cba8-4f11-83d0-a13ad0618647",
+            "@type": "schema:DataDownload",
+            "schema:encodingFormat": "CSV",
+            "schema:name": "Voti Consiglieri",
+            "schema:url": "https://datahub.civis.bz.it/region-of-trentino-alto-adige-suedtirol/elezioni-comunali-2025/VOTICONSIGLIERI.CSV"
+        },
+        {
+            "@id": "http://prov.bz/dataset/238950c8-af0a-48bd-82ee-da72978ec034/resource/f1334836-bd6c-4bcc-aebb-24e12133e0a2",
+            "@type": "schema:DataDownload",
+            "schema:encodingFormat": "CSV",
+            "schema:name": "Affluenze per comune Ballottaggio",
+            "schema:url": "https://datahub.civis.bz.it/region-of-trentino-alto-adige-suedtirol/elezioni-comunali-2025/AFFLUENZE-SUM-B.CSV"
+        },
+        {
+            "@id": "http://prov.bz/dataset/238950c8-af0a-48bd-82ee-da72978ec034/resource/2477dab1-0983-4fc1-836d-7ffd0b3d6ba2",
+            "@type": "schema:DataDownload",
+            "schema:encodingFormat": "CSV",
+            "schema:name": "Voti Sindaci Comune Ballottaggio",
+            "schema:url": "https://datahub.civis.bz.it/region-of-trentino-alto-adige-suedtirol/elezioni-comunali-2025/VOTISINDACI-SUM-B.CSV"
+        },
+        {
+            "@id": "http://prov.bz/dataset/238950c8-af0a-48bd-82ee-da72978ec034/resource/743a765c-bac6-4a82-910e-e020d0ecfc88",
+            "@type": "schema:DataDownload",
+            "schema:encodingFormat": "CSV",
+            "schema:name": "Voti Liste Sindaci",
+            "schema:url": "https://datahub.civis.bz.it/region-of-trentino-alto-adige-suedtirol/elezioni-comunali-2025/VOTILISTESINDACI.CSV"
+        },
+        {
+            "@id": "http://prov.bz/dataset/238950c8-af0a-48bd-82ee-da72978ec034/resource/cabf34d5-d5c1-4f8e-8563-81454f6f2076",
+            "@type": "schema:DataDownload",
+            "schema:encodingFormat": "CSV",
+            "schema:name": "Collegamenti",
+            "schema:url": "https://datahub.civis.bz.it/region-of-trentino-alto-adige-suedtirol/elezioni-comunali-2025/COLLEGAMENTI.CSV"
+        },
+        {
+            "@id": "http://prov.bz/dataset/238950c8-af0a-48bd-82ee-da72978ec034/resource/2550e46c-5dc8-4e46-96ac-808b56580482",
+            "@type": "schema:DataDownload",
+            "schema:encodingFormat": "CSV",
+            "schema:name": "Affluenze",
+            "schema:url": "https://datahub.civis.bz.it/region-of-trentino-alto-adige-suedtirol/elezioni-comunali-2025/AFFLUENZE.CSV"
+        },
+        {
+            "@id": "http://prov.bz/dataset/238950c8-af0a-48bd-82ee-da72978ec034/resource/46efffb5-d4fe-4f5a-911c-becc40683dbf",
+            "@type": "schema:DataDownload",
+            "schema:encodingFormat": "PDF",
+            "schema:name": "Anleitungen",
+            "schema:url": "https://datahub.civis.bz.it/region-of-trentino-alto-adige-suedtirol/elezioni-comunali-2025/1-anleitungen.pdf"
+        },
+        {
+            "@id": "http://prov.bz/dataset/238950c8-af0a-48bd-82ee-da72978ec034",
+            "@type": "schema:Dataset",
+            "schema:dateModified": [
+                "12-08-2025",
+                "2025-12-08T00:00:00"
+            ],
+            "schema:datePublished": [
+                "2025-12-08T00:00:00",
+                "12-08-2025"
+            ],
+            "schema:description": "Il dataset contiene i risultati ufficiali delle ultime elezioni comunali per comune della regione.\r\n\r\nLa titolarit\u00e0 piena ed esclusiva del dataset \"Risultati Elezioni Comunali 2025\" \u00e8 del/la Regione Autonoma Trentino Alto-Adige/S\u00fcdtirol (Licenziante), ai sensi della L. 633/41 e s.m.i.\r\n\r\nIl/La Regione Autonoma Trentino Alto-Adige/S\u00fcdtirol autorizza la libera e gratuita consultazione, estrazione, riproduzione e modifica dei dati in essa contenuti da parte di chiunque (Licenziatario) vi abbia interesse per qualunque fine, purch\u00e9 nel rispetto dei termini della licenza Creative Commons - Attribuzione 2.5 Italia (testo integrale: http://creativecommons.org/licenses/by/2.5/it/legalcode).\r\n\r\nL'attribuzione dovr\u00e0 fornire una menzione adeguata di:\r\n\r\n\u2022 Autore originale e/o titolare dei diritti: Ufficio elettorale\r\n\r\n\u2022 Terze parti designate, se esistenti\r\n\r\n\u2022 Nome della Banca Dati: Risultati Elezioni Comunali 2025\r\n\r\n\u2022 http://www.regione.taa.it/Elettorale/Comunali.aspx ove ci\u00f2 sia ragionevolmente possibile;\r\n\r\nIn caso di documenti rielaborati o opere derivate di vario genere, l'attribuzione dovr\u00e0 essere effettuata in modo tale da non ingenerare confusione rispetto all'origine del documento stesso.\r\n\r\nIl set di dati Contiene i RISULTATI ufficiali delle Elezioni comunali dal Comune della Regione.\r\n\r\nLa titolarit\u00e0 Piena Ed Esclusiva del set di dati \"RISULTATI Elezioni Comunali 2025\" E del / La Regione Autonoma Trentino-Alto Adige / S\u00fcdtirol (Licenziante), Ai sensi della L. 633/41 e smi\r\n\r\nIl / La Regione Autonoma Trentino-Alto Adige / S\u00fcdtirol autorizza la libera e Gratuita Consultazione, Estrazione, Riproduzione e Modifica dei Dati nella ESSA Contenuti da parte di chiunque (licenziatario) vi abbia interesse per bene Qualunque, Purche nel RISPETTO dei termini della Licenza Creative Commons - Attribuzione 2.5 Italia (testo integrale: http://creativecommons.org/licenses/by/2.5/it/legalcode).\r\n\r\nL'Attribuzione dovra FORNIRE Una Menzione adeguata di:\r\n\r\n\u2022 Autore originale e / o titolare dei Diritti: Ufficio elettorale\r\n\r\n\u2022 Terze designato parti, se esistenti\r\n\r\n\u2022 Nome della Banca Dati: RISULTATI Elezioni Comunali 2025\r\n\r\n\u2022 http://www.regione.taa.it/Elettorale/Comunali.aspx ove cio Sia ragionevolmente possibile;\r\n\r\nIn Caso di Documenti rielaborati o Opere di derivati \u200b\u200bvario Genere, l'Attribuzione dovra Essere effettuata in modo da non ingenerare racconto confusione RISPETTO all'origine del documento Stesso.\r\n\r\nSi Precisa esplicitamente Che con la pr\u00e9sente il Licenza Licenziante intende autorizzare il licenziatario ad esercitare, ferme restando le restrizioni della Licenza di cui sopra, Anche i DIRITTI Disciplinati dall'arte. 102-bis e ss., L. 633/41 e s.m.i. (cd diritto sui generis del costitutore di Una Banca di Dati).\r\n\r\nIl licenziatario E Invitato a segnalare Calcola OGNI Eventuale Errore o incongruenza venisse rilevata RISPETTO al contenuto del documento. La segnalazione di EVENTUALI inesattezze o Errori PU\u00d2 Essere please select al following Indirizzo di posta elettronica elettorale@regione.taa.it, gestito da Ufficio elettorale. Una copia di qualunque documento o set di dati rielaborato Potra Essere di posta elettronica all'indirizzo elettorale@regione.taa.it please select.Si precisa esplicitamente che con la presente licenza il Licenziante intende autorizzare il Licenziatario ad esercitare, ferme restando le restrizioni della licenza di cui sopra, anche i diritti disciplinati dall'art. 102-bis e ss., L. 633/41 e s.m.i. (c.d. diritto sui generis del costitutore di una banca di dati).\r\n\r\nIl Licenziatario \u00e8 invitato a segnalare ogni eventuale errore o incongruenza venisse rilevata rispetto al contenuto del documento. La segnalazione di eventuali inesattezze o errori pu\u00f2 essere inviata al seguente indirizzo di posta elettronica elettorale@regione.taa.it, gestito da Ufficio elettorale. Una copia di qualunque documento o dataset rielaborato potr\u00e0 essere inviata all'indirizzo di posta elettronica elettorale@regione.taa.it.\r\n",
+            "schema:distribution": [
+                {
+                    "@id": "http://prov.bz/dataset/238950c8-af0a-48bd-82ee-da72978ec034/resource/a1b01ae1-6348-40ea-a68c-e1deaa2a20bd"
+                },
+                {
+                    "@id": "http://prov.bz/dataset/238950c8-af0a-48bd-82ee-da72978ec034/resource/2477dab1-0983-4fc1-836d-7ffd0b3d6ba2"
+                },
+                {
+                    "@id": "http://prov.bz/dataset/238950c8-af0a-48bd-82ee-da72978ec034/resource/e524b98a-3fa2-4018-8cbe-2affbd5a89a7"
+                },
+                {
+                    "@id": "http://prov.bz/dataset/238950c8-af0a-48bd-82ee-da72978ec034/resource/6e5eeeb9-9378-497a-a72e-80030ba72e86"
+                },
+                {
+                    "@id": "http://prov.bz/dataset/238950c8-af0a-48bd-82ee-da72978ec034/resource/2b552b97-e8e3-4847-8beb-749803479393"
+                },
+                {
+                    "@id": "http://prov.bz/dataset/238950c8-af0a-48bd-82ee-da72978ec034/resource/fcd6dd9e-cba8-4f11-83d0-a13ad0618647"
+                },
+                {
+                    "@id": "http://prov.bz/dataset/238950c8-af0a-48bd-82ee-da72978ec034/resource/b7e18db2-f751-4d64-8e22-ba3824fcff64"
+                },
+                {
+                    "@id": "http://prov.bz/dataset/238950c8-af0a-48bd-82ee-da72978ec034/resource/46efffb5-d4fe-4f5a-911c-becc40683dbf"
+                },
+                {
+                    "@id": "http://prov.bz/dataset/238950c8-af0a-48bd-82ee-da72978ec034/resource/81198e78-61e1-48cf-846c-e21efa410389"
+                },
+                {
+                    "@id": "http://prov.bz/dataset/238950c8-af0a-48bd-82ee-da72978ec034/resource/a26885f7-9735-4d68-86a3-44f310813d11"
+                },
+                {
+                    "@id": "http://prov.bz/dataset/238950c8-af0a-48bd-82ee-da72978ec034/resource/2550e46c-5dc8-4e46-96ac-808b56580482"
+                },
+                {
+                    "@id": "http://prov.bz/dataset/238950c8-af0a-48bd-82ee-da72978ec034/resource/ab46652c-6e9d-43e0-8345-d130e9fc4ec7"
+                },
+                {
+                    "@id": "http://prov.bz/dataset/238950c8-af0a-48bd-82ee-da72978ec034/resource/f1334836-bd6c-4bcc-aebb-24e12133e0a2"
+                },
+                {
+                    "@id": "http://prov.bz/dataset/238950c8-af0a-48bd-82ee-da72978ec034/resource/22fc013c-8c35-4b86-b30f-c5af3e98773e"
+                },
+                {
+                    "@id": "http://prov.bz/dataset/238950c8-af0a-48bd-82ee-da72978ec034/resource/743a765c-bac6-4a82-910e-e020d0ecfc88"
+                },
+                {
+                    "@id": "http://prov.bz/dataset/238950c8-af0a-48bd-82ee-da72978ec034/resource/7a39e559-b9d5-40d0-88a6-bf82241a7ebd"
+                },
+                {
+                    "@id": "http://prov.bz/dataset/238950c8-af0a-48bd-82ee-da72978ec034/resource/cabf34d5-d5c1-4f8e-8563-81454f6f2076"
+                }
+            ],
+            "schema:identifier": "p_bz:9db9b47c-6b0a-43e3-87cb-d1c91c7d1020",
+            "schema:inLanguage": [
+                "DEU}",
+                "{ITA"
+            ],
+            "schema:includedInDataCatalog": {
+                "@id": "_:N351e5e4bb2d34c0a84d0804afa94e195"
+            },
+            "schema:keywords": [
+                "sindaci",
+                "comunali",
+                "elezioni",
+                "candidati",
+                "Governo e settore pubblico",
+                "voti",
+                "consiglieri"
+            ],
+            "schema:license": "Licenza non specificata",
+            "schema:name": "Risultati Elezioni Comunali 2025",
+            "schema:publisher": {
+                "@id": "_:N6e0f9d7697464c598cfdfc40b9f5ddc4"
+            },
+            "schema:url": "https://data.civis.bz.it/it/dataset/risultati-elezioni-comunali-2025"
+        },
+        {
+            "@id": "_:N351e5e4bb2d34c0a84d0804afa94e195",
+            "@type": "schema:DataCatalog",
+            "schema:description": "Open The Public Administration",
+            "schema:name": "Open Data Portal South Tyrol",
+            "schema:url": "https://data.civis.bz.it"
+        },
+        {
+            "@id": "_:N6e0f9d7697464c598cfdfc40b9f5ddc4",
+            "@type": "schema:Organization",
+            "schema:contactPoint": {
+                "@id": "_:N174fd2520cf9451cbc2ebfdfc3fd47ae"
+            },
+            "schema:name": "Regione Autonoma Trentino - Alto Adige"
+        },
+        {
+            "@id": "_:N174fd2520cf9451cbc2ebfdfc3fd47ae",
+            "@type": "schema:ContactPoint",
+            "schema:contactType": "customer service",
+            "schema:name": "Regione Autonoma Trentino - Alto Adige",
+            "schema:url": "https://data.civis.bz.it"
+        },
+        {
+            "@id": "http://prov.bz/dataset/238950c8-af0a-48bd-82ee-da72978ec034/resource/7a39e559-b9d5-40d0-88a6-bf82241a7ebd",
+            "@type": "schema:DataDownload",
+            "schema:encodingFormat": "CSV",
+            "schema:name": "Voti Sindaci Comune",
+            "schema:url": "https://datahub.civis.bz.it/region-of-trentino-alto-adige-suedtirol/elezioni-comunali-2025/VOTISINDACI-SUM.CSV"
+        },
+        {
+            "@id": "http://prov.bz/dataset/238950c8-af0a-48bd-82ee-da72978ec034/resource/ab46652c-6e9d-43e0-8345-d130e9fc4ec7",
+            "@type": "schema:DataDownload",
+            "schema:encodingFormat": "CSV",
+            "schema:name": "Voti Sindaci",
+            "schema:url": "https://datahub.civis.bz.it/region-of-trentino-alto-adige-suedtirol/elezioni-comunali-2025/VOTISINDACI.CSV"
+        }
+    ]
+}
+          </script>
+      
+  
+
+
+    
+    
+    <link href="/webassets/ckanext-dcatapit/dcatapit.css?1c17dddc" rel="stylesheet"/>
+<link href="/webassets/vendor/f3b8236b_select2.css" rel="stylesheet"/>
+<link href="/webassets/vendor/d05bf0e7_fontawesome.css" rel="stylesheet"/>
+    <script src="/webassets/vendor/8c3c143a_jquery.js" type="text/javascript"></script>
+<script src="/webassets/vendor/9cf42cfd_vendor.js" type="text/javascript"></script>
+<script src="/webassets/vendor/6d1ad7e6_bootstrap.js" type="text/javascript"></script>
+<script src="/webassets/base/6fddaa3f_main.js" type="text/javascript"></script>
+<script src="/webassets/base/0d750fad_ckan.js" type="text/javascript"></script>
+<script src="/webassets/activity/0fdb5ee0_activity.js" type="text/javascript"></script>
+<script src="/webassets/provbz/5f723f99_base.js" type="text/javascript"></script>
+<script src="/webassets/provbz/93c5cf9c_cookiechoices.js" type="text/javascript"></script>
+  </body>
+</html>
