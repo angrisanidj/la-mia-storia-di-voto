@@ -1,0 +1,11 @@
+001 https://www.extraturno.2024.elezionicomunali.tn.it/robots.txt
+002 https://www.extraturno.2024.elezionicomunali.tn.it/
+003 https://www.extraturno.2024.elezionicomunali.tn.it/Risultati/Coalizioni/000172.html
+004 https://www.2024.elezionicomunali.tn.it/
+005 https://www.extraturno.2025.elezionicomunali.tn.it/robots.txt
+006 https://www.2025.elezionicomunali.tn.it/robots.txt
+007 https://www.extraturno.2013.elezionicomunali.tn.it/
+008 https://www.2013.elezionicomunali.tn.it/
+009 http://web.archive.org/web/2013id_/http://3.elezionicomunali.tn.it/
+010 https://www.2020.elezionicomunali.tn.it/robots.txt
+011 https://2015.elezionicomunali.tn.it/robots.txt
