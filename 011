@@ -1,0 +1,983 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+
+
+
+
+<!-- HTML -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it" >
+
+  <!-- HEAD -->
+  
+<!-- inizio HEAD -->
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	<title>Informatizzazione Dati Elezioni Provinciali</title>
+	<link href="./css/style.css" rel="stylesheet" type="text/css"/>
+		
+	<script type="text/javascript" src="./js/common.js"></script>
+	<script type="text/javascript" src="./js/pre-elettorale/validateForms.js"></script>
+	<script type="text/javascript" src="./js/pre-elettorale/validateFormsTornata.js"></script>
+	<script type="text/javascript" src="./js/pre-elettorale/simpledateformat.js"></script>
+	<script type="text/javascript" src="./js/elettorale/validateForms.js"></script>
+	<script type="text/javascript" src="./js/report/report.js"></script>
+<!--<script type="text/javascript">
+		window.history.forward(1);
+		var version = navigator.appVersion; 
+
+		if (document.addEventListener){
+			alert("Eccomi nell'if");	
+		  window.document.addEventListener('keydown', my_onkeydown_handler, true);
+		} else if (document.attachEvent){
+			alert("Eccomi nell'else if");
+		  // IE style
+		  document.attachEvent('onkeydown', my_onkeydown_handler);
+		}
+		function my_onkeydown_handler(e) {
+			var keycode =(window.event) ? event.keyCode : e.keyCode;
+			
+			
+		if ((version.indexOf('MSIE') != -1))
+			{
+				
+					if(keycode == 116)
+				{
+					event.keyCode = 27;//27 o 0???
+					event.returnValue = false;
+					window.status = "We have disabled F5";
+					return false;
+				}
+			}
+			else
+			{
+				
+				if(keycode == 116)
+				{
+				e.returnvValue = false;
+				window.status = "Mozilla, We have disabled F5";
+				return false;
+				}
+			}
+		}
+</script>	
+--></head>
+
+<!-- fine HEAD -->
+  <!-- BODY -->
+  <body>
+  
+  
+  	<!-- SOLO PER SITO STATICO -->
+  	
+  	
+  	<div class="alignCenterBlock_">
+  		<table border="0" width="880px;" cellspacing="0" cellpadding="0"  >
+  	<tr>
+  	<td  rowspan="3" class="nowrap">
+		<img src="./images/st1.gif" width="100" alt=""/> 
+  	 </td>
+  	
+  	 
+  	<td>
+  	<!-- BANNER -->
+		<!-- BANNER -->
+<!-- div class="cont-bannerCE">&#160;</div-->
+<div class="alignCenterBG" >
+			<div class="banner">
+			<img src="./images/logo.gif" alt="logo regione siciliana" width="88" height="126"  class="imgFloatLeft"/>
+				<div class="testoBanner" >
+				<span class="title">Assessorato Regionale della Famiglia, <br/>
+			          delle Politiche Sociali e delle Autonomie Locali<br/><i>Servizio Elettorale</i></span>
+				</div>			
+			</div>
+	</div>
+	<div class="clearP"> </div>
+		<!-- UserInfo -->
+		
+<!-- skip -->
+
+<!-- USER-INFO -->
+    
+
+
+
+	
+	<div class="infoUtenteImSta">
+
+		         
+	    <div class="InfoUteLimSta">&nbsp;Dati di&nbsp;domenica 15 giugno 2008, 13:58  </div>
+	    <div id="header">
+	       <ul>
+	      <li ><a href="/comunali2008/">Elezioni Comunali</a></li> 
+	         
+	         <li id="current"><a href="#">Elezioni Provinciali</a></li>
+	       </ul>
+	    </div>
+	</div>
+	
+	
+
+	 
+  	 </td>
+  	 </tr>	
+  	 <tr>
+	  	<td valign="top">
+			  	 	<table cellspacing="0" cellpadding="0"  class="tableLayout" >
+			  	 	<tr >
+			          <td class="tdMenu" style="width:151px;">
+						<!-- MENU -->
+						
+
+
+
+
+
+<ul class="menuSxUl">
+
+	<li class="menuP"><a href="index.html" title="Home" class="linkSottoMenu">Home</a></li>
+
+	<li class="menuP" title="Sezione Reports">Report</li>
+	
+	<li class="menuF"><a href="REPORT_PRESIDENTI_LISTE_SEL_PROV.html"
+		title="Report Candidati Presidenti e Liste " class="linkSottoMenu">Report Candidati Presidenti e Liste </a></li>
+	
+	<li class="menuF"><a
+		href="REPORT_CONSIGLIERI_LISTE_SEL_PROV.html"
+		title="Report Consiglieri Provinciali " class="linkSottoMenu">Report Consiglieri Provinciali </a></li>
+
+	
+		
+		
+			<li class="menuF"><a
+				href="REPORT_RAFFRONTO_STORICO_AFFLUENZA_PRIMO_TURNO_REG.html"
+				title="Visualizza Report Affluenza"
+				class="linkSottoMenu">Report Affluenza </a></li>
+		
+	
+	
+	 <li class="menuF"><a
+		href="REPORT_VOTI_PRES_CONTR_SEL_PROV.html"
+		title="Report Voti Candidati Presidente"
+		class="linkSottoMenu">Report Voti Candidati Presidente</a></li>
+		
+	<li class="menuF"><a
+		href="REPORT_VOTI_PRESIDENTI_LISTE_SEL_PROV.html"
+		title="Visualizza Report Voti Candidati Presidente e Liste" 
+		class="linkSottoMenu">Report Voti Candidati Presidente e Liste</a></li>
+
+	<li class="menuF"><a
+		href="REPORT_VOTI_CONSIGLIERI_SEL_PROV.html"
+		title="Visualizza Report Voti Consiglieri" 
+		class="linkSottoMenu">Report Voti Consiglieri</a></li>
+
+	<li class="menuF"><a
+		href="REPORT_RISULTATI_SEL_PROV.html"
+		title="Visualizza Report Risultati"
+		class="linkSottoMenu">Report Risultati</a></li>
+
+	<li class="menuF"><a
+		href="REPORT_RIRARTIZIONE_SEGGI_SEL_PROV.html"
+		title="Visualizza Report Ripartizione Seggi"
+		class="linkSottoMenu">Report Ripartizione Seggi </a></li>
+
+	<li class="menuF"><a
+		href="REPORT_RAFFRONTO_STORICO_LISTE_SEL_PROV.html"
+		title="Visualizza Report Raffronto Storico"
+		class="linkSottoMenu">Report Raffronto Storico</a></li>
+</ul> 
+						</td>
+						<td id="corpoP" class="corpoCentr" style="width:649px;">		
+						<!-- CORPO -->
+					 	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="tableProv">
+		<tr class="trTableProv">
+			<td class="tdTableProv">
+				
+				<a class="linkMenu" href="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_1.html" 
+				   title="AGRIGENTO"><span class="spanBoldArial">AG</span></a>
+				<span class="pipeB">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+			
+				<a class="linkMenu" href="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_2.html" 
+				   title="CALTANISSETTA"><span class="spanBoldArial">CL</span></a>
+				<span class="pipeB">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+			
+				<a class="linkMenu" href="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3.html" 
+				   title="CATANIA"><span class="spanBoldArial">CT</span></a>
+				<span class="pipeB">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+			
+				<a class="linkMenu" href="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_4.html" 
+				   title="ENNA"><span class="spanBoldArial">EN</span></a>
+				<span class="pipeB">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+			
+				<a class="linkMenu" href="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_5.html" 
+				   title="MESSINA"><span class="spanBoldArial">ME</span></a>
+				<span class="pipeB">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+			
+				<a class="linkMenu" href="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_6.html" 
+				   title="PALERMO"><span class="spanBoldArial">PA</span></a>
+				<span class="pipeB">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+			
+				<a class="linkMenu" href="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_7.html" 
+				   title="SIRACUSA"><span class="spanBoldArial">SR</span></a>
+				<span class="pipeB">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+			
+				<a class="linkMenu" href="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_8.html" 
+				   title="TRAPANI"><span class="spanBoldArial">TP</span></a>
+				<span class="pipeB">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+			
+			</td>
+		</tr>
+	</table>
+
+
+
+
+
+
+
+
+<div class="titleSectionRepNewIT">
+	Elezioni Provinciali del 15-16 giugno 2008
+	<br/><br/>
+		
+
+	Report Candidati Presidenti e Liste
+	<br/>
+	
+		
+		
+		
+		
+			Provincia di <span class="titleSection2"> CATANIA</span>
+			
+			 
+			
+		
+	
+</div>
+
+
+
+
+
+
+
+
+
+ 
+	
+
+
+
+
+
+	
+
+		
+			
+		
+		 
+		
+		
+		
+	
+	
+
+
+	<br/>
+
+
+
+
+
+<form id="webStaticBean" method="post" action="/IDEPWebStatic/visualizzaReportStatic.controller?flagSelezioneProvincia=T&amp;linkSelezioneProvincia=REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_&amp;pageTitle=repCandPresListe.title&amp;linkHtml=%2FPUB_MAN%2FREPORT_PRESIDENTI_LISTE%2FREPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_REPORT.html&amp;urlFunzionalita=candidatiPresidentiListeWizardReport.controller&amp;numeroPagina=2&amp;idPubblicazione=1&amp;styleViewReport=reportTabN&amp;orario=domenica%2B15%2Bgiugno%2B2008%252C%2B13%253A58%2B&amp;idInfoProvincia=3&amp;linkPdf=REPORT_PRESIDENTI_LISTE%2FDOWNLOADS%2FREPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3.pdf&amp;linkPriSecTurno=REPORT_PRESIDENTI_LISTE_SECONDO_TURNO_PROV_3.html&amp;flagSelezioneCollegio=T&amp;linkSelezioneCollegio=REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_COL_&amp;flagBallottaggio=F&amp;flagIndietro=T">
+
+	<table summary="" class="tableCenter">
+		<tr>
+
+			<!-- link turno -->
+			<td class="alignLeft width25 nowrap">&nbsp;&nbsp;
+				
+				&nbsp;
+			</td>
+
+			<td class="alignCenter40 nowrap">
+				<label for="infoCollegio.idInfoCollegio"> 
+					<span class="normalBold">
+						Collegio
+					</span>
+				</label>
+				<select id="infoCollegio.idInfoCollegio" name="infoCollegio.idInfoCollegio">
+					<option value="">-Seleziona-</option>
+					
+						<option value="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_COL_7.html">
+							ACIREALE
+						</option>			
+					
+						<option value="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_COL_8.html">
+							CALTAGIRONE
+						</option>			
+					
+						<option value="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_COL_9.html">
+							CATANIA 1
+						</option>			
+					
+						<option value="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_COL_10.html">
+							CATANIA 2
+						</option>			
+					
+						<option value="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_COL_11.html">
+							CATANIA 3
+						</option>			
+					
+						<option value="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_COL_12.html">
+							GIARRE
+						</option>			
+					
+						<option value="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_COL_13.html">
+							PATERNO&#039;
+						</option>			
+					
+						<option value="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_COL_14.html">
+							TRECASTAGNI
+						</option>			
+					
+				</select>
+				<input class="formbuttonBis" type="button" value='Vai' onclick ="return submitSelezioneCombo('infoCollegio.idInfoCollegio', 'Collegio')" name="_finish" />
+				
+			</td>
+
+			<!-- link downloads -->
+			<td class="alignRight width25 nowrap">
+				
+					
+						<img src="./images/bullet_menu.gif" alt="bullet" width="12" height="12"  /><a class="normalBoldLinkReport" href="REPORT_PRESIDENTI_LISTE/DOWNLOADS/REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3.pdf" target="_blank">Download Report pdf</a>
+					
+				
+					
+					&nbsp;&nbsp;&nbsp;
+				
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3" class="reportTabN">
+				
+					
+						<html>
+<head>
+  <title></title>
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+  <style type="text/css">
+    a {text-decoration: none}
+  </style>
+</head>
+<body text="#000000" link="#000000" alink="#000000" vlink="#000000">
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td width="50%">&nbsp;</td><td align="center">
+
+<a name="JR_PAGE_ANCHOR_0_1"/>
+<table style="width: 595px" cellpadding="0" cellspacing="0" border="0">
+<tr>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 10px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 564px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 20px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="4"><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 595px; height: 12px;"/></td>
+</tr>
+<tr valign="top">
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 10px; height: 44px;"/></td>
+  <td colspan="2" style="border-top-style: solid; border-top-width: 2px; border-top-color: #D7D4CA; border-left-style: solid; border-left-width: 2px; border-left-color: #D7D4CA; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #ACA899; border-right-style: solid; border-right-width: 2px; border-right-color: #ACA899; ">
+<table style="width: 565px" cellpadding="0" cellspacing="0" border="0">
+<tr>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 21px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 26px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 105px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 412px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 44px;"/></td>
+  <td valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 10.0px; font-weight: bold;">N°</span></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 11.0px;">1</span></td>
+  <td valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 11.0px; font-weight: bold;">Candidato Presidente</span></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; "><span style="font-family: Verdana; font-size: 11.0px; font-weight: bold;">&nbsp;BONANNO CONTI GIUSEPPE</span></td>
+</tr>
+</table>
+</td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 20px; height: 44px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="4"><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 595px; height: 3px;"/></td>
+</tr>
+<tr valign="top">
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 10px; height: 23px;"/></td>
+  <td colspan="2" style="border-top-style: solid; border-top-width: 2px; border-top-color: #D7D4CA; border-left-style: solid; border-left-width: 2px; border-left-color: #D7D4CA; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #ACA899; border-right-style: solid; border-right-width: 2px; border-right-color: #ACA899; ">
+<table style="width: 565px" cellpadding="0" cellspacing="0" border="0">
+<tr>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 447px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 116px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 23px;"/></td>
+  <td valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 11.0px; font-weight: bold;">Lista/e Collegata/e</span></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 23px;"/></td>
+  <td valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 11.0px; font-weight: bold;">Candidati</span></td>
+</tr>
+</table>
+</td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 20px; height: 23px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="2"><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 11px; height: 50px;"/></td>
+  <td style="border-left-style: solid; border-left-width: 2px; border-left-color: #D7D4CA; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #ACA899; border-right-style: solid; border-right-width: 2px; border-right-color: #ACA899; ">
+<table style="width: 564px" cellpadding="0" cellspacing="0" border="0">
+<tr>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 50px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 395px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 116px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td style="border-top-style: solid; border-top-width: 1px; border-top-color: #D7D4CA; border-left-style: solid; border-left-width: 1px; border-left-color: #D7D4CA; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #ACA899; border-right-style: solid; border-right-width: 1px; border-right-color: #ACA899; "><img src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/img_0_0_2_1" style="height: 50px" alt=""/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 6px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; "><span style="font-family: Verdana; font-size: 11.0px;">FORZA NUOVA</span></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 11.0px;">45</span></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+</tr>
+</table>
+</td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 20px; height: 50px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="4"><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 595px; height: 24px;"/></td>
+</tr>
+<tr valign="top">
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 10px; height: 44px;"/></td>
+  <td colspan="2" style="border-top-style: solid; border-top-width: 2px; border-top-color: #D7D4CA; border-left-style: solid; border-left-width: 2px; border-left-color: #D7D4CA; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #ACA899; border-right-style: solid; border-right-width: 2px; border-right-color: #ACA899; ">
+<table style="width: 565px" cellpadding="0" cellspacing="0" border="0">
+<tr>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 21px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 26px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 105px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 412px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 44px;"/></td>
+  <td valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 10.0px; font-weight: bold;">N°</span></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 11.0px;">2</span></td>
+  <td valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 11.0px; font-weight: bold;">Candidato Presidente</span></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; "><span style="font-family: Verdana; font-size: 11.0px; font-weight: bold;">&nbsp;CASTIGLIONE GIUSEPPE</span></td>
+</tr>
+</table>
+</td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 20px; height: 44px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="4"><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 595px; height: 3px;"/></td>
+</tr>
+<tr valign="top">
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 10px; height: 23px;"/></td>
+  <td colspan="2" style="border-top-style: solid; border-top-width: 2px; border-top-color: #D7D4CA; border-left-style: solid; border-left-width: 2px; border-left-color: #D7D4CA; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #ACA899; border-right-style: solid; border-right-width: 2px; border-right-color: #ACA899; ">
+<table style="width: 565px" cellpadding="0" cellspacing="0" border="0">
+<tr>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 447px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 116px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 23px;"/></td>
+  <td valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 11.0px; font-weight: bold;">Lista/e Collegata/e</span></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 23px;"/></td>
+  <td valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 11.0px; font-weight: bold;">Candidati</span></td>
+</tr>
+</table>
+</td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 20px; height: 23px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="2"><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 11px; height: 50px;"/></td>
+  <td style="border-left-style: solid; border-left-width: 2px; border-left-color: #D7D4CA; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #ACA899; border-right-style: solid; border-right-width: 2px; border-right-color: #ACA899; ">
+<table style="width: 564px" cellpadding="0" cellspacing="0" border="0">
+<tr>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 50px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 395px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 116px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td style="border-top-style: solid; border-top-width: 1px; border-top-color: #D7D4CA; border-left-style: solid; border-left-width: 1px; border-left-color: #D7D4CA; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #ACA899; border-right-style: solid; border-right-width: 1px; border-right-color: #ACA899; "><img src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/img_0_0_5_1" style="height: 50px" alt=""/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 6px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; "><span style="font-family: Verdana; font-size: 11.0px;">DEMOCRATICI AUTONOMISTI</span></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 11.0px;">21</span></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+</tr>
+</table>
+</td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 20px; height: 50px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="2"><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 11px; height: 50px;"/></td>
+  <td style="border-left-style: solid; border-left-width: 2px; border-left-color: #D7D4CA; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #ACA899; border-right-style: solid; border-right-width: 2px; border-right-color: #ACA899; ">
+<table style="width: 564px" cellpadding="0" cellspacing="0" border="0">
+<tr>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 50px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 395px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 116px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td style="border-top-style: solid; border-top-width: 1px; border-top-color: #D7D4CA; border-left-style: solid; border-left-width: 1px; border-left-color: #D7D4CA; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #ACA899; border-right-style: solid; border-right-width: 1px; border-right-color: #ACA899; "><img src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/img_0_0_6_1" style="height: 50px" alt=""/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 6px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; "><span style="font-family: Verdana; font-size: 11.0px;">IL POPOLO DELLA LIBERTA' - BERLUSCONI PRESIDENTE</span></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 11.0px;">44</span></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+</tr>
+</table>
+</td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 20px; height: 50px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="2"><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 11px; height: 50px;"/></td>
+  <td style="border-left-style: solid; border-left-width: 2px; border-left-color: #D7D4CA; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #ACA899; border-right-style: solid; border-right-width: 2px; border-right-color: #ACA899; ">
+<table style="width: 564px" cellpadding="0" cellspacing="0" border="0">
+<tr>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 50px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 395px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 116px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td style="border-top-style: solid; border-top-width: 1px; border-top-color: #D7D4CA; border-left-style: solid; border-left-width: 1px; border-left-color: #D7D4CA; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #ACA899; border-right-style: solid; border-right-width: 1px; border-right-color: #ACA899; "><img src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/img_0_0_7_1" style="height: 50px" alt=""/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 6px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; "><span style="font-family: Verdana; font-size: 11.0px;">LISTA PER CASTIGLIONE PRESIDENTE</span></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 11.0px;">43</span></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+</tr>
+</table>
+</td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 20px; height: 50px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="2"><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 11px; height: 50px;"/></td>
+  <td style="border-left-style: solid; border-left-width: 2px; border-left-color: #D7D4CA; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #ACA899; border-right-style: solid; border-right-width: 2px; border-right-color: #ACA899; ">
+<table style="width: 564px" cellpadding="0" cellspacing="0" border="0">
+<tr>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 50px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 395px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 116px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td style="border-top-style: solid; border-top-width: 1px; border-top-color: #D7D4CA; border-left-style: solid; border-left-width: 1px; border-left-color: #D7D4CA; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #ACA899; border-right-style: solid; border-right-width: 1px; border-right-color: #ACA899; "><img src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/img_0_0_8_1" style="height: 50px" alt=""/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 6px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; "><span style="font-family: Verdana; font-size: 11.0px;">MOVIMENTO PER L'AUTONOMIA - ALLEATI PER IL SUD</span></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 11.0px;">45</span></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+</tr>
+</table>
+</td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 20px; height: 50px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="2"><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 11px; height: 50px;"/></td>
+  <td style="border-left-style: solid; border-left-width: 2px; border-left-color: #D7D4CA; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #ACA899; border-right-style: solid; border-right-width: 2px; border-right-color: #ACA899; ">
+<table style="width: 564px" cellpadding="0" cellspacing="0" border="0">
+<tr>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 50px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 395px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 116px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td style="border-top-style: solid; border-top-width: 1px; border-top-color: #D7D4CA; border-left-style: solid; border-left-width: 1px; border-left-color: #D7D4CA; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #ACA899; border-right-style: solid; border-right-width: 1px; border-right-color: #ACA899; "><img src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/img_0_0_9_1" style="height: 50px" alt=""/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 6px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; "><span style="font-family: Verdana; font-size: 11.0px;">NELLO MUSUMECI PER LA PROVINCIA</span></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 11.0px;">45</span></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+</tr>
+</table>
+</td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 20px; height: 50px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="2"><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 11px; height: 50px;"/></td>
+  <td style="border-left-style: solid; border-left-width: 2px; border-left-color: #D7D4CA; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #ACA899; border-right-style: solid; border-right-width: 2px; border-right-color: #ACA899; ">
+<table style="width: 564px" cellpadding="0" cellspacing="0" border="0">
+<tr>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 50px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 395px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 116px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td style="border-top-style: solid; border-top-width: 1px; border-top-color: #D7D4CA; border-left-style: solid; border-left-width: 1px; border-left-color: #D7D4CA; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #ACA899; border-right-style: solid; border-right-width: 1px; border-right-color: #ACA899; "><img src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/img_0_0_10_1" style="height: 50px" alt=""/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 6px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; "><span style="font-family: Verdana; font-size: 11.0px;">SICILIA FORTE E LIBERA - LOMBARDO PRESIDENTE</span></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 11.0px;">39</span></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+</tr>
+</table>
+</td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 20px; height: 50px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="2"><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 11px; height: 50px;"/></td>
+  <td style="border-left-style: solid; border-left-width: 2px; border-left-color: #D7D4CA; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #ACA899; border-right-style: solid; border-right-width: 2px; border-right-color: #ACA899; ">
+<table style="width: 564px" cellpadding="0" cellspacing="0" border="0">
+<tr>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 50px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 395px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 116px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td style="border-top-style: solid; border-top-width: 1px; border-top-color: #D7D4CA; border-left-style: solid; border-left-width: 1px; border-left-color: #D7D4CA; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #ACA899; border-right-style: solid; border-right-width: 1px; border-right-color: #ACA899; "><img src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/img_0_0_11_1" style="height: 50px" alt=""/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 6px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; "><span style="font-family: Verdana; font-size: 11.0px;">UNIONE DEI DEMOCRATICI CRISTIANI E DEI DEMOCRATICI DI CENTRO</span></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 11.0px;">43</span></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+</tr>
+</table>
+</td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 20px; height: 50px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="4"><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 595px; height: 24px;"/></td>
+</tr>
+<tr valign="top">
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 10px; height: 44px;"/></td>
+  <td colspan="2" style="border-top-style: solid; border-top-width: 2px; border-top-color: #D7D4CA; border-left-style: solid; border-left-width: 2px; border-left-color: #D7D4CA; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #ACA899; border-right-style: solid; border-right-width: 2px; border-right-color: #ACA899; ">
+<table style="width: 565px" cellpadding="0" cellspacing="0" border="0">
+<tr>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 21px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 26px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 105px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 412px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 44px;"/></td>
+  <td valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 10.0px; font-weight: bold;">N°</span></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 11.0px;">3</span></td>
+  <td valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 11.0px; font-weight: bold;">Candidato Presidente</span></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; "><span style="font-family: Verdana; font-size: 11.0px; font-weight: bold;">&nbsp;CASTORINA PAOLO</span></td>
+</tr>
+</table>
+</td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 20px; height: 44px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="4"><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 595px; height: 3px;"/></td>
+</tr>
+<tr valign="top">
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 10px; height: 23px;"/></td>
+  <td colspan="2" style="border-top-style: solid; border-top-width: 2px; border-top-color: #D7D4CA; border-left-style: solid; border-left-width: 2px; border-left-color: #D7D4CA; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #ACA899; border-right-style: solid; border-right-width: 2px; border-right-color: #ACA899; ">
+<table style="width: 565px" cellpadding="0" cellspacing="0" border="0">
+<tr>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 447px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 116px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 23px;"/></td>
+  <td valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 11.0px; font-weight: bold;">Lista/e Collegata/e</span></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 23px;"/></td>
+  <td valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 11.0px; font-weight: bold;">Candidati</span></td>
+</tr>
+</table>
+</td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 20px; height: 23px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="2"><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 11px; height: 50px;"/></td>
+  <td style="border-left-style: solid; border-left-width: 2px; border-left-color: #D7D4CA; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #ACA899; border-right-style: solid; border-right-width: 2px; border-right-color: #ACA899; ">
+<table style="width: 564px" cellpadding="0" cellspacing="0" border="0">
+<tr>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 50px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 395px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 116px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td style="border-top-style: solid; border-top-width: 1px; border-top-color: #D7D4CA; border-left-style: solid; border-left-width: 1px; border-left-color: #D7D4CA; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #ACA899; border-right-style: solid; border-right-width: 1px; border-right-color: #ACA899; "><img src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/img_0_0_14_1" style="height: 50px" alt=""/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 6px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; "><span style="font-family: Verdana; font-size: 11.0px;">LA SINISTRA PER LA PROVINCIA</span></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 11.0px;">24</span></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+</tr>
+</table>
+</td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 20px; height: 50px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="2"><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 11px; height: 50px;"/></td>
+  <td style="border-left-style: solid; border-left-width: 2px; border-left-color: #D7D4CA; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #ACA899; border-right-style: solid; border-right-width: 2px; border-right-color: #ACA899; ">
+<table style="width: 564px" cellpadding="0" cellspacing="0" border="0">
+<tr>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 50px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 395px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 116px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td style="border-top-style: solid; border-top-width: 1px; border-top-color: #D7D4CA; border-left-style: solid; border-left-width: 1px; border-left-color: #D7D4CA; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #ACA899; border-right-style: solid; border-right-width: 1px; border-right-color: #ACA899; "><img src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/img_0_0_15_1" style="height: 50px" alt=""/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 6px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; "><span style="font-family: Verdana; font-size: 11.0px;">RIFONDAZIONE COMUNISTA</span></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 11.0px;">29</span></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+</tr>
+</table>
+</td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 20px; height: 50px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="4"><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 595px; height: 24px;"/></td>
+</tr>
+<tr valign="top">
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 10px; height: 44px;"/></td>
+  <td colspan="2" style="border-top-style: solid; border-top-width: 2px; border-top-color: #D7D4CA; border-left-style: solid; border-left-width: 2px; border-left-color: #D7D4CA; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #ACA899; border-right-style: solid; border-right-width: 2px; border-right-color: #ACA899; ">
+<table style="width: 565px" cellpadding="0" cellspacing="0" border="0">
+<tr>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 21px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 26px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 105px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 412px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 44px;"/></td>
+  <td valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 10.0px; font-weight: bold;">N°</span></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 11.0px;">4</span></td>
+  <td valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 11.0px; font-weight: bold;">Candidato Presidente</span></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; "><span style="font-family: Verdana; font-size: 11.0px; font-weight: bold;">&nbsp;LEOTTA SALVATORE</span></td>
+</tr>
+</table>
+</td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 20px; height: 44px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="4"><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 595px; height: 3px;"/></td>
+</tr>
+<tr valign="top">
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 10px; height: 23px;"/></td>
+  <td colspan="2" style="border-top-style: solid; border-top-width: 2px; border-top-color: #D7D4CA; border-left-style: solid; border-left-width: 2px; border-left-color: #D7D4CA; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #ACA899; border-right-style: solid; border-right-width: 2px; border-right-color: #ACA899; ">
+<table style="width: 565px" cellpadding="0" cellspacing="0" border="0">
+<tr>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 447px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 116px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 23px;"/></td>
+  <td valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 11.0px; font-weight: bold;">Lista/e Collegata/e</span></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 23px;"/></td>
+  <td valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 11.0px; font-weight: bold;">Candidati</span></td>
+</tr>
+</table>
+</td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 20px; height: 23px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="2"><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 11px; height: 50px;"/></td>
+  <td style="border-left-style: solid; border-left-width: 2px; border-left-color: #D7D4CA; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #ACA899; border-right-style: solid; border-right-width: 2px; border-right-color: #ACA899; ">
+<table style="width: 564px" cellpadding="0" cellspacing="0" border="0">
+<tr>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 50px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 395px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 116px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td style="border-top-style: solid; border-top-width: 1px; border-top-color: #D7D4CA; border-left-style: solid; border-left-width: 1px; border-left-color: #D7D4CA; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #ACA899; border-right-style: solid; border-right-width: 1px; border-right-color: #ACA899; "><img src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/img_0_0_18_1" style="height: 50px" alt=""/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 6px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; "><span style="font-family: Verdana; font-size: 11.0px;">COMUNISTI ITALIANI</span></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 11.0px;">35</span></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+</tr>
+</table>
+</td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 20px; height: 50px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="2"><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 11px; height: 50px;"/></td>
+  <td style="border-left-style: solid; border-left-width: 2px; border-left-color: #D7D4CA; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #ACA899; border-right-style: solid; border-right-width: 2px; border-right-color: #ACA899; ">
+<table style="width: 564px" cellpadding="0" cellspacing="0" border="0">
+<tr>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 50px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 395px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 116px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td style="border-top-style: solid; border-top-width: 1px; border-top-color: #D7D4CA; border-left-style: solid; border-left-width: 1px; border-left-color: #D7D4CA; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #ACA899; border-right-style: solid; border-right-width: 1px; border-right-color: #ACA899; "><img src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/img_0_0_19_1" style="height: 50px" alt=""/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 6px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; "><span style="font-family: Verdana; font-size: 11.0px;">ITALIA DEI VALORI LISTA DI PIETRO</span></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 11.0px;">29</span></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+</tr>
+</table>
+</td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 20px; height: 50px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="2"><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 11px; height: 50px;"/></td>
+  <td style="border-left-style: solid; border-left-width: 2px; border-left-color: #D7D4CA; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #ACA899; border-right-style: solid; border-right-width: 2px; border-right-color: #ACA899; ">
+<table style="width: 564px" cellpadding="0" cellspacing="0" border="0">
+<tr>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 50px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 395px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 116px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td style="border-top-style: solid; border-top-width: 1px; border-top-color: #D7D4CA; border-left-style: solid; border-left-width: 1px; border-left-color: #D7D4CA; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #ACA899; border-right-style: solid; border-right-width: 1px; border-right-color: #ACA899; "><img src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/img_0_0_20_1" style="height: 50px" alt=""/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 6px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; "><span style="font-family: Verdana; font-size: 11.0px;">LEOTTA PRESIDENTE</span></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 11.0px;">6</span></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+</tr>
+</table>
+</td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 20px; height: 50px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="2"><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 11px; height: 50px;"/></td>
+  <td style="border-left-style: solid; border-left-width: 2px; border-left-color: #D7D4CA; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #ACA899; border-right-style: solid; border-right-width: 2px; border-right-color: #ACA899; ">
+<table style="width: 564px" cellpadding="0" cellspacing="0" border="0">
+<tr>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 50px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 395px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 116px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td style="border-top-style: solid; border-top-width: 1px; border-top-color: #D7D4CA; border-left-style: solid; border-left-width: 1px; border-left-color: #D7D4CA; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #ACA899; border-right-style: solid; border-right-width: 1px; border-right-color: #ACA899; "><img src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/img_0_0_21_1" style="height: 50px" alt=""/></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 6px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; "><span style="font-family: Verdana; font-size: 11.0px;">PARTITO DEMOCRATICO - LEOTTA PRESIDENTE</span></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 11.0px;">40</span></td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+</tr>
+</table>
+</td>
+  <td><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 20px; height: 50px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="4"><img alt="" src="REPORT_PRESIDENTI_LISTE_PRIMO_TURNO_PROV_3_IMAGES/px" style="width: 595px; height: 32px;"/></td>
+</tr>
+</table>
+
+</td><td width="50%">&nbsp;</td></tr>
+</table>
+</body>
+</html>
+
+					
+					
+				
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3" class="nowrap normalBold" >				
+				<br/>
+				Trattasi di dati provvisori comunicati dai Comuni attraverso le Prefetture <br/>Uffici Territoriali del Governo
+			</td>
+		</tr>
+	</table>
+
+</form>
+
+
+
+
+						 </td>
+					 </tr>
+					  <tr class="footerN">  		
+					 	<!-- FOOTER -->
+						<!-- Inizio pagina Footer (nome pagina: footer.jsp)-->
+
+ <!--Nuovo Footer-->
+  
+  	<td>
+	 	<!-- FOOTER -->
+		<img src="./images/footer_0.jpg" alt="" height="50" width="151"/>
+	</td>
+	<td class="alignRight">
+	 <img src="./images/footer_3.gif" alt="logo" height="50" />
+	</td>
+	
+ <!--Fine Nuovo Footer-->		
+					 </tr>
+				 </table>
+		   </td>
+  	 </tr>	
+ </table>
+		
+	</div>
+	
+  </body>
+  
+</html>

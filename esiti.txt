@@ -1,0 +1,18 @@
+001 200 text/html; charset=ISO-8859-1 160985
+002 200 text/html; charset=ISO-8859-1 141583
+003 200 text/html; charset=ISO-8859-1 157346
+004 200 text/html; charset=ISO-8859-1 180755
+005 200 text/html; charset=ISO-8859-1 172188
+006 200 text/html; charset=ISO-8859-1 114177
+007 200 text/html; charset=ISO-8859-1 98291
+008 200 text/html; charset=ISO-8859-1 136785
+009 200 text/html; charset=ISO-8859-1 79684
+010 200 text/html; charset=ISO-8859-1 70271
+011 200 text/html; charset=ISO-8859-1 80144
+012 200 text/html; charset=ISO-8859-1 91670
+013 200 text/html; charset=ISO-8859-1 89137
+014 200 text/html; charset=ISO-8859-1 58882
+015 200 text/html; charset=ISO-8859-1 48895
+016 200 text/html; charset=ISO-8859-1 67426
+017 errore
+018 errore

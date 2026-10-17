@@ -1,0 +1,1250 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+
+
+
+
+<!-- HTML -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it" >
+
+  <!-- HEAD -->
+  
+<!-- inizio HEAD -->
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	<title>Informatizzazione Dati Elezioni Provinciali</title>
+	<link href="./css/style.css" rel="stylesheet" type="text/css"/>
+		
+	<script type="text/javascript" src="./js/common.js"></script>
+	<script type="text/javascript" src="./js/pre-elettorale/validateForms.js"></script>
+	<script type="text/javascript" src="./js/pre-elettorale/validateFormsTornata.js"></script>
+	<script type="text/javascript" src="./js/pre-elettorale/simpledateformat.js"></script>
+	<script type="text/javascript" src="./js/elettorale/validateForms.js"></script>
+	<script type="text/javascript" src="./js/report/report.js"></script>
+<!--<script type="text/javascript">
+		window.history.forward(1);
+		var version = navigator.appVersion; 
+
+		if (document.addEventListener){
+			alert("Eccomi nell'if");	
+		  window.document.addEventListener('keydown', my_onkeydown_handler, true);
+		} else if (document.attachEvent){
+			alert("Eccomi nell'else if");
+		  // IE style
+		  document.attachEvent('onkeydown', my_onkeydown_handler);
+		}
+		function my_onkeydown_handler(e) {
+			var keycode =(window.event) ? event.keyCode : e.keyCode;
+			
+			
+		if ((version.indexOf('MSIE') != -1))
+			{
+				
+					if(keycode == 116)
+				{
+					event.keyCode = 27;//27 o 0???
+					event.returnValue = false;
+					window.status = "We have disabled F5";
+					return false;
+				}
+			}
+			else
+			{
+				
+				if(keycode == 116)
+				{
+				e.returnvValue = false;
+				window.status = "Mozilla, We have disabled F5";
+				return false;
+				}
+			}
+		}
+</script>	
+--></head>
+
+<!-- fine HEAD -->
+  <!-- BODY -->
+  <body>
+  
+  
+  	<!-- SOLO PER SITO STATICO -->
+  	
+  	
+  	<div class="alignCenterBlock_">
+  		<table border="0" width="880px;" cellspacing="0" cellpadding="0"  >
+  	<tr>
+  	<td  rowspan="3" class="nowrap">
+		<img src="./images/st1.gif" width="100" alt=""/> 
+  	 </td>
+  	
+  	 
+  	<td>
+  	<!-- BANNER -->
+		<!-- BANNER -->
+<!-- div class="cont-bannerCE">&#160;</div-->
+<div class="alignCenterBG" >
+			<div class="banner">
+			<img src="./images/logo.gif" alt="logo regione siciliana" width="88" height="126"  class="imgFloatLeft"/>
+				<div class="testoBanner" >
+				<span class="title">Assessorato Regionale della Famiglia, <br/>
+			          delle Politiche Sociali e delle Autonomie Locali<br/><i>Servizio Elettorale</i></span>
+				</div>			
+			</div>
+	</div>
+	<div class="clearP"> </div>
+		<!-- UserInfo -->
+		
+<!-- skip -->
+
+<!-- USER-INFO -->
+    
+
+
+
+	
+	<div class="infoUtenteImSta">
+
+		         
+	    <div class="InfoUteLimSta">&nbsp;Dati di&nbsp;martedì 17 giugno 2008, 05:41  </div>
+	    <div id="header">
+	       <ul>
+	      <li ><a href="/comunali2008/">Elezioni Comunali</a></li> 
+	         
+	         <li id="current"><a href="#">Elezioni Provinciali</a></li>
+	       </ul>
+	    </div>
+	</div>
+	
+	
+
+	 
+  	 </td>
+  	 </tr>	
+  	 <tr>
+	  	<td valign="top">
+			  	 	<table cellspacing="0" cellpadding="0"  class="tableLayout" >
+			  	 	<tr >
+			          <td class="tdMenu" style="width:151px;">
+						<!-- MENU -->
+						
+
+
+
+
+
+<ul class="menuSxUl">
+
+	<li class="menuP"><a href="index.html" title="Home" class="linkSottoMenu">Home</a></li>
+
+	<li class="menuP" title="Sezione Reports">Report</li>
+	
+	<li class="menuF"><a href="REPORT_PRESIDENTI_LISTE_SEL_PROV.html"
+		title="Report Candidati Presidenti e Liste " class="linkSottoMenu">Report Candidati Presidenti e Liste </a></li>
+	
+	<li class="menuF"><a
+		href="REPORT_CONSIGLIERI_LISTE_SEL_PROV.html"
+		title="Report Consiglieri Provinciali " class="linkSottoMenu">Report Consiglieri Provinciali </a></li>
+
+	
+		
+		
+			<li class="menuF"><a
+				href="REPORT_RAFFRONTO_STORICO_AFFLUENZA_PRIMO_TURNO_REG.html"
+				title="Visualizza Report Affluenza"
+				class="linkSottoMenu">Report Affluenza </a></li>
+		
+	
+	
+	 <li class="menuF"><a
+		href="REPORT_VOTI_PRES_CONTR_SEL_PROV.html"
+		title="Report Voti Candidati Presidente"
+		class="linkSottoMenu">Report Voti Candidati Presidente</a></li>
+		
+	<li class="menuF"><a
+		href="REPORT_VOTI_PRESIDENTI_LISTE_SEL_PROV.html"
+		title="Visualizza Report Voti Candidati Presidente e Liste" 
+		class="linkSottoMenu">Report Voti Candidati Presidente e Liste</a></li>
+
+	<li class="menuF"><a
+		href="REPORT_VOTI_CONSIGLIERI_SEL_PROV.html"
+		title="Visualizza Report Voti Consiglieri" 
+		class="linkSottoMenu">Report Voti Consiglieri</a></li>
+
+	<li class="menuF"><a
+		href="REPORT_RISULTATI_SEL_PROV.html"
+		title="Visualizza Report Risultati"
+		class="linkSottoMenu">Report Risultati</a></li>
+
+	<li class="menuF"><a
+		href="REPORT_RIRARTIZIONE_SEGGI_SEL_PROV.html"
+		title="Visualizza Report Ripartizione Seggi"
+		class="linkSottoMenu">Report Ripartizione Seggi </a></li>
+
+	<li class="menuF"><a
+		href="REPORT_RAFFRONTO_STORICO_LISTE_SEL_PROV.html"
+		title="Visualizza Report Raffronto Storico"
+		class="linkSottoMenu">Report Raffronto Storico</a></li>
+</ul> 
+						</td>
+						<td id="corpoP" class="corpoCentr" style="width:649px;">		
+						<!-- CORPO -->
+					 	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="tableProv">
+		<tr class="trTableProv">
+			<td class="tdTableProv">
+				
+				<a class="linkMenu" href="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_1.html" 
+				   title="AGRIGENTO"><span class="spanBoldArial">AG</span></a>
+				<span class="pipeB">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+			
+				<a class="linkMenu" href="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_2.html" 
+				   title="CALTANISSETTA"><span class="spanBoldArial">CL</span></a>
+				<span class="pipeB">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+			
+				<a class="linkMenu" href="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_3.html" 
+				   title="CATANIA"><span class="spanBoldArial">CT</span></a>
+				<span class="pipeB">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+			
+				<a class="linkMenu" href="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_4.html" 
+				   title="ENNA"><span class="spanBoldArial">EN</span></a>
+				<span class="pipeB">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+			
+				<a class="linkMenu" href="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_5.html" 
+				   title="MESSINA"><span class="spanBoldArial">ME</span></a>
+				<span class="pipeB">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+			
+				<a class="linkMenu" href="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_6.html" 
+				   title="PALERMO"><span class="spanBoldArial">PA</span></a>
+				<span class="pipeB">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+			
+				<a class="linkMenu" href="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_7.html" 
+				   title="SIRACUSA"><span class="spanBoldArial">SR</span></a>
+				<span class="pipeB">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+			
+				<a class="linkMenu" href="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8.html" 
+				   title="TRAPANI"><span class="spanBoldArial">TP</span></a>
+				<span class="pipeB">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+			
+			</td>
+		</tr>
+	</table>
+
+
+
+
+
+
+
+
+<div class="titleSectionRepNewIT">
+	Elezioni Provinciali del 15-16 giugno 2008
+	<br/><br/>
+		
+
+	Report Ripartizione Seggi 
+	<br/>
+	
+		
+		
+		
+		
+			Provincia di <span class="titleSection2"> TRAPANI</span>
+			
+			 
+			
+		
+	
+</div>
+
+
+
+
+
+
+
+
+
+ 
+	
+
+
+
+
+
+	 
+	
+
+		
+
+		
+
+			
+				
+			
+					
+						
+						
+						
+							
+
+
+
+
+<div  class="titleSectionRepInt">
+	Risultati Candidati Presidente relativi a n. 452 su n. 452 sezioni
+	 
+	 
+		<br />
+		Risultati Liste relativi a n. 452 su n. 452 sezioni
+		
+	
+
+
+
+ 
+ 	<br />
+	
+		Dati relativi allo scrutinio completo
+		<br />
+	
+	
+
+
+	
+
+
+
+
+	<br /> 
+	
+	
+		
+			
+			
+			
+				
+				
+				
+				
+			
+		
+	
+
+
+</div>
+
+							
+
+
+
+		 
+		
+
+
+						
+					
+			
+				
+				 
+				
+				
+				
+				
+				
+			
+				
+				
+			
+
+		
+	
+	
+
+
+	<br/>
+
+
+
+
+
+<form id="webStaticBean" method="post" action="/IDEPWebStatic/visualizzaReportStatic.controller?flagSelezioneProvincia=T&amp;linkSelezioneProvincia=REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_&amp;pageTitle=repRipartizioneSeggi.title&amp;linkHtml=%2FPUB_MAN%2FREPORT_RIRARTIZIONE_SEGGI%2FREPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_REPORT.html&amp;urlFunzionalita=ripartizioneSeggiWizardReport.controller&amp;numeroPagina=2&amp;idPubblicazione=10&amp;styleViewReport=reportTabN&amp;orario=marted%25C3%25AC%2B17%2Bgiugno%2B2008%252C%2B05%253A41%2B&amp;idInfoProvincia=8&amp;linkPdf=REPORT_RIRARTIZIONE_SEGGI%2FDOWNLOADS%2FREPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8.pdf&amp;linkPriSecTurno=REPORT_RIRARTIZIONE_SEGGI_SECONDO_TURNO_PROV_8.html&amp;flagSelezioneCollegio=T&amp;linkSelezioneCollegio=REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_COL_&amp;flagBallottaggio=F">
+
+	<table summary="" class="tableCenter">
+		<tr>
+
+			<!-- link turno -->
+			<td class="alignLeft width25 nowrap">&nbsp;&nbsp;
+				
+				&nbsp;
+			</td>
+
+			<td class="alignCenter40 nowrap">
+				<label for="infoCollegio.idInfoCollegio"> 
+					<span class="normalBold">
+						Collegio
+					</span>
+				</label>
+				<select id="infoCollegio.idInfoCollegio" name="infoCollegio.idInfoCollegio">
+					<option value="">-Seleziona-</option>
+					
+						<option value="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_COL_37.html">
+							ALCAMO
+						</option>			
+					
+						<option value="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_COL_38.html">
+							CASTELVETRANO
+						</option>			
+					
+						<option value="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_COL_39.html">
+							MARSALA
+						</option>			
+					
+						<option value="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_COL_36.html">
+							TRAPANI
+						</option>			
+					
+				</select>
+				<input class="formbuttonBis" type="button" value='Vai' onclick ="return submitSelezioneCombo('infoCollegio.idInfoCollegio', 'Collegio')" name="_finish" />
+				
+			</td>
+
+			<!-- link downloads -->
+			<td class="alignRight width25 nowrap">
+				
+					
+						<img src="./images/bullet_menu.gif" alt="bullet" width="12" height="12"  /><a class="normalBoldLinkReport" href="REPORT_RIRARTIZIONE_SEGGI/DOWNLOADS/REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8.pdf" target="_blank">Download Report pdf</a>
+					
+				
+					
+					&nbsp;&nbsp;&nbsp;
+				
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3" class="reportTabN">
+				
+					
+						<html>
+<head>
+  <title></title>
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+  <style type="text/css">
+    a {text-decoration: none}
+  </style>
+</head>
+<body text="#000000" link="#000000" alink="#000000" vlink="#000000">
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td width="50%">&nbsp;</td><td align="center">
+
+<a name="JR_PAGE_ANCHOR_0_1"/>
+<table style="width: 600px" cellpadding="0" cellspacing="0" border="0">
+<tr>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 17px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 563px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 9px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 9px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="6"><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 600px; height: 15px;"/></td>
+</tr>
+<tr valign="top">
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 17px; height: 109px;"/></td>
+  <td colspan="4" style="border-top-style: solid; border-top-width: 2px; border-top-color: #D7D4CA; border-left-style: solid; border-left-width: 2px; border-left-color: #D7D4CA; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #ACA899; border-right-style: solid; border-right-width: 2px; border-right-color: #ACA899; ">
+<table style="width: 574px" cellpadding="0" cellspacing="0" border="0">
+<tr>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 52px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 18px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 45px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 46px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 70px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 65px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 74px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 46px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 18px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 67px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 8px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 62px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 26px;"/></td>
+  <td colspan="2" valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 4px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; "><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 10.0px; font-weight: bold;">Provincia</span></td>
+  <td colspan="6" valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 4px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; "><span style="font-family: Verdana; font-size: 10.0px;">TRAPANI</span></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 26px;"/></td>
+  <td colspan="2" valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 4px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 10.0px; font-weight: bold;">Pop. Legale</span></td>
+  <td colspan="2" valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 4px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; "><span style="font-family: Verdana; font-size: 10.0px;">425.121</span></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 26px;"/></td>
+</tr>
+<tr valign="top">
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 28px;"/></td>
+  <td valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 4px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 10.0px; font-weight: bold;">Sezioni</span></td>
+  <td colspan="2" valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 4px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 10.0px; font-weight: bold;">Elettori</span></td>
+  <td valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 4px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 10.0px; font-weight: bold;">Seggi</span></td>
+  <td colspan="2" valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 4px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 10.0px; font-weight: bold;">Votanti</span></td>
+  <td colspan="4" valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 4px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 10.0px; font-weight: bold;">Voti Validi</span></td>
+  <td colspan="4" valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 4px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 10.0px; font-weight: bold;">Schede e Voti non Validi</span></td>
+</tr>
+<tr valign="top">
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 30px;"/></td>
+  <td valign="middle" style="background-color: #FFFFFF; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #FFFFFF; font-size: 10.0px;">452</span></td>
+  <td colspan="2" valign="middle" style="background-color: #FFFFFF; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 4px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #FFFFFF; font-size: 10.0px;">382.032</span></td>
+  <td valign="middle" style="background-color: #FFFFFF; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 4px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #FFFFFF; font-size: 10.0px;">35</span></td>
+  <td valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 4px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 10.0px; font-weight: bold;">Totali</span></td>
+  <td valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 4px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 10.0px; font-weight: bold;">%</span></td>
+  <td valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 4px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 10.0px; font-weight: bold;">Presidente</span></td>
+  <td colspan="3" valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 4px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 10.0px; font-weight: bold;">Consiglio</span></td>
+  <td colspan="2" valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 4px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 10.0px; font-weight: bold;">in<br/>complesso</span></td>
+  <td colspan="2" valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 4px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 10.0px; font-weight: bold;">di cui bianche</span></td>
+</tr>
+<tr valign="top">
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 25px;"/></td>
+  <td colspan="4" valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 4px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; "><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" border="0"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 4px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px;">217.222</span></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 4px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px;">56,86 %</span></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 4px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px;">198.989</span></td>
+  <td colspan="3" valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 4px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px;">192.932</span></td>
+  <td colspan="2" valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 4px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px;">18.233</span></td>
+  <td colspan="2" valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 4px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px;">7.797</span></td>
+</tr>
+</table>
+</td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 9px; height: 109px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="6"><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 600px; height: 20px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="2"><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 18px; height: 44px;"/></td>
+  <td colspan="2" style="border-top-style: solid; border-top-width: 2px; border-top-color: #D7D4CA; border-left-style: solid; border-left-width: 2px; border-left-color: #D7D4CA; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #ACA899; border-right-style: solid; border-right-width: 2px; border-right-color: #ACA899; ">
+<table style="width: 564px" cellpadding="0" cellspacing="0" border="0">
+<tr>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 23px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 31px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 74px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 211px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 44px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 75px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 24px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 81px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 44px;"/></td>
+  <td valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 4px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 10.0px; font-weight: bold;">N°</span></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px;">1</span></td>
+  <td valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 4px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 10.0px; font-weight: bold;">Candidato Presidente</span></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 6px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; "><span style="font-family: Verdana; color: #333333; font-size: 10.0px;">MAZZARA SALVATORE</span></td>
+  <td valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 4px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 10.0px; font-weight: bold;">VOTI</span></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px;">5.418</span></td>
+  <td valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 4px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 11.0px; font-weight: bold;">%</span></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px;">2,72 %</span></td>
+</tr>
+</table>
+</td>
+  <td colspan="2"><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 18px; height: 44px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="6"><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 600px; height: 2px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="3"><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 19px; height: 22px;"/></td>
+  <td style="border-top-style: solid; border-top-width: 2px; border-top-color: #D7D4CA; border-left-style: solid; border-left-width: 2px; border-left-color: #D7D4CA; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #ACA899; border-right-style: solid; border-right-width: 2px; border-right-color: #ACA899; ">
+<table style="width: 563px" cellpadding="0" cellspacing="0" border="0">
+<tr>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 295px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 74px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 65px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 76px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 53px; height: 1px;"/></td>
+</tr>
+<tr valign="top" style="height:22px">
+  <td valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 4px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 10.0px; font-weight: bold;">Lista/e Collegata/e</span></td>
+  <td valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 4px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 10.0px; font-weight: bold;">Candidati</span></td>
+  <td valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 4px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 10.0px; font-weight: bold;">Voti</span></td>
+  <td valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 4px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 11.0px; font-weight: bold;">%</span></td>
+  <td valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 4px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #ACA899; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 10.0px; font-weight: bold;">Seggi</span></td>
+</tr>
+</table>
+</td>
+  <td colspan="2"><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 18px; height: 22px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="3"><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 19px; height: 50px;"/></td>
+  <td style="border-left-style: solid; border-left-width: 2px; border-left-color: #D7D4CA; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #ACA899; border-right-style: solid; border-right-width: 2px; border-right-color: #ACA899; ">
+<table style="width: 563px" cellpadding="0" cellspacing="0" border="0">
+<tr>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 50px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 243px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 74px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 64px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 75px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 53px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; "><img src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/img_0_0_3_4" style="height: 50px" alt=""/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 6px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; "><span style="font-family: Verdana; font-size: 10.0px;">RIFONDAZIONE COMUNISTA</span></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px;">31</span></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px;">4.437</span></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px;">2,30 %</span></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px;">1</span></td>
+</tr>
+</table>
+</td>
+  <td colspan="2"><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 18px; height: 50px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="3"><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 19px; height: 25px;"/></td>
+  <td style="border-left-style: solid; border-left-width: 2px; border-left-color: #D7D4CA; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #ACA899; border-right-style: solid; border-right-width: 2px; border-right-color: #ACA899; ">
+<table style="width: 563px" cellpadding="0" cellspacing="0" border="0">
+<tr>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 294px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 74px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 64px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 75px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 53px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 294px; height: 25px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px; font-weight: bold;">Totale</span></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 25px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px; font-weight: bold;">4.437</span></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 25px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px; font-weight: bold;">2,30 %</span></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 25px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px; font-weight: bold;">1</span></td>
+</tr>
+</table>
+</td>
+  <td colspan="2"><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 18px; height: 25px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="6"><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 600px; height: 21px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="2"><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 18px; height: 44px;"/></td>
+  <td colspan="2" style="border-top-style: solid; border-top-width: 2px; border-top-color: #D7D4CA; border-left-style: solid; border-left-width: 2px; border-left-color: #D7D4CA; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #ACA899; border-right-style: solid; border-right-width: 2px; border-right-color: #ACA899; ">
+<table style="width: 564px" cellpadding="0" cellspacing="0" border="0">
+<tr>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 23px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 31px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 74px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 211px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 44px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 75px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 24px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 81px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 44px;"/></td>
+  <td valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 4px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 10.0px; font-weight: bold;">N°</span></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px;">2</span></td>
+  <td valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 4px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 10.0px; font-weight: bold;">Candidato Presidente</span></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 6px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; "><span style="font-family: Verdana; color: #333333; font-size: 10.0px;">ODDO CAMILLO</span></td>
+  <td valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 4px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 10.0px; font-weight: bold;">VOTI</span></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px;">61.248</span></td>
+  <td valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 4px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 11.0px; font-weight: bold;">%</span></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px;">30,78 %</span></td>
+</tr>
+</table>
+</td>
+  <td colspan="2"><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 18px; height: 44px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="6"><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 600px; height: 2px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="3"><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 19px; height: 22px;"/></td>
+  <td style="border-top-style: solid; border-top-width: 2px; border-top-color: #D7D4CA; border-left-style: solid; border-left-width: 2px; border-left-color: #D7D4CA; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #ACA899; border-right-style: solid; border-right-width: 2px; border-right-color: #ACA899; ">
+<table style="width: 563px" cellpadding="0" cellspacing="0" border="0">
+<tr>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 295px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 74px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 65px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 76px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 53px; height: 1px;"/></td>
+</tr>
+<tr valign="top" style="height:22px">
+  <td valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 4px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 10.0px; font-weight: bold;">Lista/e Collegata/e</span></td>
+  <td valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 4px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 10.0px; font-weight: bold;">Candidati</span></td>
+  <td valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 4px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 10.0px; font-weight: bold;">Voti</span></td>
+  <td valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 4px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 11.0px; font-weight: bold;">%</span></td>
+  <td valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 4px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #ACA899; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 10.0px; font-weight: bold;">Seggi</span></td>
+</tr>
+</table>
+</td>
+  <td colspan="2"><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 18px; height: 22px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="3"><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 19px; height: 50px;"/></td>
+  <td style="border-left-style: solid; border-left-width: 2px; border-left-color: #D7D4CA; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #ACA899; border-right-style: solid; border-right-width: 2px; border-right-color: #ACA899; ">
+<table style="width: 563px" cellpadding="0" cellspacing="0" border="0">
+<tr>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 50px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 243px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 74px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 64px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 75px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 53px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; "><img src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/img_0_0_7_4" style="height: 50px" alt=""/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 6px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; "><span style="font-family: Verdana; font-size: 10.0px;">DEMOCRATICI PROVINCIA - CAMILLO ODDO PRESIDENTE</span></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px;">34</span></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px;">16.263</span></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px;">8,43 %</span></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px;">3</span></td>
+</tr>
+</table>
+</td>
+  <td colspan="2"><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 18px; height: 50px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="3"><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 19px; height: 50px;"/></td>
+  <td style="border-left-style: solid; border-left-width: 2px; border-left-color: #D7D4CA; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #ACA899; border-right-style: solid; border-right-width: 2px; border-right-color: #ACA899; ">
+<table style="width: 563px" cellpadding="0" cellspacing="0" border="0">
+<tr>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 50px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 243px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 74px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 64px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 75px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 53px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; "><img src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/img_0_0_8_4" style="height: 50px" alt=""/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 6px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; "><span style="font-family: Verdana; font-size: 10.0px;">ITALIA DEI VALORI LISTA DI PIETRO</span></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px;">21</span></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px;">4.843</span></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px;">2,51 %</span></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px;">1</span></td>
+</tr>
+</table>
+</td>
+  <td colspan="2"><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 18px; height: 50px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="3"><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 19px; height: 50px;"/></td>
+  <td style="border-left-style: solid; border-left-width: 2px; border-left-color: #D7D4CA; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #ACA899; border-right-style: solid; border-right-width: 2px; border-right-color: #ACA899; ">
+<table style="width: 563px" cellpadding="0" cellspacing="0" border="0">
+<tr>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 50px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 243px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 74px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 64px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 75px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 53px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; "><img src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/img_0_0_9_4" style="height: 50px" alt=""/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 6px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; "><span style="font-family: Verdana; font-size: 10.0px;">PARTITO DEMOCRATICO</span></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px;">35</span></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px;">31.077</span></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px;">16,11 %</span></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px;">5</span></td>
+</tr>
+</table>
+</td>
+  <td colspan="2"><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 18px; height: 50px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="3"><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 19px; height: 50px;"/></td>
+  <td style="border-left-style: solid; border-left-width: 2px; border-left-color: #D7D4CA; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #ACA899; border-right-style: solid; border-right-width: 2px; border-right-color: #ACA899; ">
+<table style="width: 563px" cellpadding="0" cellspacing="0" border="0">
+<tr>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 50px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 243px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 74px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 64px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 75px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 53px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; "><img src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/img_0_0_10_4" style="height: 50px" alt=""/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 6px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; "><span style="font-family: Verdana; font-size: 10.0px;">UNITI PER TRAPANI</span></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px;">28</span></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px;">4.294</span></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px;">2,23 %</span></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px;">1</span></td>
+</tr>
+</table>
+</td>
+  <td colspan="2"><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 18px; height: 50px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="3"><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 19px; height: 25px;"/></td>
+  <td style="border-left-style: solid; border-left-width: 2px; border-left-color: #D7D4CA; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #ACA899; border-right-style: solid; border-right-width: 2px; border-right-color: #ACA899; ">
+<table style="width: 563px" cellpadding="0" cellspacing="0" border="0">
+<tr>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 294px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 74px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 64px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 75px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 53px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 294px; height: 25px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px; font-weight: bold;">Totale</span></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 25px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px; font-weight: bold;">56.477</span></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 25px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px; font-weight: bold;">29,27 %</span></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 25px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px; font-weight: bold;">10</span></td>
+</tr>
+</table>
+</td>
+  <td colspan="2"><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 18px; height: 25px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="6"><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 600px; height: 21px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="2"><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 18px; height: 44px;"/></td>
+  <td colspan="2" style="border-top-style: solid; border-top-width: 2px; border-top-color: #D7D4CA; border-left-style: solid; border-left-width: 2px; border-left-color: #D7D4CA; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #ACA899; border-right-style: solid; border-right-width: 2px; border-right-color: #ACA899; ">
+<table style="width: 564px" cellpadding="0" cellspacing="0" border="0">
+<tr>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 23px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 31px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 74px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 211px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 44px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 75px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 24px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 81px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 44px;"/></td>
+  <td valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 4px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 10.0px; font-weight: bold;">N°</span></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px;">3</span></td>
+  <td valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 4px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 10.0px; font-weight: bold;">Candidato Presidente</span></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 6px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; "><span style="font-family: Verdana; color: #333333; font-size: 10.0px;">MONASTERO MICHELE</span></td>
+  <td valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 4px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 10.0px; font-weight: bold;">VOTI</span></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px;">1.406</span></td>
+  <td valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 4px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 11.0px; font-weight: bold;">%</span></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px;">0,71 %</span></td>
+</tr>
+</table>
+</td>
+  <td colspan="2"><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 18px; height: 44px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="6"><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 600px; height: 2px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="3"><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 19px; height: 22px;"/></td>
+  <td style="border-top-style: solid; border-top-width: 2px; border-top-color: #D7D4CA; border-left-style: solid; border-left-width: 2px; border-left-color: #D7D4CA; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #ACA899; border-right-style: solid; border-right-width: 2px; border-right-color: #ACA899; ">
+<table style="width: 563px" cellpadding="0" cellspacing="0" border="0">
+<tr>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 295px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 74px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 65px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 76px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 53px; height: 1px;"/></td>
+</tr>
+<tr valign="top" style="height:22px">
+  <td valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 4px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 10.0px; font-weight: bold;">Lista/e Collegata/e</span></td>
+  <td valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 4px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 10.0px; font-weight: bold;">Candidati</span></td>
+  <td valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 4px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 10.0px; font-weight: bold;">Voti</span></td>
+  <td valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 4px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 11.0px; font-weight: bold;">%</span></td>
+  <td valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 4px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #ACA899; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 10.0px; font-weight: bold;">Seggi</span></td>
+</tr>
+</table>
+</td>
+  <td colspan="2"><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 18px; height: 22px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="3"><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 19px; height: 50px;"/></td>
+  <td style="border-left-style: solid; border-left-width: 2px; border-left-color: #D7D4CA; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #ACA899; border-right-style: solid; border-right-width: 2px; border-right-color: #ACA899; ">
+<table style="width: 563px" cellpadding="0" cellspacing="0" border="0">
+<tr>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 50px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 243px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 74px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 64px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 75px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 53px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; "><img src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/img_0_0_14_4" style="height: 50px" alt=""/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 6px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; "><span style="font-family: Verdana; font-size: 10.0px;">PARTITO COMUNISTA DEI LAVORATORI</span></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px;">18</span></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px;">596</span></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px;">0,31 %</span></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px;">0</span></td>
+</tr>
+</table>
+</td>
+  <td colspan="2"><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 18px; height: 50px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="3"><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 19px; height: 25px;"/></td>
+  <td style="border-left-style: solid; border-left-width: 2px; border-left-color: #D7D4CA; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #ACA899; border-right-style: solid; border-right-width: 2px; border-right-color: #ACA899; ">
+<table style="width: 563px" cellpadding="0" cellspacing="0" border="0">
+<tr>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 294px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 74px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 64px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 75px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 53px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 294px; height: 25px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px; font-weight: bold;">Totale</span></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 25px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px; font-weight: bold;">596</span></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 25px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px; font-weight: bold;">0,31 %</span></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 25px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px; font-weight: bold;">0</span></td>
+</tr>
+</table>
+</td>
+  <td colspan="2"><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 18px; height: 25px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="6"><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 600px; height: 21px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="2"><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 18px; height: 44px;"/></td>
+  <td colspan="2" style="border-top-style: solid; border-top-width: 2px; border-top-color: #D7D4CA; border-left-style: solid; border-left-width: 2px; border-left-color: #D7D4CA; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #ACA899; border-right-style: solid; border-right-width: 2px; border-right-color: #ACA899; ">
+<table style="width: 564px" cellpadding="0" cellspacing="0" border="0">
+<tr>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 23px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 31px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 74px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 211px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 44px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 75px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 24px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 81px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 44px;"/></td>
+  <td valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 4px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 10.0px; font-weight: bold;">N°</span></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px;">4</span></td>
+  <td valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 4px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 10.0px; font-weight: bold;">Presidente <br/> Eletto</span></td>
+  <td valign="middle" style="background-color: #FFFF99; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 6px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; "><span style="font-family: Verdana; color: #333333; background-color: #FFFF99; font-size: 10.0px;">TURANO GIROLAMO detto MIMMO</span></td>
+  <td valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 4px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 10.0px; font-weight: bold;">VOTI</span></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px;">130.917</span></td>
+  <td valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 4px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 11.0px; font-weight: bold;">%</span></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px;">65,79 %</span></td>
+</tr>
+</table>
+</td>
+  <td colspan="2"><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 18px; height: 44px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="6"><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 600px; height: 2px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="3"><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 19px; height: 22px;"/></td>
+  <td style="border-top-style: solid; border-top-width: 2px; border-top-color: #D7D4CA; border-left-style: solid; border-left-width: 2px; border-left-color: #D7D4CA; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #ACA899; border-right-style: solid; border-right-width: 2px; border-right-color: #ACA899; ">
+<table style="width: 563px" cellpadding="0" cellspacing="0" border="0">
+<tr>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 295px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 74px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 65px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 76px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 53px; height: 1px;"/></td>
+</tr>
+<tr valign="top" style="height:22px">
+  <td valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 4px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 10.0px; font-weight: bold;">Lista/e Collegata/e</span></td>
+  <td valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 4px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 10.0px; font-weight: bold;">Candidati</span></td>
+  <td valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 4px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 10.0px; font-weight: bold;">Voti</span></td>
+  <td valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 4px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 11.0px; font-weight: bold;">%</span></td>
+  <td valign="middle" style="background-color: #BBEEBB; border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 4px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #ACA899; text-align: center;"><span style="font-family: Verdana; background-color: #BBEEBB; font-size: 10.0px; font-weight: bold;">Seggi</span></td>
+</tr>
+</table>
+</td>
+  <td colspan="2"><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 18px; height: 22px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="3"><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 19px; height: 50px;"/></td>
+  <td style="border-left-style: solid; border-left-width: 2px; border-left-color: #D7D4CA; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #ACA899; border-right-style: solid; border-right-width: 2px; border-right-color: #ACA899; ">
+<table style="width: 563px" cellpadding="0" cellspacing="0" border="0">
+<tr>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 50px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 243px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 74px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 64px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 75px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 53px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; "><img src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/img_0_0_18_4" style="height: 50px" alt=""/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 6px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; "><span style="font-family: Verdana; font-size: 10.0px;">ETTORE FIERAMOSCA- FRATELLI D'ITALIA</span></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px;">32</span></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px;">4.872</span></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px;">2,53 %</span></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px;">1</span></td>
+</tr>
+</table>
+</td>
+  <td colspan="2"><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 18px; height: 50px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="3"><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 19px; height: 50px;"/></td>
+  <td style="border-left-style: solid; border-left-width: 2px; border-left-color: #D7D4CA; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #ACA899; border-right-style: solid; border-right-width: 2px; border-right-color: #ACA899; ">
+<table style="width: 563px" cellpadding="0" cellspacing="0" border="0">
+<tr>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 50px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 243px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 74px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 64px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 75px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 53px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; "><img src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/img_0_0_19_4" style="height: 50px" alt=""/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 6px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; "><span style="font-family: Verdana; font-size: 10.0px;">IL POPOLO DELLA LIBERTA' - BERLUSCONI PRESIDENTE</span></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px;">35</span></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px;">55.159</span></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px;">28,59 %</span></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px;">10</span></td>
+</tr>
+</table>
+</td>
+  <td colspan="2"><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 18px; height: 50px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="3"><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 19px; height: 50px;"/></td>
+  <td style="border-left-style: solid; border-left-width: 2px; border-left-color: #D7D4CA; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #ACA899; border-right-style: solid; border-right-width: 2px; border-right-color: #ACA899; ">
+<table style="width: 563px" cellpadding="0" cellspacing="0" border="0">
+<tr>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 50px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 243px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 74px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 64px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 75px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 53px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; "><img src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/img_0_0_20_4" style="height: 50px" alt=""/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 6px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; "><span style="font-family: Verdana; font-size: 10.0px;">MOVIMENTO PER L'AUTONOMIA - ALLEATI PER IL SUD</span></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px;">30</span></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px;">32.488</span></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px;">16,84 %</span></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px;">6</span></td>
+</tr>
+</table>
+</td>
+  <td colspan="2"><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 18px; height: 50px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="3"><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 19px; height: 50px;"/></td>
+  <td style="border-left-style: solid; border-left-width: 2px; border-left-color: #D7D4CA; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #ACA899; border-right-style: solid; border-right-width: 2px; border-right-color: #ACA899; ">
+<table style="width: 563px" cellpadding="0" cellspacing="0" border="0">
+<tr>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 50px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 243px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 74px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 64px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 75px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 53px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; "><img src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/img_0_0_21_4" style="height: 50px" alt=""/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; padding-left: 6px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; "><span style="font-family: Verdana; font-size: 10.0px;">UNIONE DEI DEMOCRATICI CRISTIANI E DEI DEMOCRATICI DI CENTRO</span></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px;">34</span></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px;">38.903</span></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px;">20,16 %</span></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 50px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px;">7</span></td>
+</tr>
+</table>
+</td>
+  <td colspan="2"><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 18px; height: 50px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="3"><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 19px; height: 25px;"/></td>
+  <td style="border-left-style: solid; border-left-width: 2px; border-left-color: #D7D4CA; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #ACA899; border-right-style: solid; border-right-width: 2px; border-right-color: #ACA899; ">
+<table style="width: 563px" cellpadding="0" cellspacing="0" border="0">
+<tr>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 294px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 74px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 64px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 75px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 53px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 294px; height: 25px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px; font-weight: bold;">Totale</span></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 25px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px; font-weight: bold;">131.422</span></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 25px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px; font-weight: bold;">68,12 %</span></td>
+  <td><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 1px; height: 25px;"/></td>
+  <td valign="middle" style="border-top-style: solid; border-top-width: 1px; border-top-color: #ACA899; border-left-style: solid; border-left-width: 1px; border-left-color: #ACA899; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D7D4CA; border-right-style: solid; border-right-width: 1px; border-right-color: #D7D4CA; text-align: center;"><span style="font-family: Verdana; font-size: 10.0px; font-weight: bold;">24</span></td>
+</tr>
+</table>
+</td>
+  <td colspan="2"><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 18px; height: 25px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="6"><img alt="" src="REPORT_RIRARTIZIONE_SEGGI_PRIMO_TURNO_PROV_8_IMAGES/px" style="width: 600px; height: 11px;"/></td>
+</tr>
+</table>
+
+</td><td width="50%">&nbsp;</td></tr>
+</table>
+</body>
+</html>
+
+					
+					
+				
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3" class="nowrap normalBold" >				
+				<br/>
+				Trattasi di dati provvisori comunicati dai Comuni attraverso le Prefetture <br/>Uffici Territoriali del Governo
+			</td>
+		</tr>
+	</table>
+
+</form>
+
+
+
+
+						 </td>
+					 </tr>
+					  <tr class="footerN">  		
+					 	<!-- FOOTER -->
+						<!-- Inizio pagina Footer (nome pagina: footer.jsp)-->
+
+ <!--Nuovo Footer-->
+  
+  	<td>
+	 	<!-- FOOTER -->
+		<img src="./images/footer_0.jpg" alt="" height="50" width="151"/>
+	</td>
+	<td class="alignRight">
+	 <img src="./images/footer_3.gif" alt="logo" height="50" />
+	</td>
+	
+ <!--Fine Nuovo Footer-->		
+					 </tr>
+				 </table>
+		   </td>
+  	 </tr>	
+ </table>
+		
+	</div>
+	
+  </body>
+  
+</html>
