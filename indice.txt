@@ -1,0 +1,7 @@
+001 https://elezionistorico.regione.fvg.it/distribuzione/json-storico/a_2004-06-12_ELZ_PROV.json
+002 https://elezionistorico.regione.fvg.it/distribuzione/json-storico/a_2008-04-13_ELZ_PROV.json
+003 https://elezionistorico.regione.fvg.it/distribuzione/json-storico/a_2009-06-06_ELZ_PROV.json
+004 https://elezionistorico.regione.fvg.it/distribuzione/json-storico/a_2011-05-15_ELZ_PROV.json
+005 https://elezionistorico.regione.fvg.it/distribuzione/json-storico/a_2006-04-09_ELZ_PROV_3.json
+006 https://elezionistorico.regione.fvg.it/distribuzione/json-storico/a_2006-04-09_ELZ_PROV_Trieste.json
+007 https://elezionistorico.regione.fvg.it/distribuzione/json-storico/a_2006-04-09_ELZ_PROV_COMUNI_PROV.json
