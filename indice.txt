@@ -1,0 +1,14 @@
+001 https://web.archive.org/web/20080705135947id_/http://www.elezioni.regione.sicilia.it:80/comunali2008/RG/ReportRisultatiRG.html
+002 https://web.archive.org/web/20080705140018id_/http://www.elezioni.regione.sicilia.it:80/comunali2008/SR/ReportRisultatiSR.html
+003 https://web.archive.org/web/20140718031041id_/http://www.elezioni.regione.sicilia.it/comunali2009/CT/ReportRisultatiCT.html
+004 https://web.archive.org/web/20201127165240id_/http://www.elezioni.regione.sicilia.it/comunali2013/EN/ReportRisultatiEN.html
+005 https://web.archive.org/web/20140609234420id_/http://www.elezioni.regione.sicilia.it:80/comunali2013/primoTurno/RG/ReportRisultatiRG.html
+006 https://web.archive.org/web/20140609234440id_/http://www.elezioni.regione.sicilia.it:80/comunali2013/primoTurno/SR/ReportRisultatiSR.html
+007 https://web.archive.org/web/20200205233729id_/http://www.elezioni.regione.sicilia.it/comunali2017/RG/ReportRisultatiRG.html
+008 https://web.archive.org/web/20240327101912id_/http://www.elezioni.regione.sicilia.it/comunali2020/primoTurno/ME/ReportRisultatiME.html
+009 https://web.archive.org/web/20240327104207id_/http://www.elezioni.regione.sicilia.it/comunali2020/primoTurno/PA/ReportRisultatiPA.html
+010 https://web.archive.org/web/20240320181226id_/http://www.elezioni.regione.sicilia.it/comunali2020/primoTurno/TP/ReportRisultatiTP.html
+011 https://web.archive.org/web/20240317021655id_/http://www.elezioni.regione.sicilia.it/comunali2022/primoTurno/SR/ReportRisultatiSR.html
+012 https://web.archive.org/web/20240614115913id_/http://www.elezioni.regione.sicilia.it/comunali2023/AG/ReportRisultatiAG.html
+013 https://web.archive.org/web/20240614115905id_/http://www.elezioni.regione.sicilia.it/comunali2023/CL/ReportRisultatiCL.html
+014 https://web.archive.org/web/20260211191345id_/http://www.elezioni.regione.sicilia.it/comunali2024/primoTurno/PA/ReportCandidatiPA.html
