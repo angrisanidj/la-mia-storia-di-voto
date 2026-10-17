@@ -1,0 +1,4 @@
+001 http://web.archive.org/cdx/search/cdx?fl=original,timestamp,statuscode&collapse=urlkey&limit=20000&url=elezionicomunali.tn.it&matchType=domain
+002 https://www.regione.taa.it/Argomenti/Focus/Elezioni-comunali-26-maggio-8-9-giugno-2024
+003 https://www.elezionicomunali.tn.it/robots.txt
+004 https://www.elezionicomunali.tn.it/
