@@ -1,0 +1,5 @@
+001 https://elezionistorico.regione.fvg.it/robots.txt
+002 http://web.archive.org/web/2020id_/http://elezionistorico.regione.fvg.it/robots.txt
+003 http://web.archive.org/web/2020id_/http://elezionistorico.regione.fvg.it/
+004 http://web.archive.org/web/2020id_/http://elezionistorico.regione.fvg.it/elezioni2006/000167_Com/Consiglio/000181.html
+005 http://archive.org/wayback/available?url=elezionistorico.regione.fvg.it/elezioni2006/000167_Com/Consiglio/000181.html

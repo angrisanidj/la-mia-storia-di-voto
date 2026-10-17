@@ -1,0 +1,603 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Archivio storico risultati elettorali - AscotWeb Elezioni - Regione Autonoma Friuli Venezia Giulia</title>
+<meta name="product" content="AscotWeb Elezioni">
+<meta name="copyright" content="Copyright © 2018, Insiel S.p.A.">
+<meta name="rights" content="All rights reserved">
+<meta name="author" content="Insiel S.p.A."><link href="css/barraBlu.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="css/login.css" rel="stylesheet" type="text/css">
+</head>
+<body style="margin: 0 0 0 0;">
+<div id="barraBlu">
+	<a href="http://www.regione.fvg.it" title="home page portale regionale"><img src="img/intestazione_home.gif" alt="home page"></a>
+</div>
+<table width="900px" align="center" cellpadding="0" cellspacing="0">
+<!--
+<tr><td colspan="2" height="5" bgcolor="#385789"></td></tr>
+<tr><td align="center" colspan="2" height="5"><img src="img/puntini.gif" alt="Puntini"></td></tr>
+-->
+<tr>
+<!--
+  <td width="283"><img src="img/fvg.jpg"></td>
+  <td width="600">
+-->
+  <td colspan="2">
+    <table width="100%" cellspacing="0" cellpadding="0">
+<!--
+    <tr>
+      <td>
+				<table cellspacing="0" cellpadding="0" border="0">
+        <tr><td>&nbsp;</td></tr>
+        <tr><td nowrap>&nbsp;<strong>Regione Autonoma Friuli Venezia Giulia</strong></td></tr>
+        <tr><td height="3"></td></tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td height="1" bgcolor="0">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr><td height="1" bgcolor="#CCCCCC"></td></tr>
+        </table>
+      </td>
+    </tr>
+-->
+    <tr>
+    	<td>
+				<table border="0" cellspacing="0" cellpadding="0">
+					<!-- <<< - - - - - - - - - - >>> -->
+					<tr><td colspan="2" height="9"></td></tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td><font color="red"><b>2018</b></font></td>
+						<td>&nbsp;</td>
+						<td>
+							<a href="http://elezionistorico.regione.fvg.it/elezioni2018/" target="_blank">Elezioni regionali e amministrative (comunali) del <b>29 aprile 2018</b></a>
+						</td>
+					</tr>
+					<!--
+					<tr><td colspan="2" height="3"></td></tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td> </td>
+						<td>&nbsp;</td>
+						<td>
+							<a href="http://elezionistorico.regione.fvg.it/elezioni2018/elezRef.html" target="_blank">Referendum regionale consultivo per la fusione dei comuni
+							di Aquileia e Terzo di Aquileia del <b>29 aprile 2018</b></a>
+						</td>
+					</tr>
+					<tr><td colspan="2" height="3"></td></tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td> </td>
+						<td>&nbsp;</td>
+						<td>
+							<a href="http://elezionistorico.regione.fvg.it/elezioni2018/elezRef.html" target="_blank">Referendum regionale consultivo per la fusione dei comuni
+							di Raveo e Villa Santina del <b>29 aprile 2018</b></a>
+						</td>
+					</tr>
+					-->
+					<!-- <<< - - - - - - - - - - >>> -->
+					<tr><td colspan="2" height="9"></td></tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td><font color="red"><b>2017</b></font></td>
+						<td>&nbsp;</td>
+						<td>
+							<a href="http://elezionistorico.regione.fvg.it/referendum2017_10/index.html" target="_blank">Referendum regionale consultivo per la fusione dei comuni
+							di Lauco, Raveo e Villa Santina del <b>29 ottobre 2017</b></a>
+						</td>
+					</tr>
+					<tr><td colspan="2" height="3"></td></tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td> </td>
+						<td>&nbsp;</td>
+						<td>
+							<a href="http://elezionistorico.regione.fvg.it/referendum2017_10/index.html" target="_blank">Referendum regionale consultivo per la fusione dei comuni
+							di Ligosullo e Treppo Carnico del <b>29 ottobre 2017</b></a>
+						</td>
+					</tr>
+					<tr><td colspan="2" height="3"></td></tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td> </td>
+						<td>&nbsp;</td>
+						<td>
+							<a href="http://elezionistorico.regione.fvg.it/referendum2017_09/index.html" target="_blank">Referendum regionale consultivo per la fusione dei comuni
+							di Fiumicello e Villa Vicentina del <b>24 settembre 2017</b></a>
+						</td>
+					</tr>
+					<tr><td colspan="2" height="3"></td></tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td> </td>
+						<td>&nbsp;</td>
+						<td>
+							<a href="http://elezionistorico.regione.fvg.it/amministrative2017/" target="_blank">Elezioni amministrative (comunali) del <b>11 giugno 2017</b></a>
+						</td>
+					</tr>
+					<tr><td colspan="2" height="3"></td></tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td> </td>
+						<td>&nbsp;</td>
+						<td>
+							<a href="http://elezionistorico.regione.fvg.it/amministrative2017/elezRef.html" target="_blank">Referendum regionali consultivi per la fusione dei comuni
+							di Flaibano, Mereto di Tomba e Sedegliano dell'<b>11 giugno 2017</b></a>
+						</td>
+					</tr>
+					<!-- <<< - - - - - - - - - - >>> -->
+					<tr><td colspan="2" height="9"></td></tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td><font color="red"><b>2016</b></font></td>
+						<td>&nbsp;</td>
+						<td>
+							<a href="http://elezionistorico.regione.fvg.it/amministrative2016ottobre/elezRef.html" target="_blank">Referendum regionali consultivi per la fusione dei comuni
+							di Manzano e di San Giovanni al Natisone,
+							e di Gemona del Friuli e di Montenars del <b>6 novembre 2016</b></a>
+						</td>
+					</tr>
+					<tr><td colspan="2" height="3"></td></tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td> </td>
+						<td>&nbsp;</td>
+						<td>
+							<a href="http://elezionistorico.regione.fvg.it/amministrative2016ottobre/" target="_blank">Elezioni amministrative (comunali) del <b>23 ottobre 2016</b></a>
+						</td>
+					</tr>
+<!-- <<< - - - - - - - - - - >>> -->
+					<tr><td colspan="2" height="3"></td></tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td> </td>
+						<td>&nbsp;</td>
+						<td>
+							<a href="http://elezionistorico.regione.fvg.it/amministrative2016/elezRef.html" target="_blank">Referendum regionali consultivi per la fusione dei comuni
+							di Codroipo e Camino al Tagliamento,
+							di Monfalcone Ronchi dei Legionari e Staranzano
+							e di Tramonti di Sopra e Tramonti di Sotto del <b>19 giugno 2016</b></a>
+						</td>
+					</tr>
+					<tr><td colspan="2" height="3"></td></tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td> </td>
+						<td>&nbsp;</td>
+						<td>
+							<a href="http://elezionistorico.regione.fvg.it/amministrative2016/" target="_blank">Elezioni amministrative (comunali e circoscrizionali) del <b>5 giugno 2016</b></a>
+						</td>
+					</tr>
+<!-- <<< - - - - - - - - - - >>> -->
+					<tr><td colspan="2" height="9"></td></tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td><font color="red"><b>2015</b></font></td>
+						<td>&nbsp;</td>
+						<td>
+							<a href="http://elezionistorico.regione.fvg.it/referendum2015/" target="_blank">Referendum regionale consultivo per la fusione dei comuni di Azzano Decimo e Pravisdomini del <b>18 ottobre 2015</b></a>
+						</td>
+					</tr>
+<!-- <<< - - - - - - - - - - >>> -->
+					<tr><td colspan="2" height="3"></td></tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td> </td>
+						<td>&nbsp;</td>
+						<td>
+							<a href="http://elezionistorico.regione.fvg.it/amministrative2015/" target="_blank">Elezioni amministrative (comunali) del <b>31 maggio 2015</b></a>
+						</td>
+					</tr>
+<!-- <<< - - - - - - - - - - >>> -->
+					<tr><td colspan="2" height="9"></td></tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td><font color="red"><b>2014</b></font></td>
+						<td>&nbsp;</td>
+						<td>
+							<a href="http://elezionistorico.regione.fvg.it/referendum2014/" target="_blank">Referendum regionale consultivo per la fusione dei comuni di Arzene e Valvasone del <b>28 settembre 2014</b></a>
+						</td>
+					</tr>
+<!-- <<< - - - - - - - - - - >>> -->
+					<tr><td colspan="2" height="3"></td></tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td> </td>
+						<td>&nbsp;</td>
+						<td>
+							<a href="http://elezionistorico.regione.fvg.it/elezioni2014/" target="_blank">Elezioni amministrative (comunali) del <b>25 maggio 2014</b></a>
+						</td>
+					</tr>
+<!-- <<< - - - - - - - - - - >>> -->
+					<tr><td colspan="2" height="9"></td></tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td><font color="red"><b>2013</b></font></td>
+						<td>&nbsp;</td>
+						<td>
+							<a href="http://elezionistorico.regione.fvg.it/referendum2013/" target="_blank">Referendum regionale consultivo per la fusione dei comuni di Arzene, San Martino al Tagliamento e Valvasone del <b>1 dicembre 2013</b></a>
+						</td>
+					</tr>
+<!-- <<< - - - - - - - - - - >>> -->
+					<tr><td colspan="2" height="3"></td></tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td> </td>
+						<td>&nbsp;</td>
+						<td>
+							<a href="http://elezionistorico.regione.fvg.it/elezioni2013/" target="_blank">Elezioni regionali e amministrative (provinciali e comunali) del <b>21 e 22 aprile 2013</b></a>
+						</td>
+					</tr>
+<!-- <<< - - - - - - - - - - >>> -->
+					<tr><td colspan="2" height="3"></td></tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td> </td>
+						<td>&nbsp;</td>
+						<td>
+							<a href="http://elezionistorico.regione.fvg.it/politiche2013/" target="_blank">Elezioni politiche del <b>24 e 25 febbraio 2013</b></a>
+						</td>
+					</tr>
+<!-- <<< - - - - - - - - - - >>> -->
+					<tr><td colspan="2" height="9"></td></tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td><font color="red"><b>2012</b></font></td>
+						<td>&nbsp;</td>
+						<td>
+							<a href="http://elezionistorico.regione.fvg.it/referendum2012/" target="_blank">Referendum regionale consultivo per la fusione dei comuni di Rivignano e Teor del <b>2 dicembre 2012</b></a>
+						</td>
+					</tr>
+<!-- <<< - - - - - - - - - - >>> -->
+					<tr><td colspan="2" height="3"></td></tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td> </td>
+						<td>&nbsp;</td>
+						<td>
+							<a href="http://elezionistorico.regione.fvg.it/amministrative2012/" target="_blank">Elezioni amministrative (comunali) del <b>6 e 7 maggio 2012</b></a>
+						</td>
+					</tr>
+<!-- <<< - - - - - - - - - - >>> -->
+					<tr><td colspan="2" height="9"></td></tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td><font color="red"><b>2011</b></font></td>
+						<td>&nbsp;</td>
+						<td>
+							<a href="http://elezionistorico.regione.fvg.it/referendum2011/" target="_blank">Referendum popolare del <b>12 e 13 giugno 2011</b></a>
+						</td>
+					</tr>
+<!-- <<< - - - - - - - - - - >>> -->
+					<tr><td colspan="2" height="3"></td></tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td> </td>
+						<td>&nbsp;</td>
+						<td>
+							<a href="http://elezionistorico.regione.fvg.it/amministrative2011/" target="_blank">Elezioni amministrative (provinciali, comunali e circoscrizionali) del <b>15 e 16 maggio 2011</b></a>
+						</td>
+					</tr>
+<!-- <<< - - - - - - - - - - >>> -->
+					<tr><td colspan="2" height="9"></td></tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td><font color="red"><b>2010</b></font></td>
+						<td>&nbsp;</td>
+						<td>
+							<a href="http://elezionistorico.regione.fvg.it/amministrative2010/" target="_blank">Elezioni amministrative (comunali) del <b>16 e 17 maggio 2010</b></a>
+						</td>
+					</tr>
+<!-- <<< - - - - - - - - - - >>> -->
+					<tr><td colspan="2" height="9"></td></tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td><font color="red"><b>2009</b></font></td>
+						<td>&nbsp;</td>
+						<td>
+							<a href="http://elezionistorico.regione.fvg.it/referendum2009/" target="_blank">Referendum popolari del <b>21 e 22 giugno 2009</b></a>
+						</td>
+					</tr>
+<!-- <<< - - - - - - - - - - >>> -->
+					<tr><td colspan="2" height="3"></td></tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td> </td>
+						<td>&nbsp;</td>
+						<td>
+<!--
+							<a href="http://elezioni2009.regione.fvg.it/index.html" title="Elezioni europee, provinciali e comunali del 6 7 giugno 2009">Elezioni europee, provinciali e comunali del 6 7 giugno 2009</a>
+-->
+							<a href="http://elezionistorico.regione.fvg.it/elezioni2009/" target="_blank">Elezioni europee e amministrative (provinciali e comunali) del <b>6 e 7 giugno 2009</b></a>
+						</td>
+					</tr>
+<!-- <<< - - - - - - - - - - >>> -->
+					<tr><td colspan="2" height="9"></td></tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td><font color="red"><b>2008</b></font></td>
+						<td>&nbsp;</td>
+						<td>
+<!--
+							<a href="http://elezioni2008.regione.fvg.it/index.html" title="Elezioni regionali e amministrative del 13 e 14 aprile 2008">Elezioni regionali e amministrative del 13 e 14 aprile 2008</a>
+							<a href="http://elezioni2008.regione.fvg.it/indexb.html" title="Elezioni regionali e amministrative 2008: comune di Udine, ballottaggio del 27 e 28 aprile 2008">Elezioni regionali e amministrative 2008: comune di Udine, ballottaggio del 27 e 28 aprile 2008</a>
+-->
+							<a href="http://elezionistorico.regione.fvg.it/elezioni2008/index.html" target="_blank">Elezioni politiche, regionali e amministrative (provinciali e comunali) del <b>13 e 14 aprile 2008</b></a>,
+							<a href="http://elezionistorico.regione.fvg.it/elezioni2008/indexb.html" target="_blank"><b>ballottaggio</b> (comune di Udine)</a>
+						</td>
+					</tr>
+<!-- <<< - - - - - - - - - - >>> -->
+					<tr><td colspan="2" height="9"></td></tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td><font color="red"><b>2007</b></font></td>
+						<td>&nbsp;</td>
+						<td>
+<!--
+							<a href="http://referendum2007.regione.fvg.it/" title="Referendum consultivi per la costituzione di nuovo comune mediante fusione di comuni del 25 novembre 2007">Referendum consultivi per la costituzione di nuovo comune mediante fusione di comuni del 25 novembre 2007</a>
+-->
+							<a href="http://elezionistorico.regione.fvg.it/referendum2007/" target="_blank">Referendum consultivi per la costituzione di nuovo comune mediante fusione di comuni del <b>25 novembre 2007</b></a>
+						</td>
+					</tr>
+<!-- <<< - - - - - - - - - - >>> -->
+					<tr><td colspan="2" height="3"></td></tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td> </td>
+						<td>&nbsp;</td>
+						<td>
+<!--
+							<a href="http://elezioni2007.regione.fvg.it/elezComRisultatiListe.html" title="Elezioni Amministrative 27 e 28 maggio 2007">Elezioni Amministrative 27 e 28 maggio 2007</a>
+							<a href="http://elezioni2007.regione.fvg.it/elezComRisultatiListe.html" target="_blank">Elezioni Amministrative del <b>27 e 28 maggio 2007</b></a><br>
+-->
+							<a href="http://elezionistorico.regione.fvg.it/amministrative2007/" target="_blank">Elezioni amministrative (comunali e circoscrizionali) del <b>27 e 28 maggio 2007</b></a>
+						</td>
+					</tr>
+<!-- <<< - - - - - - - - - - >>> -->
+					<tr><td colspan="2" height="9"></td></tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td><font color="red"><b>2006</b></font></td>
+						<td>&nbsp;</td>
+						<td>
+<!--
+							<a href="http://referendum2006.regione.fvg.it/" title="Referendum Costituzionale del 25 e 26 giugno 2006">Referendum Costituzionale del 25 e 26 giugno 2006</a>
+							<a href="http://referendum2006.regione.fvg.it/" target="_blank">Referendum Costituzionale del <b>25 e 26 giugno 2006</b></a><br>
+-->
+							<a href="http://elezionistorico.regione.fvg.it/referendum2006/" target="_blank">Referendum costituzionale del <b>25 e 26 giugno 2006</b></a>
+						</td>
+					</tr>
+<!-- <<< - - - - - - - - - - >>> -->
+					<tr><td colspan="2" height="3"></td></tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td> </td>
+						<td>&nbsp;</td>
+						<td>
+<!--
+							<a href="http://elezioni2006.regione.fvg.it/" title="Elezioni 9 e 10 aprile 2006">Elezioni 9 e 10 aprile 2006</a>
+							<a href="http://elezioni2006.regione.fvg.it/indexa.html" title="Elezioni amministrative 9-10 aprile 2006 2° turno">Elezioni amministrative 9-10 aprile 2006 2� turno</a>
+							<a href="http://elezioni2006.regione.fvg.it/" target="_blank">Elezioni del <b>9 e 10 aprile 2006</b></a>,
+							<a href="http://elezioni2006.regione.fvg.it/indexa.html" target="_blank"><b>ballottaggio</b></a><br>
+-->
+							<a href="http://elezionistorico.regione.fvg.it/elezioni2006/" target="_blank">Elezioni politiche e amministrative (provinciali, comunali e circoscrizionali) del <b>9 e 10 aprile 2006</b></a>,
+							<a href="http://elezionistorico.regione.fvg.it/elezioni2006/indexa.html" target="_blank"><b>ballottaggio</b></a>
+						</td>
+					</tr>
+<!-- <<< - - - - - - - - - - >>> -->
+					<tr><td colspan="2" height="9"></td></tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td><font color="red"><b>2005</b></font></td>
+						<td>&nbsp;</td>
+						<td>
+<!--
+<a href="http://elezioni.regione.fvg.it/Amministrative2005/" title="Comunali 22 maggio 2005">Comunali 22 maggio 2005</a>
+-->
+							<a href="http://elezionistorico.regione.fvg.it/amministrative2005/" target="_blank">Elezioni amministrative (comunali) del <b>22 maggio 2005</b></a>
+						</td>
+					</tr>
+<!-- <<< - - - - - - - - - - >>> -->
+					<tr><td colspan="2" height="9"></td></tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td><font color="red"><b>2004</b></font></td>
+						<td>&nbsp;</td>
+<!--
+<a href="http://elezioni.regione.fvg.it/Elezioni2004/index.html" title="Elezioni europee, provinciali e comunali 12 e 13 giugno 2004">Elezioni europee, provinciali e comunali 12 e 13 giugno 2004</a>
+<a href="http://elezioni.regione.fvg.it/Elezioni2004/index2.html" title="Elezioni europee, provinciali e comunali 26 e 27 giugno 2004 (turno di ballottaggio)">Elezioni europee, provinciali e comunali 26 e 27 giugno 2004 (turno di ballottaggio)</a>
+-->
+						<td>
+							<a href="http://elezionistorico.regione.fvg.it/elezioni2004/index.html" target="_blank">Elezioni europee e amministrative (provinciali e comunali) del <b>12 e 13 giugno 2004</b></a>,
+							<a href="http://elezionistorico.regione.fvg.it/elezioni2004/index2.html" target="_blank"><b>ballottaggio</b></a>
+						</td>
+					</tr>
+<!-- <<< - - - - - - - - - - >>> -->
+					<tr><td colspan="2" height="3"></td></tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td> </td>
+						<td>&nbsp;</td>
+<!--
+<a href="http://elezioni4.regione.fvg.it/Referendum2004/" title="Referendum consultivo per l�istituzione della Provincia dell�Alto Friuli � 21 marzo 2004">Referendum consultivo per l�istituzione della Provincia dell�Alto Friuli � 21 marzo 2004</a>
+-->
+						<td>
+							<a href="http://elezionistorico.regione.fvg.it/referendum2004/" target="_blank">Referendum consultivo per l'istituzione della Provincia dell'Alto Friuli del <b>21 marzo 2004</b></a>
+						</td>
+					</tr>
+<!-- <<< - - - - - - - - - - >>> -->
+					<tr><td colspan="2" height="9"></td></tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td><font color="red"><b>2003</b></font></td>
+						<td>&nbsp;</td>
+<!--
+<a href="http://elezioni4.regione.fvg.it/Politiche2003/" title="Supplettive Camera dei Deputati � Collegio 2 Trieste 26 � 27 ottobre 2003">Supplettive Camera dei Deputati � Collegio 2 Trieste 26 � 27 ottobre 2003</a>
+-->
+						<td>
+							<a href="http://elezionistorico.regione.fvg.it/politiche2003/" target="_blank">Supplettive Camera dei Deputati - Collegio 2 Trieste, del <b>26 e 27 ottobre 2003</b></a>
+						</td>
+					</tr>
+<!-- <<< - - - - - - - - - - >>> -->
+					<tr><td colspan="2" height="3"></td></tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td> </td>
+						<td>&nbsp;</td>
+<!--
+<a href="http://elezioni.regione.fvg.it/Amministrative2003/" title="Regionali 8 � 9 giugno 2003">Regionali 8 � 9 giugno 2003</a>
+<a href="http://elezioni.regione.fvg.it/Amministrative2003/" title="Comunali 8 � 9 giugno 2003">Comunali 8 � 9 giugno 2003</a>
+-->
+						<td>
+							<a href="http://elezionistorico.regione.fvg.it/amministrative2003/" target="_blank">Elezioni regionali e amministrative (comunali e circoscrizionali) del <b>8 e 9 giugno 2003</b></a>
+						</td>
+					</tr>
+<!-- <<< - - - - - - - - - - >>> -->
+					<tr><td colspan="2" height="9"></td></tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td><font color="red"><b>2002</b></font></td>
+						<td>&nbsp;</td>
+<!--
+<a href="http://elezioni4.regione.fvg.it/Referendum2002/" title="Referendum regionale confermativo 29 settembre 2002">Referendum regionale confermativo 29 settembre 2002</a>
+-->
+						<td>
+							<a href="http://elezionistorico.regione.fvg.it/referendum2002/" target="_blank">Referendum regionale confermativo del <b>29 settembre 2002</b></a>
+						</td>
+					</tr>
+<!-- <<< - - - - - - - - - - >>> -->
+					<tr><td colspan="2" height="3"></td></tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td> </td>
+						<td>&nbsp;</td>
+<!--
+<a href="http://elezioni4.regione.fvg.it/Amministrative2002/" title="Comunali maggio 2002 primo e secondo turno">Comunali maggio 2002 primo e secondo turno</a>
+-->
+						<td>
+							<a href="http://elezionistorico.regione.fvg.it/amministrative2002/" target="_blank">Elezioni amministrative (comunali e circoscrizionali) del <b>26 maggio 2002</b> (primo turno e ballottaggio)</a>
+						</td>
+					</tr>
+<!-- <<< - - - - - - - - - - >>> -->
+					<tr><td colspan="2" height="9"></td></tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td><font color="red"><b>2001</b></font></td>
+						<td>&nbsp;</td>
+<!--
+<a href="http://elezioni4.regione.fvg.it/RisultatiRef/Risultati/" title="Referendum nazionale 7 ottobre 2001">Referendum nazionale 7 ottobre 2001</a>
+-->
+						<td>
+							<a href="http://elezionistorico.regione.fvg.it/referendum2001/" target="_blank">Referendum nazionale del <b>7 ottobre 2001</b></a>
+						</td>
+					</tr>
+<!-- <<< - - - - - - - - - - >>> -->
+					<tr><td colspan="2" height="3"></td></tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td> </td>
+						<td>&nbsp;</td>
+						<td>
+<!--
+							<a href="http://elezioni4.regione.fvg.it/RisultatiAmm/" target="_blank">Comunali e provinciali del <b>10 giugno 2001</b></a><br>
+-->
+							<a href="http://elezionistorico.regione.fvg.it/amministrative2001/" target="_blank">Elezioni amministrative (provinciali, comunali e circoscrizionali) del <b>10 giugno 2001</b></a>
+						</td>
+					</tr>
+<!-- <<< - - - - - - - - - - >>> -->
+					<tr><td colspan="2" height="3"></td></tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td> </td>
+						<td>&nbsp;</td>
+						<td>
+<!--
+							<a href="http://elezioni4.regione.fvg.it/Politiche2001/" target="_blank">Politiche del <b>13 maggio 2001</b></a><br>
+-->
+							<a href="http://elezionistorico.regione.fvg.it/politiche2001/" target="_blank">Elezioni politiche del <b>13 maggio 2001</b></a>
+						</td>
+					</tr>
+<!-- <<< - - - - - - - - - - >>> -->
+					<tr><td colspan="2" height="9"></td></tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td><font color="red"><b>2000</b></font></td>
+						<td>&nbsp;</td>
+<!--
+<a href="http://elezioni.regione.fvg.it/amministrative2000-1/" title="Comunali 16 aprile 2000 (1° turno)">Comunali 16 aprile 2000 (1° turno)</a>
+<a href="http://elezioni.regione.fvg.it/amministrative2000-2/" title="Comunali 16 aprile 2000 (2° turno)">Comunali 16 aprile 2000 (2° turno)</a>
+-->
+						<td>
+							<a href="http://elezionistorico.regione.fvg.it/amministrative2000-1/" target="_blank">Elezioni amministrative (comunali) del <b>16 aprile 2000</b></a>,
+							<a href="http://elezionistorico.regione.fvg.it/amministrative2000-2/" target="_blank"><b>ballottaggio</b></a>
+						</td>
+					</tr>
+<!-- <<< - - - - - - - - - - >>> -->
+					<tr><td colspan="2" height="9"></td></tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td><font color="red"><b>1999</b></font></td>
+						<td>&nbsp;</td>
+						<td>
+<!--
+							<a href="http://elezioni.regione.fvg.it/amministrative1999/" title="Comunali, provinciali ed europee 13 giugno 1999">Comunali, provinciali ed europee 13 giugno 1999</a>
+-->
+							<a href="http://elezionistorico.regione.fvg.it/elezioni1999/" target="_blank">Elezioni europee e amministrative (provinciali e comunali) del <b>13 giugno 1999</b></a>
+<!--
+							<br>
+							<a href="http://elezionistorico.regione.fvg.it/amministrative1999/" target="_blank">Comunali, provinciali ed europee del <b>13 giugno 1999</b></a>
+-->
+						</td>
+					</tr>
+<!-- <<< - - - - - - - - - - >>> -->
+					<tr><td colspan="2" height="9"></td></tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td><font color="red"><b>1998</b></font></td>
+						<td>&nbsp;</td>
+						<td>
+<!--
+							<a href="http://elezioni.regione.fvg.it/amministrative1998_11/" title="Comunali 15 novembre 1998">Comunali 15 novembre 1998</a>
+-->
+							<a href="http://elezionistorico.regione.fvg.it/amministrative1998_11/" target="_blank">Elezioni amministrative (comunali e circoscrizionali) del <b>15 novembre 1998</b></a>
+						</td>
+					</tr>
+<!-- <<< - - - - - - - - - - >>> -->
+					<tr><td colspan="2" height="3"></td></tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td> </td>
+						<td>&nbsp;</td>
+						<td>
+<!--
+							<a href="http://elezioni.regione.fvg.it/amministrative1998_06/" title="Regionali e comunali 14 giugno 1998">Regionali e comunali 14 giugno 1998</a>
+-->
+							<a href="http://elezionistorico.regione.fvg.it/amministrative1998_06/" target="_blank">Elezioni amministrative (regionali, comunali e circoscrizionali) del <b>14 giugno 1998</b></a>
+						</td>
+					</tr>
+					<tr><td>&nbsp;</td></tr>
+        </table>
+    	</td>
+    </tr>
+    </table>
+  </td>
+</tr>
+<tr><td colspan="2" height="1" bgcolor="#385789"></td></tr>
+<!--
+<tr align="center" valign="middle">
+  <td  colspan="2" height="40px">
+    <table cellspacing="5" cellpadding="5" border="0">
+    <tr>
+      <td align="center">
+				Copyright &copy; 2001-2013 <strong><a href="http://www.insiel.it" target="_blank">Insiel SpA</a></strong>
+      </td>
+    </tr>
+    </table>
+  </td>
+</tr>
+-->
+</table>
+</body>
+</html>
