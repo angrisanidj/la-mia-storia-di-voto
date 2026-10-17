@@ -1,0 +1,4 @@
+001 https://elezionistorico.regione.fvg.it/distribuzione/json-storico/a_2011-05-15_ELZ_COM_32003.json
+002 https://elezionistorico.regione.fvg.it/distribuzione/json-storico/a_2012-05-06_ELZ_COM_93004.json
+003 https://elezionistorico.regione.fvg.it/distribuzione/json-storico/a_2016-06-05_ELZ_COM_32003.json
+004 https://elezionistorico.regione.fvg.it/distribuzione/json-storico/a_2017-06-11_ELZ_COM_93022.json
