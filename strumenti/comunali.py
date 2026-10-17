@@ -10,13 +10,20 @@ Uscite:
                                         (codice catastale -> indici delle date,
                                         con ballottaggio segnato come negativo)
   dati/candidati/RR.js                  candidati sindaco e liste dei comuni sopra
-                                        i 15.000 abitanti, una per regione
+                                        i 15.000 abitanti, una per regione; per le
+                                        regioni a statuto speciale anche le elezioni di
+                                        strumenti/candidati-wikipedia.json che l'archivio
+                                        non ha (strumenti/candidati_wikipedia.py)
   dati/regionali-candidati.js           candidati presidente e liste delle regionali
   strumenti/comunali-non-trovati.txt    nomi dell'archivio non abbinati a un comune
 
 L'archivio copre le regioni a statuto ordinario e la Sardegna: Sicilia,
 Friuli-Venezia Giulia, Valle d'Aosta e Trentino-Alto Adige gestiscono da sé le
 proprie elezioni locali e lì le comunali vanno aggiunte a mano.
+
+    python strumenti/comunali.py --solo-wikipedia
+riscrive soltanto dati/candidati/RR.js unendo ai file attuali le elezioni di
+strumenti/candidati-wikipedia.json, senza leggere l'archivio.
 """
 import datetime as dt
 import json
@@ -30,9 +37,13 @@ import requests
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
-from tallyho.costanti import BASE, UA
-from tallyho.navigazione import leggi_onchange, leggi_select, scendi_livello
-from tallyho.parsing import estrai_tabelle, parse_candidati, parse_candidati_regionali
+try:
+    from tallyho.costanti import BASE, UA
+    from tallyho.navigazione import leggi_onchange, leggi_select, scendi_livello
+    from tallyho.parsing import estrai_tabelle, parse_candidati, parse_candidati_regionali
+except ImportError:  # --solo-wikipedia non legge l'archivio e non ha bisogno di tallyho
+    if "--solo-wikipedia" not in sys.argv:
+        raise
 
 RADICE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DAL = dt.date(1993, 1, 1)
@@ -234,14 +245,73 @@ def main():
     scrivi(voti, non_trovati, candidati)
 
 
-def scrivi(voti, non_trovati, candidati):
+CANDIDATI_WIKIPEDIA = os.path.join(RADICE, "strumenti", "candidati-wikipedia.json")
+TESTA_CANDIDATI = ("// Candidati sindaco e liste (sopra il 2%) dei comuni sopra i 15.000 abitanti, dall'Archivio storico delle elezioni.\n"
+                   "// Generato da strumenti/comunali.py. Chiave: codice catastale-data.\n")
+TESTA_WIKIPEDIA = ("// Sicilia, Friuli-Venezia Giulia, Valle d'Aosta e Trentino-Alto Adige: anche da it.wikipedia.org "
+                   "(strumenti/candidati-wikipedia.json), voce [nome, %, [[lista, %], ...], area].\n")
+INIZIO_JS = "window.CANDIDATI_COMUNALI = Object.assign(window.CANDIDATI_COMUNALI || {}, "
+
+
+def compatta_wikipedia(cand, soglia=2.0, max_c=8, max_l=8):
+    """Come compatta(), per le voci [nome, %, [[lista, %], ...], area] di candidati-wikipedia.json."""
+    out = []
+    for nome, pct, liste, area in cand:
+        if pct is not None and pct < soglia:
+            continue
+        out.append([nome, pct, [l for l in liste if (l[1] or 0) >= soglia][:max_l], area])
+    out.sort(key=lambda c: -(c[1] or 0))
+    return out[:max_c]
+
+
+def unisci_wikipedia(candidati):
+    """Aggiunge a candidati (regione -> {"codice-data": voci}) le elezioni di strumenti/candidati-wikipedia.json
+    che l'archivio non ha: quelle del Ministero restano. Restituisce le chiavi che vengono da Wikipedia
+    (anche se già nei file, quando li si rilegge con --solo-wikipedia)."""
+    if not os.path.exists(CANDIDATI_WIKIPEDIA):
+        return set()
+    aggiunte = set()
+    with open(CANDIDATI_WIKIPEDIA, encoding="utf-8") as f:
+        elezioni = json.load(f)["elezioni"]
+    for chiave, e in elezioni.items():
+        voci = candidati.setdefault(e["reg"], {})
+        voce = compatta_wikipedia(e["c"])
+        if chiave not in voci:
+            voci[chiave] = voce
+        if voci[chiave] == voce:
+            aggiunte.add(chiave)
+    return aggiunte
+
+
+def leggi_candidati():
+    """I file dati/candidati/RR.js attuali: regione -> {"codice-data": voci}."""
+    out = {}
+    cartella = os.path.join(RADICE, "dati", "candidati")
+    for nome in sorted(os.listdir(cartella)) if os.path.isdir(cartella) else []:
+        m = re.fullmatch(r"(\d{2})\.js", nome)
+        if not m:
+            continue
+        testo = open(os.path.join(cartella, nome), encoding="utf-8").read()
+        i = testo.index(INIZIO_JS) + len(INIZIO_JS)
+        out[m.group(1)] = json.loads(testo[i:testo.rindex(");")])
+    return out
+
+
+def scrivi_candidati(candidati):
+    """Scrive dati/candidati/RR.js, aggiungendo le elezioni di candidati-wikipedia.json che mancano."""
     os.makedirs(os.path.join(RADICE, "dati", "candidati"), exist_ok=True)
+    wiki = unisci_wikipedia(candidati)
     for reg, voci in candidati.items():
+        con_wiki = any(k in wiki for k in voci)
         with open(os.path.join(RADICE, "dati", "candidati", f"{reg}.js"), "w", encoding="utf-8") as f:
-            f.write("// Candidati sindaco e liste (sopra il 2%) dei comuni sopra i 15.000 abitanti, dall'Archivio storico delle elezioni.\n"
-                    "// Generato da strumenti/comunali.py. Chiave: codice catastale-data.\n"
-                    "window.CANDIDATI_COMUNALI = Object.assign(window.CANDIDATI_COMUNALI || {}, "
+            f.write(TESTA_CANDIDATI + (TESTA_WIKIPEDIA if con_wiki else "") + INIZIO_JS
                     + json.dumps(voci, ensure_ascii=False, separators=(",", ":")) + ");\n")
+    return wiki
+
+
+def scrivi(voti, non_trovati, candidati):
+    wiki = scrivi_candidati(candidati)
+    print(f"[ok] candidati: {len(wiki)} elezioni da strumenti/candidati-wikipedia.json", flush=True)
     tutte = sorted({d for v in voti.values() for d in v})
     pos = {d: i for i, d in enumerate(tutte)}
     righe = []
@@ -263,6 +333,15 @@ def scrivi(voti, non_trovati, candidati):
 
 
 if __name__ == "__main__":
+    if "--solo-wikipedia" in sys.argv:
+        prima = leggi_candidati()
+        n_prima = {r: len(v) for r, v in prima.items()}
+        wiki = scrivi_candidati(prima)
+        for r, v in sorted(prima.items()):
+            if len(v) != n_prima.get(r, 0):
+                print(f"[ok] dati/candidati/{r}.js: {n_prima.get(r, 0)} -> {len(v)} elezioni", flush=True)
+        print(f"[ok] {len(wiki)} elezioni da strumenti/candidati-wikipedia.json nei file", flush=True)
+        sys.exit(0)
     try:
         main()
     except requests.RequestException as e:
