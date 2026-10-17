@@ -34,6 +34,12 @@ scrive strumenti/candidati-sicilia.json leggendo le pagine scaricate (PAGINE/ind
 la cartella WIKI di strumenti/candidati_wikipedia.py (reg/Sicilia_AAAA.txt) e l'elenco delle elezioni da cercare
 (ELENCO.json: [{"cod", "comune", "sigla", "reg", "data", "ballottaggio"}, ...], data del primo turno come in
 dati/comunali.js). Nomi da «COGNOME NOME» a «Nome Cognome»; area lasciata a null (l'app la ricava dalle liste).
+
+Dall'Italia il sito risponde, e le pagine si possono scaricare direttamente: in PAGINE/indice.json gli indirizzi diretti
+(http://www.elezioni.regione.sicilia.it/comunaliAAAA/primoTurno/PR/ReportRisultatiPRnnn.html) valgono come quelli della
+Wayback Machine, con gli stessi controlli, e la fonte è l'indirizzo diretto. WIKI = «-» salta Wikipedia, --uscita FILE
+scrive su un altro file:
+    python strumenti/candidati_sicilia.py PAGINE - strumenti/sicilia-da-scaricare.json --uscita strumenti/candidati-sicilia-regione.json
 """
 import os, re, sys, json, html, glob, tempfile, subprocess, unicodedata, collections, datetime as dt
 
@@ -79,7 +85,10 @@ PIPPO PEPPINO NELLO NUCCIO GIANNI MIMMO TOTO ENZO LELLO TANINO TANO FILIPPO ROCC
 MARIAGRAZIA MARIA GRAZIA ESTER LUCIA LUCIANA ROSSANA ROSANNA SONIA SIMONA DANIELA PAOLA ANNA ANNAMARIA LETIZIA VALENTINA
 FRANCESCA GIOVANNA ANTONELLA ANTONINA SERAFINA SEBASTIANA FILIPPA BENEDETTA VINCENZA CARMELA ROSA ROSETTA TERESA ELENA
 CLAUDIA LAURA MONICA PATRIZIA CRISTINA BARBARA SILVIA ALESSANDRA ALESSIA MARCELLA MARINELLA MARIELLA MIRELLA ORNELLA
-DAMIANO ANGELO GIAMBATTISTA GIOVAN BATTISTA PARIDE FLORIDIANO FLAVIO EMANUELE UMBERTO ALFONSO TOMMASO GIROLAMO GERLANDO""".split())
+DAMIANO ANGELO GIAMBATTISTA GIOVAN BATTISTA PARIDE FLORIDIANO FLAVIO EMANUELE UMBERTO ALFONSO TOMMASO GIROLAMO GERLANDO
+LUDOVICO KABIRIA""".split())
+# «detto» che non sono nomi ma soprannomi: resta il nome anagrafico («SANFILIPPO SALVATORE detto DOTTORINO» -> «Salvatore Sanfilippo»)
+SOPRANNOMI = {'DOTTORINO', 'MASELLA', 'ACQUAVIVA'}
 
 
 def norm(s):
@@ -203,7 +212,14 @@ def tipo_url(u):
 
 
 def fonte_wayback(u):
-    return u.replace('id_/', '/', 1)
+    """L'indirizzo da citare come fonte: la copia della Wayback Machine senza «id_», o l'indirizzo diretto del sito."""
+    return u.replace('id_/', '/', 1) if u.startswith(WAYBACK) else u
+
+
+def cattura(u):
+    """Il momento della copia della Wayback Machine (0 per le pagine scaricate direttamente dal sito)."""
+    m = re.search(r'/web/(\d+)', u)
+    return int(m.group(1)) if m else 0
 
 
 def da_regione(x, pagine, idx, nc):
@@ -226,7 +242,7 @@ def da_regione(x, pagine, idx, nc):
         if r['ballottaggio']: motivi.append('solo la pagina del ballottaggio'); continue
         if not r['completo']: motivi.append('scrutinio incompleto'); continue
         if not r['cand']: continue
-        prove.append((tp[0], tp[1], -int(re.search(r'/web/(\d+)', u).group(1)), u, r, tp[2]))
+        prove.append((tp[0], tp[1], -cattura(u), u, r, tp[2]))
     for _, _, _, u, r, tipo in sorted(prove):
         tot = sum(c['voti'] for c in r['cand'])
         note = []
@@ -258,7 +274,9 @@ def da_regione(x, pagine, idx, nc):
         if tipo == 'Seggi' and any(len(c[2]) for c in out): note.append('liste solo sopra lo sbarramento (ReportSeggi)')
         if tipo == 'Candidati': note.append('solo candidati, senza liste (ReportCandidati)')
         return {'comune': x['comune'], 'reg': x['reg'], 'c': [c[:4] for c in out], 'fonte': fonte_wayback(u)}, note
-    return None, motivi or ['nessuna pagina conservata dalla Wayback Machine']
+    if any(u.startswith(WAYBACK) for u in idx):
+        return None, motivi or ['nessuna pagina conservata dalla Wayback Machine']
+    return None, motivi or ['nessuna pagina scaricata dal sito']
 
 
 # ---------------------------------------------------------------- nomi
@@ -301,9 +319,16 @@ def converti_nome(s, nc):
         i += 1
     if not all(U(w) in nomi for w in t[i:]): dubbio = True
     out = ' '.join(maiuscole(w) for w in t[i:] + t[:i])
-    if detto:
+    detto = re.split(r'\s+IL\s+', detto.split(' - ')[0], flags=re.I)[0]  # «NINO IL TURCO» -> «NINO»
+    if detto and detto.upper() in SOPRANNOMI:
+        detto, dubbio = '', True
+    cognome = [y.upper() for y in t[:i]]
+    if detto and detto.split()[0].upper() not in cognome and any(w.upper() in cognome for w in detto.split()):
+        # già nell'ordine «Nome Cognome»: «NOTO CASTAGNINO DANIELA MARGARETH detta DANIELA NOTO» -> «Daniela Noto»
+        out = ' '.join(maiuscole(w) for w in detto.split())
+    elif detto:
         # il nome con cui la persona è conosciuta, come su Wikipedia: «OLIVERI SEBASTIANO detto NELLO» -> «Nello Oliveri»
-        d = [w for w in detto.split(' - ')[0].split() if w.upper() not in [y.upper() for y in t[:i]]] or detto.split()
+        d = [w for w in detto.split() if w.upper() not in cognome] or detto.split()
         out = ' '.join(maiuscole(w) for w in d + t[:i])
     return out, dubbio
 
@@ -400,12 +425,17 @@ if __name__ == '__main__':
         elenco = {f"{x['cod']}-{x['data']}": x for x in json.load(open(sys.argv[3], encoding='utf-8'))}
         print('\n'.join(indirizzi(cartella_pagine, elenco)))
         sys.exit()
-    cartella_pagine, wiki, f_elenco = sys.argv[1:4]
+    argomenti = sys.argv[1:]
+    f_uscita = os.path.join(RADICE, 'strumenti', 'candidati-sicilia.json')
+    if '--uscita' in argomenti:
+        i = argomenti.index('--uscita')
+        f_uscita = argomenti[i + 1]; del argomenti[i:i + 2]
+    cartella_pagine, wiki, f_elenco = argomenti[:3]
     elenco = {f"{x['cod']}-{x['data']}": x for x in json.load(open(f_elenco, encoding='utf-8')) if x['reg'] == '19'}
     idx = json.load(open(os.path.join(cartella_pagine, 'indice.json')))
     nc = carica_nomi()
     trovate, note, mancate, pagine = {}, [], [], {}
-    wikip = da_wikipedia(wiki, elenco)
+    wikip = da_wikipedia(wiki, elenco) if wiki != '-' else {}
     for k, x in sorted(elenco.items(), key=lambda kv: (kv[1]['comune'], kv[0])):
         v, n = da_regione(x, pagine, idx, nc)
         if v is None and k in wikip: v, n = wikip[k]
@@ -431,8 +461,15 @@ if __name__ == '__main__':
                        "Generato da strumenti/candidati_sicilia.py.",
         'elezioni': dict(sorted(trovate.items(), key=lambda kv: (kv[1]['comune'], kv[0]))),
     }
+    if wiki == '-':
+        uscita['descrizione'] = (
+            "Candidati sindaco (percentuale al primo turno sui voti validi ai candidati), liste collegate (percentuale sul "
+            "totale dei voti validi di lista) delle comunali siciliane dal 2008 elencate in " + os.path.basename(f_elenco) +
+            ": dal sito elettorale della Regione Siciliana (www.elezioni.regione.sicilia.it), pagine scaricate direttamente "
+            "dal sito. Chiave: codice catastale-data del primo turno come in dati/comunali.js. Voce: [nome, %, [[lista, %], ...], "
+            "area]. Generato da strumenti/candidati_sicilia.py.")
     righe = [f' {json.dumps(k)}: {json.dumps(v, ensure_ascii=False, separators=(",", ":"))}' for k, v in uscita['elezioni'].items()]
-    with open(os.path.join(RADICE, 'strumenti', 'candidati-sicilia.json'), 'w', encoding='utf-8') as f:
+    with open(f_uscita, 'w', encoding='utf-8') as f:
         f.write('{\n "descrizione": ' + json.dumps(uscita['descrizione'], ensure_ascii=False) + ',\n "elezioni": {\n' + ',\n'.join(righe) + '\n }\n}\n')
     print(len(trovate), 'elezioni trovate su', len(elenco))
     print(collections.Counter(k[5:9] for k in trovate))
