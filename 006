@@ -1,0 +1,597 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="pragma" content="no-cache"/>
+<meta http-equiv="expires" content="0"/>
+<meta name="product" content="Ascot Web Elezioni"/>
+<meta name="copyright" content="Copyright &copy; 2010, Insiel Mercato S.p.A."/>
+<meta name="rights" content="All rights reserved"/>
+<meta name="author" content="Insiel Mercato S.p.A."/>
+<link rel="stylesheet" media="screen" href="../../css/frontend.css" />
+<title>Elezioni Amministrative Trentino Alto Adige - Risultati</title>
+<!--[if IE 6]>
+<link rel="stylesheet" media="screen" href="../../css/ie6.css" />
+<![endif]-->
+<!--[if IE 7]>
+<link rel="stylesheet" media="screen" href="../../css/ie7.css" />
+<![endif]-->
+<!--[if IE 8]>
+<link rel="stylesheet" media="screen" href="../../css/ie8.css" />
+<![endif]-->
+</head>
+
+<body>
+
+<div id="container">
+    <div id="header">
+    	<div id="intestazione">
+        	<div id="logo_elezioni">
+            	<a href="http://www.regione.taa.it/Elettorale/modulistica.aspx" target="_blank" title="vai al sito delle elezioni del Trentino Alto Adige"><img src="../../img/logo_elezioni.jpg" alt="Logo elezioni" /></a>
+            	<a href="http://www.regione.taa.it/" target="_blank" title="vai al sito del Trentino Alto Adige">Vai al sito</a>
+            </div>
+            <div id="box_tit">
+            	<div id="titolo">Regione autonoma <span class="enfasi">Trentino Alto Adige</span></div>
+                <div id="sottotitolo">Copyright Regione Autonoma Trentino-Alto Adige/Südtirol</div>
+        </div>
+            <div id="credits">Servizi realizzati da Informatica Trentina S.p.A. in collaborazione con <span>Insiel Mercato S.p.A.</span></div>
+            <div class="stabilizzatore"></div>
+        </div>
+    	<div id="element_header">
+            
+            <ul id="navigation">
+       	    	<li>
+                    
+                    <a href="../../index.html" title="vai alla home page">
+                        <span >Home</span></a>
+                    
+                </li>
+                <li  class="hidden">
+                    <a  href="000053_Com/Affluenza/index_A.html"  title="vai al riepilogo delle affluenze">
+                        <span >Riepilogo Affluenze</span></a>
+                </li>
+                <li  class="hidden">
+                    <a href="index.html"  title="vai al ballottaggio">
+                        <span>Ballottaggio</span></a>
+                </li>
+                <li >
+                    <a  href="../Candidature/000020.html"  title="vai alle candidature">
+                        <span >Candidature</span></a>
+                </li>
+                <li >
+                    <a  href="../Affluenza/000020.html"  title="vai all'affluenza">
+                        <span >Affluenza</span></a>
+                </li>
+                <li >
+                    <a  href="../Coalizioni/000020.html"  title="vai alla pagina del sindaco">
+                        <span >Sindaco</span></a>
+                </li>
+                <li >
+                    <a  href="000020.html"  title="vai alle liste">
+                        <span  id="selected" >Liste</span></a>
+                </li>
+                <li >
+                    <a  href="../Seggi/000020.html"  title="vai alla distribuzione dei seggi">
+                        <span >Distribuzione dei Seggi</span></a>
+                </li>
+                <li >
+                    <a  href="../Consiglio/000020.html"  title="vai alla composizione del consiglio">
+                        <span >Composizione Consiglio</span></a>
+                </li>
+            </ul>
+                
+          <div id="etichetta_header">Elezioni amministrative<br /><span>16 Maggio 2010</span></div>
+          <div id="box_tipo_risultati_e_dati_andamento">
+            	<div id="tipo_risultati">Risultati ufficiosi</div>
+                <div id="dati_andamento">Ultima rilevazione: 18 maggio 2010 12:11</div>
+                <div class="stabilizzatore"></div>
+          </div>
+      </div>
+    </div>
+	<div id="content">
+
+
+
+ 
+
+
+<div id="container_liste">
+<div class="scritte_top">
+    <div id="sezioni">Sezioni rilevate: 12 su 12</div>
+</div>
+<table class="intestazione">
+  <tr class="intestazione_tabella">
+    <td class="borderless_orriz_top borderless_orriz_bottom">Risultati di Lista - Comune di Arco</td>
+  </tr>
+</table>
+
+
+
+        <table class="tabella_liste">
+            <tr class="intestazione_colonna">
+                <td colspan="3">Risultati anno 2010</td>
+            </tr>
+            <tr>
+                <td>Liste</td>
+                <td colspan="2">Voti</td>
+            </tr>
+
+            <tr>
+                <td class="align space width_col_1">
+                    <img height="40" width="40" src="../../FotoSimboli/53/20/sim_1573.gif" title="PD" alt="simbolo" align="left"/>
+                    PD - PARTITO DEMOCRATICO DEL TRENTINO &nbsp;
+                    <br />
+                    
+                    <a href="000020_001573.html">Preferenze</a>
+                </td>
+                <td class="width_col_2">
+                    1.130
+               </td>
+               <td class="width_col_3 align">
+               
+                        <img src="../../img/percent_bar.jpg" width="13%" height="28" alt="Barra percentuale" class="percent_bar" align="middle" /> 12,57 %
+                    
+               </td>
+           </tr>
+
+            <tr>
+                <td class="align space width_col_1">
+                    <img height="40" width="40" src="../../FotoSimboli/53/20/sim_1171.gif" title="PATT" alt="simbolo" align="left"/>
+                    PARTITO AUTONOMISTA TRENTINO TIROLESE &nbsp;
+                    <br />
+                    
+                    <a href="000020_001171.html">Preferenze</a>
+                </td>
+                <td class="width_col_2">
+                    1.115
+               </td>
+               <td class="width_col_3 align">
+               
+                        <img src="../../img/percent_bar.jpg" width="12%" height="28" alt="Barra percentuale" class="percent_bar" align="middle" /> 12,40 %
+                    
+               </td>
+           </tr>
+
+            <tr>
+                <td class="align space width_col_1">
+                    <img height="40" width="40" src="../../FotoSimboli/53/20/sim_1170.gif" title="ARCO +" alt="simbolo" align="left"/>
+                    ARCO +  MORANDINI SINDACO &nbsp;
+                    <br />
+                    
+                    <a href="000020_001170.html">Preferenze</a>
+                </td>
+                <td class="width_col_2">
+                    863
+               </td>
+               <td class="width_col_3 align">
+               
+                        <img src="../../img/percent_bar.jpg" width="10%" height="28" alt="Barra percentuale" class="percent_bar" align="middle" /> 9,60 %
+                    
+               </td>
+           </tr>
+
+            <tr>
+                <td class="align space width_col_1">
+                    <img height="40" width="40" src="../../FotoSimboli/53/20/sim_1574.gif" title="CON MATTEI" alt="simbolo" align="left"/>
+                    CON MATTEI PER ARCO &nbsp;
+                    <br />
+                    
+                    <a href="000020_001574.html">Preferenze</a>
+                </td>
+                <td class="width_col_2">
+                    705
+               </td>
+               <td class="width_col_3 align">
+               
+                        <img src="../../img/percent_bar.jpg" width="8%" height="28" alt="Barra percentuale" class="percent_bar" align="middle" /> 7,84 %
+                    
+               </td>
+           </tr>
+
+            <tr>
+                <td class="align space width_col_1">
+                    <img height="40" width="40" src="../../FotoSimboli/53/20/sim_1572.gif" title="UNIONE PER ARCO" alt="simbolo" align="left"/>
+                    UNIONE PER ARCO - PER UN IMPEGNO CIVICO &nbsp;
+                    <br />
+                    
+                    <a href="000020_001572.html">Preferenze</a>
+                </td>
+                <td class="width_col_2">
+                    585
+               </td>
+               <td class="width_col_3 align">
+               
+                        <img src="../../img/percent_bar.jpg" width="7%" height="28" alt="Barra percentuale" class="percent_bar" align="middle" /> 6,51 %
+                    
+               </td>
+           </tr>
+
+            <tr>
+                <td class="align space width_col_1">
+                    <img height="40" width="40" src="../../FotoSimboli/53/20/sim_1323.gif" title="ARCO UDC" alt="simbolo" align="left"/>
+                    AMMINISTRARE IL TRENTINO UDC ARCO &nbsp;
+                    <br />
+                    
+                    <a href="000020_001323.html">Preferenze</a>
+                </td>
+                <td class="width_col_2">
+                    552
+               </td>
+               <td class="width_col_3 align">
+               
+                        <img src="../../img/percent_bar.jpg" width="6%" height="28" alt="Barra percentuale" class="percent_bar" align="middle" /> 6,14 %
+                    
+               </td>
+           </tr>
+
+            <tr>
+                <td class="align space width_col_1">
+                    <img height="40" width="40" src="../../FotoSimboli/53/20/sim_1575.gif" title="UPT" alt="simbolo" align="left"/>
+                    UNIONE PER IL TRENTINO - ARCO &nbsp;
+                    <br />
+                    
+                    <a href="000020_001575.html">Preferenze</a>
+                </td>
+                <td class="width_col_2">
+                    533
+               </td>
+               <td class="width_col_3 align">
+               
+                        <img src="../../img/percent_bar.jpg" width="6%" height="28" alt="Barra percentuale" class="percent_bar" align="middle" /> 5,93 %
+                    
+               </td>
+           </tr>
+
+            <tr>
+                <td class="align space width_col_1">
+                    <img height="40" width="40" src="../../FotoSimboli/53/20/sim_1160.gif" title="ARCO CAPRONI" alt="simbolo" align="left"/>
+                    PER ARCO CON CAPRONI &nbsp;
+                    <br />
+                    
+                    <a href="000020_001160.html">Preferenze</a>
+                </td>
+                <td class="width_col_2">
+                    510
+               </td>
+               <td class="width_col_3 align">
+               
+                        <img src="../../img/percent_bar.jpg" width="6%" height="28" alt="Barra percentuale" class="percent_bar" align="middle" /> 5,67 %
+                    
+               </td>
+           </tr>
+
+            <tr>
+                <td class="align space width_col_1">
+                    <img height="40" width="40" src="../../FotoSimboli/53/20/sim_1292.gif" title="ARCO INSIEME" alt="simbolo" align="left"/>
+                    ARCO INSIEME &nbsp;
+                    <br />
+                    
+                    <a href="000020_001292.html">Preferenze</a>
+                </td>
+                <td class="width_col_2">
+                    504
+               </td>
+               <td class="width_col_3 align">
+               
+                        <img src="../../img/percent_bar.jpg" width="6%" height="28" alt="Barra percentuale" class="percent_bar" align="middle" /> 5,61 %
+                    
+               </td>
+           </tr>
+
+            <tr>
+                <td class="align space width_col_1">
+                    <img height="40" width="40" src="../../FotoSimboli/53/20/sim_1173.gif" title="LEGA NORD" alt="simbolo" align="left"/>
+                    LEGA NORD TRENTINO &nbsp;
+                    <br />
+                    
+                    <a href="000020_001173.html">Preferenze</a>
+                </td>
+                <td class="width_col_2">
+                    497
+               </td>
+               <td class="width_col_3 align">
+               
+                        <img src="../../img/percent_bar.jpg" width="6%" height="28" alt="Barra percentuale" class="percent_bar" align="middle" /> 5,53 %
+                    
+               </td>
+           </tr>
+
+            <tr>
+                <td class="align space width_col_1">
+                    <img height="40" width="40" src="../../FotoSimboli/53/20/sim_1232.gif" title="PDL" alt="simbolo" align="left"/>
+                    IL POPOLO DELLA LIBERTA' &nbsp;
+                    <br />
+                    
+                    <a href="000020_001232.html">Preferenze</a>
+                </td>
+                <td class="width_col_2">
+                    492
+               </td>
+               <td class="width_col_3 align">
+               
+                        <img src="../../img/percent_bar.jpg" width="5%" height="28" alt="Barra percentuale" class="percent_bar" align="middle" /> 5,47 %
+                    
+               </td>
+           </tr>
+
+            <tr>
+                <td class="align space width_col_1">
+                    <img height="40" width="40" src="../../FotoSimboli/53/20/sim_1578.gif" title="SIAMO ARCO" alt="simbolo" align="left"/>
+                    SIAMO ARCO &nbsp;
+                    <br />
+                    
+                    <a href="000020_001578.html">Preferenze</a>
+                </td>
+                <td class="width_col_2">
+                    398
+               </td>
+               <td class="width_col_3 align">
+               
+                        <img src="../../img/percent_bar.jpg" width="4%" height="28" alt="Barra percentuale" class="percent_bar" align="middle" /> 4,43 %
+                    
+               </td>
+           </tr>
+
+            <tr>
+                <td class="align space width_col_1">
+                    <img height="40" width="40" src="../../FotoSimboli/53/20/sim_1230.gif" title="DI PIETRO - IDV" alt="simbolo" align="left"/>
+                    DI PIETRO - ITALIA DEI VALORI &nbsp;
+                    <br />
+                    
+                    <a href="000020_001230.html">Preferenze</a>
+                </td>
+                <td class="width_col_2">
+                    350
+               </td>
+               <td class="width_col_3 align">
+               
+                        <img src="../../img/percent_bar.jpg" width="4%" height="28" alt="Barra percentuale" class="percent_bar" align="middle" /> 3,89 %
+                    
+               </td>
+           </tr>
+
+            <tr>
+                <td class="align space width_col_1">
+                    <img height="40" width="40" src="../../FotoSimboli/53/20/sim_1233.gif" title="SINISTRA UNITA" alt="simbolo" align="left"/>
+                    SINISTRA UNITA &nbsp;
+                    <br />
+                    
+                    <a href="000020_001233.html">Preferenze</a>
+                </td>
+                <td class="width_col_2">
+                    285
+               </td>
+               <td class="width_col_3 align">
+               
+                        <img src="../../img/percent_bar.jpg" width="3%" height="28" alt="Barra percentuale" class="percent_bar" align="middle" /> 3,17 %
+                    
+               </td>
+           </tr>
+
+            <tr>
+                <td class="align space width_col_1">
+                    <img height="40" width="40" src="../../FotoSimboli/53/20/sim_1324.gif" title="VERDI" alt="simbolo" align="left"/>
+                    ARCO AMBIENTE - VERDI &nbsp;
+                    <br />
+                    
+                    <a href="000020_001324.html">Preferenze</a>
+                </td>
+                <td class="width_col_2">
+                    280
+               </td>
+               <td class="width_col_3 align">
+               
+                        <img src="../../img/percent_bar.jpg" width="3%" height="28" alt="Barra percentuale" class="percent_bar" align="middle" /> 3,11 %
+                    
+               </td>
+           </tr>
+
+            <tr>
+                <td class="align space width_col_1">
+                    <img height="40" width="40" src="../../FotoSimboli/53/20/sim_1577.gif" title="SAN GIORGIO" alt="simbolo" align="left"/>
+                    SAN GIORGIO GROTTA LINFANO - COMUNITÀ AMBIENTE &nbsp;
+                    <br />
+                    
+                    <a href="000020_001577.html">Preferenze</a>
+                </td>
+                <td class="width_col_2">
+                    191
+               </td>
+               <td class="width_col_3 align">
+               
+                        <img src="../../img/percent_bar.jpg" width="2%" height="28" alt="Barra percentuale" class="percent_bar" align="middle" /> 2,12 %
+                    
+               </td>
+           </tr>
+
+</table>
+<table class="tabella_elez_prec">
+    <tr>
+        <td colspan="2" class="intestazione_colonna elez_prec">Risultati elezioni precedenti</td>
+    </tr>
+    <tr>
+        <td class="width_col_4 elez_prec_liste">Liste</td>
+        <td class="width_col_5 elez_prec_voti">Voti %</td>
+    </tr>
+
+        <tr>
+            <td class="align elez_prec_liste">
+                
+             <img height="40" width="40" src="../../FotoSimboli/2005/022006arco_lista1.jpg" alt="simbolo" align="left"/>
+             CIVICA PER IL GOVERNO DI ARCO
+            </td>
+            <td>20,18 %</td>
+        </tr>
+      
+        <tr>
+            <td class="align elez_prec_liste">
+                
+             <img height="40" width="40" src="../../FotoSimboli/2005/022006arco_lista5.jpg" alt="simbolo" align="left"/>
+             ALLEANZA NAZIONALE
+            </td>
+            <td>10,42 %</td>
+        </tr>
+      
+        <tr>
+            <td class="align elez_prec_liste">
+                
+             <img height="40" width="40" src="../../FotoSimboli/2005/022006arco_lista8.jpg" alt="simbolo" align="left"/>
+             UNIONE PER ARCO
+            </td>
+            <td>8,76 %</td>
+        </tr>
+      
+        <tr>
+            <td class="align elez_prec_liste">
+                
+             <img height="40" width="40" src="../../FotoSimboli/2005/022006arco_lista11.jpg" alt="simbolo" align="left"/>
+             LEALI AL TRENTINO
+            </td>
+            <td>8,08 %</td>
+        </tr>
+      
+        <tr>
+            <td class="align elez_prec_liste">
+                
+             <img height="40" width="40" src="../../FotoSimboli/2005/022006arco_lista7.jpg" alt="simbolo" align="left"/>
+             DEMOCRATICI DI SINISTRA DEL TRENTINO
+            </td>
+            <td>7,48 %</td>
+        </tr>
+      
+        <tr>
+            <td class="align elez_prec_liste">
+                
+             <img height="40" width="40" src="../../FotoSimboli/2005/022006arco_lista15.jpg" alt="simbolo" align="left"/>
+             PER ARCO CON GIANNI CAPRONI
+            </td>
+            <td>6,67 %</td>
+        </tr>
+      
+        <tr>
+            <td class="align elez_prec_liste">
+                
+             <img height="40" width="40" src="../../FotoSimboli/2005/022006arco_lista6.jpg" alt="simbolo" align="left"/>
+             FORZA ITALIA P.P.E. PROGETTO PER ARCO
+            </td>
+            <td>6,55 %</td>
+        </tr>
+      
+        <tr>
+            <td class="align elez_prec_liste">
+                
+             <img height="40" width="40" src="../../FotoSimboli/2005/022006arco_lista3.jpg" alt="simbolo" align="left"/>
+             ARCO INSIEME
+            </td>
+            <td>5,82 %</td>
+        </tr>
+      
+        <tr>
+            <td class="align elez_prec_liste">
+                
+             <img height="40" width="40" src="../../FotoSimboli/2005/022006arco_lista13.jpg" alt="simbolo" align="left"/>
+             LEGA NORD TRENTINO
+            </td>
+            <td>4,94 %</td>
+        </tr>
+      
+        <tr>
+            <td class="align elez_prec_liste">
+                
+             <img height="40" width="40" src="../../FotoSimboli/2005/022006arco_lista14.jpg" alt="simbolo" align="left"/>
+             VERDI
+            </td>
+            <td>4,89 %</td>
+        </tr>
+      
+        <tr>
+            <td class="align elez_prec_liste">
+                
+             <img height="40" width="40" src="../../FotoSimboli/2005/022006arco_lista10.jpg" alt="simbolo" align="left"/>
+             ALLEANZA DEMOCRATICA ARCO
+            </td>
+            <td>4,68 %</td>
+        </tr>
+      
+        <tr>
+            <td class="align elez_prec_liste">
+                
+             <img height="40" width="40" src="../../FotoSimboli/2005/022006arco_lista2.jpg" alt="simbolo" align="left"/>
+             PARTITO COMUNISTA RIFONDAZIONE
+            </td>
+            <td>4,05 %</td>
+        </tr>
+      
+        <tr>
+            <td class="align elez_prec_liste">
+                
+             <img height="40" width="40" src="../../FotoSimboli/2005/022006arco_lista9.jpg" alt="simbolo" align="left"/>
+             ARCO NEL CUORE
+            </td>
+            <td>2,70 %</td>
+        </tr>
+      
+        <tr>
+            <td class="align elez_prec_liste">
+                
+             <img height="40" width="40" src="../../FotoSimboli/2005/022006arco_lista4.jpg" alt="simbolo" align="left"/>
+             EUROCIVICA
+            </td>
+            <td>2,41 %</td>
+        </tr>
+      
+        <tr>
+            <td class="align elez_prec_liste">
+                
+             <img height="40" width="40" src="../../FotoSimboli/2005/022006arco_lista12.jpg" alt="simbolo" align="left"/>
+             IL CASTELLO
+            </td>
+            <td>2,36 %</td>
+        </tr>
+      
+</table>
+
+<table class="tabella_schede">
+    <tr class="intestazione_tabella">
+	<td class="width_col_1 borderless_orriz_top">
+	Schede bianche: 74
+	</td>
+	<td class="width_col_2 borderless_orriz_top">
+	Schede nulle: 140
+	</td>
+	<td class="width_col_3 borderless_orriz_top">
+	Schede contestate e non assegnate: 0
+	</td>
+    </tr>
+    <tr class="intestazione_colonna">
+	<td colspan="3">
+            Totale voti validi: 8.990
+        </td>
+    </tr>
+</table>
+
+</div><!--CONTAINER LISTE -->
+
+    </div>
+	<div id="footer">
+    	<div>Regione Autonoma Trentino Alto Adige - Ripartizione II Ufficio Elettorale - <a href="../../accessibilita.html" title="conformità del sito rispetto alla legge Stanca">Conformità del sito</a> delle elezioni della Regione Trentino Alto Adige rispetto alle linee guida della Legge N.4 9 gennaio 2004</div>
+    </div>
+</div>
+</body>
+</html>
+

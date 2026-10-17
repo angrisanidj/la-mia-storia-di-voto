@@ -1,0 +1,7 @@
+001 http://web.archive.org/web/20090508071116id_/http://www.elezionicomunali.tn.it:80/000025_Com/Coalizioni/000150.html
+002 http://web.archive.org/web/20100519151328id_/http://www.elezionicomunali.tn.it:80/000053_Com/Coalizioni/000020.html
+003 http://web.archive.org/web/20100520024430id_/http://www.elezionicomunali.tn.it:80/000053_Com/Coalizioni/000172.html
+004 http://web.archive.org/web/20100520033105id_/http://www3.elezionicomunali.tn.it:80/000053_Com/Liste/000172.html
+005 http://web.archive.org/web/20100520062844id_/http://www3.elezionicomunali.tn.it:80/000053_Com/Coalizioni/000134.html
+006 http://web.archive.org/web/20100520063212id_/http://www.elezionicomunali.tn.it:80/000053_Com/Liste/000020.html
+007 http://web.archive.org/web/20100521162327id_/http://www3.elezionicomunali.tn.it:80/000053_Com/Liste/000164.html

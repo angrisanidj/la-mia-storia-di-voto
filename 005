@@ -1,0 +1,302 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="pragma" content="no-cache"/>
+<meta http-equiv="expires" content="0"/>
+<meta name="product" content="Ascot Web Elezioni"/>
+<meta name="copyright" content="Copyright &copy; 2010, Insiel Mercato S.p.A."/>
+<meta name="rights" content="All rights reserved"/>
+<meta name="author" content="Insiel Mercato S.p.A."/>
+<link rel="stylesheet" media="screen" href="../../css/frontend.css" />
+<title>Elezioni Amministrative Trentino Alto Adige - Presidente</title>
+<!--[if IE 6]>
+<link rel="stylesheet" media="screen" href="../../css/ie6.css" />
+<![endif]-->
+<!--[if IE 7]>
+<link rel="stylesheet" media="screen" href="../../css/ie7.css" />
+<![endif]-->
+<!--[if IE 8]>
+<link rel="stylesheet" media="screen" href="../../css/ie8.css" />
+<![endif]-->
+</head>
+
+<body>
+
+<div id="container">
+    <div id="header">
+    	<div id="intestazione">
+        	<div id="logo_elezioni">
+            	<a href="http://www.regione.taa.it/Elettorale/modulistica.aspx" target="_blank" title="vai al sito delle elezioni del Trentino Alto Adige"><img src="../../img/logo_elezioni.jpg" alt="Logo elezioni" /></a>
+            	<a href="http://www.regione.taa.it/" target="_blank" title="vai al sito del Trentino Alto Adige">Vai al sito</a>
+            </div>
+            <div id="box_tit">
+            	<div id="titolo">Regione autonoma <span class="enfasi">Trentino Alto Adige</span></div>
+                <div id="sottotitolo">Copyright Regione Autonoma Trentino-Alto Adige/Südtirol</div>
+        </div>
+            <div id="credits">Servizi realizzati da Informatica Trentina S.p.A. in collaborazione con <span>Insiel Mercato S.p.A.</span></div>
+            <div class="stabilizzatore"></div>
+        </div>
+    	<div id="element_header">
+            
+            <ul id="navigation">
+       	    	<li>
+                    
+                    <a href="../../index.html" title="vai alla home page">
+                        <span >Home</span></a>
+                    
+                </li>
+                <li  class="hidden">
+                    <a  href="000053_Com/Affluenza/index_A.html"  title="vai al riepilogo delle affluenze">
+                        <span >Riepilogo Affluenze</span></a>
+                </li>
+                <li  class="hidden">
+                    <a href="index.html"  title="vai al ballottaggio">
+                        <span>Ballottaggio</span></a>
+                </li>
+                <li >
+                    <a  href="../Candidature/000134.html"  title="vai alle candidature">
+                        <span >Candidature</span></a>
+                </li>
+                <li >
+                    <a  href="../Affluenza/000134.html"  title="vai all'affluenza">
+                        <span >Affluenza</span></a>
+                </li>
+                <li >
+                    <a  href="000134.html"  title="vai alla pagina del sindaco">
+                        <span  id="selected" >Sindaco</span></a>
+                </li>
+                <li >
+                    <a  href="../Liste/000134.html"  title="vai alle liste">
+                        <span >Liste</span></a>
+                </li>
+                <li >
+                    <a  href="../Seggi/000134.html"  title="vai alla distribuzione dei seggi">
+                        <span >Distribuzione dei Seggi</span></a>
+                </li>
+                <li >
+                    <a  href="../Consiglio/000134.html"  title="vai alla composizione del consiglio">
+                        <span >Composizione Consiglio</span></a>
+                </li>
+            </ul>
+                
+          <div id="etichetta_header">Elezioni amministrative<br /><span>16 Maggio 2010</span></div>
+          <div id="box_tipo_risultati_e_dati_andamento">
+            	<div id="tipo_risultati">Risultati ufficiosi</div>
+                <div id="dati_andamento">Ultima rilevazione: 18 maggio 2010 12:11</div>
+                <div class="stabilizzatore"></div>
+          </div>
+      </div>
+    </div>
+	<div id="content">
+
+
+
+ 
+
+
+
+
+
+<div id="container_sindaco">
+<div class="scritte_top">
+    <div id="sezioni">Sezioni rilevate: 9 su 9</div>
+</div>
+<table class="tabella_sindaco">
+  <tr class="intestazione_tabella">
+    <td colspan="7" class="borderless_orriz_top">Risultati Sindaco - Comune di Mori</td>
+   </tr>
+
+
+  <tr class="intestazione_colonna">
+    <td class="width_col_1">Candidato Sindaco</td>
+    <td colspan="6">Liste collegate</td>
+   </tr>
+   
+
+            <tr>
+                <td>ROBERTO  CALIARI</td>
+                <td class="align">
+                    <div class="voti">Voti: <strong>1843</strong>&nbsp;&nbsp;
+                     
+                        
+                        <span>
+                            di cui al solo sindaco: <strong>154</strong>
+                        </span>
+                        
+                    </div>
+                    <div class="box_percent_bar">
+                    
+                       <img src="../../img/percent_bar.jpg" width="70%" height="28" alt="Barra percentuale" class="percent_bar" align="middle"/>
+                   
+                        &nbsp;33,55%
+                    </div>
+                    <div class="box_img_liste">
+                   
+                    <img height='40' width='40' src='../../FotoSimboli/53/134/sim_1581.gif' align='middle' border='0'  alt='PARTITO DEMOCRATICO DEL TRENTINO' title='PARTITO DEMOCRATICO DEL TRENTINO' />
+                
+                    <img height='40' width='40' src='../../FotoSimboli/53/134/sim_1582.gif' align='middle' border='0'  alt='INSIEME CON ROBERTO CALIARI SINDACO' title='INSIEME CON ROBERTO CALIARI SINDACO' />
+                
+                    </div><!-- box_img_liste -->
+                </td>
+            </tr>
+    
+            <tr>
+                <td>SANDRO  TURELLA</td>
+                <td class="align">
+                    <div class="voti">Voti: <strong>1357</strong>&nbsp;&nbsp;
+                     
+                        
+                        <span>
+                            di cui al solo sindaco: <strong>159</strong>
+                        </span>
+                        
+                    </div>
+                    <div class="box_percent_bar">
+                    
+                       <img src="../../img/percent_bar.jpg" width="52%" height="28" alt="Barra percentuale" class="percent_bar" align="middle"/>
+                   
+                        &nbsp;24,70%
+                    </div>
+                    <div class="box_img_liste">
+                   
+                    <img height='40' width='40' src='../../FotoSimboli/53/134/sim_1585.gif' align='middle' border='0'  alt='PATT' title='PATT' />
+                
+                    <img height='40' width='40' src='../../FotoSimboli/53/134/sim_1588.gif' align='middle' border='0'  alt='UNIONE PER MORI' title='UNIONE PER MORI' />
+                
+                    <img height='40' width='40' src='../../FotoSimboli/53/134/sim_1586.gif' align='middle' border='0'  alt='UDC - AIT - UNITI PER MORI' title='UDC - AIT - UNITI PER MORI' />
+                
+                    <img height='40' width='40' src='../../FotoSimboli/53/134/sim_1587.gif' align='middle' border='0'  alt='IDEA MORI' title='IDEA MORI' />
+                
+                    </div><!-- box_img_liste -->
+                </td>
+            </tr>
+    
+            <tr>
+                <td>CLAUDIO  CIVETTINI</td>
+                <td class="align">
+                    <div class="voti">Voti: <strong>1276</strong>&nbsp;&nbsp;
+                     
+                        
+                        <span>
+                            di cui al solo sindaco: <strong>90</strong>
+                        </span>
+                        
+                    </div>
+                    <div class="box_percent_bar">
+                    
+                       <img src="../../img/percent_bar.jpg" width="48%" height="28" alt="Barra percentuale" class="percent_bar" align="middle"/>
+                   
+                        &nbsp;23,23%
+                    </div>
+                    <div class="box_img_liste">
+                   
+                    <img height='40' width='40' src='../../FotoSimboli/53/134/sim_1583.gif' align='middle' border='0'  alt='IL POPOLO DELLA LIBERTA ' title='IL POPOLO DELLA LIBERTA ' />
+                
+                    <img height='40' width='40' src='../../FotoSimboli/53/134/sim_1580.gif' align='middle' border='0'  alt='LEGA NORD TRENTINO' title='LEGA NORD TRENTINO' />
+                
+                    <img height='40' width='40' src='../../FotoSimboli/53/134/sim_1589.gif' align='middle' border='0'  alt='LISTA CIVICA VIVIMORI CON LE FRAZIONI' title='LISTA CIVICA VIVIMORI CON LE FRAZIONI' />
+                
+                    </div><!-- box_img_liste -->
+                </td>
+            </tr>
+    
+            <tr>
+                <td>MARIO  GURLINI</td>
+                <td class="align">
+                    <div class="voti">Voti: <strong>695</strong>&nbsp;&nbsp;
+                     
+                        
+                        <span>
+                            di cui al solo sindaco: <strong>40</strong>
+                        </span>
+                        
+                    </div>
+                    <div class="box_percent_bar">
+                    
+                       <img src="../../img/percent_bar.jpg" width="26%" height="28" alt="Barra percentuale" class="percent_bar" align="middle"/>
+                   
+                        &nbsp;12,65%
+                    </div>
+                    <div class="box_img_liste">
+                   
+                    <img height='40' width='40' src='../../FotoSimboli/53/134/sim_1579.gif' align='middle' border='0'  alt='CIVITAS MORI' title='CIVITAS MORI' />
+                
+                    </div><!-- box_img_liste -->
+                </td>
+            </tr>
+    
+            <tr>
+                <td>ELENA  BERTI</td>
+                <td class="align">
+                    <div class="voti">Voti: <strong>322</strong>&nbsp;&nbsp;
+                     
+                        
+                        <span>
+                            di cui al solo sindaco: <strong>15</strong>
+                        </span>
+                        
+                    </div>
+                    <div class="box_percent_bar">
+                    
+                       <img src="../../img/percent_bar.jpg" width="12%" height="28" alt="Barra percentuale" class="percent_bar" align="middle"/>
+                   
+                        &nbsp;5,86%
+                    </div>
+                    <div class="box_img_liste">
+                   
+                    <img height='40' width='40' src='../../FotoSimboli/53/134/sim_1584.gif' align='middle' border='0'  alt='PER LA NOSTRA TERRA - VERDI - SOCIETÀ E AMBIENTE' title='PER LA NOSTRA TERRA - VERDI - SOCIETÀ E AMBIENTE' />
+                
+                    </div><!-- box_img_liste -->
+                </td>
+            </tr>
+    
+    </table>
+    
+<table class="tabella_schede">
+    <tr class="intestazione_tabella">
+	<td class="width_col_1 borderless_orriz_top">
+	Schede bianche: 22
+	</td>
+	<td class="width_col_2 borderless_orriz_top">
+	Schede nulle: 78
+	</td>
+	<td class="width_col_3 borderless_orriz_top">
+	Schede contestate e non assegnate: 2
+	</td>
+    </tr>
+    <tr class="intestazione_colonna">
+	<td colspan="3">
+            <!--Totale votanti: 5.595 - -->Totale voti validi: 5.493
+        </td>
+    </tr>
+</table>
+
+</div> <!--CONTAINER SINDACO -->
+
+
+    </div>
+	<div id="footer">
+    	<div>Regione Autonoma Trentino Alto Adige - Ripartizione II Ufficio Elettorale - <a href="../../accessibilita.html" title="conformità del sito rispetto alla legge Stanca">Conformità del sito</a> delle elezioni della Regione Trentino Alto Adige rispetto alle linee guida della Legge N.4 9 gennaio 2004</div>
+    </div>
+</div>
+</body>
+</html>
+
+

@@ -1,0 +1,579 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="pragma" content="no-cache"/>
+<meta http-equiv="expires" content="0"/>
+<meta name="product" content="Ascot Web Elezioni"/>
+<meta name="copyright" content="Copyright &copy; 2010, Insiel Mercato S.p.A."/>
+<meta name="rights" content="All rights reserved"/>
+<meta name="author" content="Insiel Mercato S.p.A."/>
+<link rel="stylesheet" media="screen" href="../../css/frontend.css" />
+<title>Elezioni Amministrative Trentino Alto Adige - Risultati</title>
+<!--[if IE 6]>
+<link rel="stylesheet" media="screen" href="../../css/ie6.css" />
+<![endif]-->
+<!--[if IE 7]>
+<link rel="stylesheet" media="screen" href="../../css/ie7.css" />
+<![endif]-->
+<!--[if IE 8]>
+<link rel="stylesheet" media="screen" href="../../css/ie8.css" />
+<![endif]-->
+</head>
+
+<body>
+
+<div id="container">
+    <div id="header">
+    	<div id="intestazione">
+        	<div id="logo_elezioni">
+            	<a href="http://www.regione.taa.it/Elettorale/modulistica.aspx" target="_blank" title="vai al sito delle elezioni del Trentino Alto Adige"><img src="../../img/logo_elezioni.jpg" alt="Logo elezioni" /></a>
+            	<a href="http://www.regione.taa.it/" target="_blank" title="vai al sito del Trentino Alto Adige">Vai al sito</a>
+            </div>
+            <div id="box_tit">
+            	<div id="titolo">Regione autonoma <span class="enfasi">Trentino Alto Adige</span></div>
+                <div id="sottotitolo">Copyright Regione Autonoma Trentino-Alto Adige/Südtirol</div>
+        </div>
+            <div id="credits">Servizi realizzati da Informatica Trentina S.p.A. in collaborazione con <span>Insiel Mercato S.p.A.</span></div>
+            <div class="stabilizzatore"></div>
+        </div>
+    	<div id="element_header">
+            
+            <ul id="navigation">
+       	    	<li>
+                    
+                    <a href="../../index.html" title="vai alla home page">
+                        <span >Home</span></a>
+                    
+                </li>
+                <li  class="hidden">
+                    <a  href="000053_Com/Affluenza/index_A.html"  title="vai al riepilogo delle affluenze">
+                        <span >Riepilogo Affluenze</span></a>
+                </li>
+                <li  class="hidden">
+                    <a href="index.html"  title="vai al ballottaggio">
+                        <span>Ballottaggio</span></a>
+                </li>
+                <li >
+                    <a  href="../Candidature/000172.html"  title="vai alle candidature">
+                        <span >Candidature</span></a>
+                </li>
+                <li >
+                    <a  href="../Affluenza/000172.html"  title="vai all'affluenza">
+                        <span >Affluenza</span></a>
+                </li>
+                <li >
+                    <a  href="../Coalizioni/000172.html"  title="vai alla pagina del sindaco">
+                        <span >Sindaco</span></a>
+                </li>
+                <li >
+                    <a  href="000172.html"  title="vai alle liste">
+                        <span  id="selected" >Liste</span></a>
+                </li>
+                <li >
+                    <a  href="../Seggi/000172.html"  title="vai alla distribuzione dei seggi">
+                        <span >Distribuzione dei Seggi</span></a>
+                </li>
+                <li >
+                    <a  href="../Consiglio/000172.html"  title="vai alla composizione del consiglio">
+                        <span >Composizione Consiglio</span></a>
+                </li>
+            </ul>
+                
+          <div id="etichetta_header">Elezioni amministrative<br /><span>16 Maggio 2010</span></div>
+          <div id="box_tipo_risultati_e_dati_andamento">
+            	<div id="tipo_risultati">Risultati ufficiosi</div>
+                <div id="dati_andamento">Ultima rilevazione: 18 maggio 2010 12:11</div>
+                <div class="stabilizzatore"></div>
+          </div>
+      </div>
+    </div>
+	<div id="content">
+
+
+
+ 
+
+
+<div id="container_liste">
+<div class="scritte_top">
+    <div id="sezioni">Sezioni rilevate: 33 su 33</div>
+</div>
+<table class="intestazione">
+  <tr class="intestazione_tabella">
+    <td class="borderless_orriz_top borderless_orriz_bottom">Risultati di Lista - Comune di Rovereto</td>
+  </tr>
+</table>
+
+
+
+        <table class="tabella_liste">
+            <tr class="intestazione_colonna">
+                <td colspan="3">Risultati anno 2010</td>
+            </tr>
+            <tr>
+                <td>Liste</td>
+                <td colspan="2">Voti</td>
+            </tr>
+
+            <tr>
+                <td class="align space width_col_1">
+                    <img height="40" width="40" src="../../FotoSimboli/53/172/sim_1685.gif" title="PARTITO DEMOCRATICO DEL TRENTINO" alt="simbolo" align="left"/>
+                    PARTITO DEMOCRATICO DEL TRENTINO &nbsp;
+                    <br />
+                    
+                    <a href="000172_001685.html">Preferenze</a>
+                </td>
+                <td class="width_col_2">
+                    3.368
+               </td>
+               <td class="width_col_3 align">
+               
+                        <img src="../../img/percent_bar.jpg" width="19%" height="28" alt="Barra percentuale" class="percent_bar" align="middle" /> 19,20 %
+                    
+               </td>
+           </tr>
+
+            <tr>
+                <td class="align space width_col_1">
+                    <img height="40" width="40" src="../../FotoSimboli/53/172/sim_1674.gif" title="VALDUGA PER ROVERETO" alt="simbolo" align="left"/>
+                    VALDUGA PER ROVERETO &nbsp;
+                    <br />
+                    
+                    <a href="000172_001674.html">Preferenze</a>
+                </td>
+                <td class="width_col_2">
+                    3.283
+               </td>
+               <td class="width_col_3 align">
+               
+                        <img src="../../img/percent_bar.jpg" width="19%" height="28" alt="Barra percentuale" class="percent_bar" align="middle" /> 18,72 %
+                    
+               </td>
+           </tr>
+
+            <tr>
+                <td class="align space width_col_1">
+                    <img height="40" width="40" src="../../FotoSimboli/53/172/sim_1676.gif" title="IL POPOLO DELLA LIBERTA'" alt="simbolo" align="left"/>
+                    IL POPOLO DELLA LIBERTA' &nbsp;
+                    <br />
+                    
+                    <a href="000172_001676.html">Preferenze</a>
+                </td>
+                <td class="width_col_2">
+                    1.949
+               </td>
+               <td class="width_col_3 align">
+               
+                        <img src="../../img/percent_bar.jpg" width="11%" height="28" alt="Barra percentuale" class="percent_bar" align="middle" /> 11,11 %
+                    
+               </td>
+           </tr>
+
+            <tr>
+                <td class="align space width_col_1">
+                    <img height="40" width="40" src="../../FotoSimboli/53/172/sim_1680.gif" title="LEGA NORD TRENTINO" alt="simbolo" align="left"/>
+                    LEGA NORD TRENTINO &nbsp;
+                    <br />
+                    
+                    <a href="000172_001680.html">Preferenze</a>
+                </td>
+                <td class="width_col_2">
+                    1.593
+               </td>
+               <td class="width_col_3 align">
+               
+                        <img src="../../img/percent_bar.jpg" width="9%" height="28" alt="Barra percentuale" class="percent_bar" align="middle" /> 9,08 %
+                    
+               </td>
+           </tr>
+
+            <tr>
+                <td class="align space width_col_1">
+                    <img height="40" width="40" src="../../FotoSimboli/53/172/sim_1675.gif" title="CIVICA CON VALDUGA" alt="simbolo" align="left"/>
+                    CIVICA CON VALDUGA &nbsp;
+                    <br />
+                    
+                    <a href="000172_001675.html">Preferenze</a>
+                </td>
+                <td class="width_col_2">
+                    1.558
+               </td>
+               <td class="width_col_3 align">
+               
+                        <img src="../../img/percent_bar.jpg" width="9%" height="28" alt="Barra percentuale" class="percent_bar" align="middle" /> 8,88 %
+                    
+               </td>
+           </tr>
+
+            <tr>
+                <td class="align space width_col_1">
+                    <img height="40" width="40" src="../../FotoSimboli/53/172/sim_1683.gif" title="UNIONE PER ROVERETO" alt="simbolo" align="left"/>
+                    UNIONE PER ROVERETO &nbsp;
+                    <br />
+                    
+                    <a href="000172_001683.html">Preferenze</a>
+                </td>
+                <td class="width_col_2">
+                    1.046
+               </td>
+               <td class="width_col_3 align">
+               
+                        <img src="../../img/percent_bar.jpg" width="6%" height="28" alt="Barra percentuale" class="percent_bar" align="middle" /> 5,96 %
+                    
+               </td>
+           </tr>
+
+            <tr>
+                <td class="align space width_col_1">
+                    <img height="40" width="40" src="../../FotoSimboli/53/172/sim_1679.gif" title="ROVERETO VIVA - VERDI SOCIETA' E AMBIENTE" alt="simbolo" align="left"/>
+                    ROVERETO VIVA - VERDI SOCIETA' E AMBIENTE &nbsp;
+                    <br />
+                    
+                    <a href="000172_001679.html">Preferenze</a>
+                </td>
+                <td class="width_col_2">
+                    1.035
+               </td>
+               <td class="width_col_3 align">
+               
+                        <img src="../../img/percent_bar.jpg" width="6%" height="28" alt="Barra percentuale" class="percent_bar" align="middle" /> 5,90 %
+                    
+               </td>
+           </tr>
+
+            <tr>
+                <td class="align space width_col_1">
+                    <img height="40" width="40" src="../../FotoSimboli/53/172/sim_1686.gif" title="ROVERETO MERITA" alt="simbolo" align="left"/>
+                    ROVERETO MERITA &nbsp;
+                    <br />
+                    
+                    <a href="000172_001686.html">Preferenze</a>
+                </td>
+                <td class="width_col_2">
+                    715
+               </td>
+               <td class="width_col_3 align">
+               
+                        <img src="../../img/percent_bar.jpg" width="4%" height="28" alt="Barra percentuale" class="percent_bar" align="middle" /> 4,08 %
+                    
+               </td>
+           </tr>
+
+            <tr>
+                <td class="align space width_col_1">
+                    <img height="40" width="40" src="../../FotoSimboli/53/172/sim_1681.gif" title="PATT" alt="simbolo" align="left"/>
+                    PARTITO AUTONOMISTA TRENTINO TIROLESE &nbsp;
+                    <br />
+                    
+                    <a href="000172_001681.html">Preferenze</a>
+                </td>
+                <td class="width_col_2">
+                    706
+               </td>
+               <td class="width_col_3 align">
+               
+                        <img src="../../img/percent_bar.jpg" width="4%" height="28" alt="Barra percentuale" class="percent_bar" align="middle" /> 4,03 %
+                    
+               </td>
+           </tr>
+
+            <tr>
+                <td class="align space width_col_1">
+                    <img height="40" width="40" src="../../FotoSimboli/53/172/sim_1687.gif" title="MIORANDI AREA DI CENTRO" alt="simbolo" align="left"/>
+                    MIORANDI AREA DI CENTRO &nbsp;
+                    <br />
+                    
+                    <a href="000172_001687.html">Preferenze</a>
+                </td>
+                <td class="width_col_2">
+                    601
+               </td>
+               <td class="width_col_3 align">
+               
+                        <img src="../../img/percent_bar.jpg" width="3%" height="28" alt="Barra percentuale" class="percent_bar" align="middle" /> 3,43 %
+                    
+               </td>
+           </tr>
+
+            <tr>
+                <td class="align space width_col_1">
+                    <img height="40" width="40" src="../../FotoSimboli/53/172/sim_1677.gif" title="ROVERETO FUTURA - IL CENTRO CON VALDUGA" alt="simbolo" align="left"/>
+                    ROVERETO FUTURA - IL CENTRO CON VALDUGA &nbsp;
+                    <br />
+                    
+                    <a href="000172_001677.html">Preferenze</a>
+                </td>
+                <td class="width_col_2">
+                    534
+               </td>
+               <td class="width_col_3 align">
+               
+                        <img src="../../img/percent_bar.jpg" width="3%" height="28" alt="Barra percentuale" class="percent_bar" align="middle" /> 3,04 %
+                    
+               </td>
+           </tr>
+
+            <tr>
+                <td class="align space width_col_1">
+                    <img height="40" width="40" src="../../FotoSimboli/53/172/sim_1684.gif" title="DI PIETRO ITALIA DEI VALORI" alt="simbolo" align="left"/>
+                    DI PIETRO ITALIA DEI VALORI &nbsp;
+                    <br />
+                    
+                    <a href="000172_001684.html">Preferenze</a>
+                </td>
+                <td class="width_col_2">
+                    353
+               </td>
+               <td class="width_col_3 align">
+               
+                        <img src="../../img/percent_bar.jpg" width="2%" height="28" alt="Barra percentuale" class="percent_bar" align="middle" /> 2,01 %
+                    
+               </td>
+           </tr>
+
+            <tr>
+                <td class="align space width_col_1">
+                    <img height="40" width="40" src="../../FotoSimboli/53/172/sim_1688.gif" title="PIU' DEMOCRAZIA A ROVERETO" alt="simbolo" align="left"/>
+                    PIU' DEMOCRAZIA A ROVERETO &nbsp;
+                    <br />
+                    
+                    <a href="000172_001688.html">Preferenze</a>
+                </td>
+                <td class="width_col_2">
+                    316
+               </td>
+               <td class="width_col_3 align">
+               
+                        <img src="../../img/percent_bar.jpg" width="2%" height="28" alt="Barra percentuale" class="percent_bar" align="middle" /> 1,80 %
+                    
+               </td>
+           </tr>
+
+            <tr>
+                <td class="align space width_col_1">
+                    <img height="40" width="40" src="../../FotoSimboli/53/172/sim_1678.gif" title="RIFONDAZIONE COMUNISTI ITALIANI" alt="simbolo" align="left"/>
+                    RIFONDAZIONE COMUNISTI ITALIANI &nbsp;
+                    <br />
+                    
+                    <a href="000172_001678.html">Preferenze</a>
+                </td>
+                <td class="width_col_2">
+                    274
+               </td>
+               <td class="width_col_3 align">
+               
+                        <img src="../../img/percent_bar.jpg" width="2%" height="28" alt="Barra percentuale" class="percent_bar" align="middle" /> 1,56 %
+                    
+               </td>
+           </tr>
+
+            <tr>
+                <td class="align space width_col_1">
+                    <img height="40" width="40" src="../../FotoSimboli/53/172/sim_1682.gif" title="FIAMMA TRICOLORE - DESTRA SOCIALE" alt="simbolo" align="left"/>
+                    FIAMMA TRICOLORE - DESTRA SOCIALE &nbsp;
+                    <br />
+                    
+                    <a href="000172_001682.html">Preferenze</a>
+                </td>
+                <td class="width_col_2">
+                    209
+               </td>
+               <td class="width_col_3 align">
+               
+                        <img src="../../img/percent_bar.jpg" width="1%" height="28" alt="Barra percentuale" class="percent_bar" align="middle" /> 1,19 %
+                    
+               </td>
+           </tr>
+
+</table>
+<table class="tabella_elez_prec">
+    <tr>
+        <td colspan="2" class="intestazione_colonna elez_prec">Risultati elezioni precedenti</td>
+    </tr>
+    <tr>
+        <td class="width_col_4 elez_prec_liste">Liste</td>
+        <td class="width_col_5 elez_prec_voti">Voti %</td>
+    </tr>
+
+        <tr>
+            <td class="align elez_prec_liste">
+                
+             <img height="40" width="40" src="../../FotoSimboli/2005/022161rovereto_lista3.jpg" alt="simbolo" align="left"/>
+             VALDUGA PER ROVERETO
+            </td>
+            <td>16,98 %</td>
+        </tr>
+      
+        <tr>
+            <td class="align elez_prec_liste">
+                
+             <img height="40" width="40" src="../../FotoSimboli/2005/022161rovereto_lista8.jpg" alt="simbolo" align="left"/>
+             CIVICA PER IL GOVERNO DI ROVERETO
+            </td>
+            <td>15,84 %</td>
+        </tr>
+      
+        <tr>
+            <td class="align elez_prec_liste">
+                
+             <img height="40" width="40" src="../../FotoSimboli/2005/022161rovereto_lista4.jpg" alt="simbolo" align="left"/>
+             ROVERETO INSIEME
+            </td>
+            <td>13,83 %</td>
+        </tr>
+      
+        <tr>
+            <td class="align elez_prec_liste">
+                
+             <img height="40" width="40" src="../../FotoSimboli/2005/022161rovereto_lista14.jpg" alt="simbolo" align="left"/>
+             ALLEANZA NAZIONALE
+            </td>
+            <td>10,84 %</td>
+        </tr>
+      
+        <tr>
+            <td class="align elez_prec_liste">
+                
+             <img height="40" width="40" src="../../FotoSimboli/2005/022161rovereto_lista11.jpg" alt="simbolo" align="left"/>
+             FORZA ITALIA
+            </td>
+            <td>9,18 %</td>
+        </tr>
+      
+        <tr>
+            <td class="align elez_prec_liste">
+                
+             <img height="40" width="40" src="../../FotoSimboli/2005/022161rovereto_lista2.jpg" alt="simbolo" align="left"/>
+             DEMOCRATICI CON VALDUGA
+            </td>
+            <td>8,06 %</td>
+        </tr>
+      
+        <tr>
+            <td class="align elez_prec_liste">
+                
+             <img height="40" width="40" src="../../FotoSimboli/2005/022161rovereto_lista10.jpg" alt="simbolo" align="left"/>
+             VERDI PER L'ULIVO
+            </td>
+            <td>6,70 %</td>
+        </tr>
+      
+        <tr>
+            <td class="align elez_prec_liste">
+                
+             <img height="40" width="40" src="../../FotoSimboli/2005/022161rovereto_lista15.jpg" alt="simbolo" align="left"/>
+             AUTONOMISTI UNITI
+            </td>
+            <td>3,57 %</td>
+        </tr>
+      
+        <tr>
+            <td class="align elez_prec_liste">
+                
+             <img height="40" width="40" src="../../FotoSimboli/2005/022161rovereto_lista6.jpg" alt="simbolo" align="left"/>
+             LEGA NORD TRENTINO
+            </td>
+            <td>3,31 %</td>
+        </tr>
+      
+        <tr>
+            <td class="align elez_prec_liste">
+                
+             <img height="40" width="40" src="../../FotoSimboli/2005/022161rovereto_lista1.jpg" alt="simbolo" align="left"/>
+             COMUNISTI ITALIANI
+            </td>
+            <td>2,77 %</td>
+        </tr>
+      
+        <tr>
+            <td class="align elez_prec_liste">
+                
+             <img height="40" width="40" src="../../FotoSimboli/2005/022161rovereto_lista5.jpg" alt="simbolo" align="left"/>
+             UNITI PER LA CITTÀ
+            </td>
+            <td>2,58 %</td>
+        </tr>
+      
+        <tr>
+            <td class="align elez_prec_liste">
+                
+             <img height="40" width="40" src="../../FotoSimboli/2005/022161rovereto_lista7.jpg" alt="simbolo" align="left"/>
+             PARTITO COMUNISTA RIFONDAZIONE
+            </td>
+            <td>2,22 %</td>
+        </tr>
+      
+        <tr>
+            <td class="align elez_prec_liste">
+                
+             <img height="40" width="40" src="../../FotoSimboli/2005/022161rovereto_lista13.jpg" alt="simbolo" align="left"/>
+             AMBIENTE E SOCIETÀ
+            </td>
+            <td>1,79 %</td>
+        </tr>
+      
+        <tr>
+            <td class="align elez_prec_liste">
+                
+             <img height="40" width="40" src="../../FotoSimboli/2005/022161rovereto_lista12.jpg" alt="simbolo" align="left"/>
+             NUOVA RINASCITA
+            </td>
+            <td>1,20 %</td>
+        </tr>
+      
+        <tr>
+            <td class="align elez_prec_liste">
+                
+             <img height="40" width="40" src="../../FotoSimboli/2005/022161rovereto_lista9.jpg" alt="simbolo" align="left"/>
+             SU LA TESTA
+            </td>
+            <td>1,12 %</td>
+        </tr>
+      
+</table>
+
+<table class="tabella_schede">
+    <tr class="intestazione_tabella">
+	<td class="width_col_1 borderless_orriz_top">
+	Schede bianche: 216
+	</td>
+	<td class="width_col_2 borderless_orriz_top">
+	Schede nulle: 161
+	</td>
+	<td class="width_col_3 borderless_orriz_top">
+	Schede contestate e non assegnate: 0
+	</td>
+    </tr>
+    <tr class="intestazione_colonna">
+	<td colspan="3">
+            Totale voti validi: 17.540
+        </td>
+    </tr>
+</table>
+
+</div><!--CONTAINER LISTE -->
+
+    </div>
+	<div id="footer">
+    	<div>Regione Autonoma Trentino Alto Adige - Ripartizione II Ufficio Elettorale - <a href="../../accessibilita.html" title="conformità del sito rispetto alla legge Stanca">Conformità del sito</a> delle elezioni della Regione Trentino Alto Adige rispetto alle linee guida della Legge N.4 9 gennaio 2004</div>
+    </div>
+</div>
+</body>
+</html>
+

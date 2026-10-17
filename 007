@@ -1,0 +1,579 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="pragma" content="no-cache"/>
+<meta http-equiv="expires" content="0"/>
+<meta name="product" content="Ascot Web Elezioni"/>
+<meta name="copyright" content="Copyright &copy; 2010, Insiel Mercato S.p.A."/>
+<meta name="rights" content="All rights reserved"/>
+<meta name="author" content="Insiel Mercato S.p.A."/>
+<link rel="stylesheet" media="screen" href="../../css/frontend.css" />
+<title>Elezioni Amministrative Trentino Alto Adige - Risultati</title>
+<!--[if IE 6]>
+<link rel="stylesheet" media="screen" href="../../css/ie6.css" />
+<![endif]-->
+<!--[if IE 7]>
+<link rel="stylesheet" media="screen" href="../../css/ie7.css" />
+<![endif]-->
+<!--[if IE 8]>
+<link rel="stylesheet" media="screen" href="../../css/ie8.css" />
+<![endif]-->
+</head>
+
+<body>
+
+<div id="container">
+    <div id="header">
+    	<div id="intestazione">
+        	<div id="logo_elezioni">
+            	<a href="http://www.regione.taa.it/Elettorale/modulistica.aspx" target="_blank" title="vai al sito delle elezioni del Trentino Alto Adige"><img src="../../img/logo_elezioni.jpg" alt="Logo elezioni" /></a>
+            	<a href="http://www.regione.taa.it/" target="_blank" title="vai al sito del Trentino Alto Adige">Vai al sito</a>
+            </div>
+            <div id="box_tit">
+            	<div id="titolo">Regione autonoma <span class="enfasi">Trentino Alto Adige</span></div>
+                <div id="sottotitolo">Copyright Regione Autonoma Trentino-Alto Adige/Südtirol</div>
+        </div>
+            <div id="credits">Servizi realizzati da Informatica Trentina S.p.A. in collaborazione con <span>Insiel Mercato S.p.A.</span></div>
+            <div class="stabilizzatore"></div>
+        </div>
+    	<div id="element_header">
+            
+            <ul id="navigation">
+       	    	<li>
+                    
+                    <a href="../../index.html" title="vai alla home page">
+                        <span >Home</span></a>
+                    
+                </li>
+                <li  class="hidden">
+                    <a  href="000053_Com/Affluenza/index_A.html"  title="vai al riepilogo delle affluenze">
+                        <span >Riepilogo Affluenze</span></a>
+                </li>
+                <li  class="hidden">
+                    <a href="index.html"  title="vai al ballottaggio">
+                        <span>Ballottaggio</span></a>
+                </li>
+                <li >
+                    <a  href="../Candidature/000164.html"  title="vai alle candidature">
+                        <span >Candidature</span></a>
+                </li>
+                <li >
+                    <a  href="../Affluenza/000164.html"  title="vai all'affluenza">
+                        <span >Affluenza</span></a>
+                </li>
+                <li >
+                    <a  href="../Coalizioni/000164.html"  title="vai alla pagina del sindaco">
+                        <span >Sindaco</span></a>
+                </li>
+                <li >
+                    <a  href="000164.html"  title="vai alle liste">
+                        <span  id="selected" >Liste</span></a>
+                </li>
+                <li >
+                    <a  href="../Seggi/000164.html"  title="vai alla distribuzione dei seggi">
+                        <span >Distribuzione dei Seggi</span></a>
+                </li>
+                <li >
+                    <a  href="../Consiglio/000164.html"  title="vai alla composizione del consiglio">
+                        <span >Composizione Consiglio</span></a>
+                </li>
+            </ul>
+                
+          <div id="etichetta_header">Elezioni amministrative<br /><span>16 Maggio 2010</span></div>
+          <div id="box_tipo_risultati_e_dati_andamento">
+            	<div id="tipo_risultati">Risultati ufficiosi</div>
+                <div id="dati_andamento">Ultima rilevazione: 18 maggio 2010 12:11</div>
+                <div class="stabilizzatore"></div>
+          </div>
+      </div>
+    </div>
+	<div id="content">
+
+
+
+ 
+
+
+<div id="container_liste">
+<div class="scritte_top">
+    <div id="sezioni">Sezioni rilevate: 13 su 13</div>
+</div>
+<table class="intestazione">
+  <tr class="intestazione_tabella">
+    <td class="borderless_orriz_top borderless_orriz_bottom">Risultati di Lista - Comune di Riva del Garda</td>
+  </tr>
+</table>
+
+
+
+        <table class="tabella_liste">
+            <tr class="intestazione_colonna">
+                <td colspan="3">Risultati anno 2010</td>
+            </tr>
+            <tr>
+                <td>Liste</td>
+                <td colspan="2">Voti</td>
+            </tr>
+
+            <tr>
+                <td class="align space width_col_1">
+                    <img height="40" width="40" src="../../FotoSimboli/53/164/sim_1334.gif" title="PD" alt="simbolo" align="left"/>
+                    PARTITO DEMOCRATICO DEL TRENTINO &nbsp;
+                    <br />
+                    
+                    <a href="000164_001334.html">Preferenze</a>
+                </td>
+                <td class="width_col_2">
+                    1.614
+               </td>
+               <td class="width_col_3 align">
+               
+                        <img src="../../img/percent_bar.jpg" width="21%" height="28" alt="Barra percentuale" class="percent_bar" align="middle" /> 21,01 %
+                    
+               </td>
+           </tr>
+
+            <tr>
+                <td class="align space width_col_1">
+                    <img height="40" width="40" src="../../FotoSimboli/53/164/sim_1524.gif" title="PIETRO MATTEOTTI" alt="simbolo" align="left"/>
+                    PIETRO MATTEOTTI &nbsp;
+                    <br />
+                    
+                    <a href="000164_001524.html">Preferenze</a>
+                </td>
+                <td class="width_col_2">
+                    825
+               </td>
+               <td class="width_col_3 align">
+               
+                        <img src="../../img/percent_bar.jpg" width="11%" height="28" alt="Barra percentuale" class="percent_bar" align="middle" /> 10,74 %
+                    
+               </td>
+           </tr>
+
+            <tr>
+                <td class="align space width_col_1">
+                    <img height="40" width="40" src="../../FotoSimboli/53/164/sim_1384.gif" title="Unione per RIVA del GARDA" alt="simbolo" align="left"/>
+                    UNIONE PER RIVA DEL GARDA &nbsp;
+                    <br />
+                    
+                    <a href="000164_001384.html">Preferenze</a>
+                </td>
+                <td class="width_col_2">
+                    697
+               </td>
+               <td class="width_col_3 align">
+               
+                        <img src="../../img/percent_bar.jpg" width="9%" height="28" alt="Barra percentuale" class="percent_bar" align="middle" /> 9,07 %
+                    
+               </td>
+           </tr>
+
+            <tr>
+                <td class="align space width_col_1">
+                    <img height="40" width="40" src="../../FotoSimboli/53/164/sim_1443.gif" title="PROGETTO PER RIVA" alt="simbolo" align="left"/>
+                    PROGETTO PER RIVA &nbsp;
+                    <br />
+                    
+                    <a href="000164_001443.html">Preferenze</a>
+                </td>
+                <td class="width_col_2">
+                    663
+               </td>
+               <td class="width_col_3 align">
+               
+                        <img src="../../img/percent_bar.jpg" width="9%" height="28" alt="Barra percentuale" class="percent_bar" align="middle" /> 8,63 %
+                    
+               </td>
+           </tr>
+
+            <tr>
+                <td class="align space width_col_1">
+                    <img height="40" width="40" src="../../FotoSimboli/53/164/sim_1527.gif" title="IL POPOLO DELLA LIBERTA'" alt="simbolo" align="left"/>
+                    IL POPOLO DELLA LIBERTA' &nbsp;
+                    <br />
+                    
+                    <a href="000164_001527.html">Preferenze</a>
+                </td>
+                <td class="width_col_2">
+                    585
+               </td>
+               <td class="width_col_3 align">
+               
+                        <img src="../../img/percent_bar.jpg" width="8%" height="28" alt="Barra percentuale" class="percent_bar" align="middle" /> 7,62 %
+                    
+               </td>
+           </tr>
+
+            <tr>
+                <td class="align space width_col_1">
+                    <img height="40" width="40" src="../../FotoSimboli/53/164/sim_1306.gif" title="LEGA NORD" alt="simbolo" align="left"/>
+                    LEGA NORD &nbsp;
+                    <br />
+                    
+                    <a href="000164_001306.html">Preferenze</a>
+                </td>
+                <td class="width_col_2">
+                    529
+               </td>
+               <td class="width_col_3 align">
+               
+                        <img src="../../img/percent_bar.jpg" width="7%" height="28" alt="Barra percentuale" class="percent_bar" align="middle" /> 6,89 %
+                    
+               </td>
+           </tr>
+
+            <tr>
+                <td class="align space width_col_1">
+                    <img height="40" width="40" src="../../FotoSimboli/53/164/sim_1439.gif" title="UNIONE DI CENTRO" alt="simbolo" align="left"/>
+                    CASINI - LIBERTAS - UNIONE DI CENTRO &nbsp;
+                    <br />
+                    
+                    <a href="000164_001439.html">Preferenze</a>
+                </td>
+                <td class="width_col_2">
+                    525
+               </td>
+               <td class="width_col_3 align">
+               
+                        <img src="../../img/percent_bar.jpg" width="7%" height="28" alt="Barra percentuale" class="percent_bar" align="middle" /> 6,83 %
+                    
+               </td>
+           </tr>
+
+            <tr>
+                <td class="align space width_col_1">
+                    <img height="40" width="40" src="../../FotoSimboli/53/164/sim_1452.gif" title="PATT" alt="simbolo" align="left"/>
+                    PARTITO AUTONOMISTA TRENTINO TIROLESE &nbsp;
+                    <br />
+                    
+                    <a href="000164_001452.html">Preferenze</a>
+                </td>
+                <td class="width_col_2">
+                    481
+               </td>
+               <td class="width_col_3 align">
+               
+                        <img src="../../img/percent_bar.jpg" width="6%" height="28" alt="Barra percentuale" class="percent_bar" align="middle" /> 6,26 %
+                    
+               </td>
+           </tr>
+
+            <tr>
+                <td class="align space width_col_1">
+                    <img height="40" width="40" src="../../FotoSimboli/53/164/sim_1308.gif" title="VERDI" alt="simbolo" align="left"/>
+                    RIVA AMBIENTE VERDI  ECOLOGIA E SOCIETÀ &nbsp;
+                    <br />
+                    
+                    <a href="000164_001308.html">Preferenze</a>
+                </td>
+                <td class="width_col_2">
+                    427
+               </td>
+               <td class="width_col_3 align">
+               
+                        <img src="../../img/percent_bar.jpg" width="6%" height="28" alt="Barra percentuale" class="percent_bar" align="middle" /> 5,56 %
+                    
+               </td>
+           </tr>
+
+            <tr>
+                <td class="align space width_col_1">
+                    <img height="40" width="40" src="../../FotoSimboli/53/164/sim_1382.gif" title="CIVICA PER RIVA" alt="simbolo" align="left"/>
+                    CIVICA PER RIVA &nbsp;
+                    <br />
+                    
+                    <a href="000164_001382.html">Preferenze</a>
+                </td>
+                <td class="width_col_2">
+                    421
+               </td>
+               <td class="width_col_3 align">
+               
+                        <img src="../../img/percent_bar.jpg" width="5%" height="28" alt="Barra percentuale" class="percent_bar" align="middle" /> 5,48 %
+                    
+               </td>
+           </tr>
+
+            <tr>
+                <td class="align space width_col_1">
+                    <img height="40" width="40" src="../../FotoSimboli/53/164/sim_1319.gif" title="RIVANITA'" alt="simbolo" align="left"/>
+                    RIVANITA' &nbsp;
+                    <br />
+                    
+                    <a href="000164_001319.html">Preferenze</a>
+                </td>
+                <td class="width_col_2">
+                    351
+               </td>
+               <td class="width_col_3 align">
+               
+                        <img src="../../img/percent_bar.jpg" width="5%" height="28" alt="Barra percentuale" class="percent_bar" align="middle" /> 4,57 %
+                    
+               </td>
+           </tr>
+
+            <tr>
+                <td class="align space width_col_1">
+                    <img height="40" width="40" src="../../FotoSimboli/53/164/sim_1381.gif" title="DiPIETRO" alt="simbolo" align="left"/>
+                    DIPIETRO ITALIA DEI VALORI &nbsp;
+                    <br />
+                    
+                    <a href="000164_001381.html">Preferenze</a>
+                </td>
+                <td class="width_col_2">
+                    269
+               </td>
+               <td class="width_col_3 align">
+               
+                        <img src="../../img/percent_bar.jpg" width="4%" height="28" alt="Barra percentuale" class="percent_bar" align="middle" /> 3,50 %
+                    
+               </td>
+           </tr>
+
+            <tr>
+                <td class="align space width_col_1">
+                    <img height="40" width="40" src="../../FotoSimboli/53/164/sim_1307.gif" title="SINISTRA UNITA" alt="simbolo" align="left"/>
+                    SINISTRA UNITA &nbsp;
+                    <br />
+                    
+                    <a href="000164_001307.html">Preferenze</a>
+                </td>
+                <td class="width_col_2">
+                    227
+               </td>
+               <td class="width_col_3 align">
+               
+                        <img src="../../img/percent_bar.jpg" width="3%" height="28" alt="Barra percentuale" class="percent_bar" align="middle" /> 2,95 %
+                    
+               </td>
+           </tr>
+
+            <tr>
+                <td class="align space width_col_1">
+                    <img height="40" width="40" src="../../FotoSimboli/53/164/sim_1234.gif" title="FIAMMA TRICOLORE" alt="simbolo" align="left"/>
+                    FIAMMA TRICOLORE DESTRA SOCIALE &nbsp;
+                    <br />
+                    
+                    <a href="000164_001234.html">Preferenze</a>
+                </td>
+                <td class="width_col_2">
+                    68
+               </td>
+               <td class="width_col_3 align">
+               
+                        <img src="../../img/percent_bar.jpg" width="1%" height="28" alt="Barra percentuale" class="percent_bar" align="middle" /> 0,89 %
+                    
+               </td>
+           </tr>
+
+</table>
+<table class="tabella_elez_prec">
+    <tr>
+        <td colspan="2" class="intestazione_colonna elez_prec">Risultati elezioni precedenti</td>
+    </tr>
+    <tr>
+        <td class="width_col_4 elez_prec_liste">Liste</td>
+        <td class="width_col_5 elez_prec_voti">Voti %</td>
+    </tr>
+
+        <tr>
+            <td class="align elez_prec_liste">
+                
+             <img height="40" width="40" src="../../FotoSimboli/2005/022153rivadelgarda_lista7.jpg" alt="simbolo" align="left"/>
+             CIVICA MARGHERITA
+            </td>
+            <td>22,91 %</td>
+        </tr>
+      
+        <tr>
+            <td class="align elez_prec_liste">
+                
+             <img height="40" width="40" src="../../FotoSimboli/2005/022153rivadelgarda_lista17.jpg" alt="simbolo" align="left"/>
+             PIETRO MATTEOTTI
+            </td>
+            <td>12,24 %</td>
+        </tr>
+      
+        <tr>
+            <td class="align elez_prec_liste">
+                
+             <img height="40" width="40" src="../../FotoSimboli/2005/022153rivadelgarda_lista13.jpg" alt="simbolo" align="left"/>
+             DEMOCRATICI DI SINISTRA DEL TRENTINO PER L'ULIVO
+            </td>
+            <td>10,18 %</td>
+        </tr>
+      
+        <tr>
+            <td class="align elez_prec_liste">
+                
+             <img height="40" width="40" src="../../FotoSimboli/2005/022153rivadelgarda_lista5.jpg" alt="simbolo" align="left"/>
+             RIVA DOMANI
+            </td>
+            <td>7,79 %</td>
+        </tr>
+      
+        <tr>
+            <td class="align elez_prec_liste">
+                
+             <img height="40" width="40" src="../../FotoSimboli/2005/022153rivadelgarda_lista2.jpg" alt="simbolo" align="left"/>
+             PARTITO POPOLARE EUROPEO PROGETTO PER RIVA
+            </td>
+            <td>5,28 %</td>
+        </tr>
+      
+        <tr>
+            <td class="align elez_prec_liste">
+                
+             <img height="40" width="40" src="../../FotoSimboli/2005/022153rivadelgarda_lista6.jpg" alt="simbolo" align="left"/>
+             VERDI E DEMOCRATICI PER L'ULIVO
+            </td>
+            <td>5,06 %</td>
+        </tr>
+      
+        <tr>
+            <td class="align elez_prec_liste">
+                
+             <img height="40" width="40" src="../../FotoSimboli/2005/022153rivadelgarda_lista12.jpg" alt="simbolo" align="left"/>
+             L'ORA E RIFONDAZIONE COMUNISTA
+            </td>
+            <td>4,99 %</td>
+        </tr>
+      
+        <tr>
+            <td class="align elez_prec_liste">
+                
+             <img height="40" width="40" src="../../FotoSimboli/2005/022153rivadelgarda_lista10.jpg" alt="simbolo" align="left"/>
+             RIVA AL CENTRO
+            </td>
+            <td>4,74 %</td>
+        </tr>
+      
+        <tr>
+            <td class="align elez_prec_liste">
+                
+             <img height="40" width="40" src="../../FotoSimboli/2005/022153rivadelgarda_lista14.jpg" alt="simbolo" align="left"/>
+             UNITI PER RIVA
+            </td>
+            <td>4,45 %</td>
+        </tr>
+      
+        <tr>
+            <td class="align elez_prec_liste">
+                
+             <img height="40" width="40" src="../../FotoSimboli/2005/022153rivadelgarda_lista9.jpg" alt="simbolo" align="left"/>
+             ALLEANZA NAZIONALE
+            </td>
+            <td>4,44 %</td>
+        </tr>
+      
+        <tr>
+            <td class="align elez_prec_liste">
+                
+             <img height="40" width="40" src="../../FotoSimboli/2005/022153rivadelgarda_lista4.jpg" alt="simbolo" align="left"/>
+             COMUNISTI ITALIANI PER LA SINISTRA
+            </td>
+            <td>3,67 %</td>
+        </tr>
+      
+        <tr>
+            <td class="align elez_prec_liste">
+                
+             <img height="40" width="40" src="../../FotoSimboli/2005/022153rivadelgarda_lista3.jpg" alt="simbolo" align="left"/>
+             COMUNITÀ RIVANA AL SERVIZIO DEI CITTADINI
+            </td>
+            <td>3,21 %</td>
+        </tr>
+      
+        <tr>
+            <td class="align elez_prec_liste">
+                
+             <img height="40" width="40" src="../../FotoSimboli/2005/022153rivadelgarda_lista8.jpg" alt="simbolo" align="left"/>
+             AUTONOMISTI
+            </td>
+            <td>3,10 %</td>
+        </tr>
+      
+        <tr>
+            <td class="align elez_prec_liste">
+                
+             <img height="40" width="40" src="../../FotoSimboli/2005/022153rivadelgarda_lista11.jpg" alt="simbolo" align="left"/>
+             RIVA AMBIENTE
+            </td>
+            <td>2,76 %</td>
+        </tr>
+      
+        <tr>
+            <td class="align elez_prec_liste">
+                
+             <img height="40" width="40" src="../../FotoSimboli/2005/022153rivadelgarda_lista1.jpg" alt="simbolo" align="left"/>
+             RIVANITÀ
+            </td>
+            <td>2,72 %</td>
+        </tr>
+      
+        <tr>
+            <td class="align elez_prec_liste">
+                
+             <img height="40" width="40" src="../../FotoSimboli/2005/022153rivadelgarda_lista15.jpg" alt="simbolo" align="left"/>
+             LISTA CIVICA RIVA DEL GARDA
+            </td>
+            <td>1,30 %</td>
+        </tr>
+      
+        <tr>
+            <td class="align elez_prec_liste">
+                
+             <img height="40" width="40" src="../../FotoSimboli/2005/022153rivadelgarda_lista16.jpg" alt="simbolo" align="left"/>
+             LA NOSTRA CITTÀ RIVA NEL CUORE
+            </td>
+            <td>1,18 %</td>
+        </tr>
+      
+</table>
+
+<table class="tabella_schede">
+    <tr class="intestazione_tabella">
+	<td class="width_col_1 borderless_orriz_top">
+	Schede bianche: 68
+	</td>
+	<td class="width_col_2 borderless_orriz_top">
+	Schede nulle: 141
+	</td>
+	<td class="width_col_3 borderless_orriz_top">
+	Schede contestate e non assegnate: 0
+	</td>
+    </tr>
+    <tr class="intestazione_colonna">
+	<td colspan="3">
+            Totale voti validi: 7.682
+        </td>
+    </tr>
+</table>
+
+</div><!--CONTAINER LISTE -->
+
+    </div>
+	<div id="footer">
+    	<div>Regione Autonoma Trentino Alto Adige - Ripartizione II Ufficio Elettorale - <a href="../../accessibilita.html" title="conformità del sito rispetto alla legge Stanca">Conformità del sito</a> delle elezioni della Regione Trentino Alto Adige rispetto alle linee guida della Legge N.4 9 gennaio 2004</div>
+    </div>
+</div>
+</body>
+</html>
+

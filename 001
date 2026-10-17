@@ -1,0 +1,297 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="pragma" content="no-cache" />
+<meta http-equiv="expires" content="0" />
+<meta name="product" content="AscotWeb Elezioni" />
+<meta name="copyright" content="Copyright &copy; 2009, Insiel Mercato S.p.A." />
+<meta name="rights" content="All rights reserved" />
+<meta name="author" content="Insiel Mercato S.p.A." />
+<title>Elezioni Amministrative - Provincia autonoma di Trento</title>
+<link rel="stylesheet" href="../../css/ammTN2009.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../../css/ammTN2009-stampa.css" type="text/css" media="print" />
+
+</head>
+
+
+
+
+
+
+
+
+
+
+
+<body>
+<div id="container">
+
+	
+<div id="top">
+	<div id="contenitoreTop">
+		<div class="sx"><a href="http://www.regione.taa.it/" title="Vai al sito della Regione Autonoma Trentino-Alto Adige/S&uuml;dtirol"><img src="../../img/logo_regione.gif" class="sx" alt="Regione Autonoma Trentino-Alto Adige/S&uuml;dtirol"/></a></div>
+		<div class="centro">
+			<h1>elezioni amministrative <span> - 3 maggio 2009 </span></h1>
+			<h2>REGIONE AUTONOMA TRENTINO-ALTO ADIGE</h2>
+		</div>
+		<div class="dx"><a href="http://www.regione.taa.it/" title="Vai al sito della Regione Autonoma Trentino-Alto Adige/S&uuml;dtirol"><img src="../../img/logo_regione.gif" alt="Regione Autonoma Trentino-Alto Adige/S&uuml;dtirol" class="dx" /></a></div>
+	</div>
+</div>
+
+
+	<div id="menuorizzontale">
+		
+
+
+
+<script type="text/javascript">
+<!--
+function cambiaPagina(form, valore)
+{
+	if (valore != 0)
+	{
+		if (location.href.indexOf("Affluenza/", 0) >= 0)
+			form.action = "022.html";
+		else
+			form.action = valore + ".html";
+		form.submit();
+	}
+}
+
+function impostaLista(nomeForm, nomeCampo, valore)
+{
+	var list = eval("document." + nomeForm + "." + nomeCampo);
+	if (list != undefined)
+	{
+		for (var i = 0; i < list.options.length; ++i)
+		{
+			if (list.options[i].value == valore)
+			{
+				list.selectedIndex = i;
+			}
+		}
+	}
+}
+
+function impostaListe()
+{
+	if (location.search.length > 1)
+	{
+		var a = location.search.substr(1).split("&");
+		var b;
+		for (var i = 0; i < a.length; i++)
+		{
+			b = a[i].split("=");
+			impostaLista("frmMenu", b[0], b[1]);
+			if (b[0] == "Comune")
+				cambiaComune(null, b[1]);
+		}
+	}
+}
+
+function cambiaComune(form, valore)
+{
+	if (valore != 0)
+	{
+		var pref = "..";
+		document.getElementById("urlCandidature").href = pref + "/Candidature/" + valore + ".html?Comune=" + valore;
+		document.getElementById("urlAffluenza").href = pref + "/Affluenza/022.html?Comune=" + valore;
+		document.getElementById("urlSindaco").href = pref + "/Coalizioni/" + valore + ".html?Comune=" + valore;
+		document.getElementById("urlListe").href = pref + "/Liste/" + valore + ".html?Comune=" + valore;
+		document.getElementById("urlSeggi").href = pref + "/Seggi/" + valore + ".html?Comune=" + valore;
+		document.getElementById("urlConsiglio").href = pref + "/Consiglio/" + valore + ".html?Comune=" + valore;
+	}
+}
+
+window.onload=impostaListe;
+//-->
+</script>
+<form name="frmMenu" action="#">
+
+
+	<script type="text/javascript" language="javascript" charset="UTF-8">
+	<!--
+	document.write('<label for="Comune">Scegliere &raquo;<\/label> ');
+	document.write('<select name="Comune" id="Comune" class="form" onchange="cambiaPagina(form, value);">');
+	document.write('<option value="0">Comune<\/option>'); 
+		document.write("<option value=\"000072\">Civezzano<\/option>"); 
+		document.write("<option value=\"000098\">Folgaria<\/option>"); 
+		document.write("<option value=\"000128\">Mezzolombardo<\/option>"); 
+		document.write("<option value=\"000150\">Pergine Valsugana<\/option>"); 
+		document.write("<option value=\"000161\">Rabbi<\/option>"); 
+		document.write("<option value=\"000216\">Trento<\/option>"); 
+	document.write('<\/select>');
+	//-->
+	</script>
+
+	<noscript>
+	Scegliere Comune &raquo;
+	<ul class="inlinea"> 
+		<li><a href="000072.html" class="barra"><strong>Civezzano</strong></a></li> 
+		<li><a href="000098.html" class="barra"><strong>Folgaria</strong></a></li> 
+		<li><a href="000128.html" class="barra"><strong>Mezzolombardo</strong></a></li> 
+		<li><a href="000150.html" class="barra"><strong>Pergine Valsugana</strong></a></li> 
+		<li><a href="000161.html" class="barra"><strong>Rabbi</strong></a></li> 
+		<li><a href="000216.html" class="barra"><strong>Trento</strong></a></li> 
+	</ul>
+	</noscript>
+
+</form>
+
+		
+
+<div id="linkorizzontale">
+	<ul> 
+		<li><a href='../Candidature/000150.html?Comune=000150' id="urlCandidature" title="Vai a: candidature">candidature</a></li>
+		<li><a href='../Affluenza/022.html?Comune=000150' id="urlAffluenza" title="Vai a: affluenza">affluenza</a></li>
+		<li><a href='000150.html?Comune=000150' class='attiva' id="urlSindaco" title="Vai a: sindaco">sindaco</a></li>
+		<li><a href='../Liste/000150.html?Comune=000150' id="urlListe" title="Vai a: liste e preferenze">liste e preferenze</a></li>
+		<li><a href='../Seggi/000150.html?Comune=000150' id="urlSeggi" title="Vai a: distribuzione dei seggi">distribuzione dei seggi</a></li>
+		<li><a href='../Consiglio/000150.html?Comune=000150' id="urlConsiglio" title="Vai a: composizione consiglio">composizione consiglio</a></li> 
+	</ul>
+</div>
+
+	</div>
+	<div id="contenutorisultati">
+		<div class="risultati">Risultati ufficiosi</div>
+		
+				<div id="pdf">
+					<p><a href="000150.pdf" target="_blank"><img src="../../img/acrobat.gif" width="20" height="20" alt="logo Adobe PDF" /></a>Dettaglio per Sezione<br />(aggiornato ogni 30 min.)</p>
+				</div>
+				<div id="elencoSezioni">
+					<a href="C_000150.html?Comune=000150"><b>Dettaglio per Sezione</b></a>
+				</div> 
+		<div class="risultatidestra">
+			 Ultima rilevazione: 8 maggio 2009 9:10<br />
+			Sezioni rilevate: 21 su 21<br />
+			Totale voti validi: 10.490
+		</div>
+	</div>
+
+	<div class="titoloscheda">RISULTATI SINDACO - COMUNE DI PERGINE VALSUGANA</div>
+
+		
+		<div class="titoloscuro">
+			<div class="titolosinistra">candidato sindaco</div>
+			<div class="titolodestra">voti/liste collegate</div>
+		</div>
+		<div id="contenitoreSchede">
+			
+			
+
+			<!-- INIZIO -->
+			<div class="contenutocandidati">
+				<div class="candidato"><img src="../../FotoSimboli/1/../../FotoSimboli/25/150/foto_465.gif"  alt="" /><br />
+				<strong>SILVANO  CORRADI</strong></div>
+				<div class="voti">
+				<div class="voticandidato">&nbsp;<b>5.869</b><br />
+						<img src="../../img/perc.gif" alt="" width="70%" height="36" />
+				55,95%</div>
+				<div class="simbolicandidato">
+					<a href="../Liste/000150_000766.html?Comune=000150" title="Preferenze COMUNE DI PERGINE VALSUGANA - UNIONE PER IL TRENTINO PERGINE VALSUGANA"><img src="../../FotoSimboli/25/150/sim_766.gif" alt="UNIONE PER IL TRENTINO PERGINE VALSUGANA" width="40" height="40" border="0"/></a>
+				<a href="../Liste/000150_000767.html?Comune=000150" title="Preferenze COMUNE DI PERGINE VALSUGANA - CASINI LIBERTAS UNIONE DI CENTRO"><img src="../../FotoSimboli/25/150/sim_767.gif" alt="CASINI LIBERTAS UNIONE DI CENTRO" width="40" height="40" border="0"/></a>
+				<a href="../Liste/000150_000770.html?Comune=000150" title="Preferenze COMUNE DI PERGINE VALSUGANA - PATT STELLE ALPINE"><img src="../../FotoSimboli/25/150/sim_770.gif" alt="PATT STELLE ALPINE" width="40" height="40" border="0"/></a>
+				<a href="../Liste/000150_000771.html?Comune=000150" title="Preferenze COMUNE DI PERGINE VALSUGANA - PARTITO DEMOCRATICO DEL TRENTINO"><img src="../../FotoSimboli/25/150/sim_771.gif" alt="PARTITO DEMOCRATICO DEL TRENTINO" width="40" height="40" border="0"/></a>
+				<a href="../Liste/000150_000772.html?Comune=000150" title="Preferenze COMUNE DI PERGINE VALSUGANA - UNIONE SOCIALISTA AUTONOMISTA PERGINE 2009 PSE"><img src="../../FotoSimboli/25/150/sim_772.gif" alt="UNIONE SOCIALISTA AUTONOMISTA PERGINE 2009 PSE" width="40" height="40" border="0"/></a>
+				<a href="../Liste/000150_000775.html?Comune=000150" title="Preferenze COMUNE DI PERGINE VALSUGANA - VERDI E DEMOCRATICI DI PERGINE"><img src="../../FotoSimboli/25/150/sim_775.gif" alt="VERDI E DEMOCRATICI DI PERGINE" width="40" height="40" border="0"/></a>
+				
+				</div><div class="separa"></div>
+				</div><div class="separa"></div>
+			</div><div class="separa"></div> 
+
+			<!-- INIZIO -->
+			<div class="contenutocandidati">
+				<div class="candidato"><img src="../../FotoSimboli/1/../../FotoSimboli/25/150/foto_470.gif"  alt="" /><br />
+				<strong>DIEGO  PINTARELLI</strong></div>
+				<div class="voti">
+				<div class="voticandidato">&nbsp;<b>2.153</b><br />
+						<img src="../../img/perc.gif" alt="" width="26%" height="36" />
+				20,52%</div>
+				<div class="simbolicandidato">
+					<a href="../Liste/000150_000774.html?Comune=000150" title="Preferenze COMUNE DI PERGINE VALSUGANA - ALTERNATIVA PER PERGINE"><img src="../../FotoSimboli/25/150/sim_774.gif" alt="ALTERNATIVA PER PERGINE" width="40" height="40" border="0"/></a>
+				
+				</div><div class="separa"></div>
+				</div><div class="separa"></div>
+			</div><div class="separa"></div> 
+
+			<!-- INIZIO -->
+			<div class="contenutocandidati">
+				<div class="candidato"><img src="../../FotoSimboli/1/../../FotoSimboli/25/150/foto_467.gif"  alt="" /><br />
+				<strong>DANIELA  CASAGRANDE</strong></div>
+				<div class="voti">
+				<div class="voticandidato">&nbsp;<b>1.132</b><br />
+						<img src="../../img/perc.gif" alt="" width="14%" height="36" />
+				10,79%</div>
+				<div class="simbolicandidato">
+					<a href="../Liste/000150_000764.html?Comune=000150" title="Preferenze COMUNE DI PERGINE VALSUGANA - CIVICA PER PERGINE"><img src="../../FotoSimboli/25/150/sim_764.gif" alt="CIVICA PER PERGINE" width="40" height="40" border="0"/></a>
+				
+				</div><div class="separa"></div>
+				</div><div class="separa"></div>
+			</div><div class="separa"></div> 
+
+			<!-- INIZIO -->
+			<div class="contenutocandidati">
+				<div class="candidato"><img src="../../FotoSimboli/1/../../FotoSimboli/25/150/foto_466.gif"  alt="" /><br />
+				<strong>DONATA  SOPPELSA</strong></div>
+				<div class="voti">
+				<div class="voticandidato">&nbsp;<b>734</b><br />
+						<img src="../../img/perc.gif" alt="" width="9%" height="36" />
+				7,00%</div>
+				<div class="simbolicandidato">
+					<a href="../Liste/000150_000765.html?Comune=000150" title="Preferenze COMUNE DI PERGINE VALSUGANA - LEGA NORD TRENTINO"><img src="../../FotoSimboli/25/150/sim_765.gif" alt="LEGA NORD TRENTINO" width="40" height="40" border="0"/></a>
+				<a href="../Liste/000150_000773.html?Comune=000150" title="Preferenze COMUNE DI PERGINE VALSUGANA - PERGINE E FRAZIONI CON NOI"><img src="../../FotoSimboli/25/150/sim_773.gif" alt="PERGINE E FRAZIONI CON NOI" width="40" height="40" border="0"/></a>
+				
+				</div><div class="separa"></div>
+				</div><div class="separa"></div>
+			</div><div class="separa"></div> 
+
+			<!-- INIZIO -->
+			<div class="contenutocandidati">
+				<div class="candidato"><img src="../../FotoSimboli/1/../../FotoSimboli/25/150/foto_468.gif"  alt="" /><br />
+				<strong>MICHELE  FABBRO</strong></div>
+				<div class="voti">
+				<div class="voticandidato">&nbsp;<b>320</b><br />
+						<img src="../../img/perc.gif" alt="" width="4%" height="36" />
+				3,05%</div>
+				<div class="simbolicandidato">
+					<a href="../Liste/000150_000768.html?Comune=000150" title="Preferenze COMUNE DI PERGINE VALSUGANA - PERGINE ATTIVA LISTA CIVICA"><img src="../../FotoSimboli/25/150/sim_768.gif" alt="PERGINE ATTIVA LISTA CIVICA" width="40" height="40" border="0"/></a>
+				
+				</div><div class="separa"></div>
+				</div><div class="separa"></div>
+			</div><div class="separa"></div> 
+
+			<!-- INIZIO -->
+			<div class="contenutocandidati">
+				<div class="candidato"><img src="../../FotoSimboli/1/../../FotoSimboli/25/150/foto_469.gif"  alt="" /><br />
+				<strong>PAOLO  VITTI</strong></div>
+				<div class="voti">
+				<div class="voticandidato">&nbsp;<b>282</b><br />
+						<img src="../../img/perc.gif" alt="" width="3%" height="36" />
+				2,69%</div>
+				<div class="simbolicandidato">
+					<a href="../Liste/000150_000769.html?Comune=000150" title="Preferenze COMUNE DI PERGINE VALSUGANA - SINISTRA EUROPEA RIFONDAZIONE PARTITO COMUNISTA"><img src="../../FotoSimboli/25/150/sim_769.gif" alt="SINISTRA EUROPEA RIFONDAZIONE PARTITO COMUNISTA" width="40" height="40" border="0"/></a>
+				
+				</div><div class="separa"></div>
+				</div><div class="separa"></div>
+			</div><div class="separa"></div> 
+		<table class="votifine" summary="Riepilogo voti">
+			<tr>
+				<td>Schede Bianche: 65</td>
+				<td>Schede Nulle: 254</td>
+				
+				<td>Voti Contestati e non attribuiti: 0</td>
+			</tr> 
+			<tr><td colspan="3">Totale Voti: 10.809</td></tr>
+		</table>
+		</div>
+
+</div>
+
+<div id="footer">
+Copyright <b>Regione Autonoma Trentino-Alto Adige/S&uuml;dtirol</b> -
+servizi realizzati da <b>Informatica Trentina SpA</b> in collaborazione con <b>Insiel SpA</b>
+</div>
+
+</body>
+</html>

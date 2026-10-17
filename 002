@@ -1,0 +1,289 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="pragma" content="no-cache"/>
+<meta http-equiv="expires" content="0"/>
+<meta name="product" content="Ascot Web Elezioni"/>
+<meta name="copyright" content="Copyright &copy; 2010, Insiel Mercato S.p.A."/>
+<meta name="rights" content="All rights reserved"/>
+<meta name="author" content="Insiel Mercato S.p.A."/>
+<link rel="stylesheet" media="screen" href="../../css/frontend.css" />
+<title>Elezioni Amministrative Trentino Alto Adige - Presidente</title>
+<!--[if IE 6]>
+<link rel="stylesheet" media="screen" href="../../css/ie6.css" />
+<![endif]-->
+<!--[if IE 7]>
+<link rel="stylesheet" media="screen" href="../../css/ie7.css" />
+<![endif]-->
+<!--[if IE 8]>
+<link rel="stylesheet" media="screen" href="../../css/ie8.css" />
+<![endif]-->
+</head>
+
+<body>
+
+<div id="container">
+    <div id="header">
+    	<div id="intestazione">
+        	<div id="logo_elezioni">
+            	<a href="http://www.regione.taa.it/Elettorale/modulistica.aspx" target="_blank" title="vai al sito delle elezioni del Trentino Alto Adige"><img src="../../img/logo_elezioni.jpg" alt="Logo elezioni" /></a>
+            	<a href="http://www.regione.taa.it/" target="_blank" title="vai al sito del Trentino Alto Adige">Vai al sito</a>
+            </div>
+            <div id="box_tit">
+            	<div id="titolo">Regione autonoma <span class="enfasi">Trentino Alto Adige</span></div>
+                <div id="sottotitolo">Copyright Regione Autonoma Trentino-Alto Adige/Südtirol</div>
+        </div>
+            <div id="credits">Servizi realizzati da Informatica Trentina S.p.A. in collaborazione con <span>Insiel Mercato S.p.A.</span></div>
+            <div class="stabilizzatore"></div>
+        </div>
+    	<div id="element_header">
+            
+            <ul id="navigation">
+       	    	<li>
+                    
+                    <a href="../../index.html" title="vai alla home page">
+                        <span >Home</span></a>
+                    
+                </li>
+                <li  class="hidden">
+                    <a  href="000053_Com/Affluenza/index_A.html"  title="vai al riepilogo delle affluenze">
+                        <span >Riepilogo Affluenze</span></a>
+                </li>
+                <li  class="hidden">
+                    <a href="index.html"  title="vai al ballottaggio">
+                        <span>Ballottaggio</span></a>
+                </li>
+                <li >
+                    <a  href="../Candidature/000020.html"  title="vai alle candidature">
+                        <span >Candidature</span></a>
+                </li>
+                <li >
+                    <a  href="../Affluenza/000020.html"  title="vai all'affluenza">
+                        <span >Affluenza</span></a>
+                </li>
+                <li >
+                    <a  href="000020.html"  title="vai alla pagina del sindaco">
+                        <span  id="selected" >Sindaco</span></a>
+                </li>
+                <li >
+                    <a  href="../Liste/000020.html"  title="vai alle liste">
+                        <span >Liste</span></a>
+                </li>
+                <li >
+                    <a  href="../Seggi/000020.html"  title="vai alla distribuzione dei seggi">
+                        <span >Distribuzione dei Seggi</span></a>
+                </li>
+                <li >
+                    <a  href="../Consiglio/000020.html"  title="vai alla composizione del consiglio">
+                        <span >Composizione Consiglio</span></a>
+                </li>
+            </ul>
+                
+          <div id="etichetta_header">Elezioni amministrative<br /><span>16 Maggio 2010</span></div>
+          <div id="box_tipo_risultati_e_dati_andamento">
+            	<div id="tipo_risultati">Risultati ufficiosi</div>
+                <div id="dati_andamento">Ultima rilevazione: 18 maggio 2010 12:11</div>
+                <div class="stabilizzatore"></div>
+          </div>
+      </div>
+    </div>
+	<div id="content">
+
+
+
+ 
+
+
+
+
+
+<div id="container_sindaco">
+<div class="scritte_top">
+    <div id="sezioni">Sezioni rilevate: 12 su 12</div>
+</div>
+<table class="tabella_sindaco">
+  <tr class="intestazione_tabella">
+    <td colspan="7" class="borderless_orriz_top">Risultati Sindaco - Comune di Arco</td>
+   </tr>
+
+
+  <tr class="intestazione_colonna">
+    <td class="width_col_1">Candidato Sindaco</td>
+    <td colspan="6">Liste collegate</td>
+   </tr>
+   
+
+            <tr>
+                <td>MARIO  MORANDINI</td>
+                <td class="align">
+                    <div class="voti">Voti: <strong>3938</strong>&nbsp;&nbsp;
+                     
+                        
+                        <span>
+                            di cui al solo sindaco: <strong>174</strong>
+                        </span>
+                        
+                    </div>
+                    <div class="box_percent_bar">
+                    
+                       <img src="../../img/percent_bar.jpg" width="70%" height="28" alt="Barra percentuale" class="percent_bar" align="middle"/>
+                   
+                        &nbsp;41,70%
+                    </div>
+                    <div class="box_img_liste">
+                   
+                    <img height='40' width='40' src='../../FotoSimboli/53/20/sim_1575.gif' align='middle' border='0'  alt='UPT' title='UPT' />
+                
+                    <img height='40' width='40' src='../../FotoSimboli/53/20/sim_1160.gif' align='middle' border='0'  alt='ARCO CAPRONI' title='ARCO CAPRONI' />
+                
+                    <img height='40' width='40' src='../../FotoSimboli/53/20/sim_1171.gif' align='middle' border='0'  alt='PATT' title='PATT' />
+                
+                    <img height='40' width='40' src='../../FotoSimboli/53/20/sim_1577.gif' align='middle' border='0'  alt='SAN GIORGIO' title='SAN GIORGIO' />
+                
+                    <img height='40' width='40' src='../../FotoSimboli/53/20/sim_1323.gif' align='middle' border='0'  alt='ARCO UDC' title='ARCO UDC' />
+                
+                    <img height='40' width='40' src='../../FotoSimboli/53/20/sim_1170.gif' align='middle' border='0'  alt='ARCO +' title='ARCO +' />
+                
+                    </div><!-- box_img_liste -->
+                </td>
+            </tr>
+    
+            <tr>
+                <td>PAOLO  MATTEI</td>
+                <td class="align">
+                    <div class="voti">Voti: <strong>3418</strong>&nbsp;&nbsp;
+                     
+                        
+                        <span>
+                            di cui al solo sindaco: <strong>164</strong>
+                        </span>
+                        
+                    </div>
+                    <div class="box_percent_bar">
+                    
+                       <img src="../../img/percent_bar.jpg" width="61%" height="28" alt="Barra percentuale" class="percent_bar" align="middle"/>
+                   
+                        &nbsp;36,19%
+                    </div>
+                    <div class="box_img_liste">
+                   
+                    <img height='40' width='40' src='../../FotoSimboli/53/20/sim_1233.gif' align='middle' border='0'  alt='SINISTRA UNITA' title='SINISTRA UNITA' />
+                
+                    <img height='40' width='40' src='../../FotoSimboli/53/20/sim_1574.gif' align='middle' border='0'  alt='CON MATTEI' title='CON MATTEI' />
+                
+                    <img height='40' width='40' src='../../FotoSimboli/53/20/sim_1292.gif' align='middle' border='0'  alt='ARCO INSIEME' title='ARCO INSIEME' />
+                
+                    <img height='40' width='40' src='../../FotoSimboli/53/20/sim_1324.gif' align='middle' border='0'  alt='VERDI' title='VERDI' />
+                
+                    <img height='40' width='40' src='../../FotoSimboli/53/20/sim_1230.gif' align='middle' border='0'  alt='DI PIETRO - IDV' title='DI PIETRO - IDV' />
+                
+                    <img height='40' width='40' src='../../FotoSimboli/53/20/sim_1573.gif' align='middle' border='0'  alt='PD' title='PD' />
+                
+                    </div><!-- box_img_liste -->
+                </td>
+            </tr>
+    
+            <tr>
+                <td>STEFANO  TAMBURINI</td>
+                <td class="align">
+                    <div class="voti">Voti: <strong>1480</strong>&nbsp;&nbsp;
+                     
+                        
+                        <span>
+                            di cui al solo sindaco: <strong>93</strong>
+                        </span>
+                        
+                    </div>
+                    <div class="box_percent_bar">
+                    
+                       <img src="../../img/percent_bar.jpg" width="26%" height="28" alt="Barra percentuale" class="percent_bar" align="middle"/>
+                   
+                        &nbsp;15,67%
+                    </div>
+                    <div class="box_img_liste">
+                   
+                    <img height='40' width='40' src='../../FotoSimboli/53/20/sim_1173.gif' align='middle' border='0'  alt='LEGA NORD' title='LEGA NORD' />
+                
+                    <img height='40' width='40' src='../../FotoSimboli/53/20/sim_1578.gif' align='middle' border='0'  alt='SIAMO ARCO' title='SIAMO ARCO' />
+                
+                    <img height='40' width='40' src='../../FotoSimboli/53/20/sim_1232.gif' align='middle' border='0'  alt='PDL' title='PDL' />
+                
+                    </div><!-- box_img_liste -->
+                </td>
+            </tr>
+    
+            <tr>
+                <td>TOMASO  RICCI</td>
+                <td class="align">
+                    <div class="voti">Voti: <strong>608</strong>&nbsp;&nbsp;
+                     
+                        
+                        <span>
+                            di cui al solo sindaco: <strong>23</strong>
+                        </span>
+                        
+                    </div>
+                    <div class="box_percent_bar">
+                    
+                       <img src="../../img/percent_bar.jpg" width="11%" height="28" alt="Barra percentuale" class="percent_bar" align="middle"/>
+                   
+                        &nbsp;6,44%
+                    </div>
+                    <div class="box_img_liste">
+                   
+                    <img height='40' width='40' src='../../FotoSimboli/53/20/sim_1572.gif' align='middle' border='0'  alt='UNIONE PER ARCO' title='UNIONE PER ARCO' />
+                
+                    </div><!-- box_img_liste -->
+                </td>
+            </tr>
+    
+    </table>
+    
+<table class="tabella_schede">
+    <tr class="intestazione_tabella">
+	<td class="width_col_1 borderless_orriz_top">
+	Schede bianche: 74
+	</td>
+	<td class="width_col_2 borderless_orriz_top">
+	Schede nulle: 140
+	</td>
+	<td class="width_col_3 borderless_orriz_top">
+	Schede contestate e non assegnate: 0
+	</td>
+    </tr>
+    <tr class="intestazione_colonna">
+	<td colspan="3">
+            <!--Totale votanti: 9.658 - -->Totale voti validi: 9.444
+        </td>
+    </tr>
+</table>
+
+</div> <!--CONTAINER SINDACO -->
+
+
+    </div>
+	<div id="footer">
+    	<div>Regione Autonoma Trentino Alto Adige - Ripartizione II Ufficio Elettorale - <a href="../../accessibilita.html" title="conformità del sito rispetto alla legge Stanca">Conformità del sito</a> delle elezioni della Regione Trentino Alto Adige rispetto alle linee guida della Legge N.4 9 gennaio 2004</div>
+    </div>
+</div>
+</body>
+</html>
+
+
