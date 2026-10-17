@@ -1371,40 +1371,37 @@ Calamandrana|AT|01|B376|1|
 Calamonaci|AG|19|B377|1|
 Calangianus|SS|20|B378|1|
 Calanna|RC|18|B379|1|
-Calasca-Castiglione|VB|01|B380|1|Calasca;Calascibetta
-Calascibetta|EN|19|B381|1|Calascio
-Calascio|AQ|13|B382|1|Calasetta
-Calasetta|SU|20|B383|1|Calatabiano
-Calatabiano|CT|19|B384|1|Calatafimi
-Calatafimi-Segesta|TP|19|B385|1|Calatafimi;Calatafimi Segesta;Calavino
-Calcababbio|PV|03|B386|0|
-Calcata|VT|12|B388|1|Calceranica
-Calceranica al Lago|TN|04|B389|1|Calci
-Calci|PI|09|B390|1|Calciano
-Calciano|MT|17|B391|1|Calcinaia
-Calcinaia|PI|09|B392|1|Calcinate
-Calcinate|BG|03|B393|1|Calcinato
-Calcinato|BS|03|B394|1|Calcio
+Calasca-Castiglione|VB|01|B380|1|Calasca
+Calascibetta|EN|19|B381|1|
+Calascio|AQ|13|B382|1|
+Calasetta|SU|20|B383|1|
+Calatabiano|CT|19|B384|1|
+Calatafimi-Segesta|TP|19|B385|1|Calatafimi;Calatafimi Segesta
+Calavino|TN|04|B386|0|
+Calcata|VT|12|B388|1|
+Calceranica al Lago|TN|04|B389|1|
+Calci|PI|09|B390|1|
+Calciano|MT|17|B391|1|
+Calcinaia|PI|09|B392|1|
+Calcinate|BG|03|B393|1|
+Calcinato|BS|03|B394|1|
 Calcio|BG|03|B395|1|
-Calco|LC|03|B396|1|Caldaro
-Caldaro sulla strada del vino|BZ|04|B397|1|Caldarola
-Caldarola|MC|11|B398|1|Calderara
-Calderara di Reno|BO|08|B399|1|Caldes
-Caldes|TN|04|B400|1|Caldiero
-Caldiero|VR|05|B402|1|Caldogno
-Caldogno|VI|05|B403|1|Caldonazzo
-Caldonazzo|TN|04|B404|1|Calendasco
-Calendasco|PC|08|B405|1|Calenzano
-Calenzano|FI|09|B406|1|Calepio
-Calestano|PR|08|B407|0|
-Calestano|PR|08|B408|1|Calice
-Calice al Cornoviglio|SP|07|B410|1|Calice Ligure
-Calice Ligure|SV|07|B409|1|Calice;Calice Ossolano
+Calco|LC|03|B396|1|
+Caldaro sulla strada del vino|BZ|04|B397|1|
+Caldarola|MC|11|B398|1|
+Calderara di Reno|BO|08|B399|1|
+Caldes|TN|04|B400|1|
+Caldiero|VR|05|B402|1|
+Caldogno|VI|05|B403|1|
+Caldonazzo|TN|04|B404|1|
+Calendasco|PC|08|B405|1|
+Calenzano|FI|09|B406|1|
+Calestano|PR|08|B408|1|
+Calice al Cornoviglio|SP|07|B410|1|
+Calice Ligure|SV|07|B409|1|Calice
 Calignano|PV|03|B411|0|
-Calimera|LE|16|B412|0|
-Calimera|LE|16|B413|1|Calino
-Calitri|AV|15|B414|0|
-Calitri|AV|15|B415|1|Calizzano
+Calimera|LE|16|B413|1|
+Calitri|AV|15|B415|1|
 Calizzano|SV|07|B416|1|
 Callabiana|BI|01|B417|1|
 Calliano|AT|01|B418|1|Calliano
@@ -1553,7 +1550,6 @@ Camporotondo Etneo|CT|19|B561|1|Camporotondo
 Camposampiero|PD|05|B563|1|
 Camposano|NA|15|B565|1|
 Camposanto|MO|08|B566|1|
-Campospinoso Albaredo|PV|03|B568|0|
 Campospinoso|PV|03|B567|1|Campospinoso
 Campotosto|AQ|13|B569|1|
 Campoverde|BS|03|B316|0|
@@ -3158,9 +3154,8 @@ Crocefieschi|GE|07|D175|1|
 Crocetta del Montello|TV|05|C670|1|Ciano-Nogare';Crocetta Trevigiana
 Crocetta|RO|05|D176|0|
 Crodo|VB|01|D177|1|Crodo Mozzio
-Crognaleto|TE|13|D178|0|
-Crognaleto|TE|13|D179|1|Cropalati
-Cropalati|CS|18|D180|1|Cropani
+Crognaleto|TE|13|D179|1|
+Cropalati|CS|18|D180|1|
 Cropani|CZ|18|D181|1|
 Crosa|BI|01|D182|0|
 Crosara|VI|05|D183|0|
@@ -4731,7 +4726,7 @@ Lumezzane|BS|03|E738|1|
 Lunamatrona|SU|20|E742|1|
 Lunano|PU|11|E743|1|
 Lundo|TN|04|E744|0|
-Lungavilla|PV|03|B387|1|Calcata
+Lungavilla|PV|03|B387|1|Calcababbio
 Lungro|CS|18|E745|1|
 Luni|SP|07|G143|1|Ortonovo
 Luogosano|AV|15|E746|1|
@@ -8527,7 +8522,7 @@ Savigno|BO|08|I474|0|
 Savignone|GE|07|I475|1|
 Saviore dell'Adamello|BS|03|I476|1|Saviore
 Savoca|ME|19|I477|1|
-Savogna d'Isonzo|GO|06|I479|1|Savogna
+Savogna d'Isonzo|GO|06|I479|1|
 Savogna|UD|06|I478|1|
 Savoia di Lucania|PZ|17|H730|1|Salvia
 Savona|SV|07|I480|1|

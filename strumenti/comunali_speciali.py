@@ -126,6 +126,12 @@ def leggi(url):
         return url, None, time.time() - t, type(e).__name__
 
 
+# nomi che tuttitalia.it scrive diversamente dall'ISTAT
+NOMI_TUTTITALIA = {"tripi abakainon": "tripi", "lampedusa linosa": "lampedusa e linosa", "erto casso": "erto e casso",
+                   "san dorligo della valle dolina": "san dorligo della valle", "montagna sulla strada del vino": "montagna",
+                   "salorno sulla strada del vino": "salorno"}
+
+
 def applica(stato, indice):
     """Abbina le pagine lette ai codici dei comuni e le unisce alle date del Ministero."""
     trovati, non_trovati = {}, []
@@ -135,7 +141,7 @@ def applica(stato, indice):
             if url not in stato["fatti"]:
                 continue
             nome = re.match(rf"/{slug_reg}/\d+-([^/]+)/", url).group(1).replace("-", " ")
-            cand = indice.get((reg, norm(nome)), [])
+            cand = indice.get((reg, NOMI_TUTTITALIA.get(nome, norm(nome))), [])
             if not cand:
                 non_trovati.append(f"{reg}\t{url}")
                 continue
@@ -250,16 +256,19 @@ def unisci(trovati):
             continue
         cod, v = r.split(":")
         voti[cod] = {date[abs(int(i)) - 1]: int(i) < 0 for i in v.split(",")}
-    def aggiungi(cod, d, ball, scarto=3):
+    def aggiungi(cod, d, ball, scarto=3, sostituisci=False):
         # una data a pochi giorni da una già presente è la stessa tornata (le fonti indicano a volte il secondo giorno di voto)
         v = voti.setdefault(cod, {})
         g = dt.date.fromisoformat(d)
         vicina = min((x for x in v if abs((dt.date.fromisoformat(x) - g).days) <= scarto), key=lambda x: abs((dt.date.fromisoformat(x) - g).days), default=None)
-        if vicina: v[vicina] = v[vicina] or bool(ball)
+        if vicina and sostituisci and vicina != d:
+            # la pagina del comune su tuttitalia.it vale più di un giorno sbagliato preso in passato dai riquadri di Wikipedia
+            v[d] = v.pop(vicina) or bool(ball)
+        elif vicina: v[vicina] = v[vicina] or bool(ball)
         else: v[d] = bool(ball)
     for cod, el in trovati.items():
         for d, ball in el:
-            aggiungi(cod, d, ball)
+            aggiungi(cod, d, ball, sostituisci=True)
     # comuni maggiori: tornate e ballottaggi da Wikipedia, dove tuttitalia.it non li riporta.
     # Entro 45 giorni da una data già nota è la stessa tornata (Wikipedia a volte sbaglia il giorno): si aggiunge solo il ballottaggio.
     wiki = os.path.join(RADICE, "strumenti", "ballottaggi-wikipedia.json")
