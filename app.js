@@ -207,6 +207,22 @@ function calcola() {
     }
   }
 
+  // Provinciali dirette 1993-2011 (Trento e Bolzano sono sopra)
+  const vistiP = new Set();
+  for (const r of residenzeOrdinate()) {
+    if (!r.comune || r.comune === ESTERO) continue;
+    for (const e of provincialiDi(r.comune)) {
+      if (vistiP.has(e.key)) continue;
+      const att = residenzaIn(e.d);
+      if (!att.res || att.res.comune.cod !== r.comune.cod) continue;
+      vistiP.add(e.key);
+      const note = att.trasloco ? ['Ti sei trasferito in quel mese: verifica dove eri iscritto.'] : [];
+      const reg = regioneDi(r.comune, e.d);
+      push({ key: `PR:${e.key}`, d: e.d, tipo: 'com', prov: e.key, reg, sig: e.sig, etichetta: `Provinciali ${e.n}`, descr: 'Presidente e consiglio provinciale', note });
+      if (e.b) push({ key: `PRB:${e.key}`, d: piuGiorni(e.d, 14), tipo: 'bal', prov: e.key, reg, sig: e.sig, etichetta: `Ballottaggio provinciali ${e.n}`, descr: 'Secondo turno per il presidente della provincia', note: [] });
+    }
+  }
+
   // Aggiunte a mano
   for (const x of stato.extra) {
     if (!x.d) continue;
@@ -226,6 +242,56 @@ function calcola() {
   return out;
 }
 const ordineTipo = t => ({ pol: 0, eur: 1, reg: 2, ref: 3, com: 4, bal: 5, altro: 6 }[t] ?? 9);
+
+// ===== Provinciali =====
+// Archivio del Ministero (2004-2011, con i comuni di ogni provincia) e Wikipedia (1993-2003, Sicilia e Friuli-Venezia Giulia).
+let PROV = null;
+function indiceProvinciali() {
+  if (PROV) return PROV;
+  PROV = { el: new Map(), comuni: new Map(), sigla: new Map() };
+  const aggiungi = (v, mappata) => {
+    const [key, n, b, c] = v, i = key.indexOf('-'), sig = key.slice(0, i), d = key.slice(i + 1);
+    if (['TN', 'BZ', 'AO'].includes(sig)) return;
+    // «Monza E Della Brianza» -> «Monza e della Brianza»
+    const nome = n.replace(/ (E|Della|Dell'|Di|Del|Delle|Nell')(?= )/g, x => x.toLowerCase());
+    PROV.el.set(key, { key, sig, d, n: nome, b: !!b, c, mappata });
+  };
+  if (typeof PROVINCIALI_WIKI !== 'undefined') PROVINCIALI_WIKI.forEach(v => aggiungi(v, false));
+  if (typeof PROVINCIALI !== 'undefined') {
+    PROVINCIALI.forEach(v => aggiungi(v, true));
+    for (const riga of PROVINCIALI_COMUNI.split('\n')) {
+      const [cod, idx] = riga.split(':');
+      if (cod) PROV.comuni.set(cod, new Set(idx.split(',').map(i => PROVINCIALI[+i][0])));
+    }
+  }
+  for (const e of PROV.el.values()) { if (!PROV.sigla.has(e.sig)) PROV.sigla.set(e.sig, []); PROV.sigla.get(e.sig).push(e); }
+  return PROV;
+}
+// La provincia di un comune a una data: le province nate dopo tornano alla provincia di prima
+const PROVINCE_MADRI_1992 = { BI: 'VC', VB: 'NO', LC: 'CO', LO: 'MI', RN: 'FC', PO: 'FI', KR: 'CZ', VV: 'CZ' };
+function provinciaStorica(c, iso) {
+  let s = c.sig;
+  const cambio = CAMBI_REGIONE[c.cod];
+  if (cambio && iso < cambio[0] && cambio[1] === '11') s = 'PU'; // Valmarecchia, Montecopiolo e Sassofeltrio
+  if (iso < '2009-06-01') {
+    if (s === 'MB') s = 'MI';
+    if (s === 'FM') s = 'AP';
+    if (s === 'BT') s = ['E946', 'H839', 'B915'].includes(c.cod) ? 'FG' : 'BA';
+  }
+  if (iso < '1995-04-01' && PROVINCE_MADRI_1992[s]) s = PROVINCE_MADRI_1992[s];
+  return s;
+}
+function provincialiDi(c) {
+  const P = indiceProvinciali(), out = new Map();
+  const mappate = P.comuni.get(c.cod);
+  if (mappate) for (const k of mappate) { const e = P.el.get(k); if (e) out.set(k, e); }
+  // senza l'elenco dei comuni (Wikipedia, o comune non abbinato): la provincia del comune a quella data
+  for (const lista of P.sigla.values()) for (const e of lista) {
+    if (out.has(e.key) || (e.mappata && mappate)) continue;
+    if (provinciaStorica(c, e.d) === e.sig) out.set(e.key, e);
+  }
+  return [...out.values()];
+}
 
 // Comunali di un comune: date dall'archivio; il ballottaggio è la seconda domenica dopo il primo turno
 let COMUNALI_MAPPA = null;
@@ -527,6 +593,9 @@ function candidatiReali(o) {
     const chiave = o.reg === '04' ? `04-${o.sig === 'BZ' ? 'BZ' : 'TN'}-${o.d}` : `${o.reg}-${o.d}`;
     if (typeof REGIONALI_CANDIDATI !== 'undefined') grezzi = REGIONALI_CANDIDATI[chiave];
     if (!grezzi && typeof REGIONALI_SPECIALI !== 'undefined') grezzi = REGIONALI_SPECIALI[chiave];
+  } else if (o.prov) {
+    const e = indiceProvinciali().el.get(o.prov);
+    grezzi = e ? e.c : null;
   } else if ((o.tipo === 'com' || o.tipo === 'bal') && o.cod && window.CANDIDATI_COMUNALI) {
     grezzi = window.CANDIDATI_COMUNALI[`${o.cod}-${o.primo || o.d}`];
   }
@@ -669,7 +738,7 @@ function controlliScelta(o, r, inp, dopo = () => {}) {
       }
       imposta(parti.join(' '), pos, [...(pc ? [gruppoCandidato(pc.c)] : []), ...(pl ? [gruppoLista(pl.lst, pl.c)] : [])]);
     };
-    const nomeCand = o.tipo === 'reg' ? (o.reg === '04' ? 'Candidato presidente della provincia' : 'Candidato presidente') : 'Candidato sindaco';
+    const nomeCand = o.prov ? 'Candidato presidente della provincia' : o.tipo === 'reg' ? (o.reg === '04' ? 'Candidato presidente della provincia' : 'Candidato presidente') : 'Candidato sindaco';
     if (vc.length) box.append(seleziona(nomeCand, [[null, vc], ['Altro', SCHEDE]], r.sel.coalizione, v => {
       r.sel.coalizione = v;
       // la lista scelta resta anche se è di un altro candidato: è il voto disgiunto
@@ -701,7 +770,7 @@ function controlliScelta(o, r, inp, dopo = () => {}) {
       const pos = pc || pl ? { area: aC || aL, civica: (pc && pc.p.b === 'Civico') || (!pc && pl && !!pl.p.civica), col: null } : null;
       imposta(parti.join(' '), pos, [...(pc ? [GRUPPO_COALIZIONE_LOCALE[pc.p.b] || null] : []), ...(pl ? [gruppoPartito(pl.p)] : [])]);
     };
-    const nomeCand = o.tipo === 'reg' ? (o.reg === '04' ? 'Candidato presidente della provincia' : 'Candidato presidente') : 'Candidato sindaco';
+    const nomeCand = o.prov ? 'Candidato presidente della provincia' : o.tipo === 'reg' ? (o.reg === '04' ? 'Candidato presidente della provincia' : 'Candidato presidente') : 'Candidato sindaco';
     if (!senzaPresidente) box.append(seleziona(nomeCand, [[null, coalizioni], ['Altro', o.tipo === 'bal' ? SCHEDE : []]], r.sel.coalizione, v => { r.sel.coalizione = v; componi(); }));
     if (o.tipo !== 'bal') box.append(seleziona('Lista', [['Partiti nazionali', vn], [o.tipo === 'reg' ? 'Partiti locali e liste dei candidati' : 'Partiti locali', vl], ['Liste civiche', vc], ['Altro', SCHEDE]], r.sel.lista, v => { r.sel.lista = v; componi(); }));
     return box;

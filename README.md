@@ -20,6 +20,8 @@ Tutto avviene nel browser. La pagina non usa cookie né `localStorage`, non invi
 | `dati/elezioni.js` | Calendario: politiche, europee, referendum nazionali, regionali per regione, provinciali di Trento e Bolzano, referendum regionali, comuni che hanno cambiato regione, turni ordinari delle comunali |
 | `dati/comuni.js` | Comuni italiani attivi e soppressi (fonte ISTAT), con regione e nomi precedenti |
 | `dati/partiti.js` | Liste sopra l'1% a politiche ed europee, coalizioni, partiti locali, colori proposti |
+| `dati/provinciali.js` | Provinciali dirette 2004-2011 dall'Archivio storico del Ministero (candidati, liste, ballottaggi; comuni delle province sarde), generato da `strumenti/provinciali.py` |
+| `dati/provinciali-wiki.js` | Provinciali dirette 1993-2003 e di Sicilia e Friuli-Venezia Giulia, da it.wikipedia.org |
 | `dati/referendum.js` | Quesiti dei referendum e percentuale dei Sì di ciascuno |
 | `fonti/` | Dati di partenza in JSON, con l'indicazione delle fonti |
 
@@ -33,6 +35,7 @@ Per aggiungere una nuova consultazione basta modificare il file in `dati/` corri
 - Camera e Senato sono voci separate. Per il Senato fino alle politiche 2018 servivano 25 anni (L. cost. 1/2021).
 - Bolzano: per il consiglio provinciale servivano 4 anni di residenza in regione (2 dal 23/06/2026).
 - Comuni passati di regione: Valmarecchia (2009), Sappada (2017), Montecopiolo e Sassofeltrio (2021).
+- Provinciali: si votavano direttamente dal 1993 al 2011 (dal 2014 le province sono enti di secondo livello). La provincia è quella di allora: Monza e Brianza, Fermo e Barletta-Andria-Trani dal 2009, prima Milano, Ascoli Piceno, Bari o Foggia; Biella, Verbano-Cusio-Ossola, Lecco, Lodi, Rimini, Prato, Crotone e Vibo Valentia dal 1995; le province sarde dal 2005 secondo l'archivio. Mancano le provinciali sarde del 1995 e del 2000, senza data nelle fonti.
 
 L'immagine personale si esporta in cinque formati (lista completa, Instagram post, storie, X, quadrata), in PNG o JPG; nei formati a misura fissa la lista si impagina da sola su più colonne e a corpo ridotto.
 
