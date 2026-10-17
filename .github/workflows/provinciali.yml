@@ -18,6 +18,8 @@ concurrency:
 jobs:
   aggiorna:
     runs-on: ubuntu-latest
+    env:
+      SOLO_PROVA: '0'  # '1' = giro di prova su una sola data, senza salvare
     timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
@@ -30,7 +32,6 @@ jobs:
         run: pip install requests "git+https://github.com/jack89-ML/tallyho"
       - name: Scarica le provinciali
         env:
-          SOLO_PROVA: '0'
           PAUSA: '0.15'
         run: python strumenti/provinciali.py
       - name: Salva i dati
