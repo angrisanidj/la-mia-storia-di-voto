@@ -1,0 +1,20 @@
+001 200 text/html; charset=ISO-8859-1 32012
+002 200 text/html; charset=ISO-8859-1 19241
+003 200 application/pdf 27137
+004 200 application/pdf 25978
+005 200 text/html; charset=ISO-8859-1 26411
+006 200 text/html; charset=ISO-8859-1 23620
+007 200 text/html; charset=ISO-8859-1 22831
+008 200 text/html; charset=ISO-8859-1 22829
+009 200 text/html; charset=ISO-8859-1 34450
+010 200 application/pdf 75037
+011 200 text/html; charset=ISO-8859-1 33108
+012 200 text/html; charset=ISO-8859-1 36749
+013 200 text/html; charset=ISO-8859-1 21437
+014 200 text/html; charset=ISO-8859-1 21435
+015 200 application/pdf 60396
+016 200 application/pdf 58142
+017 200 text/html; charset=ISO-8859-1 21787
+018 200 text/html; charset=ISO-8859-1 25108
+019 200 text/html; charset=ISO-8859-1 16838
+020 200 text/html; charset=ISO-8859-1 16836
