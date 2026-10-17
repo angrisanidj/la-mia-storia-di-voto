@@ -1,0 +1,5 @@
+001 http://web.archive.org/web/20150407184059id_/http://dati.trentino.it/dataset/ultime-elezioni-comunali
+002 http://web.archive.org/web/20220126062353id_/https://dati.trentino.it/dataset/ultime-elezioni-comunali/resource/3aaf0084-0566-4250-b3e2-a929018e115f
+003 http://web.archive.org/web/20221207035450id_/https://dati.trentino.it/dataset/ultime-elezioni-comunali/resource/8bafecaa-15b5-4836-b8f0-75f8f0bb8e44
+004 http://web.archive.org/web/20220118201623id_/https://dati.trentino.it/dataset/ultime-elezioni-comunali/resource/c0e328d6-624c-4c4d-8b02-a9a9477e72ec
+005 http://web.archive.org/web/20250119221237id_/https://data.civis.bz.it/it/dataset/elezioni-comunali-2024-02-25

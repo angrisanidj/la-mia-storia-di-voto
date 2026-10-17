@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<!--[if IE 7]> <html lang="it" class="ie ie7"> <![endif]-->
+<!--[if IE 8]> <html lang="it" class="ie ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="it" class="ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="it"> <!--<![endif]-->
+  <head>
+    <!--[if lte ie 8]><script type="text/javascript" src="/fanstatic/vendor/:version:2019-05-07T16:30:31.15/html5.min.js"></script><![endif]-->
+<link rel="stylesheet" type="text/css" href="/fanstatic/vendor/:version:2019-05-07T16:30:31.15/select2/select2.css" />
+<link rel="stylesheet" type="text/css" href="/fanstatic/css/:version:2019-05-07T16:30:31.09/main.min.css" />
+<link rel="stylesheet" type="text/css" href="/fanstatic/vendor/:version:2019-05-07T16:30:31.15/font-awesome/css/font-awesome.min.css" />
+<!--[if ie 7]><link rel="stylesheet" type="text/css" href="/fanstatic/vendor/:version:2019-05-07T16:30:31.15/font-awesome/css/font-awesome-ie7.min.css" /><![endif]-->
+<link rel="stylesheet" type="text/css" href="/fanstatic/ckanext-datitrentinoit/:version:2019-05-07T16:31:59.49/styles/datitrentinoit.min.css" />
+<link rel="stylesheet" type="text/css" href="/fanstatic/ckanext-harvest/:version:2019-05-07T16:31:35.14/styles/harvest.css" />
+
+    
+  <meta charset="utf-8" />
+      <meta name="generator" content="ckan 2.5.2" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+     rel="alternate"
+     type="application/atom+xml"
+     title="Feed Atom di Dati Trentino"
+     href="/revision/list?format=atom" />
+
+    <title>Risultati Ultime Elezioni Comunali - Regione Autonoma Trentino Alto-Adige/Südtirol - Sindaci - Dati Trentino</title>
+
+    
+    <link rel="shortcut icon" href="/images/icons/icon.png" />
+    
+  
+   
+  
+      
+    
+  
+
+   <link rel="stylesheet" href="/css/multilang.css" type="text/css">
+
+  
+
+
+    
+      
+      
+    
+  
+  <meta property="og:title" content="Risultati Ultime Elezioni Comunali - Regione Autonoma Trentino Alto-Adige/Südtirol - Sindaci - Dati Trentino">
+  <meta property="og:description" content="Voti ai sindaci eletti alle ultime elezioni">
+
+    
+  </head>
+
+  
+  <body data-site-root="https://dati.trentino.it/" data-locale-root="https://dati.trentino.it/" >
+
+    
+    <div class="hide"><a href="#content">Salta al contenuto</a></div>
+  
+
+  
+    
+
+  <header class="account-masthead">
+    <div class="container">
+      
+        
+          <nav class="account not-authed">
+            <ul class="unstyled">
+              
+              <li><a href="/user/login">Accedi</a></li>
+              
+              
+            </ul>
+          </nav>
+        
+      
+    </div>
+  </header>
+
+<header class="navbar navbar-static-top masthead">
+  
+    
+  
+  <div class="container">
+    <button data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar" type="button">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    
+    <hgroup class="header-image pull-left">
+
+      
+  <a class="logo" href="/">
+    <img src="/images/logo.png" alt="Dati Trentino" />
+  </a>
+
+  
+    <div class="subtitle">
+      <p>Portale federato degli open data del Trentino</p>
+    </div>
+  
+
+
+
+    </hgroup>
+
+    <div class="nav-collapse collapse">
+
+      
+        <nav class="section navigation">
+          <ul class="nav nav-pills">
+            
+	<li><a href="/dataset">Dataset</a></li><li><a href="/organization">Organizzazioni</a></li><li><a href="/group">Categorie</a></li><li><a href="/about">Informazioni</a></li><li><a href="/showcase">Bacheca</a></li><li><a href="/faq">FAQ</a></li>
+
+          </ul>
+        </nav>
+      
+
+      
+
+    </div>
+  </div>
+</header>
+
+  
+    <div role="main">
+      <div id="content" class="container">
+        
+          
+            <div class="flash-messages">
+              
+                
+              
+            </div>
+          
+
+          
+            <div class="toolbar">
+              
+                
+                  <ol class="breadcrumb">
+                    
+<!-- Snippet snippets/home_breadcrumb_item.html start -->
+
+<li class="home"><a href="/"><i class="icon-home"></i><span> Home</span></a></li>
+<!-- Snippet snippets/home_breadcrumb_item.html end -->
+
+                    
+  
+  
+    
+    
+      
+      <li><a href="/organization">Organizzazioni</a></li>
+      <li><a href="/organization/rataa">Regione Autonoma Trentino ...</a></li>
+    
+    <li><a href="/dataset/ultime-elezioni-comunali">Risultati Ultime Elezioni ...</a></li>
+  
+
+  <li class="active"><a href="">Sindaci</a></li>
+
+                  </ol>
+                
+              
+            </div>
+          
+
+          <div class="row wrapper">
+
+            
+            
+  
+    <section class="module module-resource">
+      
+      <div class="module-content">
+        <div class="actions">
+          
+          <ul>
+            
+            
+            
+              <li>
+                <a class="btn btn-primary resource-url-analytics resource-type-None" href="https://dati.trentino.it/dataset/7d446c5b-9ae4-42f8-b3bd-efe5c52ad8e9/resource/c0e328d6-624c-4c4d-8b02-a9a9477e72ec/download/sindaci.txt">
+                  
+                    <i class="icon-external-link"></i> Vai alla risorsa
+                  
+                </a>
+              </li>
+            
+            
+              <li>
+<!-- Snippet package/snippets/data_api_button.html start -->
+
+
+<!-- Snippet package/snippets/data_api_button.html end -->
+</li>
+            
+            
+          </ul>
+          
+        </div>
+        
+          <h1 class="page-heading">Sindaci</h1>
+          
+            
+              <p class="muted ellipsis">URL: <a href="https://dati.trentino.it/dataset/7d446c5b-9ae4-42f8-b3bd-efe5c52ad8e9/resource/c0e328d6-624c-4c4d-8b02-a9a9477e72ec/download/sindaci.txt" title="https://dati.trentino.it/dataset/7d446c5b-9ae4-42f8-b3bd-efe5c52ad8e9/resource/c0e328d6-624c-4c4d-8b02-a9a9477e72ec/download/sindaci.txt">https://dati.trentino.it/dataset/7d446c5b-9ae4-42f8-b3bd-efe5c52ad8e9/resource/c0e328d6-624c-4c4d-8b02-a9a9477e72ec/download/sindaci.txt</a></p>
+            
+          
+          <div class="prose notes" property="rdfs:label">
+            
+              <p>Voti ai sindaci eletti alle ultime elezioni</p>
+            
+            
+          </div>
+        
+      </div>
+      
+      
+        
+          
+          
+<!-- Snippet package/snippets/resource_views_list.html start -->
+
+
+  <ul class="nav nav-tabs nav-tabs-plain" >
+    
+
+  
+  
+  	
+    
+<!-- Snippet package/snippets/resource_views_list_item.html start -->
+
+
+
+  
+
+
+<li class="active" data-id="6128a1f4-1a0b-4cb6-80aa-87575541ca18">
+
+  <a href="/dataset/ultime-elezioni-comunali/resource/c0e328d6-624c-4c4d-8b02-a9a9477e72ec?view_id=6128a1f4-1a0b-4cb6-80aa-87575541ca18" data-id="6128a1f4-1a0b-4cb6-80aa-87575541ca18">
+    <i class="icon icon-file-text-alt"></i>
+    Testo
+  </a>
+</li>
+<!-- Snippet package/snippets/resource_views_list_item.html end -->
+
+  
+</ul>
+
+<!-- Snippet package/snippets/resource_views_list.html end -->
+
+        
+        <div class="module-content">
+          
+            <div class="resource-view">
+              
+              
+              
+                
+                  
+                    
+                      
+<!-- Snippet package/snippets/resource_view.html start -->
+
+
+<div id="view-6128a1f4-1a0b-4cb6-80aa-87575541ca18" class="resource-view" data-id="6128a1f4-1a0b-4cb6-80aa-87575541ca18" data-title="Testo" data-description="">
+  <a class="btn pull-right"
+     href="#embed-6128a1f4-1a0b-4cb6-80aa-87575541ca18"
+     data-module="resource-view-embed"
+     data-module-id="6128a1f4-1a0b-4cb6-80aa-87575541ca18"
+     data-module-url="https://dati.trentino.it/dataset/ultime-elezioni-comunali/resource/c0e328d6-624c-4c4d-8b02-a9a9477e72ec/view/6128a1f4-1a0b-4cb6-80aa-87575541ca18">
+    <i class="icon-code"></i>
+    Incorpora
+  </a>
+  <p class="desc"></p>
+  <div class="m-top ckanext-datapreview">
+    
+    
+      <div class="data-viewer-error js-hide">
+        <p class="text-error">
+          <i class="icon-info-sign"></i>
+          Questa vista di risorsa non è al momento disponibile.
+          <a href="#" data-toggle="collapse" data-target="#data-view-error">
+            Clicca qui per maggiori informazioni.
+          </a>
+        </p>
+        <p id="data-view-error" class="collapse"></p>
+        <p>
+          <a href="" class="btn btn-large resource-url-analytics" target="_blank">
+            <i class="icon-large icon-download"></i>
+            Scarica la risorsa
+          </a>
+        </p>
+      </div>
+      
+        
+        
+          
+        
+      
+      <iframe src="https://dati.trentino.it/dataset/ultime-elezioni-comunali/resource/c0e328d6-624c-4c4d-8b02-a9a9477e72ec/view/6128a1f4-1a0b-4cb6-80aa-87575541ca18" frameborder="0" width="100%" data-module="data-viewer" allowfullscreen>
+        <p>Il tuo browser non supporta gli iframes.</p>
+      </iframe>
+    
+  </div>
+  <div id="embed-6128a1f4-1a0b-4cb6-80aa-87575541ca18" class="modal resource-view-embed hide">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal">&times;</button>
+      <h3>Incorpora vista di risorsa</h3>
+    </div>
+    <div class="modal-body">
+      <p class="embed-content">Puoi fare copia ed incolla del codice da incorporare in un CMS o programma blog che supporta HTML grezzo</p>
+      <div class="row-fluid">
+        <div class="span6">
+          
+  <div class="control-group control-full">
+    <label class="control-label" for="width">Larghezza:</label>
+    <div class="controls ">
+      
+    <input id="width" type="text" name="width" value="700" placeholder=""  />
+  
+      
+      
+    </div>
+  </div>
+
+
+        </div>
+        <div class="span6">
+          
+  <div class="control-group control-full">
+    <label class="control-label" for="height">Altezza:</label>
+    <div class="controls ">
+      
+    <input id="height" type="text" name="height" value="400" placeholder=""  />
+  
+      
+      
+    </div>
+  </div>
+
+
+        </div>
+      </div>
+      
+  
+  
+  <div class="control-group pre control-full">
+    <label class="control-label" for="code">Codice</label>
+    <div class="controls ">
+      
+    <textarea id="code" name="code" cols="20" rows="3" placeholder="" ></textarea>
+  
+      
+      
+    </div>
+  </div>
+
+
+    </div>
+  </div>
+</div>
+<!-- Snippet package/snippets/resource_view.html end -->
+
+                    
+                  
+                
+              
+            </div>
+          
+        </div>
+      
+      
+      
+    </section>
+  
+
+
+            
+              <div class="primary span9">
+                
+                
+  
+    
+      <section class="module">
+        
+        <div class="module-content">
+
+          <h2>Metadati della Risorsa</h2>
+          <table class="table table-striped table-bordered table-condensed" data-module="table-toggle-more">
+            <thead>
+              <tr>
+                <th scope="col">Nome campo</th>
+                <th scope="col">Valore</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Formato di distribuzione</th>
+                <td>TXT</td>
+              </tr>
+              <tr>
+                <th scope="row">Licenza</th>
+                <td>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)
+                 
+                 <a href="https://creativecommons.org/licenses/by/4.0/">LINK</a>
+                 
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          
+          
+          <h2>Informazioni supplementari</h2>
+          <table class="table table-striped table-bordered table-condensed" data-module="table-toggle-more">
+            <thead>
+              <tr>
+                <th scope="col">Nome campo</th>
+                <th scope="col">Valore</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Ultima modifica</th>
+                <td>Sconosciuto</td>
+              </tr>
+              <tr>
+                <th scope="row">Creato</th>
+                <td>Sconosciuto</td>
+              </tr>
+              <tr>
+                <th scope="row">Formato</th>
+                <td>TXT</td>
+              </tr>
+              
+                <tr class="toggle-more"><th scope="row">Creato</th><td>2015-02-17T12:14:23.146454</td></tr>
+              
+                <tr class="toggle-more"><th scope="row">cache_last_updated</th><td>None</td></tr>
+              
+                <tr class="toggle-more"><th scope="row">package_id</th><td>7d446c5b-9ae4-42f8-b3bd-efe5c52ad8e9</td></tr>
+              
+                <tr class="toggle-more"><th scope="row">distribution_format</th><td>TXT</td></tr>
+              
+                <tr class="toggle-more"><th scope="row">webstore_last_updated</th><td>None</td></tr>
+              
+                <tr class="toggle-more"><th scope="row">datastore_active</th><td>False</td></tr>
+              
+                <tr class="toggle-more"><th scope="row">id</th><td>c0e328d6-624c-4c4d-8b02-a9a9477e72ec</td></tr>
+              
+                <tr class="toggle-more"><th scope="row">Media type</th><td>None</td></tr>
+              
+                <tr class="toggle-more"><th scope="row">state</th><td>active</td></tr>
+              
+                <tr class="toggle-more"><th scope="row">can_be_previewed</th><td>False</td></tr>
+              
+                <tr class="toggle-more"><th scope="row">on_same_domain</th><td>True</td></tr>
+              
+                <tr class="toggle-more"><th scope="row">lang</th><td></td></tr>
+              
+                <tr class="toggle-more"><th scope="row">hash</th><td></td></tr>
+              
+                <tr class="toggle-more"><th scope="row">description</th><td>Voti ai sindaci eletti alle ultime elezioni</td></tr>
+              
+                <tr class="toggle-more"><th scope="row">format</th><td>TXT</td></tr>
+              
+                <tr class="toggle-more"><th scope="row">mimetype_inner</th><td>None</td></tr>
+              
+                <tr class="toggle-more"><th scope="row">url_type</th><td>upload</td></tr>
+              
+                <tr class="toggle-more"><th scope="row">cache_url</th><td>None</td></tr>
+              
+                <tr class="toggle-more"><th scope="row">has_views</th><td>True</td></tr>
+              
+                <tr class="toggle-more"><th scope="row">name</th><td>Sindaci</td></tr>
+              
+                <tr class="toggle-more"><th scope="row">url</th><td>https://dati.trentino.it/dataset/7d446c5b-9ae4-42f8-b3bd-efe5c52ad8e9/resource/c0e328d6-624c-4c4d-8b02-a9a9477e72ec/download/sindaci.txt</td></tr>
+              
+                <tr class="toggle-more"><th scope="row">webstore_url</th><td>None</td></tr>
+              
+                <tr class="toggle-more"><th scope="row">last_modified</th><td>None</td></tr>
+              
+                <tr class="toggle-more"><th scope="row">license_type</th><td>https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40</td></tr>
+              
+                <tr class="toggle-more"><th scope="row">position</th><td>2</td></tr>
+              
+                <tr class="toggle-more"><th scope="row">revision_id</th><td>dff6edcb-614f-4fa7-9492-51c5b553a03a</td></tr>
+              
+                <tr class="toggle-more"><th scope="row">resource_type</th><td>None</td></tr>
+              
+                <tr class="toggle-more"><th scope="row">Size</th><td>None</td></tr>
+              
+            </tbody>
+          </table>
+        </div>
+        
+      </section>
+    
+  
+
+              </div>
+            
+
+            
+              <aside class="secondary span3">
+                
+                
+
+  
+    
+<!-- Snippet package/snippets/resources.html start -->
+
+
+
+  
+    <section class="module module-narrow resources">
+      
+        
+          <h2 class="module-heading"><i class="icon-copy"></i> Risorse</h2>
+        
+        
+          <ul class="unstyled nav nav-simple">
+            
+              <li class="nav-item">
+                <a class=" active" href="/dataset/ultime-elezioni-comunali/resource/8bafecaa-15b5-4836-b8f0-75f8f0bb8e44?inner_span=True"><span>Affluenza</span></a>
+              </li>
+            
+              <li class="nav-item">
+                <a class=" active" href="/dataset/ultime-elezioni-comunali/resource/3aaf0084-0566-4250-b3e2-a929018e115f?inner_span=True"><span>Voti di lista</span></a>
+              </li>
+            
+              <li class="nav-item active">
+                <a class=" active" href="/dataset/ultime-elezioni-comunali/resource/c0e328d6-624c-4c4d-8b02-a9a9477e72ec?inner_span=True"><span>Sindaci</span></a>
+              </li>
+            
+          </ul>
+        
+      
+    </section>
+  
+
+<!-- Snippet package/snippets/resources.html end -->
+
+  
+
+  
+    
+<!-- Snippet snippets/social.html start -->
+
+
+  <section class="module module-narrow social">
+    
+      <h2 class="module-heading"><i class="icon-medium icon-share"></i> Sociale</h2>
+    
+    
+      <ul class="nav nav-simple">
+        <li class="nav-item"><a href="https://plus.google.com/share?url=https://dati.trentino.it/dataset/ultime-elezioni-comunali/resource/c0e328d6-624c-4c4d-8b02-a9a9477e72ec" target="_blank"><i class="icon-google-plus-sign"></i> Google+</a></li>
+        <li class="nav-item"><a href="https://twitter.com/share?url=https://dati.trentino.it/dataset/ultime-elezioni-comunali/resource/c0e328d6-624c-4c4d-8b02-a9a9477e72ec" target="_blank"><i class="icon-twitter-sign"></i> Twitter</a></li>
+        <li class="nav-item"><a href="https://www.facebook.com/sharer.php?u=https://dati.trentino.it/dataset/ultime-elezioni-comunali/resource/c0e328d6-624c-4c4d-8b02-a9a9477e72ec" target="_blank"><i class="icon-facebook-sign"></i> Facebook</a></li>
+      </ul>
+    
+  </section>
+
+<!-- Snippet snippets/social.html end -->
+
+  
+
+              </aside>
+            
+          </div>
+        
+      </div>
+    </div>
+  
+     
+
+
+
+<footer class="site-footer">
+  <div class="container"><div class="row-fluid">
+
+    
+    <nav class="footer-links span4">
+      <ul class="unstyled">
+	<li><a href="/about">
+	    <i class="icon-comment"></i>
+	    Informazioni Dati Trentino
+	</a></li>
+	<li><a href="/faq">
+	    <i class="icon-question"></i>
+	    Domande frequenti
+	</a></li>
+	<li><a href="/revision/list?format=atom"><i class="icon-rss"></i> Atom Feed</a></li>
+	<li><a href="/acknowledgements">
+	    <i class="icon-user"></i>
+	    Ringraziamenti
+	</a></li>
+	<li><a href="/legal-notes">
+	    <i class="icon-legal"></i>
+	    Note legali
+	</a></li>
+	<li><a href="/privacy">
+	    <i class="icon-key"></i>
+	    Privacy
+	</a></li>
+      </ul>
+    </nav>
+
+    
+    <nav class="footer-links span4">
+      <ul class="unstyled">
+	<li><a href="http://docs.ckan.org/en/ckan-2.5.2/api/index.html">CKAN API</a></li>
+	<li><a href="http://www.okfn.org/">Open Knowledge Foundation</a></li>
+	<li><a href="http://www.opendefinition.org/okd/"><img src="/images/od_80x15_blue.png"></a></li>
+	
+        
+        
+
+      </ul>
+    </nav>
+
+    
+    <div class="attribution span4" style="text-align:center;">
+      
+      <p><a href="http://www.innovazione.provincia.tn.it/opendata"><img src="/images/logo_prov_tn.jpg" /></a></p>
+
+      <hr>
+      <p style="line-height:32px;">
+
+        
+        <ul class="unstyled" style="display: inline-block">
+        
+
+        
+ 
+
+        </ul>
+        <strong>Powered by</strong> <a class="hide-text ckan-footer-logo" href="http://ckan.org">CKAN</a>
+      </p>
+      
+<!-- Snippet snippets/language_selector.html start -->
+
+
+
+
+
+<form class="form-inline form-select lang-select" action="/util/redirect" data-module="select-switch" method="POST">
+  <label for="field-lang-select">Linguaggio</label>
+  <br/>
+  <select id="field-lang-select" name="url" data-module="autocomplete" data-module-dropdown-class="lang-dropdown" data-module-container-class="lang-container">
+    
+        <option value="/it/dataset/ultime-elezioni-comunali/resource/c0e328d6-624c-4c4d-8b02-a9a9477e72ec" selected="selected">
+          italiano
+        </option>
+    
+        <option value="/de/dataset/ultime-elezioni-comunali/resource/c0e328d6-624c-4c4d-8b02-a9a9477e72ec" >
+          Deutsch
+        </option>
+    
+        <option value="/en_GB/dataset/ultime-elezioni-comunali/resource/c0e328d6-624c-4c4d-8b02-a9a9477e72ec" >
+          English (United Kingdom)
+        </option>
+    
+  </select>
+  <button class="btn js-hide" type="submit">Vai</button>
+</form>
+<!-- Snippet snippets/language_selector.html end -->
+
+    </div>
+
+  </div></div>
+
+  
+    
+  
+</footer>
+  
+    
+    
+    
+      
+    
+  
+    
+
+
+
+
+
+<!-- GA tracking code --><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-34087014-1', 'dati.trentino.it');
+  ga('send', 'pageview');
+</script><!-- end GA tracking code -->
+
+
+      
+  <script>document.getElementsByTagName('html')[0].className += ' js';</script>
+<script type="text/javascript" src="/fanstatic/vendor/:version:2019-05-07T16:30:31.15/jquery.min.js"></script>
+<script type="text/javascript" src="/fanstatic/vendor/:version:2019-05-07T16:30:31.15/:bundle:bootstrap/js/bootstrap.min.js;jed.min.js;moment-with-locales.js;select2/select2.min.js"></script>
+<script type="text/javascript" src="/fanstatic/base/:version:2019-05-07T16:30:31.12/:bundle:plugins/jquery.inherit.min.js;plugins/jquery.proxy-all.min.js;plugins/jquery.url-helpers.min.js;plugins/jquery.date-helpers.min.js;plugins/jquery.slug.min.js;plugins/jquery.slug-preview.min.js;plugins/jquery.truncator.min.js;plugins/jquery.masonry.min.js;plugins/jquery.form-warning.min.js;sandbox.min.js;module.min.js;pubsub.min.js;client.min.js;notify.min.js;i18n.min.js;main.min.js;modules/select-switch.min.js;modules/slug-preview.min.js;modules/basic-form.min.js;modules/confirm-action.min.js;modules/api-info.min.js;modules/autocomplete.min.js;modules/custom-fields.min.js;modules/related-item.min.js;modules/data-viewer.min.js;modules/table-selectable-rows.min.js;modules/resource-form.min.js;modules/resource-upload-field.min.js;modules/resource-reorder.min.js;modules/resource-view-reorder.min.js;modules/follow.min.js;modules/activity-stream.min.js;modules/dashboard.min.js;modules/resource-view-embed.min.js;view-filters.min.js;modules/resource-view-filters-form.min.js;modules/resource-view-filters.min.js;modules/table-toggle-more.min.js;modules/dataset-visibility.min.js;modules/media-grid.min.js;modules/image-upload.min.js"></script>
+<script type="text/javascript" src="/fanstatic/base/:version:2019-05-07T16:30:31.12/tracking.min.js"></script></body>
+</html>
