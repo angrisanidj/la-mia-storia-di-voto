@@ -94,8 +94,9 @@ def carica_comuni():
     return indice
 
 
-def compatta(candidati, soglia=1.0, max_c=8, max_l=8):
-    """Candidati sopra la soglia, con le loro liste sopra la soglia: [[nome, %, [[lista, %], ...]], ...]"""
+def compatta(candidati, soglia=1.0, max_c=8, max_l=8, soglia_c=None):
+    """Candidati sopra la soglia (soglia_c, se data), con le loro liste sopra la soglia: [[nome, %, [[lista, %], ...]], ...]"""
+    soglia_c = soglia if soglia_c is None else soglia_c
     visti, out = set(), []
     for c in candidati:
         nome = (c.get("candidato") or "").strip()
@@ -103,7 +104,7 @@ def compatta(candidati, soglia=1.0, max_c=8, max_l=8):
             continue
         visti.add(nome)
         pct = c.get("pct_candidato")
-        if pct is not None and pct < soglia:
+        if pct is not None and pct < soglia_c:
             continue
         liste = [[l["lista"], l["pct"]] for l in c.get("liste", []) if l.get("lista") and (l.get("pct") or 0) >= soglia]
         out.append([nome, pct, liste[:max_l]])
@@ -139,7 +140,7 @@ def scarica_regionali(S):
                 h3 = scendi_livello(S, pp2, pv2, rv)
                 cand = parse_candidati_regionali(h3) or parse_candidati(estrai_tabelle(h3))
                 if cand:
-                    out[f"{reg}-{iso}"] = compatta(cand)
+                    out[f"{reg}-{iso}"] = compatta(cand, soglia_c=0, max_c=14)  # alle regionali tutti i candidati presidente
                 print(f"[R] {iso} {rt}: {len(cand)} candidati", flush=True)
         except requests.RequestException as e:
             print(f"[!] regionali {iso}: {e}", flush=True)

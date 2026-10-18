@@ -808,6 +808,9 @@ function controlliScelta(o, r, inp, dopo = () => {}) {
       if (sc) return imposta(sc.t, { k: 'bianca' });
       const pc = vc.find(v => v.v === coalizione), pl = tutteListe.find(v => v.v === lista);
       const parti = [];
+      // un candidato o una lista che non sono nei dati (sotto la soglia): il nome si scrive a mano
+      if (coalizione === '__altroc') parti.push('Altro candidato');
+      if (lista === '__altral') parti.push('Altra lista');
       if (pc) parti.push(o.supp && pc.c.liste[0] ? `${pc.c.nome} (${pc.c.liste[0].n}) ${emojiCandidato(pc.c)}` : `${pc.c.nome} ${emojiCandidato(pc.c)}`);
       if (pl) parti.push(`${/^lista /i.test(breveLista(pl.lst)) ? '' : 'Lista '}${breveLista(pl.lst)} ${emojiLista(pl.lst, pl.c)}`);
       // lo schieramento è quello del candidato; senza candidati (liste e basta) quello della lista
@@ -820,10 +823,11 @@ function controlliScelta(o, r, inp, dopo = () => {}) {
         const top = piuVotato(tutteListe.map(x => x.lst));
         pos = { area: a, civica: !pl.lst.partito, col: !conNome.length && top ? pl.lst === top : null };
       }
+      if (!pos && (coalizione === '__altroc' || lista === '__altral')) pos = { area: null, civica: false, col: false };
       imposta(parti.join(' '), pos, [...(pc ? [gruppoCandidato(pc.c)] : []), ...(pl ? [gruppoLista(pl.lst, pl.c)] : [])]);
     };
     const nomeCand = o.supp ? 'Candidato nel collegio' : o.prov ? 'Candidato presidente della provincia' : o.tipo === 'reg' ? (o.reg === '04' ? 'Candidato presidente della provincia' : 'Candidato presidente') : 'Candidato sindaco';
-    if (vc.length) box.append(seleziona(nomeCand, [[null, vc], ['Altro', SCHEDE]], r.sel.coalizione, v => {
+    if (vc.length) box.append(seleziona(nomeCand, [[null, vc], ['Altro', [...(o.tipo === 'bal' ? [] : [{ v: '__altroc', l: 'Un altro candidato' }]), ...SCHEDE]]], r.sel.coalizione, v => {
       r.sel.coalizione = v;
       // la lista scelta resta anche se è di un altro candidato: è il voto disgiunto
       componi(); disegnaElenco();
@@ -831,7 +835,7 @@ function controlliScelta(o, r, inp, dopo = () => {}) {
     if (o.tipo !== 'bal' && o.tipo !== 'sup' && tutteListe.length) {
       const scelto = vc.find(x => x.v === r.sel.coalizione);
       const gruppi = scelto ? [...gruppiListe.filter(g => g[1][0] && g[1][0].c === scelto.c), ...gruppiListe.filter(g => !g[1][0] || g[1][0].c !== scelto.c)] : gruppiListe;
-      box.append(seleziona('Lista', [...gruppi, ['Altro', SCHEDE]], r.sel.lista, v => { r.sel.lista = v; componi(); }));
+      box.append(seleziona('Lista', [...gruppi, ['Altro', [{ v: '__altral', l: 'Un’altra lista' }, ...SCHEDE]]], r.sel.lista, v => { r.sel.lista = v; componi(); }));
     }
     return box;
   }
