@@ -220,7 +220,7 @@ function metriche(D) {
     { l: 'Baricentro', v: nomeArea(D.bar), s: D.bar == null ? (D.pos.length ? 'nessun voto nazionale sull’asse' : 'nessun voto sull’asse') : pesoNazionale >= 1 ? `${D.naz.length} ${D.naz.length === 1 ? 'voto nazionale' : 'voti nazionali'}` : D.naz.length && D.loc.length ? `nazionali ${Math.round(pesoNazionale * 100)}%, locali ${Math.round((1 - pesoNazionale) * 100)}%` : `media di ${D.pos.length} ${D.pos.length === 1 ? 'voto' : 'voti'}` },
     { l: 'Oscillazione', v: D.pos.length < 2 ? '—' : o < 0.15 ? 'Piatta' : o < 0.5 ? 'Lieve' : o < 1 ? 'Moderata' : 'Forte',
       s: D.cambi ? `${D.cambi} ${D.cambi === 1 ? 'cambio' : 'cambi'} di campo` : 'mai cambiato campo' },
-    { l: 'Col vento', v: D.vento.tot ? `${D.vento.con} su ${D.vento.tot}` : '—', s: 'voti come la maggioranza' },
+    { l: 'Con la maggioranza', v: D.vento.tot ? `${D.vento.con} su ${D.vento.tot}` : '—', s: 'volte in cui hai scelto il più votato' },
   ];
 }
 const angoloDi = b => (b == null ? 0 : Math.max(-2, Math.min(2, b))) * PASSO_ANG;
