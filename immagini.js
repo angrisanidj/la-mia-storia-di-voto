@@ -285,7 +285,7 @@ const IMG = (() => {
     const sotto = bx == null ? 'Segna per chi hai votato: ogni partito ha il suo posto' : `Il mio baricentro: ${descrX(bx)}, ${descrY(by)}`;
 
     let S, X0, Y0;
-    if (oriz) { S = H - 140; X0 = W - 60 - S; Y0 = 70; }
+    if (oriz) { S = H - 180; X0 = W - 60 - S; Y0 = 80; }
     else { const top = alto + 300, bot = H - basso - 245; S = Math.min(W - 2 * m - 40, bot - top); X0 = (W - S) / 2; Y0 = top + (bot - top - S) / 2; }
     testata(ctx, W, m, alto, 'Il quadrante del mio voto', oriz ? '' : sotto, oriz ? X0 - 80 - m : W - 2 * m);
     const px = x => X0 + x / 10 * S, py = y => Y0 + (1 - y / 10) * S;
