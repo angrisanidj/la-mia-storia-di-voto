@@ -491,7 +491,8 @@ function controllaResidenze() {
 // ===== Elenco =====
 let elenco = [];
 function risposta(k) { return stato.risposte[k] || (stato.risposte[k] = { testo: '', st: null }); }
-// «Non ricordo» (nr) esce dal conto come una voce tolta, ma resta segnata così nell'elenco
+// «Non ricordo» (nr) esce dal conto ma resta segnata così nell'elenco; «escl» resta solo per le voci escluse di base
+// (residenza di Bolzano non dimostrata, suppletive in una parte della città): si includono scegliendo un'opzione
 function statoScelto(o) { const r = risposta(o.key); return r.st || (o.esclDefault ? 'escl' : 'ok'); }
 function statoDi(o) { const s = statoScelto(o); return s === 'nr' ? 'escl' : s; }
 
@@ -561,7 +562,7 @@ function voceElenco(o, anno) {
   const nome = `st-${o.key}`;
   const opzione = (val, txt) => el('label', {}, el('input', { type: 'radio', name: nome, value: val, checked: st === val, onchange: () => { r.st = val; aggiorna(false); } }), el('span', {}, txt));
   const stato_ = el('div', { class: 'stato', role: 'radiogroup', 'aria-label': 'Cosa hai fatto' },
-    opzione('ok', 'Ho votato'), opzione('non', 'Non ho votato'), opzione('nr', 'Non ricordo'), opzione('escl', 'Togli'));
+    opzione('ok', 'Ho votato'), opzione('non', 'Non ho votato'), opzione('nr', 'Non ricordo'));
   const elimina = o.extraId ? el('button', { class: 'bottone testuale elimina', type: 'button', onclick: () => { stato.extra = stato.extra.filter(x => x.id !== o.extraId); aggiorna(); } }, 'Elimina') : null;
   return el('article', { class: 'el' + (st === 'escl' || st === 'nr' ? ' escl' : '') },
     pallino,
