@@ -733,11 +733,26 @@ const vocePartito = (p, pref = '') => ({ v: pref + p.b, l: p.b && p.n && p.b !==
 // «Di cosa si trattava»: due righe sul referendum e gli schieramenti di allora (strumenti/referendum-spiegazioni.json)
 function spiegazioneReferendum(d) {
   const det = el('details', { class: 'spiega' }, el('summary', {}, 'Di cosa si trattava'), el('p', {}, d.cosa));
-  const P = d.pos || {};
   const nomi = [['si', 'Per il Sì'], ['no', 'Per il No'], ['astensione', 'Per l’astensione'], ['liberta', 'Libertà di voto']];
-  const righe = nomi.filter(([k]) => P[k] && P[k].length).map(([k, n]) => el('li', {}, el('strong', {}, n + ': '), P[k].join(', ')));
-  if (righe.length) det.append(el('ul', { class: 'spiega-pos' }, righe));
+  const righe = P => nomi.filter(([k]) => P && P[k] && P[k].length).map(([k, n]) => el('li', {}, el('strong', {}, n + ': '), P[k].join(', ')));
+  const gen = righe(d.pos);
+  if (gen.length) { if (d.posq) det.append(el('p', { class: 'spiega-tit' }, 'Schieramenti prevalenti')); det.append(el('ul', { class: 'spiega-pos' }, gen)); }
   if (d.nota) det.append(el('p', { class: 'spiega-nota' }, d.nota));
+  // quando i partiti si divisero quesito per quesito: solo i quesiti e le voci diversi dagli schieramenti prevalenti
+  if (d.posq && d.quesiti) {
+    const uguale = (a, b) => (a || []).join('|') === (b || []).join('|');
+    const qq = el('details', { class: 'spiega-q' }, el('summary', {}, 'Dove le posizioni cambiavano'));
+    let n = 0;
+    d.posq.forEach((P, i) => {
+      if (!P || !d.quesiti[i]) return;
+      const diversi = {};
+      for (const [k] of nomi) if (!uguale(P[k], d.pos && d.pos[k])) diversi[k] = P[k] && P[k].length ? P[k] : ['nessuno'];
+      const r = righe(diversi);
+      if (!r.length) return;
+      n++; qq.append(el('p', { class: 'spiega-tit' }, `${i + 1}. ${d.quesiti[i].breve}`), el('ul', { class: 'spiega-pos' }, r));
+    });
+    if (n) det.append(qq);
+  }
   return det;
 }
 function controlliScelta(o, r, inp, dopo = () => {}) {
