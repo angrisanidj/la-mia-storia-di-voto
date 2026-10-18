@@ -165,7 +165,15 @@ select.campo { appearance: none; padding-right: 40px; background: #fff url("data
 .segno svg { width: 18px; height: 18px; }
 .rapidi { display: flex; flex-wrap: wrap; gap: 8px; }
 .scelte-ref { display: flex; flex-wrap: wrap; gap: 8px; }
-.scelte-ref .rapidi, .scelte-ref .quesiti { flex: 1 1 100%; }
+.scelte-ref .rapidi, .scelte-ref .quesiti, .scelte-ref .spiega { flex: 1 1 100%; }
+.spiega { margin-bottom: 4px; font-size: .92rem; color: var(--grigio); }
+.spiega summary { cursor: pointer; width: fit-content; font-weight: 600; color: var(--verde-scuro); }
+.spiega summary:focus-visible { outline: 3px solid var(--verde); outline-offset: 3px; border-radius: 6px; }
+.spiega p, .spiega-pos { margin-top: 6px; max-width: 40em; }
+.spiega-pos { display: grid; gap: 2px; }
+.spiega-pos strong { color: var(--inchiostro); font-weight: 600; }
+.spiega-nota { font-style: italic; }
+.quesito small { display: block; margin-top: 2px; font-size: .84rem; color: var(--grigio); line-height: 1.35; }
 /* la tavolozza dei simboli compare quando si scrive */
 .voto .segni { display: none; }
 .voto:focus-within .segni { display: flex; }
@@ -191,6 +199,8 @@ select.campo { appearance: none; padding-right: 40px; background: #fff url("data
 .stato span { display: block; padding: 6px 14px; border-radius: 999px; font-size: .9rem; font-weight: 600; color: var(--grigio); }
 .stato input:checked + span { background: #fff; color: var(--inchiostro); box-shadow: 0 1px 3px rgba(22,27,38,.15); }
 .stato input:focus-visible + span { outline: 3px solid var(--inchiostro); outline-offset: 1px; }
+@media (max-width: 480px) { .stato span { padding: 6px 9px; font-size: .84rem; } }
+@media (max-width: 380px) { .stato { border-radius: 18px; } }
 .elimina { margin-left: 10px; font-size: .9rem; }
 
 /* Aggiunte a mano */
@@ -314,7 +324,7 @@ select.campo { appearance: none; padding-right: 40px; background: #fff url("data
 
 <section class="foglio" id="s-elenco" aria-labelledby="h-elenco">
   <h2 id="h-elenco">Le elezioni a cui potevi votare</h2>
-  <p class="guida">Per ogni voce scegli candidato e lista dai menu, oppure scrivi tu. Puoi segnare le volte in cui non hai votato o togliere una voce dall’immagine.</p>
+  <p class="guida">Per ogni voce scegli candidato e lista dai menu, oppure scrivi tu. Puoi segnare le volte in cui non hai votato, quelle che non ricordi (escono dal conto) o togliere una voce dall’immagine.</p>
   <div class="corpo">
     <div id="elenco"><div class="vuoto">Inserisci data di nascita e comune per vedere l’elenco.</div></div>
     <div class="aggiungi" id="box-agg" hidden>
@@ -434,6 +444,7 @@ select.campo { appearance: none; padding-right: 40px; background: #fff url("data
       <h3>Le regole applicate</h3>
       <ul class="metodo-elenco">
         <li><strong>Età</strong>: servono 18 anni compiuti entro il primo giorno di voto. Con il solo mese di nascita non si può sapere il giorno: se il compleanno cade nel mese del voto, la voce è segnalata. Per il Senato servivano 25 anni fino alla riforma del 2021 (dalle politiche 2022 basta la maggiore età).</li>
+        <li><strong>Non ricordo</strong>: una voce segnata così esce dal conto, dalle immagini e dal sismografo, come una voce tolta, ma resta nell’elenco.</li>
         <li><strong>Residenza</strong>: conta il comune in cui vivevi in quel mese. Nel mese di un trasloco la voce è segnalata, perché l’iscrizione nelle liste elettorali del nuovo comune può arrivare dopo.</li>
         <li><strong>Confini di allora</strong>: regioni e province sono quelle del giorno del voto. I comuni passati di regione (l’Alta Valmarecchia nel 2009, Sappada nel 2017, Montecopiolo e Sassofeltrio nel 2021) votano dove stavano allora; le province nate dopo tornano a quelle di prima, comprese le quattro province sarde precedenti al 2005.</li>
         <li><strong>Estero</strong>: per gli anni fuori dall’Italia la voce lo segnala; dal 2006 alle politiche si vota per corrispondenza nella circoscrizione Estero.</li>

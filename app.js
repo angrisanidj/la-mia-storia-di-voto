@@ -62,7 +62,7 @@ const stato = {
   nascita: { y: null, m: null },
   residenze: [{ id: ++seq, comune: null, y: null, m: null }],
   extra: [], // {id, tipo:'com'|'bal'|'altro', resId, nome, d}
-  risposte: {}, // key -> {testo, st: 'ok'|'non'|'escl'}
+  risposte: {}, // key -> {testo, st: 'ok'|'non'|'nr'|'escl'}
 };
 
 // Residenza attiva in una data (ISO). Restituisce {res, trasloco}
@@ -491,7 +491,9 @@ function controllaResidenze() {
 // ===== Elenco =====
 let elenco = [];
 function risposta(k) { return stato.risposte[k] || (stato.risposte[k] = { testo: '', st: null }); }
-function statoDi(o) { const r = risposta(o.key); return r.st || (o.esclDefault ? 'escl' : 'ok'); }
+// «Non ricordo» (nr) esce dal conto come una voce tolta, ma resta segnata così nell'elenco
+function statoScelto(o) { const r = risposta(o.key); return r.st || (o.esclDefault ? 'escl' : 'ok'); }
+function statoDi(o) { const s = statoScelto(o); return s === 'nr' ? 'escl' : s; }
 
 // Colore del pallino di una voce: il primo simbolo scritto nella risposta
 function coloreVoto(o) {
@@ -540,7 +542,7 @@ function disegnaElenco() {
 }
 
 function voceElenco(o, anno) {
-  const st = statoDi(o);
+  const st = statoScelto(o);
   const r = risposta(o.key);
   const pallino = el('span', { class: 'pallino-voto', 'aria-hidden': 'true' });
   applicaColore(pallino, o);
@@ -559,9 +561,9 @@ function voceElenco(o, anno) {
   const nome = `st-${o.key}`;
   const opzione = (val, txt) => el('label', {}, el('input', { type: 'radio', name: nome, value: val, checked: st === val, onchange: () => { r.st = val; aggiorna(false); } }), el('span', {}, txt));
   const stato_ = el('div', { class: 'stato', role: 'radiogroup', 'aria-label': 'Cosa hai fatto' },
-    opzione('ok', 'Ho votato'), opzione('non', 'Non ho votato'), opzione('escl', 'Togli'));
+    opzione('ok', 'Ho votato'), opzione('non', 'Non ho votato'), opzione('nr', 'Non ricordo'), opzione('escl', 'Togli'));
   const elimina = o.extraId ? el('button', { class: 'bottone testuale elimina', type: 'button', onclick: () => { stato.extra = stato.extra.filter(x => x.id !== o.extraId); aggiorna(); } }, 'Elimina') : null;
-  return el('article', { class: 'el' + (st === 'escl' ? ' escl' : '') },
+  return el('article', { class: 'el' + (st === 'escl' || st === 'nr' ? ' escl' : '') },
     pallino,
     el('h3', {}, o.etichetta),
     el('p', { class: 'data' }, dataLunga(o.d, o.d2) + (o.descr ? ' · ' + o.descr : '')),
@@ -728,6 +730,16 @@ function seleziona(etichetta, gruppi, valore, onchange) {
 }
 const vocePartito = (p, pref = '') => ({ v: pref + p.b, l: p.b && p.n && p.b !== p.n ? `${p.b} – ${p.n}` : (p.n || p.b), p });
 
+// «Di cosa si trattava»: due righe sul referendum e gli schieramenti di allora (strumenti/referendum-spiegazioni.json)
+function spiegazioneReferendum(d) {
+  const det = el('details', { class: 'spiega' }, el('summary', {}, 'Di cosa si trattava'), el('p', {}, d.cosa));
+  const P = d.pos || {};
+  const nomi = [['si', 'Per il Sì'], ['no', 'Per il No'], ['astensione', 'Per l’astensione'], ['liberta', 'Libertà di voto']];
+  const righe = nomi.filter(([k]) => P[k] && P[k].length).map(([k, n]) => el('li', {}, el('strong', {}, n + ': '), P[k].join(', ')));
+  if (righe.length) det.append(el('ul', { class: 'spiega-pos' }, righe));
+  if (d.nota) det.append(el('p', { class: 'spiega-nota' }, d.nota));
+  return det;
+}
 function controlliScelta(o, r, inp, dopo = () => {}) {
   const box = el('div', { class: 'scelte' });
   r.sel = r.sel || {};
@@ -833,6 +845,7 @@ function controlliScelta(o, r, inp, dopo = () => {}) {
     box.className = 'scelte-ref';
     const dati = typeof QUESITI !== 'undefined' ? QUESITI[o.qk] : null;
     const quesiti = dati && dati.quesiti && dati.quesiti.length > 1 ? dati.quesiti : null;
+    if (dati && dati.cosa) box.append(spiegazioneReferendum(dati));
     if (!quesiti) {
       [['SÌ ✅', 'Sì'], ['NO ❌', 'No'], ['Scheda bianca ⚪', 'Scheda bianca']].forEach(([t, l]) =>
         box.append(el('button', { class: 'tondino ' + (l === 'Sì' ? 'si' : l === 'No' ? 'no' : 'nulla'), type: 'button', 'aria-pressed': String(r.testo === t), onclick: () => { imposta(t); disegnaElenco(); } }, l)));
@@ -859,7 +872,7 @@ function controlliScelta(o, r, inp, dopo = () => {}) {
       el('button', { class: 'tondino no', type: 'button', 'aria-pressed': String(r.q.every(v => v === 'no')), onclick: () => tutti('no') }, 'No a tutti')));
     const tab = el('div', { class: 'quesiti' });
     quesiti.forEach((q, i) => {
-      const gruppo = el('div', { class: 'quesito' }, el('span', {}, `${i + 1}. ${q.breve}`));
+      const gruppo = el('div', { class: 'quesito' }, el('span', {}, `${i + 1}. ${q.breve}`, q.sp ? el('small', {}, q.sp) : null));
       const sw = el('div', { class: 'sino', role: 'group', 'aria-label': `Quesito ${i + 1}` });
       [['si', 'Sì', 'si'], ['no', 'No', 'no'], ['', '–', 'nulla']].forEach(([v, l, c]) => sw.append(el('button', { type: 'button', class: 'tondino ' + c, 'aria-label': v ? `${l} al quesito ${i + 1}` : `Nessuna risposta al quesito ${i + 1}`, 'aria-pressed': String(r.q[i] === v), onclick: () => { r.q[i] = v; componi(); disegnaElenco(); } }, l)));
       gruppo.append(sw);
