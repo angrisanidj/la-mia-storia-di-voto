@@ -387,7 +387,25 @@ function initNascita() {
   opzioniMesi($('#nascita-mese'), 'Scegli…');
   opzioniAnni($('#nascita-anno'), 1910, OGGI.getFullYear() - 17, 'Scegli…');
   $('#nascita-mese').addEventListener('change', e => { stato.nascita.m = +e.target.value || null; aggiorna(); });
-  $('#nascita-anno').addEventListener('change', e => { stato.nascita.y = +e.target.value || null; aggiorna(); });
+  $('#nascita-anno').addEventListener('change', e => { stato.nascita.y = +e.target.value || null; aggiornaAnniTrasferimenti(); aggiorna(); });
+}
+
+// Anni proposti per un trasferimento: non prima dei 18 anni, né prima del trasferimento precedente
+function primoAnnoTrasferimento(i) {
+  let da = stato.nascita.y ? stato.nascita.y + 18 : 1910;
+  for (let j = 1; j < i; j++) if (stato.residenze[j] && stato.residenze[j].y) da = Math.max(da, stato.residenze[j].y);
+  return Math.min(da, OGGI.getFullYear());
+}
+function anniTrasferimento(sy, i) {
+  const r = stato.residenze[i];
+  sy.replaceChildren();
+  // un anno già scelto resta tra le voci anche se ora cade prima del limite
+  const da = Math.min(primoAnnoTrasferimento(i), r && r.y ? r.y : Infinity);
+  opzioniAnni(sy, da, OGGI.getFullYear(), 'Anno');
+  sy.value = r && r.y ? r.y : '';
+}
+function aggiornaAnniTrasferimenti() {
+  document.querySelectorAll('#residenze select.anno-trasf').forEach(sy => anniTrasferimento(sy, +sy.dataset.i));
 }
 
 function disegnaResidenze() {
@@ -397,16 +415,16 @@ function disegnaResidenze() {
     const riga = el('div', { class: 'residenza' });
     riga.append(campoComune(r, i));
     if (i === 0) {
-      riga.append(el('div', { class: 'dal-nascita' }, 'dalla nascita'));
+      riga.append(el('div', { class: 'dal-nascita' }, 'da quando eri maggiorenne'));
     } else {
       const sm = el('select', { class: 'campo', 'aria-label': 'Mese del trasferimento' });
       opzioniMesi(sm, 'Mese');
       sm.value = r.m || '';
       sm.addEventListener('change', () => { r.m = +sm.value || null; aggiorna(); });
-      const sy = el('select', { class: 'campo', 'aria-label': 'Anno del trasferimento' });
-      opzioniAnni(sy, 1910, OGGI.getFullYear(), 'Anno');
-      sy.value = r.y || '';
-      sy.addEventListener('change', () => { r.y = +sy.value || null; aggiorna(); });
+      const sy = el('select', { class: 'campo anno-trasf', 'aria-label': 'Anno del trasferimento' });
+      sy.dataset.i = i;
+      anniTrasferimento(sy, i);
+      sy.addEventListener('change', () => { r.y = +sy.value || null; aggiornaAnniTrasferimenti(); aggiorna(); });
       riga.append(el('div', {}, el('span', { class: 'etichetta', 'aria-hidden': 'true' }, 'Dal mese'), sm), el('div', {}, el('span', { class: 'etichetta', 'aria-hidden': 'true' }, 'dell’anno'), sy));
       riga.append(el('button', { class: 'x', type: 'button', 'aria-label': 'Rimuovi questo comune', onclick: () => {
         stato.residenze.splice(i, 1);
