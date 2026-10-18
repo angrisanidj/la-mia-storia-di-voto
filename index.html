@@ -167,7 +167,12 @@ select.campo { appearance: none; padding-right: 40px; background: #fff url("data
 .scelte-ref { display: flex; flex-wrap: wrap; gap: 8px; }
 .scelte-ref .rapidi, .scelte-ref .quesiti, .scelte-ref .spiega { flex: 1 1 100%; }
 .spiega { margin-bottom: 4px; font-size: .92rem; color: var(--grigio); }
-.spiega summary { cursor: pointer; width: fit-content; font-weight: 600; color: var(--verde-scuro); }
+.spiega summary { cursor: pointer; width: fit-content; list-style: none; display: inline-flex; align-items: center; gap: 8px; padding: 5px 12px 5px 10px; border: 1.5px solid var(--contorno); border-radius: 999px; font-weight: 600; color: var(--verde-scuro); }
+.spiega summary::-webkit-details-marker { display: none; }
+.spiega summary::before { content: 'i'; display: inline-grid; place-items: center; width: 18px; height: 18px; border-radius: 50%; background: var(--verde-scuro); color: #fff; font: 700 12px/1 var(--titoli); }
+.spiega summary::after { content: ''; width: 7px; height: 7px; margin-left: 2px; border-right: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: translateY(-2px) rotate(45deg); transition: transform .2s; }
+.spiega[open] summary::after { transform: translateY(1px) rotate(-135deg); }
+.spiega summary:hover { border-color: var(--verde); }
 .spiega summary:focus-visible { outline: 3px solid var(--verde); outline-offset: 3px; border-radius: 6px; }
 .spiega p, .spiega-pos { margin-top: 6px; max-width: 40em; }
 .spiega-pos { display: grid; gap: 2px; }
@@ -176,6 +181,7 @@ select.campo { appearance: none; padding-right: 40px; background: #fff url("data
 .spiega-tit { font-weight: 600; color: var(--inchiostro); }
 .spiega-q { margin-top: 8px; }
 .spiega-q summary { font-weight: 600; color: var(--verde-scuro); cursor: pointer; width: fit-content; }
+.scelte-ref:not(.spiega-aperta) .quesito small { display: none; }
 .quesito small { display: block; margin-top: 2px; font-size: .84rem; color: var(--grigio); line-height: 1.35; }
 /* la tavolozza dei simboli compare quando si scrive */
 .voto .segni { display: none; }

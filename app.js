@@ -731,8 +731,11 @@ function seleziona(etichetta, gruppi, valore, onchange) {
 const vocePartito = (p, pref = '') => ({ v: pref + p.b, l: p.b && p.n && p.b !== p.n ? `${p.b} – ${p.n}` : (p.n || p.b), p });
 
 // «Di cosa si trattava»: due righe sul referendum e gli schieramenti di allora (strumenti/referendum-spiegazioni.json)
-function spiegazioneReferendum(d) {
-  const det = el('details', { class: 'spiega' }, el('summary', {}, 'Di cosa si trattava'), el('p', {}, d.cosa));
+const SPIEGAZIONI_APERTE = new Set(); // restano aperte quando l'elenco si ridisegna (solo in memoria)
+function spiegazioneReferendum(d, chiave) {
+  const det = el('details', { class: 'spiega', open: SPIEGAZIONI_APERTE.has(chiave) }, el('summary', {}, 'Di cosa si trattava'), el('p', {}, d.cosa));
+  // aperta, mostra anche la riga sotto ogni quesito
+  det.addEventListener('toggle', () => { if (det.open) SPIEGAZIONI_APERTE.add(chiave); else SPIEGAZIONI_APERTE.delete(chiave); if (det.parentElement) det.parentElement.classList.toggle('spiega-aperta', det.open); });
   const nomi = [['si', 'Per il Sì'], ['no', 'Per il No'], ['astensione', 'Per l’astensione'], ['liberta', 'Libertà di voto']];
   const righe = P => nomi.filter(([k]) => P && P[k] && P[k].length).map(([k, n]) => el('li', {}, el('strong', {}, n + ': '), P[k].join(', ')));
   const gen = righe(d.pos);
@@ -860,7 +863,7 @@ function controlliScelta(o, r, inp, dopo = () => {}) {
     box.className = 'scelte-ref';
     const dati = typeof QUESITI !== 'undefined' ? QUESITI[o.qk] : null;
     const quesiti = dati && dati.quesiti && dati.quesiti.length > 1 ? dati.quesiti : null;
-    if (dati && dati.cosa) box.append(spiegazioneReferendum(dati));
+    if (dati && dati.cosa) { box.append(spiegazioneReferendum(dati, o.key)); box.classList.toggle('spiega-aperta', SPIEGAZIONI_APERTE.has(o.key)); }
     if (!quesiti) {
       [['SÌ ✅', 'Sì'], ['NO ❌', 'No'], ['Scheda bianca ⚪', 'Scheda bianca']].forEach(([t, l]) =>
         box.append(el('button', { class: 'tondino ' + (l === 'Sì' ? 'si' : l === 'No' ? 'no' : 'nulla'), type: 'button', 'aria-pressed': String(r.testo === t), onclick: () => { imposta(t); disegnaElenco(); } }, l)));
